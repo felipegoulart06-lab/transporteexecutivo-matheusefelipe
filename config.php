@@ -6,7 +6,8 @@ $https = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
     || ((string) ($_SERVER['SERVER_PORT'] ?? '') === '443')
     || ((string) ($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https');
 $host = (string) ($_SERVER['HTTP_HOST'] ?? 'localhost:8000');
-$producao = getenv('NERO_ENV') === 'production';
+$producao = getenv('NERO_ENV') === 'production'
+    || getenv('VERCEL_ENV') === 'production';
 $dominioOficial = getenv('NERO_URL') ?: '';
 
 if ($dominioOficial !== '') {
