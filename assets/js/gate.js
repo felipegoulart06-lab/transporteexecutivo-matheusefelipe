@@ -108,13 +108,31 @@
 
     const posicionarPainel = (botao, painel) => {
         const rect = botao.getBoundingClientRect();
-        const margem = 56;
+        const margem = 48;
         const abaixo = window.innerHeight - rect.bottom - margem;
         const acima = rect.top - margem;
-        painel.classList.toggle('is-up', abaixo < 200 && acima > abaixo);
-        const livre = painel.classList.contains('is-up') ? acima : abaixo;
+        const paraCima = abaixo < 360 && acima > abaixo;
+        const filtro = painel.id === 'wrap-cidade' ? 72 : 8;
+        const livre = (paraCima ? acima : abaixo) - filtro;
         const lista = painel.id === 'wrap-cidade' ? listaCidade : painel;
-        lista.style.maxHeight = Math.max(140, Math.min(240, livre - (painel.id === 'wrap-cidade' ? 64 : 8))) + 'px';
+        const altura = Math.max(280, Math.min(livre, 560));
+
+        painel.classList.toggle('is-up', paraCima);
+        painel.style.position = 'fixed';
+        painel.style.left = `${Math.round(rect.left)}px`;
+        painel.style.width = `${Math.round(rect.width)}px`;
+        painel.style.right = 'auto';
+        painel.style.zIndex = '40';
+
+        if (paraCima) {
+            painel.style.top = 'auto';
+            painel.style.bottom = `${Math.round(window.innerHeight - rect.top + 6)}px`;
+        } else {
+            painel.style.bottom = 'auto';
+            painel.style.top = `${Math.round(rect.bottom + 6)}px`;
+        }
+
+        lista.style.maxHeight = `${Math.round(altura)}px`;
     };
 
     const toggleEstado = (forcar) => {
@@ -218,6 +236,11 @@
     document.addEventListener('click', () => {
         toggleEstado(false);
         toggleCidade(false);
+    });
+
+    window.addEventListener('resize', () => {
+        if (!listaEstado.hidden) posicionarPainel(selEstado, listaEstado);
+        if (!wrapCidade.hidden) posicionarPainel(selCidade, wrapCidade);
     });
 
     document.querySelectorAll('.gate-choice').forEach((botao) => {

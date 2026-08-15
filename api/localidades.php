@@ -22,7 +22,7 @@ if ($recurso === 'cidades') {
         echo json_encode(['ok' => false, 'erro' => 'UF inválida']);
         exit;
     }
-    echo json_encode(['ok' => true, 'dados' => ibge_cidades($uf)], JSON_UNESCAPED_UNICODE);
+    echo json_encode(['ok' => true, 'dados' => ibge_cidades_principais($uf)], JSON_UNESCAPED_UNICODE);
     exit;
 }
 

@@ -80,6 +80,41 @@ function ibge_estados(): array
     return $saida;
 }
 
+function ibge_cidades_principais_mapa(): array
+{
+    static $mapa = null;
+    if ($mapa === null) {
+        $mapa = require dirname(__DIR__) . '/data/cidades-principais.php';
+    }
+    return is_array($mapa) ? $mapa : [];
+}
+
+function ibge_cidades_principais(string $uf): array
+{
+    $uf = strtoupper($uf);
+    $todas = ibge_cidades($uf);
+    $nomes = ibge_cidades_principais_mapa()[$uf] ?? null;
+
+    if (!is_array($nomes) || $nomes === []) {
+        return $todas;
+    }
+
+    $porSlug = [];
+    foreach ($todas as $cidade) {
+        $porSlug[$cidade['slug']] = $cidade;
+    }
+
+    $saida = [];
+    foreach ($nomes as $nome) {
+        $slug = slugify((string) $nome);
+        if (isset($porSlug[$slug])) {
+            $saida[] = $porSlug[$slug];
+        }
+    }
+
+    return $saida;
+}
+
 function ibge_cidades(string $uf): array
 {
     $uf = strtoupper($uf);
