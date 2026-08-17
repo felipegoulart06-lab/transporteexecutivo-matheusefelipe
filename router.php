@@ -22,6 +22,13 @@ if (preg_match('#^/transporte-executivo/([a-z0-9-]+)/([a-z0-9-]+)/(pessoas|objet
     return true;
 }
 
+if (preg_match('#^/transporte-executivo/([a-z0-9-]+)/([a-z0-9-]+)/?$#', $uri, $m)) {
+    $estadoSlug = $m[1];
+    $cidadeSlug = $m[2];
+    require __DIR__ . '/templates/cidade-landing.php';
+    return true;
+}
+
 $caminho = __DIR__ . $uri;
 if ($uri !== '/' && is_file($caminho)) {
     return false;

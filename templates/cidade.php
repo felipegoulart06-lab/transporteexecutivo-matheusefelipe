@@ -19,6 +19,11 @@ if (!preg_match('/^[a-z0-9]+(?:-[a-z0-9]+)*$/', $estadoSlug)
     exit;
 }
 
+if ($tipoSlug === 'pessoas' && cidade_publicada($estadoSlug, $cidadeSlug)) {
+    header('Location: ' . url_cidade_landing($estadoSlug, $cidadeSlug), true, 301);
+    exit;
+}
+
 $estadoNome = null;
 $uf = null;
 foreach (ibge_estados() as $est) {

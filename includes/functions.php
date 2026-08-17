@@ -63,6 +63,109 @@ function url_cidade(string $estadoSlug, string $cidadeSlug, string $tipo): strin
     return url_site('transporte-executivo/' . $estadoSlug . '/' . $cidadeSlug . '/' . $tipo . '/');
 }
 
+function url_cidade_landing(string $estadoSlug, string $cidadeSlug): string
+{
+    return url_site('transporte-executivo/' . $estadoSlug . '/' . $cidadeSlug . '/');
+}
+
+function indice_cidades(): array
+{
+    static $lista = null;
+    if ($lista === null) {
+        $lista = require dirname(__DIR__) . '/data/cidades/indice.php';
+    }
+    return is_array($lista) ? $lista : [];
+}
+
+function cidade_publicada(string $estadoSlug, string $cidadeSlug): bool
+{
+    return is_file(dirname(__DIR__) . '/data/cidades/' . $estadoSlug . '/' . $cidadeSlug . '.php');
+}
+
+function carregar_cidade(string $estadoSlug, string $cidadeSlug): array
+{
+    if (!slug_permitido($estadoSlug) || !preg_match('/^[a-z0-9]+(?:-[a-z0-9]+)*$/', $cidadeSlug)) {
+        http_response_code(404);
+        require dirname(__DIR__) . '/404.php';
+        exit;
+    }
+    $arquivo = dirname(__DIR__) . '/data/cidades/' . $estadoSlug . '/' . $cidadeSlug . '.php';
+    if (!is_file($arquivo)) {
+        http_response_code(404);
+        require dirname(__DIR__) . '/404.php';
+        exit;
+    }
+    $dados = require $arquivo;
+    $estado = catalogo()[$estadoSlug];
+    return array_merge($estado, $dados, [
+        'estado_slug' => $estadoSlug,
+        'cidade_slug' => $cidadeSlug,
+    ]);
+}
+
+function schemas_cidade(array $cidade, string $canonical): array
+{
+    $blocos = [
+        [
+            '@context' => 'https://schema.org',
+            '@type' => 'WebPage',
+            'name' => $cidade['seo']['title'],
+            'description' => $cidade['seo']['description'],
+            'url' => $canonical,
+            'inLanguage' => 'pt-BR',
+            'isPartOf' => ['@type' => 'WebSite', 'name' => config('nome'), 'url' => url_site()],
+        ],
+        [
+            '@context' => 'https://schema.org',
+            '@type' => 'BreadcrumbList',
+            'itemListElement' => [
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Início', 'item' => url_site()],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Transporte Executivo', 'item' => url_site('transporte-executivo/')],
+                ['@type' => 'ListItem', 'position' => 3, 'name' => $cidade['nome'], 'item' => url_estado($cidade['estado_slug'])],
+                ['@type' => 'ListItem', 'position' => 4, 'name' => $cidade['cidade_nome'], 'item' => $canonical],
+            ],
+        ],
+        [
+            '@context' => 'https://schema.org',
+            '@type' => 'Service',
+            'name' => $cidade['schema_service_name'],
+            'description' => $cidade['seo']['description'],
+            'serviceType' => 'Transporte executivo',
+            'provider' => schema_organization(),
+            'url' => $canonical,
+            'areaServed' => [
+                '@type' => 'City',
+                'name' => $cidade['cidade_nome'],
+                'containedInPlace' => [
+                    '@type' => 'AdministrativeArea',
+                    'name' => $cidade['nome'],
+                ],
+                'geo' => [
+                    '@type' => 'GeoCoordinates',
+                    'latitude' => $cidade['geo']['lat'],
+                    'longitude' => $cidade['geo']['lng'],
+                ],
+            ],
+        ],
+    ];
+
+    if (!empty($cidade['faq'])) {
+        $blocos[] = [
+            '@context' => 'https://schema.org',
+            '@type' => 'FAQPage',
+            'mainEntity' => array_map(static function (array $faq): array {
+                return [
+                    '@type' => 'Question',
+                    'name' => $faq['pergunta'],
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => $faq['resposta']],
+                ];
+            }, $cidade['faq']),
+        ];
+    }
+
+    return $blocos;
+}
+
 function url_orcamento(?string $uf = null, ?string $slug = null): string
 {
     if ($slug !== null && slug_permitido($slug)) {

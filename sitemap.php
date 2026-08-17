@@ -19,6 +19,14 @@ foreach (catalogo() as $slug => $_meta) {
     ];
 }
 
+foreach (indice_cidades() as $item) {
+    $arquivo = __DIR__ . '/data/cidades/' . $item['estado'] . '/' . $item['cidade'] . '.php';
+    $urls[] = [
+        'loc' => url_cidade_landing($item['estado'], $item['cidade']),
+        'lastmod' => date('Y-m-d', is_file($arquivo) ? filemtime($arquivo) : time()),
+    ];
+}
+
 echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

@@ -37,10 +37,6 @@ $schemas = [
 require __DIR__ . '/includes/header.php';
 ?>
 <main id="conteudo" class="gate" data-api="<?= e(url_site('api/localidades.php')) ?>">
-    <picture class="gate-bg">
-        <img src="<?= e($heroJpg) ?>" alt="" width="1600" height="900" fetchpriority="high" decoding="async">
-    </picture>
-
     <div class="gate-frame">
         <ol class="gate-progress" aria-label="Etapas">
             <li class="is-on" data-step="estado"><span>01</span> Estado</li>

@@ -40,6 +40,13 @@ if (preg_match('#^/transporte-executivo/([a-z0-9-]+)/([a-z0-9-]+)/(pessoas|objet
     return;
 }
 
+if (preg_match('#^/transporte-executivo/([a-z0-9-]+)/([a-z0-9-]+)/?$#', $uri, $m)) {
+    $estadoSlug = $m[1];
+    $cidadeSlug = $m[2];
+    require $raiz . '/templates/cidade-landing.php';
+    return;
+}
+
 if (preg_match('#^/transporte-executivo(?:/[a-z0-9-]+)*/?$#', $uri)) {
     $dir = rtrim($raiz . $uri, '/\\');
     if (is_dir($dir) && is_file($dir . '/index.php')) {

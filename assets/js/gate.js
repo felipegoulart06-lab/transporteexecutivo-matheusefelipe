@@ -248,10 +248,10 @@
             const tipo = botao.getAttribute('data-tipo');
             if (!estadoAtual || !cidadeAtual || !tipo) return;
             if (tipo === 'objetos-de-valor') {
-                window.location.href = 'https://www.sc.transporteexecutivo.com';
+                window.location.href = 'https://www.delivery.transporteexecutivo.com/';
                 return;
             }
-            window.location.href = `/transporte-executivo/${estadoAtual.slug}/${cidadeAtual.slug}/${tipo}/`;
+            window.location.href = `/transporte-executivo/${estadoAtual.slug}/${cidadeAtual.slug}/`;
         });
     });
 

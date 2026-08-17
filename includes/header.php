@@ -6,7 +6,10 @@ $paginaAtual = $paginaAtual ?? 'home';
 $ocultarChrome = !empty($ocultarChrome);
 $ctaOrcamento = ($paginaAtual === 'estado' && !empty($slug))
     ? '#orcamento'
-    : url_orcamento($ufAtual ?? null);
+    : (($paginaAtual === 'cidade' && !empty($slug))
+        ? url_estado($slug) . '#orcamento'
+        : url_orcamento($ufAtual ?? null));
+$classeBody = $classeBody ?? '';
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -20,7 +23,7 @@ $ctaOrcamento = ($paginaAtual === 'estado' && !empty($slug))
     <link rel="stylesheet" href="<?= e(url_site('assets/css/app.css')) ?>">
     <?php require __DIR__ . '/schema.php'; ?>
 </head>
-<body class="page-<?= e($paginaAtual) ?>">
+<body class="page-<?= e($paginaAtual) ?><?= $classeBody !== '' ? ' ' . e($classeBody) : '' ?>">
     <a class="skip" href="#conteudo">Ir para o conteúdo</a>
     <?php if (!$ocultarChrome): ?>
     <header class="site-header">
