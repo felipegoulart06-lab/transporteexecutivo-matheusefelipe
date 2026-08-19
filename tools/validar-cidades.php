@@ -86,8 +86,8 @@ function validar_cidades(): array
         }
     }
 
-    if (count(indice_cidades()) !== 27) {
-        relatorio_aviso($r, 'lote', 'índice com ' . count(indice_cidades()) . ' cidades (alvo: 27 capitais)');
+    if (count(indice_cidades()) !== 37) {
+        relatorio_aviso($r, 'lote', 'índice com ' . count(indice_cidades()) . ' cidades (alvo: 37)');
     }
 
     return $r;

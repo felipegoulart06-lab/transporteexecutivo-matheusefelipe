@@ -108,7 +108,7 @@ $kicker = $estado['uf'] === 'DF'
             ));
             ?>
             <?php if ($landingsEstado !== []): ?>
-                <p>Há também um roteiro próprio da capital — bairros, aeroporto, hotéis de embarque e rotas que se repetem na pauta:</p>
+                <p>Há também roteiros próprios de cidade — bairros, aeroporto, hotéis de embarque e rotas que se repetem na pauta:</p>
                 <ul>
                     <?php foreach ($landingsEstado as $lp): ?>
                         <li>
