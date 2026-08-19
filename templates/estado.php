@@ -101,6 +101,24 @@ $kicker = $estado['uf'] === 'DF'
                 <h3><?= e($cidade['h3']) ?></h3>
                 <p><?= e($cidade['texto']) ?></p>
             <?php endforeach; ?>
+            <?php
+            $landingsEstado = array_values(array_filter(
+                indice_cidades(),
+                static fn (array $item): bool => $item['estado'] === $slug
+            ));
+            ?>
+            <?php if ($landingsEstado !== []): ?>
+                <p>Há também um roteiro próprio da capital — bairros, aeroporto, hotéis de embarque e rotas que se repetem na pauta:</p>
+                <ul>
+                    <?php foreach ($landingsEstado as $lp): ?>
+                        <li>
+                            <a href="<?= e(url_cidade_landing($lp['estado'], $lp['cidade'])) ?>">
+                                Roteiro executivo em <?= e($lp['nome']) ?>
+                            </a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            <?php endif; ?>
         </section>
 
         <section>

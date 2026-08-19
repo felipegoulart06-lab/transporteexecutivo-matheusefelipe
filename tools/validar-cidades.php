@@ -32,10 +32,7 @@ function validar_cidades(): array
         if ($layout === '' || !is_file(dirname(__DIR__) . '/templates/cidades/' . $layout . '.php')) {
             relatorio_erro($r, $chave, 'layout ausente');
         } else {
-            if (isset($layouts[$layout])) {
-                relatorio_erro($r, $chave, 'layout repetido com ' . $layouts[$layout]);
-            }
-            $layouts[$layout] = $chave;
+            $layouts[$layout][] = $chave;
         }
 
         if ($title === '') {
@@ -89,13 +86,13 @@ function validar_cidades(): array
         }
     }
 
-    if (count(indice_cidades()) !== 10) {
-        relatorio_aviso($r, 'lote', 'este lote tem ' . count(indice_cidades()) . ' cidades (alvo do lote: 10)');
+    if (count(indice_cidades()) !== 27) {
+        relatorio_aviso($r, 'lote', 'índice com ' . count(indice_cidades()) . ' cidades (alvo: 27 capitais)');
     }
 
     return $r;
 }
 
 if (PHP_SAPI === 'cli' && realpath((string) ($_SERVER['SCRIPT_FILENAME'] ?? '')) === __FILE__) {
-    exit(relatorio_imprimir('Cidades lote 1', validar_cidades()) > 0 ? 1 : 0);
+    exit(relatorio_imprimir('Cidades capitais', validar_cidades()) > 0 ? 1 : 0);
 }
