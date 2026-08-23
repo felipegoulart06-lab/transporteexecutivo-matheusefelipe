@@ -37,6 +37,24 @@ $schemas = [
 require __DIR__ . '/includes/header.php';
 ?>
 <main id="conteudo" class="gate" data-api="<?= e(url_site('api/localidades.php')) ?>">
+    <aside class="gate-hint gate-hint--esq" id="hint-pessoas">
+        <p class="gate-hint__kicker">Como funciona</p>
+        <p class="gate-hint__title">Motorista executivo</p>
+        <ul>
+            <li>Traslado para hotel, reunião e aeroporto, com o mesmo motorista.</li>
+            <li>Espera combinada no roteiro — sem corrida instantânea.</li>
+            <li>Você segue para a página da cidade e pede o orçamento.</li>
+        </ul>
+    </aside>
+    <aside class="gate-hint gate-hint--dir" id="hint-objetos">
+        <p class="gate-hint__kicker">Como funciona</p>
+        <p class="gate-hint__title">Objetos de valor</p>
+        <ul>
+            <li>Serviço à parte do carro com motorista: coleta e entrega assistidas.</li>
+            <li>Documentos, amostras e itens que pedem recuo discreto.</li>
+            <li>Você segue para a central de delivery e conclui o pedido lá.</li>
+        </ul>
+    </aside>
     <div class="gate-frame">
         <ol class="gate-progress" aria-label="Etapas">
             <li class="is-on" data-step="estado"><span>01</span> Estado</li>
@@ -78,13 +96,15 @@ require __DIR__ . '/includes/header.php';
                     <section class="gate-step gate-step--servico is-on" id="step-tipo" aria-labelledby="q-tipo">
                         <h1 id="q-tipo">O que você precisa?</h1>
                         <div class="gate-choices">
-                            <button type="button" class="gate-choice" data-tipo="pessoas">
+                            <button type="button" class="gate-choice" data-tipo="pessoas" aria-describedby="hint-pessoas">
                                 <strong>Preciso de um motorista</strong>
                                 <span>Deslocamento executivo</span>
+                                <em class="gate-choice__nota">Hotel, reunião e aeroporto na mesma cidade, com orçamento sob consulta.</em>
                             </button>
-                            <button type="button" class="gate-choice" data-tipo="objetos-de-valor">
+                            <button type="button" class="gate-choice" data-tipo="objetos-de-valor" data-href="https://delivery.transporteexecutivo.com/" aria-describedby="hint-objetos">
                                 <strong>Transporte de objetos de valor</strong>
                                 <span>Carga discreta e assistida</span>
+                                <em class="gate-choice__nota">Coleta e entrega na central de delivery, em serviço separado do motorista.</em>
                             </button>
                         </div>
                         <button type="button" class="gate-back" id="btn-voltar">Voltar</button>

@@ -86,8 +86,8 @@ function validar_cidades(): array
         }
     }
 
-    if (count(indice_cidades()) !== 65) {
-        relatorio_aviso($r, 'lote', 'índice com ' . count(indice_cidades()) . ' cidades (alvo: 65)');
+    if (count(indice_cidades()) !== 80) {
+        relatorio_aviso($r, 'lote', 'índice com ' . count(indice_cidades()) . ' cidades (alvo: 80)');
     }
 
     return $r;
