@@ -21,6 +21,9 @@ $classeBody = $classeBody ?? '';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= e(url_site('assets/css/app.css')) ?>">
+    <link rel="icon" href="<?= e(url_site('assets/images/favicon.svg')) ?>" type="image/svg+xml">
+    <link rel="icon" href="<?= e(url_site('assets/images/favicon-32.png')) ?>" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="<?= e(url_site('assets/images/apple-touch-icon.png')) ?>">
     <?php require __DIR__ . '/schema.php'; ?>
 </head>
 <body class="page-<?= e($paginaAtual) ?><?= $classeBody !== '' ? ' ' . e($classeBody) : '' ?>">

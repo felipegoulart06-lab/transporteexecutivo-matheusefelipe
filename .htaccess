@@ -1,6 +1,8 @@
 RewriteEngine On
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 RewriteRule ^robots\.txt$ robots.php [L]
+RewriteRule ^favicon\.ico$ assets/images/favicon-32.png [L]
+RewriteRule ^apple-touch-icon(-precomposed)?\.png$ assets/images/apple-touch-icon.png [L]
 RewriteRule ^transporte-executivo/([a-z0-9-]+)/([a-z0-9-]+)/(pessoas|objetos-de-valor)/?$ templates/cidade.php?estado=$1&cidade=$2&tipo=$3 [L,QSA]
 RewriteRule ^transporte-executivo/([a-z0-9-]+)/([a-z0-9-]+)/?$ templates/cidade-landing.php?estado=$1&cidade=$2 [L,QSA]
 

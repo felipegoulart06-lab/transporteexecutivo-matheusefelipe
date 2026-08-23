@@ -14,6 +14,14 @@ if ($uri === '/robots.txt') {
     return true;
 }
 
+if ($uri === '/favicon.ico' || $uri === '/apple-touch-icon.png' || $uri === '/apple-touch-icon-precomposed.png') {
+    $icone = __DIR__ . '/assets/images/' . ($uri === '/favicon.ico' ? 'favicon-32.png' : 'apple-touch-icon.png');
+    header('Content-Type: image/png');
+    header('Cache-Control: public, max-age=604800');
+    readfile($icone);
+    return true;
+}
+
 if (preg_match('#^/transporte-executivo/([a-z0-9-]+)/([a-z0-9-]+)/(pessoas|objetos-de-valor)/?$#', $uri, $m)) {
     $estadoSlug = $m[1];
     $cidadeSlug = $m[2];

@@ -27,6 +27,14 @@ if ($uri === '/robots.txt') {
     return;
 }
 
+if ($uri === '/favicon.ico' || $uri === '/apple-touch-icon.png' || $uri === '/apple-touch-icon-precomposed.png') {
+    $icone = $raiz . '/assets/images/' . ($uri === '/favicon.ico' ? 'favicon-32.png' : 'apple-touch-icon.png');
+    header('Content-Type: image/png');
+    header('Cache-Control: public, max-age=604800');
+    readfile($icone);
+    return;
+}
+
 if ($uri === '/api/localidades.php') {
     require $raiz . '/api/localidades.php';
     return;
