@@ -13,7 +13,7 @@ return [
     'h1' => 'Entre o porto e a ilha, o deslocamento que cabe na agenda',
     'intro' => [
         'Vitória ocupa uma ilha; Vila Velha, Serra e Cariacica completam a mancha urbana que o capixaba chama de Grande Vitória. O Eurico de Aguiar Salles (VIX) e os terminais de Tubarão e Praia Mole puxam agendas que não toleram o improviso da Terceira Ponte no fim da tarde.',
-        'Minério, aço, celulose e petróleo offshore sustentam o vai-e-vem de comitivas. O carro sai sob reserva da NERO: um motorista, o roteiro das quatro cidades e o horário do navio ou do voo.',
+        'Minério, aço, celulose e petróleo offshore sustentam o vai-e-vem de comitivas. O carro sai sob reserva: um motorista, o roteiro das quatro cidades e o horário do navio ou do voo.',
     ],
     'schema_service_name' => 'Circuito executivo na Grande Vitória',
     'secao_estado' => [
@@ -55,7 +55,7 @@ return [
         'beneficios' => [
             ['titulo' => 'A ilha não é o estado', 'texto' => 'Hotel em Vila Velha e reunião em Serra são dois municípios e uma ponte. O roteiro escrito evita o atraso que o mapa “compacto” esconde.'],
             ['titulo' => 'Porto tem portaria', 'texto' => 'Tubarão e Praia Mole não são drop-off de aplicativo. Horário e credencial entram na reserva para o motorista não ficar no lado de fora.'],
-            ['titulo' => 'Uma empresa, sem filial de vitrine', 'texto' => 'A NERO atende o trecho sob consulta. Não inventamos endereço comercial em cada cidade da Grande Vitória.'],
+            ['titulo' => 'Uma empresa, sem filial de vitrine', 'texto' => 'O transporte executivo atende o trecho sob consulta. Não inventamos endereço comercial em cada cidade da Grande Vitória.'],
         ],
     ],
     'como_funciona' => [

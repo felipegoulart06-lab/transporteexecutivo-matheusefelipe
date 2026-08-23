@@ -1,4 +1,4 @@
-# Especificação mestra — NERO Transporte Executivo
+# Especificação mestra — Transporte Executivo
 
 Documento de implementação. Nenhuma página estadual é considerada pronta só porque o texto foi gerado. A página só fecha depois do checklist técnico.
 

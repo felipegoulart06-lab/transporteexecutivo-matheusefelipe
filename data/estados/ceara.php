@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 return [
     'seo' => [
-        'title' => 'De Fortaleza ao Pecém: motorista sob reserva | NERO',
+        'title' => 'De Fortaleza ao Pecém: motorista sob reserva | Transporte Executivo',
         'description' => 'Carro com motorista em Fortaleza para o Pinto Martins, o Complexo do Pecém e o Cariri. Janela pontual entre a capital, o porto e Juazeiro do Norte.',
         'og_title' => 'Fortaleza, Pecém e Cariri com motorista reservado',
         'og_description' => 'Pinto Martins, Pecém e Juazeiro do Norte no mesmo serviço sob reserva. Sem escritório local anunciado.',
@@ -20,7 +20,7 @@ return [
         'h2' => 'A capital, o porto e o sertão do Cariri',
         'texto' => [
             'O Pinto Martins fica na própria Fortaleza; o Pecém, em São Gonçalo do Amarante, pede a CE-422 ou a BR-222 e uma margem para o fluxo de caminhões. Quem trata os dois como “a mesma cidade” perde o horário da reunião.',
-            'Jericoacoara e Canoa Quebrada puxam lazer; Sobral e o interior, indústria e serviços. O carro é o mesmo da NERO, confirmado para o trecho — não uma frota estacionada em cada município.',
+            'Jericoacoara e Canoa Quebrada puxam lazer; Sobral e o interior, indústria e serviços. O carro é o mesmo, confirmado para o trecho — não uma frota estacionada em cada município.',
         ],
         'imagem_alt' => 'Costa de dunas e vegetação de tabuleiro, referência ao litoral do Ceará',
         'legenda' => 'Porto, praia e Cariri não compartilham o mesmo tempo de via. A reserva separa os eixos.',

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 return [
     'seo' => [
-        'title' => 'Teresina na fronteira e o Delta com motorista | NERO',
+        'title' => 'Teresina na fronteira e o Delta com motorista | Transporte Executivo',
         'description' => 'Carro com motorista em Teresina, única capital na fronteira de dois estados, até o THE e o Delta do Parnaíba. Travessia para Timon e rota a Parnaíba.',
         'og_title' => 'Teresina, Timon e o Delta do Parnaíba com motorista',
         'og_description' => 'Recepção no Senador Petrônio Portella, travessia da fronteira com o Maranhão e deslocamento até Parnaíba. Sob reserva.',
@@ -20,7 +20,7 @@ return [
         'h2' => 'A capital ribeirinha, o Delta e o semiárido',
         'texto' => [
             'Teresina cresceu no meio do mapa, longe do mar. O calor e o trânsito da zona leste mudam o tempo entre o THE, o Centro e o bairro Jóquei. Timon entra no roteiro quando a reunião ou o hotel estão do lado maranhense — é outro estado, o mesmo rio.',
-            'A BR-343 sobe até Parnaíba; a BR-316 corta o estado rumo a Picos. Serra da Capivara, em São Raimundo Nonato, pede recorte próprio e, em geral, pernoite. O serviço da NERO cobre o trecho escrito, sem base fictícia em cada cidade.',
+            'A BR-343 sobe até Parnaíba; a BR-316 corta o estado rumo a Picos. Serra da Capivara, em São Raimundo Nonato, pede recorte próprio e, em geral, pernoite. O serviço de transporte executivo cobre o trecho escrito, sem base fictícia em cada cidade.',
         ],
         'imagem_alt' => 'Vale de rio no interior nordestino, alusão ao Parnaíba entre Teresina e Timon',
         'legenda' => 'Fronteira seca, Delta e sertão: três relógios que o orçamento não pode misturar.',

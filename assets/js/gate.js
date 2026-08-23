@@ -23,7 +23,7 @@
     let estadoAtual = null;
     let cidadeAtual = null;
     let tipoAtual = null;
-    let hrefObjetos = 'https://delivery.transporteexecutivo.com/';
+    const hrefObjetos = raiz.getAttribute('data-delivery') || 'https://delivery.transporteexecutivo.com.br/';
 
     const status = (msg) => {
         if (statusEl) statusEl.textContent = msg || '';
@@ -49,9 +49,24 @@
         window.scrollTo(0, 0);
     };
 
+    const abrirDelivery = (href) => {
+        const url = href || hrefObjetos;
+        const janela = window.open(url, '_blank', 'noopener,noreferrer');
+        if (!janela) {
+            const atalho = document.createElement('a');
+            atalho.href = url;
+            atalho.target = '_blank';
+            atalho.rel = 'noopener noreferrer';
+            document.body.appendChild(atalho);
+            atalho.click();
+            atalho.remove();
+        }
+    };
+
     const irParaLocal = () => {
         toggleEstado(false);
         toggleCidade(false);
+        tipoAtual = 'pessoas';
         frame.classList.add('is-local');
         paneLocal.setAttribute('aria-hidden', 'false');
         paneLocal.removeAttribute('inert');
@@ -65,6 +80,7 @@
     const voltarServico = () => {
         toggleEstado(false);
         toggleCidade(false);
+        tipoAtual = null;
         frame.classList.remove('is-local');
         paneLocal.setAttribute('aria-hidden', 'true');
         paneLocal.setAttribute('inert', '');
@@ -72,18 +88,12 @@
         paneServico.removeAttribute('inert');
         marcarProgresso('tipo');
         travarScroll();
+        const titulo = document.getElementById('q-tipo');
+        if (titulo) titulo.focus({ preventScroll: true });
     };
 
     const concluir = () => {
-        if (!estadoAtual || !cidadeAtual || !tipoAtual) return;
-        if (tipoAtual === 'objetos-de-valor') {
-            window.location.href = hrefObjetos;
-            return;
-        }
-        if (tipoAtual === 'virtual') {
-            window.location.href = `/transporte-executivo/${estadoAtual.slug}/#orcamento`;
-            return;
-        }
+        if (!estadoAtual || !cidadeAtual || tipoAtual !== 'pessoas') return;
         window.location.href = `/transporte-executivo/${estadoAtual.slug}/${cidadeAtual.slug}/`;
     };
 
@@ -265,13 +275,22 @@
         botao.addEventListener('click', () => {
             const tipo = botao.getAttribute('data-tipo');
             if (!tipo) return;
-            tipoAtual = tipo;
             if (tipo === 'objetos-de-valor') {
-                hrefObjetos = botao.getAttribute('data-href') || hrefObjetos;
+                abrirDelivery(botao.getAttribute('data-href') || hrefObjetos);
+                return;
             }
-            irParaLocal();
+            if (tipo === 'virtual') {
+                document.dispatchEvent(new CustomEvent('nero:abrir-chat'));
+                return;
+            }
+            if (tipo === 'pessoas') {
+                irParaLocal();
+            }
         });
     });
+
+    document.addEventListener('nero:agendar-motorista', irParaLocal);
+    document.addEventListener('nero:abrir-delivery', () => abrirDelivery());
 
     const abrirInicio = () => {
         if (!raiz.classList.contains('is-intro')) return;
@@ -286,11 +305,6 @@
     };
 
     if (btnEntrar) btnEntrar.addEventListener('click', abrirInicio);
-
-    if (intro) {
-        const reduzido = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        window.setTimeout(abrirInicio, reduzido ? 400 : 3200);
-    }
 
     preencherEstados();
 })();

@@ -8,7 +8,7 @@ $grupos = estados_por_regiao();
     <footer class="site-footer">
         <div class="site-footer__inner">
             <div>
-                <p class="logo">NERO<span>Executivo</span></p>
+                <p class="logo">Transporte<span>Executivo</span></p>
                 <p>Transporte executivo privado com motorista, sob consulta.</p>
             </div>
             <nav aria-label="Unidades da federação por região">

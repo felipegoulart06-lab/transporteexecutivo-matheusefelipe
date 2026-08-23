@@ -20,7 +20,7 @@ return [
         'h2' => 'A ilha, a baía e o porto de águas profundas',
         'texto' => [
             'O Centro Histórico é Patrimônio da Humanidade; o Itaqui e a Ponta da Madeira escoam minério da Estrada de Ferro Carajás e grãos do cerrado. Tratar os dois como o mesmo bairro gera atraso na portaria e no calçamento estreito do Desterro.',
-            'A BR-135 e a BR-222 ligam a ilha ao continente e ao sul sojeiro. Lençóis Maranhenses pedem outro recorte, com saída para Barreirinhas ou Santo Amaro. O carro da NERO cobre o trecho escrito — não uma base em cada cidade.',
+            'A BR-135 e a BR-222 ligam a ilha ao continente e ao sul sojeiro. Lençóis Maranhenses pedem outro recorte, com saída para Barreirinhas ou Santo Amaro. O carro de transporte executivo cobre o trecho escrito — não uma base em cada cidade.',
         ],
         'imagem_alt' => 'Paisagem costeira equatorial com água e vegetação, referência à ilha de São Luís',
         'legenda' => 'Patrimônio, porto e cerrado não compartilham o mesmo tempo de via nem o mesmo acesso.',
@@ -55,7 +55,7 @@ return [
         'beneficios' => [
             ['titulo' => 'Baía não é avenida', 'texto' => 'Alcântara e o Itaqui ficam “perto” no mapa e longe no relógio. Quem escreve o trecho não perde o horário da balsa nem o da portaria.'],
             ['titulo' => 'Centro colonial tem limite de acesso', 'texto' => 'O Reviver não é drop-off de shopping. O motorista deixa no ponto possível e espera onde combinamos — evita volta inútil no calçamento.'],
-            ['titulo' => 'Sem escritório de fachada', 'texto' => 'O atendimento parte da NERO, sob consulta. Não há CNPJ de filial na ilha nem frota anunciada em cada município.'],
+            ['titulo' => 'Sem escritório de fachada', 'texto' => 'O atendimento parte sob consulta. Não há CNPJ de filial na ilha nem frota anunciada em cada município.'],
         ],
     ],
     'como_funciona' => [

@@ -7,12 +7,12 @@ require_once __DIR__ . '/includes/bootstrap.php';
 
 $paginaAtual = '404';
 $seo = [
-    'title' => 'Página não encontrada | NERO',
+    'title' => 'Página não encontrada | Transporte Executivo',
     'description' => 'A página pedida não existe. Volte à home ou escolha um estado para transporte executivo.',
     'canonical' => url_site('404'),
     'robots' => 'noindex, follow',
-    'og_title' => 'Página não encontrada | NERO',
-    'og_description' => 'Conteúdo não encontrado no site da NERO Transporte Executivo.',
+    'og_title' => 'Página não encontrada | Transporte Executivo',
+    'og_description' => 'Conteúdo não encontrado no site de transporte executivo.',
 ];
 $schemas = [];
 

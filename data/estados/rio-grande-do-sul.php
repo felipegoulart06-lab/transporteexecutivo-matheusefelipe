@@ -20,7 +20,7 @@ return [
         'h2' => 'A capital, a Serra e o porto do extremo sul',
         'texto' => [
             'O Salgado Filho fica em São João, na própria capital; a Serra sobe pela RS-122 ou pela Rota do Sol e pede margem para neblina e para o movimento de Gramado. Quem marca almoço em Bento e voo no fim da tarde no POA precisa do roteiro escrito, não do otimismo do GPS.',
-            'A BR-116 corta o estado; a BR-392 desce a Pelotas e a Rio Grande. Uruguaiana e a fronteira com a Argentina pedem recorte próprio. O carro da NERO cobre o trecho combinado — não uma base em cada vale.',
+            'A BR-116 corta o estado; a BR-392 desce a Pelotas e a Rio Grande. Uruguaiana e a fronteira com a Argentina pedem recorte próprio. O carro de transporte executivo cobre o trecho combinado — não uma base em cada vale.',
         ],
         'imagem_alt' => 'Encostas e vale do Sul do Brasil, alusão à Serra Gaúcha e ao entorno de Porto Alegre',
         'legenda' => 'Serra, metrópole e porto do Rio Grande não compartilham o mesmo tempo de via nem o mesmo clima.',

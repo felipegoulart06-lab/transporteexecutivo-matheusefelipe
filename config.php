@@ -17,8 +17,8 @@ if ($dominioOficial !== '') {
 }
 
 return [
-    'marca' => 'NERO',
-    'nome' => 'NERO Transporte Executivo',
+    'marca' => 'Transporte',
+    'nome' => 'Transporte Executivo',
     'descricao_padrao' => 'Transporte executivo privado com motorista, sob consulta, em unidades da federação de todo o Brasil.',
     'url' => $url,
     'locale' => 'pt_BR',

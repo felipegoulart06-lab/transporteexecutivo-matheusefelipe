@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 return [
     'seo' => [
-        'title' => 'Aracaju: orla de Atalaia, AJU e hora marcada | NERO',
+        'title' => 'Aracaju: orla de Atalaia, AJU e hora marcada | Transporte Executivo',
         'description' => 'Carro com motorista em Aracaju para o aeroporto Santa Maria, a Orla de Atalaia e São Cristóvão. Deslocamento pontual no menor estado, sob reserva.',
         'og_title' => 'Atalaia, Santa Maria e Aracaju com motorista reservado',
         'og_description' => 'Recepção no AJU, circuito da Orla de Atalaia e ida a São Cristóvão. Serviço sob reserva, sem base fictícia.',
@@ -20,7 +20,7 @@ return [
         'h2' => 'A orla reta, o campo ao sul e o São Francisco',
         'texto' => [
             'Atalaia puxa hotelaria e o fim de tarde mais lento da capital. O AJU, em Santa Maria, pede a SE-100 e uma margem que o hóspede da orla costuma subestimar. O Centro e o bairro São José ficam noutro ritmo, mais perto do rio.',
-            'A BR-101 cola Sergipe à Bahia e a Alagoas. Propriá e o São Francisco pedem recorte próprio. O carro da NERO cobre o trecho escrito — não uma cobertura automática de todo o menor estado da federação.',
+            'A BR-101 cola Sergipe à Bahia e a Alagoas. Propriá e o São Francisco pedem recorte próprio. O carro de transporte executivo cobre o trecho escrito — não uma cobertura automática de todo o menor estado da federação.',
         ],
         'imagem_alt' => 'Faixa litorânea baixa do Nordeste, referência à Orla de Atalaia em Aracaju',
         'legenda' => 'O estado é curto no mapa. A orla, o aeroporto e o São Francisco não são o mesmo deslocamento.',

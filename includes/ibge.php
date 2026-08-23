@@ -21,7 +21,7 @@ function ibge_baixar(string $url, string $destino): bool
     $ctx = stream_context_create([
         'http' => [
             'timeout' => 20,
-            'header' => "Accept: application/json\r\nUser-Agent: NERO-Transporte-Executivo/1.0\r\n",
+            'header' => "Accept: application/json\r\nUser-Agent: Transporte-Executivo/1.0\r\n",
         ],
     ]);
     $raw = @file_get_contents($url, false, $ctx);

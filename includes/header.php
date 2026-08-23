@@ -31,7 +31,7 @@ $classeBody = $classeBody ?? '';
     <?php if (!$ocultarChrome): ?>
     <header class="site-header">
         <div class="site-header__inner">
-            <a class="logo" href="<?= e(url_site()) ?>">NERO<span>Executivo</span></a>
+            <a class="logo" href="<?= e(url_site()) ?>">Transporte<span>Executivo</span></a>
             <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu</button>
             <nav id="menu-principal" class="menu" aria-label="Principal">
                 <a href="<?= e(url_site()) ?>">Início</a>

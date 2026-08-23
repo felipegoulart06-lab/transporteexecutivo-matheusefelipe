@@ -20,7 +20,7 @@ return [
         'h2' => 'O campo novo, a Via Costeira e o litoral sul',
         'texto' => [
             'São Gonçalo do Amarante e Ponta Negra não compartilham o mesmo relógio. A BR-304 e o contorno metropolitano alongam o trecho no fim da tarde; a Via Costeira, no verão e no Réveillon, vira fila entre o hotel e o Forte dos Reis Magos.',
-            'Pipa pede a RN-003 e uma margem para o morro. Mossoró e o polo salineiro ficam a cerca de quatro horas. O carro da NERO cobre o trecho escrito — não uma frota parada em cada praia.',
+            'Pipa pede a RN-003 e uma margem para o morro. Mossoró e o polo salineiro ficam a cerca de quatro horas. O carro de transporte executivo cobre o trecho escrito — não uma frota parada em cada praia.',
         ],
         'imagem_alt' => 'Dunas e costa atlântica do Nordeste, referência ao litoral de Natal e Pipa',
         'legenda' => 'O aeroporto mudou de município. A orla e Pipa nunca foram o mesmo deslocamento.',

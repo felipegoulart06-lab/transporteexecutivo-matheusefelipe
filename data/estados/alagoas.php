@@ -55,7 +55,7 @@ return [
         'beneficios' => [
             ['titulo' => 'O aeroporto não é a praia', 'texto' => 'Quem reserva no MCZ não descobre no desembarque que Ponta Verde ainda pede meia hora de via expressa e trânsito de verão.'],
             ['titulo' => 'Um motorista, dois ritmos', 'texto' => 'Litoral e agreste não compartilham o mesmo relógio. A reserva descreve os dois trechos para ninguém misturar lazer com reunião em Arapiraca.'],
-            ['titulo' => 'Sem base fictícia', 'texto' => 'Não há escritório local anunciado. O atendimento é da NERO, sob consulta, com o veículo confirmado para a data e o trecho pedidos.'],
+            ['titulo' => 'Sem base fictícia', 'texto' => 'Não há escritório local anunciado. O atendimento é de transporte executivo, sob consulta, com o veículo confirmado para a data e o trecho pedidos.'],
         ],
     ],
     'como_funciona' => [

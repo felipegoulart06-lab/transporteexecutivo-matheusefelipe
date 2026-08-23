@@ -7,13 +7,14 @@ require_once __DIR__ . '/includes/bootstrap.php';
 $paginaAtual = 'gate';
 $ocultarChrome = true;
 $heroJpg = url_site('assets/images/hero-transporte.jpg');
+$deliveryUrl = 'https://delivery.transporteexecutivo.com.br/';
 
 $seo = [
-    'title' => 'NERO — Transporte executivo',
-    'description' => 'Escolha o serviço — motorista, objetos de valor ou atendimento virtual — e informe estado e cidade para seguir.',
+    'title' => 'Transporte executivo',
+    'description' => 'Motorista executivo, transporte de objetos de valor ou atendimento virtual. Serviço privado, sob consulta — sem corrida instantânea.',
     'canonical' => url_site(),
-    'og_title' => 'NERO — Transporte executivo',
-    'og_description' => 'Escolha o tipo de atendimento e, em seguida, estado e cidade.',
+    'og_title' => 'Transporte executivo',
+    'og_description' => 'Escolha motorista, delivery de objetos de valor ou fale com a atendente virtual.',
     'og_image' => $heroJpg,
     'og_image_alt' => 'Sedan executivo preto pronto para embarque',
 ];
@@ -36,13 +37,33 @@ $schemas = [
 
 require __DIR__ . '/includes/header.php';
 ?>
-<main id="conteudo" class="gate is-intro" data-api="<?= e(url_site('api/localidades.php')) ?>">
+<main id="conteudo" class="gate is-intro" data-api="<?= e(url_site('api/localidades.php')) ?>" data-delivery="<?= e($deliveryUrl) ?>">
     <div class="gate-intro" id="gate-intro">
-        <p class="gate-intro__marca">NERO<span>Executivo</span></p>
-        <span class="gate-intro__rule" aria-hidden="true"></span>
-        <p class="gate-intro__hello">Bem-vindo</p>
-        <p class="gate-intro__lead">Transporte executivo privado, sob consulta.</p>
-        <button type="button" class="gate-intro__go" id="btn-entrar">Entrar</button>
+        <div class="gate-intro__card">
+            <p class="gate-intro__marca">Transporte<span>Executivo</span></p>
+            <p class="gate-intro__kicker">Transporte privado · Sob consulta</p>
+            <p class="gate-intro__hello">Bem-vindo</p>
+            <p class="gate-intro__lead">O transporte executivo privado organiza três frentes — e só estas. Não é aplicativo de rua. Cada pedido sai com data, recuo e orçamento combinados.</p>
+            <ol class="gate-intro__servicos">
+                <li>
+                    <span>01</span>
+                    <strong>Motorista executivo</strong>
+                    <em>Traslado para hotel, reunião e aeroporto, com o mesmo motorista. Estado e cidade entram só neste caminho.</em>
+                </li>
+                <li>
+                    <span>02</span>
+                    <strong>Objetos de valor</strong>
+                    <em>Coleta e entrega assistidas na central de delivery, em nova aba. Serviço separado do carro com motorista.</em>
+                </li>
+                <li>
+                    <span>03</span>
+                    <strong>Atendimento virtual</strong>
+                    <em>Conversa com a atendente para decidir entre motorista ou delivery. Sem estado e cidade neste passo.</em>
+                </li>
+            </ol>
+            <button type="button" class="gate-intro__go" id="btn-entrar">Entrar</button>
+            <p class="gate-intro__foot">Sob consulta · Sem corrida instantânea · Todos os direitos reservados</p>
+        </div>
     </div>
     <aside class="gate-hint gate-hint--esq" id="hint-pessoas">
         <p class="gate-hint__kicker">Como funciona</p>
@@ -50,7 +71,7 @@ require __DIR__ . '/includes/header.php';
         <ul>
             <li>Traslado para hotel, reunião e aeroporto, com o mesmo motorista.</li>
             <li>Espera combinada no roteiro — sem corrida instantânea.</li>
-            <li>Depois você informa estado e cidade para abrir a página local.</li>
+            <li>Em seguida você informa estado e cidade para abrir a página local.</li>
         </ul>
     </aside>
     <aside class="gate-hint gate-hint--dir" id="hint-objetos">
@@ -59,16 +80,16 @@ require __DIR__ . '/includes/header.php';
         <ul>
             <li>Serviço à parte do carro com motorista: coleta e entrega assistidas.</li>
             <li>Documentos, amostras e itens que pedem recuo discreto.</li>
-            <li>Após estado e cidade, você segue para a central de delivery.</li>
+            <li>Abre a central de delivery em uma nova aba, sem pedir estado ou cidade aqui.</li>
         </ul>
     </aside>
     <aside class="gate-hint gate-hint--virtual" id="hint-virtual">
         <p class="gate-hint__kicker">Como funciona</p>
         <p class="gate-hint__title">Atendimento virtual</p>
         <ul>
-            <li>Consulta à distância, sem embarque presencial neste passo.</li>
-            <li>Informe estado e cidade para localizar o recorte da pauta.</li>
-            <li>Você segue ao formulário e conclui o pedido com a equipe.</li>
+            <li>Conversa com a atendente virtual, neste site.</li>
+            <li>Ela trata só das três opções: motorista, objetos de valor ou este canal.</li>
+            <li>O destino é agendar o motorista ou seguir para a central de delivery.</li>
         </ul>
     </aside>
     <div class="gate-frame">
@@ -87,17 +108,17 @@ require __DIR__ . '/includes/header.php';
                             <button type="button" class="gate-choice" data-tipo="pessoas" aria-describedby="hint-pessoas">
                                 <strong>Preciso de um motorista</strong>
                                 <span>Deslocamento executivo</span>
-                                <em class="gate-choice__nota">Hotel, reunião e aeroporto na mesma cidade, com orçamento sob consulta.</em>
+                                <em class="gate-choice__nota">Hotel, reunião e aeroporto na mesma cidade, com orçamento sob consulta. Depois você escolhe estado e cidade.</em>
                             </button>
-                            <button type="button" class="gate-choice" data-tipo="objetos-de-valor" data-href="https://delivery.transporteexecutivo.com/" aria-describedby="hint-objetos">
+                            <button type="button" class="gate-choice" data-tipo="objetos-de-valor" data-href="<?= e($deliveryUrl) ?>" aria-describedby="hint-objetos">
                                 <strong>Transporte de objetos de valor</strong>
                                 <span>Carga discreta e assistida</span>
-                                <em class="gate-choice__nota">Coleta e entrega na central de delivery, em serviço separado do motorista.</em>
+                                <em class="gate-choice__nota">Abre a central de delivery em nova aba. Não pede estado nem cidade nesta página.</em>
                             </button>
                             <button type="button" class="gate-choice" data-tipo="virtual" aria-describedby="hint-virtual">
                                 <strong>Solicitar atendimento virtual</strong>
                                 <span>Consulta à distância</span>
-                                <em class="gate-choice__nota">Fale com a equipe sem embarque presencial. Estado e cidade entram só para localizar o recorte.</em>
+                                <em class="gate-choice__nota">Fale com a atendente virtual. Ela só trata de motorista, objetos de valor ou este atendimento.</em>
                             </button>
                         </div>
                     </section>
@@ -137,6 +158,31 @@ require __DIR__ . '/includes/header.php';
         <p class="gate-status" id="gate-status" role="status"></p>
         <p class="gate-copy">Todos os direitos reservados</p>
     </div>
+
+    <div class="gate-chat" id="gate-chat" hidden>
+        <div class="gate-chat__panel" role="dialog" aria-modal="true" aria-labelledby="chat-titulo">
+            <header class="gate-chat__head">
+                <span class="gate-chat__avatar" aria-hidden="true">N</span>
+                <div class="gate-chat__who">
+                    <p id="chat-titulo">Atendimento</p>
+                    <p>Atendente virtual · Somente as três opções</p>
+                </div>
+                <button type="button" class="gate-chat__close" id="chat-fechar">Fechar</button>
+            </header>
+            <div class="gate-chat__thread" id="chat-thread" role="log" aria-live="polite" aria-relevant="additions"></div>
+            <div class="gate-chat__quick" id="chat-quick">
+                <button type="button" data-intencao="motorista">Preciso de um motorista</button>
+                <button type="button" data-intencao="objetos">Objetos de valor</button>
+            </div>
+            <form class="gate-chat__form" id="chat-form">
+                <label class="visually-hidden" for="chat-input">Mensagem para a atendente</label>
+                <input type="text" id="chat-input" maxlength="280" placeholder="Escreva sua mensagem" autocomplete="off" enterkeyhint="send">
+                <button type="submit" class="gate-chat__send">Enviar</button>
+            </form>
+            <p class="gate-chat__bound">Restrito a motorista executivo, objetos de valor e este atendimento.</p>
+        </div>
+    </div>
 </main>
 <script src="<?= e(url_site('assets/js/gate.js')) ?>" defer></script>
+<script src="<?= e(url_site('assets/js/atendente.js')) ?>" defer></script>
 <?php require __DIR__ . '/includes/footer.php'; ?>

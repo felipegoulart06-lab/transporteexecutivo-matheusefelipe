@@ -20,7 +20,7 @@ return [
         'h2' => 'Do extremo leste ao Planalto da Borborema',
         'texto' => [
             'A orla de Tambaú e Bessa puxa hotelaria; Cabedelo puxa o porto e o fim da linha do trem. Tratar os dois como “a mesma praia” ignora o tempo da PB-008 e o acesso ao cais.',
-            'No interior, Patos e Sousa alongam o sertão; a BR-101 cola a capital a Pernambuco e ao Rio Grande do Norte. O carro da NERO cobre o trecho pedido — não uma cobertura automática de todo o estado.',
+            'No interior, Patos e Sousa alongam o sertão; a BR-101 cola a capital a Pernambuco e ao Rio Grande do Norte. O carro de transporte executivo cobre o trecho pedido — não uma cobertura automática de todo o estado.',
         ],
         'imagem_alt' => 'Costa atlântica com vegetação de restinga, referência ao litoral da Paraíba',
         'legenda' => 'O ponto mais a leste do continente e o agreste tecnológico não cabem no mesmo chute de tempo.',
