@@ -15,11 +15,15 @@
     const paneServico = document.getElementById('pane-servico');
     const btnVoltar = document.getElementById('btn-voltar');
     const stepCidade = document.getElementById('step-cidade');
+    const intro = document.getElementById('gate-intro');
+    const btnEntrar = document.getElementById('btn-entrar');
 
     let estados = [];
     let cidades = [];
     let estadoAtual = null;
     let cidadeAtual = null;
+    let tipoAtual = null;
+    let hrefObjetos = 'https://delivery.transporteexecutivo.com/';
 
     const status = (msg) => {
         if (statusEl) statusEl.textContent = msg || '';
@@ -45,27 +49,42 @@
         window.scrollTo(0, 0);
     };
 
-    const irParaServico = () => {
+    const irParaLocal = () => {
         toggleEstado(false);
         toggleCidade(false);
-        frame.classList.add('is-servico');
-        paneServico.setAttribute('aria-hidden', 'false');
-        paneServico.removeAttribute('inert');
+        frame.classList.add('is-local');
+        paneLocal.setAttribute('aria-hidden', 'false');
+        paneLocal.removeAttribute('inert');
+        paneServico.setAttribute('aria-hidden', 'true');
+        paneServico.setAttribute('inert', '');
+        marcarProgresso(cidadeAtual ? 'cidade' : 'estado');
+        travarScroll();
+        selEstado.focus({ preventScroll: true });
+    };
+
+    const voltarServico = () => {
+        toggleEstado(false);
+        toggleCidade(false);
+        frame.classList.remove('is-local');
         paneLocal.setAttribute('aria-hidden', 'true');
         paneLocal.setAttribute('inert', '');
+        paneServico.setAttribute('aria-hidden', 'false');
+        paneServico.removeAttribute('inert');
         marcarProgresso('tipo');
         travarScroll();
     };
 
-    const voltarLocal = () => {
-        frame.classList.remove('is-servico');
-        paneServico.setAttribute('aria-hidden', 'true');
-        paneServico.setAttribute('inert', '');
-        paneLocal.setAttribute('aria-hidden', 'false');
-        paneLocal.removeAttribute('inert');
-        marcarProgresso(cidadeAtual ? 'cidade' : (estadoAtual ? 'cidade' : 'estado'));
-        travarScroll();
-        selCidade.focus({ preventScroll: true });
+    const concluir = () => {
+        if (!estadoAtual || !cidadeAtual || !tipoAtual) return;
+        if (tipoAtual === 'objetos-de-valor') {
+            window.location.href = hrefObjetos;
+            return;
+        }
+        if (tipoAtual === 'virtual') {
+            window.location.href = `/transporte-executivo/${estadoAtual.slug}/#orcamento`;
+            return;
+        }
+        window.location.href = `/transporte-executivo/${estadoAtual.slug}/${cidadeAtual.slug}/`;
     };
 
     const montarLista = (ul, itens, getLabel, getValue) => {
@@ -197,7 +216,6 @@
         filtroCidade.value = '';
         cidades = [];
         listaCidade.innerHTML = '';
-        voltarLocal();
 
         status('Carregando cidades…');
         abrirPasso(stepCidade);
@@ -228,10 +246,10 @@
         selCidade.textContent = cidadeAtual.nome;
         filtroCidade.value = '';
         toggleCidade(false);
-        irParaServico();
+        concluir();
     });
 
-    if (btnVoltar) btnVoltar.addEventListener('click', voltarLocal);
+    if (btnVoltar) btnVoltar.addEventListener('click', voltarServico);
 
     document.addEventListener('click', () => {
         toggleEstado(false);
@@ -246,14 +264,33 @@
     document.querySelectorAll('.gate-choice').forEach((botao) => {
         botao.addEventListener('click', () => {
             const tipo = botao.getAttribute('data-tipo');
-            if (!estadoAtual || !cidadeAtual || !tipo) return;
+            if (!tipo) return;
+            tipoAtual = tipo;
             if (tipo === 'objetos-de-valor') {
-                window.location.href = botao.getAttribute('data-href') || 'https://delivery.transporteexecutivo.com/';
-                return;
+                hrefObjetos = botao.getAttribute('data-href') || hrefObjetos;
             }
-            window.location.href = `/transporte-executivo/${estadoAtual.slug}/${cidadeAtual.slug}/`;
+            irParaLocal();
         });
     });
+
+    const abrirInicio = () => {
+        if (!raiz.classList.contains('is-intro')) return;
+        raiz.classList.remove('is-intro');
+        raiz.classList.add('is-ready');
+        if (intro) {
+            intro.setAttribute('aria-hidden', 'true');
+            intro.setAttribute('inert', '');
+        }
+        const titulo = document.getElementById('q-tipo');
+        if (titulo) titulo.focus({ preventScroll: true });
+    };
+
+    if (btnEntrar) btnEntrar.addEventListener('click', abrirInicio);
+
+    if (intro) {
+        const reduzido = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.setTimeout(abrirInicio, reduzido ? 400 : 3200);
+    }
 
     preencherEstados();
 })();
