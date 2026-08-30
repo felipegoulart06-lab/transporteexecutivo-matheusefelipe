@@ -7,7 +7,7 @@ require_once __DIR__ . '/includes/bootstrap.php';
 $paginaAtual = 'gate';
 $ocultarChrome = true;
 $heroJpg = url_site('assets/images/hero-transporte.jpg');
-$deliveryUrl = 'https://delivery.transporteexecutivo.com.br/';
+$deliveryUrl = 'https://delivery.transporteexecutivo.com/';
 
 $seo = [
     'title' => 'Transporte executivo',

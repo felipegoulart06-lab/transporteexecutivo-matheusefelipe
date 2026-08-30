@@ -23,7 +23,7 @@
     let estadoAtual = null;
     let cidadeAtual = null;
     let tipoAtual = null;
-    const hrefObjetos = raiz.getAttribute('data-delivery') || 'https://delivery.transporteexecutivo.com.br/';
+    const hrefObjetos = raiz.getAttribute('data-delivery') || 'https://delivery.transporteexecutivo.com/';
 
     const status = (msg) => {
         if (statusEl) statusEl.textContent = msg || '';

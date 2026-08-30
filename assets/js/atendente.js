@@ -8,7 +8,7 @@
     const atalhos = document.getElementById('chat-quick');
     if (!raiz || !painel || !thread || !form || !campo) return;
 
-    const hrefDelivery = raiz.getAttribute('data-delivery') || 'https://delivery.transporteexecutivo.com.br/';
+    const hrefDelivery = raiz.getAttribute('data-delivery') || 'https://delivery.transporteexecutivo.com/';
     let aberto = false;
     let origemFoco = null;
     let iniciado = false;
