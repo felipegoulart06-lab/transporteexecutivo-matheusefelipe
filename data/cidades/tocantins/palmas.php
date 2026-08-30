@@ -44,7 +44,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Lysias Rodrigues',
     'faq' => [
         ['pergunta' => 'O aeroporto de Palmas fica longe do Plano Diretor?', 'resposta' => 'É trecho urbano. Marcamos margem: a Teotônio Segurado e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no PMW se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no saguão faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no PMW se o voo atrasar?', 'resposta' => 'Sim. Em Palmas, o número do voo entra no roteiro e a espera no saguão faz parte do trecho.'],
         ['pergunta' => 'Dá para ir à Praia da Graciosa e ao Palácio no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. São recortes diferentes da cidade planejada; um motorista articula os dois.'],
         ['pergunta' => 'Vocês fazem o trecho até Taquaralto ou ao Jalapão?', 'resposta' => 'Taquaralto entra no recorte da capital. O Jalapão é viagem: horário e valor saem sob consulta, não como corrida urbana.'],
     ],

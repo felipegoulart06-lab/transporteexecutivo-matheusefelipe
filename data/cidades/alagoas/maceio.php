@@ -46,7 +46,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Zumbi dos Palmares',
     'faq' => [
         ['pergunta' => 'O aeroporto de Maceió fica na orla?', 'resposta' => 'Não. O MCZ fica em Rio Largo. O trecho até Pajuçara ou Ponta Verde entra no roteiro com margem.'],
-        ['pergunta' => 'O motorista espera no MCZ se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no MCZ se o voo atrasar?', 'resposta' => 'Sim. Em Maceió, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês buscam no hotel da Ponta Verde e levam ao Centro?', 'resposta' => 'Sim. Informe o nome do hotel e o prédio no Centro. A Av. da Paz e a Fernandes Lima pesam no horário.'],
         ['pergunta' => 'Dá para incluir a lagoa ou Marechal Deodoro no mesmo dia?', 'resposta' => 'Sim, quando o destino entra no roteiro. Não é o mesmo recorte da orla; o intervalo sai sob consulta.'],
     ],

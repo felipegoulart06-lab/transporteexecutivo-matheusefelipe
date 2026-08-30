@@ -26,7 +26,7 @@ return [
             'h2' => 'Pontos da cidade que a agenda blumenauense mais cita',
             'itens' => [
                 ['h3' => 'Centro e a Rua XV de Novembro', 'texto' => 'Hotéis (Slaviero, similar), sede e o calçamento. Informe o prédio; o Centro mistura comércio e pernoite em quadras curtas.'],
-                ['h3' => 'Vila Nova, Garcia e a zona industrial', 'texto' => 'Plantas e clínicas. Protocolo de portaria entra no roteiro junto com o horário do turno.'],
+                ['h3' => 'Vila Nova, Garcia e a zona industrial', 'texto' => 'Em Blumenau, plantas e clínicas. Protocolo de portaria entra no roteiro junto com o horário do turno.'],
                 ['h3' => 'Vorstadt, Velha e o Parque Vila Germânica', 'texto' => 'Evento e visita combinada. O recuo da Oktoberfest pede ponto de espera, não GPS no pavilhão.'],
                 ['h3' => 'Ponta Aguda e o Itajaí-Açu', 'texto' => 'Pernoite e jantar à beira do rio. Combinamos o acesso; a enchente e o pico mudam o intervalo.'],
             ],
@@ -47,9 +47,9 @@ return [
     'faq_h2' => 'Perguntas de quem pousa em Navegantes',
     'faq' => [
         ['pergunta' => 'O aeroporto de Blumenau fica na cidade?', 'resposta' => 'O voo comercial chega em Navegantes (NVT). O trecho até o Centro ou a Vila Nova entra no roteiro com margem para a BR-470.'],
-        ['pergunta' => 'O motorista espera no NVT se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Blumenau, o motorista espera no NVT se o voo atrasar?', 'resposta' => 'Sim. Em Blumenau, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem o Parque Vila Germânica no mesmo dia?', 'resposta' => 'Sim, quando o evento entra no roteiro. Combinamos o ponto de espera; o complexo não admite recuo improvisado.'],
-        ['pergunta' => 'Dá para seguir a Camboriú depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Dá para seguir a Camboriú depois do hotel?', 'resposta' => 'Sim. Em Blumenau, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o NVT ao hotel da Rua XV',

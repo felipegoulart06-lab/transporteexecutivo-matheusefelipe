@@ -44,14 +44,14 @@ return [
         'h2' => 'Três dados que evitam atraso na serra',
         'itens' => [
             ['num' => '01', 'titulo' => 'Bairro e prédio', 'texto' => 'São Pelegrino ou Centro. “Em Caxias” não define o recuo da portaria.'],
-            ['num' => '02', 'titulo' => 'Voo no CXJ', 'texto' => 'Número e horário. O carro sai com margem, não no minuto do check-in.'],
+            ['num' => '02', 'titulo' => 'Voo no CXJ', 'texto' => 'Em Caxias do Sul, número e horário. O carro sai com margem, não no minuto do check-in.'],
             ['num' => '03', 'titulo' => 'Gramado ou cidade', 'texto' => 'Visita à serra turística entra como viagem. O urbano é outro orçamento.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no Hugo Cantergiani',
     'faq' => [
         ['pergunta' => 'O aeroporto de Caxias fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: o desnível e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no CXJ se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no CXJ se o voo atrasar?', 'resposta' => 'Sim. Em Caxias do Sul, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem o Vale dos Vinhedos no mesmo dia?', 'resposta' => 'Sim, quando Bento Gonçalves entra no roteiro. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
         ['pergunta' => 'Dá para seguir a Gramado depois do hotel?', 'resposta' => 'Sim, como viagem pela RS-235. A serra turística não é a segunda corrida urbana.'],
     ],

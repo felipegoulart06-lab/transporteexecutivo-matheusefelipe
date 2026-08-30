@@ -27,7 +27,7 @@ return [
     'lateral' => [
         'h2' => 'Pontos que o pedido rondonopolitano mais cita',
         'itens' => [
-            ['h3' => 'Centro e a Fernando Corrêa', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e a Fernando Corrêa', 'texto' => 'Em Rondonópolis, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Vila Aurora e o Jardim Atlântico', 'texto' => 'Hotéis (Ibis, similares) e clínicas. “Na Aurora” não define o recuo da portaria.'],
             ['h3' => 'Maestro Marinho Franco — ROO', 'texto' => 'Terminal da cidade. Combinamos o voo. A espera no desembarque integra o trecho ROO.'],
         ],
@@ -39,7 +39,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Maestro Marinho',
     'faq' => [
         ['pergunta' => 'O aeroporto de Rondonópolis fica longe da Vila Aurora?', 'resposta' => 'É trecho urbano. Marcamos margem: a Fernando Corrêa e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no ROO se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no ROO se o voo atrasar?', 'resposta' => 'Sim. Em Rondonópolis, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Centro, Vila Aurora e o Distrito no mesmo dia?', 'resposta' => 'Sim. Informe o nome na portaria. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para seguir a Cuiabá depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-163. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],

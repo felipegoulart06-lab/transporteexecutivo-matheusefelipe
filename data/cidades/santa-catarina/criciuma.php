@@ -27,7 +27,7 @@ return [
     'lateral' => [
         'h2' => 'Pontos que o pedido criciumense mais cita',
         'itens' => [
-            ['h3' => 'Centro e a Centenário', 'texto' => 'Sede, hotel e o calçadão. Informe o número; a avenida muda de caráter a cada quadra.'],
+            ['h3' => 'Centro e a Centenário', 'texto' => 'Em Criciúma, sede, hotel e o calçadão. Informe o número; a avenida muda de caráter a cada quadra.'],
             ['h3' => 'Próspera, Pinheirinho e Santa Bárbara', 'texto' => 'Plantas, torres e o recorte residencial. Protocolo de portaria entra no roteiro junto com o turno.'],
             ['h3' => 'Aeroporto — CCM', 'texto' => 'Diomício Freitas, em Forquilhinha. Combinamos o voo. A espera no desembarque integra o trecho CCM.'],
         ],
@@ -39,8 +39,8 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Diomício Freitas',
     'faq' => [
         ['pergunta' => 'O aeroporto de Criciúma fica no município?', 'resposta' => 'O CCM fica em Forquilhinha, no recorte sul. O trecho até o Centro ou a Próspera entra no roteiro com margem para a via de acesso.'],
-        ['pergunta' => 'O motorista espera no CCM se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da Próspera não libera.'],
+        ['pergunta' => 'O motorista espera no CCM se o voo atrasar?', 'resposta' => 'Sim. Em Criciúma, o número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
+        ['pergunta' => 'Em Criciúma, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da Próspera não libera.'],
         ['pergunta' => 'Vocês fazem Centro, Próspera e Pinheirinho no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. São recortes diferentes; um motorista articula os três se a margem estiver no roteiro.'],
         ['pergunta' => 'Dá para seguir a Tubarão depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-101. Não é o mesmo recorte do Centro; o orçamento sai sob consulta.'],
     ],

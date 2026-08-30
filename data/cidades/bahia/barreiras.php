@@ -30,7 +30,7 @@ return [
         'itens' => [
             [
                 'h3' => 'Centro e a Barão do Rio Branco',
-                'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde e “no Centro” não define o recuo.',
+                'texto' => 'Em Barreiras, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde e “no Centro” não define o recuo.',
             ],
             [
                 'h3' => 'Renato Gonçalves',
@@ -64,7 +64,7 @@ return [
         'itens' => [
             [
                 'titulo' => 'BRA → hotel no Centro',
-                'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.',
+                'texto' => 'Em Barreiras, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.',
             ],
             [
                 'titulo' => 'Centro → Renato Gonçalves → planta',
@@ -89,7 +89,7 @@ return [
             ],
             [
                 'titulo' => 'Confirmação',
-                'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.',
+                'texto' => 'Em Barreiras, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.',
             ],
         ],
     ],
@@ -101,19 +101,19 @@ return [
         ],
         [
             'pergunta' => 'O motorista espera no BRA se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
+            'resposta' => 'Sim. Em Barreiras, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Renato Gonçalves e a planta no mesmo dia?',
             'resposta' => 'Sim. Informe a ordem e o nome na portaria. Um carro articula cidade e cancela agroindustrial.',
         ],
         [
-            'pergunta' => 'Dá para seguir a Salvador depois da reunião no Centro?',
+            'pergunta' => 'Em Barreiras, dá para seguir a Salvador depois da reunião no Centro?',
             'resposta' => 'Sim, como viagem pela BR-242. Não é o mesmo recorte urbano; o horário sai sob consulta.',
         ],
         [
-            'pergunta' => 'A portaria da soja exige lista?',
-            'resposta' => 'Em geral, sim. Envie o nome e o documento pedido. Sem isso, a cancela não libera. O orçamento sai sob consulta.',
+            'pergunta' => 'Em Barreiras, a portaria da soja exige lista?',
+            'resposta' => 'Em Barreiras, em geral, sim. Envie o nome e o documento pedido. Sem isso, a cancela não libera. O orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

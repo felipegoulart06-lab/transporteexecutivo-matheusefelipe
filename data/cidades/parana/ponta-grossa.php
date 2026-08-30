@@ -26,7 +26,7 @@ return [
         [
             'h2' => 'Quadrantes onde o embarque ponta-grossense mais se concentra',
             'itens' => [
-                ['h3' => 'Centro e a Vicente Machado', 'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+                ['h3' => 'Centro e a Vicente Machado', 'texto' => 'Em Ponta Grossa, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
                 ['h3' => 'Oficinas e Nova Rússia', 'texto' => 'Hotéis e torres. “Nas Oficinas” não define o recuo da portaria nem o quarteirão da República.'],
                 ['h3' => 'Uvaranas e o campus da UEPG', 'texto' => 'Pauta acadêmica e o recinto universitário. O recuo pede bloco e portaria, não “na universidade”.'],
                 ['h3' => 'Quando a pauta aponta para o CWB', 'texto' => 'O voo comercial sai do Afonso Pena, em São José dos Pinhais: BR-376 até o contorno e BR-277 até o terminal. O PGZ não substitui essa janela.'],
@@ -45,10 +45,10 @@ return [
     'faq_h2' => 'Perguntas de quem usa o CWB a partir de Ponta Grossa',
     'faq' => [
         ['pergunta' => 'O aeroporto Sant\'Ana (PGZ) tem voo comercial?', 'resposta' => 'Não há linha regular desde março de 2025. O terminal prático é o Afonso Pena (CWB), pela BR-376 e pela BR-277. O PGZ entra só como campo local, se a pauta pedir.'],
-        ['pergunta' => 'O motorista espera no CWB se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Ponta Grossa, o motorista espera no CWB se o voo atrasar?', 'resposta' => 'Sim. Em Ponta Grossa, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Centro, Oficinas e a UEPG no mesmo dia?', 'resposta' => 'Sim. Informe o bloco e a ordem. Um motorista articula os três recuos se a margem estiver no roteiro.'],
         ['pergunta' => 'Dá para seguir a Curitiba depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-376. Não é o mesmo recorte das Oficinas; o horário sai sob consulta.'],
-        ['pergunta' => 'Vocês entram na cooperativa com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
+        ['pergunta' => 'Em Ponta Grossa, vocês entram na cooperativa com protocolo de portaria?', 'resposta' => 'Sim. Em Ponta Grossa, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
     ],
     'cta' => [
         'titulo' => 'Junte as Oficinas ao horário do CWB',

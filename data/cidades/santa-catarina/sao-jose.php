@@ -38,17 +38,17 @@ return [
         ],
     ],
     'protocolo' => [
-        'h2' => 'O que pedimos para acertar o embarque no continente',
+        'h2' => 'O que pedimos para acertar o embarque no Kobrasol e no Campinas',
         'lista' => [
             'Hotel com nome — Kobrasol ou Campinas não bastam para o recuo.',
-            'Se o voo é no FLN, número e horário. A margem sai da ponte, não do bairro.',
+            'Se o voo é no FLN, número e horário. Do Kobrasol, a margem sai da ponte até Carianos — não do eixo da Superintendência.',
             'Confirme São José (SC): Campinas é bairro da Grande Florianópolis, não a cidade paulista.',
         ],
     ],
     'faq_h2' => 'Dúvidas de quem embarca em São José rumo ao FLN',
     'faq' => [
         ['pergunta' => 'São José fica na ilha de Florianópolis?', 'resposta' => 'Não. São José é o continente da Grande Florianópolis. O Hercílio Luz fica na ilha; o trecho até o Kobrasol ou o Campinas entra no roteiro com margem para a ponte.'],
-        ['pergunta' => 'O motorista espera no FLN se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em São José, o motorista espera no FLN se o voo atrasar?', 'resposta' => 'Sim. Monitoramos o voo no FLN; a espera em Carianos integra o trecho até o Kobrasol ou o Campinas.'],
         ['pergunta' => 'Campinas é a cidade de São Paulo?', 'resposta' => 'Não. Aqui Campinas é bairro de São José (SC). Informe rua e número; o autocomplete costuma puxar o município paulista.'],
         ['pergunta' => 'Vocês fazem Kobrasol, Barreiros e o FLN no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A ponte pede margem própria; um motorista articula os três se o voo estiver no roteiro.'],
         ['pergunta' => 'Dá para seguir a Itajaí depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-101. Não é o mesmo recorte do Kobrasol; o horário sai sob consulta.'],

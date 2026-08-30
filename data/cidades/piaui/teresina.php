@@ -44,7 +44,7 @@ return [
     'rotas' => [
         'h2' => 'Trajetos que a agenda teresinense mais pede',
         'itens' => [
-            ['titulo' => 'THE → hotel no Jóquei', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'THE → hotel no Jóquei', 'texto' => 'Em Teresina, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
             ['titulo' => 'Jóquei → Centro → Parque da Cidadania', 'texto' => 'Reunião, palácio e um intervalo só se estiver no roteiro. Um motorista cobre os três.'],
             ['titulo' => 'Hotel → Timon ou Parnaíba no mesmo dia', 'texto' => 'Ponte ou litoral. Não é o recorte urbano do Centro; o horário sai sob consulta.'],
         ],
@@ -54,15 +54,15 @@ return [
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Jóquei, Centro ou Fátima. Autocomplete não resolve avenida com dois acessos.'],
             ['titulo' => 'Hotel ou THE', 'texto' => 'Diga se o embarque é o Petrônio Portella ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Teresina, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no Petrônio Portella',
     'faq' => [
         ['pergunta' => 'O aeroporto de Teresina fica longe do Jóquei?', 'resposta' => 'É trecho urbano. Marcamos margem: a Frei Serafim e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no THE se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no THE se o voo atrasar?', 'resposta' => 'Sim. Em Teresina, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês cruzam a ponte rumo a Timon?', 'resposta' => 'Sim. Informe o endereço em Timon. São dois municípios; o recuo muda no outro lado do Parnaíba.'],
-        ['pergunta' => 'Dá para seguir a Parnaíba ou ao Delta depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o orçamento sai sob consulta.'],
+        ['pergunta' => 'Dá para seguir a Parnaíba ou ao Delta depois do hotel?', 'resposta' => 'Sim. Em Teresina, como viagem. Não é o mesmo recorte do Centro; o orçamento sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o Jóquei ao horário do Petrônio Portella',

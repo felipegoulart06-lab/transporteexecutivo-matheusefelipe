@@ -28,7 +28,7 @@ return [
     'bairros' => [
         'h2' => 'Eixos da cidade onde o embarque mais se concentra',
         'itens' => [
-            ['h3' => 'Centro e a Nelson D\'Ávila', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e a Nelson D\'Ávila', 'texto' => 'Em São José dos Campos, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Jardim Aquarius e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da Dutra urbana.'],
             ['h3' => 'Vista Verde e o Parque Tecnológico', 'texto' => 'Planta e campus. Protocolo de portaria entra no roteiro junto com o horário da reunião.'],
             ['h3' => 'Urbanova e o sul', 'texto' => 'Pauta residencial e jantar. O recuo pede rua e número; “no Urbanova” não basta.'],
@@ -44,7 +44,7 @@ return [
     'rotas' => [
         'h2' => 'Trajetos que a agenda joseense mais pede',
         'itens' => [
-            ['titulo' => 'SJK → hotel no Aquarius', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'SJK → hotel no Aquarius', 'texto' => 'Em São José dos Campos, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
             ['titulo' => 'Aquarius → planta → Centro', 'texto' => 'Reunião, portaria e sede. Um motorista cobre os três se a ordem já estiver no roteiro.'],
             ['titulo' => 'Hotel → Taubaté ou à capital', 'texto' => 'Quando a pauta sai pela Dutra, o trecho deixa de ser só urbano. Horário sob consulta.'],
         ],
@@ -53,16 +53,16 @@ return [
         'h2' => 'Como o carro entra na grade em São José',
         'passos' => [
             ['titulo' => 'Jardim e número', 'texto' => 'Aquarius, Centro ou Vista Verde. Autocomplete não resolve condomínio com dois acessos.'],
-            ['titulo' => 'Hotel ou SJK', 'texto' => 'Diga se o embarque é o aeroporto ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Hotel ou SJK', 'texto' => 'Em São José dos Campos, diga se o embarque é o aeroporto ou a portaria do hotel.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em São José dos Campos, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no SJK',
     'faq' => [
         ['pergunta' => 'O aeroporto de São José fica longe do Aquarius?', 'resposta' => 'É trecho urbano. Marcamos margem: a Dutra urbana e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no SJK se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
-        ['pergunta' => 'Dá para seguir a São Paulo depois da reunião?', 'resposta' => 'Sim, como viagem pela Dutra. Não é o mesmo recorte do Aquarius; o horário sai sob consulta.'],
+        ['pergunta' => 'Em São José dos Campos, o motorista espera no SJK se o voo atrasar?', 'resposta' => 'Sim. Em São José dos Campos, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em São José dos Campos, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Em São José dos Campos, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
+        ['pergunta' => 'Em São José dos Campos, dá para seguir a São Paulo depois da reunião?', 'resposta' => 'Sim, como viagem pela Dutra. Não é o mesmo recorte do Aquarius; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o Aquarius ao horário do SJK',

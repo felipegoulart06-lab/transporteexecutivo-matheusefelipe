@@ -42,8 +42,8 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Eduardo Gomes',
     'faq' => [
         ['pergunta' => 'O aeroporto de Manaus fica longe de Adrianópolis?', 'resposta' => 'É trecho urbano, sujeito a chuva e a pico. Marcamos margem; não prometemos o minuto do mapa.'],
-        ['pergunta' => 'O motorista espera no MAO se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram no Distrito Industrial com protocolo?', 'resposta' => 'Sim. Envie o nome na lista e o documento da portaria. Sem isso, o recuo da planta não libera.'],
+        ['pergunta' => 'O motorista espera no MAO se o voo atrasar?', 'resposta' => 'Sim. Em Manaus, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Manaus, vocês entram no Distrito Industrial com protocolo?', 'resposta' => 'Sim. Envie o nome na lista e o documento da portaria. Sem isso, o recuo da planta não libera.'],
         ['pergunta' => 'Dá para fazer Ponta Negra, Centro e o aeroporto no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A ponte e o temporal da tarde pesam mais que a distância no mapa.'],
     ],
     'cta' => [

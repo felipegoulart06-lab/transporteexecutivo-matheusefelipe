@@ -54,7 +54,7 @@ return [
         'passos' => [
             ['titulo' => 'Endereço exato', 'texto' => 'Rua, número e complemento. Autocomplete não resolve torre com dois acessos.'],
             ['titulo' => 'Tipo de janela', 'texto' => 'Ida, ida e volta ou hora à disposição. Isso define espera e veículo.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em São Paulo, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem reúne ou voa na capital',

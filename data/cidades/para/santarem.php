@@ -42,8 +42,8 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Wilson Fonseca',
     'faq' => [
         ['pergunta' => 'O aeroporto de Santarém fica longe da Aldeia?', 'resposta' => 'É trecho urbano. Marcamos margem: a Tapajós e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no STM se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, Aldeia e o porto no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um motorista articula os três recuos.'],
+        ['pergunta' => 'O motorista espera no STM se o voo atrasar?', 'resposta' => 'Sim. Em Santarém, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Centro, Aldeia e o porto no mesmo dia?', 'resposta' => 'Sim. Em Santarém, informe a ordem. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para ir a Alter do Chão depois do hotel?', 'resposta' => 'Sim, como visita pela PA-457. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [

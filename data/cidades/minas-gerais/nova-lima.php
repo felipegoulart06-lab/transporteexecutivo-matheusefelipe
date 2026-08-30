@@ -55,8 +55,8 @@ return [
     'faq' => [
         ['pergunta' => 'Vila da Serra é bairro de Belo Horizonte?', 'resposta' => 'Não. Vila da Serra fica em Nova Lima. Informe o município e o portão; o pin que o app cola em BH atrasa o recuo.'],
         ['pergunta' => 'O motorista vai a Confins a partir de Nova Lima?', 'resposta' => 'Sim, quando o CNF entra no roteiro. A MG-010 pede margem; não é o mesmo intervalo da Savassi.'],
-        ['pergunta' => 'Vocês entram na área da mina com protocolo?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Olhos d\'Água, o Centro e Vila da Serra cabem no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o número. Os três recuos não se trocam no cartaz; um motorista articula se a margem estiver no roteiro.'],
+        ['pergunta' => 'Vocês entram na área da mina com protocolo?', 'resposta' => 'Sim. Em Nova Lima, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
+        ['pergunta' => 'Olhos d\'Água, o Centro e Vila da Serra cabem no mesmo dia?', 'resposta' => 'Sim. Em Nova Lima, informe a ordem e o número. Os três recuos não se trocam no cartaz; um motorista articula se a margem estiver no roteiro.'],
         ['pergunta' => 'Dá para ir à Savassi e voltar a Vila da Serra no mesmo expediente?', 'resposta' => 'Sim, quando a capital entra no pedido. Não é o mesmo recorte de Nova Lima; o horário sai sob consulta.'],
     ],
     'cta' => [

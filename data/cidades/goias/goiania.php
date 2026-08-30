@@ -44,7 +44,7 @@ return [
     'rotas' => [
         'h2' => 'Trajetos que a agenda goianiense mais pede',
         'itens' => [
-            ['titulo' => 'GYN → hotel no Bueno', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'GYN → hotel no Bueno', 'texto' => 'Em Goiânia, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
             ['titulo' => 'Bueno → Marista → Parque Flamboyant', 'texto' => 'Reunião, clínica e um intervalo só se estiver no roteiro. Um motorista cobre os três.'],
             ['titulo' => 'Hotel → Anápolis no mesmo dia', 'texto' => 'Quando a planta farmacêutica entra na pauta, o trecho deixa de ser urbano. Horário sob consulta.'],
         ],
@@ -54,13 +54,13 @@ return [
         'passos' => [
             ['titulo' => 'Setor e número', 'texto' => 'Bueno, Marista ou Oeste. Autocomplete não resolve quadra com dois acessos.'],
             ['titulo' => 'Hotel ou GYN', 'texto' => 'Diga se o embarque é o Santa Genoveva ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Goiânia, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no Santa Genoveva',
     'faq' => [
         ['pergunta' => 'O aeroporto de Goiânia fica longe do Bueno?', 'resposta' => 'É trecho urbano pela Anhanguera. Marcamos margem; o pico da T-63 altera o intervalo.'],
-        ['pergunta' => 'O motorista espera no GYN se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Goiânia, o motorista espera no GYN se o voo atrasar?', 'resposta' => 'Sim. Em Goiânia, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Bueno, Marista e o Flamboyant no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um carro à disposição evita três aceites entre as T-avenidas.'],
         ['pergunta' => 'Dá para seguir a Anápolis depois do hotel?', 'resposta' => 'Sim, quando Anápolis entra no roteiro. Não é o mesmo recorte do Setor Bueno.'],
     ],

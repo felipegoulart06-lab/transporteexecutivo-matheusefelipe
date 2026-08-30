@@ -40,8 +40,8 @@ return [
     'faq' => [
         ['pergunta' => 'Toledo tem aeroporto comercial próprio?', 'resposta' => 'O TOW (Luiz Dalcanale Filho) fica no município. Quando não houver linha útil, o terminal prático é o CAC, em Cascavel, pela BR-163. Informe o voo; o recorte muda.'],
         ['pergunta' => 'Cascavel substitui o recuo de Toledo?', 'resposta' => 'Não. São municípios distintos. O atalho do app até o Country ou o CAC não entrega o Coopagro nem a Vila Becker.'],
-        ['pergunta' => 'Vocês entram na cooperativa com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo do agro não libera.'],
-        ['pergunta' => 'Vocês fazem Centro, Coopagro e Vila Becker no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os três recuos se a margem estiver no roteiro.'],
+        ['pergunta' => 'Em Toledo, vocês entram na cooperativa com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo do agro não libera.'],
+        ['pergunta' => 'Vocês fazem Centro, Coopagro e Vila Becker no mesmo dia?', 'resposta' => 'Sim. Em Toledo, informe a ordem e o nome do hotel. Um motorista articula os três recuos se a margem estiver no roteiro.'],
         ['pergunta' => 'Dá para seguir a Foz do Iguaçu depois da reunião?', 'resposta' => 'Sim, como viagem pelo oeste. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [

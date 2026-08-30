@@ -45,10 +45,10 @@ return [
     ],
     'faq_h2' => 'Perguntas de quem pousa no Leite Lopes',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Ribeirão Preto fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a Independência e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no RAO se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O aeroporto de Ribeirão Preto fica longe do Centro?', 'resposta' => 'Em Ribeirão Preto, é trecho urbano. Marcamos margem: a Independência e o horário de pico alteram o intervalo.'],
+        ['pergunta' => 'O motorista espera no RAO se o voo atrasar?', 'resposta' => 'Sim. Em Ribeirão Preto, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem hospital, Centro e a USP no mesmo dia?', 'resposta' => 'Sim. Informe a unidade e o bloco. Um motorista à disposição evita três aceites na Ribeirânia.'],
-        ['pergunta' => 'Dá para incluir Sertãozinho depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Dá para incluir Sertãozinho depois do hotel?', 'resposta' => 'Sim. Em Ribeirão Preto, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Una o Jardim ao horário do Leite Lopes',

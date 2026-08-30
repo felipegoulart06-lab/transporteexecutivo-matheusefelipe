@@ -58,8 +58,8 @@ return [
             'resposta' => 'Sim. O Luís Eduardo Magalhães (SSA) está neste município, não no perímetro da capital. Ipitanga e Vilas do Atlântico chegam ao terminal em trecho urbano.',
         ],
         [
-            'pergunta' => 'O motorista espera no SSA se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.',
+            'pergunta' => 'Em Lauro de Freitas, o motorista espera no SSA se o voo atrasar?',
+            'resposta' => 'Sim. Em Lauro de Freitas, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês fazem Ipitanga, Vilas do Atlântico e o Portão no mesmo dia?',
@@ -71,7 +71,7 @@ return [
         ],
         [
             'pergunta' => 'O hotel em Vilas do Atlântico é ponto conveniado?',
-            'resposta' => 'Não. O hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
+            'resposta' => 'Não. Em Lauro de Freitas, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

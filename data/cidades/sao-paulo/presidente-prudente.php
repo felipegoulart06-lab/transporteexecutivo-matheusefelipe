@@ -45,7 +45,7 @@ return [
         'h2' => 'Trajetos que a agenda prudentina mais pede',
         'itens' => [
             ['titulo' => 'PPB → hotel no Jardim das Rosas', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante. O terminal não fica na porta do Centro.'],
-            ['titulo' => 'Rosas → Centro → Unoeste', 'texto' => 'Reunião, sede e campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
+            ['titulo' => 'Rosas → Centro → Unoeste', 'texto' => 'Em Presidente Prudente, reunião, sede e campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
             ['titulo' => 'Hotel → Rio Preto ou Bauru', 'texto' => 'Quando a pauta sai pelo oeste ou pela Rondon, o trecho deixa de ser só urbano. Horário sob consulta.'],
         ],
     ],
@@ -54,14 +54,14 @@ return [
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Centro, Jardim das Rosas, Cecap ou Vila Euclides. Autocomplete não resolve condomínio com dois acessos.'],
             ['titulo' => 'Hotel ou PPB', 'texto' => 'Diga se o embarque é o hotel ou o Adhemar de Barros. O número do voo entra no roteiro.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Presidente Prudente, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no PPB',
     'faq' => [
         ['pergunta' => 'O aeroporto de Presidente Prudente fica longe do Centro?', 'resposta' => 'O PPB é trecho urbano com margem. Marcamos o intervalo a partir do Jardim das Rosas ou do Centro; o pico da Washington Luiz altera o relógio.'],
         ['pergunta' => 'O motorista espera no PPB se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho Adhemar de Barros.'],
-        ['pergunta' => 'Vocês fazem Centro, Jardim das Rosas e a Unoeste no mesmo dia?', 'resposta' => 'Sim. Informe a ordem, o bloco do campus e o documento da portaria. Um motorista articula os três recuos.'],
+        ['pergunta' => 'Vocês fazem Centro, Jardim das Rosas e a Unoeste no mesmo dia?', 'resposta' => 'Sim. Em Presidente Prudente, informe a ordem, o bloco do campus e o documento da portaria. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para seguir a São José do Rio Preto ou a Bauru depois da reunião?', 'resposta' => 'Sim, como viagem pela Raposo Tavares ou pela Rondon. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
         ['pergunta' => 'O carro cobre pauta de agronegócio fora da malha urbana?', 'resposta' => 'Sim, quando a fazenda ou o escritório entra no roteiro. Informe o ponto de espera; o GPS no Centro não resolve o acesso rural.'],
     ],

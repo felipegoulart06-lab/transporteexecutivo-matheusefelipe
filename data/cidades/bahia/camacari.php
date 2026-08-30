@@ -26,7 +26,7 @@ return [
         [
             'h2' => 'Quadrantes onde o embarque camaçariense mais se concentra',
             'itens' => [
-                ['h3' => 'Centro e a do Canal', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+                ['h3' => 'Centro e a do Canal', 'texto' => 'Em Camaçari, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
                 ['h3' => 'Polo Industrial de Camaçari', 'texto' => 'Plantas e logística. Nome na lista e documento; sem isso, a cancela não libera.'],
                 ['h3' => 'Abrantes, Jauá e Arembepe', 'texto' => 'Hotéis de orla e visita combinada. “Na praia” não distingue Arembepe de Guarajuba.'],
                 ['h3' => 'Quando a pauta aponta para o SSA', 'texto' => 'A Paralela e a BA-099 pesam mais que o mapa. Combinamos o voo.'],
@@ -38,16 +38,16 @@ return [
         'itens' => [
             ['titulo' => 'Hotel no Centro → Polo', 'texto' => 'Pauta na planta. Envie o nome na portaria e o documento pedido.'],
             ['titulo' => 'Camaçari → SSA', 'texto' => 'O aeroporto de Salvador não fica na porta do Polo. Combinamos o voo e a margem da Paralela.'],
-            ['titulo' => 'Centro → Arembepe', 'texto' => 'Visita à orla só se estiver no roteiro. O recuo da praia pede ponto de espera.'],
+            ['titulo' => 'Centro → Arembepe', 'texto' => 'Em Camaçari, visita à orla só se estiver no roteiro. O recuo da praia pede ponto de espera.'],
             ['titulo' => 'Hotel → Lauro de Freitas ou Salvador', 'texto' => 'Quando a pauta vaza pela Estrada do Coco, o recorte deixa de ser só urbano.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pauta o Polo e a orla',
     'faq' => [
         ['pergunta' => 'O motorista vai ao SSA a partir de Camaçari?', 'resposta' => 'Sim, quando o SSA entra no roteiro. A Paralela pede margem; não é corrida instantânea do Polo.'],
-        ['pergunta' => 'Vocês entram no Polo com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
+        ['pergunta' => 'Vocês entram no Polo com protocolo de portaria?', 'resposta' => 'Sim. Em Camaçari, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
         ['pergunta' => 'Dá para ir a Arembepe e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim, quando a orla entra no roteiro. Não é o mesmo recorte do Polo; o horário sai sob consulta.'],
-        ['pergunta' => 'O motorista espera no SSA se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. A espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Camaçari, o motorista espera no SSA se o voo atrasar?', 'resposta' => 'Sim. Acompanhamos o SSA com o número do voo; a espera no Luís Eduardo Magalhães integra o trecho pela Paralela ou BA-099.'],
     ],
     'cta' => [
         'titulo' => 'Junte o Polo ao horário do SSA',

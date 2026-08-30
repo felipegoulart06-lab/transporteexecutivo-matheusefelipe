@@ -40,7 +40,7 @@ function validar_links(): array
     }
 
     $base = rtrim((string) config('url'), '/');
-    $urls = [url_site(), url_site('transporte-executivo/'), url_site('sitemap.php')];
+    $urls = [url_site(), url_site('transporte-executivo/'), url_site('sitemap.xml')];
     foreach (array_keys(catalogo()) as $slug) {
         $urls[] = url_estado($slug);
     }
@@ -59,7 +59,7 @@ function validar_links(): array
     }
     if ($httpOk) {
         relatorio_info($r, 'http', count($urls) . ' URLs respondendo');
-        $quebrada = http_local($base . '/pagina-inexistente-nero-teste');
+        $quebrada = http_local($base . '/pagina-inexistente-auditoria-teste');
         if ($quebrada !== 404 && $quebrada !== null) {
             relatorio_aviso($r, 'http', 'URL inexistente retornou ' . $quebrada . ' (esperado 404)');
         }

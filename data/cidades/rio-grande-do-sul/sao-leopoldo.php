@@ -43,7 +43,7 @@ return [
     'faq' => [
         ['pergunta' => 'O aeroporto de Porto Alegre fica em São Leopoldo?', 'resposta' => 'Não. O POA fica na capital. O trecho até o Centro ou o campus entra no roteiro com margem para a BR-116.'],
         ['pergunta' => 'O recuo da Unisinos pede bloco e portaria?', 'resposta' => 'Sim. Informe o prédio e o acesso. “Na universidade” não coloca o carro na cancela certa.'],
-        ['pergunta' => 'Vocês fazem Centro, São João e a Unisinos no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os três recuos se a margem estiver no roteiro.'],
+        ['pergunta' => 'Vocês fazem Centro, São João e a Unisinos no mesmo dia?', 'resposta' => 'Sim. Em São Leopoldo, informe a ordem e o nome do hotel. Um motorista articula os três recuos se a margem estiver no roteiro.'],
         ['pergunta' => 'Dá para seguir a Novo Hamburgo depois do campus?', 'resposta' => 'Sim, quando o vale entra no roteiro. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
         ['pergunta' => 'São Leopoldo se trata como bairro de Porto Alegre?', 'resposta' => 'Não. É município do Vale dos Sinos. A 116 liga; o recuo, o hotel e o campus permanecem locais. O orçamento sai sob consulta.'],
     ],

@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-protocolo">
     <div class="lp-protocolo__rule" aria-hidden="true"></div>
@@ -14,7 +13,7 @@ $img = url_site(url_imagem($c['imagem'], 'jpg'));
         <p class="lp-protocolo__pre"><?= e($c['preambulo']) ?></p>
     </header>
     <figure class="lp-protocolo__fig">
-        <img src="<?= e($img) ?>" alt="<?= e($c['seo']['og_image_alt']) ?>" width="1600" height="900" fetchpriority="high" decoding="async">
+        <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt'], '(max-width: 820px) calc(100vw - 40px), 820px') ?>
     </figure>
     <article class="lp-protocolo__art">
         <?php foreach ($c['artigos'] as $art): ?>

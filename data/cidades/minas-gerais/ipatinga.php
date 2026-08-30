@@ -44,15 +44,15 @@ return [
         'h2' => 'Três dados que evitam atraso no Vale do Aço',
         'itens' => [
             ['num' => '01', 'titulo' => 'Bairro e prédio', 'texto' => 'Horto ou Centro. “Em Ipatinga” não define o recuo.'],
-            ['num' => '02', 'titulo' => 'Voo no IPN', 'texto' => 'Número e horário. O carro sai com margem, não no minuto do check-in.'],
+            ['num' => '02', 'titulo' => 'Voo no IPN', 'texto' => 'Em Ipatinga, número e horário. O carro sai com margem, não no minuto do check-in.'],
             ['num' => '03', 'titulo' => 'Usina ou cidade', 'texto' => 'A portaria da Usiminas pede nome na lista. O urbano é outro recuo.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no Usiminas',
     'faq' => [
         ['pergunta' => 'O aeroporto de Ipatinga fica na cidade?', 'resposta' => 'O IPN fica em Santana do Paraíso. O trecho até o Horto entra no roteiro com margem.'],
-        ['pergunta' => 'O motorista espera no IPN se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na usina com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
+        ['pergunta' => 'O motorista espera no IPN se o voo atrasar?', 'resposta' => 'Sim. Em Ipatinga, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês entram na usina com protocolo de portaria?', 'resposta' => 'Sim. Em Ipatinga, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
         ['pergunta' => 'Dá para seguir a Governador Valadares depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-381. Não é o mesmo recorte do Horto; o horário sai sob consulta.'],
     ],
     'cta' => [

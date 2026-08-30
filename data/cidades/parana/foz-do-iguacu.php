@@ -47,7 +47,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no IGU',
     'faq' => [
         ['pergunta' => 'O aeroporto de Foz fica longe das Cataratas?', 'resposta' => 'O IGU fica no eixo da BR-469, no caminho do parque. Ainda assim marcamos margem: o horário de visitação e o fluxo do complexo alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no IGU se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no IGU se o voo atrasar?', 'resposta' => 'Sim. Em Foz do Iguaçu, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês entram no Parque Nacional e na Itaipu?', 'resposta' => 'Levamos até o recuo de cada complexo. Ingresso e protocolo da usina são do passageiro; o carro espera onde combinado.'],
         ['pergunta' => 'Dá para cruzar a Ponte da Amizade no mesmo dia?', 'resposta' => 'Sim, quando Ciudad del Este entra no roteiro. Não é o mesmo recorte do Centro; documentos e horário saem sob consulta.'],
     ],

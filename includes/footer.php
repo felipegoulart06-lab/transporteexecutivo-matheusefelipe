@@ -27,6 +27,6 @@ $grupos = estados_por_regiao();
         <p class="copy">© <?= date('Y') ?> <?= e((string) config('nome')) ?>. Todos os direitos reservados.</p>
     </footer>
 <?php endif; ?>
-    <script src="<?= e(url_site('assets/js/app.js')) ?>" defer></script>
+    <script src="<?= e(url_site('assets/js/app.min.js')) ?>" defer></script>
 </body>
 </html>

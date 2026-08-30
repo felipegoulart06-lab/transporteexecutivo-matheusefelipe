@@ -6,5 +6,6 @@ Disallow: /includes/
 Disallow: /templates/
 Disallow: /tools/
 Disallow: /docs/
+Disallow: /api/
 
-Sitemap: /sitemap.xml
+Sitemap: https://www.transporteexecutivo.com/sitemap.xml

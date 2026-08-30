@@ -89,7 +89,7 @@ return [
             ],
             [
                 'titulo' => 'Confirmação',
-                'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.',
+                'texto' => 'Em Aparecida de Goiânia, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.',
             ],
         ],
     ],
@@ -100,12 +100,12 @@ return [
             'resposta' => 'O voo comercial sai pelo Santa Genoveva, em Goiânia. O trecho até o Polo entra no roteiro com margem para a BR-153 e a Anhanguera.',
         ],
         [
-            'pergunta' => 'O motorista espera no GYN se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
+            'pergunta' => 'Em Aparecida de Goiânia, o motorista espera no GYN se o voo atrasar?',
+            'resposta' => 'Sim. Em Aparecida de Goiânia, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês entram no Polo Empresarial com protocolo de portaria?',
-            'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.',
+            'resposta' => 'Sim. Em Aparecida de Goiânia, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.',
         ],
         [
             'pergunta' => 'Dá para ir ao Setor Bueno depois do hotel no Veiga Jardim?',

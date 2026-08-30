@@ -29,7 +29,7 @@ return [
         'itens' => [
             [
                 'h3' => 'Centro e a Jamel Cecílio',
-                'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde e “no Centro” não define o recuo.',
+                'texto' => 'Em Rio Verde, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde e “no Centro” não define o recuo.',
             ],
             [
                 'h3' => 'Popular, Solar e a UniRV',
@@ -53,11 +53,11 @@ return [
         ],
         [
             'pergunta' => 'O motorista espera no RVD se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.',
+            'resposta' => 'Sim. Em Rio Verde, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Popular e a UniRV no mesmo dia?',
-            'resposta' => 'Sim. Informe o bloco do campus e o nome do hotel. Um motorista articula os três recuos.',
+            'resposta' => 'Sim. Em Rio Verde, informe o bloco do campus e o nome do hotel. Um motorista articula os três recuos.',
         ],
         [
             'pergunta' => 'Dá para seguir a Goiânia depois da reunião na planta?',
@@ -65,7 +65,7 @@ return [
         ],
         [
             'pergunta' => 'A portaria do polo de grãos exige lista?',
-            'resposta' => 'Em geral, sim. Envie o nome e o documento pedido. Sem isso, a cancela não libera. O orçamento sai sob consulta.',
+            'resposta' => 'Em Rio Verde, em geral, sim. Envie o nome e o documento pedido. Sem isso, a cancela não libera. O orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

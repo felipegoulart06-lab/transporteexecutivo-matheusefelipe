@@ -70,8 +70,8 @@ return [
             'resposta' => 'Sim, quando Feira entra no roteiro. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
         ],
         [
-            'pergunta' => 'O hotel no Centro é ponto conveniado?',
-            'resposta' => 'Não. O hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
+            'pergunta' => 'Em Alagoinhas, o hotel no Centro é ponto conveniado?',
+            'resposta' => 'Não. Em Alagoinhas, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

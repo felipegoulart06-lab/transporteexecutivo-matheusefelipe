@@ -26,7 +26,7 @@ return [
         [
             'h2' => 'Quadrantes onde o embarque brusquense mais se concentra',
             'itens' => [
-                ['h3' => 'Centro e a Rodrigues Alves', 'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+                ['h3' => 'Centro e a Rodrigues Alves', 'texto' => 'Em Brusque, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
                 ['h3' => 'Santa Terezinha', 'texto' => 'Pauta residencial e o eixo interno. “Na Terezinha” não define o recuo da portaria nem o quarteirão.'],
                 ['h3' => 'Plantas têxteis e a cancela', 'texto' => 'Portaria e turno. Envie o nome na lista e o documento pedido; sem isso, o recuo da fábrica não libera.'],
                 ['h3' => 'Quando a pauta aponta para o NVT', 'texto' => 'O terminal fica em Navegantes, não em Brusque. Combinamos o voo. A SC-486 e o recorte até Itajaí pesam mais que o mapa admite no pico.'],
@@ -46,8 +46,8 @@ return [
     'faq' => [
         ['pergunta' => 'Brusque tem aeroporto comercial?', 'resposta' => 'O voo prático é o NVT, em Navegantes. O trecho até o Centro ou a planta entra no roteiro com margem para a SC-486 — não é o mesmo recuo da cancela.'],
         ['pergunta' => 'Vocês entram na planta têxtil com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da fábrica não libera.'],
-        ['pergunta' => 'Vocês fazem Centro, Santa Terezinha e a planta no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um motorista articula os três recuos se a margem estiver no roteiro.'],
-        ['pergunta' => 'Dá para seguir a Blumenau depois do hotel?', 'resposta' => 'Sim, como viagem pelo vale. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Vocês fazem Centro, Santa Terezinha e a planta no mesmo dia?', 'resposta' => 'Sim. Em Brusque, informe a ordem. Um motorista articula os três recuos se a margem estiver no roteiro.'],
+        ['pergunta' => 'Em Brusque, dá para seguir a Blumenau depois do hotel?', 'resposta' => 'Sim, como viagem pelo vale. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
         ['pergunta' => 'Itajaí e o porto entram no mesmo pedido?', 'resposta' => 'Entram quando o cais está no roteiro. Não é extensão automática da planta; o orçamento sai à parte.'],
     ],
     'cta' => [

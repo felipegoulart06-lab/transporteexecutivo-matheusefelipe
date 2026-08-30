@@ -53,7 +53,7 @@ return [
         ['pergunta' => 'O vale dos vinhedos entra automaticamente no traslado?', 'resposta' => 'Não. A visita só entra se estiver no roteiro. Informe a vinícola e o horário; sem isso, o recuo permanece na Cidade Alta ou na Juventude.'],
         ['pergunta' => 'Bento Gonçalves tem aeroporto comercial?', 'resposta' => 'O voo prático costuma ser o CXJ, em Caxias do Sul, pela RS-122, ou o POA, na capital. Informe o terminal; o recorte de serra muda o horário.'],
         ['pergunta' => 'Vocês fazem Cidade Alta e Juventude no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o nome do hotel. O vale só se a visita estiver combinada.'],
-        ['pergunta' => 'Dá para seguir a Caxias do Sul depois do hotel?', 'resposta' => 'Sim, como viagem pela RS-122. Não é o mesmo recorte da Cidade Alta; o horário sai sob consulta.'],
+        ['pergunta' => 'Em Bento Gonçalves, dá para seguir a Caxias do Sul depois do hotel?', 'resposta' => 'Sim, como viagem pela RS-122. Não é o mesmo recorte da Cidade Alta; o horário sai sob consulta.'],
         ['pergunta' => 'Gramado ou Canela entram no mesmo pedido?', 'resposta' => 'Entram como viagem de serra, não como extensão urbana de Bento. O orçamento sai à parte.'],
     ],
     'cta' => [

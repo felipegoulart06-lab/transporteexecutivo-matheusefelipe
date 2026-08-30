@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 require_once dirname(__DIR__) . '/includes/bootstrap.php';
 
+if (!headers_sent() && in_array(($_SERVER['REQUEST_METHOD'] ?? 'GET'), ['GET', 'HEAD'], true)) {
+    header('Cache-Control: public, max-age=300, s-maxage=86400, stale-while-revalidate=604800');
+}
+
 $paginaAtual = 'hub';
 $canonical = url_site('transporte-executivo/');
 $ogImagem = url_site('assets/images/hero-transporte.jpg');
@@ -28,7 +32,9 @@ $schemas = [
         '@context' => 'https://schema.org',
         '@type' => 'WebPage',
         'name' => 'Transporte executivo por unidade da federação',
+        'description' => $seo['description'],
         'url' => $canonical,
+        'inLanguage' => 'pt-BR',
         'isPartOf' => ['@type' => 'WebSite', 'name' => config('nome'), 'url' => url_site()],
     ],
     [

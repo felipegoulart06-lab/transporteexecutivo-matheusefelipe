@@ -45,8 +45,8 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Jorge Teixeira',
     'faq' => [
         ['pergunta' => 'O aeroporto de Porto Velho fica longe do Caiari?', 'resposta' => 'É trecho urbano. Marcamos margem: a avenida e o temporal da tarde alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no PVH se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem o complexo da Madeira-Mamoré no mesmo dia?', 'resposta' => 'Sim, quando a visita entra no roteiro. Combinamos o ponto de espera; o calçamento não admite recuo improvisado.'],
+        ['pergunta' => 'O motorista espera no PVH se o voo atrasar?', 'resposta' => 'Sim. Em Porto Velho, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem o complexo da Madeira-Mamoré no mesmo dia?', 'resposta' => 'Sim. Em Porto Velho, quando a visita entra no roteiro. Combinamos o ponto de espera; o calçamento não admite recuo improvisado.'],
         ['pergunta' => 'Dá para seguir a Ariquemes depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-364. Não é o mesmo pedido do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [

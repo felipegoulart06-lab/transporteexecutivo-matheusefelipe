@@ -60,12 +60,12 @@ return [
             'resposta' => 'Sim. O Marechal Rondon (CGB) está neste município, não no perímetro de Cuiabá. Centro e Jardim Glória chegam ao terminal em trecho urbano.',
         ],
         [
-            'pergunta' => 'O motorista espera no CGB se o voo atrasar?',
+            'pergunta' => 'Em Várzea Grande, o motorista espera no CGB se o voo atrasar?',
             'resposta' => 'Sim. Acompanhamos o painel com o número do voo. A espera no terminal integra o trecho CGB.',
         ],
         [
             'pergunta' => 'Dá para ir do hotel na Glória ao Centro de Várzea Grande?',
-            'resposta' => 'Sim. É trecho urbano do município. Informe o nome do hotel e o prédio no Centro.',
+            'resposta' => 'Sim. Em Várzea Grande, é trecho urbano do município. Informe o nome do hotel e o prédio no Centro.',
         ],
         [
             'pergunta' => 'O carro segue daqui a Cuiabá no mesmo dia?',

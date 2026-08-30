@@ -44,9 +44,9 @@ return [
     'faq_h2' => 'Dúvidas de quem pauta a REDUC e o Galeão',
     'faq' => [
         ['pergunta' => 'O Galeão fica longe do Centro de Duque de Caxias?', 'resposta' => 'É o aeroporto mais próximo. Marcamos margem: a Washington Luís e o acesso à Ilha do Governador alteram o intervalo mais que o mapa.'],
-        ['pergunta' => 'O motorista espera no GIG se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na REDUC com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Dá para usar o Santos Dumont em vez do Galeão?', 'resposta' => 'Sim, quando o SDU entra no roteiro. Não é o mesmo recorte do GIG; a Avenida Brasil pede outra margem.'],
+        ['pergunta' => 'Em Duque de Caxias, o motorista espera no GIG se o voo atrasar?', 'resposta' => 'Sim. Em Duque de Caxias, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês entram na REDUC com protocolo de portaria?', 'resposta' => 'Sim. Em Duque de Caxias, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
+        ['pergunta' => 'Em Duque de Caxias, dá para usar o Santos Dumont em vez do Galeão?', 'resposta' => 'Sim, quando o SDU entra no roteiro. Não é o mesmo recorte do GIG; a Avenida Brasil pede outra margem.'],
         ['pergunta' => 'Vocês fazem Gramacho e o Centro no mesmo expediente?', 'resposta' => 'Sim. Informe a ordem e o ponto de espera. A Via Dutra e a Washington Luís são eixos distintos.'],
     ],
     'cta' => [

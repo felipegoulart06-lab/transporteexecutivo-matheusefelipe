@@ -54,15 +54,15 @@ return [
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Indianópolis, Centro ou Nassau. Autocomplete não resolve o portão do parque.'],
             ['titulo' => 'Hotel ou Recife', 'texto' => 'Diga se o embarque é o hotel ou o trecho até o REC.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Caruaru, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pauta o agreste',
     'faq' => [
         ['pergunta' => 'Caruaru tem voo comercial regular?', 'resposta' => 'O campo local atende aviação geral. O voo comercial da pauta sai em geral pelo Guararapes; o trecho entra no roteiro com margem para a BR-232.'],
-        ['pergunta' => 'O motorista espera no REC se o voo atrasar?', 'resposta' => 'Sim, quando o Recife está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Caruaru, o motorista espera no REC se o voo atrasar?', 'resposta' => 'Sim, quando o Recife está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem a Feira e o Parque 18 de Maio no São João?', 'resposta' => 'Sim, quando o evento entra no roteiro. Combinamos o portão; o complexo não admite recuo improvisado.'],
-        ['pergunta' => 'Dá para seguir a Toritama depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Dá para seguir a Toritama depois do hotel?', 'resposta' => 'Sim. Em Caruaru, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o Indianópolis ao horário da BR-232',

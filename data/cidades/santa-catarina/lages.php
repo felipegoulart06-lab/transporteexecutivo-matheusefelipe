@@ -40,7 +40,7 @@ return [
     'faq' => [
         ['pergunta' => 'O aeroporto de Lages (LAJ) tem voo regular?', 'resposta' => 'O Correia Pinto costuma ficar sem linha regular. O terminal prático é o FLN, em Florianópolis, ou o XAP, em Chapecó. Informe o voo; o recorte de serra muda.'],
         ['pergunta' => 'A geada altera o horário de apresentação?', 'resposta' => 'Sim, no inverno do planalto. Marcamos margem de manhã; o app de orla não lê o asfalto da BR-282.'],
-        ['pergunta' => 'Vocês fazem Centro, Coral e a Uniplac no mesmo dia?', 'resposta' => 'Sim. Informe o bloco do campus e o nome do hotel. Um motorista articula os três recuos.'],
+        ['pergunta' => 'Vocês fazem Centro, Coral e a Uniplac no mesmo dia?', 'resposta' => 'Sim. Em Lages, informe o bloco do campus e o nome do hotel. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para seguir a Florianópolis depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-282. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
         ['pergunta' => 'Chapecó entra no mesmo pedido de Lages?', 'resposta' => 'Entra como viagem até o XAP ou o oeste, não como corrida urbana. O orçamento sai à parte.'],
     ],

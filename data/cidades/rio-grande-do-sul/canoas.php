@@ -28,7 +28,7 @@ return [
     'bairros' => [
         'h2' => 'Eixos da cidade onde o embarque mais se concentra',
         'itens' => [
-            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Em Canoas, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Mathias Velho e o Canoas Shopping', 'texto' => 'Hotéis, torres e o recinto comercial. “No Mathias” não define o recuo da portaria.'],
             ['h3' => 'Marechal Rondon', 'texto' => 'Pauta residencial e clínicas. O recuo pede rua e número, não o nome do bairro sozinho.'],
             ['h3' => 'Harmonia e o eixo da BR-116', 'texto' => 'Saída para a capital e para o norte. O recorte da via pesa mais que o quilômetro no pico.'],
@@ -44,7 +44,7 @@ return [
     'rotas' => [
         'h2' => 'Trajetos que a agenda canoense mais pede',
         'itens' => [
-            ['titulo' => 'POA → hotel no Centro', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'POA → hotel no Centro', 'texto' => 'Em Canoas, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
             ['titulo' => 'Mathias Velho → Centro → Shopping', 'texto' => 'Reunião e sede. Um motorista cobre os três se a ordem já estiver no roteiro.'],
             ['titulo' => 'Canoas → Caxias do Sul', 'texto' => 'Freeway e Serra. Não é o recorte urbano do Centro; o horário sai sob consulta.'],
         ],
@@ -54,16 +54,16 @@ return [
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Centro, Mathias Velho ou Marechal Rondon. Autocomplete não resolve bloco com dois acessos.'],
             ['titulo' => 'Hotel ou POA', 'texto' => 'Diga se o embarque é o terminal comercial ou a portaria do hotel — não a Base Aérea.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Canoas, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no POA e segue a Canoas',
     'faq' => [
         ['pergunta' => 'O aeroporto de Porto Alegre fica longe de Canoas?', 'resposta' => 'O POA é vizinho, quase contínuo. Ainda assim marcamos margem: a Getúlio Vargas e a BR-116 alteram o intervalo no pico.'],
-        ['pergunta' => 'O motorista espera no POA se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal comercial faz parte do trecho.'],
+        ['pergunta' => 'Em Canoas, o motorista espera no POA se o voo atrasar?', 'resposta' => 'Sim. Em Canoas, o número do voo entra no roteiro e a espera no terminal comercial faz parte do trecho.'],
         ['pergunta' => 'A Base Aérea de Canoas é o mesmo que o POA?', 'resposta' => 'Não. O saguão de passageiros é o Salgado Filho. A Base Aérea não substitui o terminal comercial.'],
-        ['pergunta' => 'Vocês fazem Centro, Mathias Velho e o Shopping no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um motorista articula os três recuos se a margem estiver no roteiro.'],
-        ['pergunta' => 'Dá para seguir a Caxias do Sul depois do hotel?', 'resposta' => 'Sim, como viagem pela Freeway. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Vocês fazem Centro, Mathias Velho e o Shopping no mesmo dia?', 'resposta' => 'Sim. Em Canoas, informe a ordem. Um motorista articula os três recuos se a margem estiver no roteiro.'],
+        ['pergunta' => 'Em Canoas, dá para seguir a Caxias do Sul depois do hotel?', 'resposta' => 'Sim, como viagem pela Freeway. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o Mathias Velho ao horário do POA',

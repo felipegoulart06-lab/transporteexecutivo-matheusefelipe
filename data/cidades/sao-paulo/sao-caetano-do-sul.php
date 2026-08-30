@@ -47,7 +47,7 @@ return [
         ['pergunta' => 'O motorista vai a Congonhas a partir de São Caetano?', 'resposta' => 'Sim, quando o CGH entra no roteiro. A Via Anchieta pede margem; não é corrida instantânea do Santa Paula nem do Paço.'],
         ['pergunta' => 'Vocês fazem Paço, Santa Paula e a Fundação no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o prédio. O município é compacto, mas os recuos não se trocam no mesmo cartaz.'],
         ['pergunta' => 'Dá para ir a Santo André ou São Bernardo depois do hotel?', 'resposta' => 'Sim, quando o ABC vizinho entra no roteiro. Não é o mesmo pedido do Centro; o horário sai sob consulta.'],
-        ['pergunta' => 'O carro segue à Faria Lima no mesmo expediente?', 'resposta' => 'Sim, quando a capital entra no roteiro. A Anchieta pede margem própria; o orçamento sai à parte do trecho urbano.'],
+        ['pergunta' => 'Em São Caetano do Sul, o carro segue à Faria Lima no mesmo expediente?', 'resposta' => 'Sim, quando a capital entra no roteiro. A Anchieta pede margem própria; o orçamento sai à parte do trecho urbano.'],
         ['pergunta' => 'O motorista espera no hotel ou no Paço se a reunião atrasar?', 'resposta' => 'Sim, quando a espera já está no itinerário. Não é corrida de aplicativo: o sedan permanece no recuo combinado.'],
     ],
     'cta' => [

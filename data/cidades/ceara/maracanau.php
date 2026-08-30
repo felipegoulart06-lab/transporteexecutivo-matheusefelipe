@@ -60,12 +60,12 @@ return [
             'resposta' => 'Não. O Pinto Martins (FOR) fica em Fortaleza. O trecho até o Distrito entra no roteiro com margem para o Anel Viário e a BR-020.',
         ],
         [
-            'pergunta' => 'O motorista espera no FOR se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.',
+            'pergunta' => 'Em Maracanaú, o motorista espera no FOR se o voo atrasar?',
+            'resposta' => 'Sim. Em Maracanaú, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês entram no Distrito Industrial com protocolo de portaria?',
-            'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.',
+            'resposta' => 'Sim. Em Maracanaú, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.',
         ],
         [
             'pergunta' => 'Dá para ir à Aldeota depois do hotel no Centro?',

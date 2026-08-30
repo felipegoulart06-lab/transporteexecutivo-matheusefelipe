@@ -48,9 +48,9 @@ return [
     'faq_h2' => 'Dúvidas de quem embarca na península e no CFB',
     'faq' => [
         ['pergunta' => 'Búzios tem aeroporto comercial?', 'resposta' => 'O saguão prático é o CFB, em Cabo Frio. Combinamos a RJ-106; o intervalo até Geribá não é o mesmo do Centro de Cabo Frio.'],
-        ['pergunta' => 'O motorista espera no CFB se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho Cabo Frio.'],
-        ['pergunta' => 'Dá para ir de Geribá ao Centro e voltar à Ferradura?', 'resposta' => 'Sim. Combinamos a ordem e o ponto de espera. A orla não admite recuo improvisado no feriado.'],
-        ['pergunta' => 'O hotel em Geribá é ponto conveniado?', 'resposta' => 'Não. O hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.'],
+        ['pergunta' => 'Em Armação dos Búzios, o motorista espera no CFB se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho Cabo Frio.'],
+        ['pergunta' => 'Dá para ir de Geribá ao Centro e voltar à Ferradura?', 'resposta' => 'Sim. Em Armação dos Búzios, combinamos a ordem e o ponto de espera. A orla não admite recuo improvisado no feriado.'],
+        ['pergunta' => 'O hotel em Geribá é ponto conveniado?', 'resposta' => 'Não. Em Armação dos Búzios, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.'],
         ['pergunta' => 'Vocês seguem ao Rio depois do check-out?', 'resposta' => 'Sim, quando SDU ou GIG entram no roteiro. Não é o mesmo recorte da península; o horário sai sob consulta.'],
     ],
     'cta' => [

@@ -45,7 +45,7 @@ return [
     'faq' => [
         ['pergunta' => 'O motorista espera no GRU se o voo internacional atrasar?', 'resposta' => 'Sim. Acompanhamos o painel com o número do voo. A espera no terminal integra o trecho GRU.'],
         ['pergunta' => 'Vocês distinguem os terminais 2 e 3?', 'resposta' => 'Sim. O terminal entra no roteiro junto com o voo. Não improvisamos o recuo no saguão vizinho.'],
-        ['pergunta' => 'Dá para ir do hotel em Cumbica ao Centro de Guarulhos?', 'resposta' => 'Sim. É trecho urbano do município. Informe o nome do hotel e o prédio no Centro.'],
+        ['pergunta' => 'Dá para ir do hotel em Cumbica ao Centro de Guarulhos?', 'resposta' => 'Sim. Em Guarulhos, é trecho urbano do município. Informe o nome do hotel e o prédio no Centro.'],
         ['pergunta' => 'O carro segue daqui à Faria Lima no mesmo dia?', 'resposta' => 'Sim, quando a capital entra no roteiro. Não é o mesmo recorte de Guarulhos; a Dutra pede margem própria.'],
     ],
     'cta' => [

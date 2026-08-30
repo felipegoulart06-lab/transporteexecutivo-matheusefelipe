@@ -48,7 +48,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no BPS',
     'faq' => [
         ['pergunta' => 'O aeroporto de Porto Seguro fica longe da Cidade Histórica?', 'resposta' => 'É trecho urbano até o Centro. Até a Cidade Alta marcamos margem para a ladeira; até Trancoso o recorte é outro.'],
-        ['pergunta' => 'O motorista espera no BPS se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no BPS se o voo atrasar?', 'resposta' => 'Sim. Em Porto Seguro, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês cruzam a balsa rumo a Arraial d\'Ajuda?', 'resposta' => 'Sim. Informe o hotel no distrito. A balsa pesa mais que o quilômetro no mapa.'],
         ['pergunta' => 'Dá para ir ao Quadrado de Trancoso no mesmo dia?', 'resposta' => 'Sim, como viagem de distrito. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],

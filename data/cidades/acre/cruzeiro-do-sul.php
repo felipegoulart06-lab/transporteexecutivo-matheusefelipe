@@ -85,11 +85,11 @@ return [
             ],
             [
                 'titulo' => 'Hotel ou CZS',
-                'texto' => 'Diga se o embarque é o terminal ou a porta do hotel. O hotel é só o ponto de saída.',
+                'texto' => 'Em Cruzeiro do Sul, diga se o embarque é o terminal ou a porta do hotel. O hotel é só o ponto de saída.',
             ],
             [
                 'titulo' => 'Confirmação',
-                'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.',
+                'texto' => 'Em Cruzeiro do Sul, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.',
             ],
         ],
     ],
@@ -109,11 +109,11 @@ return [
         ],
         [
             'pergunta' => 'Dá para ir a Rio Branco pela BR-364 depois do hotel?',
-            'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
+            'resposta' => 'Sim. Em Cruzeiro do Sul, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
         ],
         [
-            'pergunta' => 'O hotel no Centro é ponto conveniado do serviço?',
-            'resposta' => 'Não. O hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
+            'pergunta' => 'Em Cruzeiro do Sul, o hotel no Centro é ponto conveniado do serviço?',
+            'resposta' => 'Não. Em Cruzeiro do Sul, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

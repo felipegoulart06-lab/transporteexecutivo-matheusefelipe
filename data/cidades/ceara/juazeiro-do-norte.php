@@ -46,8 +46,8 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Orlando Bezerra',
     'faq' => [
         ['pergunta' => 'O aeroporto de Juazeiro fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a Avenida Padre Cícero e o horário de romaria alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no JDO se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês sobem ao Horto no mesmo dia?', 'resposta' => 'Sim, quando a visita entra no roteiro. Combinamos o ponto de espera; a ladeira não admite recuo improvisado.'],
+        ['pergunta' => 'O motorista espera no JDO se o voo atrasar?', 'resposta' => 'Sim. Em Juazeiro do Norte, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês sobem ao Horto no mesmo dia?', 'resposta' => 'Sim. Em Juazeiro do Norte, quando a visita entra no roteiro. Combinamos o ponto de espera; a ladeira não admite recuo improvisado.'],
         ['pergunta' => 'Dá para incluir Crato ou Barbalha depois do hotel?', 'resposta' => 'Sim, como recorte do Cariri. Não é o mesmo pedido do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [

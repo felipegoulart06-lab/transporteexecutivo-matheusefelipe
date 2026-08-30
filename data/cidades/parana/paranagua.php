@@ -48,8 +48,8 @@ return [
     'faq_h2' => 'Dúvidas de quem junta o porto à janela da 277',
     'faq' => [
         ['pergunta' => 'Paranaguá tem aeroporto comercial?', 'resposta' => 'O voo prático é o Afonso Pena (CWB), pela serra da BR-277. Combinamos o horário da subida; o nevoeiro altera a margem mais que o mapa.'],
-        ['pergunta' => 'O motorista espera no CWB se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram no porto com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela do cais não libera.'],
+        ['pergunta' => 'Em Paranaguá, o motorista espera no CWB se o voo atrasar?', 'resposta' => 'Sim. Em Paranaguá, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Paranaguá, vocês entram no porto com protocolo de portaria?', 'resposta' => 'Sim. Em Paranaguá, envie o nome na lista e o documento pedido. Sem isso, a cancela do cais não libera.'],
         ['pergunta' => 'Dá para incluir a Ilha do Mel depois da reunião?', 'resposta' => 'Sim, só como visita combinada. Não é o mesmo recorte do porto; o horário da travessia sai sob consulta.'],
         ['pergunta' => 'Vocês fazem Centro Histórico, Alexandra e o CWB no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A serra da 277 pede margem própria; um motorista articula os três se o roteiro já tiver o voo.'],
     ],

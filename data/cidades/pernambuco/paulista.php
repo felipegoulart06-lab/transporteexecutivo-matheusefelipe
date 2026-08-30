@@ -80,7 +80,7 @@ return [
         ],
         [
             'pergunta' => 'O hotel no Janga conta como parceria do serviço?',
-            'resposta' => 'Não. O hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
+            'resposta' => 'Não. Em Paulista, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

@@ -28,7 +28,7 @@ return [
                 ['h3' => 'Centro e a Cardoso de Sá', 'texto' => 'Sede, hotel (Ibis, Hotel do Lago, similares) e o calçadão. Informe o prédio; o Centro mistura comércio e pernoite.'],
                 ['h3' => 'Orla do São Francisco e o calçadão', 'texto' => 'Pernoite e jantar. Combinamos o ponto de espera; o calçamento não admite recuo improvisado.'],
                 ['h3' => 'Cohab, Areia Branca e o polo irrigado', 'texto' => 'Clínicas, packing house e a BR-407. Protocolo de portaria entra no roteiro junto com o turno da fruta.'],
-                ['h3' => 'Univasf e o campus', 'texto' => 'Pauta acadêmica. O recuo pede bloco e portaria, não “na universidade”.'],
+                ['h3' => 'Univasf e o campus', 'texto' => 'Em Petrolina, pauta acadêmica. O recuo pede bloco e portaria, não “na universidade”.'],
             ],
         ],
         [
@@ -47,7 +47,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Nilo Coelho',
     'faq' => [
         ['pergunta' => 'O aeroporto de Petrolina fica longe da orla?', 'resposta' => 'É trecho urbano. Marcamos margem: a Cardoso de Sá e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no PNZ se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Petrolina, o motorista espera no PNZ se o voo atrasar?', 'resposta' => 'Sim. Em Petrolina, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês cruzam a ponte rumo a Juazeiro?', 'resposta' => 'Sim. Informe o endereço na Bahia. São dois municípios; o recuo muda no outro lado do São Francisco.'],
         ['pergunta' => 'Dá para ir ao packing house depois do hotel?', 'resposta' => 'Sim, quando a planta entra no roteiro. Envie o nome na portaria; o horário sai sob consulta.'],
     ],

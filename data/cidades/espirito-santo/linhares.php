@@ -68,7 +68,7 @@ return [
         ],
         [
             'pergunta' => 'O hotel no Litorâneo é ponto conveniado?',
-            'resposta' => 'Não. O hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
+            'resposta' => 'Não. Em Linhares, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

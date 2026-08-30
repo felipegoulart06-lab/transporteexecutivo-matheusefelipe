@@ -26,9 +26,9 @@ return [
         [
             'h2' => 'Quadrantes onde o embarque jundiaiense mais se concentra',
             'itens' => [
-                ['h3' => 'Centro e a Barão de Jundiaí', 'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+                ['h3' => 'Centro e a Barão de Jundiaí', 'texto' => 'Em Jundiaí, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
                 ['h3' => 'Medeiros, Vila Rio Branco e o shopping', 'texto' => 'Torres e clínicas. Deslocamentos curtos que esticam no semáforo da Jundiaí-Itatiba.'],
-                ['h3' => 'Distrito Industrial e a Anhanguera', 'texto' => 'Plantas e logística. Protocolo de portaria entra no roteiro junto com o turno.'],
+                ['h3' => 'Distrito Industrial e a Anhanguera', 'texto' => 'Em Jundiaí, plantas e logística. Protocolo de portaria entra no roteiro junto com o turno.'],
                 ['h3' => 'Serra do Japi e o Horto Florestal', 'texto' => 'Visita combinada. Não é o mesmo recorte do Centro; o recuo do parque pede ponto de espera.'],
             ],
         ],
@@ -45,8 +45,8 @@ return [
     'faq_h2' => 'Perguntas de quem pauta Jundiaí e a Anhanguera',
     'faq' => [
         ['pergunta' => 'Jundiaí tem aeroporto comercial?', 'resposta' => 'O campo de Jundiaí atende aviação geral. O voo comercial da pauta sai em geral por Viracopos ou Congonhas; o trecho entra no roteiro com margem.'],
-        ['pergunta' => 'O motorista espera no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o VCP está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
+        ['pergunta' => 'Em Jundiaí, o motorista espera no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o VCP está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Jundiaí, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Em Jundiaí, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
         ['pergunta' => 'Dá para ir à Serra do Japi e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim, quando a visita entra no roteiro. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [

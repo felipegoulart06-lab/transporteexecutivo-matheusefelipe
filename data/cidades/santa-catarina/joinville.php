@@ -28,7 +28,7 @@ return [
         'h2' => 'Pontos que o pedido joinvilense mais cita',
         'itens' => [
             ['h3' => 'Centro e a Rua das Palmeiras', 'texto' => 'Sede, hotel e o calçadão. Informe o número; as ruas paralelas se repetem no nome alemão.'],
-            ['h3' => 'América, Glória e a zona industrial', 'texto' => 'Plantas e clínicas. Protocolo de portaria entra no roteiro junto com o horário do turno.'],
+            ['h3' => 'América, Glória e a zona industrial', 'texto' => 'Em Joinville, plantas e clínicas. Protocolo de portaria entra no roteiro junto com o horário do turno.'],
             ['h3' => 'Aeroporto — JOI', 'texto' => 'Terminal da cidade. Combinamos o voo. A espera no desembarque integra o trecho JOI.'],
         ],
     ],
@@ -38,10 +38,10 @@ return [
     ],
     'faq_h2' => 'Dúvidas de quem pousa no Lauro Carneiro',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Joinville fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no JOI se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
-        ['pergunta' => 'Dá para seguir a Blumenau ou a Camboriú depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o orçamento sai sob consulta.'],
+        ['pergunta' => 'O aeroporto de Joinville fica longe do Centro?', 'resposta' => 'Em Joinville, é trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
+        ['pergunta' => 'Em Joinville, o motorista espera no JOI se o voo atrasar?', 'resposta' => 'Sim. Combinamos o JOI com o número do voo; a espera no Lauro Carneiro de Loyola integra o trecho desde o Centro ou a América.'],
+        ['pergunta' => 'Em Joinville, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista da portaria e o documento pedido. Sem protocolo, a cancela da zona industrial não libera.'],
+        ['pergunta' => 'Dá para seguir a Blumenau ou a Camboriú depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-101. Não é o mesmo recorte do Centro joinvilense; o orçamento sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o hotel do Centro ao horário do JOI',

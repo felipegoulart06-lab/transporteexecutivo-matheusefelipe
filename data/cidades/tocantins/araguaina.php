@@ -60,7 +60,7 @@ return [
             [
                 'num' => '02',
                 'titulo' => 'Voo no AUX',
-                'texto' => 'Número e horário. O carro sai com margem, não no minuto do check-in.',
+                'texto' => 'Em Araguaína, número e horário. O carro sai com margem, não no minuto do check-in.',
             ],
             [
                 'num' => '03',
@@ -77,11 +77,11 @@ return [
         ],
         [
             'pergunta' => 'O motorista espera no AUX se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.',
+            'resposta' => 'Sim. Combinamos o AUX com o número do voo; a espera no aeroporto integra o trecho desde o Centro ou o Senador.',
         ],
         [
             'pergunta' => 'Vocês entram na portaria pecuária com protocolo?',
-            'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.',
+            'resposta' => 'Sim. Envie o nome na lista da portaria pecuária e o documento pedido. Sem protocolo, a cancela do parque não libera.',
         ],
         [
             'pergunta' => 'Dá para seguir a Palmas depois do hotel no Centro?',
@@ -89,7 +89,7 @@ return [
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Senador e Neblina no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os três recuos.',
+            'resposta' => 'Sim. Informe a ordem entre Centro, Senador e Neblina, com o nome do hotel. Um motorista articula os três recuos pela Cônego João Lima.',
         ],
     ],
     'cta' => [

@@ -42,7 +42,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Bartolomeu Lysandro',
     'faq' => [
         ['pergunta' => 'O aeroporto de Campos fica longe da Pelinca?', 'resposta' => 'É trecho urbano. Marcamos margem: o horário de pico e a Alberto Torres alteram o intervalo mais que o mapa.'],
-        ['pergunta' => 'O motorista espera no CAW se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no CAW se o voo atrasar?', 'resposta' => 'Sim. Em Campos dos Goytacazes, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Dá para ir a Guarus e voltar ao Centro no mesmo turno?', 'resposta' => 'Sim. Informe a ordem. A ponte sobre o Paraíba do Sul pesa no horário; não é o mesmo recorte da Pelinca.'],
         ['pergunta' => 'Vocês seguem a Macaé depois do hotel na Pelinca?', 'resposta' => 'Sim, como viagem pela RJ-106. Não é o mesmo pedido urbano; o horário sai sob consulta.'],
         ['pergunta' => 'O Parque Leopoldina entra no mesmo roteiro da Pelinca?', 'resposta' => 'Sim. Combinamos o ponto de espera. “Em Campos” não define qual dos dois recuos.'],

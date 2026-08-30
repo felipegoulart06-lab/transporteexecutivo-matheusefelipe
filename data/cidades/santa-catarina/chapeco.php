@@ -27,7 +27,7 @@ return [
     'lateral' => [
         'h2' => 'Pontos que o pedido chapecoense mais cita',
         'itens' => [
-            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Sede, hotel e o calçadão. Informe o número; a avenida muda de caráter a cada quadra.'],
+            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Em Chapecó, sede, hotel e o calçadão. Informe o número; a avenida muda de caráter a cada quadra.'],
             ['h3' => 'Presidente Médici, Efapi e a zona industrial', 'texto' => 'Plantas e o recinto da Efapi. Protocolo de portaria entra no roteiro junto com o turno.'],
             ['h3' => 'Aeroporto — XAP', 'texto' => 'Terminal da cidade. Combinamos o voo. A espera no desembarque integra o trecho XAP.'],
         ],
@@ -36,12 +36,12 @@ return [
         'h2' => 'Rotas urbanas e o salto para o oeste e a fronteira',
         'texto' => 'XAP → hotel no Centro → planta no Efapi → Arena Condá só se o evento estiver no roteiro. Xanxerê, Concórdia ou São Miguel do Oeste entram como viagem, com horário de BR-282, não como segunda corrida no Centro.',
     ],
-    'faq_h2' => 'Dúvidas de quem pousa no Serafin Bertaso',
+    'faq_h2' => 'Dúvidas de quem pousa no Serafim Enoss Bertaso',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Chapecó fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no XAP se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
-        ['pergunta' => 'Dá para seguir a Concórdia depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o orçamento sai sob consulta.'],
+        ['pergunta' => 'O aeroporto de Chapecó fica longe do Centro?', 'resposta' => 'Em Chapecó, é trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
+        ['pergunta' => 'O motorista espera no XAP se o voo atrasar?', 'resposta' => 'Sim. Combinamos o XAP com o número do voo; a espera no Serafim Enoss Bertaso integra o trecho desde o Centro ou a Efapi.'],
+        ['pergunta' => 'Em Chapecó, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista da portaria e o documento pedido. Sem protocolo, a cancela do parque industrial não libera.'],
+        ['pergunta' => 'Dá para seguir a Concórdia depois do hotel?', 'resposta' => 'Sim, como viagem rumo a Concórdia. Não é o mesmo recorte do Centro chapecoense; o orçamento sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o hotel do Centro ao horário do XAP',

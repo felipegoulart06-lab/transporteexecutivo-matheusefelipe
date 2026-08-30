@@ -48,7 +48,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Castro Pinto',
     'faq' => [
         ['pergunta' => 'O aeroporto de João Pessoa fica na orla?', 'resposta' => 'Não. O JPA fica em Bayeux. O trecho até Tambaú ou Cabo Branco entra no roteiro com margem para a BR-230.'],
-        ['pergunta' => 'O motorista espera no JPA se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no JPA se o voo atrasar?', 'resposta' => 'Sim. Em João Pessoa, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Tambaú, Centro e o Jacaré no mesmo dia?', 'resposta' => 'Sim, quando o pôr do sol no Jacaré entra no roteiro. Combinamos o ponto de espera; não é city tour improvisado.'],
         ['pergunta' => 'Dá para seguir a Campina Grande depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte da orla; o horário e o valor saem sob consulta.'],
     ],

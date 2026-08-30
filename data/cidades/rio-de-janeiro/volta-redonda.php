@@ -52,7 +52,7 @@ return [
     'faq' => [
         ['pergunta' => 'Vocês entram na CSN com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela da siderúrgica não libera.'],
         ['pergunta' => 'O motorista segue a Dutra até o Galeão?', 'resposta' => 'Sim, quando o GIG entra no roteiro. A Presidente Dutra pede margem; não é corrida instantânea do Aterrado.'],
-        ['pergunta' => 'Dá para usar o Santos Dumont em vez do Galeão?', 'resposta' => 'Sim. Combinamos o terminal. O SDU pede outro recuo na chegada ao Rio; o horário sai sob consulta.'],
+        ['pergunta' => 'Em Volta Redonda, dá para usar o Santos Dumont em vez do Galeão?', 'resposta' => 'Sim. Combinamos o terminal. O SDU pede outro recuo na chegada ao Rio; o horário sai sob consulta.'],
         ['pergunta' => 'Vocês fazem Aterrado, Sessenta e o Retiro no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o ponto de espera. Um motorista articula os três recortes.'],
         ['pergunta' => 'Dá para seguir a Angra depois da visita à usina?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Aterrado; o horário de serra e costa sai sob consulta.'],
     ],

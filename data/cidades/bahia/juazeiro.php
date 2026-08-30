@@ -59,15 +59,15 @@ return [
             'resposta' => 'O voo comercial regular sai do Senador Nilo Coelho, em Petrolina. O trecho cruza a ponte e entra no roteiro com margem urbana de dois municípios.',
         ],
         [
-            'pergunta' => 'O motorista espera no PNZ se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.',
+            'pergunta' => 'Em Juazeiro, o motorista espera no PNZ se o voo atrasar?',
+            'resposta' => 'Sim. Em Juazeiro, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês fazem Centro, a ponte e o hotel de Petrolina no mesmo dia?',
             'resposta' => 'Sim. Informe os dois endereços. O recuo muda no outro lado do rio; um motorista articula as duas margens.',
         ],
         [
-            'pergunta' => 'Dá para seguir a Salvador depois da reunião no Centro?',
+            'pergunta' => 'Em Juazeiro, dá para seguir a Salvador depois da reunião no Centro?',
             'resposta' => 'Sim, quando a capital entra no roteiro. Não é o mesmo recorte da ponte; o horário sai sob consulta.',
         ],
     ],

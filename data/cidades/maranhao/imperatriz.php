@@ -56,7 +56,7 @@ return [
         ],
         [
             'pergunta' => 'O motorista espera no ITR se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
+            'resposta' => 'Sim. Em Imperatriz, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Bacuri e Nova Imperatriz no mesmo dia?',
@@ -64,11 +64,11 @@ return [
         ],
         [
             'pergunta' => 'Dá para seguir a Palmas ou a São Luís depois da reunião?',
-            'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
+            'resposta' => 'Sim. Em Imperatriz, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
         ],
         [
             'pergunta' => 'O hotel no Bacuri conta como ponto conveniado?',
-            'resposta' => 'Não. O hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
+            'resposta' => 'Não. Em Imperatriz, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

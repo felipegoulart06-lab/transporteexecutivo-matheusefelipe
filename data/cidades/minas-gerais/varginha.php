@@ -27,7 +27,7 @@ return [
     'coluna_a' => [
         'h2' => 'Três recortes que a pauta varginhense usa',
         'itens' => [
-            ['h3' => 'Centro e o eixo comercial', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e o eixo comercial', 'texto' => 'Em Varginha, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Bom Pastor', 'texto' => 'Pernoite e o recorte residencial. Informe a rua; “no Bom Pastor” não define a entrada do condomínio.'],
             ['h3' => 'Jardim Andere', 'texto' => 'Clínicas e o eixo de bairro. O recuo pede número; Andere não se troca pelo Centro no mesmo intervalo.'],
         ],
@@ -39,10 +39,10 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Major Trompowsky',
     'faq' => [
         ['pergunta' => 'O aeroporto de Varginha é o SMK?', 'resposta' => 'Não. O IATA da pauta é o VAG (Major Trompowsky). SMK não substitui esse terminal; confirme o código no cartaz do voo.'],
-        ['pergunta' => 'O motorista espera no VAG se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no VAG se o voo atrasar?', 'resposta' => 'Sim. Em Varginha, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'O VAG fica longe do Centro e do Bom Pastor?', 'resposta' => 'É trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo mais que o mapa.'],
         ['pergunta' => 'Centro, Bom Pastor e o Jardim Andere cabem no mesmo roteiro?', 'resposta' => 'Sim. Combinamos a ordem. “Em Varginha” não define qual dos três recuos.'],
-        ['pergunta' => 'Dá para incluir Poços de Caldas ou Belo Horizonte no mesmo dia?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Dá para incluir Poços de Caldas ou Belo Horizonte no mesmo dia?', 'resposta' => 'Sim. Em Varginha, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Separe o VAG do recuo do café',

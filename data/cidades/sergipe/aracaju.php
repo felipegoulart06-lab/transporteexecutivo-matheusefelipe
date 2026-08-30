@@ -39,7 +39,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Santa Maria',
     'faq' => [
         ['pergunta' => 'O aeroporto de Aracaju fica longe da Atalaia?', 'resposta' => 'É trecho urbano. Marcamos margem: a Beira-Mar e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no AJU se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no AJU se o voo atrasar?', 'resposta' => 'Sim. Em Aracaju, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Atalaia, Centro e o Oceanário no mesmo dia?', 'resposta' => 'Sim, quando a visita entra no roteiro. Combinamos o ponto de espera na orla.'],
         ['pergunta' => 'Dá para incluir Laranjeiras ou a foz do São Francisco?', 'resposta' => 'Sim, como recorte próprio. Não é o mesmo pedido da Atalaia; o horário sai sob consulta.'],
     ],

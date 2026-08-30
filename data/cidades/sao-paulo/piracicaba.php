@@ -44,8 +44,8 @@ return [
     'faq_h2' => 'Dúvidas de quem pauta a ESALQ e o VCP',
     'faq' => [
         ['pergunta' => 'O aeroporto comercial de Piracicaba é o PIR?', 'resposta' => 'O campo PIR não é o portão comercial da conexão. O voo prático da pauta longa sai em geral pelo Viracopos (VCP), em Campinas, pela SP-304.'],
-        ['pergunta' => 'O motorista espera no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. Acompanhamos o painel com o número do voo; a espera no terminal faz parte do trecho Viracopos.'],
-        ['pergunta' => 'Vocês fazem Centro, Cidade Alta e a ESALQ no mesmo dia?', 'resposta' => 'Sim. Informe a ordem, o bloco do campus e o documento da portaria. Um motorista articula os três recuos.'],
+        ['pergunta' => 'Em Piracicaba, o motorista espera no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. Acompanhamos o painel com o número do voo; a espera no terminal faz parte do trecho Viracopos.'],
+        ['pergunta' => 'Vocês fazem Centro, Cidade Alta e a ESALQ no mesmo dia?', 'resposta' => 'Sim. Em Piracicaba, informe a ordem, o bloco do campus e o documento da portaria. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para ir ao Parque do Taquaral depois da reunião?', 'resposta' => 'Sim, só como visita combinada no itinerário. Não é o mesmo recorte da ESALQ; o horário sai sob consulta.'],
         ['pergunta' => 'O carro segue à capital ou a Campinas no mesmo expediente?', 'resposta' => 'Sim, quando entram no roteiro. A SP-304 e a Anhanguera pedem margem própria; o orçamento sai à parte do trecho urbano.'],
     ],

@@ -44,8 +44,8 @@ return [
     'faq_h2' => 'Dúvidas de quem pauta a base e o MEA',
     'faq' => [
         ['pergunta' => 'O aeroporto de Macaé fica longe de Imbetiba?', 'resposta' => 'É trecho urbano. Marcamos margem: o horário de turno da base altera o intervalo mais que o mapa.'],
-        ['pergunta' => 'O motorista espera no MEA se o voo da bacia atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na base com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
+        ['pergunta' => 'O motorista espera no MEA se o voo da bacia atrasar?', 'resposta' => 'Sim. Em Macaé, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês entram na base com protocolo de portaria?', 'resposta' => 'Sim. Em Macaé, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
         ['pergunta' => 'Dá para seguir a Cabo Frio depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte de Imbetiba; o horário sai sob consulta.'],
     ],
     'cta' => [

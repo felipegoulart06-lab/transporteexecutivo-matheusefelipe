@@ -12,12 +12,12 @@ if ($perguntas === []) {
     <?php foreach ($perguntas as $i => $item): ?>
         <div class="faq-item">
             <h3>
-                <button type="button" class="faq-btn" aria-expanded="false" aria-controls="faq-p<?= $i ?>" id="faq-q<?= $i ?>">
+                <button type="button" class="faq-btn" aria-expanded="true" aria-controls="faq-p<?= $i ?>" id="faq-q<?= $i ?>">
                     <?= e($item['pergunta']) ?>
                     <span aria-hidden="true">+</span>
                 </button>
             </h3>
-            <div class="faq-panel" id="faq-p<?= $i ?>" role="region" aria-labelledby="faq-q<?= $i ?>" hidden>
+            <div class="faq-panel" id="faq-p<?= $i ?>" role="region" aria-labelledby="faq-q<?= $i ?>">
                 <p><?= e($item['resposta']) ?></p>
             </div>
         </div>

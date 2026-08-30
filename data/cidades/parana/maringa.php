@@ -28,7 +28,7 @@ return [
     'bairros' => [
         'h2' => 'Zonas da cidade onde o embarque mais se concentra',
         'itens' => [
-            ['h3' => 'Centro e a Catedral', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e a Catedral', 'texto' => 'Em Maringá, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Zona 7 e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da Colombo.'],
             ['h3' => 'Jardim Aclimação e o Parque do Ingá', 'texto' => 'Pauta residencial e visita combinada. O recuo pede rua e número; “no Ingá” não basta.'],
             ['h3' => 'UEM e o campus', 'texto' => 'Universidade. Protocolo de portaria entra no roteiro junto com o bloco.'],
@@ -44,7 +44,7 @@ return [
     'rotas' => [
         'h2' => 'Trajetos que a agenda maringaense mais pede',
         'itens' => [
-            ['titulo' => 'MGF → hotel na Zona 7', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'MGF → hotel na Zona 7', 'texto' => 'Em Maringá, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
             ['titulo' => 'Zona 7 → Centro → Parque do Ingá', 'texto' => 'Reunião, sede e um intervalo só se estiver no roteiro. Um motorista cobre os três.'],
             ['titulo' => 'Hotel → Londrina no mesmo dia', 'texto' => 'Quando a pauta cruza o norte paranaense, o trecho deixa de ser urbano. Horário sob consulta.'],
         ],
@@ -53,15 +53,15 @@ return [
         'h2' => 'Como o carro entra na grade em Maringá',
         'passos' => [
             ['titulo' => 'Zona e número', 'texto' => 'Zona 7, Centro ou Aclimação. Autocomplete não resolve avenida com dois acessos.'],
-            ['titulo' => 'Hotel ou MGF', 'texto' => 'Diga se o embarque é o aeroporto ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Hotel ou MGF', 'texto' => 'Em Maringá, diga se o embarque é o aeroporto ou a portaria do hotel.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Maringá, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no MGF',
     'faq' => [
         ['pergunta' => 'O aeroporto de Maringá fica longe da Zona 7?', 'resposta' => 'É trecho urbano. Marcamos margem: a Colombo e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no MGF se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Zona 7, Centro e o Ingá no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um carro à disposição evita três aceites entre as avenidas.'],
+        ['pergunta' => 'O motorista espera no MGF se o voo atrasar?', 'resposta' => 'Sim. Em Maringá, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Zona 7, Centro e o Ingá no mesmo dia?', 'resposta' => 'Sim. Em Maringá, informe a ordem. Um carro à disposição evita três aceites entre as avenidas.'],
         ['pergunta' => 'Dá para seguir a Londrina depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte da Zona 7; o horário sai sob consulta.'],
     ],
     'cta' => [

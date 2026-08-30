@@ -26,7 +26,7 @@ return [
         [
             'h2' => 'Quadrantes onde o embarque gravataiense mais se concentra',
             'itens' => [
-                ['h3' => 'Centro', 'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+                ['h3' => 'Centro', 'texto' => 'Em Gravataí, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
                 ['h3' => 'Barnabé', 'texto' => 'Pauta residencial e o eixo interno. “No Barnabé” não define o recuo da portaria nem o quarteirão.'],
                 ['h3' => 'Planta da GM e o entorno industrial', 'texto' => 'Portaria e turno. Envie o nome na lista e o documento pedido; sem isso, a cancela da montadora não libera.'],
                 ['h3' => 'Quando a pauta aponta para o POA', 'texto' => 'O terminal fica em Porto Alegre, pela Freeway. Combinamos o voo. O pico da via pesa mais que o quilômetro no mapa.'],
@@ -46,9 +46,9 @@ return [
     'faq' => [
         ['pergunta' => 'A planta da GM e o Centro são o mesmo traslado?', 'resposta' => 'Não. São recuos distintos. Informe se o pedido é a cancela industrial ou o hotel no Centro; o intervalo e o protocolo mudam.'],
         ['pergunta' => 'Como se chega ao aeroporto a partir de Gravataí?', 'resposta' => 'Pela Freeway até o Salgado Filho (POA), em Porto Alegre. O trecho entra no roteiro com margem de via; não é o recuo da montadora.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela da GM não libera.'],
+        ['pergunta' => 'Em Gravataí, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela da GM não libera.'],
         ['pergunta' => 'Vocês fazem Centro, Barnabé e a planta no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um motorista articula os três recuos se a margem e a lista estiverem no roteiro.'],
-        ['pergunta' => 'Dá para seguir a Canoas depois do hotel?', 'resposta' => 'Sim, quando Canoas entra no roteiro. A mancha é contínua; o recuo muda no município. O horário sai sob consulta.'],
+        ['pergunta' => 'Em Gravataí, dá para seguir a Canoas depois do hotel?', 'resposta' => 'Sim. Em Gravataí, quando Canoas entra no roteiro. A mancha é contínua; o recuo muda no município. O horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Diga se o pedido é a planta ou o Centro',

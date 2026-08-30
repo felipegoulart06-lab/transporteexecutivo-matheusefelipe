@@ -42,7 +42,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Pinto Martins',
     'faq' => [
         ['pergunta' => 'O aeroporto de Fortaleza fica longe do Meireles?', 'resposta' => 'É trecho urbano. Marcamos margem mesmo assim: a avenida e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no FOR se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no saguão faz parte do trecho.'],
+        ['pergunta' => 'Em Fortaleza, o motorista espera no FOR se o voo atrasar?', 'resposta' => 'Sim. Em Fortaleza, o número do voo entra no roteiro e a espera no saguão faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Aldeota, Meireles e o aeroporto no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A Santos Dumont e a Beira-Mar pesam mais que o quilômetro no mapa.'],
         ['pergunta' => 'Dá para incluir o Centro no roteiro?', 'resposta' => 'Sim, com o endereço da sede. O sentido das vias do Centro pede ponto de espera combinado.'],
     ],

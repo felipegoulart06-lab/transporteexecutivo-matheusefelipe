@@ -30,7 +30,7 @@ return [
         'itens' => [
             [
                 'h3' => 'Centro',
-                'texto' => 'Sede, hotel e o calçadão. Informe o prédio; a numeração se repete e o sentido da via muda no fim da tarde.',
+                'texto' => 'Em Sorriso, sede, hotel e o calçadão. Informe o prédio; a numeração se repete e o sentido da via muda no fim da tarde.',
             ],
             [
                 'h3' => 'Jardim Aurora',
@@ -42,7 +42,7 @@ return [
             ],
             [
                 'h3' => 'BR-163 rumo a Sinop e ao sul',
-                'texto' => 'A pista corta a cidade e segue ao norte e ao sul. Quando a pauta mistura hotel e planta fora do perímetro, a margem sai da 163, não do aceitar do app.',
+                'texto' => 'Em Sorriso, a pista corta a cidade e segue ao norte e ao sul. Quando a pauta mistura hotel e planta fora do perímetro, a margem sai da 163, não do aceitar do app.',
             ],
         ],
     ],
@@ -68,11 +68,11 @@ return [
             ],
             [
                 'titulo' => 'Hotel → Jardim Aurora → portaria do grão',
-                'texto' => 'Clínica, sede e planta só se a ordem estiver no roteiro. Um motorista cobre os três recuos.',
+                'texto' => 'Em Sorriso, clínica, sede e planta só se a ordem estiver no roteiro. Um motorista cobre os três recuos.',
             ],
             [
                 'titulo' => 'Sorriso → Sinop ou Cuiabá no mesmo dia',
-                'texto' => 'Quando a 163 vira viagem, o trecho deixa de ser urbano. Horário sob consulta.',
+                'texto' => 'Em Sorriso, quando a 163 vira viagem, o trecho deixa de ser urbano. Horário sob consulta.',
             ],
         ],
     ],
@@ -85,11 +85,11 @@ return [
             ],
             [
                 'titulo' => 'Hotel ou SMT',
-                'texto' => 'Diga se o embarque é o terminal ou a porta do hotel. O hotel é só o ponto de saída.',
+                'texto' => 'Em Sorriso, diga se o embarque é o terminal ou a porta do hotel. O hotel é só o ponto de saída.',
             ],
             [
                 'titulo' => 'Confirmação',
-                'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.',
+                'texto' => 'Em Sorriso, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.',
             ],
         ],
     ],
@@ -101,19 +101,19 @@ return [
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Jardim Aurora e a portaria no mesmo dia?',
-            'resposta' => 'Sim. Informe o nome na lista da planta. Um carro articula os três recuos.',
+            'resposta' => 'Sim. Em Sorriso, informe o nome na lista da planta. Um carro articula os três recuos.',
         ],
         [
             'pergunta' => 'Dá para seguir a Sinop pela BR-163 depois do hotel?',
-            'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
+            'resposta' => 'Sim. Em Sorriso, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
         ],
         [
-            'pergunta' => 'A portaria da soja exige lista?',
+            'pergunta' => 'Em Sorriso, a portaria da soja exige lista?',
             'resposta' => 'Em geral, sim. Envie o nome e o documento pedido. Sem isso, a cancela não libera.',
         ],
         [
-            'pergunta' => 'O hotel no Centro é ponto conveniado do serviço?',
-            'resposta' => 'Não. O hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
+            'pergunta' => 'Em Sorriso, o hotel no Centro é ponto conveniado do serviço?',
+            'resposta' => 'Não. Em Sorriso, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

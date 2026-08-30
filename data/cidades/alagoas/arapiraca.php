@@ -47,7 +47,7 @@ return [
         ['pergunta' => 'O MCZ fica em Arapiraca?', 'resposta' => 'Não. O Zumbi dos Palmares fica na Grande Maceió. O trecho até lá entra como viagem, com margem de estrada — não como recuo de bairro.'],
         ['pergunta' => 'Vocês fazem Centro, Cacimbas e o campus no mesmo dia?', 'resposta' => 'Sim. Informe a ordem, o bloco e o documento da portaria. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para ir a Maceió depois da reunião no Centro?', 'resposta' => 'Sim, quando a orla ou o MCZ entram no roteiro. A AL-220 pede margem própria; o horário sai sob consulta.'],
-        ['pergunta' => 'O hotel no Centro é ponto conveniado?', 'resposta' => 'Não. O hotel entra só como embarque: nome e recuo. O orçamento sai sob consulta.'],
+        ['pergunta' => 'Em Arapiraca, o hotel no Centro é ponto conveniado?', 'resposta' => 'Não. O hotel entra só como embarque: nome e recuo. O orçamento sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Coloque Arapiraca no roteiro, não só o MCZ',

@@ -36,11 +36,28 @@ $migalhas = [
 
 $schemas = schemas_cidade($c, $canonical);
 $layout = (string) $c['layout'];
+$preloadImagem = $c['imagem'];
+$preloadImagemSizes = match ($layout) {
+    'malha' => '(max-width: 900px) 100vw, 55vw',
+    'rio' => '(max-width: 900px) calc(100vw - 40px), 900px',
+    'mare' => '(max-width: 900px) 100vw, 300px',
+    'orla', 'baia' => '100vw',
+    'eixo' => '(max-width: 900px) 100vw, 45vw',
+    'dunas' => '(max-width: 900px) 100vw, 50vw',
+    'protocolo' => '(max-width: 820px) calc(100vw - 40px), 820px',
+    'gaucha' => '(max-width: 900px) 100vw, 36vw',
+    'serra' => '(max-width: 980px) calc(100vw - 40px), 980px',
+    default => '100vw',
+};
 $arquivoLayout = dirname(__DIR__) . '/templates/cidades/' . $layout . '.php';
 if (!is_file($arquivoLayout)) {
     http_response_code(404);
     require dirname(__DIR__) . '/404.php';
     exit;
+}
+
+if (!headers_sent() && in_array(($_SERVER['REQUEST_METHOD'] ?? 'GET'), ['GET', 'HEAD'], true)) {
+    header('Cache-Control: public, max-age=300, s-maxage=86400, stale-while-revalidate=604800');
 }
 
 require dirname(__DIR__) . '/includes/header.php';

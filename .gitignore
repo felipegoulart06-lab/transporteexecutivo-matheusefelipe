@@ -1,5 +1,6 @@
 .env
 .env.*
+data/solicitacoes.json
 *.log
 Thumbs.db
 Desktop.ini

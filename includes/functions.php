@@ -227,6 +227,44 @@ function arquivo_imagem_existe(string $arquivo, string $ext = 'jpg'): bool
     return is_file(dirname(__DIR__) . '/' . url_imagem($arquivo, $ext));
 }
 
+function imagem_responsiva(
+    string $arquivo,
+    string $alt,
+    string $sizes = '100vw',
+    string $classe = '',
+    int $width = 1536,
+    int $height = 1024,
+    bool $prioridade = true
+): string {
+    $base = pathinfo($arquivo, PATHINFO_FILENAME);
+    $path = static fn (string $sufixo, string $ext): string =>
+        'assets/images/' . $base . $sufixo . '.' . $ext;
+    $existe = static fn (string $rel): bool => is_file(dirname(__DIR__) . '/' . $rel);
+    $classes = trim('lp-picture ' . $classe);
+    $html = '<picture class="' . e($classes) . '">';
+
+    foreach (['avif' => 'image/avif', 'webp' => 'image/webp'] as $ext => $mime) {
+        $small = $path('-800', $ext);
+        $large = $path('', $ext);
+        if (!$existe($large)) {
+            continue;
+        }
+        $srcset = $existe($small)
+            ? url_site($small) . ' 800w, ' . url_site($large) . ' 1536w'
+            : url_site($large);
+        $html .= '<source type="' . e($mime) . '" srcset="' . e($srcset)
+            . '" sizes="' . e($sizes) . '">';
+    }
+
+    $html .= '<img src="' . e(url_site($path('', 'jpg'))) . '" alt="' . e($alt)
+        . '" width="' . $width . '" height="' . $height
+        . '" sizes="' . e($sizes) . '"'
+        . ($prioridade ? ' fetchpriority="high"' : ' loading="lazy"')
+        . ' decoding="async">';
+
+    return $html . '</picture>';
+}
+
 function catalogo(): array
 {
     static $lista = null;

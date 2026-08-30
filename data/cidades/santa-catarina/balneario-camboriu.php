@@ -46,7 +46,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa em Navegantes',
     'faq' => [
         ['pergunta' => 'O aeroporto de Camboriú fica na orla?', 'resposta' => 'Não. O NVT fica em Navegantes. O trecho até a Barra Sul ou a Central entra no roteiro com margem para a BR-101.'],
-        ['pergunta' => 'O motorista espera no NVT se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Balneário Camboriú, o motorista espera no NVT se o voo atrasar?', 'resposta' => 'Sim. Em Balneário Camboriú, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Barra Sul, Central e o Unipraias no mesmo dia?', 'resposta' => 'Sim, quando o parque entra no roteiro. Combinamos o ponto de espera; o complexo não admite recuo improvisado.'],
         ['pergunta' => 'Dá para incluir Itajaí ou Blumenau depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte da Atlântica; o horário sai sob consulta.'],
     ],

@@ -42,7 +42,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Aluízio Alves',
     'faq' => [
         ['pergunta' => 'O aeroporto de Natal fica na Ponta Negra?', 'resposta' => 'Não. O NAT fica em São Gonçalo do Amarante. O trecho até Ponta Negra ou o Tirol entra no roteiro com margem.'],
-        ['pergunta' => 'O motorista espera no NAT se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no NAT se o voo atrasar?', 'resposta' => 'Sim. Em Natal, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Ponta Negra, Tirol e o Forte no mesmo dia?', 'resposta' => 'Sim, quando o Forte dos Reis Magos entra no roteiro. Informe a ordem; a Via Costeira pesa no horário.'],
         ['pergunta' => 'Dá para incluir Genipabu ou Pipa depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte da Rota do Sol; o orçamento sai sob consulta.'],
     ],

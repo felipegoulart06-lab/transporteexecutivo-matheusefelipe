@@ -116,7 +116,6 @@
             const li = document.createElement('li');
             const btn = document.createElement('button');
             btn.type = 'button';
-            btn.setAttribute('role', 'option');
             btn.textContent = getLabel(item);
             btn.dataset.value = getValue(item);
             li.appendChild(btn);
@@ -181,7 +180,11 @@
         const abrir = forcar !== undefined ? forcar : listaEstado.hidden;
         listaEstado.hidden = !abrir;
         selEstado.setAttribute('aria-expanded', abrir ? 'true' : 'false');
-        if (abrir) posicionarPainel(selEstado, listaEstado);
+        if (abrir) {
+            posicionarPainel(selEstado, listaEstado);
+            const primeiraOpcao = listaEstado.querySelector('button');
+            if (primeiraOpcao) primeiraOpcao.focus({ preventScroll: true });
+        }
     };
 
     const toggleCidade = (forcar) => {
@@ -279,6 +282,19 @@
         toggleCidade(false);
     });
 
+    document.addEventListener('keydown', (ev) => {
+        if (ev.key !== 'Escape') return;
+        if (!listaEstado.hidden) {
+            ev.preventDefault();
+            toggleEstado(false);
+            selEstado.focus({ preventScroll: true });
+        } else if (!wrapCidade.hidden) {
+            ev.preventDefault();
+            toggleCidade(false);
+            selCidade.focus({ preventScroll: true });
+        }
+    });
+
     window.addEventListener('resize', () => {
         if (!listaEstado.hidden) posicionarPainel(selEstado, listaEstado);
         if (!wrapCidade.hidden) posicionarPainel(selCidade, wrapCidade);
@@ -293,7 +309,7 @@
                 return;
             }
             if (tipo === 'virtual') {
-                document.dispatchEvent(new CustomEvent('nero:abrir-chat'));
+                document.dispatchEvent(new CustomEvent('transporte:abrir-chat'));
                 return;
             }
             if (tipo === 'pessoas') {
@@ -302,8 +318,8 @@
         });
     });
 
-    document.addEventListener('nero:agendar-motorista', irParaLocal);
-    document.addEventListener('nero:abrir-delivery', () => abrirDelivery());
+    document.addEventListener('transporte:agendar-motorista', irParaLocal);
+    document.addEventListener('transporte:abrir-delivery', () => abrirDelivery());
 
     const abrirInicio = () => {
         if (!raiz.classList.contains('is-intro')) return;
@@ -313,11 +329,17 @@
             intro.setAttribute('aria-hidden', 'true');
             intro.setAttribute('inert', '');
         }
+        frame.removeAttribute('inert');
         const titulo = document.getElementById('q-tipo');
         if (titulo) titulo.focus({ preventScroll: true });
     };
 
-    if (btnEntrar) btnEntrar.addEventListener('click', abrirInicio);
+    if (btnEntrar) {
+        btnEntrar.addEventListener('click', (ev) => {
+            ev.preventDefault();
+            abrirInicio();
+        });
+    }
 
     preencherEstados();
 })();

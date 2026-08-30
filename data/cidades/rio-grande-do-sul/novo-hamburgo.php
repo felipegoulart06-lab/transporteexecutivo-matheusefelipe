@@ -44,7 +44,7 @@ return [
     'rotas' => [
         'h2' => 'Trajetos que a agenda hamburguense mais pede',
         'itens' => [
-            ['titulo' => 'POA → hotel no Centro', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'POA → hotel no Centro', 'texto' => 'Em Novo Hamburgo, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
             ['titulo' => 'Ideal → Fenac → Canudos', 'texto' => 'Feira e recuos. Um motorista cobre os três se a ordem do pavilhão já estiver no roteiro.'],
             ['titulo' => 'Novo Hamburgo → Porto Alegre ou Canoas', 'texto' => 'BR-116 e mancha metropolitana. Não é o recorte urbano do Ideal; o horário sai sob consulta.'],
         ],
@@ -54,16 +54,16 @@ return [
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Centro, Ideal ou Canudos. Autocomplete não resolve bloco com dois acessos.'],
             ['titulo' => 'Fenac ou POA', 'texto' => 'Diga se o embarque é o pavilhão da feira, a portaria do hotel ou o terminal comercial.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Novo Hamburgo, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no POA e segue a Novo Hamburgo',
     'faq' => [
         ['pergunta' => 'Novo Hamburgo é bairro de Porto Alegre?', 'resposta' => 'Não. É município do Vale dos Sinos. O Centro, o Ideal e a Fenac pedem recuo próprio; a capital entra só quando a pauta atravessa a 116.'],
-        ['pergunta' => 'O motorista espera no POA se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal comercial faz parte do trecho.'],
+        ['pergunta' => 'Em Novo Hamburgo, o motorista espera no POA se o voo atrasar?', 'resposta' => 'Sim. Combinamos o POA com o número do voo; a espera no Salgado Filho integra o trecho pela BR-116 desde o Centro ou o Ideal.'],
         ['pergunta' => 'A Fenac exige protocolo de acesso?', 'resposta' => 'Em dias de feira, em geral sim. Envie o pavilhão, o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Vocês fazem Centro, Ideal e Canudos no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um motorista articula os três recuos se a margem estiver no roteiro.'],
-        ['pergunta' => 'Dá para seguir a Canoas depois do hotel?', 'resposta' => 'Sim, quando Canoas entra no roteiro. A mancha é contínua; o recuo muda no município. O horário sai sob consulta.'],
+        ['pergunta' => 'Vocês fazem Centro, Ideal e Canudos no mesmo dia?', 'resposta' => 'Sim. Informe a ordem entre Centro, Ideal e Canudos. Um motorista articula os três recuos se a margem da Fenac estiver no roteiro.'],
+        ['pergunta' => 'Em Novo Hamburgo, dá para seguir a Canoas depois do hotel?', 'resposta' => 'Sim, quando Canoas entra no roteiro. A mancha do Vale dos Sinos é contínua, mas o recuo muda no município; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Separe Ideal e Fenac do recuo até o POA',

@@ -56,7 +56,7 @@ return [
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Casa Preta e Urupá no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os três recuos se a margem estiver no roteiro.',
+            'resposta' => 'Sim. Em Ji-Paraná, informe a ordem e o nome do hotel. Um motorista articula os três recuos se a margem estiver no roteiro.',
         ],
         [
             'pergunta' => 'Os dois rios mudam o recuo urbano?',
@@ -64,7 +64,7 @@ return [
         ],
         [
             'pergunta' => 'Dá para ir a Porto Velho depois do hotel?',
-            'resposta' => 'Sim, como viagem pela BR-364. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
+            'resposta' => 'Sim. Em Ji-Paraná, como viagem pela BR-364. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
         ],
         [
             'pergunta' => 'A portaria industrial exige lista?',

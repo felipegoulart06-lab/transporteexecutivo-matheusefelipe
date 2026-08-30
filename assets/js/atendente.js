@@ -266,6 +266,22 @@
         if (ev.key === 'Escape' && aberto) {
             ev.preventDefault();
             fechar();
+            return;
+        }
+        if (ev.key === 'Tab' && aberto) {
+            const focaveis = Array.from(painel.querySelectorAll(
+                'button:not([disabled]), select:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])',
+            )).filter((item) => !item.hidden && item.getClientRects().length > 0);
+            if (!focaveis.length) return;
+            const primeiro = focaveis[0];
+            const ultimo = focaveis[focaveis.length - 1];
+            if (ev.shiftKey && document.activeElement === primeiro) {
+                ev.preventDefault();
+                ultimo.focus();
+            } else if (!ev.shiftKey && document.activeElement === ultimo) {
+                ev.preventDefault();
+                primeiro.focus();
+            }
         }
     });
 
@@ -273,5 +289,5 @@
         if (ev.target === painel) fechar();
     });
 
-    document.addEventListener('nero:abrir-chat', abrir);
+    document.addEventListener('transporte:abrir-chat', abrir);
 })();

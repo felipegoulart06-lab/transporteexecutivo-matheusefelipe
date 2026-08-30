@@ -54,13 +54,13 @@ return [
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Centro, Fátima ou o bloco da Univas. Autocomplete não resolve campus com dois acessos.'],
             ['titulo' => 'PPY, VCP ou GRU', 'texto' => 'Diga o saguão. O PPY não substitui Viracopos nem Guarulhos na conexão prática.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Pouso Alegre, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pauta a Univas e a Fernão Dias',
     'faq' => [
         ['pergunta' => 'O aeroporto de Pouso Alegre substitui Viracopos?', 'resposta' => 'O PPY tem malha limitada. O saguão prático da conexão é VCP ou GRU, pela Fernão Dias. Combinamos o terminal; a margem não sai do Waze da hora.'],
-        ['pergunta' => 'Vocês fazem Centro, Fátima e a Univas no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o bloco do campus. Um motorista articula os três recuos se a margem estiver no roteiro.'],
+        ['pergunta' => 'Vocês fazem Centro, Fátima e a Univas no mesmo dia?', 'resposta' => 'Sim. Em Pouso Alegre, informe a ordem e o bloco do campus. Um motorista articula os três recuos se a margem estiver no roteiro.'],
         ['pergunta' => 'A Fernão Dias até Guarulhos entra no mesmo pedido urbano?', 'resposta' => 'Não. GRU e VCP saem como viagem pela BR-381. O orçamento e o horário saem sob consulta.'],
         ['pergunta' => 'Dá para seguir a Poços de Caldas depois da reunião?', 'resposta' => 'Sim, como trecho de sul de Minas. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
         ['pergunta' => 'O campus da Univas pede protocolo de portaria?', 'resposta' => 'Quando a lista existir, envie o nome e o documento. O GPS na reitoria não resolve o recuo do bloco.'],

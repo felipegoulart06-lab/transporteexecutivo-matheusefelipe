@@ -36,7 +36,7 @@ return [
     'grade' => [
         'h2' => 'Rotas que a pauta taubateana mais pede',
         'itens' => [
-            ['titulo' => 'Hotel no Centro → Independência ou UNITAU', 'texto' => 'Pernoite e pauta. Informe o nome do hotel e se o carro espera no Centro enquanto a reunião corre.'],
+            ['titulo' => 'Hotel no Centro → Independência ou UNITAU', 'texto' => 'Em Taubaté, pernoite e pauta. Informe o nome do hotel e se o carro espera no Centro enquanto a reunião corre.'],
             ['titulo' => 'Centro → planta da Volkswagen', 'texto' => 'Portaria e turno. Envie o nome na lista e o documento pedido; o GPS na Dutra não resolve a cancela.'],
             ['titulo' => 'Taubaté → São José dos Campos (SJK)', 'texto' => 'O aeroporto prático fica em São José. Combinamos o voo e a margem da Dutra; a espera no terminal integra o trecho quando o pouso está no roteiro.'],
             ['titulo' => 'Hotel → capital pela Dutra', 'texto' => 'Quando a pauta vaza rumo a São Paulo, o recorte deixa de ser só urbano. Orçamento sob consulta.'],
@@ -45,10 +45,10 @@ return [
     'faq_h2' => 'Perguntas de quem pauta a planta e o Vale',
     'faq' => [
         ['pergunta' => 'Taubaté tem aeroporto comercial próprio?', 'resposta' => 'O saguão prático da pauta é o SJK, em São José dos Campos. O trecho pela Dutra entra no roteiro com margem; não é corrida instantânea da Independência.'],
-        ['pergunta' => 'O motorista espera no SJK se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho São José.'],
-        ['pergunta' => 'Vocês entram na Volkswagen com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
+        ['pergunta' => 'Em Taubaté, o motorista espera no SJK se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho São José.'],
+        ['pergunta' => 'Vocês entram na Volkswagen com protocolo de portaria?', 'resposta' => 'Sim. Em Taubaté, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
         ['pergunta' => 'Vocês fazem Centro, Independência e a UNITAU no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o bloco do campus. Um motorista articula os três recuos sem trocar o bairro no cartaz.'],
-        ['pergunta' => 'Dá para seguir a São Paulo depois da reunião?', 'resposta' => 'Sim, como viagem pela Presidente Dutra. Não é o mesmo recorte do Centro; o horário e o orçamento saem sob consulta.'],
+        ['pergunta' => 'Em Taubaté, dá para seguir a São Paulo depois da reunião?', 'resposta' => 'Sim, como viagem pela Presidente Dutra. Não é o mesmo recorte do Centro; o horário e o orçamento saem sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte a Independência ao horário da Dutra',

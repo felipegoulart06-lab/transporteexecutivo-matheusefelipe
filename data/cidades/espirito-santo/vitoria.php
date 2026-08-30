@@ -45,7 +45,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Eurico Salles',
     'faq' => [
         ['pergunta' => 'O aeroporto de Vitória fica longe da Praia do Canto?', 'resposta' => 'Fica em Goiabeiras, na própria ilha. Ainda assim marcamos margem: a Dante Michelini muda o relógio no pico.'],
-        ['pergunta' => 'O motorista espera no VIX se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Vitória, o motorista espera no VIX se o voo atrasar?', 'resposta' => 'Sim. Em Vitória, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês cruzam a Terceira Ponte rumo a Vila Velha?', 'resposta' => 'Sim. Informe o endereço em Vila Velha. A ponte pesa mais que a distância no mapa.'],
         ['pergunta' => 'Dá para incluir o Convento da Penha no mesmo dia?', 'resposta' => 'Sim, quando a visita entra no roteiro. O acesso em Vila Velha pede ponto de espera combinado.'],
     ],

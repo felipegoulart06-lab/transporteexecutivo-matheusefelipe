@@ -1,4 +1,24 @@
 RewriteEngine On
+RewriteCond %{HTTP_HOST} ^transporteexecutivo\.com$ [NC]
+RewriteRule ^ https://www.transporteexecutivo.com%{REQUEST_URI} [R=301,L,NE]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^www\.transporteexecutivo\.com$ [NC]
+RewriteRule ^ https://www.transporteexecutivo.com%{REQUEST_URI} [R=301,L,NE]
+RewriteRule ^(?:data|includes|templates|tools|docs)(?:/|$) - [R=404,L]
+RewriteCond %{THE_REQUEST} \s/+index\.php(?:[?\s]) [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+sitemap\.php(?:[?\s]) [NC]
+RewriteRule ^sitemap\.php$ /sitemap.xml [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+robots\.php(?:[?\s]) [NC]
+RewriteRule ^robots\.php$ /robots.txt [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+transporte-executivo/index\.php(?:[?\s]) [NC]
+RewriteRule ^transporte-executivo/index\.php$ /transporte-executivo/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+transporte-executivo/[a-z0-9-]+/index\.php(?:[?\s]) [NC]
+RewriteRule ^transporte-executivo/([a-z0-9-]+)/index\.php$ /transporte-executivo/$1/ [R=301,L,NE]
+RewriteCond %{THE_REQUEST} \s/+[^\s?]*\.php(?:[?\s]) [NC]
+RewriteCond %{REQUEST_URI} !^/api/localidades\.php$
+RewriteRule \.php$ - [R=404,L]
+RewriteRule ^(transporte-executivo(?:/[a-z0-9-]+){0,2})$ /$1/ [R=301,L,NE]
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 RewriteRule ^robots\.txt$ robots.php [L]
 RewriteRule ^favicon\.ico$ assets/images/favicon-32.png [L]
@@ -10,10 +30,6 @@ RewriteRule ^transporte-executivo/([a-z0-9-]+)/([a-z0-9-]+)/?$ templates/cidade-
     Header set X-Content-Type-Options "nosniff"
     Header set X-Frame-Options "SAMEORIGIN"
     Header set Referrer-Policy "strict-origin-when-cross-origin"
-</IfModule>
-
-<IfModule mod_headers.c>
-    Header set X-Content-Type-Options "nosniff"
-    Header set X-Frame-Options "SAMEORIGIN"
-    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+    Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains" "expr=%{HTTPS} == 'on'"
 </IfModule>

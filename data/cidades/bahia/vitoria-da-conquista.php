@@ -28,7 +28,7 @@ return [
         'h2' => 'Três recortes que a pauta conquisteira usa',
         'itens' => [
             ['h3' => 'Candeias e o shopping', 'texto' => 'Hotéis (Ibis, Deville, similares) e torres. Informe o nome; as quadras de Candeias se repetem no mapa.'],
-            ['h3' => 'Centro e a 394', 'texto' => 'Sede e o calçadão. O sentido da via muda no fim da tarde; “no Centro” não define a porta.'],
+            ['h3' => 'Centro e a 394', 'texto' => 'Em Vitória da Conquista, sede e o calçadão. O sentido da via muda no fim da tarde; “no Centro” não define a porta.'],
             ['h3' => 'Recreio, Uesb e o campus', 'texto' => 'Universidade e pauta acadêmica. O recuo pede bloco e portaria, não “na Uesb”.'],
         ],
     ],
@@ -39,8 +39,8 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Glauber Rocha',
     'faq' => [
         ['pergunta' => 'O aeroporto de Conquista fica longe de Candeias?', 'resposta' => 'É trecho urbano. Marcamos margem: a Olívia Flores e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no VDC se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Candeias, Centro e a Uesb no mesmo dia?', 'resposta' => 'Sim. Informe o bloco. Um motorista articula os três recuos.'],
+        ['pergunta' => 'O motorista espera no VDC se o voo atrasar?', 'resposta' => 'Sim. Em Vitória da Conquista, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Candeias, Centro e a Uesb no mesmo dia?', 'resposta' => 'Sim. Em Vitória da Conquista, informe o bloco. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para seguir a Jequié ou a BR-116 depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte de Candeias; o horário sai sob consulta.'],
     ],
     'cta' => [

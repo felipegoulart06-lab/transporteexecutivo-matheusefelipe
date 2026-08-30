@@ -36,7 +36,7 @@ return [
     'grade' => [
         'h2' => 'Rotas que a pauta divinopolitana mais pede',
         'itens' => [
-            ['titulo' => 'Hotel no Centro → Danilo Passos ou Porto Velho', 'texto' => 'Pernoite e pauta. Informe o nome do hotel e se o carro espera no Centro enquanto a reunião corre.'],
+            ['titulo' => 'Hotel no Centro → Danilo Passos ou Porto Velho', 'texto' => 'Em Divinópolis, pernoite e pauta. Informe o nome do hotel e se o carro espera no Centro enquanto a reunião corre.'],
             ['titulo' => 'Centro → campus da UEMG', 'texto' => 'Bloco e portaria. Envie o documento da lista; o GPS “Divinópolis” não coloca o carro no campus certo.'],
             ['titulo' => 'Hotel → planta no recorte', 'texto' => 'Cancela e turno. O protocolo entra no roteiro; não é o mesmo pedido do Centro.'],
             ['titulo' => 'Divinópolis → Confins (CNF)', 'texto' => 'O DIQ não substitui a conexão prática. Combinamos a MG-050 e a BR-262; o orçamento sai sob consulta.'],
@@ -46,8 +46,8 @@ return [
     'faq' => [
         ['pergunta' => 'O aeroporto de Divinópolis substitui Confins?', 'resposta' => 'O DIQ tem malha limitada. O saguão prático da conexão é o CNF. Combinamos o recuo; não é corrida instantânea do Centro.'],
         ['pergunta' => 'Porto Velho é o município de Rondônia?', 'resposta' => 'Não. Neste recorte, Porto Velho é bairro de Divinópolis. Informe rua e número; o nome sozinho confunde o cartaz.'],
-        ['pergunta' => 'Vocês fazem Centro, Danilo Passos e a UEMG no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o bloco do campus. Um motorista articula os três recuos se a margem estiver no roteiro.'],
-        ['pergunta' => 'A planta entra com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
+        ['pergunta' => 'Vocês fazem Centro, Danilo Passos e a UEMG no mesmo dia?', 'resposta' => 'Sim. Em Divinópolis, informe a ordem e o bloco do campus. Um motorista articula os três recuos se a margem estiver no roteiro.'],
+        ['pergunta' => 'A planta entra com protocolo de portaria?', 'resposta' => 'Sim. Em Divinópolis, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
         ['pergunta' => 'Dá para seguir a Betim ou a Savassi depois da reunião?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro-Oeste mineiro; o horário sai sob consulta.'],
     ],
     'cta' => [

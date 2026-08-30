@@ -45,7 +45,7 @@ return [
         ['pergunta' => 'O aeroporto de Corumbá fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: o acesso ao CMG e o horário de pico alteram o intervalo até o porto.'],
         ['pergunta' => 'Vocês levam até a fronteira com a Bolívia?', 'resposta' => 'Sim, quando o ponto entra no roteiro. Documento e cancela entram no pedido; sem isso, o recuo da fronteira não libera.'],
         ['pergunta' => 'O Pantanal entra automaticamente no traslado?', 'resposta' => 'Não. Fazenda, rio ou mirante só entram se estiverem no itinerário. Combine o ponto de espera; não é passeio no meio da pauta.'],
-        ['pergunta' => 'Vocês fazem Centro, Popular Nova e o porto no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os três recuos.'],
+        ['pergunta' => 'Vocês fazem Centro, Popular Nova e o porto no mesmo dia?', 'resposta' => 'Sim. Em Corumbá, informe a ordem e o nome do hotel. Um motorista articula os três recuos.'],
     ],
     'cta' => [
         'titulo' => 'Separe o porto da pauta de Campo Grande',

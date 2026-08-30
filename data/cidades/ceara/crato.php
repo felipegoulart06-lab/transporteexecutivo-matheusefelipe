@@ -81,7 +81,7 @@ return [
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Seminário e Pinto Madeira no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os três recuos.',
+            'resposta' => 'Sim. Em Crato, informe a ordem e o nome do hotel. Um motorista articula os três recuos.',
         ],
         [
             'pergunta' => 'Dá para seguir a Fortaleza depois da reunião no Centro?',
@@ -89,7 +89,7 @@ return [
         ],
         [
             'pergunta' => 'O hotel no Seminário é ponto conveniado?',
-            'resposta' => 'Não. O hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
+            'resposta' => 'Não. Em Crato, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

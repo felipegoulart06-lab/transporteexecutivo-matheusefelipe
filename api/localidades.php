@@ -6,7 +6,8 @@ require_once dirname(__DIR__) . '/includes/bootstrap.php';
 require_once dirname(__DIR__) . '/includes/ibge.php';
 
 header('Content-Type: application/json; charset=UTF-8');
-header('Cache-Control: public, max-age=3600');
+header('Cache-Control: public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800');
+header('X-Robots-Tag: noindex, nofollow');
 
 $recurso = (string) ($_GET['recurso'] ?? '');
 

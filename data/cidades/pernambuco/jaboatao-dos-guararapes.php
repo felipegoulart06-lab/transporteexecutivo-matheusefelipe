@@ -52,8 +52,8 @@ return [
             'resposta' => 'Não. O REC fica no Recife. A mancha urbana é contínua: Piedade e Candeias chegam ao terminal em trecho metropolitano, com margem para a Mascarenhas.',
         ],
         [
-            'pergunta' => 'O motorista espera no REC se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
+            'pergunta' => 'Em Jaboatão dos Guararapes, o motorista espera no REC se o voo atrasar?',
+            'resposta' => 'Sim. Em Jaboatão dos Guararapes, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês fazem Piedade, Candeias e o Shopping Guararapes no mesmo dia?',

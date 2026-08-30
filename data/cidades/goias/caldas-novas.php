@@ -39,7 +39,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Nelson Ribeiro',
     'faq' => [
         ['pergunta' => 'O aeroporto de Caldas Novas fica longe dos hotéis?', 'resposta' => 'É trecho urbano. Marcamos margem: o horário de check-out e a Bento de Godoy alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no CLV se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no CLV se o voo atrasar?', 'resposta' => 'Sim. Em Caldas Novas, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês buscam no diRoma e levam ao Centro?', 'resposta' => 'Sim. Informe o nome do complexo e o recuo da portaria.'],
         ['pergunta' => 'Dá para incluir o Rio Quente no mesmo dia?', 'resposta' => 'Sim, como recorte vizinho. Não é o mesmo pedido do Centro; o horário sai sob consulta.'],
     ],

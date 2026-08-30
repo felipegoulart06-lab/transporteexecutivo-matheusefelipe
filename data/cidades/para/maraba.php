@@ -56,7 +56,7 @@ return [
         ],
         [
             'pergunta' => 'O motorista espera no MAB se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.',
+            'resposta' => 'Sim. Em Marabá, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês fazem Nova Marabá, Velha Marabá e Cidade Nova no mesmo dia?',

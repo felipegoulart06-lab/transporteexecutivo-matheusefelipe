@@ -48,7 +48,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Hercílio Luz',
     'faq' => [
         ['pergunta' => 'O aeroporto de Florianópolis fica longe de Jurerê?', 'resposta' => 'Fica em Carianos, no sul da ilha. O trecho até Jurerê ou Canasvieiras entra no roteiro com margem para a SC-401.'],
-        ['pergunta' => 'O motorista espera no FLN se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Florianópolis, o motorista espera no FLN se o voo atrasar?', 'resposta' => 'Sim. Em Florianópolis, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Centro, Lagoa e Jurerê no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. São recortes diferentes da ilha; um motorista articula os três se a margem estiver no roteiro.'],
         ['pergunta' => 'Dá para seguir a Balneário Camboriú depois do hotel?', 'resposta' => 'Sim, como viagem pelo continente. Não é o mesmo recorte da ilha; o horário sai sob consulta.'],
     ],

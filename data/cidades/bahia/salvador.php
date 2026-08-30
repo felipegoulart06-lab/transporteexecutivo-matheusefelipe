@@ -38,7 +38,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Luís Eduardo Magalhães',
     'faq' => [
         ['pergunta' => 'Quanto tempo entre a Barra e o aeroporto de Salvador?', 'resposta' => 'O intervalo depende da Paralela e do horário. Marcamos margem; não vendemos minuto fixo de aplicativo.'],
-        ['pergunta' => 'O motorista espera no SSA se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Salvador, o motorista espera no SSA se o voo atrasar?', 'resposta' => 'Sim. Em Salvador, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Barra, Iguatemi e o Centro no mesmo dia?', 'resposta' => 'Sim. A ordem dos três muda o tempo. Um motorista à disposição evita três aceites em ladeira.'],
         ['pergunta' => 'Dá para buscar no ferry e seguir ao aeroporto?', 'resposta' => 'Sim, com o horário da travessia e o do voo no mesmo recado. São dois relógios; o carro articula os dois.'],
     ],

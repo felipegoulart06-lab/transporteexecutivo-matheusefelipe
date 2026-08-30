@@ -21,7 +21,7 @@ return [
     'artigos' => [
         [
             'h2' => 'A cidade industrial pede a planta, não “na Grande BH”',
-            'texto' => 'Centro, Cidade Industrial, Eldorado e Ressaca não compartilham o mesmo recuo. Hotel (Ibis, similares) e pauta na Fiat ou no condomínio industrial pedem o nome da portaria. “Me busca em Contagem” não coloca o carro na cancela certa.',
+            'texto' => 'Centro, Cidade Industrial, Eldorado e Ressaca não compartilham o mesmo recuo. Hotel (Ibis, similares) e pauta no condomínio industrial ou na portaria da planta pedem o nome da cancela. “Me busca em Contagem” não coloca o carro na entrada certa.',
         ],
         [
             'h2' => 'Eldorado, shopping e o silêncio da espera',
@@ -36,7 +36,7 @@ return [
         'h2' => 'Itens que entram na ordem do dia em Contagem',
         'itens' => [
             ['h3' => 'Centro e o Paço', 'texto' => 'Informe o prédio. O recuo do Paço não é o da Cidade Industrial.'],
-            ['h3' => 'Cidade Industrial e a Fiat', 'texto' => 'Portaria, turno e documento na lista. Sem isso, o recuo da planta não libera.'],
+            ['h3' => 'Cidade Industrial e condomínios fabris', 'texto' => 'Portaria, turno e documento na lista. A montadora fica em Betim; aqui o recuo é do parque industrial contagenense.'],
             ['h3' => 'Eldorado e o shopping', 'texto' => 'Hotel e clínicas. O nome do estabelecimento evita a volta na João César.'],
             ['h3' => 'Quando a pauta aponta para a Savassi ou Confins', 'texto' => 'Não é o mesmo pedido urbano. O orçamento sai à parte, com margem da MG-10.'],
         ],
@@ -44,12 +44,12 @@ return [
     'faq_h2' => 'Dúvidas de quem pauta a Cidade Industrial',
     'faq' => [
         ['pergunta' => 'O motorista vai a Confins a partir de Contagem?', 'resposta' => 'Sim, quando o CNF entra no roteiro. A MG-10 pede margem; não é corrida instantânea do Eldorado.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Dá para ir à Savassi e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A Via Expressa pesa mais que a distância no mapa.'],
-        ['pergunta' => 'O motorista espera no CNF se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. A espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Contagem, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista da planta e o documento pedido. Sem protocolo, a cancela da Cidade Industrial não libera.'],
+        ['pergunta' => 'Em Contagem, dá para ir à Savassi e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A Via Expressa pesa mais que a distância no mapa.'],
+        ['pergunta' => 'Em Contagem, o motorista espera no CNF se o voo atrasar?', 'resposta' => 'Sim. Acompanhamos o painel do CNF com o número do voo; a espera no desembarque integra o trecho desde o Eldorado ou o Centro.'],
     ],
     'cta' => [
-        'titulo' => 'Envie a planta junto com o horário de Confins',
+        'titulo' => 'Informe a portaria da Cidade Industrial e o voo no CNF',
         'texto' => 'O orçamento de Contagem sai sob consulta. Industrial, hotel e CNF no mesmo recado.',
         'botao' => 'Solicitar carro em Contagem',
     ],

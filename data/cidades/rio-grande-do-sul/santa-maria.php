@@ -28,8 +28,8 @@ return [
     'bairros' => [
         'h2' => 'Eixos da cidade onde o embarque mais se concentra',
         'itens' => [
-            ['h3' => 'Centro e a Rio Branco', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Camobi e o campus da UFSM', 'texto' => 'Pauta acadêmica. O recuo pede bloco e portaria, não “na universidade”.'],
+            ['h3' => 'Centro e a Rio Branco', 'texto' => 'Em Santa Maria, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Camobi e o campus da UFSM', 'texto' => 'Em Santa Maria, pauta acadêmica. O recuo pede bloco e portaria, não “na universidade”.'],
             ['h3' => 'Nossa Senhora de Lourdes e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam na Presidente Vargas.'],
             ['h3' => 'Nossa Senhora do Rosário e o Patronato', 'texto' => 'Pauta residencial. O recuo pede rua e número.'],
         ],
@@ -44,7 +44,7 @@ return [
     'rotas' => [
         'h2' => 'Trajetos que a agenda santa-mariense mais pede',
         'itens' => [
-            ['titulo' => 'RIA → hotel no Centro', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'RIA → hotel no Centro', 'texto' => 'Em Santa Maria, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
             ['titulo' => 'Centro → Camobi → UFSM', 'texto' => 'Sede e campus. Um motorista cobre os dois se a ordem já estiver no roteiro.'],
             ['titulo' => 'Santa Maria → Porto Alegre', 'texto' => 'BR-287. Não é o recorte urbano do Centro; o horário sai sob consulta.'],
         ],
@@ -53,16 +53,16 @@ return [
         'h2' => 'Como o carro entra na grade em Santa Maria',
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Centro, Camobi ou Lourdes. Autocomplete não resolve bloco com dois acessos.'],
-            ['titulo' => 'Hotel ou RIA', 'texto' => 'Diga se o embarque é o aeroporto ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Hotel ou RIA', 'texto' => 'Em Santa Maria, diga se o embarque é o aeroporto ou a portaria do hotel.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Santa Maria, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no RIA',
     'faq' => [
         ['pergunta' => 'O aeroporto de Santa Maria fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a Rio Branco e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no RIA se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, Camobi e a UFSM no mesmo dia?', 'resposta' => 'Sim. Informe o bloco. Um motorista articula os três recuos.'],
-        ['pergunta' => 'Dá para seguir a Porto Alegre depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-287. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'O motorista espera no RIA se o voo atrasar?', 'resposta' => 'Sim. Em Santa Maria, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Centro, Camobi e a UFSM no mesmo dia?', 'resposta' => 'Sim. Em Santa Maria, informe o bloco. Um motorista articula os três recuos.'],
+        ['pergunta' => 'Em Santa Maria, dá para seguir a Porto Alegre depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-287. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o Camobi ao horário do RIA',

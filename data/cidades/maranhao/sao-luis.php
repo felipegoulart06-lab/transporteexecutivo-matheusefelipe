@@ -42,7 +42,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Cunha Machado',
     'faq' => [
         ['pergunta' => 'O aeroporto de São Luís fica longe da Ponta d\'Areia?', 'resposta' => 'É trecho urbano na ilha. Marcamos margem: a Holandeses e a chuva alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no SLZ se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no SLZ se o voo atrasar?', 'resposta' => 'Sim. Em São Luís, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês sobem a ladeira do Centro Histórico?', 'resposta' => 'Sim. Combinamos o ponto de espera. O calçamento não admite recuo improvisado na Praia Grande.'],
         ['pergunta' => 'Dá para incluir Alcântara no mesmo dia?', 'resposta' => 'Sim, quando a travessia entra no roteiro. Não é o mesmo pedido da orla; o horário sai sob consulta.'],
     ],

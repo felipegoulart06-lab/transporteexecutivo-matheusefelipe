@@ -43,7 +43,7 @@ return [
     'passos' => [
         'h2' => 'Três dados que evitam atraso no CWB',
         'itens' => [
-            ['num' => '01', 'titulo' => 'Terminal e voo', 'texto' => 'Número e horário. O carro sai com margem, não no minuto do check-in.'],
+            ['num' => '01', 'titulo' => 'Terminal e voo', 'texto' => 'Em São José dos Pinhais, número e horário. O carro sai com margem, não no minuto do check-in.'],
             ['num' => '02', 'titulo' => 'Hotel ou planta', 'texto' => 'Costeira, Centro ou portaria industrial. “Perto do aeroporto” não basta.'],
             ['num' => '03', 'titulo' => 'Curitiba ou cidade', 'texto' => 'O trecho até o Batel entra como recorte próprio. O urbano de São José é outro orçamento.'],
         ],
@@ -51,8 +51,8 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Afonso Pena',
     'faq' => [
         ['pergunta' => 'O aeroporto de Curitiba fica em São José dos Pinhais?', 'resposta' => 'Sim. O CWB fica neste município. O trecho até o Centro local ou até o Batel entra no roteiro com margem distinta para cada um.'],
-        ['pergunta' => 'O motorista espera no CWB se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
+        ['pergunta' => 'Em São José dos Pinhais, o motorista espera no CWB se o voo atrasar?', 'resposta' => 'Sim. Em São José dos Pinhais, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em São José dos Pinhais, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Em São José dos Pinhais, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
         ['pergunta' => 'Dá para ir ao Batel depois do hotel na Costeira?', 'resposta' => 'Sim. Informe a ordem. A Linha Verde pesa mais que a distância no mapa.'],
     ],
     'cta' => [

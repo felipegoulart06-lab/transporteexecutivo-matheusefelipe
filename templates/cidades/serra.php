@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-serra">
     <header class="lp-serra__head">
@@ -13,7 +12,7 @@ $img = url_site(url_imagem($c['imagem'], 'jpg'));
         <p class="lp-serra__olho"><?= e($c['olho']) ?></p>
     </header>
     <figure class="lp-serra__fig">
-        <img src="<?= e($img) ?>" alt="<?= e($c['seo']['og_image_alt']) ?>" width="1600" height="900" fetchpriority="high" decoding="async">
+        <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt'], '(max-width: 980px) calc(100vw - 40px), 980px') ?>
     </figure>
     <article class="lp-serra__prose">
         <?php foreach ($c['capitulos'] as $cap): ?>

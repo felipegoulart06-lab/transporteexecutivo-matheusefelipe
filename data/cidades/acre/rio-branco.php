@@ -51,7 +51,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Plácido de Castro',
     'faq' => [
         ['pergunta' => 'O aeroporto de Rio Branco fica na capital?', 'resposta' => 'O RBR fica em Senador Guiomard. O trecho até o Centro ou o Bosque entra no roteiro com margem.'],
-        ['pergunta' => 'O motorista espera no RBR se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no RBR se o voo atrasar?', 'resposta' => 'Sim. Em Rio Branco, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Dá para ir ao Mercado Velho e seguir ao palácio no mesmo turno?', 'resposta' => 'Sim. São poucos quilômetros. Informe a ordem e o ponto de espera na passarela.'],
         ['pergunta' => 'Vocês fazem o trecho até Xapuri ou Brasiléia?', 'resposta' => 'Sim, quando o destino entra no roteiro como viagem. Não é o mesmo recorte do Centro; o horário e o valor saem sob consulta.'],
     ],

@@ -44,7 +44,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Alberto Alcolumbre',
     'faq' => [
         ['pergunta' => 'O aeroporto de Macapá fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a avenida e a chuva da tarde alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no MCP se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no saguão faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no MCP se o voo atrasar?', 'resposta' => 'Sim. Em Macapá, o número do voo entra no roteiro e a espera no saguão faz parte do trecho.'],
         ['pergunta' => 'Dá para ir à Fortaleza e ao Marco Zero no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. São recortes diferentes da cidade; um motorista articula os dois.'],
         ['pergunta' => 'Vocês fazem o trecho até Santana?', 'resposta' => 'Sim, quando Santana entra no roteiro. Não é o mesmo pedido do Centro; o horário sai sob consulta.'],
     ],

@@ -39,8 +39,8 @@ return [
     'faq_h2' => 'Dúvidas de quem voa pelo Guararapes',
     'faq' => [
         ['pergunta' => 'O aeroporto do Recife fica longe de Boa Viagem?', 'resposta' => 'É um trecho urbano. Ainda assim marcamos margem: a Mascarenhas e as pontes mudam o relógio no fim da tarde.'],
-        ['pergunta' => 'O motorista espera no REC se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Recife Antigo e Boa Viagem no mesmo expediente?', 'resposta' => 'Sim. Informe a ordem. A ponte e o sentido da via pesam mais que a distância no mapa.'],
+        ['pergunta' => 'Em Recife, o motorista espera no REC se o voo atrasar?', 'resposta' => 'Sim. Em Recife, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Recife Antigo e Boa Viagem no mesmo expediente?', 'resposta' => 'Sim. Em Recife, informe a ordem. A ponte e o sentido da via pesam mais que a distância no mapa.'],
         ['pergunta' => 'Dá para incluir Olinda no mesmo dia?', 'resposta' => 'Sim, quando o endereço de Olinda entra no roteiro. São municípios vizinhos; o horário de ladeira pede margem própria.'],
     ],
     'cta' => [

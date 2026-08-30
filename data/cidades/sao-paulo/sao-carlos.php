@@ -51,7 +51,7 @@ return [
     'faq_h2' => 'Perguntas de quem pauta o campus e o QSC',
     'faq' => [
         ['pergunta' => 'O QSC resolve o voo comercial de São Carlos?', 'resposta' => 'O Mário Pereira Lopes (QSC) tem operação comercial limitada. O voo longo da pauta sai em geral pelo Viracopos (VCP); combinamos qual saguão entra no roteiro.'],
-        ['pergunta' => 'O motorista espera no QSC ou no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no QSC ou no VCP se o voo atrasar?', 'resposta' => 'Sim. Em São Carlos, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Centro, USP e UFSCar no mesmo dia?', 'resposta' => 'Sim. Informe a ordem, o bloco e o documento da portaria. Um motorista articula os três recuos sem trocar o campus no GPS.'],
         ['pergunta' => 'Dá para ir a Campinas ou a Ribeirão Preto depois do hotel?', 'resposta' => 'Sim, como viagem pela Washington Luís ou pelo recorte do interior. Não é o mesmo pedido do Centro; o horário sai sob consulta.'],
         ['pergunta' => 'Vocês entram na planta de ótica com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta em Santa Felícia não libera.'],

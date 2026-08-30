@@ -63,7 +63,7 @@ return [
         ],
         [
             'pergunta' => 'Vocês fazem Emaús e Passagem de Areia no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os dois recuos.',
+            'resposta' => 'Sim. Em Parnamirim, informe a ordem e o nome do hotel. Um motorista articula os dois recuos.',
         ],
         [
             'pergunta' => 'Dá para ir a Ponta Negra ou ao Tirol depois do hotel?',
@@ -71,7 +71,7 @@ return [
         ],
         [
             'pergunta' => 'O hotel em Emaús é ponto conveniado?',
-            'resposta' => 'Não. O hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
+            'resposta' => 'Não. Em Parnamirim, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

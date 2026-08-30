@@ -49,8 +49,8 @@ return [
     'faq' => [
         ['pergunta' => 'O motorista sobe a serra a partir do Guarujá?', 'resposta' => 'Sim, quando São Paulo entra no roteiro. A Imigrantes e a Anchieta pedem margem; não é o mesmo recorte de Pitangueiras.'],
         ['pergunta' => 'Vocês cruzam para Santos no mesmo dia?', 'resposta' => 'Sim. Informe se o trecho é ferry ou rodovia pelo canal. A travessia pesa mais que o quilômetro no mapa; o horário sai sob consulta.'],
-        ['pergunta' => 'Dá para ir de Pitangueiras à Enseada e voltar ao hotel?', 'resposta' => 'Sim. Combinamos a ordem e o ponto de espera. A orla não admite recuo improvisado no feriado.'],
-        ['pergunta' => 'O motorista espera no CGH ou no GRU se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. Acompanhamos o painel com o número do voo; a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Dá para ir de Pitangueiras à Enseada e voltar ao hotel?', 'resposta' => 'Sim. Em Guarujá, combinamos a ordem e o ponto de espera. A orla não admite recuo improvisado no feriado.'],
+        ['pergunta' => 'O motorista espera no CGH ou no GRU se o voo atrasar?', 'resposta' => 'Sim. Em Guarujá, quando o voo está no roteiro. Acompanhamos o painel com o número do voo; a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'A visita à praia entra no mesmo pedido do traslado?', 'resposta' => 'Só como itinerário combinado. Não é corrida de orla: Pitangueiras, Tombo ou a Enseada entram na pauta se já estiverem no roteiro.'],
     ],
     'cta' => [

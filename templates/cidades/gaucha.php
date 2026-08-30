@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-gaucha">
     <div class="lp-gaucha__split">
@@ -17,7 +16,7 @@ $img = url_site(url_imagem($c['imagem'], 'jpg'));
             </section>
         </div>
         <aside>
-            <img src="<?= e($img) ?>" alt="<?= e($c['seo']['og_image_alt']) ?>" width="1600" height="900" fetchpriority="high" decoding="async">
+            <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt'], '(max-width: 900px) 100vw, 36vw') ?>
             <h2><?= e($c['lateral']['h2']) ?></h2>
             <?php foreach ($c['lateral']['itens'] as $item): ?>
                 <h3><?= e($item['h3']) ?></h3>

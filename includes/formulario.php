@@ -29,7 +29,7 @@ $ufTravada = $ufTravada ?? null;
                     <div><dt>Serviço</dt><dd><?= e($resumo['tipo']) ?></dd></div>
                 </dl>
             <?php endif; ?>
-            <div class="actions" style="margin-top:22px">
+            <div class="actions actions--spaced">
                 <a class="btn" href="<?= e($acaoFormulario) ?>">Nova solicitação</a>
             </div>
         </div>
@@ -41,7 +41,7 @@ $ufTravada = $ufTravada ?? null;
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
-        <form method="post" id="formNero" action="<?= e($acaoFormulario) ?>" class="form-orcamento">
+        <form method="post" id="formOrcamento" action="<?= e($acaoFormulario) ?>" class="form-orcamento">
             <input type="hidden" name="csrf" value="<?= e($_SESSION['csrf'] ?? '') ?>">
             <input type="hidden" name="form_ts" value="<?= e((string) time()) ?>">
             <p class="hp" aria-hidden="true">
@@ -111,9 +111,9 @@ $ufTravada = $ufTravada ?? null;
             <label class="field">
                 <span class="caption">Quantidade de passageiros</span>
                 <div class="people">
-                    <button type="button" id="menos" aria-label="Diminuir">−</button>
+                    <button type="button" id="menos" aria-label="Diminuir passageiros">−</button>
                     <input type="number" name="pessoas" id="pessoas" min="1" max="16" value="<?= e(campo('pessoas') !== '' ? campo('pessoas') : '1') ?>" required>
-                    <button type="button" id="mais" aria-label="Aumentar">+</button>
+                    <button type="button" id="mais" aria-label="Aumentar passageiros">+</button>
                 </div>
             </label>
 

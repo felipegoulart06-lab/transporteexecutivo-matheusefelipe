@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-mare">
     <header class="lp-mare__head">
@@ -30,7 +29,7 @@ $img = url_site(url_imagem($c['imagem'], 'jpg'));
             </section>
         </article>
         <aside>
-            <img src="<?= e($img) ?>" alt="<?= e($c['seo']['og_image_alt']) ?>" width="800" height="450" fetchpriority="high" decoding="async">
+            <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt'], '(max-width: 900px) 100vw, 300px') ?>
             <h2><?= e($c['coluna_b']['h2']) ?></h2>
             <p><?= e($c['coluna_b']['texto']) ?></p>
             <?php require __DIR__ . '/_cta.php'; ?>

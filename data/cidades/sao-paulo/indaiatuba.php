@@ -44,7 +44,7 @@ return [
     'faq_h2' => 'Quem já dorme no relógio de Viracopos',
     'faq' => [
         ['pergunta' => 'Viracopos é mais perto de Indaiatuba do que do centro de Campinas?', 'resposta' => 'Com frequência, sim. Helvétia e o Centro de Indaiatuba encurtam o VCP em relação a quem sai do Cambuí. Combinamos a margem a partir do recuo real, não da “região de Campinas”.'],
-        ['pergunta' => 'O motorista espera no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. Acompanhamos o painel com o número; a espera no terminal faz parte do trecho Viracopos.'],
+        ['pergunta' => 'Em Indaiatuba, o motorista espera no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. Acompanhamos o painel com o número; a espera no terminal faz parte do trecho Viracopos.'],
         ['pergunta' => 'Helvétia e Jardim Pompéia se confundem no mesmo recuo?', 'resposta' => 'Confundem no GPS. Informe o condomínio ou a rua. São recortes distintos; o pin “perto do aeroporto” não define a porta.'],
         ['pergunta' => 'Jundiaí entra depois do hotel no Centro?', 'resposta' => 'Entra, quando Jundiaí já está no itinerário. A Anhanguera pede margem; o horário sai sob consulta.'],
         ['pergunta' => 'Dormir em Indaiatuba muda a margem do check-in em Viracopos?', 'resposta' => 'Muda. O pernoite local coloca o passageiro no relógio do VCP, não no de Campinas centro. Envie o hotel pelo nome e o horário do voo.'],

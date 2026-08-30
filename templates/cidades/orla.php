@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-orla">
     <div class="lp-orla__top">
@@ -13,7 +12,7 @@ $img = url_site(url_imagem($c['imagem'], 'jpg'));
         <p class="lp-orla__quote"><?= e($c['epigrafe']) ?></p>
     </div>
     <figure class="lp-orla__bleed">
-        <img src="<?= e($img) ?>" alt="<?= e($c['seo']['og_image_alt']) ?>" width="1600" height="900" fetchpriority="high" decoding="async">
+        <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt']) ?>
     </figure>
     <article class="lp-orla__art">
         <section>

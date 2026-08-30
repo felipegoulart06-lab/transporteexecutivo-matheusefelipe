@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-eixo">
     <header class="lp-eixo__hero">
@@ -15,7 +14,7 @@ $img = url_site(url_imagem($c['imagem'], 'jpg'));
             <a class="btn" href="#orcamento-cidade"><?= e($c['cta']['botao']) ?></a>
         </div>
         <figure class="lp-eixo__media">
-            <img src="<?= e($img) ?>" alt="<?= e($c['seo']['og_image_alt']) ?>" width="1600" height="900" fetchpriority="high" decoding="async">
+            <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt'], '(max-width: 900px) 100vw, 45vw') ?>
         </figure>
     </header>
 

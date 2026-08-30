@@ -39,9 +39,9 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no CGR',
     'faq' => [
         ['pergunta' => 'O aeroporto de Campo Grande fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a Afonso Pena e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no CGR se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no CGR se o voo atrasar?', 'resposta' => 'Sim. Em Campo Grande, o número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem o Parque das Nações Indígenas no mesmo dia?', 'resposta' => 'Sim, quando a visita entra no roteiro. Combinamos o ponto de espera na orla do parque.'],
-        ['pergunta' => 'Dá para seguir a Bonito depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o orçamento sai sob consulta.'],
+        ['pergunta' => 'Dá para seguir a Bonito depois do hotel?', 'resposta' => 'Sim. Em Campo Grande, como viagem. Não é o mesmo recorte do Centro; o orçamento sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o hotel da Afonso Pena ao horário do CGR',

@@ -28,9 +28,9 @@ return [
     'bairros' => [
         'h2' => 'Eixos da cidade onde o embarque mais se concentra',
         'itens' => [
-            ['h3' => 'Centro e a Marcelino Pires', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e a Marcelino Pires', 'texto' => 'Em Dourados, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Jardim América e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da Hayel.'],
-            ['h3' => 'UFGD, Unigran e o campus', 'texto' => 'Pauta acadêmica. O recuo pede bloco e portaria, não “na universidade”.'],
+            ['h3' => 'UFGD, Unigran e o campus', 'texto' => 'Em Dourados, pauta acadêmica. O recuo pede bloco e portaria, não “na universidade”.'],
             ['h3' => 'Vila Progresso e o sul', 'texto' => 'Pauta residencial. O recuo pede rua e número.'],
         ],
     ],
@@ -44,8 +44,8 @@ return [
     'rotas' => [
         'h2' => 'Trajetos que a agenda douradense mais pede',
         'itens' => [
-            ['titulo' => 'DOU → hotel no Jardim América', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'América → Centro → UFGD', 'texto' => 'Reunião, sede e campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
+            ['titulo' => 'DOU → hotel no Jardim América', 'texto' => 'Em Dourados, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'América → Centro → UFGD', 'texto' => 'Em Dourados, reunião, sede e campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
             ['titulo' => 'Dourados → Ponta Porã', 'texto' => 'Fronteira. Não é o recorte urbano do Centro; o horário sai sob consulta.'],
         ],
     ],
@@ -53,15 +53,15 @@ return [
         'h2' => 'Como o carro entra na grade em Dourados',
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Jardim América, Centro ou campus. Autocomplete não resolve bloco com dois acessos.'],
-            ['titulo' => 'Hotel ou DOU', 'texto' => 'Diga se o embarque é o aeroporto ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Hotel ou DOU', 'texto' => 'Em Dourados, diga se o embarque é o aeroporto ou a portaria do hotel.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Dourados, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no DOU',
     'faq' => [
         ['pergunta' => 'O aeroporto de Dourados fica longe do Jardim América?', 'resposta' => 'É trecho urbano. Marcamos margem: a Marcelino Pires e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no DOU se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, América e a UFGD no mesmo dia?', 'resposta' => 'Sim. Informe o bloco. Um motorista articula os três recuos.'],
+        ['pergunta' => 'O motorista espera no DOU se o voo atrasar?', 'resposta' => 'Sim. Em Dourados, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Centro, América e a UFGD no mesmo dia?', 'resposta' => 'Sim. Em Dourados, informe o bloco. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para seguir a Ponta Porã depois do hotel?', 'resposta' => 'Sim, como viagem de fronteira. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [

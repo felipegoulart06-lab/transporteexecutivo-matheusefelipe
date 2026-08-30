@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-dunas">
     <div class="lp-dunas__linha">
@@ -16,7 +15,7 @@ $img = url_site(url_imagem($c['imagem'], 'jpg'));
                 <p><?= e($c['trilha']['texto']) ?></p>
             </section>
         </div>
-        <img src="<?= e($img) ?>" alt="<?= e($c['seo']['og_image_alt']) ?>" width="1600" height="900" fetchpriority="high" decoding="async">
+        <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt'], '(max-width: 900px) 100vw, 50vw') ?>
     </div>
     <section class="lp-dunas__chips">
         <h2><?= e($c['chips']['h2']) ?></h2>

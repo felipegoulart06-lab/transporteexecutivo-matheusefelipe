@@ -48,8 +48,8 @@ return [
     'faq_h2' => 'Dúvidas de quem cruza a Terceira Ponte',
     'faq' => [
         ['pergunta' => 'O aeroporto fica em Vila Velha?', 'resposta' => 'O VIX fica em Goiabeiras, na ilha de Vitória. O trecho até a Praia da Costa entra no roteiro com margem para a ponte.'],
-        ['pergunta' => 'O motorista espera no VIX se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês sobem ao Convento da Penha?', 'resposta' => 'Sim, quando a visita entra no roteiro. Combinamos o ponto de espera; a ladeira não admite recuo improvisado.'],
+        ['pergunta' => 'Em Vila Velha, o motorista espera no VIX se o voo atrasar?', 'resposta' => 'Sim. Em Vila Velha, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês sobem ao Convento da Penha?', 'resposta' => 'Sim. Em Vila Velha, quando a visita entra no roteiro. Combinamos o ponto de espera; a ladeira não admite recuo improvisado.'],
         ['pergunta' => 'Dá para ir à Praia do Canto e voltar à Costa no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A Terceira Ponte pesa mais que a distância no mapa.'],
     ],
     'cta' => [

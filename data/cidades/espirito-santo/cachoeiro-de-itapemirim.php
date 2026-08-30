@@ -67,8 +67,8 @@ return [
             'resposta' => 'Sim, como viagem até a Grande Vitória. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
         ],
         [
-            'pergunta' => 'O hotel no Centro conta como ponto conveniado?',
-            'resposta' => 'Não. O hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
+            'pergunta' => 'Em Cachoeiro de Itapemirim, o hotel no Centro conta como ponto conveniado?',
+            'resposta' => 'Não. Em Cachoeiro de Itapemirim, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

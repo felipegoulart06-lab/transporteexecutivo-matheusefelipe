@@ -42,7 +42,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Coronel Altino Machado',
     'faq' => [
         ['pergunta' => 'O aeroporto de Valadares fica longe da Esplanada?', 'resposta' => 'É trecho urbano. Marcamos margem: o horário de pico e o recuo do rio Doce alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no GVR se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no GVR se o voo atrasar?', 'resposta' => 'Sim. Em Governador Valadares, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Dá para ir à Ilha dos Araújos e voltar ao Centro no mesmo turno?', 'resposta' => 'Sim. Informe a ordem e o ponto de espera. A ponte da ilha pesa mais que a distância no mapa.'],
         ['pergunta' => 'Vocês fazem o trecho até Ipatinga ou Belo Horizonte?', 'resposta' => 'Sim, quando o destino entra no roteiro como viagem pela BR-381 ou pela BR-116. O horário sai sob consulta.'],
         ['pergunta' => 'Vila Isa e Santa Helena cabem no mesmo expediente do Centro?', 'resposta' => 'Sim. Combinamos a ordem. Não são o mesmo recuo da Esplanada; o ponto de espera precisa do bairro.'],

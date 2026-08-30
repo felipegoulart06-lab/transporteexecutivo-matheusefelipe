@@ -46,9 +46,9 @@ return [
     'faq_h2' => 'Perguntas de quem pauta o norte cearense',
     'faq' => [
         ['pergunta' => 'Sobral tem voo comercial regular?', 'resposta' => 'O voo comercial da pauta sai em geral pelo Pinto Martins, em Fortaleza. O trecho Sobral–FOR entra no roteiro com margem para a BR-222.'],
-        ['pergunta' => 'O motorista espera no FOR se o voo atrasar?', 'resposta' => 'Sim, quando o Fortaleza está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, Derby e a UFC no mesmo dia?', 'resposta' => 'Sim. Informe o bloco do campus. Um motorista articula os três recuos.'],
-        ['pergunta' => 'Dá para seguir a Fortaleza depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Em Sobral, o motorista espera no FOR se o voo atrasar?', 'resposta' => 'Sim, quando o Fortaleza está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Centro, Derby e a UFC no mesmo dia?', 'resposta' => 'Sim. Em Sobral, informe o bloco do campus. Um motorista articula os três recuos.'],
+        ['pergunta' => 'Dá para seguir a Fortaleza depois do hotel?', 'resposta' => 'Sim. Em Sobral, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Una o Derby ao horário da BR-222',

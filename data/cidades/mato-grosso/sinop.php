@@ -30,7 +30,7 @@ return [
         'itens' => [
             [
                 'h3' => 'Centro e a Avenida das Figueiras',
-                'texto' => 'Sede, hotel e o calçadão. Informe o prédio; a numeração se repete e o sentido da via muda no fim da tarde.',
+                'texto' => 'Em Sinop, sede, hotel e o calçadão. Informe o prédio; a numeração se repete e o sentido da via muda no fim da tarde.',
             ],
             [
                 'h3' => 'Jardim Botânico',
@@ -42,7 +42,7 @@ return [
             ],
             [
                 'h3' => 'Eixo da BR-163',
-                'texto' => 'A pista corta a cidade e segue ao norte e ao sul. Quando a pauta mistura hotel e planta fora do perímetro, a margem sai da 163, não do aceitar do app.',
+                'texto' => 'Em Sinop, a pista corta a cidade e segue ao norte e ao sul. Quando a pauta mistura hotel e planta fora do perímetro, a margem sai da 163, não do aceitar do app.',
             ],
         ],
     ],
@@ -68,11 +68,11 @@ return [
             ],
             [
                 'titulo' => 'Hotel → Jardim Botânico → portaria do grão',
-                'texto' => 'Clínica, sede e planta só se a ordem estiver no roteiro. Um motorista cobre os três recuos.',
+                'texto' => 'Em Sinop, clínica, sede e planta só se a ordem estiver no roteiro. Um motorista cobre os três recuos.',
             ],
             [
                 'titulo' => 'Sinop → Cuiabá ou Rondonópolis no mesmo dia',
-                'texto' => 'Quando a 163 vira viagem, o trecho deixa de ser urbano. Horário sob consulta.',
+                'texto' => 'Em Sinop, quando a 163 vira viagem, o trecho deixa de ser urbano. Horário sob consulta.',
             ],
         ],
     ],
@@ -85,11 +85,11 @@ return [
             ],
             [
                 'titulo' => 'Hotel ou OPS',
-                'texto' => 'Diga se o embarque é o terminal ou a porta do hotel. O hotel é só o ponto de saída.',
+                'texto' => 'Em Sinop, diga se o embarque é o terminal ou a porta do hotel. O hotel é só o ponto de saída.',
             ],
             [
                 'titulo' => 'Confirmação',
-                'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.',
+                'texto' => 'Em Sinop, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.',
             ],
         ],
     ],
@@ -101,19 +101,19 @@ return [
         ],
         [
             'pergunta' => 'O motorista espera no OPS se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
+            'resposta' => 'Sim. Combinamos o OPS com o número do voo; a espera no João Figueiredo integra o trecho dos 13 km desde o Centro ou a Avenida das Figueiras.',
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Jardim Botânico e a portaria no mesmo dia?',
-            'resposta' => 'Sim. Informe o nome na lista da planta. Um carro articula os três recuos.',
+            'resposta' => 'Sim. Informe o nome na lista da portaria do grão. Um carro articula Centro, Jardim Botânico e cancela se a ordem estiver no roteiro.',
         ],
         [
             'pergunta' => 'Dá para seguir a Cuiabá pela BR-163 depois do hotel?',
-            'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
+            'resposta' => 'Sim, como viagem pela BR-163 rumo a Cuiabá. Não é o mesmo recorte urbano; o horário sai sob consulta.',
         ],
         [
-            'pergunta' => 'O hotel no Centro é ponto conveniado do serviço?',
-            'resposta' => 'Não. O hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
+            'pergunta' => 'Em Sinop, o hotel no Centro é ponto conveniado do serviço?',
+            'resposta' => 'Não. Em Sinop, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

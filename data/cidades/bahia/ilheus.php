@@ -48,7 +48,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Jorge Amado',
     'faq' => [
         ['pergunta' => 'O aeroporto de Ilhéus fica longe do Pontal?', 'resposta' => 'É trecho urbano. Marcamos margem: a Soares Lopes e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no IOS se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Ilhéus, o motorista espera no IOS se o voo atrasar?', 'resposta' => 'Sim. Em Ilhéus, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem o Centro Histórico e o Pontal no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A ponte e a ladeira pesam mais que a distância no mapa.'],
         ['pergunta' => 'Dá para seguir a Itacaré depois do hotel?', 'resposta' => 'Sim, como viagem pela BA-001. Não é o mesmo recorte do Pontal; o horário sai sob consulta.'],
     ],

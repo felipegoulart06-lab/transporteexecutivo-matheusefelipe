@@ -49,7 +49,7 @@ return [
         ['pergunta' => 'Quanto tempo devo prever entre a Savassi e Confins?', 'resposta' => 'O intervalo muda com a MG-10 e com o horário. Combinamos uma margem; não prometemos minuto fixo de aplicativo.'],
         ['pergunta' => 'O motorista espera no desembarque de Confins?', 'resposta' => 'Sim, quando o voo está no roteiro. A espera no saguão faz parte do trecho CNF.'],
         ['pergunta' => 'Vocês fazem Lourdes, Belvedere e o aeroporto no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. O desnível da serra e a saída para Confins pedem um único motorista, não três aceites.'],
-        ['pergunta' => 'Dá para esperar na porta do hospital na área central?', 'resposta' => 'Sim, com o nome da unidade e o ponto de recuo. Evitamos o cruzamento sem aviso no horário de visita.'],
+        ['pergunta' => 'Dá para esperar na porta do hospital na área central?', 'resposta' => 'Sim. Em Belo Horizonte, com o nome da unidade e o ponto de recuo. Evitamos o cruzamento sem aviso no horário de visita.'],
     ],
     'cta' => [
         'titulo' => 'Marque Confins no mesmo recado do hotel',

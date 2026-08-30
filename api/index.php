@@ -7,9 +7,46 @@ chdir($raiz);
 
 $uri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
 $uri = rawurldecode($uri);
+$host = strtolower(explode(':', (string) ($_SERVER['HTTP_HOST'] ?? ''))[0]);
+
+if ($host === 'transporteexecutivo.com') {
+    header('Location: https://www.transporteexecutivo.com' . ($_SERVER['REQUEST_URI'] ?? '/'), true, 301);
+    return;
+}
 
 if ($uri === '/api/index.php') {
-    $uri = '/';
+    http_response_code(404);
+    require $raiz . '/404.php';
+    return;
+}
+if ($uri === '/index.php') {
+    header('Location: /', true, 301);
+    return;
+}
+if ($uri === '/sitemap.php') {
+    header('Location: /sitemap.xml', true, 301);
+    return;
+}
+if ($uri === '/robots.php') {
+    header('Location: /robots.txt', true, 301);
+    return;
+}
+$query = (string) ($_SERVER['QUERY_STRING'] ?? '');
+$querySuffix = $query !== '' ? '?' . $query : '';
+if ($uri === '/transporte-executivo/index.php') {
+    header('Location: /transporte-executivo/' . $querySuffix, true, 301);
+    return;
+}
+if (preg_match('#^/transporte-executivo/([a-z0-9-]+)/index\.php$#', $uri, $m)) {
+    header('Location: /transporte-executivo/' . $m[1] . '/' . $querySuffix, true, 301);
+    return;
+}
+
+if (!str_ends_with($uri, '/')
+    && preg_match('#^/transporte-executivo(?:/[a-z0-9-]+){0,2}$#', $uri)
+) {
+    header('Location: ' . $uri . '/' . $querySuffix, true, 301);
+    return;
 }
 
 if ($uri === '/' || $uri === '/index.php') {
@@ -17,7 +54,7 @@ if ($uri === '/' || $uri === '/index.php') {
     return;
 }
 
-if ($uri === '/sitemap.xml' || $uri === '/sitemap.php') {
+if ($uri === '/sitemap.xml') {
     require $raiz . '/sitemap.php';
     return;
 }

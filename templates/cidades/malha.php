@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-malha">
     <div class="lp-malha__bar">
@@ -14,7 +13,7 @@ $img = url_site(url_imagem($c['imagem'], 'jpg'));
     </div>
     <div class="lp-malha__grid">
         <figure>
-            <img src="<?= e($img) ?>" alt="<?= e($c['seo']['og_image_alt']) ?>" width="1600" height="900" fetchpriority="high" decoding="async">
+            <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt'], '(max-width: 900px) 100vw, 55vw') ?>
         </figure>
         <section>
             <h2><?= e($c['blocos'][0]['h2']) ?></h2>

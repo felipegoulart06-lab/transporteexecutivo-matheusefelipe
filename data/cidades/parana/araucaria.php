@@ -44,7 +44,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pauta a REPAR e voa pelo CWB',
     'faq' => [
         ['pergunta' => 'O aeroporto Afonso Pena fica em Araucária?', 'resposta' => 'Não. O CWB fica em São José dos Pinhais. O trecho até a Sede ou a REPAR entra no roteiro com margem para a RMC.'],
-        ['pergunta' => 'Vocês entram na REPAR com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela da refinaria não libera.'],
+        ['pergunta' => 'Vocês entram na REPAR com protocolo de portaria?', 'resposta' => 'Sim. Em Araucária, envie o nome na lista e o documento pedido. Sem isso, a cancela da refinaria não libera.'],
         ['pergunta' => 'A Cidade Industrial é o mesmo que Araucária?', 'resposta' => 'Não. A CIC é Curitiba, colada no mapa. Informe o município: o recuo da planta e o da Sede não se trocam.'],
         ['pergunta' => 'Vocês fazem Sede, Capela Velha e a REPAR no mesmo dia?', 'resposta' => 'Sim. Informe a ordem, o portão e o nome do hotel. Um motorista articula os três se a lista estiver no recado.'],
         ['pergunta' => 'Dá para seguir a Paranaguá depois da refinaria?', 'resposta' => 'Sim, como viagem pela BR-277 até o porto. Não é o mesmo recorte da Sede; o horário sai sob consulta.'],

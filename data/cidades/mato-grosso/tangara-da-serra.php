@@ -39,8 +39,8 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no TGQ e não no CGB',
     'faq' => [
         ['pergunta' => 'O TGQ é uma escala do aeroporto de Cuiabá?', 'resposta' => 'Não. O TGQ é o saguão de Tangará da Serra. O Marechal Rondon (CGB) fica em Várzea Grande. Informe o código do voo; são pedidos distintos.'],
-        ['pergunta' => 'Vocês fazem Centro e Jardim Europa no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os dois recuos.'],
-        ['pergunta' => 'Dá para ir a Cuiabá no mesmo expediente?', 'resposta' => 'Sim, como viagem pela BR-364. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Vocês fazem Centro e Jardim Europa no mesmo dia?', 'resposta' => 'Sim. Em Tangará da Serra, informe a ordem e o nome do hotel. Um motorista articula os dois recuos.'],
+        ['pergunta' => 'Dá para ir a Cuiabá no mesmo expediente?', 'resposta' => 'Sim. Em Tangará da Serra, como viagem pela BR-364. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
         ['pergunta' => 'A Chapada dos Parecis entra automaticamente no roteiro?', 'resposta' => 'Não. O planalto só entra se estiver no itinerário. Combine o ponto de espera; não é desvio no meio da pauta urbana.'],
         ['pergunta' => 'Vocês entram na portaria com protocolo?', 'resposta' => 'Sim, quando a planta ou o condomínio pede lista. Envie o nome e o documento. Sem isso, o recuo não libera.'],
     ],

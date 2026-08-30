@@ -27,7 +27,7 @@ return [
     'lateral' => [
         'h2' => 'Pontos que o pedido feirense mais cita',
         'itens' => [
-            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Sede, hotel e o calçadão. Informe o número; a avenida muda de caráter a cada quadra.'],
+            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Em Feira de Santana, sede, hotel e o calçadão. Informe o número; a avenida muda de caráter a cada quadra.'],
             ['h3' => 'Kalilândia, Caseb e o shopping', 'texto' => 'Torres e clínicas. Deslocamentos curtos que esticam no semáforo da Senhor dos Passos.'],
             ['h3' => 'Aeroporto — FEC', 'texto' => 'Terminal da cidade. Combinamos o voo. A espera no desembarque integra o trecho FEC.'],
         ],
@@ -38,8 +38,8 @@ return [
     ],
     'faq_h2' => 'Dúvidas de quem pousa no João Durval',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Feira fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no FEC se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
+        ['pergunta' => 'O aeroporto de Feira fica longe do Centro?', 'resposta' => 'Em Feira de Santana, é trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
+        ['pergunta' => 'O motorista espera no FEC se o voo atrasar?', 'resposta' => 'Sim. Em Feira de Santana, o número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem a UEFS e o Centro no mesmo dia?', 'resposta' => 'Sim. Informe o bloco do campus. Um motorista articula os dois recuos.'],
         ['pergunta' => 'Dá para seguir a Salvador depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-324. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],

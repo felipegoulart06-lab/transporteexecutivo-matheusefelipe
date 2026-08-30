@@ -60,7 +60,7 @@ return [
             [
                 'num' => '02',
                 'titulo' => 'Voo no GRP',
-                'texto' => 'Número e horário. O carro sai com margem, não no minuto do check-in.',
+                'texto' => 'Em Gurupi, número e horário. O carro sai com margem, não no minuto do check-in.',
             ],
             [
                 'num' => '03',
@@ -81,11 +81,11 @@ return [
         ],
         [
             'pergunta' => 'Vocês fazem Centro e Vila Guaracy no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os dois recuos.',
+            'resposta' => 'Sim. Em Gurupi, informe a ordem e o nome do hotel. Um motorista articula os dois recuos.',
         ],
         [
             'pergunta' => 'Dá para seguir a Palmas pela BR-153 depois do hotel?',
-            'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
+            'resposta' => 'Sim. Em Gurupi, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
         ],
         [
             'pergunta' => 'Araguaína cabe no mesmo expediente urbano?',

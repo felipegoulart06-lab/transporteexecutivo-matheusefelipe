@@ -44,14 +44,14 @@ return [
         'h2' => 'Três dados que evitam atraso na capital',
         'itens' => [
             ['num' => '01', 'titulo' => 'Avenida e número', 'texto' => 'Ville Roy ou Ataíde Teive. “No Centro” não define o recuo do palácio.'],
-            ['num' => '02', 'titulo' => 'Voo no BVB', 'texto' => 'Número e horário. O carro sai com margem, não no minuto do check-in.'],
+            ['num' => '02', 'titulo' => 'Voo no BVB', 'texto' => 'Em Boa Vista, número e horário. O carro sai com margem, não no minuto do check-in.'],
             ['num' => '03', 'titulo' => 'Fronteira ou cidade', 'texto' => 'Pacaraima entra como viagem. O urbano é outro orçamento.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no Atlas Brasil Cantanhede',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Boa Vista fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no BVB se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O aeroporto de Boa Vista fica longe do Centro?', 'resposta' => 'Em Boa Vista, é trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
+        ['pergunta' => 'O motorista espera no BVB se o voo atrasar?', 'resposta' => 'Sim. Em Boa Vista, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem a Orla Taumanan e o palácio no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um motorista articula o Centro Cívico e a beira do Rio Branco.'],
         ['pergunta' => 'Dá para seguir a Pacaraima depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-174. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],

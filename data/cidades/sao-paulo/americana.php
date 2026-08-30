@@ -54,7 +54,7 @@ return [
         'passos' => [
             ['titulo' => 'Bairro ou cancela', 'texto' => 'Centro, Hermann, Vila Santa Catarina, Jardim São Paulo ou o nome da planta. O pin do município não basta.'],
             ['titulo' => 'VCP ou salto à capital', 'texto' => 'Número do voo em Viracopos. CGH só entra se já estiver escrito no roteiro.'],
-            ['titulo' => 'Ordem no WhatsApp', 'texto' => 'Nome e DDD. Devolvemos o horário de apresentação. Valor sob consulta.'],
+            ['titulo' => 'Ordem no WhatsApp', 'texto' => 'Em Americana, nome e DDD. Devolvemos o horário de apresentação. Valor sob consulta.'],
         ],
     ],
     'faq_h2' => 'O que o Hermann e o VCP não compartilham',

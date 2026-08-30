@@ -54,7 +54,7 @@ return [
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Estoril, Centro, Vila Universitária ou Mary Dota. Autocomplete não resolve condomínio com dois acessos.'],
             ['titulo' => 'Hotel ou JTC', 'texto' => 'Diga se o embarque é o hotel ou o Moussa Nakhl Tobias. Confirme o código JTC — não JAU.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Bauru, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no JTC',

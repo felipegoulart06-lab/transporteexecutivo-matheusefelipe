@@ -36,7 +36,7 @@ return [
     'grade' => [
         'h2' => 'Rotas que a pauta resendense mais pede',
         'itens' => [
-            ['titulo' => 'Hotel no Centro → Jardim Jalisco ou Retiro', 'texto' => 'Pernoite e pauta. Informe o nome do hotel e se o carro espera no Centro enquanto a reunião corre.'],
+            ['titulo' => 'Hotel no Centro → Jardim Jalisco ou Retiro', 'texto' => 'Em Resende, pernoite e pauta. Informe o nome do hotel e se o carro espera no Centro enquanto a reunião corre.'],
             ['titulo' => 'Centro → AMAN', 'texto' => 'Portaria e turno. Envie o nome na lista e o documento pedido; o mapa da Dutra não abre a cancela.'],
             ['titulo' => 'Hotel → planta Stellantis', 'texto' => 'O recorte industrial pede protocolo. Combinamos a portaria; não é o mesmo pedido da Academia.'],
             ['titulo' => 'Resende → GIG ou SDU pela Dutra', 'texto' => 'A janela não copia Volta Redonda. Combinamos o terminal e a margem da BR-116; o orçamento sai sob consulta.'],

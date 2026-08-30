@@ -26,7 +26,7 @@ return [
         [
             'h2' => 'Quadrantes onde o embarque anapolino mais se concentra',
             'itens' => [
-                ['h3' => 'Centro e a Goiás', 'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+                ['h3' => 'Centro e a Goiás', 'texto' => 'Em Anápolis, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
                 ['h3' => 'Jundiaí e o shopping', 'texto' => 'Torres e clínicas. Deslocamentos curtos que esticam no semáforo da Brasil.'],
                 ['h3' => 'Cidade Universitária e o campus', 'texto' => 'UEG e pauta acadêmica. O recuo pede bloco e portaria.'],
                 ['h3' => 'Distrito Agroindustrial — DAE', 'texto' => 'Plantas e logística. Protocolo de lista entra no roteiro junto com o turno; sem isso, o recuo não libera.'],
@@ -45,7 +45,7 @@ return [
     'faq_h2' => 'Perguntas de quem pauta a planta e o DAE',
     'faq' => [
         ['pergunta' => 'O aeroporto de Anápolis atende voo comercial?', 'resposta' => 'O voo comercial da região sai em geral pelo Santa Genoveva, em Goiânia. O trecho Anápolis–GYN entra no roteiro com margem para a BR-153.'],
-        ['pergunta' => 'Vocês entram no DAE com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
+        ['pergunta' => 'Vocês entram no DAE com protocolo de portaria?', 'resposta' => 'Sim. Em Anápolis, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
         ['pergunta' => 'Dá para ir a Goiânia e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A BR-153 pesa mais que a distância no mapa.'],
         ['pergunta' => 'O carro segue a Brasília depois da reunião?', 'resposta' => 'Sim, quando o DF entra no roteiro. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],

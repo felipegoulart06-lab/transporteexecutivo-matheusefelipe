@@ -42,9 +42,9 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Simões Lopes Neto',
     'faq' => [
         ['pergunta' => 'O aeroporto de Pelotas fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a Bento Gonçalves e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no PET se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no PET se o voo atrasar?', 'resposta' => 'Sim. Em Pelotas, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Centro, UFPel e o Laranjal no mesmo dia?', 'resposta' => 'Sim, quando a praia da lagoa entra no roteiro. Informe a ordem; um motorista articula os três.'],
-        ['pergunta' => 'Dá para seguir a Rio Grande depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-392. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Dá para seguir a Rio Grande depois do hotel?', 'resposta' => 'Sim. Em Pelotas, como viagem pela BR-392. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Diga se o embarque é o Centro ou o PET',

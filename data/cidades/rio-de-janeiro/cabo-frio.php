@@ -46,7 +46,7 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no CFB',
     'faq' => [
         ['pergunta' => 'O aeroporto de Cabo Frio fica longe da Passagem?', 'resposta' => 'É trecho urbano. Marcamos margem: a Teixeira e Souza e o horário de feriado alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no CFB se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Cabo Frio, o motorista espera no CFB se o voo atrasar?', 'resposta' => 'Sim. Em Cabo Frio, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Búzios no mesmo dia?', 'resposta' => 'Sim, quando a península entra no roteiro. Não é o mesmo recorte do Centro; o horário da RJ-106 sai sob consulta.'],
         ['pergunta' => 'Dá para incluir Arraial do Cabo depois do hotel?', 'resposta' => 'Sim, como recorte dos Lagos. Combinamos o ponto de espera; o acesso à Praia do Farol pede margem própria.'],
     ],

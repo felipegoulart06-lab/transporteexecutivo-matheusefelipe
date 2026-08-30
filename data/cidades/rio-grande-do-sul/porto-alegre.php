@@ -39,7 +39,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Salgado Filho',
     'faq' => [
         ['pergunta' => 'O aeroporto de Porto Alegre fica longe da Moinhos?', 'resposta' => 'É o terminal da capital, com trecho urbano. Ainda assim marcamos margem: a Castello Branco e a Assis Brasil mudam o relógio.'],
-        ['pergunta' => 'O motorista espera no POA se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
+        ['pergunta' => 'Em Porto Alegre, o motorista espera no POA se o voo atrasar?', 'resposta' => 'Sim. Em Porto Alegre, o número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Centro Histórico e Cidade Baixa no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e se o carro permanece entre o jantar e o hotel.'],
         ['pergunta' => 'Dá para buscar na rodoviária e seguir ao aeroporto?', 'resposta' => 'Sim, com o horário do ônibus e o do voo no mesmo recado. São dois relógios; um motorista articula os dois.'],
     ],

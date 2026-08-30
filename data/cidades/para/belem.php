@@ -39,8 +39,8 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Val-de-Cans',
     'faq' => [
         ['pergunta' => 'O aeroporto de Belém fica longe de Nazaré?', 'resposta' => 'É trecho urbano. Marcamos margem: a Almirante Barroso e o temporal da tarde alteram o relógio.'],
-        ['pergunta' => 'O motorista espera no BEL se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Ver-o-Peso e Estação das Docas no mesmo dia?', 'resposta' => 'Sim, quando a visita entra no roteiro. Combinamos o ponto de espera; o calçamento não admite recuo improvisado.'],
+        ['pergunta' => 'O motorista espera no BEL se o voo atrasar?', 'resposta' => 'Sim. Em Belém, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Ver-o-Peso e Estação das Docas no mesmo dia?', 'resposta' => 'Sim. Em Belém, quando a visita entra no roteiro. Combinamos o ponto de espera; o calçamento não admite recuo improvisado.'],
         ['pergunta' => 'Dá para incluir Mosqueiro ou o Guamá?', 'resposta' => 'Sim, como recorte próprio. Não é o mesmo pedido de Nazaré; o horário sai sob consulta.'],
     ],
     'cta' => [

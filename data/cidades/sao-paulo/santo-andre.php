@@ -45,9 +45,9 @@ return [
     'faq_h2' => 'Perguntas de quem pauta o ABC',
     'faq' => [
         ['pergunta' => 'O motorista vai a Congonhas a partir de Santo André?', 'resposta' => 'Sim, quando o CGH entra no roteiro. A Anchieta pede margem; não é corrida instantânea do Campestre.'],
-        ['pergunta' => 'Vocês fazem Paço, Campestre e o shopping no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um motorista articula os três recuos.'],
+        ['pergunta' => 'Vocês fazem Paço, Campestre e o shopping no mesmo dia?', 'resposta' => 'Sim. Em Santo André, informe a ordem. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para ir a Paranapiacaba depois do hotel?', 'resposta' => 'Sim, como visita combinada. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-        ['pergunta' => 'O carro segue à Faria Lima no mesmo expediente?', 'resposta' => 'Sim, quando a capital entra no roteiro. A Anchieta pede margem própria.'],
+        ['pergunta' => 'Em Santo André, o carro segue à Faria Lima no mesmo expediente?', 'resposta' => 'Sim, quando a capital entra no roteiro. A Anchieta pede margem própria.'],
     ],
     'cta' => [
         'titulo' => 'Junte o Campestre ao horário da Anchieta',

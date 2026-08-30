@@ -26,9 +26,9 @@ return [
         [
             'h2' => 'Onde o embarque montes-clarense mais se concentra',
             'itens' => [
-                ['h3' => 'Centro e a Mestra Fininha', 'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+                ['h3' => 'Centro e a Mestra Fininha', 'texto' => 'Em Montes Claros, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
                 ['h3' => 'Ibituruna, Major Prates e o shopping', 'texto' => 'Clínicas, torres e o eixo residencial. “No Ibituruna” não define a entrada do condomínio.'],
-                ['h3' => 'Unimontes e o campus', 'texto' => 'Pauta acadêmica. O recuo pede bloco e portaria, não GPS na reitoria.'],
+                ['h3' => 'Unimontes e o campus', 'texto' => 'Em Montes Claros, pauta acadêmica. O recuo pede bloco e portaria, não GPS na reitoria.'],
             ],
         ],
         [
@@ -44,16 +44,16 @@ return [
         'h2' => 'Três dados que evitam atraso no Norte de Minas',
         'itens' => [
             ['num' => '01', 'titulo' => 'Bairro e prédio', 'texto' => 'Centro ou Ibituruna. “Em Montes Claros” não define o recuo.'],
-            ['num' => '02', 'titulo' => 'Voo no MOC', 'texto' => 'Número e horário. O carro sai com margem, não no minuto do check-in.'],
+            ['num' => '02', 'titulo' => 'Voo no MOC', 'texto' => 'Em Montes Claros, número e horário. O carro sai com margem, não no minuto do check-in.'],
             ['num' => '03', 'titulo' => 'Cidade ou sertão', 'texto' => 'Janaúba ou Pirapora entram como viagem. O urbano é outro orçamento.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no Mário Ribeiro',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Montes Claros fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a Independência e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no MOC se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, Ibituruna e a Unimontes no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o bloco do campus. Um motorista articula os três.'],
-        ['pergunta' => 'Dá para seguir a Janaúba depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'O aeroporto de Montes Claros fica longe do Centro?', 'resposta' => 'Em Montes Claros, é trecho urbano. Marcamos margem: a Independência e o horário de pico alteram o intervalo.'],
+        ['pergunta' => 'O motorista espera no MOC se o voo atrasar?', 'resposta' => 'Sim. Combinamos o MOC com o número do voo; a espera no Mário Ribeiro integra o trecho desde o Centro ou o Ibituruna.'],
+        ['pergunta' => 'Vocês fazem Centro, Ibituruna e a Unimontes no mesmo dia?', 'resposta' => 'Sim. Informe a ordem entre Centro, Ibituruna e bloco da Unimontes. Um motorista articula os três recuos pela Independência.'],
+        ['pergunta' => 'Dá para seguir a Janaúba depois do hotel?', 'resposta' => 'Sim, como viagem rumo a Janaúba. Não é o mesmo recorte do miolo urbano; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Marque o MOC no mesmo recado do hotel',

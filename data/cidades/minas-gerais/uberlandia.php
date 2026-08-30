@@ -28,7 +28,7 @@ return [
     'bairros' => [
         'h2' => 'Eixos da cidade onde o embarque mais se concentra',
         'itens' => [
-            ['h3' => 'Centro e a Afonso Pena', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e a Afonso Pena', 'texto' => 'Em Uberlândia, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Umuarama e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da João Naves.'],
             ['h3' => 'Tibery, Martins e o Custódio Pereira', 'texto' => 'Pauta residencial e jantar. O recuo pede rua e número; “no Tibery” não basta.'],
             ['h3' => 'Distrito industrial e a BR-050', 'texto' => 'Planta e logística. Protocolo de portaria entra no roteiro junto com o voo de volta.'],
@@ -44,25 +44,25 @@ return [
     'rotas' => [
         'h2' => 'Trajetos que a agenda uberlandense mais pede',
         'itens' => [
-            ['titulo' => 'UDI → hotel no Umuarama', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'Umuarama → Centro → UFU', 'texto' => 'Reunião, sede e campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Hotel → Uberaba no mesmo dia', 'texto' => 'Quando a pauta cruza o Triângulo, o trecho deixa de ser urbano. Horário sob consulta.'],
+            ['titulo' => 'UDI → hotel no Umuarama', 'texto' => 'Em Uberlândia, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'Umuarama → Centro → UFU', 'texto' => 'Em Uberlândia, reunião, sede e campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
+            ['titulo' => 'Hotel → Uberaba no mesmo dia', 'texto' => 'Em Uberlândia, quando a pauta cruza o Triângulo, o trecho deixa de ser urbano. Horário sob consulta.'],
         ],
     ],
     'como' => [
         'h2' => 'Como o carro entra na grade em Uberlândia',
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Umuarama, Centro ou Tibery. Autocomplete não resolve avenida com dois acessos.'],
-            ['titulo' => 'Hotel ou UDI', 'texto' => 'Diga se o embarque é o aeroporto ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Hotel ou UDI', 'texto' => 'Em Uberlândia, diga se o embarque é o aeroporto ou a portaria do hotel.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Uberlândia, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no UDI',
     'faq' => [
         ['pergunta' => 'O aeroporto de Uberlândia fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a João Naves e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no UDI se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Umuarama, Centro e a UFU no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um carro à disposição evita três aceites entre as avenidas.'],
-        ['pergunta' => 'Dá para seguir a Uberaba depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'O motorista espera no UDI se o voo atrasar?', 'resposta' => 'Sim. Combinamos o UDI com o número do voo; a espera no Celso Mello Azevedo integra o trecho desde o Umuarama ou o Centro.'],
+        ['pergunta' => 'Vocês fazem Umuarama, Centro e a UFU no mesmo dia?', 'resposta' => 'Sim. Informe a ordem entre Umuarama, Centro e campus da UFU. Um carro à disposição evita três aceites na João Naves.'],
+        ['pergunta' => 'Dá para seguir a Uberaba depois do hotel?', 'resposta' => 'Sim, como viagem rumo a Uberaba. Não é o mesmo recorte do miolo urbano; o horário sai sob consulta.'],
     ],
     'cta' => [
         'titulo' => 'Junte o Umuarama ao horário do UDI',

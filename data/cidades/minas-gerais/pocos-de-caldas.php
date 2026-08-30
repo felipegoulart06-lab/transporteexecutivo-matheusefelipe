@@ -27,7 +27,7 @@ return [
     'coluna_a' => [
         'h2' => 'Três recortes que a pauta pocense usa',
         'itens' => [
-            ['h3' => 'Centro e a João Pinheiro', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e a João Pinheiro', 'texto' => 'Em Poços de Caldas, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Country Club e o Jardim Country Club', 'texto' => 'Pernoite e o recorte residencial. Informe o nome; “no Country” não define a entrada do condomínio.'],
             ['h3' => 'São Benedito e as termas', 'texto' => 'Hotel e o eixo das águas. O recuo pede o estabelecimento; o Palace e similares são embarque, não parceria.'],
         ],
@@ -39,9 +39,9 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no Walther Moreira Salles',
     'faq' => [
         ['pergunta' => 'O aeroporto de Poços fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a João Pinheiro e o horário de check-out alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no POO se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no POO se o voo atrasar?', 'resposta' => 'Sim. Em Poços de Caldas, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês buscam no Palace e levam ao Country Club?', 'resposta' => 'Sim. Informe o nome do hotel e o recuo da portaria. O endereço entra como embarque, sem parceria.'],
-        ['pergunta' => 'Dá para incluir Ribeirão Preto ou Campinas no mesmo dia?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        ['pergunta' => 'Dá para incluir Ribeirão Preto ou Campinas no mesmo dia?', 'resposta' => 'Sim. Em Poços de Caldas, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
         ['pergunta' => 'São Benedito e o Jardim Country Club cabem no mesmo roteiro?', 'resposta' => 'Sim. Combinamos a ordem. “Nas termas” não define qual dos dois recuos.'],
     ],
     'cta' => [

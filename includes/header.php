@@ -24,10 +24,22 @@ if (!isset($urlVoltar)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php require __DIR__ . '/seo.php'; ?>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?= e(url_site('assets/css/app.css')) ?>">
+    <link rel="preload" href="<?= e(url_site('assets/fonts/poppins-300-latin.woff2')) ?>" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="<?= e(url_site('assets/fonts/poppins-400-latin.woff2')) ?>" as="font" type="font/woff2" crossorigin>
+    <?php if (!empty($preloadImagem)):
+        $preloadExt = arquivo_imagem_existe((string) $preloadImagem, 'avif')
+            ? 'avif'
+            : (arquivo_imagem_existe((string) $preloadImagem, 'webp') ? 'webp' : 'jpg');
+        $preloadMime = $preloadExt === 'jpg' ? 'image/jpeg' : 'image/' . $preloadExt;
+        $preloadHref = url_site(url_imagem((string) $preloadImagem, $preloadExt));
+        $preloadSmall = 'assets/images/' . pathinfo((string) $preloadImagem, PATHINFO_FILENAME) . '-800.' . $preloadExt;
+        $preloadSrcset = is_file(dirname(__DIR__) . '/' . $preloadSmall)
+            ? url_site($preloadSmall) . ' 800w, ' . $preloadHref . ' 1536w'
+            : '';
+    ?>
+    <link rel="preload" as="image" href="<?= e($preloadHref) ?>" type="<?= e($preloadMime) ?>"<?= $preloadSrcset !== '' ? ' imagesrcset="' . e($preloadSrcset) . '" imagesizes="' . e((string) ($preloadImagemSizes ?? '100vw')) . '"' : '' ?> fetchpriority="high">
+    <?php endif; ?>
+    <link rel="stylesheet" href="<?= e(url_site('assets/css/app.min.css')) ?>">
     <link rel="icon" href="<?= e(url_site('assets/images/favicon.svg')) ?>" type="image/svg+xml">
     <link rel="icon" href="<?= e(url_site('assets/images/favicon-32.png')) ?>" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="<?= e(url_site('assets/images/apple-touch-icon.png')) ?>">

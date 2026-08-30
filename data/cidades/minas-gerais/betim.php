@@ -45,12 +45,12 @@ return [
     'faq' => [
         ['pergunta' => 'A Fiat fica em Contagem ou em Betim?', 'resposta' => 'A Fiat Automóveis está em Betim. Informe a portaria e o documento da lista; o recuo não se resolve com “Cidade Industrial”.'],
         ['pergunta' => 'O motorista vai a Confins a partir de Betim?', 'resposta' => 'Sim, quando o CNF entra no roteiro. A BR-381 e a MG-010 pedem margem; não é corrida instantânea das Alterosas.'],
-        ['pergunta' => 'Vocês entram na REGAP com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela da refinaria não libera.'],
-        ['pergunta' => 'Dá para ir à Savassi e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. O trecho até Belo Horizonte pesa mais que a distância no mapa.'],
-        ['pergunta' => 'O motorista espera no CNF se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. A espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês entram na REGAP com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista da REGAP e o documento pedido. Sem protocolo, a cancela da refinaria não libera.'],
+        ['pergunta' => 'Em Betim, dá para ir à Savassi e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. O trecho até Belo Horizonte pesa mais que a distância no mapa.'],
+        ['pergunta' => 'Em Betim, o motorista espera no CNF se o voo atrasar?', 'resposta' => 'Sim. Seguimos o voo no painel de Confins; a espera no saguão do CNF integra o trecho desde as Alterosas ou o Centro.'],
     ],
     'cta' => [
-        'titulo' => 'Envie a planta junto com o horário de Confins',
+        'titulo' => 'Mande a portaria da Fiat junto com o horário do CNF',
         'texto' => 'O orçamento de Betim sai sob consulta. Fiat, Alterosas e CNF no mesmo recado.',
         'botao' => 'Solicitar carro em Betim',
     ],

@@ -27,7 +27,7 @@ return [
             'h2' => 'Quadrantes onde o embarque sorocabano mais se concentra',
             'itens' => [
                 ['h3' => 'Campolim e o shopping', 'texto' => 'Hotéis, torres e clínicas. Informe o nome do prédio; as ruas do Campolim se repetem no mapa.'],
-                ['h3' => 'Centro e a Além Ponte', 'texto' => 'Sede e o calçadão. O sentido da via muda no fim da tarde; “no Centro” não define a porta.'],
+                ['h3' => 'Centro e a Além Ponte', 'texto' => 'Em Sorocaba, sede e o calçadão. O sentido da via muda no fim da tarde; “no Centro” não define a porta.'],
                 ['h3' => 'Éden, Cajuru e a zona industrial', 'texto' => 'Plantas e o eixo da Raposo. Protocolo de portaria entra no roteiro junto com o turno.'],
                 ['h3' => 'Aeroporto — SOD', 'texto' => 'O Bertram Luiz Leupolz fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho.'],
             ],
@@ -36,7 +36,7 @@ return [
     'grade' => [
         'h2' => 'Rotas que a pauta sorocabana mais pede',
         'itens' => [
-            ['titulo' => 'SOD → hotel no Campolim', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
+            ['titulo' => 'SOD → hotel no Campolim', 'texto' => 'Em Sorocaba, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
             ['titulo' => 'Campolim → Centro → planta no Éden', 'texto' => 'Reunião, sede e portaria. Um motorista cobre os três se a ordem já estiver no roteiro.'],
             ['titulo' => 'Hotel → Votorantim ou à capital', 'texto' => 'Quando a pauta vaza para Votorantim, Itu ou São Paulo, o trecho deixa de ser só urbano. Orçamento à parte.'],
             ['titulo' => 'Sorocaba → Viracopos no mesmo dia', 'texto' => 'O VCP não fica na porta do Campolim. Combinamos o voo e a margem da rodovia.'],
@@ -45,8 +45,8 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no SOD',
     'faq' => [
         ['pergunta' => 'O aeroporto de Sorocaba fica longe do Campolim?', 'resposta' => 'É trecho urbano. Marcamos margem: a Ipanema e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no SOD se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
+        ['pergunta' => 'O motorista espera no SOD se o voo atrasar?', 'resposta' => 'Sim. Em Sorocaba, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Sorocaba, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Em Sorocaba, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
         ['pergunta' => 'Dá para seguir a São Paulo ou a Viracopos depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Campolim; o horário sai sob consulta.'],
     ],
     'cta' => [

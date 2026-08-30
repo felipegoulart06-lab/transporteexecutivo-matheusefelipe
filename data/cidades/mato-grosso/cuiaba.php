@@ -44,14 +44,14 @@ return [
         'h2' => 'Três dados que evitam atraso na capital',
         'itens' => [
             ['num' => '01', 'titulo' => 'Cuiabá ou Várzea Grande', 'texto' => 'Hotel e aeroporto não estão no mesmo recuo. Diga o lado da ponte.'],
-            ['num' => '02', 'titulo' => 'Voo no CGB', 'texto' => 'Número e horário. O carro sai com margem, não no minuto do check-in.'],
+            ['num' => '02', 'titulo' => 'Voo no CGB', 'texto' => 'Em Cuiabá, número e horário. O carro sai com margem, não no minuto do check-in.'],
             ['num' => '03', 'titulo' => 'Chapada ou cidade', 'texto' => 'Visita à Chapada entra como viagem. O urbano é outro orçamento.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pousa no Marechal Rondon',
     'faq' => [
         ['pergunta' => 'O aeroporto de Cuiabá fica na capital?', 'resposta' => 'O CGB fica em Várzea Grande. O trecho até Goiabeiras ou o Centro entra no roteiro com margem.'],
-        ['pergunta' => 'O motorista espera no CGB se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Cuiabá, o motorista espera no CGB se o voo atrasar?', 'resposta' => 'Sim. Em Cuiabá, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem a Chapada dos Guimarães no mesmo dia?', 'resposta' => 'Sim, quando a Chapada entra no roteiro. Não é o mesmo recorte do Centro; o intervalo sai sob consulta.'],
         ['pergunta' => 'Dá para ir à Arena Pantanal e voltar ao hotel?', 'resposta' => 'Sim. Informe o portão e se o carro permanece no evento.'],
     ],

@@ -28,7 +28,7 @@ return [
     'bairros' => [
         'h2' => 'Eixos da cidade onde o embarque mais se concentra',
         'itens' => [
-            ['h3' => 'Centro e a Autonomistas', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e a Autonomistas', 'texto' => 'Em Osasco, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Bela Vista e o Osasco Plaza', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da Castelo.'],
             ['h3' => 'Presidente Altino e o km 18', 'texto' => 'Pauta residencial e o recuo da linha. “No Altino” não define a porta.'],
             ['h3' => 'City Bussocaba e o sul', 'texto' => 'Condomínio e jantar. O recuo pede rua e número.'],
@@ -54,15 +54,15 @@ return [
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Bela Vista, Centro ou Altino. Autocomplete não resolve viaduto com dois acessos.'],
             ['titulo' => 'Hotel ou aeroporto', 'texto' => 'Diga se o embarque é o hotel, o GRU ou o Congonhas.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Osasco, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pauta Osasco e a Castelo',
     'faq' => [
         ['pergunta' => 'O motorista vai ao GRU a partir de Osasco?', 'resposta' => 'Sim, quando o GRU entra no roteiro. A Castelo e a Dutra pedem margem; não é corrida instantânea da Bela Vista.'],
         ['pergunta' => 'Vocês fazem Centro, Bela Vista e Alphaville no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A Castelo pesa mais que a distância no mapa.'],
-        ['pergunta' => 'Dá para ir à Faria Lima depois do hotel?', 'resposta' => 'Sim, como recorte da capital. Não é o mesmo pedido do Centro de Osasco.'],
-        ['pergunta' => 'O motorista espera no GRU se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. A espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Osasco, dá para ir à Faria Lima depois do hotel?', 'resposta' => 'Sim, como recorte da capital. Não é o mesmo pedido do Centro de Osasco.'],
+        ['pergunta' => 'Em Osasco, o motorista espera no GRU se o voo atrasar?', 'resposta' => 'Sim. Monitoramos o GRU com o número do voo; a espera no desembarque integra o trecho Castelo–Dutra desde a Bela Vista ou o Centro.'],
     ],
     'cta' => [
         'titulo' => 'Junte a Bela Vista ao horário da Castelo',

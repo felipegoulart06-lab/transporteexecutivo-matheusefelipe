@@ -89,7 +89,7 @@ return [
             ],
             [
                 'titulo' => 'Confirmação',
-                'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação.',
+                'texto' => 'Em Luziânia, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.',
             ],
         ],
     ],
@@ -105,7 +105,7 @@ return [
         ],
         [
             'pergunta' => 'Vocês fazem Centro, São Judas e o JK no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os três recuos.',
+            'resposta' => 'Sim. Em Luziânia, informe a ordem e o nome do hotel. Um motorista articula os três recuos.',
         ],
         [
             'pergunta' => 'Dá para seguir a Goiânia depois da reunião no Centro?',
@@ -113,7 +113,7 @@ return [
         ],
         [
             'pergunta' => 'O hotel no São Judas é ponto conveniado?',
-            'resposta' => 'Não. O hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
+            'resposta' => 'Não. Em Luziânia, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

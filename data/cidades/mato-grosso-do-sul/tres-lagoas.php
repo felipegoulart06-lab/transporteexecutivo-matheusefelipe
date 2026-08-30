@@ -74,7 +74,7 @@ return [
         ],
         [
             'pergunta' => 'O motorista espera no TJL se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.',
+            'resposta' => 'Sim. Em Três Lagoas, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês entram na portaria da celulose com protocolo?',

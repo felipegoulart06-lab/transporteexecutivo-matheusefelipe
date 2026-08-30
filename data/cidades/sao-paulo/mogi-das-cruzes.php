@@ -54,7 +54,7 @@ return [
         'passos' => [
             ['titulo' => 'Distrito, não só o município', 'texto' => 'Centro, César de Souza, Vila Oliveira ou Mogilar. Autocomplete mistura Cezar e César no mesmo pin.'],
             ['titulo' => 'Qual saguão e qual rodovia', 'texto' => 'GRU pela Dutra ou pela Ayrton Senna muda a margem. CGH entra só se já estiver no roteiro.'],
-            ['titulo' => 'Confirmação no WhatsApp', 'texto' => 'Nome e DDD. Devolvemos o horário de apresentação. Valor sob consulta.'],
+            ['titulo' => 'Confirmação no WhatsApp', 'texto' => 'Em Mogi das Cruzes, nome e DDD. Devolvemos o horário de apresentação. Valor sob consulta.'],
         ],
     ],
     'faq_h2' => 'O que o Alto Tietê pergunta antes do GRU',

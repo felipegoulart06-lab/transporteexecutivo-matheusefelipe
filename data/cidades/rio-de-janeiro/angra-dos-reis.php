@@ -48,7 +48,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pauta a Costa Verde',
     'faq' => [
         ['pergunta' => 'O motorista vai ao Galeão a partir de Angra?', 'resposta' => 'Sim, quando o GIG entra no roteiro. A Rio-Santos pede margem; não é corrida instantânea do Frade.'],
-        ['pergunta' => 'O motorista espera no GIG se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. A espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Angra dos Reis, o motorista espera no GIG se o voo atrasar?', 'resposta' => 'Sim. Seguimos o voo no Galeão; a espera no GIG integra o trecho pela Rio-Santos desde o Frade ou o Centro.'],
         ['pergunta' => 'Vocês fazem Centro, Frade e o cais no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A litorânea pesa mais que a distância no mapa.'],
         ['pergunta' => 'Dá para ir a Paraty ou à Ilha Grande depois do hotel?', 'resposta' => 'Sim, quando entram no roteiro. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],

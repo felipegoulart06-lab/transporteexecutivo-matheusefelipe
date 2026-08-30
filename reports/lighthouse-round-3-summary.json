@@ -1,0 +1,588 @@
+{
+    "generated_at": "2026-08-30T02:46:05+00:00",
+    "reports": 12,
+    "pages": {
+        "baia": {
+            "url": "http://localhost:8000/transporte-executivo/amazonas/parintins/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1362.13,
+                "lcp_ms": 1812.13,
+                "tbt_ms": 0,
+                "cls": 0.017,
+                "speed_index_ms": 1362.13
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 28 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 102 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 14 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 540 ms"
+                }
+            ]
+        },
+        "dunas": {
+            "url": "http://localhost:8000/transporte-executivo/rio-grande-do-norte/parnamirim/",
+            "categories": {
+                "performance": 100,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1208.813,
+                "lcp_ms": 1658.813,
+                "tbt_ms": 0,
+                "cls": 0.022,
+                "speed_index_ms": 1208.813
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 29 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 85 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 15 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 390 ms"
+                }
+            ]
+        },
+        "eixo": {
+            "url": "http://localhost:8000/transporte-executivo/acre/cruzeiro-do-sul/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1359.504,
+                "lcp_ms": 1809.504,
+                "tbt_ms": 0,
+                "cls": 0.064,
+                "speed_index_ms": 1359.504
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 28 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 102 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 17 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 530 ms"
+                }
+            ]
+        },
+        "estado": {
+            "url": "http://localhost:8000/transporte-executivo/amazonas/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1361.074,
+                "lcp_ms": 1811.074,
+                "tbt_ms": 0,
+                "cls": 0,
+                "speed_index_ms": 1361.074
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 26 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 103 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 23 KiB"
+                },
+                {
+                    "id": "image-delivery-insight",
+                    "title": "Improve image delivery",
+                    "score": 0.5,
+                    "display_value": "Est savings of 10 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 450 ms"
+                }
+            ]
+        },
+        "gaucha": {
+            "url": "http://localhost:8000/transporte-executivo/mato-grosso/tangara-da-serra/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1359.76,
+                "lcp_ms": 1809.76,
+                "tbt_ms": 0,
+                "cls": 0.025,
+                "speed_index_ms": 1359.76
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 29 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 84 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 14 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 540 ms"
+                }
+            ]
+        },
+        "home": {
+            "url": "http://localhost:8000/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1213.391,
+                "lcp_ms": 1813.391,
+                "tbt_ms": 0,
+                "cls": 0.016,
+                "speed_index_ms": 1213.391
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 26 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 79 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 8 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 550 ms"
+                }
+            ]
+        },
+        "malha": {
+            "url": "http://localhost:8000/transporte-executivo/para/ananindeua/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1359.904,
+                "lcp_ms": 1809.904,
+                "tbt_ms": 0,
+                "cls": 0.028,
+                "speed_index_ms": 1359.904
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 28 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 102 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 15 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 560 ms"
+                }
+            ]
+        },
+        "mare": {
+            "url": "http://localhost:8000/transporte-executivo/piaui/parnaiba/",
+            "categories": {
+                "performance": 100,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1358.92,
+                "lcp_ms": 1658.92,
+                "tbt_ms": 0,
+                "cls": 0.022,
+                "speed_index_ms": 1358.92
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 29 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 93 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 14 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 560 ms"
+                }
+            ]
+        },
+        "orla": {
+            "url": "http://localhost:8000/transporte-executivo/sao-paulo/praia-grande/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1358.588,
+                "lcp_ms": 1808.588,
+                "tbt_ms": 0,
+                "cls": 0.023,
+                "speed_index_ms": 1358.588
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 29 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 98 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 15 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 550 ms"
+                }
+            ]
+        },
+        "protocolo": {
+            "url": "http://localhost:8000/transporte-executivo/alagoas/arapiraca/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1361.628,
+                "lcp_ms": 1661.628,
+                "tbt_ms": 0,
+                "cls": 0.047,
+                "speed_index_ms": 1361.628
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 29 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 93 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 15 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 560 ms"
+                }
+            ]
+        },
+        "rio": {
+            "url": "http://localhost:8000/transporte-executivo/rondonia/ji-parana/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1363.053,
+                "lcp_ms": 1813.053,
+                "tbt_ms": 0,
+                "cls": 0.022,
+                "speed_index_ms": 1363.053
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 29 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 102 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 14 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 550 ms"
+                }
+            ]
+        },
+        "serra": {
+            "url": "http://localhost:8000/transporte-executivo/tocantins/gurupi/",
+            "categories": {
+                "performance": 99,
+                "accessibility": 100,
+                "best-practices": 100,
+                "seo": 100
+            },
+            "metrics": {
+                "fcp_ms": 1358.999,
+                "lcp_ms": 1808.999,
+                "tbt_ms": 0,
+                "cls": 0.055,
+                "speed_index_ms": 1358.999
+            },
+            "failures": [
+                {
+                    "id": "unused-css-rules",
+                    "title": "Reduce unused CSS",
+                    "score": 0,
+                    "display_value": "Est savings of 29 KiB"
+                },
+                {
+                    "id": "cache-insight",
+                    "title": "Use efficient cache lifetimes",
+                    "score": 0,
+                    "display_value": "Est savings of 102 KiB"
+                },
+                {
+                    "id": "document-latency-insight",
+                    "title": "Document request latency",
+                    "score": 0.5,
+                    "display_value": "Est savings of 15 KiB"
+                },
+                {
+                    "id": "network-dependency-tree-insight",
+                    "title": "Network dependency tree",
+                    "score": 0,
+                    "display_value": null
+                },
+                {
+                    "id": "render-blocking-insight",
+                    "title": "Render-blocking requests",
+                    "score": 0,
+                    "display_value": "Est savings of 560 ms"
+                }
+            ]
+        }
+    }
+}

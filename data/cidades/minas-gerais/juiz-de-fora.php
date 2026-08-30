@@ -51,8 +51,8 @@ return [
     'faq_h2' => 'Perguntas de quem pousa no Itamar Franco',
     'faq' => [
         ['pergunta' => 'O aeroporto de Juiz de Fora fica na cidade?', 'resposta' => 'O IZA fica em Goianá. O trecho até o Centro ou o São Mateus entra no roteiro com margem para a BR-267.'],
-        ['pergunta' => 'O motorista espera no IZA se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, São Mateus e a UFJF no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o bloco do campus. Um motorista articula os três.'],
+        ['pergunta' => 'O motorista espera no IZA se o voo atrasar?', 'resposta' => 'Sim. Em Juiz de Fora, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Centro, São Mateus e a UFJF no mesmo dia?', 'resposta' => 'Sim. Em Juiz de Fora, informe a ordem e o bloco do campus. Um motorista articula os três.'],
         ['pergunta' => 'Dá para seguir ao Rio ou a Petrópolis depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-040. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [

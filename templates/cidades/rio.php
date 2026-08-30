@@ -3,14 +3,13 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-rio">
     <header class="lp-rio__topo">
         <?php require dirname(__DIR__) . '/../includes/breadcrumb.php'; ?>
         <p class="kicker"><?= e($c['kicker']) ?></p>
         <h1><?= e($c['h1']) ?></h1>
-        <img src="<?= e($img) ?>" alt="<?= e($c['seo']['og_image_alt']) ?>" width="1600" height="900" fetchpriority="high" decoding="async">
+        <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt'], '(max-width: 900px) calc(100vw - 40px), 900px') ?>
     </header>
     <?php foreach ($c['corrente'] as $i => $bloco): ?>
         <section class="lp-rio__painel" data-n="<?= $i + 1 ?>">

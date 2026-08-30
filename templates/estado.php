@@ -11,12 +11,13 @@ $ufAtual = $estado['uf'];
 $paginaAtual = 'estado';
 $imagemArquivo = $estado['imagem'];
 $imagemRel = url_imagem($imagemArquivo, 'jpg');
-$imagemWebp = url_imagem($imagemArquivo, 'webp');
-$temWebp = arquivo_imagem_existe($imagemArquivo, 'webp');
 $imagemAbs = url_site($imagemRel);
 $canonical = url_estado($slug);
 
-$estados = require dirname(__DIR__) . '/includes/estados-cidades.php';
+$catalogoCidades = require dirname(__DIR__) . '/includes/estados-cidades.php';
+$estados = isset($catalogoCidades[$ufAtual])
+    ? [$ufAtual => $catalogoCidades[$ufAtual]]
+    : [];
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' && campo('estado') === '') {
     $_POST['estado'] = $ufAtual;
 }
@@ -45,6 +46,8 @@ $migalhas = [
 ];
 
 $schemas = schemas_estado($estado, $canonical);
+$preloadImagem = $imagemArquivo;
+$preloadImagemSizes = '100vw';
 
 require dirname(__DIR__) . '/includes/header.php';
 $kicker = $estado['uf'] === 'DF'
@@ -53,12 +56,7 @@ $kicker = $estado['uf'] === 'DF'
 ?>
 <main id="conteudo">
     <div class="page-hero">
-        <picture class="page-hero__media">
-            <?php if ($temWebp): ?>
-                <source type="image/webp" srcset="<?= e(url_site($imagemWebp)) ?>">
-            <?php endif; ?>
-            <img src="<?= e(url_site($imagemRel)) ?>" alt="<?= e($estado['seo']['og_image_alt']) ?>" width="1600" height="900" fetchpriority="high" decoding="async">
-        </picture>
+        <?= imagem_responsiva($imagemArquivo, $estado['seo']['og_image_alt'], '100vw', 'page-hero__media') ?>
         <div class="page-hero__inner">
             <?php require dirname(__DIR__) . '/includes/breadcrumb.php'; ?>
             <p class="kicker"><?= e($kicker) ?></p>
@@ -79,12 +77,7 @@ $kicker = $estado['uf'] === 'DF'
                 <p><?= e($paragrafo) ?></p>
             <?php endforeach; ?>
             <figure>
-                <picture>
-                    <?php if ($temWebp): ?>
-                        <source type="image/webp" srcset="<?= e(url_site($imagemWebp)) ?>">
-                    <?php endif; ?>
-                    <img src="<?= e(url_site($imagemRel)) ?>" alt="<?= e($estado['secao_estado']['imagem_alt']) ?>" width="1600" height="900" loading="lazy" decoding="async">
-                </picture>
+                <?= imagem_responsiva($imagemArquivo, $estado['secao_estado']['imagem_alt'], '(max-width: 940px) calc(100vw - 40px), 940px', '', 1536, 1024, false) ?>
                 <figcaption><?= e($estado['secao_estado']['legenda']) ?></figcaption>
             </figure>
         </section>
@@ -202,5 +195,5 @@ $kicker = $estado['uf'] === 'DF'
         </nav>
     </article>
 </main>
-<script src="<?= e(url_site('assets/js/orcamento.js')) ?>" defer></script>
+<script src="<?= e(url_site('assets/js/orcamento.min.js')) ?>" defer></script>
 <?php require dirname(__DIR__) . '/includes/footer.php'; ?>

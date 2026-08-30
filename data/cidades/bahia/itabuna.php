@@ -55,8 +55,8 @@ return [
             'resposta' => 'Não. São municípios colados na Costa do Cacau, com recuos distintos. O IOS fica em Ilhéus; o Centro de Itabuna pede a ordem da BR-101 no roteiro.',
         ],
         [
-            'pergunta' => 'O motorista espera no IOS se o voo atrasar?',
-            'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.',
+            'pergunta' => 'Em Itabuna, o motorista espera no IOS se o voo atrasar?',
+            'resposta' => 'Sim. Em Itabuna, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Conceição e São Caetano no mesmo dia?',
@@ -67,8 +67,8 @@ return [
             'resposta' => 'Sim, pela BR-415, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
         ],
         [
-            'pergunta' => 'O hotel no Centro conta como ponto conveniado?',
-            'resposta' => 'Não. O hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
+            'pergunta' => 'Em Itabuna, o hotel no Centro conta como ponto conveniado?',
+            'resposta' => 'Não. Em Itabuna, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
         ],
     ],
     'cta' => [

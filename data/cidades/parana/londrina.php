@@ -39,7 +39,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pousa no José Richa',
     'faq' => [
         ['pergunta' => 'O aeroporto de Londrina fica longe da Gleba Palhano?', 'resposta' => 'É trecho urbano. Marcamos margem: a Saul Elkind e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no LDB se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'O motorista espera no LDB se o voo atrasar?', 'resposta' => 'Sim. Em Londrina, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
         ['pergunta' => 'Vocês fazem Gleba, Centro e o Igapó no mesmo dia?', 'resposta' => 'Sim, quando o lago entra no roteiro. Informe a ordem; um motorista articula os três.'],
         ['pergunta' => 'Dá para seguir a Maringá depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte da Gleba; o horário sai sob consulta.'],
     ],

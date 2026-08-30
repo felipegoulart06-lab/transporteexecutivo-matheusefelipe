@@ -38,17 +38,17 @@ return [
         ],
     ],
     'protocolo' => [
-        'h2' => 'O que pedimos para acertar o embarque no continente',
+        'h2' => 'O que pedimos para acertar o embarque em Pagani e na Ponte do Imaruim',
         'lista' => [
             'Hotel com nome — Pagani ou “perto da Ponte do Imaruim” não bastam para o recuo.',
-            'Se o voo é no FLN, número e horário. A margem sai da ponte, não do bairro.',
+            'Se o voo é no FLN, número e horário. De Pagani, a margem sai da Pedro Ivo ou da Colombo Salles — não do quarteirão da BR-101.',
             'Confirme Palhoça (SC): não é Florianópolis, não é São José, e não é São José dos Campos.',
         ],
     ],
     'faq_h2' => 'Dúvidas de quem embarca em Palhoça rumo ao FLN',
     'faq' => [
         ['pergunta' => 'Palhoça fica na ilha de Florianópolis?', 'resposta' => 'Não. Palhoça é o continente da Grande Florianópolis. O Hercílio Luz fica na ilha; o trecho até Pagani entra no roteiro com margem para a ponte.'],
-        ['pergunta' => 'O motorista espera no FLN se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Em Palhoça, o motorista espera no FLN se o voo atrasar?', 'resposta' => 'Sim. Acompanhamos o voo no FLN; a espera em Carianos integra o trecho até Pagani com a margem da ponte.'],
         ['pergunta' => 'Palhoça é a mesma cidade que São José?', 'resposta' => 'Não. São José (SC) é o município vizinho no continente. São José dos Campos é interior de São Paulo — o autocomplete costuma misturar os três.'],
         ['pergunta' => 'Vocês fazem Pagani, a Ponte do Imaruim e o FLN no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A ponte pede margem própria; um motorista articula os recuos se o voo estiver no roteiro.'],
         ['pergunta' => 'Dá para seguir ao Centro da ilha depois do hotel em Pagani?', 'resposta' => 'Sim, quando Florianópolis entra no roteiro. Não é o mesmo recorte continental; o horário sai sob consulta.'],

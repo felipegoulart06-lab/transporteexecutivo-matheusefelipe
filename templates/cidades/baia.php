@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 /** @var array $c */
-$img = url_site(url_imagem($c['imagem'], 'jpg'));
 ?>
 <main id="conteudo" class="lp-baia">
-    <header class="lp-baia__hero" style="--lp-img:url('<?= e($img) ?>')">
+    <header class="lp-baia__hero">
+        <?= imagem_responsiva($c['imagem'], $c['seo']['og_image_alt'], '100vw', 'lp-baia__media') ?>
         <div>
             <?php require dirname(__DIR__) . '/../includes/breadcrumb.php'; ?>
             <p class="kicker"><?= e($c['kicker']) ?></p>

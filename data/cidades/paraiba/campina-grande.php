@@ -27,7 +27,7 @@ return [
     'coluna_a' => [
         'h2' => 'Três recortes que a pauta campinense usa',
         'itens' => [
-            ['h3' => 'Centro e a Floriano Peixoto', 'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
+            ['h3' => 'Centro e a Floriano Peixoto', 'texto' => 'Em Campina Grande, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
             ['h3' => 'Catolé, Liberdade e o shopping', 'texto' => 'Hotéis (Garden, similar) e clínicas. Deslocamentos curtos que esticam no semáforo da Manoel Tavares.'],
             ['h3' => 'Bodocongó, UFCG e a UEPB', 'texto' => 'Campus e pauta acadêmica. O recuo pede bloco e portaria, não “na universidade”.'],
         ],
@@ -38,9 +38,9 @@ return [
     ],
     'faq_h2' => 'Dúvidas de quem pousa no João Suassuna',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Campina Grande fica longe do Catolé?', 'resposta' => 'É trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no CPV se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, Catolé e o campus no mesmo dia?', 'resposta' => 'Sim. Informe o bloco. Um motorista articula os três recuos.'],
+        ['pergunta' => 'O aeroporto de Campina Grande fica longe do Catolé?', 'resposta' => 'Em Campina Grande, é trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
+        ['pergunta' => 'O motorista espera no CPV se o voo atrasar?', 'resposta' => 'Sim. Em Campina Grande, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Centro, Catolé e o campus no mesmo dia?', 'resposta' => 'Sim. Em Campina Grande, informe o bloco. Um motorista articula os três recuos.'],
         ['pergunta' => 'Dá para seguir a João Pessoa depois do hotel?', 'resposta' => 'Sim, como viagem de serra. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
     ],
     'cta' => [

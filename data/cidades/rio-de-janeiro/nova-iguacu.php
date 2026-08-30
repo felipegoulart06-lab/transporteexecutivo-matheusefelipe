@@ -54,14 +54,14 @@ return [
         'passos' => [
             ['titulo' => 'Bairro e número', 'texto' => 'Centro, Posse, Austin ou Vila Nova. Autocomplete não resolve quadra com dois acessos.'],
             ['titulo' => 'Hotel ou GIG', 'texto' => 'Diga se o embarque é a portaria do hotel ou o Galeão. A Dutra no mapa não substitui o endereço.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Em Nova Iguaçu, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
         ],
     ],
     'faq_h2' => 'Perguntas de quem pauta a Baixada e o Galeão',
     'faq' => [
         ['pergunta' => 'Nova Iguaçu é atalho da Dutra até o Galeão?', 'resposta' => 'Não. A Presidente Dutra corta o município, mas o recuo até o GIG pede margem própria da Baixada — não o aceite de quem vem do Vale do Paraíba.'],
         ['pergunta' => 'O Galeão fica longe do Centro de Nova Iguaçu?', 'resposta' => 'É o aeroporto prático da pauta. Marcamos margem: a Washington Luís e o horário de pico alteram o intervalo mais que o mapa.'],
-        ['pergunta' => 'Posse, Austin e o Centro cabem no mesmo expediente?', 'resposta' => 'Sim. Informe a ordem e o número. Os três recuos não se trocam no cartaz; um motorista articula se a margem estiver no roteiro.'],
+        ['pergunta' => 'Posse, Austin e o Centro cabem no mesmo expediente?', 'resposta' => 'Sim. Em Nova Iguaçu, informe a ordem e o número. Os três recuos não se trocam no cartaz; um motorista articula se a margem estiver no roteiro.'],
         ['pergunta' => 'Dá para seguir a Duque de Caxias depois da reunião?', 'resposta' => 'Sim, como trecho de Baixada. Não é o mesmo recorte do Centro iguaçuano; o horário sai sob consulta.'],
         ['pergunta' => 'O Santos Dumont substitui o GIG neste recorte?', 'resposta' => 'Só quando o SDU entra no roteiro. A Avenida Brasil pede outra margem; não é o mesmo pedido do Galeão.'],
     ],

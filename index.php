@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/includes/bootstrap.php';
 
+if (!headers_sent() && in_array(($_SERVER['REQUEST_METHOD'] ?? 'GET'), ['GET', 'HEAD'], true)) {
+    header('Cache-Control: public, max-age=300, s-maxage=3600, stale-while-revalidate=86400');
+}
+
 $paginaAtual = 'gate';
 $ocultarChrome = true;
 $heroJpg = url_site('assets/images/hero-transporte.jpg');
@@ -20,6 +24,15 @@ $seo = [
 ];
 
 $schemas = [
+    [
+        '@context' => 'https://schema.org',
+        '@type' => 'WebPage',
+        'name' => $seo['title'],
+        'description' => $seo['description'],
+        'url' => $seo['canonical'],
+        'inLanguage' => 'pt-BR',
+        'isPartOf' => ['@type' => 'WebSite', 'name' => config('nome'), 'url' => url_site()],
+    ],
     [
         '@context' => 'https://schema.org',
         '@type' => 'WebSite',
@@ -61,7 +74,7 @@ require __DIR__ . '/includes/header.php';
                     <em>Conversa com a atendente para decidir entre motorista ou delivery. Sem estado e cidade neste passo.</em>
                 </li>
             </ol>
-            <button type="button" class="gate-intro__go" id="btn-entrar">Entrar</button>
+            <a class="gate-intro__go" id="btn-entrar" href="<?= e(url_site('transporte-executivo/')) ?>">Entrar</a>
             <p class="gate-intro__foot">Sob consulta · Sem corrida instantânea · Todos os direitos reservados</p>
         </div>
     </div>
@@ -92,7 +105,7 @@ require __DIR__ . '/includes/header.php';
             <li>O destino é agendar o motorista ou seguir para a central de delivery.</li>
         </ul>
     </aside>
-    <div class="gate-frame">
+    <div class="gate-frame" inert>
         <ol class="gate-progress" aria-label="Etapas">
             <li class="is-on" data-step="tipo"><span>01</span> Serviço</li>
             <li data-step="estado"><span>02</span> Estado</li>
@@ -128,17 +141,17 @@ require __DIR__ . '/includes/header.php';
                     <section class="gate-step is-on" id="step-estado" aria-labelledby="q-estado">
                         <h2 id="q-estado">Qual é o seu estado?</h2>
                         <div class="gate-combo" id="combo-estado">
-                            <button type="button" class="gate-select" id="sel-estado" aria-haspopup="listbox" aria-expanded="false" aria-controls="lista-estado">
+                            <button type="button" class="gate-select" id="sel-estado" aria-expanded="false" aria-controls="lista-estado">
                                 Selecione o estado
                             </button>
-                            <ul class="gate-list" id="lista-estado" role="listbox" hidden></ul>
+                            <ul class="gate-list" id="lista-estado" hidden></ul>
                         </div>
                     </section>
 
                     <section class="gate-step" id="step-cidade" hidden aria-labelledby="q-cidade">
                         <h2 id="q-cidade">Qual é a sua cidade?</h2>
                         <div class="gate-combo" id="combo-cidade">
-                            <button type="button" class="gate-select" id="sel-cidade" aria-haspopup="listbox" aria-expanded="false" aria-controls="lista-cidade">
+                            <button type="button" class="gate-select" id="sel-cidade" aria-expanded="false" aria-controls="lista-cidade">
                                 Selecione a cidade
                             </button>
                             <div class="gate-list-wrap" id="wrap-cidade" hidden>
@@ -146,7 +159,7 @@ require __DIR__ . '/includes/header.php';
                                     <span class="visually-hidden">Filtrar cidade pelas iniciais</span>
                                     <input type="search" id="filtro-cidade" placeholder="Digite as iniciais" autocomplete="off">
                                 </label>
-                                <ul class="gate-list" id="lista-cidade" role="listbox"></ul>
+                                <ul class="gate-list" id="lista-cidade"></ul>
                             </div>
                         </div>
                     </section>
@@ -160,7 +173,7 @@ require __DIR__ . '/includes/header.php';
     </div>
 
     <div class="gate-chat" id="gate-chat" hidden>
-        <div class="gate-chat__panel" role="dialog" aria-modal="true" aria-labelledby="chat-titulo">
+        <div class="gate-chat__panel" role="dialog" aria-modal="true" aria-labelledby="chat-titulo" aria-describedby="chat-limites">
             <header class="gate-chat__head">
                 <span class="gate-chat__avatar" aria-hidden="true">T</span>
                 <div class="gate-chat__who">
@@ -175,10 +188,10 @@ require __DIR__ . '/includes/header.php';
                 <button type="button" data-intencao="objetos">Objetos de valor</button>
                 <button type="button" data-intencao="atendente">Falar com atendente</button>
             </div>
-            <p class="gate-chat__bound">Somente as três opções · Sem campo de texto</p>
+            <p class="gate-chat__bound" id="chat-limites">Somente as três opções · Sem campo de texto</p>
         </div>
     </div>
 </main>
-<script src="<?= e(url_site('assets/js/gate.js')) ?>" defer></script>
-<script src="<?= e(url_site('assets/js/atendente.js')) ?>" defer></script>
+<script src="<?= e(url_site('assets/js/gate.min.js')) ?>" defer></script>
+<script src="<?= e(url_site('assets/js/atendente.min.js')) ?>" defer></script>
 <?php require __DIR__ . '/includes/footer.php'; ?>

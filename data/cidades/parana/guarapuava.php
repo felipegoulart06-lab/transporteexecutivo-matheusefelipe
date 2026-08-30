@@ -26,9 +26,9 @@ return [
         [
             'h2' => 'Onde o embarque guarapuavano mais se concentra',
             'itens' => [
-                ['h3' => 'Centro e a Batel', 'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde e “no Centro” não define o recuo.'],
+                ['h3' => 'Centro e a Batel', 'texto' => 'Em Guarapuava, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde e “no Centro” não define o recuo.'],
                 ['h3' => 'Santana', 'texto' => 'Pauta residencial, clínicas e o eixo interno. O recuo pede rua e número, não o nome do bairro sozinho.'],
-                ['h3' => 'Distrito Industrial', 'texto' => 'Portaria e turno. Envie o nome na lista e o documento pedido; sem isso, a cancela não libera.'],
+                ['h3' => 'Distrito Industrial', 'texto' => 'Em Guarapuava, portaria e turno. Envie o nome na lista e o documento pedido; sem isso, a cancela não libera.'],
             ],
         ],
         [
@@ -52,8 +52,8 @@ return [
     'faq' => [
         ['pergunta' => 'O aeroporto Tancredo Neves (GPB) tem voo regular?', 'resposta' => 'A linha costuma ser limitada ou ausente. O terminal prático é o Afonso Pena (CWB), pela BR-277. Informe o voo; o recorte de serra muda o horário.'],
         ['pergunta' => 'O CWB fica perto do Centro de Guarapuava?', 'resposta' => 'Não. É trecho de serra até São José dos Pinhais. Marcamos margem de BR-277; não é o mesmo intervalo de Santana ao calçadão.'],
-        ['pergunta' => 'Vocês entram no Distrito Industrial com protocolo?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Vocês fazem Centro, Santana e o Distrito no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula os três recuos se a margem estiver no roteiro.'],
+        ['pergunta' => 'Em Guarapuava, vocês entram no Distrito Industrial com protocolo?', 'resposta' => 'Sim. Em Guarapuava, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
+        ['pergunta' => 'Vocês fazem Centro, Santana e o Distrito no mesmo dia?', 'resposta' => 'Sim. Em Guarapuava, informe a ordem e o nome do hotel. Um motorista articula os três recuos se a margem estiver no roteiro.'],
         ['pergunta' => 'Dá para parar em Ponta Grossa no caminho do CWB?', 'resposta' => 'Sim, quando a pauta pedir. Não é escala automática; o horário sai sob consulta.'],
     ],
     'cta' => [

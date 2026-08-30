@@ -63,7 +63,7 @@ return [
         ],
         [
             'pergunta' => 'Vocês fazem Centro, Nova Betânia e a UERN no mesmo dia?',
-            'resposta' => 'Sim. Informe o bloco do campus. Um motorista articula os três recuos.',
+            'resposta' => 'Sim. Em Mossoró, informe o bloco do campus. Um motorista articula os três recuos.',
         ],
         [
             'pergunta' => 'Dá para seguir a Natal ou a Fortaleza depois do hotel?',

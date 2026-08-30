@@ -44,7 +44,7 @@ return [
     'faq_h2' => 'Dúvidas de quem pauta o ABC',
     'faq' => [
         ['pergunta' => 'O motorista vai a Congonhas a partir de São Bernardo?', 'resposta' => 'Sim, quando o CGH entra no roteiro. A Anchieta pede margem; não é corrida instantânea do Rudge Ramos.'],
-        ['pergunta' => 'Vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da montadora não libera.'],
+        ['pergunta' => 'Em São Bernardo do Campo, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, o recuo da montadora não libera.'],
         ['pergunta' => 'Dá para ir ao Paço e à universidade no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. O Centro e o Rudge Ramos são recuos distintos.'],
         ['pergunta' => 'O carro segue à Faria Lima depois da reunião?', 'resposta' => 'Sim, quando a capital entra no roteiro. Não é o mesmo recorte de São Bernardo; a Anchieta pede margem própria.'],
     ],
