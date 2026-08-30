@@ -173,13 +173,9 @@ require __DIR__ . '/includes/header.php';
             <div class="gate-chat__quick" id="chat-quick">
                 <button type="button" data-intencao="motorista">Preciso de um motorista</button>
                 <button type="button" data-intencao="objetos">Objetos de valor</button>
+                <button type="button" data-intencao="atendente">Falar com atendente</button>
             </div>
-            <form class="gate-chat__form" id="chat-form">
-                <label class="visually-hidden" for="chat-input">Mensagem para a atendente</label>
-                <input type="text" id="chat-input" maxlength="280" placeholder="Escreva sua mensagem" autocomplete="off" enterkeyhint="send">
-                <button type="submit" class="gate-chat__send">Enviar</button>
-            </form>
-            <p class="gate-chat__bound">Restrito a motorista executivo, objetos de valor e este atendimento.</p>
+            <p class="gate-chat__bound">Somente as três opções · Sem campo de texto</p>
         </div>
     </div>
 </main>
