@@ -72,7 +72,7 @@ require dirname(__DIR__) . '/includes/header.php';
         <p class="kicker"><?= e($estadoNome) ?> · <?= e($uf) ?></p>
         <h1><?= e($cidadeNome) ?></h1>
         <p><?= e($tipos[$tipoSlug]) ?>. Esta landing page ainda não foi publicada — o endereço já está reservado.</p>
-        <a class="btn" href="<?= e(url_site()) ?>">Voltar ao início</a>
+        <a class="btn js-voltar" href="<?= e(url_estado($estadoSlug)) ?>">Voltar</a>
     </div>
 </main>
 <?php require dirname(__DIR__) . '/includes/footer.php'; ?>

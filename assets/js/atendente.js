@@ -144,7 +144,12 @@
             status.textContent = `Abrindo ${cidade.nome}…`;
             selEstado.disabled = true;
             selCidade.disabled = true;
-            window.location.href = `/transporte-executivo/${estadoSlug}/${cidadeSlug}/`;
+            document.body.classList.add('is-leaving');
+            const reduzir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            window.setTimeout(
+                () => window.location.assign(`/transporte-executivo/${estadoSlug}/${cidadeSlug}/`),
+                reduzir ? 0 : 360,
+            );
         });
 
         return box;
@@ -213,9 +218,11 @@
         origemFoco = document.activeElement;
         aberto = true;
         painel.hidden = false;
-        raiz.classList.add('is-chat');
         document.body.classList.add('is-chat-open');
         if (frame) frame.setAttribute('inert', '');
+        window.requestAnimationFrame(() => {
+            window.requestAnimationFrame(() => raiz.classList.add('is-chat'));
+        });
         if (!iniciado) boasVindas();
         carregarLandings().catch(() => {});
         const primeiro = atalhos?.querySelector('button');
@@ -225,14 +232,18 @@
     const fechar = () => {
         if (!aberto) return;
         aberto = false;
-        painel.hidden = true;
         raiz.classList.remove('is-chat');
         document.body.classList.remove('is-chat-open');
-        if (frame) frame.removeAttribute('inert');
-        const voltar = origemFoco && typeof origemFoco.focus === 'function'
-            ? origemFoco
-            : document.querySelector('.gate-choice[data-tipo="virtual"]');
-        if (voltar) voltar.focus({ preventScroll: true });
+        const encerrar = () => {
+            painel.hidden = true;
+            if (frame) frame.removeAttribute('inert');
+            const voltar = origemFoco && typeof origemFoco.focus === 'function'
+                ? origemFoco
+                : document.querySelector('.gate-choice[data-tipo="virtual"]');
+            if (voltar) voltar.focus({ preventScroll: true });
+        };
+        const reduzir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.setTimeout(encerrar, reduzir ? 0 : 400);
     };
 
     if (atalhos) {

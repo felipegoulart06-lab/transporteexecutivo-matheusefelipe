@@ -10,6 +10,13 @@ $ctaOrcamento = ($paginaAtual === 'estado' && !empty($slug))
         ? url_estado($slug) . '#orcamento'
         : url_orcamento($ufAtual ?? null));
 $classeBody = $classeBody ?? '';
+if (!isset($urlVoltar)) {
+    $urlVoltar = ($paginaAtual === 'cidade' && !empty($slug))
+        ? url_estado($slug)
+        : (($paginaAtual === 'estado')
+            ? url_site('transporte-executivo/')
+            : url_site());
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -31,6 +38,7 @@ $classeBody = $classeBody ?? '';
     <?php if (!$ocultarChrome): ?>
     <header class="site-header">
         <div class="site-header__inner">
+            <a class="site-back js-voltar" href="<?= e($urlVoltar) ?>">Voltar</a>
             <a class="logo" href="<?= e(url_site()) ?>">Transporte<span>Executivo</span></a>
             <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu</button>
             <nav id="menu-principal" class="menu" aria-label="Principal">

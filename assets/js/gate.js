@@ -92,9 +92,15 @@
         if (titulo) titulo.focus({ preventScroll: true });
     };
 
+    const irComHistorico = (url) => {
+        document.body.classList.add('is-leaving');
+        const reduzir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.setTimeout(() => window.location.assign(url), reduzir ? 0 : 360);
+    };
+
     const concluir = () => {
         if (!estadoAtual || !cidadeAtual || tipoAtual !== 'pessoas') return;
-        window.location.href = `/transporte-executivo/${estadoAtual.slug}/${cidadeAtual.slug}/`;
+        irComHistorico(`/transporte-executivo/${estadoAtual.slug}/${cidadeAtual.slug}/`);
     };
 
     const montarLista = (ul, itens, getLabel, getValue) => {
