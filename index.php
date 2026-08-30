@@ -162,7 +162,7 @@ require __DIR__ . '/includes/header.php';
     <div class="gate-chat" id="gate-chat" hidden>
         <div class="gate-chat__panel" role="dialog" aria-modal="true" aria-labelledby="chat-titulo">
             <header class="gate-chat__head">
-                <span class="gate-chat__avatar" aria-hidden="true">N</span>
+                <span class="gate-chat__avatar" aria-hidden="true">T</span>
                 <div class="gate-chat__who">
                     <p id="chat-titulo">Atendimento</p>
                     <p>Atendente virtual · Somente as três opções</p>
