@@ -5,55 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'baia',
     'cidade_nome' => 'Niterói',
-    'geo' => ['lat' => -22.8832, 'lng' => -43.1034],
+    'geo' => [
+        'lat' => -22.8832,
+        'lng' => -43.1034,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Niterói',
     'seo' => [
-        'title' => 'Motorista executivo em Niterói: Icaraí, Centro e ponte',
-        'description' => 'Carro com motorista em Niterói para Icaraí, São Francisco, Centro, Charitas e a Ponte Rio-Niterói. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo em Icaraí, no Centro e na Ponte Rio-Niterói',
-        'og_description' => 'Motorista em Niterói: hotel em Icaraí, pauta no Centro e o recuo da baía.',
-        'og_image_alt' => 'Sedan executivo em avenida de Icaraí com a baía ao fundo',
+        'title' => 'Traslado executivo em Niterói: Icaraí e ponte Rio-Niterói',
+        'description' => 'Motorista executivo em Niterói: Icaraí, Centro e Santos Dumont (SDU), em Rio de Janeiro. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Niterói: Icaraí e SDU',
+        'og_description' => 'O motorista combina Icaraí com Santos Dumont (SDU), em Rio de Janeiro. Informe nome do hotel e o recuo na orla.',
+        'og_image_alt' => 'Carro executivo em via de Niterói',
     ],
-    'kicker' => 'Cidade da baía · RJ',
-    'h1' => 'De Icaraí à ponte sem perder a pauta no Centro',
-    'faixas' => [
+    'kicker' => 'Região Metropolitana do Rio · RJ',
+    'h1' => 'Niterói: entre Icaraí, Centro e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Niterói',
+    'faq' => [
         [
-            'h2' => 'Niterói se mede em baía e em pedágio — o app não lê a ponte',
-            'texto' => 'Hotel em Icaraí ou em São Francisco, reunião no Centro e o trecho até o Rio pela Ponte Presidente Costa e Silva cabem no mesmo dia se o motorista já saiu com a ordem da Quatorze e da ponte, não com o atalho da hora.',
+            'pergunta' => 'Quem está em Niterói embarca no SDU dentro da cidade?',
+            'resposta' => 'Não. De Niterói o SDU (Santos Dumont) fica em Rio de Janeiro. O trecho sai de Icaraí pela ponte Rio-Niterói.',
         ],
         [
-            'h2' => 'Três recortes, um relógio de baía',
+            'pergunta' => 'Em Niterói, vocês buscam em Icaraí?',
+            'resposta' => 'Sim, em Niterói. Envie nome do hotel e o recuo na orla em Icaraí. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Niterói vocês fazem Rio de Janeiro?',
+            'resposta' => 'Sim, saindo de Niterói. Rio de Janeiro não é o recorte de Icaraí; o horário pela RJ-104 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Niterói, SDU e GIG são o mesmo recorte?',
+            'resposta' => 'Não, em Niterói. Os dois ficam em Rio de Janeiro, mas o acesso muda: SDU pela ponte Rio-Niterói e GIG pela ponte e Linha Vermelha. Diga o IATA.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Niterói e o SDU',
+        'texto' => 'Diga o ponto em Icaraí ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Niterói',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-de-janeiro',
+            'ancora' => 'Niterói e o recorte de Região Metropolitana do Rio',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'rio-de-janeiro',
+            'ancora' => 'Motorista em rio de janeiro',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'santos',
+            'ancora' => 'Motorista em santos',
+        ],
+    ],
+    'faixas' => [
+        [
+            'h2' => 'Niterói se cruza por ponte Rio-Niterói, não em linha reta',
+            'texto' => 'Niterói usa Santos Dumont (SDU), em Rio de Janeiro. Quem embarca em Icaraí não está no município da pista. A ponte Rio-Niterói é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Três eixos, três recuos',
             'itens' => [
-                ['h3' => 'Icaraí, São Francisco e Charitas', 'texto' => 'Hotéis (Solar do Icaraí, similar) e a orla. Informe o nome; “na praia de Icaraí” não define o recuo da Sete de Setembro.'],
-                ['h3' => 'Centro e o Ingá', 'texto' => 'Sede, CAM e o desnível. O calçamento pede ponto de espera, não GPS no MAC.'],
-                ['h3' => 'Pendotiba, Região Oceânica e Itaipu', 'texto' => 'Quando a pauta vaza para a oceânica, o trecho deixa o Centro. Piratininga e Itaipu saem com margem de via, não como segunda corrida em Icaraí.'],
+                [
+                    'h3' => 'Icaraí',
+                    'texto' => 'Origem frequente para hotel na orla. Informe nome do hotel e o recuo na orla. Icaraí não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para pauta institucional. Informe nome do hotel e o recuo na orla. Centro não compartilha o recuo de Icaraí.',
+                ],
+                [
+                    'h3' => 'São Francisco',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel e o recuo na orla. São Francisco não compartilha o recuo de Icaraí.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas de pauta, MAC e a travessia',
-            'texto' => 'Hotel em Icaraí → Centro → MAC só se a visita estiver no roteiro. Outro clássico: Niterói → Santos Dumont ou Galeão, com a ponte no meio. Charitas e o catamarã entram quando o passageiro combina o modal; o carro articula o recuo, não substitui a barca no último minuto.',
+            'h2' => 'Santos Dumont — SDU',
+            'texto' => 'Santos Dumont (SDU) fica em Rio de Janeiro, não em Niterói. O trecho sai pela ponte Rio-Niterói. Diga o IATA e o número do voo.',
         ],
-        [
-            'h2' => 'Ponte, SDU e o relógio do Rio',
-            'texto' => 'A ponte muda o intervalo mais que o mapa admite. Combinamos se o destino é SDU, GIG ou a Zona Sul. A espera no desembarque, quando o voo está no roteiro, integra o trecho — do lado de Niterói ou do Rio.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem cruza a baía',
-    'faq' => [
-        ['pergunta' => 'O motorista atravessa a Ponte Rio-Niterói?', 'resposta' => 'Sim. Informe o destino no Rio. A ponte e o horário de pico pesam mais que a distância no mapa.'],
-        ['pergunta' => 'Vocês buscam no Santos Dumont e levam a Icaraí?', 'resposta' => 'Sim, com o número do voo e a margem da ponte. A espera no SDU faz parte do trecho quando o voo está no roteiro.'],
-        ['pergunta' => 'Dá para ir ao MAC e voltar ao hotel em Icaraí?', 'resposta' => 'Sim. Combinamos o ponto de espera no CAM. O calçamento não admite recuo improvisado.'],
-        ['pergunta' => 'Vocês fazem a Região Oceânica no mesmo dia?', 'resposta' => 'Sim, quando Itaipu ou Piratininga entram no roteiro. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Diga se o embarque é Icaraí ou a ponte',
-        'texto' => 'O orçamento de Niterói sai sob consulta. Orla, Centro e baía no mesmo recado.',
-        'botao' => 'Pedir traslado em Niterói',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-de-janeiro', 'ancora' => 'O recorte fluminense além da capital'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Santos Dumont, Galeão e a Zona Sul'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'santos', 'ancora' => 'Gonzaga, porto e a orla santista'],
     ],
 ];

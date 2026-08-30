@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "rio-de-janeiro",
+    "nome": "Rio de Janeiro",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Zona Sul",
+            "eixo": "Avenida Brasil",
+            "destino": "Santos Dumont",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Zona Sul",
+        "Centro",
+        "Barra da Tijuca",
+        "Santo Cristo"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Santos Dumont",
+            "iata": "SDU",
+            "municipio": "Rio de Janeiro",
+            "acesso": "Aterro"
+        },
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "Avenida Brasil"
+        }
+    ],
+    "rodovias": [
+        "Avenida Brasil",
+        "Linha Amarela",
+        "Linha Vermelha"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "reunião no centro",
+        "hotel na Barra",
+        "desembarque no SDU"
+    ],
+    "vizinhos_pedido": [
+        "Niterói",
+        "Duque de Caxias",
+        "Petrópolis"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SDU em Rio de Janeiro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

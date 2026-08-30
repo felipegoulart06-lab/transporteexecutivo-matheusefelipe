@@ -5,58 +5,94 @@ declare(strict_types=1);
 return [
     'layout' => 'protocolo',
     'cidade_nome' => 'Betim',
-    'geo' => ['lat' => -19.9679, 'lng' => -44.1982],
+    'geo' => [
+        'lat' => -19.9679,
+        'lng' => -44.1982,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Betim',
     'seo' => [
-        'title' => 'Traslado executivo em Betim: Alterosas, Fiat e CNF',
-        'description' => 'Motorista executivo em Betim para as Alterosas, a Fiat, a REGAP e Confins pela BR-381. A planta fica no município; espera combinada e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista nas Alterosas, na Fiat e rumo a Confins',
-        'og_description' => 'Traslado em Betim: hotel, portaria da Fiat e o recuo da BR-381 até o CNF.',
-        'og_image_alt' => 'Sedan executivo em avenida de Betim',
+        'title' => 'Motorista executivo em Betim: Alterosas e CNF',
+        'description' => 'Motorista executivo em Betim: Alterosas, Centro e Confins (CNF), em Confins. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Betim: hotel, Alterosas e CNF',
+        'og_description' => 'O motorista combina Alterosas com Confins (CNF), em Confins. Informe nome na lista da Fiat ou da REGAP.',
+        'og_image_alt' => 'Carro executivo em via de Betim',
     ],
-    'kicker' => 'Polo automotivo · MG',
-    'h1' => 'Da Fiat às Alterosas sem perder a janela de Confins',
-    'preambulo' => 'Betim não é Contagem nem bairro de Belo Horizonte: é o município da Fiat Automóveis e da REGAP. Hotel nas Alterosas ou no Centro, briefing na planta e voo em Confins cabem no mesmo expediente se o motorista já conhece a BR-381, a MG-010 e o protocolo de cada portaria.',
+    'kicker' => 'Região Metropolitana de BH · MG',
+    'h1' => 'Betim: entre Alterosas, Centro e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Betim',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Betim embarca no CNF dentro da cidade?',
+            'resposta' => 'Não. De Betim o CNF (Confins) fica em Confins. O trecho sai de Alterosas pela BR-381.',
+        ],
+        [
+            'pergunta' => 'Em Betim, vocês buscam em Alterosas?',
+            'resposta' => 'Sim, em Betim. Envie nome na lista da Fiat ou da REGAP em Alterosas. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Betim vocês fazem Contagem?',
+            'resposta' => 'Sim, saindo de Betim. Contagem não é o recorte de Alterosas; o horário pela BR-262 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Betim o carro fica entre Alterosas e Centro?',
+            'resposta' => 'Sim, em Betim. A hora à disposição cobre hotel e bairro em Alterosas e sede em Centro.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Betim e o CNF',
+        'texto' => 'Diga o ponto em Alterosas ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Betim',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'minas-gerais',
+            'ancora' => 'Betim e o recorte de Região Metropolitana de BH',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'minas-gerais',
+            'cidade' => 'contagem',
+            'ancora' => 'Motorista em contagem',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'minas-gerais',
+            'cidade' => 'belo-horizonte',
+            'ancora' => 'Motorista em belo horizonte',
+        ],
+    ],
+    'preambulo' => 'Betim usa Confins (CNF), em Confins. Quem embarca em Alterosas não está no município da pista. A BR-381 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     'artigos' => [
         [
-            'h2' => 'A Fiat fica em Betim — não “na Grande BH”',
-            'texto' => 'Alterosas, Centro, PTB e Ingá não compartilham o mesmo recuo. A planta da Fiat Automóveis está em Betim, não em Contagem. Hotel (Ibis, similares) e pauta na montadora ou na REGAP pedem o nome da portaria. “Me busca em Betim” não coloca o carro na cancela certa.',
+            'h2' => 'Alterosas pede protocolo, não pin',
+            'texto' => 'Origem frequente para hotel e bairro. Informe nome na lista da Fiat ou da REGAP. Alterosas não compartilha o recuo de Centro.',
         ],
         [
-            'h2' => 'Alterosas, PTB e o silêncio da espera',
-            'texto' => 'Torres, clínicas e o eixo residencial. O recuo pede rua e número. Quando a comitiva dorme nas Alterosas e reúne na Fiat no primeiro turno, a margem sai do hotel, não do Waze da Fernão Dias. O Ingá e o PTB pedem ponto de espera próprio.',
+            'h2' => 'Centro e Petrovale',
+            'texto' => 'Centro pede sede. Petrovale pede REGAP. Quando Contagem entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-262.',
         ],
         [
-            'h2' => 'Confins — CNF no relógio da BR-381',
-            'texto' => 'Betim não tem saguão próprio. Combinamos o voo em Confins. A BR-381 e a MG-010 mudam o intervalo mais que o mapa admite; a margem sai das Alterosas, não do saguão. A espera no desembarque, quando o voo está no roteiro, integra o trecho CNF.',
+            'h2' => 'Confins (CNF)',
+            'texto' => 'Confins (CNF) fica em Confins, não em Betim. O trecho sai pela BR-381 / Anel. Diga o IATA e o número do voo.',
         ],
     ],
     'pauta' => [
-        'h2' => 'Itens que entram na ordem do dia em Betim',
+        'h2' => 'Itens da ordem do dia em Betim',
         'itens' => [
-            ['h3' => 'Fiat e o protocolo de portaria', 'texto' => 'Nome na lista e documento. A planta é betiminha; sem o protocolo, a cancela não libera.'],
-            ['h3' => 'REGAP e o turno da refinaria', 'texto' => 'Petrobras no município. Informe a portaria; o recuo da REGAP não é o da Fiat.'],
-            ['h3' => 'Hotel nas Alterosas ou no Centro', 'texto' => 'O nome do estabelecimento evita a volta na Fernão Dias. “Perto das Alterosas” não basta.'],
-            ['h3' => 'Quando a pauta aponta para Confins ou a Savassi', 'texto' => 'Não é o mesmo pedido urbano. O orçamento sai à parte, com margem da BR-381 e da MG-010.'],
+            [
+                'h3' => 'Alterosas',
+                'texto' => 'Origem frequente para hotel e bairro. Informe nome na lista da Fiat ou da REGAP. Alterosas não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome na lista da Fiat ou da REGAP. Centro não compartilha o recuo de Alterosas.',
+            ],
+            [
+                'h3' => 'Petrovale',
+                'texto' => 'Origem frequente para REGAP. Informe nome na lista da Fiat ou da REGAP. Petrovale não compartilha o recuo de Alterosas.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pauta a Fiat e Confins',
-    'faq' => [
-        ['pergunta' => 'A Fiat fica em Contagem ou em Betim?', 'resposta' => 'A Fiat Automóveis está em Betim. Informe a portaria e o documento da lista; o recuo não se resolve com “Cidade Industrial”.'],
-        ['pergunta' => 'O motorista vai a Confins a partir de Betim?', 'resposta' => 'Sim, quando o CNF entra no roteiro. A BR-381 e a MG-010 pedem margem; não é corrida instantânea das Alterosas.'],
-        ['pergunta' => 'Vocês entram na REGAP com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista da REGAP e o documento pedido. Sem protocolo, a cancela da refinaria não libera.'],
-        ['pergunta' => 'Em Betim, dá para ir à Savassi e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. O trecho até Belo Horizonte pesa mais que a distância no mapa.'],
-        ['pergunta' => 'Em Betim, o motorista espera no CNF se o voo atrasar?', 'resposta' => 'Sim. Seguimos o voo no painel de Confins; a espera no saguão do CNF integra o trecho desde as Alterosas ou o Centro.'],
-    ],
-    'cta' => [
-        'titulo' => 'Mande a portaria da Fiat junto com o horário do CNF',
-        'texto' => 'O orçamento de Betim sai sob consulta. Fiat, Alterosas e CNF no mesmo recado.',
-        'botao' => 'Solicitar carro em Betim',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'minas-gerais', 'ancora' => 'Confins, Vale do Aço e a agenda mineira'],
-        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'contagem', 'ancora' => 'Cidade Industrial, Eldorado e Confins'],
-        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'belo-horizonte', 'ancora' => 'Savassi, Lourdes e o trecho até Confins'],
     ],
 ];

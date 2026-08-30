@@ -1,0 +1,72 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "uberaba",
+    "nome": "Uberaba",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-050",
+            "destino": "Mário de Almeida Franco",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Estados Unidos",
+        "Universitário",
+        "Parque das Américas"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Mário de Almeida Franco",
+            "iata": "UBA",
+            "municipio": "Uberaba",
+            "acesso": "BR-050"
+        }
+    ],
+    "rodovias": [
+        "BR-050",
+        "BR-262",
+        "Avenida Santos Dumont"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "UNIUBE",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Uberlândia",
+        "Ribeirão Preto",
+        "Belo Horizonte"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal UBA em Uberaba",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "sao-carlos",
+    "nome": "São Carlos",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Washington Luís",
+            "destino": "Mário Pereira Lopes",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Cidade Jardim",
+        "USP",
+        "UFSCar"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Mário Pereira Lopes",
+            "iata": "QSC",
+            "municipio": "São Carlos",
+            "acesso": "SP-310"
+        },
+        {
+            "nome": "Leite Lopes",
+            "iata": "RAO",
+            "municipio": "Ribeirão Preto",
+            "acesso": "SP-318"
+        }
+    ],
+    "rodovias": [
+        "Washington Luís",
+        "SP-318",
+        "Avenida São Carlos"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "campus USP",
+        "campus UFSCar"
+    ],
+    "vizinhos_pedido": [
+        "Araraquara",
+        "Ribeirão Preto",
+        "Campinas"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal QSC em São Carlos",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

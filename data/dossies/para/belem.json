@@ -1,0 +1,72 @@
+{
+    "estado": "para",
+    "cidade": "belem",
+    "nome": "Belém",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Nazaré",
+            "eixo": "Almirante Barroso",
+            "destino": "Val de Cans",
+            "motivo": "hotel e clínica"
+        }
+    ],
+    "eixos": [
+        "Nazaré",
+        "Umarizal",
+        "Centro e Campina",
+        "Reduto"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Val de Cans",
+            "iata": "BEL",
+            "municipio": "Belém",
+            "acesso": "Avenida Júlio César"
+        }
+    ],
+    "rodovias": [
+        "Almirante Barroso",
+        "BR-316",
+        "Pedro Álvares Cabral"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e clínica",
+        "torres",
+        "porto e comércio",
+        "escritório"
+    ],
+    "vizinhos_pedido": [
+        "Ananindeua",
+        "Marituba",
+        "Macapá"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal BEL em Belém",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

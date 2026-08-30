@@ -1,0 +1,72 @@
+{
+    "estado": "mato-grosso-do-sul",
+    "cidade": "campo-grande",
+    "nome": "Campo Grande",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-163",
+            "destino": "Internacional de Campo Grande",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Amambaí",
+        "Tiradentes",
+        "Jardim dos Estados"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Internacional de Campo Grande",
+            "iata": "CGR",
+            "municipio": "Campo Grande",
+            "acesso": "Avenida Duque de Caxias"
+        }
+    ],
+    "rodovias": [
+        "BR-163",
+        "BR-262",
+        "Avenida Afonso Pena"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "eixo comercial",
+        "clínica e hotel"
+    ],
+    "vizinhos_pedido": [
+        "Dourados",
+        "Três Lagoas",
+        "Corumbá"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CGR em Campo Grande",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "estado": "alagoas",
+    "cidade": "maceio",
+    "nome": "Maceió",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Pajuçara",
+            "eixo": "AL-101",
+            "destino": "Zumbi dos Palmares",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Pajuçara",
+        "Ponta Verde",
+        "Jaraguá",
+        "Jatiúca"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Zumbi dos Palmares",
+            "iata": "MCZ",
+            "municipio": "Rio Largo",
+            "acesso": "AL-101"
+        }
+    ],
+    "rodovias": [
+        "AL-101",
+        "Avenida Fernandes Lima",
+        "Avenida da Paz"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "orla executiva",
+        "centro histórico",
+        "hotel e jantar"
+    ],
+    "vizinhos_pedido": [
+        "Rio Largo",
+        "Arapiraca",
+        "Recife"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal MCZ em Rio Largo",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

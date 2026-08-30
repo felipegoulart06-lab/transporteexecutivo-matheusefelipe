@@ -1,0 +1,78 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "jundiai",
+    "nome": "Jundiaí",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Anhanguera",
+            "destino": "Viracopos",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Ponte de Campinas",
+        "Vila Arens",
+        "Eloy Chaves"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Viracopos",
+            "iata": "VCP",
+            "municipio": "Campinas",
+            "acesso": "Anhanguera"
+        },
+        {
+            "nome": "Congonhas",
+            "iata": "CGH",
+            "municipio": "São Paulo",
+            "acesso": "Anhanguera"
+        }
+    ],
+    "rodovias": [
+        "Anhanguera",
+        "Bandeirantes",
+        "Avenida Nove de Julho"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "eixo Anhanguera",
+        "bairro",
+        "industrial"
+    ],
+    "vizinhos_pedido": [
+        "Campinas",
+        "Itu",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VCP em Campinas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

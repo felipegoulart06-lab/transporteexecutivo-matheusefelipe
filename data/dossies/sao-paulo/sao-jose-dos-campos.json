@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "sao-jose-dos-campos",
+    "nome": "São José dos Campos",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Dutra",
+            "destino": "Professor Urbano Ernesto Stumpf",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim Aquarius",
+        "Parque Tecnológico",
+        "Vila Ema"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Professor Urbano Ernesto Stumpf",
+            "iata": "SJK",
+            "municipio": "São José dos Campos",
+            "acesso": "Dutra"
+        }
+    ],
+    "rodovias": [
+        "Dutra",
+        "Avenida São João",
+        "Avenida Jorge Zarur"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "hotel e torre",
+        "CTA e empresas",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Taubaté",
+        "Jacareí",
+        "Guarulhos"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SJK em São José dos Campos",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

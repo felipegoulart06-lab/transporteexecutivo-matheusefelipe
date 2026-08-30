@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "sao-goncalo",
+    "nome": "São Gonçalo",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "RJ-104",
+            "destino": "Santos Dumont",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Alcântara",
+        "Boaçu",
+        "Trindade"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Santos Dumont",
+            "iata": "SDU",
+            "municipio": "Rio de Janeiro",
+            "acesso": "Niterói / ponte"
+        },
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "RJ-104"
+        }
+    ],
+    "rodovias": [
+        "RJ-104",
+        "Niterói–Manilha",
+        "Avenida Presidente Kennedy"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "eixo comercial",
+        "bairro",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Niterói",
+        "Itaboraí",
+        "Rio de Janeiro"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SDU em Rio de Janeiro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

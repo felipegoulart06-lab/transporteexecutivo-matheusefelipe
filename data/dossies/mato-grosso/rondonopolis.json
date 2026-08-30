@@ -1,0 +1,72 @@
+{
+    "estado": "mato-grosso",
+    "cidade": "rondonopolis",
+    "nome": "Rondonópolis",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-163",
+            "destino": "Maestro Marinho Pinto",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim Atlântico",
+        "Distrito Industrial",
+        "Vila Aurora"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Maestro Marinho Pinto",
+            "iata": "ROO",
+            "municipio": "Rondonópolis",
+            "acesso": "MT-130"
+        }
+    ],
+    "rodovias": [
+        "BR-163",
+        "BR-364",
+        "Avenida Fernando Correia da Costa"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "planta e CD",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Cuiabá",
+        "Campo Grande",
+        "Primavera do Leste"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal ROO em Rondonópolis",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

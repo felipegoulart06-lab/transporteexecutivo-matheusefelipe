@@ -1,0 +1,72 @@
+{
+    "estado": "piaui",
+    "cidade": "parnaiba",
+    "nome": "Parnaíba",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-343",
+            "destino": "Prefeito Dr. João Silva Filho",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Pindorama",
+        "Reis Veloso",
+        "Avenida Presidente Vargas"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Prefeito Dr. João Silva Filho",
+            "iata": "PHB",
+            "municipio": "Parnaíba",
+            "acesso": "PI-116"
+        }
+    ],
+    "rodovias": [
+        "BR-343",
+        "Avenida Presidente Vargas",
+        "PI-116"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "orla",
+        "eixo"
+    ],
+    "vizinhos_pedido": [
+        "Teresina",
+        "Luís Correia",
+        "Fortaleza"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal PHB em Parnaíba",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

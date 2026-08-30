@@ -5,58 +5,107 @@ declare(strict_types=1);
 return [
     'layout' => 'malha',
     'cidade_nome' => 'Sorocaba',
-    'geo' => ['lat' => -23.5015, 'lng' => -47.4526],
+    'geo' => [
+        'lat' => -23.5015,
+        'lng' => -47.4526,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Sorocaba',
     'seo' => [
-        'title' => 'Traslado executivo em Sorocaba: Centro, Campolim e SOD',
-        'description' => 'Motorista executivo em Sorocaba para o Centro, Campolim, Éden, Além Ponte e o aeroporto Bertram Luiz Leupolz. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Campolim, no Centro e no aeroporto SOD',
-        'og_description' => 'Traslado em Sorocaba: hotel no Campolim, pauta no Centro e o terminal SOD.',
-        'og_image_alt' => 'Sedan executivo em avenida de Sorocaba',
+        'title' => 'Motorista executivo em Sorocaba: Campolim e SOD',
+        'description' => 'Motorista executivo em Sorocaba: Campolim, Centro e Bertram Luiz Leupolz (SOD), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Sorocaba: Campolim e SOD',
+        'og_description' => 'O motorista combina Campolim com Bertram Luiz Leupolz (SOD), no próprio município. Informe nome do condomínio.',
+        'og_image_alt' => 'Carro executivo em via de Sorocaba',
     ],
     'kicker' => 'Interior paulista · SP',
-    'h1' => 'Do Campolim ao Centro sem perder a janela da planta',
-    'intro' => 'Sorocaba concentra indústria, hospital e o aeroporto Bertram Luiz Leupolz (SOD). Hotel no Campolim, reunião no Centro e voo no SOD cabem no mesmo expediente se o motorista já saiu com a ordem da Ipanema e da Raposo Tavares, não com o aceite do minuto.',
-    'blocos' => [
+    'h1' => 'Sorocaba — Campolim de manhã, SOD quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Sorocaba',
+    'faq' => [
         [
-            'h2' => 'Por que o deslocamento em Sorocaba não é “pegar um carro no Centro”',
-            'texto' => 'Campolim, Éden, Além Ponte e o recuo da planta não compartilham o mesmo acesso. Quem tem pauta no Parque Tecnológico e check-out no Ibis ou similar precisa de um motorista que já conhece o sentido da Avenida Ipanema, não o atalho do app.',
+            'pergunta' => 'Em Sorocaba, o SOD fica no próprio município?',
+            'resposta' => 'Sim. Em Sorocaba, Bertram Luiz Leupolz (SOD) fica no município. Informe o acesso via Avenida Oswaldo Pires de Campos.',
         ],
         [
-            'h2' => 'Quadrantes onde o embarque sorocabano mais se concentra',
+            'pergunta' => 'Em Sorocaba, vocês buscam em Campolim?',
+            'resposta' => 'Sim, em Sorocaba. Envie nome do condomínio em Campolim. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Sorocaba vocês fazem Votorantim?',
+            'resposta' => 'Sim, saindo de Sorocaba. Votorantim não é o recorte de Campolim; o horário pela Raposo Tavares sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Sorocaba, SOD e VCP são o mesmo recorte?',
+            'resposta' => 'Não, em Sorocaba. SOD fica em Sorocaba; VCP fica em Campinas. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Sorocaba e o SOD',
+        'texto' => 'Diga o ponto em Campolim ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Sorocaba',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Sorocaba e o recorte de Interior paulista',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'campinas',
+            'ancora' => 'Motorista em campinas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'sao-paulo',
+            'ancora' => 'Motorista em sao paulo',
+        ],
+    ],
+    'intro' => 'Sorocaba concentra Campolim (hotel e torre) e Bertram Luiz Leupolz (SOD) no mesmo município. O motorista precisa do ponto de embarque e do SOD no mesmo recado — “me busca em Sorocaba” não define o recuo.',
+    'blocos' => [
+        [
+            'h2' => 'Por que o deslocamento em Sorocaba não é pegar um carro',
+            'texto' => 'Sorocaba concentra Campolim (hotel e torre) e Bertram Luiz Leupolz (SOD) no mesmo município. O motorista precisa do ponto de embarque e do SOD no mesmo recado — “me busca em Sorocaba” não define o recuo.',
+        ],
+        [
+            'h2' => 'Quadrantes que mais geram embarque',
             'itens' => [
-                ['h3' => 'Campolim e o shopping', 'texto' => 'Hotéis, torres e clínicas. Informe o nome do prédio; as ruas do Campolim se repetem no mapa.'],
-                ['h3' => 'Centro e a Além Ponte', 'texto' => 'Em Sorocaba, sede e o calçadão. O sentido da via muda no fim da tarde; “no Centro” não define a porta.'],
-                ['h3' => 'Éden, Cajuru e a zona industrial', 'texto' => 'Plantas e o eixo da Raposo. Protocolo de portaria entra no roteiro junto com o turno.'],
-                ['h3' => 'Aeroporto — SOD', 'texto' => 'O Bertram Luiz Leupolz fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho.'],
+                [
+                    'h3' => 'Campolim',
+                    'texto' => 'Origem frequente para hotel e torre. Informe nome do condomínio. Campolim não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede. Informe nome do condomínio. Centro não compartilha o recuo de Campolim.',
+                ],
+                [
+                    'h3' => 'Éden',
+                    'texto' => 'Origem frequente para industrial. Informe nome do condomínio. Éden não compartilha o recuo de Campolim.',
+                ],
+                [
+                    'h3' => 'Além Ponte',
+                    'texto' => 'Origem frequente para bairro. Informe nome do condomínio. Além Ponte não compartilha o recuo de Campolim.',
+                ],
             ],
         ],
     ],
     'grade' => [
-        'h2' => 'Rotas que a pauta sorocabana mais pede',
+        'h2' => 'Três combinações que a pauta de Sorocaba repete',
         'itens' => [
-            ['titulo' => 'SOD → hotel no Campolim', 'texto' => 'Em Sorocaba, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'Campolim → Centro → planta no Éden', 'texto' => 'Reunião, sede e portaria. Um motorista cobre os três se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Hotel → Votorantim ou à capital', 'texto' => 'Quando a pauta vaza para Votorantim, Itu ou São Paulo, o trecho deixa de ser só urbano. Orçamento à parte.'],
-            ['titulo' => 'Sorocaba → Viracopos no mesmo dia', 'texto' => 'O VCP não fica na porta do Campolim. Combinamos o voo e a margem da rodovia.'],
+            [
+                'titulo' => 'Campolim → SOD',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: Avenida Oswaldo Pires de Campos.',
+            ],
+            [
+                'titulo' => 'SOD → Centro',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do condomínio.',
+            ],
+            [
+                'titulo' => 'Campolim → Votorantim',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Centro; o horário sai sob consulta.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no SOD',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Sorocaba fica longe do Campolim?', 'resposta' => 'É trecho urbano. Marcamos margem: a Ipanema e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no SOD se o voo atrasar?', 'resposta' => 'Sim. Em Sorocaba, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Em Sorocaba, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Em Sorocaba, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
-        ['pergunta' => 'Dá para seguir a São Paulo ou a Viracopos depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Campolim; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte o Campolim ao horário do SOD',
-        'texto' => 'O orçamento de Sorocaba sai sob consulta. Hotel, planta e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Sorocaba',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas e GRU na capital'],
     ],
 ];

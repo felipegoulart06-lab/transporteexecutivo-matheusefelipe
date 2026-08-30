@@ -1,0 +1,72 @@
+{
+    "estado": "amapa",
+    "cidade": "macapa",
+    "nome": "Macapá",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "AP-010",
+            "destino": "Alberto Alcolumbre",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Trem",
+        "Marco Zero",
+        "Santa Rita"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Alberto Alcolumbre",
+            "iata": "MCP",
+            "municipio": "Macapá",
+            "acesso": "AP-010"
+        }
+    ],
+    "rodovias": [
+        "AP-010",
+        "Avenida FAB",
+        "Beira Rio"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "orla equatorial",
+        "acesso ao MCP"
+    ],
+    "vizinhos_pedido": [
+        "Santana",
+        "Belém",
+        "Mazagão"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal MCP em Macapá",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

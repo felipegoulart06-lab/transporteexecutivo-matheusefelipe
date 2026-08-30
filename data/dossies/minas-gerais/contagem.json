@@ -1,0 +1,72 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "contagem",
+    "nome": "Contagem",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Cidade Industrial",
+            "eixo": "Anel Rodoviário",
+            "destino": "Confins",
+            "motivo": "portaria industrial"
+        }
+    ],
+    "eixos": [
+        "Cidade Industrial",
+        "Eldorado",
+        "Centro",
+        "Ressaca"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Confins",
+            "iata": "CNF",
+            "municipio": "Confins",
+            "acesso": "Anel / MG-010"
+        }
+    ],
+    "rodovias": [
+        "Anel Rodoviário",
+        "BR-381",
+        "Avenida João César de Oliveira"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "portaria industrial",
+        "hotel e comércio",
+        "sede",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Belo Horizonte",
+        "Betim",
+        "Nova Lima"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CNF em Confins",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "estado": "maranhao",
+    "cidade": "caxias",
+    "nome": "Caxias",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-316",
+            "destino": "Caxias",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Tamarineiro",
+        "Ponte",
+        "Campo de Belém"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Caxias",
+            "iata": "QXC",
+            "municipio": "Caxias",
+            "acesso": "BR-316"
+        },
+        {
+            "nome": "Senador Petrônio Portella",
+            "iata": "THE",
+            "municipio": "Teresina",
+            "acesso": "BR-316"
+        }
+    ],
+    "rodovias": [
+        "BR-316",
+        "MA-034",
+        "Avenida Senador Edison Lobão"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "acesso",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Teresina",
+        "Codó",
+        "São Luís"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal QXC em Caxias",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

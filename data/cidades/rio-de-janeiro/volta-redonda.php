@@ -5,65 +5,110 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'Volta Redonda',
-    'geo' => ['lat' => -22.5202, 'lng' => -44.0996],
+    'geo' => [
+        'lat' => -22.5202,
+        'lng' => -44.0996,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Volta Redonda',
     'seo' => [
-        'title' => 'Motorista em Volta Redonda: Aterrado, CSN e Dutra',
-        'description' => 'Carro com motorista em Volta Redonda para o Aterrado, Vila Santa Cecília, CSN e a Dutra rumo ao Rio. Portaria, espera combinada e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Aterrado, na CSN e na Dutra',
-        'og_description' => 'Motorista no Vale do Paraíba: hotel no Aterrado, portaria da usina e o recuo da Dutra.',
-        'og_image_alt' => 'Sedan executivo em avenida do Aterrado em Volta Redonda',
+        'title' => 'Motorista executivo em Volta Redonda: Aterrado e GIG',
+        'description' => 'Carro com motorista em Volta Redonda para Aterrado, Centro e GIG. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Volta Redonda: Aterrado e GIG',
+        'og_description' => 'O motorista combina Aterrado com Galeão (GIG), em Rio de Janeiro. Informe nome da empresa ou do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Volta Redonda',
     ],
-    'kicker' => 'Vale do Paraíba · RJ',
-    'h1' => 'Do Aterrado à CSN sem perder a janela da Dutra',
-    'olho' => 'Volta Redonda é a cidade da CSN e do recuo da Presidente Dutra rumo ao Rio. O motorista segura a portaria e a BR-116; o passageiro segura a reunião — não a vaga na porta do hotel.',
-    'capitulos' => [
+    'kicker' => 'Sul fluminense · RJ',
+    'h1' => 'Em Volta Redonda: do embarque em Aterrado ao GIG',
+    'faq_h2' => 'Dúvidas de quem embarca em Volta Redonda',
+    'faq' => [
         [
-            'h2' => 'A cidade do aço e o aeroporto que ficou no Rio',
-            'texto' => 'Aterrado, Vila Santa Cecília, Sessenta e o Retiro cabem em poucos quilômetros. O Galeão e o Santos Dumont não. Quem marca visita na CSN e voo no mesmo dia precisa de um carro que já saiu do hotel no Aterrado, não de um aceite no minuto da Dutra.',
+            'pergunta' => 'Quem está em Volta Redonda embarca no GIG dentro da cidade?',
+            'resposta' => 'Não. De Volta Redonda o GIG (Galeão) fica em Rio de Janeiro. O trecho sai de Aterrado pela BR-116.',
         ],
         [
-            'h2' => 'Onde o embarque volta-redondense mais se concentra',
+            'pergunta' => 'Em Volta Redonda, vocês buscam em Aterrado?',
+            'resposta' => 'Sim, em Volta Redonda. Envie nome da empresa ou do hotel em Aterrado. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Volta Redonda vocês fazem Barra Mansa?',
+            'resposta' => 'Sim, saindo de Volta Redonda. Barra Mansa não é o recorte de Aterrado; o horário pela BR-393 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Volta Redonda, GIG e QRZ são o mesmo recorte?',
+            'resposta' => 'Não, em Volta Redonda. GIG fica em Rio de Janeiro; QRZ fica em Resende. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Volta Redonda e o GIG',
+        'texto' => 'Diga o ponto em Aterrado ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Volta Redonda',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-de-janeiro',
+            'ancora' => 'Volta Redonda e o recorte de Sul fluminense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'rio-de-janeiro',
+            'ancora' => 'Motorista em rio de janeiro',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'angra-dos-reis',
+            'ancora' => 'Motorista em angra dos reis',
+        ],
+    ],
+    'olho' => 'Aterrado e Galeão (GIG), em Rio de Janeiro não cabem no mesmo aceite tardio.',
+    'capitulos' => [
+        [
+            'h2' => 'Aterrado e o recuo da pauta',
+            'texto' => 'Volta Redonda usa Galeão (GIG), em Rio de Janeiro. Quem embarca em Aterrado não está no município da pista. A BR-116 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Centro, Vila Santa Cecília e a ordem do dia',
             'itens' => [
-                ['h3' => 'Aterrado e o eixo comercial', 'texto' => 'Hotel, sede e o recuo da avenida. Informe o estabelecimento; “no Aterrado” não define a entrada.'],
-                ['h3' => 'Vila Santa Cecília, Sessenta e o Retiro', 'texto' => 'Residencial e clínicas. O recuo pede rua e número; os bairros se repetem no mapa da usina.'],
-                ['h3' => 'CSN e o protocolo de portaria', 'texto' => 'Nome na lista e documento. Sem isso, o recuo da siderúrgica não libera — e o app não resolve a cancela.'],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede. Informe nome da empresa ou do hotel. Centro não compartilha o recuo de Aterrado.',
+                ],
+                [
+                    'h3' => 'Vila Santa Cecília',
+                    'texto' => 'Origem frequente para CSN e bairro. Informe nome da empresa ou do hotel. Vila Santa Cecília não compartilha o recuo de Aterrado.',
+                ],
+                [
+                    'h3' => 'Aero Clube',
+                    'texto' => 'Origem frequente para acesso. Informe nome da empresa ou do hotel. Aero Clube não compartilha o recuo de Aterrado.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas de trabalho, usina e o salto pela Dutra',
-            'texto' => 'Hotel no Aterrado → CSN → Vila Santa Cecília só se a ordem estiver no roteiro. Outro clássico: Volta Redonda → GIG ou SDU pela Presidente Dutra, como viagem do Vale do Paraíba fluminense, não como corrida urbana. Angra entra pela mesma lógica de serra e costa.',
-        ],
-        [
-            'h2' => 'Presidente Dutra — o relógio do GIG e do SDU',
-            'texto' => 'Volta Redonda não tem saguão próprio. Combinamos se o voo é Galeão ou Santos Dumont. A Dutra muda o intervalo mais que o mapa admite; a margem sai do Aterrado, não do saguão. A espera no desembarque, quando o voo está no roteiro, integra o trecho.',
+            'h2' => 'Galeão — GIG',
+            'texto' => 'Galeão (GIG) fica em Rio de Janeiro, não em Volta Redonda. O trecho sai pela BR-116. Diga o IATA e o número do voo.',
         ],
     ],
     'passos' => [
-        'h2' => 'Três dados que evitam atraso no Vale do Paraíba',
+        'h2' => 'Como solicitar em Volta Redonda',
         'itens' => [
-            ['num' => '01', 'titulo' => 'Bairro e prédio', 'texto' => 'Aterrado ou Vila Santa Cecília. “Em Volta Redonda” não define o recuo.'],
-            ['num' => '02', 'titulo' => 'Portaria da CSN', 'texto' => 'Nome na lista e documento. O carro chega com o protocolo, não com o GPS da usina.'],
-            ['num' => '03', 'titulo' => 'GIG, SDU ou cidade', 'texto' => 'O trecho até o Rio entra como viagem pela Dutra. O urbano é outro orçamento.'],
+            [
+                'num' => '01',
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome da empresa ou do hotel. Autocomplete não resolve dois acessos em Aterrado.',
+            ],
+            [
+                'num' => '02',
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o GIG ou Barra Mansa entra no dia.',
+            ],
+            [
+                'num' => '03',
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Volta Redonda, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta a CSN e a Dutra',
-    'faq' => [
-        ['pergunta' => 'Vocês entram na CSN com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela da siderúrgica não libera.'],
-        ['pergunta' => 'O motorista segue a Dutra até o Galeão?', 'resposta' => 'Sim, quando o GIG entra no roteiro. A Presidente Dutra pede margem; não é corrida instantânea do Aterrado.'],
-        ['pergunta' => 'Em Volta Redonda, dá para usar o Santos Dumont em vez do Galeão?', 'resposta' => 'Sim. Combinamos o terminal. O SDU pede outro recuo na chegada ao Rio; o horário sai sob consulta.'],
-        ['pergunta' => 'Vocês fazem Aterrado, Sessenta e o Retiro no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o ponto de espera. Um motorista articula os três recortes.'],
-        ['pergunta' => 'Dá para seguir a Angra depois da visita à usina?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Aterrado; o horário de serra e costa sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Marque a CSN no mesmo recado da Dutra',
-        'texto' => 'O orçamento de Volta Redonda sai sob consulta. Aterrado, usina e voo no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Volta Redonda',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-de-janeiro', 'ancora' => 'O recorte fluminense além da capital'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Santos Dumont, Galeão e a Zona Sul'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'angra-dos-reis', 'ancora' => 'Centro, Frade e a Costa Verde'],
     ],
 ];

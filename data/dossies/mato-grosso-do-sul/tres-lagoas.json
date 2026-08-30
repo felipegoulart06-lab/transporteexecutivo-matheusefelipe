@@ -1,0 +1,78 @@
+{
+    "estado": "mato-grosso-do-sul",
+    "cidade": "tres-lagoas",
+    "nome": "Três Lagoas",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-262",
+            "destino": "Plínio Alarcom",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Interlagos",
+        "Distrito Industrial",
+        "Santos Dumont"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Plínio Alarcom",
+            "iata": "TJL",
+            "municipio": "Três Lagoas",
+            "acesso": "MS-395"
+        },
+        {
+            "nome": "Viracopos",
+            "iata": "VCP",
+            "municipio": "Campinas",
+            "acesso": "BR-262"
+        }
+    ],
+    "rodovias": [
+        "BR-262",
+        "BR-158",
+        "Avenida Ranulpho Marques Leal"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "planta de papel e celulose",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Araçatuba",
+        "Campo Grande",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal TJL em Três Lagoas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "estado": "goias",
+    "cidade": "luziania",
+    "nome": "Luziânia",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-040",
+            "destino": "Juscelino Kubitschek",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Parque Estrela Dalva",
+        "JK",
+        "Residencial Alto da Boa Vista"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Juscelino Kubitschek",
+            "iata": "BSB",
+            "municipio": "Brasília",
+            "acesso": "BR-040 / DF-290"
+        }
+    ],
+    "rodovias": [
+        "BR-040",
+        "GO-010",
+        "Avenida Teotônio Segurado"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "bairro",
+        "eixo Brasília",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Brasília",
+        "Valparaíso de Goiás",
+        "Goiânia"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal BSB em Brasília",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

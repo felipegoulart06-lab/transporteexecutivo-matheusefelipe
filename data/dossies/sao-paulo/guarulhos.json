@@ -1,0 +1,44 @@
+{
+  "estado": "sao-paulo",
+  "cidade": "guarulhos",
+  "nome": "Guarulhos",
+  "pesquisado_em": "2026-08-29",
+  "ibge": "3518800",
+  "mapa_operacional": [
+    {"origem": "Centro ou Macedo", "eixo": "urbano", "destino": "Sede, clínica ou hotel", "motivo": "Pauta municipal, não saguão"},
+    {"origem": "Vila Galvão", "eixo": "Regional II", "destino": "Centro ou Cumbica", "motivo": "Embarque no município"},
+    {"origem": "Centro, Macedo, Vila Galvão, Presidente Dutra ou hotel em Cumbica", "eixo": "Av. Monteiro Lobato → Rodovia Hélio Smidt", "destino": "GRU terminais 1, 2 ou 3", "motivo": "Embarque/desembarque no aeroporto que fica no município"}
+  ],
+  "eixos": ["Centro / Macedo", "Vila Galvão", "Cumbica / Presidente Dutra / terminal GRU"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos – Governador André Franco Montoro", "iata": "GRU", "icao": "SBGR", "municipio": "Guarulhos", "relacao": "Terminal no próprio município (Cumbica), Rodovia Hélio Smidt s/n", "fonte": "ANAC concessões Guarulhos — Rodovia Hélio Smidt, CEP 07.190-100, Guarulhos/SP", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Rodovia Hélio Smidt — acesso ao sítio aeroportuário", "fonte": "ANAC endereço concessionária GRU", "data": "2026-08-29"},
+    {"nome": "Rodovia Presidente Dutra (BR-116) e bairro Presidente Dutra", "fonte": "Prefeitura Guarulhos SAR; Click Guarulhos bairros", "data": "2026-08-29"},
+    {"nome": "Avenida Monteiro Lobato — acesso local à Hélio Smidt", "fonte": "Wikipedia Aeroporto de Cumbica (acesso moradores)", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Cumbica / sítio GRU", "Centro / Macedo", "Vila Galvão (Administração Regional II)"],
+  "vizinhos_pedido": [],
+  "prefeito": {"nome": "Lucas Sanches", "fonte": "Wikipedia Guarulhos (PL, 2025–2028); Espalha Fatos posse", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Código IBGE 3518800", "fonte": "cidades.ibge.gov.br/brasil/sp/guarulhos", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
+    {"fato": "GRU está em Guarulhos (Cumbica), não na capital", "fonte": "ANAC; endereço Hélio Smidt Guarulhos/SP", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "GRU fica em Guarulhos, em Cumbica, na Rodovia Hélio Smidt.", "publicado": true},
+    {"fato": "Terminais de passageiros 1, 2 e 3 com recuos distintos", "fonte": "Wikipedia Aeroporto de Cumbica (T1, T2, T3)", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Informe o terminal. Os três recuos de Cumbica não se trocam.", "publicado": true},
+    {"fato": "Administrações Regionais: I Centro, II Vila Galvão/Cabuçu, VI Cumbica", "fonte": "guarulhos.sp.gov.br SAR; Lei 8.361/2025", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "Centro, Macedo, Vila Galvão e Cumbica são recortes do município.", "publicado": true},
+    {"fato": "Macedo faz divisa com o Centro", "fonte": "Wikipedia Centro (distrito de Guarulhos)", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "Macedo cola no Centro; informe o prédio.", "publicado": true}
+  ],
+  "descartado": [
+    "Escrever a página como se fosse a capital",
+    "Mapear cia aérea × terminal GRU",
+    "Tempo Centro–GRU em minutos",
+    "Tratar GRU como se ficasse na capital"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
+  "verificar": [
+    "Uso atual do Terminal 1 para quais malhas (não publicar mapeamento)",
+    "Concessionária vigente da Dutra no trecho Guarulhos em 2026-08-29",
+    "Ayrton Senna (SP-070) como acesso complementar — não usada como eixo principal desta landing"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+    "estado": "goias",
+    "cidade": "rio-verde",
+    "nome": "Rio Verde",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-060",
+            "destino": "Gal. Leite de Castro",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Setor Morada do Sol",
+        "Campus",
+        "Distrito Agroindustrial"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Gal. Leite de Castro",
+            "iata": "RVD",
+            "municipio": "Rio Verde",
+            "acesso": "BR-060"
+        },
+        {
+            "nome": "Santa Genoveva",
+            "iata": "GYN",
+            "municipio": "Goiânia",
+            "acesso": "BR-060"
+        }
+    ],
+    "rodovias": [
+        "BR-060",
+        "GO-174",
+        "Avenida Presidente Vargas"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "IFGoiano",
+        "planta"
+    ],
+    "vizinhos_pedido": [
+        "Jataí",
+        "Goiânia",
+        "Itumbiara"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal RVD em Rio Verde",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

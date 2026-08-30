@@ -1,0 +1,72 @@
+{
+    "estado": "bahia",
+    "cidade": "ilheus",
+    "nome": "Ilhéus",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BA-262",
+            "destino": "Jorge Amado",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Pontal",
+        "Iguape",
+        "Olivença"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Jorge Amado",
+            "iata": "IOS",
+            "municipio": "Ilhéus",
+            "acesso": "BA-262"
+        }
+    ],
+    "rodovias": [
+        "BA-262",
+        "BR-101",
+        "Avenida Soares Lopes"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "orla",
+        "distrito",
+        "praia e hotel"
+    ],
+    "vizinhos_pedido": [
+        "Itabuna",
+        "Porto Seguro",
+        "Salvador"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal IOS em Ilhéus",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

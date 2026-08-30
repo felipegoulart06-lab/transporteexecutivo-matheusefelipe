@@ -1,0 +1,78 @@
+{
+    "estado": "rio-grande-do-sul",
+    "cidade": "rio-grande",
+    "nome": "Rio Grande",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-392",
+            "destino": "Rio Grande",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Cassino",
+        "Superporto",
+        "Junção"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Rio Grande",
+            "iata": "RIG",
+            "municipio": "Rio Grande",
+            "acesso": "BR-392"
+        },
+        {
+            "nome": "João Simões Lopes Neto",
+            "iata": "PET",
+            "municipio": "Pelotas",
+            "acesso": "BR-392"
+        }
+    ],
+    "rodovias": [
+        "BR-392",
+        "Avenida Rheingantz",
+        "estrada do Cassino"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "orla",
+        "cais e terminal",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Pelotas",
+        "Porto Alegre",
+        "São José do Norte"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal RIG em Rio Grande",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

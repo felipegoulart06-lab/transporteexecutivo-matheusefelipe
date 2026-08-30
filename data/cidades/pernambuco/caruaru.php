@@ -5,73 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Caruaru',
-    'geo' => ['lat' => -8.28455, 'lng' => -35.9699],
+    'geo' => [
+        'lat' => -8.28455,
+        'lng' => -35.9699,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Caruaru',
     'seo' => [
-        'title' => 'Traslado executivo em Caruaru: Centro, Indianópolis e agreste',
-        'description' => 'Motorista executivo em Caruaru para o Centro, Indianópolis, Maurício de Nassau e o eixo até o Recife. Feira, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro de Caruaru, no Indianópolis e no agreste',
-        'og_description' => 'Traslado no agreste pernambucano: hotel, pauta no Centro e o recuo rumo ao REC.',
-        'og_image_alt' => 'Sedan executivo em avenida de Caruaru',
+        'title' => 'Carro com motorista em Caruaru: Indianópolis e CAU',
+        'description' => 'Motorista executivo em Caruaru: Centro, Indianópolis e Oscar Laranjeira (CAU), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Caruaru: hotel, Centro e CAU',
+        'og_description' => 'O motorista combina Centro com Oscar Laranjeira (CAU), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Caruaru',
     ],
     'kicker' => 'Agreste pernambucano · PE',
-    'h1' => 'Do Indianópolis ao Centro sem perder a janela da feira',
-    'lead' => 'Caruaru concentra a Feira de Caruaru, o Polo da Moda e o recorte até o Recife. O motorista segura a Agamenon Magalhães e a BR-232; o passageiro segura a pauta — não a vaga na porta do hotel.',
-    'contexto' => [
-        'h2' => 'A capital do agreste cobra bairro e barracão, não “na feira”',
-        'texto' => [
-            'Centro, Indianópolis, Maurício de Nassau e o Parque 18 de Maio não compartilham o mesmo recuo. Hotel (Village, similar), reunião no Indianópolis e o trecho até o Guararapes (REC) cabem no mesmo expediente se a ordem da 232 já estiver no roteiro.',
-            'No São João o intervalo muda. Combinamos o portão do parque; “no forró” não define o recuo. Quando a pauta aponta para Toritama, Santa Cruz do Capibaribe ou Garanhuns, o trecho deixa de ser só urbano.',
-        ],
-    ],
-    'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
-        'itens' => [
-            ['h3' => 'Centro e a feira', 'texto' => 'Sede, Sulanca e o calçadão. Informe o prédio; o recuo da feira não é o do hotel.'],
-            ['h3' => 'Indianópolis e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da Agamenon.'],
-            ['h3' => 'Maurício de Nassau e o campus', 'texto' => 'UFPE e pauta acadêmica. O recuo pede bloco e portaria.'],
-            ['h3' => 'Parque 18 de Maio — São João', 'texto' => 'Evento. Portão e horário entram no roteiro; o carro espera onde combinado.'],
-        ],
-    ],
-    'aeroportos' => [
-        'h2' => 'Oscar Laranjeiras e o relógio do Recife',
-        'itens' => [
-            ['h3' => 'Campo de Caruaru', 'texto' => 'Aviação geral. O voo comercial da pauta sai em geral pelo Guararapes; o trecho Caruaru–REC entra com margem para a BR-232.'],
-            ['h3' => 'Quando a pauta aponta para o Recife', 'texto' => 'Boa Viagem ou o REC não é o mesmo pedido do Centro. Se a reunião vaza para a capital, o orçamento sai à parte.'],
-        ],
-    ],
-    'rotas' => [
-        'h2' => 'Trajetos que a agenda caruaruense mais pede',
-        'itens' => [
-            ['titulo' => 'Hotel no Indianópolis → Centro → feira', 'texto' => 'Pernoite, sede e visita combinada. Informe se o carro espera no parque da feira.'],
-            ['titulo' => 'Caruaru → REC no mesmo dia', 'texto' => 'A BR-232 pesa mais que o mapa. Combinamos o voo e a margem.'],
-            ['titulo' => 'Hotel → Toritama ou Santa Cruz', 'texto' => 'Polo da moda. Não é o recorte urbano do Centro; o horário sai sob consulta.'],
-        ],
-    ],
-    'como' => [
-        'h2' => 'Como o carro entra na grade em Caruaru',
-        'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Indianópolis, Centro ou Nassau. Autocomplete não resolve o portão do parque.'],
-            ['titulo' => 'Hotel ou Recife', 'texto' => 'Diga se o embarque é o hotel ou o trecho até o REC.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Caruaru, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta o agreste',
+    'h1' => 'Em Caruaru, de Centro a Oscar Laranjeira (CAU), no próprio município',
+    'faq_h2' => 'Dúvidas de quem embarca em Caruaru',
     'faq' => [
-        ['pergunta' => 'Caruaru tem voo comercial regular?', 'resposta' => 'O campo local atende aviação geral. O voo comercial da pauta sai em geral pelo Guararapes; o trecho entra no roteiro com margem para a BR-232.'],
-        ['pergunta' => 'Em Caruaru, o motorista espera no REC se o voo atrasar?', 'resposta' => 'Sim, quando o Recife está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem a Feira e o Parque 18 de Maio no São João?', 'resposta' => 'Sim, quando o evento entra no roteiro. Combinamos o portão; o complexo não admite recuo improvisado.'],
-        ['pergunta' => 'Dá para seguir a Toritama depois do hotel?', 'resposta' => 'Sim. Em Caruaru, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        [
+            'pergunta' => 'Em Caruaru, o CAU fica no próprio município?',
+            'resposta' => 'Sim. Em Caruaru, Oscar Laranjeira (CAU) fica no município. Informe o acesso via BR-232.',
+        ],
+        [
+            'pergunta' => 'Em Caruaru, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Caruaru. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Caruaru vocês fazem Recife?',
+            'resposta' => 'Sim, saindo de Caruaru. Recife não é o recorte de Centro; o horário pela PE-095 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Caruaru, CAU e REC são o mesmo recorte?',
+            'resposta' => 'Não, em Caruaru. CAU fica em Caruaru; REC fica em Recife. Diga o IATA no pedido.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Junte o Indianópolis ao horário da BR-232',
-        'texto' => 'O orçamento de Caruaru sai sob consulta. Feira, hotel e Recife no mesmo WhatsApp.',
+        'titulo' => 'Informe o embarque em Caruaru e o CAU',
+        'texto' => 'Diga o ponto em Centro ou Indianópolis, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Caruaru',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'pernambuco', 'ancora' => 'Caruaru, Petrolina e o recorte pernambucano'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'recife', 'ancora' => 'Boa Viagem, pontes e o Guararapes'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'petrolina', 'ancora' => 'Centro, orla do São Francisco e o PNZ'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'pernambuco',
+            'ancora' => 'Caruaru e o recorte de Agreste pernambucano',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'recife',
+            'ancora' => 'Motorista em recife',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'petrolina',
+            'ancora' => 'Motorista em petrolina',
+        ],
+    ],
+    'lead' => 'Caruaru concentra Centro (sede e hotel) e Oscar Laranjeira (CAU) no mesmo município. O motorista precisa do ponto de embarque e do CAU no mesmo recado — “me busca em Caruaru” não define o recuo.',
+    'contexto' => [
+        'h2' => 'Caruaru se mede em BR-232, não em pin de aplicativo',
+        'texto' => [
+            'Caruaru concentra Centro (sede e hotel) e Oscar Laranjeira (CAU) no mesmo município. O motorista precisa do ponto de embarque e do CAU no mesmo recado — “me busca em Caruaru” não define o recuo.',
+            'Indianópolis pede bairro. Salgado pede residencial. Quando Recife entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela PE-095.',
+        ],
+    ],
+    'bairros' => [
+        'h2' => 'Eixos de embarque em Caruaru',
+        'itens' => [
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Indianópolis.',
+            ],
+            [
+                'h3' => 'Indianópolis',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Indianópolis não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Salgado',
+                'texto' => 'Origem frequente para residencial. Informe nome do hotel. Salgado não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Universitário',
+                'texto' => 'Origem frequente para campus. Informe nome do hotel. Universitário não compartilha o recuo de Centro.',
+            ],
+        ],
+    ],
+    'aeroportos' => [
+        'h2' => 'O terminal que a agenda de Caruaru realmente usa',
+        'itens' => [
+            [
+                'h3' => 'Oscar Laranjeira — CAU',
+                'texto' => 'Oscar Laranjeira (CAU) fica em Caruaru. Acesso: BR-232. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'Guararapes Gilberto Freyre — REC',
+                'texto' => 'Guararapes Gilberto Freyre (REC) fica em Recife, não em Caruaru. O trecho sai pela BR-232. Diga o IATA e o número do voo.',
+            ],
+        ],
+    ],
+    'rotas' => [
+        'h2' => 'Trajetos que o pedido em Caruaru mais combina',
+        'itens' => [
+            [
+                'titulo' => 'Centro → CAU',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-232.',
+            ],
+            [
+                'titulo' => 'CAU → Indianópolis',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel.',
+            ],
+            [
+                'titulo' => 'Centro → Recife',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Indianópolis; o horário sai sob consulta.',
+            ],
+        ],
+    ],
+    'como' => [
+        'h2' => 'Como o carro entra na pauta em Caruaru',
+        'passos' => [
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o CAU ou Recife entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Caruaru, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

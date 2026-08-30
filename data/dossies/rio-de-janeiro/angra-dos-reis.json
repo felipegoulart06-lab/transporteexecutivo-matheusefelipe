@@ -1,0 +1,72 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "angra-dos-reis",
+    "nome": "Angra dos Reis",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-101",
+            "destino": "Galeão",
+            "motivo": "hotel e cais"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Frade",
+        "Monsuaba",
+        "Japuíba"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "BR-101"
+        }
+    ],
+    "rodovias": [
+        "BR-101",
+        "Avenida Júlio Maria",
+        "litoral"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e cais",
+        "condomínio",
+        "bairro",
+        "acesso à Rio-Santos"
+    ],
+    "vizinhos_pedido": [
+        "Paraty",
+        "Rio de Janeiro",
+        "Resende"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GIG em Rio de Janeiro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

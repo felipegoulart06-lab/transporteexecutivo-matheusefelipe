@@ -1,0 +1,40 @@
+{
+  "estado": "santa-catarina",
+  "cidade": "joinville",
+  "nome": "Joinville",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "JOI (Aventureiro)", "eixo": "Av. Santos Dumont", "destino": "Hotel no Centro", "motivo": "Pouso e pernoite"},
+    {"origem": "Centro / Tannenhof", "eixo": "Urbano", "destino": "Planta na América ou zona industrial", "motivo": "Visita com portaria"},
+    {"origem": "Centro", "eixo": "BR-101 (litoral) ou eixos aos vizinhos", "destino": "Jaraguá do Sul ou São Francisco do Sul", "motivo": "Pauta que vaza o município"}
+  ],
+  "eixos": ["Centro", "América", "zona industrial"],
+  "aeroportos": [
+    {"nome": "Aeroporto de Joinville — Lauro Carneiro de Loyola", "iata": "JOI", "municipio": "Joinville (Aventureiro)", "relacao": "Terminal comercial no município; ICAO SBJV", "fonte": "Relatório CGRA Joinville (CCR/Motiva) — Av. Santos Dumont 9000, Aventureiro, Joinville/SC, JOI/SBJV", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-101", "fonte": "Prefeitura de Joinville — Cidade em Dados 2025, Ambiente Construído", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [
+    {"nome": "Hotel Tannenhof", "bairro": "Centro (localização central no site oficial)", "fonte": "tannenhof.com.br e tannenhof.com.br/locais-proximos", "data": "2026-08-29"}
+  ],
+  "polos": ["Centro / Rua das Palmeiras (Alameda Brüstlein)", "América", "zona industrial", "JOI Aventureiro"],
+  "vizinhos_pedido": ["Jaraguá do Sul", "São Francisco do Sul", "Navegantes", "Curitiba"],
+  "prefeito": {"nome": "Rejane Gambin", "fonte": "joinville.sc.gov.br/governo/prefeito — desde 2026-04-02", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "JOI no município, Aventureiro, Av. Santos Dumont 9000, JOI/SBJV", "fonte": "CCR/Motiva Relatório CGRA; Cidade em Dados 2025", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Lauro Carneiro de Loyola (JOI) opera no Aventureiro, em Joinville.", "publicado": true},
+    {"fato": "Hotel Tannenhof em operação, site oficial tannenhof.com.br", "fonte": "tannenhof.com.br 2026-08-29", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "Hotel no Centro — o Tannenhof, de localização central.", "publicado": true},
+    {"fato": "Rua das Palmeiras = Alameda Brüstlein", "fonte": "tannenhof.com.br/locais-proximos", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "Sede, hotel e a Rua das Palmeiras (Alameda Brüstlein).", "publicado": true}
+  ],
+  "descartado": [
+    "Beto Carrero / Penha",
+    "Jaraguá do Sul pela BR-101 (litoral ≠ Vale)",
+    "BR-280 como acesso a Jaraguá sem DER-SC nesta rodada",
+    "Tempo fixo JOI–Centro"
+  ],
+  "verificar": [
+    "[VERIFICAR] Rua Henrique Meyer 340 — snippet de tannenhof.com.br/experiencia; HTML fetch sem logradouro; não publicado",
+    "[VERIFICAR] BR-280 Joinville–Jaraguá do Sul"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
+}

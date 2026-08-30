@@ -1,0 +1,78 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "belo-horizonte",
+    "nome": "Belo Horizonte",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Savassi",
+            "eixo": "MG-010",
+            "destino": "Confins",
+            "motivo": "hotel e escritório"
+        }
+    ],
+    "eixos": [
+        "Savassi",
+        "Lourdes",
+        "Centro",
+        "Pampulha"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Confins",
+            "iata": "CNF",
+            "municipio": "Confins",
+            "acesso": "MG-010"
+        },
+        {
+            "nome": "Pampulha",
+            "iata": "PLU",
+            "municipio": "Belo Horizonte",
+            "acesso": "via Pampulha"
+        }
+    ],
+    "rodovias": [
+        "MG-010",
+        "Anel Rodoviário",
+        "Cristiano Machado"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e escritório",
+        "pauta jurídica",
+        "sede institucional",
+        "campus e orla da lagoa"
+    ],
+    "vizinhos_pedido": [
+        "Contagem",
+        "Nova Lima",
+        "Betim"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CNF em Confins",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

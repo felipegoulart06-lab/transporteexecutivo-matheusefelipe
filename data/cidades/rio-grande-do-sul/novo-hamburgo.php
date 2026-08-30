@@ -5,74 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Novo Hamburgo',
-    'geo' => ['lat' => -29.6875, 'lng' => -51.1328],
+    'geo' => [
+        'lat' => -29.6875,
+        'lng' => -51.1328,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Novo Hamburgo',
     'seo' => [
-        'title' => 'Vale dos Sinos: carro em Novo Hamburgo, Fenac e POA',
-        'description' => 'Carro com motorista em Novo Hamburgo para o Centro, Ideal, Canudos, a Fenac e o eixo calçadista até o POA. Vale dos Sinos e orçamento sob consulta.',
-        'og_title' => 'Traslado no Ideal, na Fenac e no recorte até o POA',
-        'og_description' => 'Motorista no Vale dos Sinos: hotel no Centro, pauta na Fenac e o Salgado Filho — Hamburgo não é bairro da capital.',
-        'og_image_alt' => 'Sedan executivo em avenida de Novo Hamburgo no Vale dos Sinos',
+        'title' => 'Motorista executivo em Novo Hamburgo: Centro e POA',
+        'description' => 'Motorista executivo em Novo Hamburgo: Centro, Ideal e Salgado Filho (POA), em Porto Alegre. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Novo Hamburgo com motorista — Ideal e Salgado Filho',
+        'og_description' => 'O motorista combina Centro com Salgado Filho (POA), em Porto Alegre. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Novo Hamburgo',
     ],
     'kicker' => 'Vale dos Sinos · RS',
-    'h1' => 'Ideal, Fenac e o recorte até o POA sem tratar Hamburgo como bairro da capital',
-    'lead' => 'Novo Hamburgo tem Fenac, bairro Ideal e calçado no nome — e não é bairro de Porto Alegre. O motorista segura a BR-116, o recuo da feira e o Canudos; o passageiro segura a pauta até o Salgado Filho (POA). Canoas cola no caminho; o município permanece outro.',
+    'h1' => 'Em Novo Hamburgo, de Centro a Salgado Filho (POA), em Porto Alegre',
+    'faq_h2' => 'Dúvidas de quem embarca em Novo Hamburgo',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Novo Hamburgo embarca no POA dentro da cidade?',
+            'resposta' => 'Não. De Novo Hamburgo o POA (Salgado Filho) fica em Porto Alegre. O trecho sai de Centro pela BR-116.',
+        ],
+        [
+            'pergunta' => 'Em Novo Hamburgo, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Novo Hamburgo. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Novo Hamburgo vocês fazem São Leopoldo?',
+            'resposta' => 'Sim, saindo de Novo Hamburgo. São Leopoldo não é o recorte de Centro; o horário pela RS-239 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Novo Hamburgo o carro fica entre Centro e Ideal?',
+            'resposta' => 'Sim, em Novo Hamburgo. A hora à disposição cobre sede e hotel em Centro e bairro em Ideal.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Novo Hamburgo e o POA',
+        'texto' => 'Diga o ponto em Centro ou Ideal, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Novo Hamburgo',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-grande-do-sul',
+            'ancora' => 'Novo Hamburgo e o recorte de Vale dos Sinos',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-grande-do-sul',
+            'cidade' => 'porto-alegre',
+            'ancora' => 'Motorista em porto alegre',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-grande-do-sul',
+            'cidade' => 'canoas',
+            'ancora' => 'Motorista em canoas',
+        ],
+    ],
+    'lead' => 'Novo Hamburgo usa Salgado Filho (POA), em Porto Alegre. Quem embarca em Centro não está no município da pista. A BR-116 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     'contexto' => [
-        'h2' => 'A cidade cobra feira, bairro e terminal certo — não “perto da capital”',
+        'h2' => 'Novo Hamburgo se mede em BR-116, não em pin de aplicativo',
         'texto' => [
-            'Centro, Ideal, Canudos e o recinto da Fenac não se resolvem com o pin de Porto Alegre. Hotel no Centro, pauta na feira calçadista e voo no POA cabem no mesmo expediente se a ordem da 116 já estiver no roteiro. A Fenac não é ponto de ônibus: informe o pavilhão e o horário de acesso.',
-            'O recorte é o Vale dos Sinos: embarque na portaria, espera discreta e chegada no terminal comercial. Quando a pauta aponta para a Serra ou para o Centro Histórico da capital, a Freeway e a 116 deixam de ser só urbanas. O orçamento sai sob consulta.',
+            'Novo Hamburgo usa Salgado Filho (POA), em Porto Alegre. Quem embarca em Centro não está no município da pista. A BR-116 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Ideal pede bairro. Canudos pede Fenac e comércio. Quando São Leopoldo entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela RS-239.',
         ],
     ],
     'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
+        'h2' => 'Eixos de embarque em Novo Hamburgo',
         'itens' => [
-            ['h3' => 'Centro e o calçadão', 'texto' => 'Sede e hotel. Informe o prédio; o sentido da via muda no fim da tarde e “no Centro” não define o recuo.'],
-            ['h3' => 'Ideal', 'texto' => 'Pauta residencial, clínicas e o eixo interno. “No Ideal” não coloca o carro na porta certa.'],
-            ['h3' => 'Canudos', 'texto' => 'Recorte residencial e de passagem. O recuo pede rua e número, não o nome do bairro sozinho.'],
-            ['h3' => 'Fenac e o eixo calçadista', 'texto' => 'Recinto de feira e plantas. Envie pavilhão, turno e lista; sem protocolo, a cancela não libera.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Ideal.',
+            ],
+            [
+                'h3' => 'Ideal',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Ideal não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Canudos',
+                'texto' => 'Origem frequente para Fenac e comércio. Informe nome do hotel. Canudos não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Santo Afonso',
+                'texto' => 'Origem frequente para residencial. Informe nome do hotel. Santo Afonso não compartilha o recuo de Centro.',
+            ],
         ],
     ],
     'aeroportos' => [
-        'h2' => 'Salgado Filho — POA no relógio do Vale, não na porta da Fenac',
+        'h2' => 'O terminal que a agenda de Novo Hamburgo realmente usa',
         'itens' => [
-            ['h3' => 'Salgado Filho — POA', 'texto' => 'Terminal comercial em Porto Alegre. Combinamos o voo. A espera no desembarque integra o trecho POA; até Novo Hamburgo, a 116 pesa mais que o mapa.'],
-            ['h3' => 'Canoas no caminho, capital no saguão', 'texto' => 'Canoas cola no eixo. A Base Aérea de Canoas não é o embarque comercial. O passageiro de linha pousa no POA.'],
+            [
+                'h3' => 'Salgado Filho — POA',
+                'texto' => 'Salgado Filho (POA) fica em Porto Alegre, não em Novo Hamburgo. O trecho sai pela BR-116. Diga o IATA e o número do voo.',
+            ],
+            [
+                'h3' => 'BR-116 e a vazão para São Leopoldo',
+                'texto' => 'São Leopoldo e Porto Alegre aparecem no mesmo pedido de Novo Hamburgo. Isso é viagem, não segunda corrida em Centro.',
+            ],
         ],
     ],
     'rotas' => [
-        'h2' => 'Trajetos que a agenda hamburguense mais pede',
+        'h2' => 'Trajetos que o pedido em Novo Hamburgo mais combina',
         'itens' => [
-            ['titulo' => 'POA → hotel no Centro', 'texto' => 'Em Novo Hamburgo, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'Ideal → Fenac → Canudos', 'texto' => 'Feira e recuos. Um motorista cobre os três se a ordem do pavilhão já estiver no roteiro.'],
-            ['titulo' => 'Novo Hamburgo → Porto Alegre ou Canoas', 'texto' => 'BR-116 e mancha metropolitana. Não é o recorte urbano do Ideal; o horário sai sob consulta.'],
+            [
+                'titulo' => 'Centro → POA',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-116.',
+            ],
+            [
+                'titulo' => 'POA → Ideal',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel.',
+            ],
+            [
+                'titulo' => 'Centro → São Leopoldo',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Ideal; o horário sai sob consulta.',
+            ],
         ],
     ],
     'como' => [
-        'h2' => 'Como o carro entra na grade em Novo Hamburgo',
+        'h2' => 'Como o carro entra na pauta em Novo Hamburgo',
         'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Centro, Ideal ou Canudos. Autocomplete não resolve bloco com dois acessos.'],
-            ['titulo' => 'Fenac ou POA', 'texto' => 'Diga se o embarque é o pavilhão da feira, a portaria do hotel ou o terminal comercial.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Novo Hamburgo, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o POA ou São Leopoldo entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Novo Hamburgo, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no POA e segue a Novo Hamburgo',
-    'faq' => [
-        ['pergunta' => 'Novo Hamburgo é bairro de Porto Alegre?', 'resposta' => 'Não. É município do Vale dos Sinos. O Centro, o Ideal e a Fenac pedem recuo próprio; a capital entra só quando a pauta atravessa a 116.'],
-        ['pergunta' => 'Em Novo Hamburgo, o motorista espera no POA se o voo atrasar?', 'resposta' => 'Sim. Combinamos o POA com o número do voo; a espera no Salgado Filho integra o trecho pela BR-116 desde o Centro ou o Ideal.'],
-        ['pergunta' => 'A Fenac exige protocolo de acesso?', 'resposta' => 'Em dias de feira, em geral sim. Envie o pavilhão, o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Vocês fazem Centro, Ideal e Canudos no mesmo dia?', 'resposta' => 'Sim. Informe a ordem entre Centro, Ideal e Canudos. Um motorista articula os três recuos se a margem da Fenac estiver no roteiro.'],
-        ['pergunta' => 'Em Novo Hamburgo, dá para seguir a Canoas depois do hotel?', 'resposta' => 'Sim, quando Canoas entra no roteiro. A mancha do Vale dos Sinos é contínua, mas o recuo muda no município; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Separe Ideal e Fenac do recuo até o POA',
-        'texto' => 'O orçamento de Novo Hamburgo sai sob consulta. Centro, feira e Salgado Filho no mesmo WhatsApp.',
-        'botao' => 'Pedir carro em Novo Hamburgo',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-grande-do-sul', 'ancora' => 'Serra, Porto e o recorte gaúcho'],
-        ['tipo' => 'cidade', 'estado' => 'rio-grande-do-sul', 'cidade' => 'porto-alegre', 'ancora' => 'Moinhos, Centro Histórico e o Salgado Filho'],
-        ['tipo' => 'cidade', 'estado' => 'rio-grande-do-sul', 'cidade' => 'canoas', 'ancora' => 'Centro, Mathias Velho e o POA'],
     ],
 ];

@@ -1,0 +1,72 @@
+{
+    "estado": "rio-grande-do-sul",
+    "cidade": "gravatai",
+    "nome": "Gravataí",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "RS-118",
+            "destino": "Salgado Filho",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Neópolis",
+        "Barnabé",
+        "Passo das Pedras"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Salgado Filho",
+            "iata": "POA",
+            "municipio": "Porto Alegre",
+            "acesso": "RS-118"
+        }
+    ],
+    "rodovias": [
+        "RS-118",
+        "BR-290",
+        "Avenida José Loureiro da Silva"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "bairro",
+        "industrial",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Cachoeirinha",
+        "Porto Alegre",
+        "Canoas"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal POA em Porto Alegre",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

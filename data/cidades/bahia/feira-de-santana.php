@@ -5,52 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'gaucha',
     'cidade_nome' => 'Feira de Santana',
-    'geo' => ['lat' => -12.2664, 'lng' => -38.9663],
+    'geo' => [
+        'lat' => -12.2664,
+        'lng' => -38.9663,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Feira de Santana',
     'seo' => [
-        'title' => 'Motorista em Feira de Santana: Centro, Kalilândia e FEC',
-        'description' => 'Carro com motorista em Feira de Santana para o Centro, Kalilândia, Caseb e o aeroporto João Durval Carneiro. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro, na Kalilândia e no aeroporto FEC',
-        'og_description' => 'Motorista no maior interior da Bahia: hotel, pauta no Centro e o terminal FEC.',
-        'og_image_alt' => 'Sedan executivo em avenida de Feira de Santana',
+        'title' => 'Motorista executivo em Feira de Santana: Centro e SSA',
+        'description' => 'Carro com motorista em Feira de Santana para Centro, Kalilândia e SSA. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Feira de Santana com motorista — Kalilândia e Luís Eduardo Magalhães',
+        'og_description' => 'O motorista combina Centro com Luís Eduardo Magalhães (SSA), em Salvador. Informe nome da sede ou do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Feira de Santana',
     ],
     'kicker' => 'Portal do Sertão · BA',
-    'h1' => 'Do FEC à Kalilândia sem perder a reunião no Centro',
+    'h1' => 'Em Feira de Santana: do embarque em Centro ao SSA',
+    'faq_h2' => 'Dúvidas de quem embarca em Feira de Santana',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Feira de Santana embarca no SSA dentro da cidade?',
+            'resposta' => 'Não. De Feira de Santana o SSA (Luís Eduardo Magalhães) fica em Salvador. O trecho sai de Centro pela BR-324.',
+        ],
+        [
+            'pergunta' => 'Em Feira de Santana, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Feira de Santana. Envie nome da sede ou do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Feira de Santana vocês fazem Salvador?',
+            'resposta' => 'Sim, saindo de Feira de Santana. Salvador não é o recorte de Centro; o horário pela BR-116 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Feira de Santana o carro fica entre Centro e Kalilândia?',
+            'resposta' => 'Sim, em Feira de Santana. A hora à disposição cobre sede e comércio em Centro e bairro em Kalilândia.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Feira de Santana e o SSA',
+        'texto' => 'Diga o ponto em Centro ou Kalilândia, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Feira de Santana',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'bahia',
+            'ancora' => 'Feira de Santana e o recorte de Portal do Sertão',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'salvador',
+            'ancora' => 'Motorista em salvador',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sergipe',
+            'cidade' => 'aracaju',
+            'ancora' => 'Motorista em aracaju',
+        ],
+    ],
     'coluna' => [
-        'h2' => 'Feira é entroncamento — o app não lê a BR-324 nem o horário da feira',
+        'h2' => 'Feira de Santana no mapa e na BR-324',
         'texto' => [
-            'Centro, Kalilândia, Caseb e o aeroporto João Durval Carneiro (FEC) cabem no mesmo expediente. Hotel (Grande Hotel, similar) e a Getúlio Vargas concentram embarque; o recuo pede o nome, não “no Centro”.',
-            'Quando a pauta aponta para Salvador pela BR-324 ou para o recôncavo, o trecho deixa de ser urbano. O carro executivo na cidade é de espera e de sigilo — comitiva de campus, visita a clínica, jantar no Caseb.',
+            'Feira de Santana usa Luís Eduardo Magalhães (SSA), em Salvador. Quem embarca em Centro não está no município da pista. A BR-324 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Kalilândia pede bairro. Tomba pede residencial. Quando Salvador entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-116.',
         ],
     ],
     'lateral' => [
-        'h2' => 'Pontos que o pedido feirense mais cita',
+        'h2' => 'Pontos que o pedido em Feira de Santana mais cita',
         'itens' => [
-            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Em Feira de Santana, sede, hotel e o calçadão. Informe o número; a avenida muda de caráter a cada quadra.'],
-            ['h3' => 'Kalilândia, Caseb e o shopping', 'texto' => 'Torres e clínicas. Deslocamentos curtos que esticam no semáforo da Senhor dos Passos.'],
-            ['h3' => 'Aeroporto — FEC', 'texto' => 'Terminal da cidade. Combinamos o voo. A espera no desembarque integra o trecho FEC.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e comércio. Informe nome da sede ou do hotel. Centro não compartilha o recuo de Kalilândia.',
+            ],
+            [
+                'h3' => 'Kalilândia',
+                'texto' => 'Origem frequente para bairro. Informe nome da sede ou do hotel. Kalilândia não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Tomba',
+                'texto' => 'Origem frequente para residencial. Informe nome da sede ou do hotel. Tomba não compartilha o recuo de Centro.',
+            ],
         ],
     ],
     'faixa' => [
         'h2' => 'Rotas urbanas e o salto para Salvador',
-        'texto' => 'FEC → hotel no Centro → UEFS → Caseb só se o campus estiver no roteiro. Salvador, Santo Amaro ou a BR-101 entram como viagem, com horário de rodovia, não como segunda corrida no Centro.',
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no João Durval',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Feira fica longe do Centro?', 'resposta' => 'Em Feira de Santana, é trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no FEC se o voo atrasar?', 'resposta' => 'Sim. Em Feira de Santana, o número do voo entra no pedido e a espera no saguão faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem a UEFS e o Centro no mesmo dia?', 'resposta' => 'Sim. Informe o bloco do campus. Um motorista articula os dois recuos.'],
-        ['pergunta' => 'Dá para seguir a Salvador depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-324. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte o hotel do Centro ao horário do FEC',
-        'texto' => 'O orçamento de Feira de Santana sai sob consulta. Kalilândia, campus e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir carro em Feira de Santana',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'bahia', 'ancora' => 'Feira, Costa do Descobrimento e o recorte baiano'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'salvador', 'ancora' => 'Barra, Paralela e o Luís Eduardo Magalhães'],
-        ['tipo' => 'cidade', 'estado' => 'sergipe', 'cidade' => 'aracaju', 'ancora' => 'Atalaia, Centro e o Santa Maria'],
+        'texto' => 'Centro → Salvador: Transfer intermunicipal. Não é o mesmo recorte de Kalilândia; o horário sai sob consulta.',
     ],
 ];

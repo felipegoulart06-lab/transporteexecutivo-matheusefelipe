@@ -5,80 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'rio',
     'cidade_nome' => 'Itumbiara',
-    'geo' => ['lat' => -18.4136, 'lng' => -49.217],
+    'geo' => [
+        'lat' => -18.4136,
+        'lng' => -49.217,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Itumbiara',
     'seo' => [
-        'title' => 'Paranaíba: traslado em Itumbiara, ponte e UDI',
-        'description' => 'Traslado em Itumbiara para o Centro, a ponte do Paranaíba e o aeroporto UDI, em Uberlândia. A BR-153 articula o trecho; orçamento sob consulta.',
-        'og_title' => 'Motorista na ponte de Itumbiara, no Centro e no UDI',
-        'og_description' => 'Carro no Paranaíba: hotel no Centro, recuo da ponte e o terminal de Uberlândia — sem código ITR.',
-        'og_image_alt' => 'Sedan executivo junto à ponte do Paranaíba, em Itumbiara',
+        'title' => 'Motorista executivo em Itumbiara: Centro e ITR',
+        'description' => 'Carro com motorista em Itumbiara para Centro, Novo Horizonte e ITR. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Itumbiara: Centro e ITR',
+        'og_description' => 'O motorista combina Centro com Francisco Vilela do Amaral (ITR), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Itumbiara',
     ],
-    'kicker' => 'Vale do Paranaíba · GO',
-    'h1' => 'A ponte do Paranaíba não é o mesmo recuo do Centro — o UDI pede a 153',
-    'corrente' => [
+    'kicker' => 'Sul goiano · GO',
+    'h1' => 'Itumbiara — Centro de manhã, ITR quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Itumbiara',
+    'faq' => [
         [
-            'h2' => 'A ponte separa Goiás de Minas; o voo prático é o UDI',
-            'texto' => 'Itumbiara encosta no Paranaíba e na ponte que leva a Minas. O campo de pouso local não é o portão comercial da pauta: o voo que a agenda usa é o Tenente Coronel Aviador César Bombonato (UDI), em Uberlândia, pela BR-153. Não se usa o código ITR — esse IATA é de Imperatriz, no Maranhão.',
+            'pergunta' => 'Em Itumbiara, o ITR fica no próprio município?',
+            'resposta' => 'Sim. Em Itumbiara, Francisco Vilela do Amaral (ITR) fica no município. Informe o acesso via BR-153.',
         ],
         [
-            'h2' => 'Pontos da margem goiana que a agenda mais cita',
+            'pergunta' => 'Em Itumbiara, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Itumbiara. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Itumbiara vocês fazem Goiânia?',
+            'resposta' => 'Sim, saindo de Itumbiara. Goiânia não é o recorte de Centro; o horário pela BR-452 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Itumbiara, ITR e GYN são o mesmo recorte?',
+            'resposta' => 'Não, em Itumbiara. ITR fica em Itumbiara; GYN fica em Goiânia. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Itumbiara e o ITR',
+        'texto' => 'Diga o ponto em Centro ou Novo Horizonte, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Itumbiara',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'goias',
+            'ancora' => 'Itumbiara e o recorte de Sul goiano',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'goias',
+            'cidade' => 'rio-verde',
+            'ancora' => 'Motorista em rio verde',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'minas-gerais',
+            'cidade' => 'uberlandia',
+            'ancora' => 'Motorista em uberlandia',
+        ],
+    ],
+    'corrente' => [
+        [
+            'h2' => 'Itumbiara e o primeiro recuo',
+            'texto' => 'Itumbiara concentra Centro (sede e hotel) e Francisco Vilela do Amaral (ITR) no mesmo município. O motorista precisa do ponto de embarque e do ITR no mesmo recado — “me busca em Itumbiara” não define o recuo.',
+        ],
+        [
+            'h2' => 'Eixos que o pedido cita',
             'itens' => [
                 [
-                    'h3' => 'Centro e o comércio da ponte',
-                    'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o recuo do Centro não é o da cabeceira da ponte nem o da saída da 153.',
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Novo Horizonte.',
                 ],
                 [
-                    'h3' => 'Avenida Afonso Pena e o eixo urbano',
-                    'texto' => 'Pauta interna, clínicas e o hotel de passagem. A numeração se repete; o nome da rua entra no recado.',
+                    'h3' => 'Novo Horizonte',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel. Novo Horizonte não compartilha o recuo de Centro.',
                 ],
                 [
-                    'h3' => 'Cabeceira da ponte',
-                    'texto' => 'Acesso ao Paranaíba e ao lado mineiro. Quando a pauta mistura ponte, Centro e UDI, a ordem da BR-153 pesa mais que o mapa.',
+                    'h3' => 'Distrito Industrial',
+                    'texto' => 'Origem frequente para planta. Informe nome do hotel. Distrito Industrial não compartilha o recuo de Centro.',
                 ],
             ],
         ],
         [
-            'h2' => 'César Bombonato — UDI em Uberlândia, pela 153',
-            'texto' => 'O portão comercial da pauta é o UDI, em Uberlândia — não o campo de Itumbiara e não o ITR de Imperatriz. Combinamos o voo. Até o Centro itumbiarense o intervalo é o da BR-153; a margem sai do hotel, não da linha reta no mapa.',
+            'h2' => 'Francisco Vilela do Amaral (ITR)',
+            'texto' => 'Francisco Vilela do Amaral (ITR) fica em Itumbiara. Acesso: BR-153. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
-        [
-            'h2' => 'Rio Verde, Uberlândia e o salto que a ponte não resolve sozinha',
-            'texto' => 'Hotel no Centro → ponte → UDI só se a ordem estiver escrita. Rio Verde entra pela malha do sudoeste goiano, como viagem. O hotel é embarque, sem convênio de porta. O orçamento sai sob consulta.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem cruza a ponte rumo ao UDI',
-    'faq' => [
-        [
-            'pergunta' => 'Itumbiara usa o código ITR?',
-            'resposta' => 'Não. ITR é o aeroporto de Imperatriz, no Maranhão. O voo prático da pauta itumbiarense é o UDI, em Uberlândia.',
-        ],
-        [
-            'pergunta' => 'O aeroporto comercial fica em Itumbiara?',
-            'resposta' => 'O campo local não é o portão comercial. Combinamos o UDI, em Uberlândia, pela BR-153, com margem de rodovia.',
-        ],
-        [
-            'pergunta' => 'A ponte e o Centro são o mesmo recuo?',
-            'resposta' => 'Não. A cabeceira do Paranaíba e o calçadão do Centro pedem pontos distintos. Informe os dois endereços no roteiro.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Centro, ponte e o UDI no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem. A BR-153 pede margem própria; um motorista articula os três se o voo já estiver no pedido.',
-        ],
-        [
-            'pergunta' => 'Dá para seguir a Rio Verde depois da reunião no Centro?',
-            'resposta' => 'Sim, como viagem pelo sudoeste goiano. Não é o mesmo recorte da ponte; o horário sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'A ponte e o UDI no mesmo pedido — sem código ITR',
-        'texto' => 'O orçamento de Itumbiara sai sob consulta. Centro, Paranaíba e Uberlândia no mesmo recado.',
-        'botao' => 'Pedir traslado em Itumbiara',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'goias', 'ancora' => 'Goiânia, o sudoeste e o Paranaíba'],
-        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'rio-verde', 'ancora' => 'Centro, agro e o General Leite de Castro'],
-        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'uberlandia', 'ancora' => 'Centro, Umuarama e o aeroporto UDI'],
     ],
 ];

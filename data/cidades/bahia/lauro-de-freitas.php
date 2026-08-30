@@ -5,83 +5,91 @@ declare(strict_types=1);
 return [
     'layout' => 'dunas',
     'cidade_nome' => 'Lauro de Freitas',
-    'geo' => ['lat' => -12.8944, 'lng' => -38.3228],
+    'geo' => [
+        'lat' => -12.8944,
+        'lng' => -38.3228,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Lauro de Freitas',
     'seo' => [
-        'title' => 'Traslado em Lauro de Freitas: Ipitanga, orla e SSA',
-        'description' => 'Carro com motorista em Lauro de Freitas para Ipitanga, Vilas do Atlântico, Pitangueiras, Portão e o aeroporto Luís Eduardo Magalhães. Orçamento sob consulta.',
-        'og_title' => 'Motorista em Ipitanga, Vilas do Atlântico e no SSA',
-        'og_description' => 'Traslado no município do aeroporto de Salvador: hotel na orla, pauta no Portão e o terminal SSA.',
-        'og_image_alt' => 'Sedan executivo na orla de Ipitanga, em Lauro de Freitas',
+        'title' => 'Motorista executivo em Lauro de Freitas: Itinga e SSA',
+        'description' => 'Carro com motorista em Lauro de Freitas para Itinga, Centro e SSA. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Lauro de Freitas com motorista — Centro e Luís Eduardo Magalhães',
+        'og_description' => 'O motorista combina Itinga com Luís Eduardo Magalhães (SSA), em Salvador. Informe nome do condomínio.',
+        'og_image_alt' => 'Carro executivo em via de Lauro de Freitas',
     ],
-    'kicker' => 'Município do SSA · BA',
-    'h1' => 'Do SSA a Ipitanga sem perder a janela de Vilas do Atlântico',
+    'kicker' => 'Região Metropolitana de Salvador · BA',
+    'h1' => 'Lauro de Freitas: entre Itinga, Centro e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Lauro de Freitas',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Lauro de Freitas embarca no SSA dentro da cidade?',
+            'resposta' => 'Não. De Lauro de Freitas o SSA (Luís Eduardo Magalhães) fica em Salvador. O trecho sai de Itinga pela Paralela.',
+        ],
+        [
+            'pergunta' => 'Em Lauro de Freitas, vocês buscam em Itinga?',
+            'resposta' => 'Sim, em Lauro de Freitas. Envie nome do condomínio em Itinga. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Lauro de Freitas vocês fazem Salvador?',
+            'resposta' => 'Sim, saindo de Lauro de Freitas. Salvador não é o recorte de Itinga; o horário pela BA-526 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Lauro de Freitas o carro fica entre Itinga e Centro?',
+            'resposta' => 'Sim, em Lauro de Freitas. A hora à disposição cobre acesso ao SSA em Itinga e sede em Centro.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Lauro de Freitas e o SSA',
+        'texto' => 'Diga o ponto em Itinga ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Lauro de Freitas',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'bahia',
+            'ancora' => 'Lauro de Freitas e o recorte de Região Metropolitana de Salvador',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'salvador',
+            'ancora' => 'Motorista em salvador',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'camacari',
+            'ancora' => 'Motorista em camacari',
+        ],
+    ],
     'trilha' => [
-        'h2' => 'O Luís Eduardo Magalhães não fica em Salvador — fica em Lauro',
-        'texto' => 'Quem anota “aeroporto de Salvador” pousa no Deputado Luís Eduardo Magalhães (SSA), no município de Lauro de Freitas. Ipitanga, Vilas do Atlântico e Pitangueiras são orla deste recorte; Portão puxa para o eixo da BA-099. Hotel na praia, reunião no Centro e o saguão cabem no mesmo expediente se o motorista já saiu com a ordem da Estrada do Coco e do acesso ao terminal, não com o aceite da Paralela no minuto errado.',
+        'h2' => 'Lauro de Freitas se lê em Paralela, não em atalho de app',
+        'texto' => 'Lauro de Freitas usa Luís Eduardo Magalhães (SSA), em Salvador. Quem embarca em Itinga não está no município da pista. A Paralela é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     ],
     'chips' => [
-        'h2' => 'Onde o embarque em Lauro mais se repete',
+        'h2' => 'Onde o embarque em Lauro de Freitas mais se repete',
         'itens' => [
-            'Ipitanga',
+            'Itinga',
+            'Centro',
             'Vilas do Atlântico',
-            'Pitangueiras',
             'Portão',
-            'Centro de Lauro',
-            'Estrada do Coco',
-            'Terminal SSA',
+            'Luís Eduardo Magalhães',
+            'Paralela',
         ],
     ],
     'historias' => [
         [
-            'h2' => 'O hotel da orla é embarque, não slogan de convênio',
-            'texto' => 'Pousadas e hotéis de Ipitanga, Vilas do Atlântico e Pitangueiras entram no roteiro pelo nome e pelo recuo da rua, não por “perto da praia”. O carro espera no acesso combinado quando a orla está tomada. Não há parceria de porta: o hotel é só o ponto de saída.',
+            'h2' => 'Itinga como origem, não como cartão-postal',
+            'texto' => 'Origem frequente para acesso ao SSA. Informe nome do condomínio. Itinga não compartilha o recuo de Centro.',
         ],
         [
-            'h2' => 'Vilas do Atlântico, Ipitanga e o relógio da maré urbana',
-            'texto' => 'Condomínios, clínicas e o calçadão. Informe a quadra e o portão; Vilas do Atlântico não se troca por Ipitanga no mesmo recuo. A numeração se repete e o sentido da via muda no fim da tarde.',
+            'h2' => 'Centro no meio do expediente',
+            'texto' => 'Centro pede sede. Vilas do Atlântico pede condomínio na orla. Quando Salvador entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BA-526.',
         ],
         [
-            'h2' => 'Portão, a BA-099 e o salto até Camaçari',
-            'texto' => 'Hotel na orla → Portão → planta ou pauta em Camaçari só se a ordem estiver no roteiro. A Estrada do Coco (BA-099) deixa o recorte de praia e vira viagem de litoral norte. Salvador entra pelo mesmo recado quando o endereço da capital está no pedido — Paralela e orla da Barra não são o mesmo intervalo do SSA.',
+            'h2' => 'Luís Eduardo Magalhães — SSA',
+            'texto' => 'Luís Eduardo Magalhães (SSA) fica em Salvador, não em Lauro de Freitas. O trecho sai pela Paralela / BA-526. Diga o IATA e o número do voo.',
         ],
-        [
-            'h2' => 'Luís Eduardo Magalhães — SSA neste município',
-            'texto' => 'O terminal internacional fica em Lauro de Freitas. Combinamos o voo. A espera no desembarque integra o trecho SSA; o passageiro não cruza o saguão atrás de uma placa genérica. Até Ipitanga o intervalo é urbano; até a Barra, a Paralela pesa mais que o mapa. O orçamento sai sob consulta.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no SSA e dorme em Lauro',
-    'faq' => [
-        [
-            'pergunta' => 'O aeroporto de Salvador fica em Lauro de Freitas?',
-            'resposta' => 'Sim. O Luís Eduardo Magalhães (SSA) está neste município, não no perímetro da capital. Ipitanga e Vilas do Atlântico chegam ao terminal em trecho urbano.',
-        ],
-        [
-            'pergunta' => 'Em Lauro de Freitas, o motorista espera no SSA se o voo atrasar?',
-            'resposta' => 'Sim. Em Lauro de Freitas, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Ipitanga, Vilas do Atlântico e o Portão no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do condomínio. Um motorista articula orla e eixo da BA-099.',
-        ],
-        [
-            'pergunta' => 'Dá para seguir a Salvador ou a Camaçari depois do hotel?',
-            'resposta' => 'Sim, quando o endereço entra no roteiro. A Paralela e a Estrada do Coco pedem margem própria. O horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'O hotel em Vilas do Atlântico é ponto conveniado?',
-            'resposta' => 'Não. Em Lauro de Freitas, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Anote o SSA no mesmo recado de Ipitanga',
-        'texto' => 'O orçamento de Lauro de Freitas sai sob consulta. Orla, Portão e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Lauro de Freitas',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'bahia', 'ancora' => 'Salvador, o Recôncavo e o litoral norte'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'salvador', 'ancora' => 'Barra, Paralela e o eixo até o SSA'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'camacari', 'ancora' => 'Polo Industrial, Arembepe e a BA-099'],
     ],
 ];

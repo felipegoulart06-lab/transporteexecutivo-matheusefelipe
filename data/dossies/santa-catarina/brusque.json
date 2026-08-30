@@ -1,0 +1,72 @@
+{
+    "estado": "santa-catarina",
+    "cidade": "brusque",
+    "nome": "Brusque",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "SC-108",
+            "destino": "Ministro Victor Konder",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Santa Terezinha",
+        "Steffen",
+        "Azambuja"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Ministro Victor Konder",
+            "iata": "NVT",
+            "municipio": "Navegantes",
+            "acesso": "SC-108 / BR-470"
+        }
+    ],
+    "rodovias": [
+        "SC-108",
+        "BR-470",
+        "Avenida Primeiro de Maio"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "indústria têxtil",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Blumenau",
+        "Itajaí",
+        "Gaspar"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal NVT em Navegantes",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

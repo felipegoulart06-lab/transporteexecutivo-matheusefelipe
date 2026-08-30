@@ -1,0 +1,72 @@
+{
+    "estado": "rio-grande-do-sul",
+    "cidade": "porto-alegre",
+    "nome": "Porto Alegre",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Moinhos de Vento",
+            "eixo": "BR-116",
+            "destino": "Salgado Filho",
+            "motivo": "hotel e clínica"
+        }
+    ],
+    "eixos": [
+        "Moinhos de Vento",
+        "Centro Histórico",
+        "4ª Avenida",
+        "Cidade Baixa"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Salgado Filho",
+            "iata": "POA",
+            "municipio": "Porto Alegre",
+            "acesso": "Avenida dos Estados"
+        }
+    ],
+    "rodovias": [
+        "BR-116",
+        "BR-290",
+        "Avenida Ipiranga"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e clínica",
+        "pauta institucional",
+        "eixo empresarial",
+        "hotel e jantar"
+    ],
+    "vizinhos_pedido": [
+        "Canoas",
+        "Novo Hamburgo",
+        "Caxias do Sul"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal POA em Porto Alegre",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

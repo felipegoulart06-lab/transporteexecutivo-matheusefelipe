@@ -5,61 +5,105 @@ declare(strict_types=1);
 return [
     'layout' => 'orla',
     'cidade_nome' => 'Ilhéus',
-    'geo' => ['lat' => -14.7889, 'lng' => -39.0465],
+    'geo' => [
+        'lat' => -14.7889,
+        'lng' => -39.0465,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Ilhéus',
     'seo' => [
-        'title' => 'Motorista executivo em Ilhéus: Centro, Pontal e IOS',
-        'description' => 'Carro com motorista em Ilhéus para o Centro Histórico, Pontal, Norte, Itacaré e o aeroporto Jorge Amado. Cacau, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro, no Pontal e no aeroporto IOS',
-        'og_description' => 'Motorista na Costa do Cacau: hotel no Pontal, pauta no Centro e o terminal IOS.',
-        'og_image_alt' => 'Carro executivo em avenida da orla de Ilhéus',
+        'title' => 'Traslado executivo em Ilhéus: Centro e BA-262',
+        'description' => 'Motorista executivo em Ilhéus: Centro, Pontal e Jorge Amado (IOS), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Ilhéus: hotel, Centro e IOS',
+        'og_description' => 'O motorista combina Centro com Jorge Amado (IOS), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Ilhéus',
     ],
-    'kicker' => 'Costa do Cacau · BA',
-    'h1' => 'Do IOS ao Pontal sem perder a janela do Centro Histórico',
-    'epigrafe' => 'Ilhéus alinha hotel no Pontal, pauta no Centro e o voo no Jorge Amado. O motorista segura a Soares Lopes e a BA-001; o passageiro segura o horário — não a vaga na ponte do Pontal.',
+    'kicker' => 'Sul da Bahia · BA',
+    'h1' => 'Ilhéus — Centro de manhã, IOS quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Ilhéus',
+    'faq' => [
+        [
+            'pergunta' => 'Em Ilhéus, o IOS fica no próprio município?',
+            'resposta' => 'Sim. Em Ilhéus, Jorge Amado (IOS) fica no município. Informe o acesso via BA-262.',
+        ],
+        [
+            'pergunta' => 'Em Ilhéus, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Ilhéus. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Ilhéus vocês fazem Itabuna?',
+            'resposta' => 'Sim, saindo de Ilhéus. Itabuna não é o recorte de Centro; o horário pela BR-101 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Ilhéus o carro fica entre Centro e Pontal?',
+            'resposta' => 'Sim, em Ilhéus. A hora à disposição cobre sede e hotel em Centro e orla em Pontal.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Ilhéus e o IOS',
+        'texto' => 'Diga o ponto em Centro ou Pontal, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Ilhéus',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'bahia',
+            'ancora' => 'Ilhéus e o recorte de Sul da Bahia',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'porto-seguro',
+            'ancora' => 'Motorista em porto seguro',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'salvador',
+            'ancora' => 'Motorista em salvador',
+        ],
+    ],
+    'epigrafe' => 'Centro não é o mesmo recuo de Pontal. O motorista segura o acesso; o passageiro segura o horário.',
     'abertura' => [
-        'h2' => 'A cidade de Jorge Amado e o norte não se trocam no mesmo recuo',
+        'h2' => 'Ilhéus: origem na orla, destino no terminal certo',
         'texto' => [
-            'Centro Histórico, Pontal, São Miguel e o Norte concentram o pernoite. Olivença e Itacaré pedem a litorânea. O Aeroporto Jorge Amado (IOS) fica no recorte do município, não na porta da Catedral.',
-            'O serviço é de traslado e de espera: o carro já está no roteiro com o nome do hotel (Transamérica, similares) e o número do voo. Não é corrida de orla no feriado, a menos que a visita entre na pauta.',
+            'Ilhéus concentra Centro (sede e hotel) e Jorge Amado (IOS) no mesmo município. O motorista precisa do ponto de embarque e do IOS no mesmo recado — “me busca em Ilhéus” não define o recuo.',
+            'Pontal pede orla. Iguape pede distrito. Quando Itabuna entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-101.',
         ],
     ],
     'faixas' => [
-        ['h2' => 'Centro Histórico, Catedral e o relógio da ladeira', 'texto' => 'A Casa de Cultura e o recuo estreito pedem ponto de espera. Informe o hotel; “no centro” não distingue a Catedral do Pontal.'],
-        ['h2' => 'Pontal, Norte e a ponte', 'texto' => 'Hotéis de passagem e o recuo da praia. A Soares Lopes muda o intervalo no verão; a margem sai do hotel, não do mapa.'],
-        ['h2' => 'Olivença, Itacaré e a BA-001', 'texto' => 'Quando a pauta vaza para Itacaré, o trecho entra como viagem. A litorânea pesa mais que o quilômetro.'],
+        [
+            'h2' => 'Centro: o relógio do embarque',
+            'texto' => 'Centro concentra sede e hotel. Informe nome do hotel.',
+        ],
+        [
+            'h2' => 'Pontal e Iguape',
+            'texto' => 'Pontal pede orla. Iguape pede distrito. A ordem muda o intervalo mais que o mapa.',
+        ],
+        [
+            'h2' => 'Jorge Amado (IOS), no próprio município',
+            'texto' => 'Jorge Amado (IOS) fica em Ilhéus. Acesso: BA-262. Combinamos o voo; a espera no desembarque integra o trecho.',
+        ],
     ],
     'aeroportos' => [
-        'h2' => 'Jorge Amado — IOS na cidade, longe de Itacaré',
+        'h2' => 'Terminal e vazão a partir de Ilhéus',
         'itens' => [
-            ['h3' => 'Ilhéus — IOS', 'texto' => 'Terminal do município. Combinamos o voo. A espera no desembarque integra o trecho IOS; até o Pontal o intervalo é urbano, até Itacaré não.'],
-            ['h3' => 'Quando a pauta aponta para Itabuna', 'texto' => 'O trecho Ilhéus–Itabuna não é o mesmo pedido do Centro. O orçamento sai à parte.'],
+            [
+                'h3' => 'Jorge Amado — IOS',
+                'texto' => 'Jorge Amado (IOS) fica em Ilhéus. Acesso: BA-262. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'BA-262 e a vazão para Itabuna',
+                'texto' => 'Itabuna e Porto Seguro aparecem no mesmo pedido de Ilhéus. Isso é viagem, não segunda corrida em Centro.',
+            ],
         ],
     ],
     'protocolo' => [
-        'h2' => 'O que pedimos para acertar o embarque na Costa do Cacau',
+        'h2' => 'O que pedimos para acertar o embarque em Ilhéus',
         'lista' => [
-            'Hotel com nome — Pontal ou Norte não bastam para o recuo.',
-            'Se o voo é no IOS, número e horário. A margem sai do terminal, não da ponte.',
-            'Itacaré, Olivença ou o Centro Histórico entram no roteiro; não é desvio de última hora na BA-001.',
+            'Hotel, prédio ou empresa com nome — “em Centro” não basta.',
+            'Qual terminal: IOS em Ilhéus.',
+            'Se Itabuna entra depois, a ordem muda o recorte.',
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no Jorge Amado',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Ilhéus fica longe do Pontal?', 'resposta' => 'É trecho urbano. Marcamos margem: a Soares Lopes e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'Em Ilhéus, o motorista espera no IOS se o voo atrasar?', 'resposta' => 'Sim. Em Ilhéus, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem o Centro Histórico e o Pontal no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A ponte e a ladeira pesam mais que a distância no mapa.'],
-        ['pergunta' => 'Dá para seguir a Itacaré depois do hotel?', 'resposta' => 'Sim, como viagem pela BA-001. Não é o mesmo recorte do Pontal; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Marque o Pontal junto com o horário do IOS',
-        'texto' => 'O orçamento de Ilhéus sai sob consulta. Centro, orla e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir carro em Ilhéus',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'bahia', 'ancora' => 'Feira, Costa do Descobrimento e o recorte baiano'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'porto-seguro', 'ancora' => 'Cidade Histórica, Trancoso e o BPS'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'salvador', 'ancora' => 'Barra, Paralela e o Luís Eduardo Magalhães'],
     ],
 ];

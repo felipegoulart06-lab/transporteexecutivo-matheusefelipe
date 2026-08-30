@@ -5,83 +5,91 @@ declare(strict_types=1);
 return [
     'layout' => 'dunas',
     'cidade_nome' => 'Mossoró',
-    'geo' => ['lat' => -5.1879, 'lng' => -37.3441],
+    'geo' => [
+        'lat' => -5.1879,
+        'lng' => -37.3441,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Mossoró',
     'seo' => [
-        'title' => 'Motorista em Mossoró: Centro, Nova Betânia e MVF',
-        'description' => 'Carro com motorista em Mossoró para o Centro, Nova Betânia, Lagoa do Mato, a UERN e o aeroporto Dix-Sept Rosado. Sal, petróleo e orçamento sob consulta.',
-        'og_title' => 'Traslado no Centro, em Nova Betânia e no MVF',
-        'og_description' => 'Motorista no oeste potiguar: hotel no Centro, pauta na UERN e o terminal Dix-Sept Rosado.',
-        'og_image_alt' => 'Sedan executivo em avenida de Mossoró no oeste do Rio Grande do Norte',
+        'title' => 'Carro com motorista em Mossoró: Nova Betânia e MVF',
+        'description' => 'Motorista executivo em Mossoró: Centro, Nova Betânia e Dix-Sept Rosado (MVF), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Mossoró: hotel, Centro e MVF',
+        'og_description' => 'O motorista combina Centro com Dix-Sept Rosado (MVF), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Mossoró',
     ],
     'kicker' => 'Oeste potiguar · RN',
-    'h1' => 'Do MVF à Nova Betânia sem perder a reunião no Centro',
+    'h1' => 'Mossoró — Centro de manhã, MVF quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Mossoró',
+    'faq' => [
+        [
+            'pergunta' => 'Em Mossoró, o MVF fica no próprio município?',
+            'resposta' => 'Sim. Em Mossoró, Dix-Sept Rosado (MVF) fica no município. Informe o acesso via RN-013.',
+        ],
+        [
+            'pergunta' => 'Em Mossoró, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Mossoró. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Mossoró vocês fazem Natal?',
+            'resposta' => 'Sim, saindo de Mossoró. Natal não é o recorte de Centro; o horário pela BR-110 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Mossoró, MVF e NAT são o mesmo recorte?',
+            'resposta' => 'Não, em Mossoró. MVF fica em Mossoró; NAT fica em São Gonçalo do Amarante. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Mossoró e o MVF',
+        'texto' => 'Diga o ponto em Centro ou Nova Betânia, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Mossoró',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-grande-do-norte',
+            'ancora' => 'Mossoró e o recorte de Oeste potiguar',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-grande-do-norte',
+            'cidade' => 'natal',
+            'ancora' => 'Motorista em natal',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'ceara',
+            'cidade' => 'fortaleza',
+            'ancora' => 'Motorista em fortaleza',
+        ],
+    ],
     'trilha' => [
-        'h2' => 'Mossoró se lê em sal, petróleo e campus — não no atalho da BR-304',
-        'texto' => 'A segunda cidade potiguar alinha hotel no Centro ou em Nova Betânia, pauta na UERN ou em Lagoa do Mato e o trecho até o Dix-Sept Rosado (MVF). A Rio Branco e a Presidente Dutra mudam o relógio. O motorista sai com essa malha; o passageiro não discute faixa com o GPS na porta do hotel. Natal e Fortaleza entram como viagem, não como segunda corrida urbana.',
+        'h2' => 'Mossoró se lê em BR-304, não em atalho de app',
+        'texto' => 'Mossoró concentra Centro (sede e hotel) e Dix-Sept Rosado (MVF) no mesmo município. O motorista precisa do ponto de embarque e do MVF no mesmo recado — “me busca em Mossoró” não define o recuo.',
     ],
     'chips' => [
-        'h2' => 'Onde o embarque mossoroense mais se repete',
+        'h2' => 'Onde o embarque em Mossoró mais se repete',
         'itens' => [
             'Centro',
             'Nova Betânia',
-            'Lagoa do Mato',
-            'UERN',
             'Abolição',
-            'Ilha de Santa Luzia',
-            'Terminal MVF',
+            'Universitário',
+            'Dix-Sept Rosado',
+            'BR-304',
         ],
     ],
     'historias' => [
         [
-            'h2' => 'O hotel do Centro é embarque, não slogan de parceria',
-            'texto' => 'Hotéis da Rio Branco e de Nova Betânia entram no roteiro pelo nome e pelo recuo, não por “perto da catedral”. O carro espera no acesso de serviço quando a via está tomada. Não há convênio de porta: o hotel é só o ponto de saída.',
+            'h2' => 'Centro como origem, não como cartão-postal',
+            'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Nova Betânia.',
         ],
         [
-            'h2' => 'Centro, Abolição e a pauta institucional',
-            'texto' => 'Sede, fórum e o calçadão. Informe o prédio; o recuo do Centro não é o da UERN nem o de Lagoa do Mato. A numeração se repete e o sentido muda no pico.',
-        ],
-        [
-            'h2' => 'Rotas que misturam campus, sal e o salto até Natal',
-            'texto' => 'Hotel em Nova Betânia → Centro → UERN → Lagoa do Mato só se a ordem estiver no roteiro. Natal (NAT) sai pela BR-304, com margem de sertão. Fortaleza e o FOR entram pela BR-304 e pela malha cearense — não como recorte urbano de Mossoró. O orçamento sai sob consulta.',
+            'h2' => 'Nova Betânia no meio do expediente',
+            'texto' => 'Nova Betânia pede bairro. Abolição pede residencial. Quando Natal entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-110.',
         ],
         [
             'h2' => 'Dix-Sept Rosado — MVF',
-            'texto' => 'O aeroporto fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho MVF; o passageiro não cruza o saguão atrás de uma placa genérica. Até Nova Betânia a margem é urbana; até Natal, a 304 pesa mais que o mapa.',
+            'texto' => 'Dix-Sept Rosado (MVF) fica em Mossoró. Acesso: RN-013. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta o oeste potiguar',
-    'faq' => [
-        [
-            'pergunta' => 'O aeroporto de Mossoró fica longe de Nova Betânia?',
-            'resposta' => 'É trecho urbano. Marcamos margem: a Rio Branco e o horário de pico alteram o intervalo até o MVF.',
-        ],
-        [
-            'pergunta' => 'O motorista espera no MVF se o voo atrasar?',
-            'resposta' => 'Sim, quando o voo está no roteiro. O número entra no pedido e a espera no terminal faz parte do trecho.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Centro, Nova Betânia e a UERN no mesmo dia?',
-            'resposta' => 'Sim. Em Mossoró, informe o bloco do campus. Um motorista articula os três recuos.',
-        ],
-        [
-            'pergunta' => 'Dá para seguir a Natal ou a Fortaleza depois do hotel?',
-            'resposta' => 'Sim, como viagem pela BR-304. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Lagoa do Mato e a pauta de petróleo entram no mesmo pedido?',
-            'resposta' => 'Sim, quando o endereço e o nome na portaria entram no roteiro. Sem lista, o recuo da planta não libera. O orçamento sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Una Nova Betânia ao horário do MVF',
-        'texto' => 'O orçamento de Mossoró sai sob consulta. Centro, campus e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Mossoró',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-grande-do-norte', 'ancora' => 'Natal, o sal e o oeste potiguar'],
-        ['tipo' => 'cidade', 'estado' => 'rio-grande-do-norte', 'cidade' => 'natal', 'ancora' => 'Ponta Negra, Tirol e o NAT'],
-        ['tipo' => 'cidade', 'estado' => 'ceara', 'cidade' => 'fortaleza', 'ancora' => 'Meireles, Aldeota e o Pinto Martins'],
     ],
 ];

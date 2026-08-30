@@ -1,0 +1,78 @@
+{
+    "estado": "ceara",
+    "cidade": "sobral",
+    "nome": "Sobral",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "CE-257",
+            "destino": "Luciano de Arruda Coelho",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Derby",
+        "Junco",
+        "Expectativa"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Luciano de Arruda Coelho",
+            "iata": "JSO",
+            "municipio": "Sobral",
+            "acesso": "rodovia até o JSO"
+        },
+        {
+            "nome": "Pinto Martins",
+            "iata": "FOR",
+            "municipio": "Fortaleza",
+            "acesso": "CE-257"
+        }
+    ],
+    "rodovias": [
+        "CE-257",
+        "BR-222",
+        "Avenida Dom José"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "UVA",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Fortaleza",
+        "Ipu",
+        "Teresina"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal JSO em Sobral",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

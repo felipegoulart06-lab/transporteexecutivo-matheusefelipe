@@ -1,0 +1,78 @@
+{
+    "estado": "mato-grosso",
+    "cidade": "tangara-da-serra",
+    "nome": "Tangará da Serra",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-364",
+            "destino": "Tangará da Serra",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim Europa",
+        "Industrial",
+        "São José"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Tangará da Serra",
+            "iata": "TGQ",
+            "municipio": "Tangará da Serra",
+            "acesso": "MT-358"
+        },
+        {
+            "nome": "Marechal Rondon",
+            "iata": "CGB",
+            "municipio": "Várzea Grande",
+            "acesso": "BR-364"
+        }
+    ],
+    "rodovias": [
+        "BR-364",
+        "MT-358",
+        "Avenida Brasil"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "planta",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Cuiabá",
+        "Campo Novo do Parecis",
+        "Rondonópolis"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal TGQ em Tangará da Serra",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

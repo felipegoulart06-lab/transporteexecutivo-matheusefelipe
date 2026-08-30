@@ -1,0 +1,72 @@
+{
+    "estado": "rio-grande-do-sul",
+    "cidade": "sao-leopoldo",
+    "nome": "São Leopoldo",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-116",
+            "destino": "Salgado Filho",
+            "motivo": "sede e Unisinos"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "São João",
+        "Scharlau",
+        "Campina"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Salgado Filho",
+            "iata": "POA",
+            "municipio": "Porto Alegre",
+            "acesso": "BR-116"
+        }
+    ],
+    "rodovias": [
+        "BR-116",
+        "Avenida Unisinos",
+        "Avenida João Corrêa"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e Unisinos",
+        "bairro",
+        "residencial",
+        "eixo"
+    ],
+    "vizinhos_pedido": [
+        "Novo Hamburgo",
+        "Porto Alegre",
+        "Esteio"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal POA em Porto Alegre",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

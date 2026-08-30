@@ -1,0 +1,72 @@
+{
+    "estado": "acre",
+    "cidade": "rio-branco",
+    "nome": "Rio Branco",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-364",
+            "destino": "Plácido de Castro",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Bosque",
+        "Aviário",
+        "Via Verde"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Plácido de Castro",
+            "iata": "RBR",
+            "municipio": "Rio Branco",
+            "acesso": "BR-364"
+        }
+    ],
+    "rodovias": [
+        "BR-364",
+        "Via Verde",
+        "Avenida Ceará"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro residencial",
+        "comércio",
+        "acesso à BR-364"
+    ],
+    "vizinhos_pedido": [
+        "Cruzeiro do Sul",
+        "Porto Velho",
+        "Xapuri"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal RBR em Rio Branco",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

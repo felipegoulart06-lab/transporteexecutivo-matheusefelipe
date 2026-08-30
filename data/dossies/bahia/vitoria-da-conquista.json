@@ -1,0 +1,72 @@
+{
+    "estado": "bahia",
+    "cidade": "vitoria-da-conquista",
+    "nome": "Vitória da Conquista",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-116",
+            "destino": "Glauber Rocha",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Candeias",
+        "Recreio",
+        "Universitário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Glauber Rocha",
+            "iata": "VDC",
+            "municipio": "Vitória da Conquista",
+            "acesso": "BR-116"
+        }
+    ],
+    "rodovias": [
+        "BR-116",
+        "BA-262",
+        "Avenida Otávio Santos"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "UESB"
+    ],
+    "vizinhos_pedido": [
+        "Itapetinga",
+        "Jequié",
+        "Salvador"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VDC em Vitória da Conquista",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

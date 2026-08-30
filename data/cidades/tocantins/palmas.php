@@ -5,57 +5,94 @@ declare(strict_types=1);
 return [
     'layout' => 'protocolo',
     'cidade_nome' => 'Palmas',
-    'geo' => ['lat' => -10.184, 'lng' => -48.3336],
+    'geo' => [
+        'lat' => -10.184,
+        'lng' => -48.3336,
+    ],
     'imagem' => 'norte.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Palmas',
     'seo' => [
-        'title' => 'Carro executivo em Palmas: Plano Diretor, Quadra e PMW',
-        'description' => 'Motorista executivo em Palmas para o Plano Diretor, Palmas Mall, Praia da Graciosa e o aeroporto Brigadeiro Lysias Rodrigues. Orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Plano Diretor de Palmas e no aeroporto PMW',
-        'og_description' => 'Carro com motorista na capital tocantinense: hotel na quadra, pauta no Palácio e o terminal PMW.',
-        'og_image_alt' => 'Sedan executivo em avenida larga do Plano Diretor de Palmas',
+        'title' => 'Motorista executivo em Palmas: Plano Diretor Sul e PMW',
+        'description' => 'Carro com motorista em Palmas para Plano Diretor Sul, Plano Diretor Norte e PMW. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Palmas com motorista — Plano Diretor Norte e Brigadeiro Lysias Rodrigues',
+        'og_description' => 'O motorista combina Plano Diretor Sul com Brigadeiro Lysias Rodrigues (PMW), no próprio município. Informe quadra e complemento.',
+        'og_image_alt' => 'Carro executivo em via de Palmas',
     ],
     'kicker' => 'Capital tocantinense · TO',
-    'h1' => 'Da quadra ao Lysias Rodrigues sem perder o protocolo do Palácio',
-    'preambulo' => 'Palmas é cidade planejada à beira do Tocantins. Quadra, Avenida e Palácio Araguaia não se navegam como bairro de cidade antiga. O voo chega no Brigadeiro Lysias Rodrigues (PMW); a pauta desce na ARSE, na ALNO ou na Praia da Graciosa. O motorista já conhece o acesso da via; o passageiro segura o horário.',
+    'h1' => 'Em Palmas: do embarque em Plano Diretor Sul ao PMW',
+    'faq_h2' => 'Dúvidas de quem embarca em Palmas',
+    'faq' => [
+        [
+            'pergunta' => 'Em Palmas, o PMW fica no próprio município?',
+            'resposta' => 'Sim. Em Palmas, Brigadeiro Lysias Rodrigues (PMW) fica no município. Informe o acesso via TO-050.',
+        ],
+        [
+            'pergunta' => 'Em Palmas, vocês buscam em Plano Diretor Sul?',
+            'resposta' => 'Sim, em Palmas. Envie quadra e complemento em Plano Diretor Sul. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Palmas vocês fazem Porto Nacional?',
+            'resposta' => 'Sim, saindo de Palmas. Porto Nacional não é o recorte de Plano Diretor Sul; o horário pela Avenida Teotônio Segurado sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Palmas o carro fica entre Plano Diretor Sul e Plano Diretor Norte?',
+            'resposta' => 'Sim, em Palmas. A hora à disposição cobre quadra e hotel em Plano Diretor Sul e quadra norte em Plano Diretor Norte.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Palmas e o PMW',
+        'texto' => 'Diga o ponto em Plano Diretor Sul ou Plano Diretor Norte, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Palmas',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'tocantins',
+            'ancora' => 'Palmas e o recorte de Capital tocantinense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'goias',
+            'cidade' => 'goiania',
+            'ancora' => 'Motorista em goiania',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'distrito-federal',
+            'cidade' => 'brasilia',
+            'ancora' => 'Motorista em brasilia',
+        ],
+    ],
+    'preambulo' => 'Palmas concentra Plano Diretor Sul (quadra e hotel) e Brigadeiro Lysias Rodrigues (PMW) no mesmo município. O motorista precisa do ponto de embarque e do PMW no mesmo recado — “me busca em Palmas” não define o recuo.',
     'artigos' => [
         [
-            'h2' => 'O Plano Diretor pede outro tipo de recuo',
-            'texto' => 'ARSE, ARSO, ALNE e ALNO não se trocam no mesmo recuo. Hotel (Graciosa, similar), reunião no Palácio e voo no PMW cabem no mesmo expediente se a quadra e a avenida já estiverem no roteiro. “Perto do Palmas Mall” não coloca o carro na porta certa do gabinete.',
+            'h2' => 'Plano Diretor Sul pede protocolo, não pin',
+            'texto' => 'Origem frequente para quadra e hotel. Informe quadra e complemento. Plano Diretor Sul não compartilha o recuo de Plano Diretor Norte.',
         ],
         [
-            'h2' => 'Praia da Graciosa, Taquaralto e o silêncio da agenda',
-            'texto' => 'A orla do lago e o distrito de Taquaralto entram no roteiro como visita ou como pauta — não como desvio de última hora. Residências e órgãos pedem discrição: sem buzina no recuo, espera onde a portaria indicar, não onde o GPS sugere uma rotatória da Av. NS.',
+            'h2' => 'Plano Diretor Norte e Taquaralto',
+            'texto' => 'Plano Diretor Norte pede quadra norte. Taquaralto pede distrito. Quando Porto Nacional entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Avenida Teotônio Segurado.',
         ],
         [
-            'h2' => 'Brigadeiro Lysias Rodrigues — PMW',
-            'texto' => 'O aeroporto fica no recorte da cidade, com acesso que muda no pico da Av. Teotônio Segurado. Combinamos o voo. A espera no desembarque integra o trecho PMW. Do terminal à quadra do hotel, a margem sai do embarque, não do saguão.',
+            'h2' => 'Brigadeiro Lysias Rodrigues (PMW)',
+            'texto' => 'Brigadeiro Lysias Rodrigues (PMW) fica em Palmas. Acesso: TO-050. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
     ],
     'pauta' => [
-        'h2' => 'Itens que entram na ordem do dia em Palmas',
+        'h2' => 'Itens da ordem do dia em Palmas',
         'itens' => [
-            ['h3' => 'Quadra e hotel no Plano Diretor', 'texto' => 'Informe ARSE ou ALNO, o número da quadra e a entrada. Os eixos não compartilham o mesmo recuo.'],
-            ['h3' => 'Palácio Araguaia e a Praça dos Girassóis', 'texto' => 'Pauta institucional. Acesso e ponto de espera; o carro não improvisa na via de cerimonial.'],
-            ['h3' => 'Praia da Graciosa e o lago', 'texto' => 'Visita ou jantar. Combinamos o horário de pico na orla.'],
-            ['h3' => 'Taquaralto e o sul', 'texto' => 'Quando a reunião desce para Taquaralto, o trecho entra como rota própria, sob consulta.'],
+            [
+                'h3' => 'Plano Diretor Sul',
+                'texto' => 'Origem frequente para quadra e hotel. Informe quadra e complemento. Plano Diretor Sul não compartilha o recuo de Plano Diretor Norte.',
+            ],
+            [
+                'h3' => 'Plano Diretor Norte',
+                'texto' => 'Origem frequente para quadra norte. Informe quadra e complemento. Plano Diretor Norte não compartilha o recuo de Plano Diretor Sul.',
+            ],
+            [
+                'h3' => 'Taquaralto',
+                'texto' => 'Origem frequente para distrito. Informe quadra e complemento. Taquaralto não compartilha o recuo de Plano Diretor Sul.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no Lysias Rodrigues',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Palmas fica longe do Plano Diretor?', 'resposta' => 'É trecho urbano. Marcamos margem: a Teotônio Segurado e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no PMW se o voo atrasar?', 'resposta' => 'Sim. Em Palmas, o número do voo entra no roteiro e a espera no saguão faz parte do trecho.'],
-        ['pergunta' => 'Dá para ir à Praia da Graciosa e ao Palácio no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. São recortes diferentes da cidade planejada; um motorista articula os dois.'],
-        ['pergunta' => 'Vocês fazem o trecho até Taquaralto ou ao Jalapão?', 'resposta' => 'Taquaralto entra no recorte da capital. O Jalapão é viagem: horário e valor saem sob consulta, não como corrida urbana.'],
-    ],
-    'cta' => [
-        'titulo' => 'Envie a quadra junto com o horário do PMW',
-        'texto' => 'O orçamento de Palmas sai sob consulta. Plano Diretor, Graciosa e terminal no mesmo recado.',
-        'botao' => 'Solicitar carro em Palmas',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'tocantins', 'ancora' => 'Araguaína, Gurupi e o recorte tocantinense'],
-        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'goiania', 'ancora' => 'Bueno, Marista e o Santa Genoveva'],
-        ['tipo' => 'cidade', 'estado' => 'distrito-federal', 'cidade' => 'brasilia', 'ancora' => 'Eixo Monumental, Lago e o BSB'],
     ],
 ];

@@ -1,0 +1,72 @@
+{
+    "estado": "bahia",
+    "cidade": "feira-de-santana",
+    "nome": "Feira de Santana",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-324",
+            "destino": "Luís Eduardo Magalhães",
+            "motivo": "sede e comércio"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Kalilândia",
+        "Tomba",
+        "SIM"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Luís Eduardo Magalhães",
+            "iata": "SSA",
+            "municipio": "Salvador",
+            "acesso": "BR-324"
+        }
+    ],
+    "rodovias": [
+        "BR-324",
+        "BR-116",
+        "Avenida Getúlio Vargas"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e comércio",
+        "bairro",
+        "residencial",
+        "distrito industrial"
+    ],
+    "vizinhos_pedido": [
+        "Salvador",
+        "Alagoinhas",
+        "Serrinha"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SSA em Salvador",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

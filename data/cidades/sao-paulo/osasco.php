@@ -5,73 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Osasco',
-    'geo' => ['lat' => -23.532, 'lng' => -46.7916],
+    'geo' => [
+        'lat' => -23.532,
+        'lng' => -46.7916,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Osasco',
     'seo' => [
-        'title' => 'Motorista executivo em Osasco: Centro, Bela Vista e Castelo',
-        'description' => 'Carro com motorista em Osasco para o Centro, Bela Vista, Presidente Altino, Castelo Branco e o eixo até GRU. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro de Osasco, na Bela Vista e no Castelo',
-        'og_description' => 'Motorista em Osasco: hotel, pauta no Centro e o recuo rumo a Guarulhos ou à Faria Lima.',
-        'og_image_alt' => 'Sedan executivo em avenida de Osasco',
+        'title' => 'Carro com motorista em Osasco: Bela Vista e CGH',
+        'description' => 'Motorista executivo em Osasco: Centro, Bela Vista e Congonhas (CGH), em São Paulo. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Osasco: Centro e CGH',
+        'og_description' => 'O motorista combina Centro com Congonhas (CGH), em São Paulo. Informe nome do prédio.',
+        'og_image_alt' => 'Carro executivo em via de Osasco',
     ],
-    'kicker' => 'Oeste da capital · SP',
-    'h1' => 'Da Bela Vista ao Centro sem perder a janela da Castelo',
-    'lead' => 'Osasco concentra sede, shopping e o recorte entre a Castelo Branco e a Marginal. O motorista segura a Autonomistas e a Raposo; o passageiro segura a pauta — não a vaga na porta do hotel.',
-    'contexto' => [
-        'h2' => 'A cidade cobra bairro e viaduto, não “no centro”',
-        'texto' => [
-            'Centro, Bela Vista, Presidente Altino e o km 18 não compartilham o mesmo recuo. Hotel (Ibis, similares), reunião no Centro e voo em GRU ou Congonhas cabem no mesmo expediente se a ordem da Castelo já estiver no roteiro.',
-            'O recorte é a rotina do município colado à capital: embarque na portaria, espera discreta e chegada no terminal certo. Quando a pauta aponta para Barueri, Alphaville ou a Faria Lima, o trecho deixa de ser só osascoense.',
-        ],
-    ],
-    'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
-        'itens' => [
-            ['h3' => 'Centro e a Autonomistas', 'texto' => 'Em Osasco, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Bela Vista e o Osasco Plaza', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da Castelo.'],
-            ['h3' => 'Presidente Altino e o km 18', 'texto' => 'Pauta residencial e o recuo da linha. “No Altino” não define a porta.'],
-            ['h3' => 'City Bussocaba e o sul', 'texto' => 'Condomínio e jantar. O recuo pede rua e número.'],
-        ],
-    ],
-    'aeroportos' => [
-        'h2' => 'GRU e Congonhas no relógio de Osasco',
-        'itens' => [
-            ['h3' => 'Guarulhos — GRU', 'texto' => 'O trecho Castelo–Dutra não é urbano de Osasco. Combinamos o voo. A espera no desembarque integra o trecho GRU.'],
-            ['h3' => 'Congonhas — CGH', 'texto' => 'Marginal e Rebouças. Informe o terminal; a margem sai do hotel, não do saguão.'],
-        ],
-    ],
-    'rotas' => [
-        'h2' => 'Trajetos que a agenda osasquense mais pede',
-        'itens' => [
-            ['titulo' => 'Hotel na Bela Vista → Centro', 'texto' => 'Pernoite e sede. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'Osasco → Alphaville ou Barueri', 'texto' => 'Castelo Branco. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-            ['titulo' => 'Osasco → GRU no mesmo dia', 'texto' => 'Combinamos o terminal e a margem da Dutra.'],
-        ],
-    ],
-    'como' => [
-        'h2' => 'Como o carro entra na grade em Osasco',
-        'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Bela Vista, Centro ou Altino. Autocomplete não resolve viaduto com dois acessos.'],
-            ['titulo' => 'Hotel ou aeroporto', 'texto' => 'Diga se o embarque é o hotel, o GRU ou o Congonhas.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Osasco, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta Osasco e a Castelo',
+    'kicker' => 'Região Metropolitana de São Paulo · SP',
+    'h1' => 'Em Osasco: do embarque em Centro ao CGH',
+    'faq_h2' => 'Dúvidas de quem embarca em Osasco',
     'faq' => [
-        ['pergunta' => 'O motorista vai ao GRU a partir de Osasco?', 'resposta' => 'Sim, quando o GRU entra no roteiro. A Castelo e a Dutra pedem margem; não é corrida instantânea da Bela Vista.'],
-        ['pergunta' => 'Vocês fazem Centro, Bela Vista e Alphaville no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A Castelo pesa mais que a distância no mapa.'],
-        ['pergunta' => 'Em Osasco, dá para ir à Faria Lima depois do hotel?', 'resposta' => 'Sim, como recorte da capital. Não é o mesmo pedido do Centro de Osasco.'],
-        ['pergunta' => 'Em Osasco, o motorista espera no GRU se o voo atrasar?', 'resposta' => 'Sim. Monitoramos o GRU com o número do voo; a espera no desembarque integra o trecho Castelo–Dutra desde a Bela Vista ou o Centro.'],
+        [
+            'pergunta' => 'Quem está em Osasco embarca no CGH dentro da cidade?',
+            'resposta' => 'Não. De Osasco o CGH (Congonhas) fica em São Paulo. O trecho sai de Centro pela Castelo Branco.',
+        ],
+        [
+            'pergunta' => 'Em Osasco, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Osasco. Envie nome do prédio em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Osasco vocês fazem São Paulo?',
+            'resposta' => 'Sim, saindo de Osasco. São Paulo não é o recorte de Centro; o horário pela Anhanguera sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Osasco, CGH e GRU são o mesmo recorte?',
+            'resposta' => 'Não, em Osasco. CGH fica em São Paulo; GRU fica em Guarulhos. Diga o IATA no pedido.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Junte a Bela Vista ao horário da Castelo',
-        'texto' => 'O orçamento de Osasco sai sob consulta. Centro, hotel e GRU no mesmo WhatsApp.',
+        'titulo' => 'Informe o embarque em Osasco e o CGH',
+        'texto' => 'Diga o ponto em Centro ou Bela Vista, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Osasco',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas e GRU na capital'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'guarulhos', 'ancora' => 'Cumbica, Centro e o terminal GRU'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Osasco e o recorte de Região Metropolitana de São Paulo',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'sao-paulo',
+            'ancora' => 'Motorista em sao paulo',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'guarulhos',
+            'ancora' => 'Motorista em guarulhos',
+        ],
+    ],
+    'lead' => 'Osasco usa Congonhas (CGH), em São Paulo. Quem embarca em Centro não está no município da pista. A Castelo Branco é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+    'contexto' => [
+        'h2' => 'Osasco se mede em Castelo Branco, não em pin de aplicativo',
+        'texto' => [
+            'Osasco usa Congonhas (CGH), em São Paulo. Quem embarca em Centro não está no município da pista. A Castelo Branco é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Bela Vista pede bairro. Presidente Altino pede industrial. Quando São Paulo entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Anhanguera.',
+        ],
+    ],
+    'bairros' => [
+        'h2' => 'Eixos de embarque em Osasco',
+        'itens' => [
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do prédio. Centro não compartilha o recuo de Bela Vista.',
+            ],
+            [
+                'h3' => 'Bela Vista',
+                'texto' => 'Origem frequente para bairro. Informe nome do prédio. Bela Vista não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Presidente Altino',
+                'texto' => 'Origem frequente para industrial. Informe nome do prédio. Presidente Altino não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Km 18',
+                'texto' => 'Origem frequente para eixo Castelo. Informe nome do prédio. Km 18 não compartilha o recuo de Centro.',
+            ],
+        ],
+    ],
+    'aeroportos' => [
+        'h2' => 'O terminal que a agenda de Osasco realmente usa',
+        'itens' => [
+            [
+                'h3' => 'Congonhas — CGH',
+                'texto' => 'Congonhas (CGH) fica em São Paulo, não em Osasco. O trecho sai pela Castelo Branco. Diga o IATA e o número do voo.',
+            ],
+            [
+                'h3' => 'Guarulhos — GRU',
+                'texto' => 'Guarulhos (GRU) fica em Guarulhos, não em Osasco. O trecho sai pela Marginal Tietê. Diga o IATA e o número do voo.',
+            ],
+        ],
+    ],
+    'rotas' => [
+        'h2' => 'Trajetos que o pedido em Osasco mais combina',
+        'itens' => [
+            [
+                'titulo' => 'Centro → CGH',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: Castelo Branco.',
+            ],
+            [
+                'titulo' => 'CGH → Bela Vista',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do prédio.',
+            ],
+            [
+                'titulo' => 'Centro → São Paulo',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Bela Vista; o horário sai sob consulta.',
+            ],
+        ],
+    ],
+    'como' => [
+        'h2' => 'Como o carro entra na pauta em Osasco',
+        'passos' => [
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do prédio. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o CGH ou São Paulo entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Osasco, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

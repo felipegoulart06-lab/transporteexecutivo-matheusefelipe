@@ -1,0 +1,78 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "praia-grande",
+    "nome": "Praia Grande",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Boqueirão",
+            "eixo": "Imigrantes",
+            "destino": "Congonhas",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Boqueirão",
+        "Canto do Forte",
+        "Aviação",
+        "Guilhermina"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Congonhas",
+            "iata": "CGH",
+            "municipio": "São Paulo",
+            "acesso": "Imigrantes"
+        },
+        {
+            "nome": "Guarulhos",
+            "iata": "GRU",
+            "municipio": "Guarulhos",
+            "acesso": "Anchieta"
+        }
+    ],
+    "rodovias": [
+        "Imigrantes",
+        "SP-055",
+        "Avenida Presidente Kennedy"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "orla",
+        "bairro",
+        "praia"
+    ],
+    "vizinhos_pedido": [
+        "Santos",
+        "Mongaguá",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CGH em São Paulo",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "divinopolis",
+    "nome": "Divinópolis",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-262",
+            "destino": "Brigadeiro Antônio Cabral",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Catalão",
+        "Porto Velho",
+        "Danilo Passos"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Brigadeiro Antônio Cabral",
+            "iata": "DIQ",
+            "municipio": "Divinópolis",
+            "acesso": "MG-050"
+        },
+        {
+            "nome": "Confins",
+            "iata": "CNF",
+            "municipio": "Confins",
+            "acesso": "BR-262"
+        }
+    ],
+    "rodovias": [
+        "BR-262",
+        "MG-050",
+        "Avenida 1º de Junho"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "eixo"
+    ],
+    "vizinhos_pedido": [
+        "Belo Horizonte",
+        "Itaúna",
+        "Formiga"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal DIQ em Divinópolis",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

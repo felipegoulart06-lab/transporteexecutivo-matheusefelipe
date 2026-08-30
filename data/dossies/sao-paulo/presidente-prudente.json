@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "presidente-prudente",
+    "nome": "Presidente Prudente",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Marechal Rondon",
+            "destino": "Presidente Prudente",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Vila Euclides",
+        "Jardim Bongiovani",
+        "Campus Unoeste"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Presidente Prudente",
+            "iata": "PPB",
+            "municipio": "Presidente Prudente",
+            "acesso": "SP-270"
+        }
+    ],
+    "rodovias": [
+        "Marechal Rondon",
+        "SP-425",
+        "Avenida Washington Luiz"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "universidade"
+    ],
+    "vizinhos_pedido": [
+        "Araçatuba",
+        "Marília",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal PPB em Presidente Prudente",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

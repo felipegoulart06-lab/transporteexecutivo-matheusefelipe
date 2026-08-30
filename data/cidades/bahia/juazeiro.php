@@ -5,80 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'rio',
     'cidade_nome' => 'Juazeiro',
-    'geo' => ['lat' => -9.4162, 'lng' => -40.5033],
+    'geo' => [
+        'lat' => -9.4162,
+        'lng' => -40.5033,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Juazeiro',
     'seo' => [
-        'title' => 'Motorista executivo em Juazeiro: Centro, rio e PNZ',
-        'description' => 'Carro com motorista em Juazeiro da Bahia para o Centro, a ponte do São Francisco e o aeroporto Senador Nilo Coelho, em Petrolina. Orçamento sob consulta.',
-        'og_title' => 'Traslado no Centro de Juazeiro, na ponte e no PNZ',
-        'og_description' => 'Motorista no Juazeiro baiano — não o cearense: hotel no Centro, recuo da ponte e o terminal PNZ em Petrolina.',
-        'og_image_alt' => 'Sedan executivo junto à ponte do São Francisco, em Juazeiro',
+        'title' => 'Motorista executivo em Juazeiro: Centro e PNZ',
+        'description' => 'Carro com motorista em Juazeiro para Centro, Santo Antônio e PNZ. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Juazeiro: hotel, Centro e PNZ',
+        'og_description' => 'O motorista combina Centro com Petrolina (PNZ), em Petrolina. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Juazeiro',
     ],
     'kicker' => 'Vale do São Francisco · BA',
-    'h1' => 'Da ponte ao Centro sem perder a janela do PNZ',
-    'corrente' => [
+    'h1' => 'Juazeiro: entre Centro, Santo Antônio e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Juazeiro',
+    'faq' => [
         [
-            'h2' => 'Este Juazeiro é o da Bahia — o rio, a ponte e Petrolina no outro lado',
-            'texto' => 'Juazeiro da Bahia encosta no São Francisco e na ponte que leva a Petrolina, em Pernambuco. Não é Juazeiro do Norte, no Cariri cearense: o voo comercial da pauta pousa no Senador Nilo Coelho (PNZ), no município vizinho. Hotel no Centro, reunião na Avenida Antônio Carlos Magalhães e o saguão cabem no mesmo expediente se o motorista já saiu com a ordem da ponte e da Cardoso de Sá, não com o atalho do app na beira do rio.',
+            'pergunta' => 'Quem está em Juazeiro embarca no PNZ dentro da cidade?',
+            'resposta' => 'Não. De Juazeiro o PNZ (Petrolina) fica em Petrolina. O trecho sai de Centro pela BR-407.',
         ],
         [
-            'h2' => 'Pontos da margem baiana que a agenda mais cita',
+            'pergunta' => 'Em Juazeiro, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Juazeiro. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Juazeiro vocês fazem Petrolina?',
+            'resposta' => 'Sim, saindo de Juazeiro. Petrolina não é o recorte de Centro; o horário pela BR-235 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Juazeiro o carro fica entre Centro e Santo Antônio?',
+            'resposta' => 'Sim, em Juazeiro. A hora à disposição cobre sede e hotel em Centro e bairro em Santo Antônio.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Juazeiro e o PNZ',
+        'texto' => 'Diga o ponto em Centro ou Santo Antônio, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Juazeiro',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'bahia',
+            'ancora' => 'Juazeiro e o recorte de Vale do São Francisco',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'petrolina',
+            'ancora' => 'Motorista em petrolina',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'salvador',
+            'ancora' => 'Motorista em salvador',
+        ],
+    ],
+    'corrente' => [
+        [
+            'h2' => 'Juazeiro e o primeiro recuo',
+            'texto' => 'Juazeiro usa Petrolina (PNZ), em Petrolina. Quem embarca em Centro não está no município da pista. A BR-407 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Eixos que o pedido cita',
             'itens' => [
                 [
-                    'h3' => 'Centro e a beira-rio',
-                    'texto' => 'Sede, hotel e o calçadão. Informe o prédio e o recuo; o Centro mistura comércio, pernoite e o acesso à ponte. “Perto do rio” não define a porta.',
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Santo Antônio.',
                 ],
                 [
-                    'h3' => 'Alto da Maravilha e Santo Antônio',
-                    'texto' => 'Pauta residencial, clínicas e o recuo interno. O sentido das vias muda no fim da tarde; o endereço completo evita a volta na ladeira.',
+                    'h3' => 'Santo Antônio',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel. Santo Antônio não compartilha o recuo de Centro.',
                 ],
                 [
-                    'h3' => 'João XXIII, Piranga e o eixo irrigado',
-                    'texto' => 'Bairros e o salto rumo ao packing house ou à BR-407. Quando a pauta é fruta, o nome na portaria entra no roteiro junto com o turno.',
+                    'h3' => 'Piranga',
+                    'texto' => 'Origem frequente para orla do São Francisco. Informe nome do hotel. Piranga não compartilha o recuo de Centro.',
                 ],
             ],
         ],
         [
-            'h2' => 'Senador Nilo Coelho — PNZ em Petrolina',
-            'texto' => 'O aeroporto internacional fica em Petrolina (PE), do outro lado do São Francisco — não em Juazeiro e não no Cariri. Combinamos o voo. A espera no desembarque integra o trecho PNZ; o passageiro não cruza o saguão atrás de uma placa genérica. Da ponte ao Centro o intervalo é urbano de dois municípios. O orçamento sai sob consulta.',
+            'h2' => 'Petrolina (PNZ)',
+            'texto' => 'Petrolina (PNZ) fica em Petrolina, não em Juazeiro. O trecho sai pela ponte / BR-407. Diga o IATA e o número do voo.',
         ],
-        [
-            'h2' => 'A ponte une a pauta; o estado no documento continua sendo a Bahia',
-            'texto' => 'Hotel no Centro baiano → PNZ → orla de Petrolina só se a ordem estiver no roteiro. Outro clássico: Juazeiro → packing house ou Casa Nova como viagem, não como segunda corrida urbana. O hotel entra como embarque, sem convênio de porta. Salvador, quando entra no mesmo recado, deixa o recorte do vale e pede margem de BR-407 e de interior.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem cruza a ponte rumo ao PNZ',
-    'faq' => [
-        [
-            'pergunta' => 'Este Juazeiro é o mesmo de Juazeiro do Norte?',
-            'resposta' => 'Não. Este recorte é Juazeiro da Bahia, no São Francisco. Juazeiro do Norte fica no Ceará e usa outro aeroporto. O voo daqui sai pelo PNZ, em Petrolina.',
-        ],
-        [
-            'pergunta' => 'O aeroporto de Juazeiro fica na cidade?',
-            'resposta' => 'O voo comercial regular sai do Senador Nilo Coelho, em Petrolina. O trecho cruza a ponte e entra no roteiro com margem urbana de dois municípios.',
-        ],
-        [
-            'pergunta' => 'Em Juazeiro, o motorista espera no PNZ se o voo atrasar?',
-            'resposta' => 'Sim. Em Juazeiro, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Centro, a ponte e o hotel de Petrolina no mesmo dia?',
-            'resposta' => 'Sim. Informe os dois endereços. O recuo muda no outro lado do rio; um motorista articula as duas margens.',
-        ],
-        [
-            'pergunta' => 'Em Juazeiro, dá para seguir a Salvador depois da reunião no Centro?',
-            'resposta' => 'Sim, quando a capital entra no roteiro. Não é o mesmo recorte da ponte; o horário sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Junte a ponte baiana ao horário do PNZ',
-        'texto' => 'O orçamento de Juazeiro sai sob consulta. Centro, rio e Petrolina no mesmo WhatsApp.',
-        'botao' => 'Pedir carro em Juazeiro',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'bahia', 'ancora' => 'Salvador, Feira e o recorte do São Francisco'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'petrolina', 'ancora' => 'Orla do São Francisco, Centro e o PNZ'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'salvador', 'ancora' => 'Barra, Iguatemi e o Luís Eduardo Magalhães'],
     ],
 ];

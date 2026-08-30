@@ -1,0 +1,78 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "sao-bernardo-do-campo",
+    "nome": "São Bernardo do Campo",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Anchieta",
+            "destino": "Congonhas",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Rudge Ramos",
+        "Assunção",
+        "Paço"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Congonhas",
+            "iata": "CGH",
+            "municipio": "São Paulo",
+            "acesso": "Anchieta"
+        },
+        {
+            "nome": "Guarulhos",
+            "iata": "GRU",
+            "municipio": "Guarulhos",
+            "acesso": "Ayrton Senna"
+        }
+    ],
+    "rodovias": [
+        "Anchieta",
+        "Imigrantes",
+        "Avenida Kennedy"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "eixo universitário",
+        "bairro",
+        "pauta institucional"
+    ],
+    "vizinhos_pedido": [
+        "Santo André",
+        "São Paulo",
+        "Santos"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CGH em São Paulo",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

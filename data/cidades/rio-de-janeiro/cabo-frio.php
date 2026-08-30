@@ -5,59 +5,91 @@ declare(strict_types=1);
 return [
     'layout' => 'dunas',
     'cidade_nome' => 'Cabo Frio',
-    'geo' => ['lat' => -22.8894, 'lng' => -42.0286],
+    'geo' => [
+        'lat' => -22.8894,
+        'lng' => -42.0286,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Cabo Frio',
     'seo' => [
-        'title' => 'Motorista executivo em Cabo Frio: Passagem, Centro e CFB',
-        'description' => 'Carro com motorista em Cabo Frio para a Passagem, Centro, Praia do Forte, Búzios e o aeroporto CFB. Lagos, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo na Passagem, no Centro e no aeroporto CFB',
-        'og_description' => 'Motorista na Região dos Lagos: hotel, Centro e o terminal de Cabo Frio.',
-        'og_image_alt' => 'Carro executivo em avenida da orla de Cabo Frio',
+        'title' => 'Motorista executivo em Cabo Frio: Passagem e CFB',
+        'description' => 'Motorista executivo em Cabo Frio: Passagem, Centro e Cabo Frio (CFB), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Cabo Frio com motorista — Centro e Cabo Frio',
+        'og_description' => 'O motorista combina Passagem com Cabo Frio (CFB), no próprio município. Informe nome do hotel e o recuo no canal.',
+        'og_image_alt' => 'Carro executivo em via de Cabo Frio',
     ],
     'kicker' => 'Região dos Lagos · RJ',
-    'h1' => 'Do CFB à Passagem sem perder a janela de Búzios',
+    'h1' => 'Em Cabo Frio, de Passagem a Cabo Frio (CFB), no próprio município',
+    'faq_h2' => 'Dúvidas de quem embarca em Cabo Frio',
+    'faq' => [
+        [
+            'pergunta' => 'Em Cabo Frio, o CFB fica no próprio município?',
+            'resposta' => 'Sim. Em Cabo Frio, Cabo Frio (CFB) fica no município. Informe o acesso via Estrada Velha de Arraial do Cabo.',
+        ],
+        [
+            'pergunta' => 'Em Cabo Frio, vocês buscam em Passagem?',
+            'resposta' => 'Sim, em Cabo Frio. Envie nome do hotel e o recuo no canal em Passagem. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Cabo Frio vocês fazem Armação dos Búzios?',
+            'resposta' => 'Sim, saindo de Cabo Frio. Armação dos Búzios não é o recorte de Passagem; o horário pela Teixeira e Souza sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Cabo Frio, CFB e GIG são o mesmo recorte?',
+            'resposta' => 'Não, em Cabo Frio. CFB fica em Cabo Frio; GIG fica em Rio de Janeiro. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Cabo Frio e o CFB',
+        'texto' => 'Diga o ponto em Passagem ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Cabo Frio',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-de-janeiro',
+            'ancora' => 'Cabo Frio e o recorte de Região dos Lagos',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'rio-de-janeiro',
+            'ancora' => 'Motorista em rio de janeiro',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'macae',
+            'ancora' => 'Motorista em macae',
+        ],
+    ],
     'trilha' => [
-        'h2' => 'Cabo Frio se lê em canal e em duna — não no atalho do app no feriado',
-        'texto' => 'Hotel na Passagem ou no Centro, reunião na Praia do Forte e voo no Aeroporto Internacional de Cabo Frio (CFB) cabem no mesmo expediente se o motorista já saiu com a ordem da Teixeira e Souza e da RJ-106, não com o aceite do minuto. No verão o relógio muda; a margem sai do hotel, não do mapa.',
+        'h2' => 'Cabo Frio se lê em RJ-106, não em atalho de app',
+        'texto' => 'Cabo Frio concentra Passagem (hotel no canal) e Cabo Frio (CFB) no mesmo município. O motorista precisa do ponto de embarque e do CFB no mesmo recado — “me busca em Cabo Frio” não define o recuo.',
     ],
     'chips' => [
-        'h2' => 'Onde o embarque cabo-friense mais se repete',
-        'itens' => ['Passagem', 'Centro', 'Praia do Forte', 'Braga', 'Peró', 'Búzios', 'Aeroporto de Cabo Frio'],
+        'h2' => 'Onde o embarque em Cabo Frio mais se repete',
+        'itens' => [
+            'Passagem',
+            'Centro',
+            'Praia do Forte',
+            'Peró',
+            'Cabo Frio',
+            'RJ-106',
+        ],
     ],
     'historias' => [
         [
-            'h2' => 'A orla como hotel, não como passeio de temporada',
-            'texto' => 'Passagem, Braga e o Centro concentram pernoite: Atlântico, similares e as pousadas entram no roteiro pelo nome e pelo recuo, não por “na Praia do Forte”. O carro espera no acesso de serviço quando a canal está tomada.',
+            'h2' => 'Passagem como origem, não como cartão-postal',
+            'texto' => 'Origem frequente para hotel no canal. Informe nome do hotel e o recuo no canal. Passagem não compartilha o recuo de Centro.',
         ],
         [
-            'h2' => 'Centro, Forte São Mateus e a pauta de dia',
-            'texto' => 'Sede, o forte e o desnível até a duna. Visita combinada; o calçamento pede ponto de espera, não GPS na ponta do forte.',
-        ],
-        [
-            'h2' => 'Rotas que misturam Lagos, Búzios e Arraial',
-            'texto' => 'CFB → hotel na Passagem → Centro → Búzios só se a península entrar no roteiro. Arraial do Cabo, São Pedro da Aldeia e o Peró saem como recorte da região, com horário de RJ-106 — não como segunda corrida no canal.',
+            'h2' => 'Centro no meio do expediente',
+            'texto' => 'Centro pede sede. Praia do Forte pede orla. Quando Armação dos Búzios entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Teixeira e Souza.',
         ],
         [
             'h2' => 'Cabo Frio — CFB',
-            'texto' => 'O terminal internacional fica no recorte do município. Combinamos o voo. A espera no desembarque integra o trecho CFB; até a Passagem o intervalo é urbano, até Búzios não.',
+            'texto' => 'Cabo Frio (CFB) fica em Cabo Frio. Acesso: Estrada Velha de Arraial do Cabo. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no CFB',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Cabo Frio fica longe da Passagem?', 'resposta' => 'É trecho urbano. Marcamos margem: a Teixeira e Souza e o horário de feriado alteram o intervalo.'],
-        ['pergunta' => 'Em Cabo Frio, o motorista espera no CFB se o voo atrasar?', 'resposta' => 'Sim. Em Cabo Frio, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Búzios no mesmo dia?', 'resposta' => 'Sim, quando a península entra no roteiro. Não é o mesmo recorte do Centro; o horário da RJ-106 sai sob consulta.'],
-        ['pergunta' => 'Dá para incluir Arraial do Cabo depois do hotel?', 'resposta' => 'Sim, como recorte dos Lagos. Combinamos o ponto de espera; o acesso à Praia do Farol pede margem própria.'],
-    ],
-    'cta' => [
-        'titulo' => 'Una a Passagem ao horário do CFB',
-        'texto' => 'O orçamento de Cabo Frio sai sob consulta. Canal, Búzios e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Cabo Frio',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-de-janeiro', 'ancora' => 'O recorte fluminense além da capital'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Santos Dumont, Galeão e a Zona Sul'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'macae', 'ancora' => 'Centro, Imbetiba e o aeroporto MEA'],
     ],
 ];

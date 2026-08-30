@@ -1,0 +1,35 @@
+{
+  "estado": "parana",
+  "cidade": "maringa",
+  "nome": "Maringá",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Hotel na Zona 7", "eixo": "Av. Colombo / malha radiocêntrica", "destino": "Centro", "motivo": "Reunião e sede no mesmo expediente"},
+    {"origem": "Silvio Name Júnior (MGF)", "eixo": "Av. Dr. Vladimir Babkov / Parque Industrial", "destino": "Zona 7", "motivo": "Pouso e pernoite no município"},
+    {"origem": "Hotel em Maringá", "eixo": "BR-376 Rodovia do Café", "destino": "Londrina (LDB / Centro)", "motivo": "Pauta vaza no norte paranaense"}
+  ],
+  "eixos": ["Zona 7", "Centro", "MGF (Parque Industrial Mário Bulhões)", "UEM", "BR-376 para Londrina"],
+  "aeroportos": [
+    {"nome": "Aeroporto Regional de Maringá – Silvio Name Júnior", "iata": "MGF", "municipio": "Maringá", "relacao": "Terminal no próprio município; ICAO SBMG; Terminais Aéreos de Maringá SBMG S.A.", "fonte": "aeroportomaringa.com.br historico; PDF capacidade SBMG IATA MGF; companhias Azul GOL LATAM no site", "data": "2026-08-29"},
+    {"nome": "Aeroporto Governador José Richa", "iata": "LDB", "municipio": "Londrina", "relacao": "Vazão intermunicipal pela BR-376; não fica em Maringá", "fonte": "Landing Londrina do site; BR-376 Rodovia do Café", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-376 (Rodovia do Café Governador Ney Braga)", "fonte": "DNIT / denominação regional PR; eixo Maringá–Londrina", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Zona 7", "Centro / Catedral", "UEM", "MGF"],
+  "vizinhos_pedido": ["Londrina", "Sarandi", "Mandaguari"],
+  "prefeito": {"nome": "Silvio Magalhães Barros II", "fonte": "IBGE Cidades e Estados — Maringá (PR), gestor 2025", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "MGF/SBMG fica no município de Maringá", "fonte": "aeroportomaringa.com.br; Av. Dr. Vladimir Babkov s/n Parque Industrial Mário Bulhões", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Aeroporto Regional de Maringá – Silvio Name Júnior (MGF) fica neste município.", "publicado": true},
+    {"fato": "Londrina vaza pela BR-376", "fonte": "BR-376 Rodovia do Café", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "Quando a pauta cruza para Londrina, a saída é a BR-376.", "publicado": true}
+  ],
+  "descartado": [
+    "PR-317 como eixo Londrina (landing usa BR-376)",
+    "Jardim Alvorada como eixo principal",
+    "Hotel Deville sem confirmação",
+    "Tempo Zona 7–MGF em minutos",
+    "[VERIFICAR] grafia Silvio vs Sílvio Name Júnior nas peças oficiais"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
+}

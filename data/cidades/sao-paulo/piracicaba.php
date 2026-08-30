@@ -5,58 +5,94 @@ declare(strict_types=1);
 return [
     'layout' => 'protocolo',
     'cidade_nome' => 'Piracicaba',
-    'geo' => ['lat' => -22.7253, 'lng' => -47.6492],
+    'geo' => [
+        'lat' => -22.7253,
+        'lng' => -47.6492,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Piracicaba',
     'seo' => [
-        'title' => 'Motorista em Piracicaba: Centro, Cidade Alta e VCP',
-        'description' => 'Carro com motorista em Piracicaba para o Centro, Cidade Alta, ESALQ e o eixo até Viracopos (VCP). SP-304, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro, na Cidade Alta e no Viracopos',
-        'og_description' => 'Motorista em Piracicaba: hotel no Centro, pauta na ESALQ e o recuo rumo a VCP.',
-        'og_image_alt' => 'Sedan executivo em avenida de Piracicaba',
+        'title' => 'Motorista executivo em Piracicaba: Centro e VCP',
+        'description' => 'Carro com motorista em Piracicaba para Centro, Cidade Alta e VCP. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Piracicaba com motorista — Cidade Alta e Viracopos',
+        'og_description' => 'O motorista combina Centro com Viracopos (VCP), em Campinas. Informe nome do campus ou do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Piracicaba',
     ],
     'kicker' => 'Interior paulista · SP',
-    'h1' => 'Da Cidade Alta ao Centro sem perder a janela da ESALQ',
-    'preambulo' => 'Piracicaba alinha sede no Centro, pauta na Cidade Alta e o campus da ESALQ/USP no mesmo expediente. O motorista segura a Avenida Independência, a SP-304 Luiz de Queiroz e o recuo da Pádua Dias; o passageiro segura a reunião — não a vaga na porta do hotel nem o sentido da Rua do Porto no fim da tarde. O aeroporto prático da pauta longa é o Viracopos (VCP), em Campinas; o campo PIR de Piracicaba não é o portão comercial do voo de conexão.',
+    'h1' => 'Piracicaba: entre Centro, Cidade Alta e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Piracicaba',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Piracicaba embarca no VCP dentro da cidade?',
+            'resposta' => 'Não. De Piracicaba o VCP (Viracopos) fica em Campinas. O trecho sai de Centro pela SP-304.',
+        ],
+        [
+            'pergunta' => 'Em Piracicaba, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Piracicaba. Envie nome do campus ou do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Piracicaba vocês fazem Limeira?',
+            'resposta' => 'Sim, saindo de Piracicaba. Limeira não é o recorte de Centro; o horário pela SP-127 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Piracicaba, VCP e RAO são o mesmo recorte?',
+            'resposta' => 'Não, em Piracicaba. VCP fica em Campinas; RAO fica em Ribeirão Preto. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Piracicaba e o VCP',
+        'texto' => 'Diga o ponto em Centro ou Cidade Alta, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Piracicaba',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Piracicaba e o recorte de Interior paulista',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'campinas',
+            'ancora' => 'Motorista em campinas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'sao-paulo',
+            'ancora' => 'Motorista em sao paulo',
+        ],
+    ],
+    'preambulo' => 'Piracicaba usa Viracopos (VCP), em Campinas. Quem embarca em Centro não está no município da pista. A SP-304 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     'artigos' => [
         [
-            'h2' => 'O município pede campus e rodovia, não “no centro”',
-            'texto' => 'Centro, Cidade Alta, São Dimas e Nova Piracicaba não compartilham o mesmo recuo. Hotel (Ibis e similares, só como ponto de embarque), reunião na ESALQ ou na Unimep e o recorte até uma usina sucroenergética cabem no mesmo dia se a ordem da Independência e da Luiz de Queiroz já estiver no roteiro. “Me busca em Piracicaba” não coloca o carro na portaria da Pádua Dias.',
+            'h2' => 'Centro pede protocolo, não pin',
+            'texto' => 'Origem frequente para sede e hotel. Informe nome do campus ou do hotel. Centro não compartilha o recuo de Cidade Alta.',
         ],
         [
-            'h2' => 'ESALQ, Unimep e o silêncio da espera na portaria',
-            'texto' => 'Campus da ESALQ/USP, Unimep e as plantas do etanol pedem bloco, cancela e documento na lista. A espera discreta enquanto a visita corre integra o trecho quando já está no itinerário. Parque do Taquaral entra só como visita combinada — não como desvio turístico no meio da pauta sucroalcooleira.',
+            'h2' => 'Cidade Alta e Unimep',
+            'texto' => 'Cidade Alta pede bairro. Unimep pede campus. Quando Limeira entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela SP-127.',
         ],
         [
-            'h2' => 'Viracopos — VCP no relógio de Piracicaba',
-            'texto' => 'O voo comercial da pauta longa sai em geral pelo Aeroporto Internacional de Viracopos (VCP), pela SP-304 rumo a Campinas. O aeródromo de Piracicaba (PIR) não substitui esse portão. Combinamos o voo e a margem da Luiz de Queiroz; a espera no desembarque de Viracopos integra o trecho VCP quando o pouso já está no roteiro. A SP-127 (Fausto Santomauro / Cornélio Pires) entra quando a pauta vaza para o sul do estado.',
+            'h2' => 'Viracopos (VCP)',
+            'texto' => 'Viracopos (VCP) fica em Campinas, não em Piracicaba. O trecho sai pela SP-304. Diga o IATA e o número do voo.',
         ],
     ],
     'pauta' => [
-        'h2' => 'Itens que entram na ordem do dia em Piracicaba',
+        'h2' => 'Itens da ordem do dia em Piracicaba',
         'itens' => [
-            ['h3' => 'Centro, Rua do Porto e a Independência', 'texto' => 'Sede e o calçadão. Informe o prédio; o recuo do Centro não é o da Cidade Alta nem o da ESALQ.'],
-            ['h3' => 'Cidade Alta, São Dimas e Nova Piracicaba', 'texto' => 'Hotel, clínica e residencial. O nome do estabelecimento evita a volta na Boa Morte e na Armando de Salles Oliveira.'],
-            ['h3' => 'ESALQ, Unimep e as usinas', 'texto' => 'Portaria, bloco e documento na lista. Sem isso, o recuo do campus ou da planta não libera.'],
-            ['h3' => 'Quando a pauta aponta para o VCP ou a capital', 'texto' => 'Viracopos pela SP-304 não é o mesmo pedido urbano. São Paulo entra como viagem; o orçamento sai sob consulta.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do campus ou do hotel. Centro não compartilha o recuo de Cidade Alta.',
+            ],
+            [
+                'h3' => 'Cidade Alta',
+                'texto' => 'Origem frequente para bairro. Informe nome do campus ou do hotel. Cidade Alta não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Unimep',
+                'texto' => 'Origem frequente para campus. Informe nome do campus ou do hotel. Unimep não compartilha o recuo de Centro.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pauta a ESALQ e o VCP',
-    'faq' => [
-        ['pergunta' => 'O aeroporto comercial de Piracicaba é o PIR?', 'resposta' => 'O campo PIR não é o portão comercial da conexão. O voo prático da pauta longa sai em geral pelo Viracopos (VCP), em Campinas, pela SP-304.'],
-        ['pergunta' => 'Em Piracicaba, o motorista espera no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. Acompanhamos o painel com o número do voo; a espera no terminal faz parte do trecho Viracopos.'],
-        ['pergunta' => 'Vocês fazem Centro, Cidade Alta e a ESALQ no mesmo dia?', 'resposta' => 'Sim. Em Piracicaba, informe a ordem, o bloco do campus e o documento da portaria. Um motorista articula os três recuos.'],
-        ['pergunta' => 'Dá para ir ao Parque do Taquaral depois da reunião?', 'resposta' => 'Sim, só como visita combinada no itinerário. Não é o mesmo recorte da ESALQ; o horário sai sob consulta.'],
-        ['pergunta' => 'O carro segue à capital ou a Campinas no mesmo expediente?', 'resposta' => 'Sim, quando entram no roteiro. A SP-304 e a Anhanguera pedem margem própria; o orçamento sai à parte do trecho urbano.'],
-    ],
-    'cta' => [
-        'titulo' => 'Envie o campus junto com o horário do VCP',
-        'texto' => 'O orçamento de Piracicaba sai sob consulta. Centro, ESALQ e Viracopos no mesmo recado.',
-        'botao' => 'Solicitar carro em Piracicaba',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas e GRU na capital'],
     ],
 ];

@@ -1,0 +1,72 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "governador-valadares",
+    "nome": "Governador Valadares",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-116",
+            "destino": "Coronel Altino Machado",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Esplanada",
+        "Ilha dos Araújos",
+        "Universitário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Coronel Altino Machado",
+            "iata": "GVR",
+            "municipio": "Governador Valadares",
+            "acesso": "BR-116"
+        }
+    ],
+    "rodovias": [
+        "BR-116",
+        "BR-259",
+        "Avenida Minas Gerais"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "orla do Doce",
+        "campus"
+    ],
+    "vizinhos_pedido": [
+        "Teófilo Otoni",
+        "Ipatinga",
+        "Vitória"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GVR em Governador Valadares",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

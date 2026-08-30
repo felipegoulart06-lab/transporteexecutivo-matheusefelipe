@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "indaiatuba",
+    "nome": "Indaiatuba",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "SP-075",
+            "destino": "Viracopos",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Helvétia",
+        "Jardim Pompéia",
+        "Cidade Nova"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Viracopos",
+            "iata": "VCP",
+            "municipio": "Campinas",
+            "acesso": "acesso Helvétia / Santos Dumont"
+        }
+    ],
+    "rodovias": [
+        "SP-075",
+        "Bandeirantes",
+        "Avenida Engenheiro Fábio Roberto Barnabé"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "condomínio e VCP",
+        "bairro",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Campinas",
+        "Salto",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VCP em Campinas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

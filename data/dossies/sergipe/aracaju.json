@@ -1,0 +1,72 @@
+{
+    "estado": "sergipe",
+    "cidade": "aracaju",
+    "nome": "Aracaju",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Atalaia",
+            "eixo": "Avenida Beira Mar",
+            "destino": "Santa Maria",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Atalaia",
+        "13 de Julho",
+        "Centro",
+        "Coroa do Meio"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Santa Maria",
+            "iata": "AJU",
+            "municipio": "Aracaju",
+            "acesso": "Avenida Senador Júlio Leite"
+        }
+    ],
+    "rodovias": [
+        "Avenida Beira Mar",
+        "ponte do Imperador",
+        "SE-100"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "clínica e hotel",
+        "pauta institucional",
+        "orla"
+    ],
+    "vizinhos_pedido": [
+        "Barra dos Coqueiros",
+        "Nossa Senhora do Socorro",
+        "Maceió"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal AJU em Aracaju",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

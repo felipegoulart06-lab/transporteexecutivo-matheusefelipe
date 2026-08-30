@@ -1,0 +1,72 @@
+{
+    "estado": "pernambuco",
+    "cidade": "paulista",
+    "nome": "Paulista",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "PE-15",
+            "destino": "Guararapes Gilberto Freyre",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Janga",
+        "Maria Farinha",
+        "Paratibe"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Guararapes Gilberto Freyre",
+            "iata": "REC",
+            "municipio": "Recife",
+            "acesso": "PE-15"
+        }
+    ],
+    "rodovias": [
+        "PE-15",
+        "Avenida Dr. Cláudio José Gueiros Leite",
+        "BR-101"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "orla",
+        "orla e hotel",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Olinda",
+        "Recife",
+        "Igarassu"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal REC em Recife",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

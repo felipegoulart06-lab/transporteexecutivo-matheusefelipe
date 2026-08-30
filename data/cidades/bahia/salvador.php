@@ -5,51 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'baia',
     'cidade_nome' => 'Salvador',
-    'geo' => ['lat' => -12.9718, 'lng' => -38.5011],
+    'geo' => [
+        'lat' => -12.9718,
+        'lng' => -38.5011,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Salvador',
     'seo' => [
-        'title' => 'Traslado executivo em Salvador: orla, Centro e SSA',
-        'description' => 'Motorista executivo em Salvador para Barra, Caminho das Árvores, Centro e o aeroporto Luís Eduardo Magalhães. Orçamento sob consulta.',
-        'og_title' => 'Carro com motorista entre a orla de Salvador e o aeroporto SSA',
-        'og_description' => 'Traslado executivo na capital baiana: hotel na Barra, reunião no Iguatemi e o terminal SSA.',
-        'og_image_alt' => 'Carro executivo em avenida litorânea de Salvador',
+        'title' => 'Carro com motorista em Salvador: Caminho das Árvores e SSA',
+        'description' => 'Carro com motorista em Salvador para Barra e Ondina, Caminho das Árvores e SSA. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Salvador: Barra e Ondina e SSA',
+        'og_description' => 'O motorista combina Barra e Ondina com Luís Eduardo Magalhães (SSA), no próprio município. Informe nome do hotel e a ladeira.',
+        'og_image_alt' => 'Carro executivo em via de Salvador',
     ],
     'kicker' => 'Capital baiana · BA',
-    'h1' => 'Da Barra ao SSA sem perder o horário da reunião',
-    'faixas' => [
+    'h1' => 'Em Salvador: do embarque em Barra e Ondina ao SSA',
+    'faq_h2' => 'Dúvidas de quem embarca em Salvador',
+    'faq' => [
         [
-            'h2' => 'Salvador se mede em ladeira e em paralelismo de orla',
-            'texto' => 'A cidade não se cruza em linha reta. Hotel na Barra, reunião no Caminho das Árvores e voo no aeroporto Luís Eduardo Magalhães pedem um motorista que já saiu com margem — a Paralela e a Vale do Canela não perdoam o aceite tardio.',
+            'pergunta' => 'Em Salvador, o SSA fica no próprio município?',
+            'resposta' => 'Sim. Em Salvador, Luís Eduardo Magalhães (SSA) fica no município. Informe o acesso via Paralela.',
         ],
         [
-            'h2' => 'Três orlas, três relógios',
+            'pergunta' => 'Em Salvador, vocês buscam em Barra e Ondina?',
+            'resposta' => 'Sim, em Salvador. Envie nome do hotel e a ladeira em Barra e Ondina. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Salvador vocês fazem Lauro de Freitas?',
+            'resposta' => 'Sim, saindo de Salvador. Lauro de Freitas não é o recorte de Barra e Ondina; o horário pela Vale do Canela sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Salvador o carro fica entre Barra e Ondina e Caminho das Árvores?',
+            'resposta' => 'Sim, em Salvador. A hora à disposição cobre hotel na orla em Barra e Ondina e torre e convenções em Caminho das Árvores.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Salvador e o SSA',
+        'texto' => 'Diga o ponto em Barra e Ondina ou Caminho das Árvores, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Salvador',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'bahia',
+            'ancora' => 'Salvador e o recorte de Capital baiana',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'recife',
+            'ancora' => 'Motorista em recife',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'ceara',
+            'cidade' => 'fortaleza',
+            'ancora' => 'Motorista em fortaleza',
+        ],
+    ],
+    'faixas' => [
+        [
+            'h2' => 'Salvador se cruza por Paralela, não em linha reta',
+            'texto' => 'Salvador concentra Barra e Ondina (hotel na orla) e Luís Eduardo Magalhães (SSA) no mesmo município. O motorista precisa do ponto de embarque e do SSA no mesmo recado — “me busca em Salvador” não define o recuo.',
+        ],
+        [
+            'h2' => 'Três eixos, três recuos',
             'itens' => [
-                ['h3' => 'Barra e Ondina', 'texto' => 'Hotel e evento. O recuo na orla enche em feriado; o nome do hotel evita a volta no Farol.'],
-                ['h3' => 'Caminho das Árvores e Iguatemi', 'texto' => 'Torres e centro de convenções. O acesso pela Paralela muda o intervalo mais que a distância até a Barra.'],
-                ['h3' => 'Centro e Comércio', 'texto' => 'Pauta institucional e desembarque no Elevador. Informe a ladeira e o ponto de espera; o GPS insiste no sentido errado.'],
+                [
+                    'h3' => 'Barra e Ondina',
+                    'texto' => 'Origem frequente para hotel na orla. Informe nome do hotel e a ladeira. Barra e Ondina não compartilha o recuo de Caminho das Árvores.',
+                ],
+                [
+                    'h3' => 'Caminho das Árvores',
+                    'texto' => 'Origem frequente para torre e convenções. Informe nome do hotel e a ladeira. Caminho das Árvores não compartilha o recuo de Barra e Ondina.',
+                ],
+                [
+                    'h3' => 'Centro e Comércio',
+                    'texto' => 'Origem frequente para pauta institucional. Informe nome do hotel e a ladeira. Centro e Comércio não compartilha o recuo de Barra e Ondina.',
+                ],
             ],
         ],
         [
-            'h2' => 'SSA — o terminal que não fica na Barra',
-            'texto' => 'O Aeroporto Internacional de Salvador fica no trecho da Paralela, longe do Farol. Combinamos o voo e o saguão. A espera no desembarque integra o trecho; o passageiro não procura placa no meio do hall.',
+            'h2' => 'Luís Eduardo Magalhães — SSA',
+            'texto' => 'Luís Eduardo Magalhães (SSA) fica em Salvador. Acesso: Paralela. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Luís Eduardo Magalhães',
-    'faq' => [
-        ['pergunta' => 'Quanto tempo entre a Barra e o aeroporto de Salvador?', 'resposta' => 'O intervalo depende da Paralela e do horário. Marcamos margem; não vendemos minuto fixo de aplicativo.'],
-        ['pergunta' => 'Em Salvador, o motorista espera no SSA se o voo atrasar?', 'resposta' => 'Sim. Em Salvador, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Barra, Iguatemi e o Centro no mesmo dia?', 'resposta' => 'Sim. A ordem dos três muda o tempo. Um motorista à disposição evita três aceites em ladeira.'],
-        ['pergunta' => 'Dá para buscar no ferry e seguir ao aeroporto?', 'resposta' => 'Sim, com o horário da travessia e o do voo no mesmo recado. São dois relógios; o carro articula os dois.'],
-    ],
-    'cta' => [
-        'titulo' => 'Diga se o embarque é orla ou Paralela',
-        'texto' => 'O orçamento de Salvador sai sob consulta. Hotel, reunião e SSA no mesmo pedido.',
-        'botao' => 'Pedir traslado em Salvador',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'bahia', 'ancora' => 'Feira, Costa do Descobrimento e o recorte baiano'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'recife', 'ancora' => 'Recife Antigo, Boa Viagem e o REC'],
-        ['tipo' => 'cidade', 'estado' => 'ceara', 'cidade' => 'fortaleza', 'ancora' => 'Meireles, Aldeota e o aeroporto FOR'],
     ],
 ];

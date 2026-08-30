@@ -1,0 +1,72 @@
+{
+    "estado": "pernambuco",
+    "cidade": "cabo-de-santo-agostinho",
+    "nome": "Cabo de Santo Agostinho",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "PE-060",
+            "destino": "Guararapes Gilberto Freyre",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Suape",
+        "Gaibu",
+        "Ponte dos Carvalhos"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Guararapes Gilberto Freyre",
+            "iata": "REC",
+            "municipio": "Recife",
+            "acesso": "PE-060"
+        }
+    ],
+    "rodovias": [
+        "PE-060",
+        "BR-101",
+        "Acesso Suape"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "porto e estaleiro",
+        "orla",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Recife",
+        "Ipojuca",
+        "Jaboatão dos Guararapes"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal REC em Recife",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "estado": "paraiba",
+  "cidade": "campina-grande",
+  "nome": "Campina Grande",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Presidente João Suassuna (CPV)", "eixo": "Assis Chateaubriand / Av. Uberaba", "destino": "Centro", "motivo": "Pouso comercial no município"},
+    {"origem": "Hotel no Centro", "eixo": "malha urbana", "destino": "UFCG Bodocongó", "motivo": "Pauta acadêmica e portaria de campus"},
+    {"origem": "Campina Grande", "eixo": "BR-230", "destino": "João Pessoa / JPA (Bayeux)", "motivo": "Capital e terminal da RMJP vazam"}
+  ],
+  "eixos": ["Centro", "Bodocongó / UFCG", "CPV (Distrito Industrial)", "BR-230 para João Pessoa"],
+  "aeroportos": [
+    {"nome": "Aeroporto Presidente João Suassuna", "iata": "CPV", "municipio": "Campina Grande", "relacao": "Terminal no município; ICAO SBKG; Aena; malha doméstica em operação", "fonte": "aenabrasil.com.br CPV painel 2026-08-29 TAM3981 BSB AZU2692 REC AZU4289 CNF; Av. Uberaba s/n Distrito Industrial", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional Presidente Castro Pinto", "iata": "JPA", "municipio": "Bayeux", "relacao": "Vazão para João Pessoa; NÃO é Santa Rita", "fonte": "Aena Castro Pinto; município Bayeux na literatura aeroportuária; BR-230 DNIT", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-230", "fonte": "gov.br/dnit: BR-230/PB passa por João Pessoa e Campina Grande", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Centro", "UFCG Bodocongó Rua Aprígio Veloso 882", "CPV"],
+  "vizinhos_pedido": ["João Pessoa", "Bayeux (JPA)", "Recife (conexão CPV–REC)"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "CPV opera voo comercial em 2026-08-29", "fonte": "Painel Aena; LATAM BSB–CPV 25/05/2026", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Presidente João Suassuna (CPV) fica em Campina Grande e opera malha doméstica.", "publicado": true},
+    {"fato": "UFCG em Bodocongó", "fonte": "prefeitura.ufcg.edu.br Rua Aprígio Veloso 882 Bodocongó", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O campus da UFCG fica em Bodocongó.", "publicado": true},
+    {"fato": "JPA fica em Bayeux, não em Santa Rita nem em Campina", "fonte": "Denominação João Pessoa–Castro Pinto; município Bayeux", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O JPA fica em Bayeux; o trecho até João Pessoa é a BR-230.", "publicado": true}
+  ],
+  "descartado": [
+    "JPA em Santa Rita (erro da versão genérica)",
+    "BR-104 como eixo principal João Pessoa (landing usa BR-230)",
+    "[VERIFICAR] prefeito de Campina Grande"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
+}

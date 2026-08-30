@@ -5,52 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'gaucha',
     'cidade_nome' => 'Chapecó',
-    'geo' => ['lat' => -27.1004, 'lng' => -52.6152],
+    'geo' => [
+        'lat' => -27.1004,
+        'lng' => -52.6152,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Chapecó',
     'seo' => [
-        'title' => 'Motorista em Chapecó: Centro, Presidente Médici e XAP',
-        'description' => 'Carro com motorista em Chapecó para o Centro, Presidente Médici, Efapi e o aeroporto Serafin Enoss Bertaso. Oeste, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro de Chapecó, no Médici e no XAP',
-        'og_description' => 'Motorista no oeste catarinense: hotel, pauta agroindustrial e o terminal XAP.',
-        'og_image_alt' => 'Sedan executivo em avenida de Chapecó',
+        'title' => 'Traslado executivo em Chapecó: Centro e BR-282',
+        'description' => 'Motorista executivo em Chapecó: Centro, Efapi e Serafin Enoss Bertaso (XAP), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Chapecó: Centro e XAP',
+        'og_description' => 'O motorista combina Centro com Serafin Enoss Bertaso (XAP), no próprio município. Informe nome na lista da portaria.',
+        'og_image_alt' => 'Carro executivo em via de Chapecó',
     ],
     'kicker' => 'Oeste catarinense · SC',
-    'h1' => 'Do XAP ao Centro sem perder a janela da planta no Efapi',
+    'h1' => 'Chapecó: entre Centro, Efapi e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Chapecó',
+    'faq' => [
+        [
+            'pergunta' => 'Em Chapecó, o XAP fica no próprio município?',
+            'resposta' => 'Sim. Em Chapecó, Serafin Enoss Bertaso (XAP) fica no município. Informe o acesso via SC-480.',
+        ],
+        [
+            'pergunta' => 'Em Chapecó, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Chapecó. Envie nome na lista da portaria em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Chapecó vocês fazem Concórdia?',
+            'resposta' => 'Sim, saindo de Chapecó. Concórdia não é o recorte de Centro; o horário pela BR-480 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Chapecó o carro fica entre Centro e Efapi?',
+            'resposta' => 'Sim, em Chapecó. A hora à disposição cobre sede e hotel em Centro e parque industrial em Efapi.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Chapecó e o XAP',
+        'texto' => 'Diga o ponto em Centro ou Efapi, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Chapecó',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'santa-catarina',
+            'ancora' => 'Chapecó e o recorte de Oeste catarinense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'santa-catarina',
+            'cidade' => 'florianopolis',
+            'ancora' => 'Motorista em florianopolis',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-grande-do-sul',
+            'cidade' => 'caxias-do-sul',
+            'ancora' => 'Motorista em caxias do sul',
+        ],
+    ],
     'coluna' => [
-        'h2' => 'Chapecó é agroindústria no mapa e BR-282 no relógio — o app não lê o turno da planta',
+        'h2' => 'Chapecó no mapa e na BR-282',
         'texto' => [
-            'Centro, Presidente Médici, Efapi e o aeroporto Serafin Enoss Bertaso (XAP) cabem no mesmo expediente. Hotel (Copacabana, Slim, similares) e a Getúlio Vargas concentram embarque; o recuo pede o nome, não “no Centro”.',
-            'Quando a pauta aponta para Xanxerê, Concórdia ou a fronteira com a Argentina, o trecho deixa de ser urbano. O carro executivo na cidade é de espera e de sigilo — comitiva de frigorífico, visita a clínica, jantar no Médici.',
+            'Chapecó concentra Centro (sede e hotel) e Serafin Enoss Bertaso (XAP) no mesmo município. O motorista precisa do ponto de embarque e do XAP no mesmo recado — “me busca em Chapecó” não define o recuo.',
+            'Efapi pede parque industrial. Presidente Médici pede bairro. Quando Concórdia entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-480.',
         ],
     ],
     'lateral' => [
-        'h2' => 'Pontos que o pedido chapecoense mais cita',
+        'h2' => 'Pontos que o pedido em Chapecó mais cita',
         'itens' => [
-            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Em Chapecó, sede, hotel e o calçadão. Informe o número; a avenida muda de caráter a cada quadra.'],
-            ['h3' => 'Presidente Médici, Efapi e a zona industrial', 'texto' => 'Plantas e o recinto da Efapi. Protocolo de portaria entra no roteiro junto com o turno.'],
-            ['h3' => 'Aeroporto — XAP', 'texto' => 'Terminal da cidade. Combinamos o voo. A espera no desembarque integra o trecho XAP.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome na lista da portaria. Centro não compartilha o recuo de Efapi.',
+            ],
+            [
+                'h3' => 'Efapi',
+                'texto' => 'Origem frequente para parque industrial. Informe nome na lista da portaria. Efapi não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Presidente Médici',
+                'texto' => 'Origem frequente para bairro. Informe nome na lista da portaria. Presidente Médici não compartilha o recuo de Centro.',
+            ],
         ],
     ],
     'faixa' => [
-        'h2' => 'Rotas urbanas e o salto para o oeste e a fronteira',
-        'texto' => 'XAP → hotel no Centro → planta no Efapi → Arena Condá só se o evento estiver no roteiro. Xanxerê, Concórdia ou São Miguel do Oeste entram como viagem, com horário de BR-282, não como segunda corrida no Centro.',
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no Serafim Enoss Bertaso',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Chapecó fica longe do Centro?', 'resposta' => 'Em Chapecó, é trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no XAP se o voo atrasar?', 'resposta' => 'Sim. Combinamos o XAP com o número do voo; a espera no Serafim Enoss Bertaso integra o trecho desde o Centro ou a Efapi.'],
-        ['pergunta' => 'Em Chapecó, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista da portaria e o documento pedido. Sem protocolo, a cancela do parque industrial não libera.'],
-        ['pergunta' => 'Dá para seguir a Concórdia depois do hotel?', 'resposta' => 'Sim, como viagem rumo a Concórdia. Não é o mesmo recorte do Centro chapecoense; o orçamento sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte o hotel do Centro ao horário do XAP',
-        'texto' => 'O orçamento de Chapecó sai sob consulta. Efapi, planta e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir carro em Chapecó',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'santa-catarina', 'ancora' => 'Joinville, Blumenau e o recorte catarinense'],
-        ['tipo' => 'cidade', 'estado' => 'santa-catarina', 'cidade' => 'florianopolis', 'ancora' => 'Jurerê, Centro e o Hercílio Luz'],
-        ['tipo' => 'cidade', 'estado' => 'rio-grande-do-sul', 'cidade' => 'caxias-do-sul', 'ancora' => 'Centro, São Pelegrino e o CXJ'],
+        'h2' => 'Rotas urbanas e o salto para Concórdia',
+        'texto' => 'Centro → Concórdia: Transfer intermunicipal. Não é o mesmo recorte de Efapi; o horário sai sob consulta.',
     ],
 ];

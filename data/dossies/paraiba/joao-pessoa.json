@@ -1,0 +1,72 @@
+{
+    "estado": "paraiba",
+    "cidade": "joao-pessoa",
+    "nome": "João Pessoa",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Tambaú",
+            "eixo": "BR-230",
+            "destino": "Castro Pinto",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Tambaú",
+        "Manaíra",
+        "Centro",
+        "Bessa"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Castro Pinto",
+            "iata": "JPA",
+            "municipio": "Santa Rita",
+            "acesso": "BR-230"
+        }
+    ],
+    "rodovias": [
+        "BR-230",
+        "Epitácio Pessoa",
+        "Cabo Branco"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "orla executiva",
+        "pauta institucional",
+        "hotel"
+    ],
+    "vizinhos_pedido": [
+        "Cabedelo",
+        "Bayeux",
+        "Campina Grande"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal JPA em Santa Rita",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

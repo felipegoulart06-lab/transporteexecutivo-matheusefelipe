@@ -1,0 +1,36 @@
+{
+  "estado": "goias",
+  "cidade": "anapolis",
+  "nome": "Anápolis",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Hotel no Centro ou no Jundiaí", "eixo": "acessos ao distrito", "destino": "DAIA", "motivo": "Pauta na planta e protocolo de portaria"},
+    {"origem": "Anápolis", "eixo": "BR-153", "destino": "Santa Genoveva (GYN), Goiânia", "motivo": "Voo comercial regular não parte de Anápolis"},
+    {"origem": "DAIA / hotel", "eixo": "BR-060", "destino": "BSB (Lago Sul, DF)", "motivo": "Pauta vaza para Brasília"}
+  ],
+  "eixos": ["Centro", "Jundiaí", "DAIA", "BR-060 / BR-153 para GYN e BSB"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Goiânia – Santa Genoveva", "iata": "GYN", "municipio": "Goiânia", "relacao": "Destino de voo comercial da pauta; não fica em Anápolis", "fonte": "aeroportodegoiania.com/localizacao Alameda Aeroporto Goiânia", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de Brasília – Presidente Juscelino Kubitschek", "iata": "BSB", "municipio": "Lago Sul (Distrito Federal)", "relacao": "Segundo destino aéreo; eixo BR-060", "fonte": "Denominação JK; Lago Sul DF", "data": "2026-08-29"},
+    {"nome": "Aeródromo de Anápolis (APS / SWNS)", "iata": "APS", "municipio": "Anápolis", "relacao": "NÃO publicar como voo comercial regular. Aviação geral / não regular; pista de cargas sem homologação plena.", "fonte": "Gazeta do Povo: sem voos regulares de companhias no terminal de pax; emsampa: nenhuma empresa regular", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-153", "fonte": "Eixo Goiânia–Anápolis; Codego DAIA", "data": "2026-08-29"},
+    {"nome": "BR-060", "fonte": "Eixo Brasília–Goiânia / entorno de Anápolis", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["DAIA Codego", "Centro", "Jundiaí"],
+  "vizinhos_pedido": ["Goiânia (GYN)", "Brasília (BSB)", "Aparecida de Goiânia"],
+  "prefeito": {"nome": "Márcio Aurélio Correa", "fonte": "Wikipedia Anápolis — cruzar IBGE", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "DAIA é Distrito Agroindustrial de Anápolis", "fonte": "codego.com.br/distritos-industriais/anapolis/", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O Distrito Agroindustrial de Anápolis (DAIA) concentra as plantas.", "publicado": true},
+    {"fato": "Sem voo comercial regular de passageiros em Anápolis", "fonte": "Gazeta do Povo; emsampa", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Anápolis não opera voo regular de passageiros; o embarque comercial é em Goiânia (GYN) ou em Brasília (BSB).", "publicado": true}
+  ],
+  "descartado": [
+    "Inventar aeroporto comercial de passageiros em Anápolis",
+    "DAE (sigla errada da landing antiga)",
+    "[VERIFICAR] linha regular em APS após 2026-08-29",
+    "[VERIFICAR] prefeito no IBGE"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
+}

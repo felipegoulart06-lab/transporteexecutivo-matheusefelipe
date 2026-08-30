@@ -5,73 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Uberaba',
-    'geo' => ['lat' => -19.7472, 'lng' => -47.9381],
+    'geo' => [
+        'lat' => -19.7472,
+        'lng' => -47.9381,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Uberaba',
     'seo' => [
-        'title' => 'Traslado executivo em Uberaba: Centro, Estados Unidos e UBA',
-        'description' => 'Motorista executivo em Uberaba para o Centro, Estados Unidos, Santa Maria e o aeroporto Mário de Almeida Franco. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro de Uberaba, no Estados Unidos e no UBA',
-        'og_description' => 'Traslado no Triângulo Mineiro: hotel, pauta pecuária e o terminal UBA.',
-        'og_image_alt' => 'Sedan executivo em avenida de Uberaba',
+        'title' => 'Carro com motorista em Uberaba: Estados Unidos e UBA',
+        'description' => 'Carro com motorista em Uberaba para Centro, Estados Unidos e UBA. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Uberaba com motorista — Estados Unidos e Mário de Almeida Franco',
+        'og_description' => 'O motorista combina Centro com Mário de Almeida Franco (UBA), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Uberaba',
     ],
     'kicker' => 'Triângulo Mineiro · MG',
-    'h1' => 'Do UBA ao Estados Unidos sem perder a pauta no Centro',
-    'lead' => 'Uberaba é o nó da pecuária e da Expozebu. O motorista segura a Getúlio Vargas e a Santos Dumont; o passageiro segura a reunião — não a vaga na porta do hotel.',
-    'contexto' => [
-        'h2' => 'A cidade do zebu cobra recinto e bairro, não “no centro”',
-        'texto' => [
-            'Centro, Estados Unidos, Santa Maria e o Parque Fernando Costa não compartilham o mesmo recuo. Hotel (Ibis, Grand Uberaba, similares), clínica no Estados Unidos e voo no Mário de Almeida Franco (UBA) cabem no mesmo expediente se a ordem das avenidas já estiver no roteiro.',
-            'Na semana da Expozebu o intervalo muda. Combinamos o portão do parque; “na exposição” não define o recuo. Quando a pauta aponta para Uberlândia ou à BR-050, o trecho deixa de ser só urbano.',
-        ],
-    ],
-    'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
-        'itens' => [
-            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Em Uberaba, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Estados Unidos e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da Santos Dumont.'],
-            ['h3' => 'Santa Maria, Olinda e o Uniube', 'texto' => 'Campus e pauta residencial. O recuo pede bloco e número; “no Uniube” não basta.'],
-            ['h3' => 'Parque Fernando Costa — Expozebu', 'texto' => 'Evento e recinto. Portão e horário de operação entram no roteiro; o carro espera onde combinado.'],
-        ],
-    ],
-    'aeroportos' => [
-        'h2' => 'Mário de Almeida Franco — UBA no meio da pauta',
-        'itens' => [
-            ['h3' => 'Uberaba — UBA', 'texto' => 'Terminal da cidade, no recorte urbano. Combinamos o voo. A espera no desembarque integra o trecho UBA.'],
-            ['h3' => 'Quando a pauta aponta para Uberlândia', 'texto' => 'O trecho Uberaba–UDI não é o mesmo pedido do Centro. Se a reunião vaza pela BR-050, o orçamento sai à parte.'],
-        ],
-    ],
-    'rotas' => [
-        'h2' => 'Trajetos que a agenda uberabense mais pede',
-        'itens' => [
-            ['titulo' => 'UBA → hotel no Estados Unidos', 'texto' => 'Em Uberaba, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'Hotel → Centro → Parque Fernando Costa', 'texto' => 'Sede e recinto só se o evento estiver no roteiro. Um motorista cobre os três.'],
-            ['titulo' => 'Uberaba → Uberlândia no mesmo dia', 'texto' => 'Em Uberaba, quando a pauta cruza o Triângulo, o trecho deixa de ser urbano. Horário sob consulta.'],
-        ],
-    ],
-    'como' => [
-        'h2' => 'Como o carro entra na grade em Uberaba',
-        'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Estados Unidos, Centro ou Santa Maria. Autocomplete não resolve o portão do parque.'],
-            ['titulo' => 'Hotel ou UBA', 'texto' => 'Em Uberaba, diga se o embarque é o aeroporto ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Uberaba, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no UBA',
+    'h1' => 'Em Uberaba: do embarque em Centro ao UBA',
+    'faq_h2' => 'Dúvidas de quem embarca em Uberaba',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Uberaba fica longe do Estados Unidos?', 'resposta' => 'É trecho urbano. Marcamos margem: a avenida e o horário de pico — e o da Expozebu — alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no UBA se o voo atrasar?', 'resposta' => 'Sim. Em Uberaba, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram no Parque Fernando Costa na Expozebu?', 'resposta' => 'Levamos até o portão combinado. Credencial do recinto é do passageiro; o carro espera onde combinado.'],
-        ['pergunta' => 'Dá para seguir a Uberlândia depois do hotel?', 'resposta' => 'Sim. Em Uberaba, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        [
+            'pergunta' => 'Em Uberaba, o UBA fica no próprio município?',
+            'resposta' => 'Sim. Em Uberaba, Mário de Almeida Franco (UBA) fica no município. Informe o acesso via BR-050.',
+        ],
+        [
+            'pergunta' => 'Em Uberaba, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Uberaba. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Uberaba vocês fazem Uberlândia?',
+            'resposta' => 'Sim, saindo de Uberaba. Uberlândia não é o recorte de Centro; o horário pela BR-262 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Uberaba o carro fica entre Centro e Estados Unidos?',
+            'resposta' => 'Sim, em Uberaba. A hora à disposição cobre sede e hotel em Centro e bairro em Estados Unidos.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Junte o Estados Unidos ao horário do UBA',
-        'texto' => 'O orçamento de Uberaba sai sob consulta. Centro, recinto e terminal no mesmo WhatsApp.',
+        'titulo' => 'Informe o embarque em Uberaba e o UBA',
+        'texto' => 'Diga o ponto em Centro ou Estados Unidos, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Uberaba',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'minas-gerais', 'ancora' => 'Confins, Vale do Aço e a agenda mineira'],
-        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'uberlandia', 'ancora' => 'Umuarama, Centro e o aeroporto UDI'],
-        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'goiania', 'ancora' => 'Bueno, Marista e o Santa Genoveva'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'minas-gerais',
+            'ancora' => 'Uberaba e o recorte de Triângulo Mineiro',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'minas-gerais',
+            'cidade' => 'uberlandia',
+            'ancora' => 'Motorista em uberlandia',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'goias',
+            'cidade' => 'goiania',
+            'ancora' => 'Motorista em goiania',
+        ],
+    ],
+    'lead' => 'Uberaba concentra Centro (sede e hotel) e Mário de Almeida Franco (UBA) no mesmo município. O motorista precisa do ponto de embarque e do UBA no mesmo recado — “me busca em Uberaba” não define o recuo.',
+    'contexto' => [
+        'h2' => 'Uberaba se mede em BR-050, não em pin de aplicativo',
+        'texto' => [
+            'Uberaba concentra Centro (sede e hotel) e Mário de Almeida Franco (UBA) no mesmo município. O motorista precisa do ponto de embarque e do UBA no mesmo recado — “me busca em Uberaba” não define o recuo.',
+            'Estados Unidos pede bairro. Universitário pede UNIUBE. Quando Uberlândia entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-262.',
+        ],
+    ],
+    'bairros' => [
+        'h2' => 'Eixos de embarque em Uberaba',
+        'itens' => [
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Estados Unidos.',
+            ],
+            [
+                'h3' => 'Estados Unidos',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Estados Unidos não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Universitário',
+                'texto' => 'Origem frequente para UNIUBE. Informe nome do hotel. Universitário não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Parque das Américas',
+                'texto' => 'Origem frequente para residencial. Informe nome do hotel. Parque das Américas não compartilha o recuo de Centro.',
+            ],
+        ],
+    ],
+    'aeroportos' => [
+        'h2' => 'O terminal que a agenda de Uberaba realmente usa',
+        'itens' => [
+            [
+                'h3' => 'Mário de Almeida Franco — UBA',
+                'texto' => 'Mário de Almeida Franco (UBA) fica em Uberaba. Acesso: BR-050. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'BR-050 e a vazão para Uberlândia',
+                'texto' => 'Uberlândia e Ribeirão Preto aparecem no mesmo pedido de Uberaba. Isso é viagem, não segunda corrida em Centro.',
+            ],
+        ],
+    ],
+    'rotas' => [
+        'h2' => 'Trajetos que o pedido em Uberaba mais combina',
+        'itens' => [
+            [
+                'titulo' => 'Centro → UBA',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-050.',
+            ],
+            [
+                'titulo' => 'UBA → Estados Unidos',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel.',
+            ],
+            [
+                'titulo' => 'Centro → Uberlândia',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Estados Unidos; o horário sai sob consulta.',
+            ],
+        ],
+    ],
+    'como' => [
+        'h2' => 'Como o carro entra na pauta em Uberaba',
+        'passos' => [
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o UBA ou Uberlândia entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Uberaba, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

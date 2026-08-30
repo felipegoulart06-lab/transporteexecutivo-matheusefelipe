@@ -1,0 +1,71 @@
+{
+    "estado": "para",
+    "cidade": "parauapebas",
+    "nome": "Parauapebas",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "PA-275",
+            "destino": "Carajás",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Rio Verde",
+        "Cidade Nova",
+        "Carajás"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Carajás",
+            "iata": "CKS",
+            "municipio": "Parauapebas",
+            "acesso": "PA-275"
+        }
+    ],
+    "rodovias": [
+        "PA-275",
+        "Avenida I"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "mina e portaria"
+    ],
+    "vizinhos_pedido": [
+        "Marabá",
+        "Canaã dos Carajás",
+        "Belém"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CKS em Parauapebas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

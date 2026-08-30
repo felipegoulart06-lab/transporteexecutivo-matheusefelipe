@@ -5,64 +5,110 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'Cuiabá',
-    'geo' => ['lat' => -15.601, 'lng' => -56.0974],
+    'geo' => [
+        'lat' => -15.601,
+        'lng' => -56.0974,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Cuiabá',
     'seo' => [
-        'title' => 'Motorista executivo em Cuiabá: Centro, Goiabeiras e CGB',
-        'description' => 'Carro com motorista em Cuiabá para o Centro, Goiabeiras, Jardim das Américas, Várzea Grande e o aeroporto Marechal Rondon. Rotas e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro de Cuiabá e no Marechal Rondon',
-        'og_description' => 'Motorista na capital mato-grossense: hotel, Arena Pantanal e o terminal CGB em Várzea Grande.',
-        'og_image_alt' => 'Sedan executivo em avenida de Cuiabá sob sol do cerrado',
+        'title' => 'Carro com motorista em Cuiabá: Jardim Cuiabá e CGB',
+        'description' => 'Motorista executivo em Cuiabá: Centro, Jardim Cuiabá e Marechal Rondon (CGB), em Várzea Grande. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Cuiabá com motorista — Jardim Cuiabá e Marechal Rondon',
+        'og_description' => 'O motorista combina Centro com Marechal Rondon (CGB), em Várzea Grande. Informe nome do hotel ou da sede.',
+        'og_image_alt' => 'Carro executivo em via de Cuiabá',
     ],
     'kicker' => 'Capital mato-grossense · MT',
-    'h1' => 'Do Marechal Rondon ao Centro sem perder a janela do Pantanal',
-    'olho' => 'Cuiabá é quente no asfalto e longa no trecho até o aeroporto, que fica em Várzea Grande. O motorista segura a Julio Muller; o passageiro segura a pauta — e o horário do voo para o Pantanal, quando houver.',
-    'capitulos' => [
+    'h1' => 'Em Cuiabá, de Centro a Marechal Rondon (CGB), em Várzea Grande',
+    'faq_h2' => 'Dúvidas de quem embarca em Cuiabá',
+    'faq' => [
         [
-            'h2' => 'A capital e Várzea Grande não se separam no mapa — separam-se no recuo',
-            'texto' => 'Hotel no Centro ou em Goiabeiras, reunião no CPA e voo no Marechal Rondon (CGB) cabem no mesmo dia. O terminal não fica na porta do hotel: fica do outro lado da ponte, em Várzea Grande. A margem sai do embarque, não do saguão.',
+            'pergunta' => 'Quem está em Cuiabá embarca no CGB dentro da cidade?',
+            'resposta' => 'Não. De Cuiabá o CGB (Marechal Rondon) fica em Várzea Grande. O trecho sai de Centro pela BR-364.',
         ],
         [
-            'h2' => 'Onde o embarque cuiabano mais se concentra',
+            'pergunta' => 'Em Cuiabá, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Cuiabá. Envie nome do hotel ou da sede em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Cuiabá vocês fazem Várzea Grande?',
+            'resposta' => 'Sim, saindo de Cuiabá. Várzea Grande não é o recorte de Centro; o horário pela BR-163 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Cuiabá o carro fica entre Centro e Jardim Cuiabá?',
+            'resposta' => 'Sim, em Cuiabá. A hora à disposição cobre sede e hotel em Centro e bairro executivo em Jardim Cuiabá.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Cuiabá e o CGB',
+        'texto' => 'Diga o ponto em Centro ou Jardim Cuiabá, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Cuiabá',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'mato-grosso',
+            'ancora' => 'Cuiabá e o recorte de Capital mato-grossense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'goias',
+            'cidade' => 'goiania',
+            'ancora' => 'Motorista em goiania',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'mato-grosso-do-sul',
+            'cidade' => 'campo-grande',
+            'ancora' => 'Motorista em campo grande',
+        ],
+    ],
+    'olho' => 'Centro e Marechal Rondon (CGB), em Várzea Grande não cabem no mesmo aceite tardio.',
+    'capitulos' => [
+        [
+            'h2' => 'Centro e o recuo da pauta',
+            'texto' => 'Cuiabá usa Marechal Rondon (CGB), em Várzea Grande. Quem embarca em Centro não está no município da pista. A BR-364 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Jardim Cuiabá, CPA e a ordem do dia',
             'itens' => [
-                ['h3' => 'Centro e a Prainha', 'texto' => 'Sede, mercado e o calçadão. Informe o prédio; o recuo do Centro Histórico não é o da arena.'],
-                ['h3' => 'Goiabeiras e o Jardim das Américas', 'texto' => 'Hotéis (Deville, similar) e clínicas. A Av. Miguel Sutil muda o intervalo no fim da tarde.'],
-                ['h3' => 'CPA e o Tijucal', 'texto' => 'Pauta de governo e condomínio. O número da avenida importa mais que “no CPA”.'],
+                [
+                    'h3' => 'Jardim Cuiabá',
+                    'texto' => 'Origem frequente para bairro executivo. Informe nome do hotel ou da sede. Jardim Cuiabá não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'CPA',
+                    'texto' => 'Origem frequente para eixo residencial. Informe nome do hotel ou da sede. CPA não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Goiabeiras',
+                    'texto' => 'Origem frequente para acesso ao CGB. Informe nome do hotel ou da sede. Goiabeiras não compartilha o recuo de Centro.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas de trabalho, arena e porta do Pantanal',
-            'texto' => 'CGB → hotel em Goiabeiras → Centro → Arena Pantanal só se o evento estiver no roteiro. Outro clássico: hotel → Chapada dos Guimarães como viagem, não como corrida urbana. Quem segue a Poconé ou à Transpantaneira combina o trecho à parte, com horário de estrada de terra.',
-        ],
-        [
             'h2' => 'Marechal Rondon — CGB',
-            'texto' => 'O aeroporto internacional fica em Várzea Grande. Combinamos o voo. A espera no desembarque integra o trecho CGB. Até Goiabeiras, a ponte e a Julio Muller pesam mais que o quilômetro no mapa.',
+            'texto' => 'Marechal Rondon (CGB) fica em Várzea Grande, não em Cuiabá. O trecho sai pela ponte Cuiabá–VG. Diga o IATA e o número do voo.',
         ],
     ],
     'passos' => [
-        'h2' => 'Três dados que evitam atraso na capital',
+        'h2' => 'Como solicitar em Cuiabá',
         'itens' => [
-            ['num' => '01', 'titulo' => 'Cuiabá ou Várzea Grande', 'texto' => 'Hotel e aeroporto não estão no mesmo recuo. Diga o lado da ponte.'],
-            ['num' => '02', 'titulo' => 'Voo no CGB', 'texto' => 'Em Cuiabá, número e horário. O carro sai com margem, não no minuto do check-in.'],
-            ['num' => '03', 'titulo' => 'Chapada ou cidade', 'texto' => 'Visita à Chapada entra como viagem. O urbano é outro orçamento.'],
+            [
+                'num' => '01',
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel ou da sede. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'num' => '02',
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o CGB ou Várzea Grande entra no dia.',
+            ],
+            [
+                'num' => '03',
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Cuiabá, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Marechal Rondon',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Cuiabá fica na capital?', 'resposta' => 'O CGB fica em Várzea Grande. O trecho até Goiabeiras ou o Centro entra no roteiro com margem.'],
-        ['pergunta' => 'Em Cuiabá, o motorista espera no CGB se o voo atrasar?', 'resposta' => 'Sim. Em Cuiabá, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem a Chapada dos Guimarães no mesmo dia?', 'resposta' => 'Sim, quando a Chapada entra no roteiro. Não é o mesmo recorte do Centro; o intervalo sai sob consulta.'],
-        ['pergunta' => 'Dá para ir à Arena Pantanal e voltar ao hotel?', 'resposta' => 'Sim. Informe o portão e se o carro permanece no evento.'],
-    ],
-    'cta' => [
-        'titulo' => 'Marque o CGB no mesmo recado do hotel',
-        'texto' => 'O orçamento de Cuiabá sai sob consulta. Ponte, Centro e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Cuiabá',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'mato-grosso', 'ancora' => 'Rondonópolis, Sinop e o recorte mato-grossense'],
-        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'goiania', 'ancora' => 'Bueno, Marista e o Santa Genoveva'],
-        ['tipo' => 'cidade', 'estado' => 'mato-grosso-do-sul', 'cidade' => 'campo-grande', 'ancora' => 'Centro, shopping e o CGR'],
     ],
 ];

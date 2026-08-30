@@ -5,64 +5,110 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'Montes Claros',
-    'geo' => ['lat' => -16.7282, 'lng' => -43.8582],
+    'geo' => [
+        'lat' => -16.7282,
+        'lng' => -43.8582,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Montes Claros',
     'seo' => [
-        'title' => 'Motorista executivo em Montes Claros: Centro, Ibituruna e MOC',
-        'description' => 'Carro com motorista em Montes Claros para o Centro, Ibituruna, Major Prates e o aeroporto Mário Ribeiro. Norte de Minas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro, no Ibituruna e no aeroporto MOC',
-        'og_description' => 'Motorista no Norte de Minas: hotel, pauta no Centro e o terminal MOC.',
-        'og_image_alt' => 'Sedan executivo em avenida de Montes Claros',
+        'title' => 'Motorista executivo em Montes Claros: Centro e MOC',
+        'description' => 'Carro com motorista em Montes Claros para Centro, Ibituruna e MOC. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Montes Claros: hotel, Centro e MOC',
+        'og_description' => 'O motorista combina Centro com Mário Ribeiro (MOC), no próprio município. Informe nome do hotel ou do campus.',
+        'og_image_alt' => 'Carro executivo em via de Montes Claros',
     ],
     'kicker' => 'Norte de Minas · MG',
-    'h1' => 'Do MOC ao Ibituruna sem perder a pauta no Centro',
-    'olho' => 'Montes Claros é o polo do Norte de Minas. O motorista segura a Mestra Fininha e a Independência; o passageiro segura a reunião — e o horário do voo, quando houver.',
-    'capitulos' => [
+    'h1' => 'Em Montes Claros: do embarque em Centro ao MOC',
+    'faq_h2' => 'Dúvidas de quem embarca em Montes Claros',
+    'faq' => [
         [
-            'h2' => 'A capital do norte mineiro e o aeroporto no recorte da cidade',
-            'texto' => 'Centro, Ibituruna, Major Prates e a Unimontes cabem no mesmo expediente. O Mário Ribeiro (MOC) fica no município. Hotel (Ibis, similar) e pauta no Centro pedem o nome do prédio; “em Montes Claros” não define o recuo.',
+            'pergunta' => 'Em Montes Claros, o MOC fica no próprio município?',
+            'resposta' => 'Sim. Em Montes Claros, Mário Ribeiro (MOC) fica no município. Informe o acesso via BR-135.',
         ],
         [
-            'h2' => 'Onde o embarque montes-clarense mais se concentra',
+            'pergunta' => 'Em Montes Claros, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Montes Claros. Envie nome do hotel ou do campus em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Montes Claros vocês fazem Janaúba?',
+            'resposta' => 'Sim, saindo de Montes Claros. Janaúba não é o recorte de Centro; o horário pela BR-251 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Montes Claros o carro fica entre Centro e Ibituruna?',
+            'resposta' => 'Sim, em Montes Claros. A hora à disposição cobre sede e hotel em Centro e Unimontes em Ibituruna.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Montes Claros e o MOC',
+        'texto' => 'Diga o ponto em Centro ou Ibituruna, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Montes Claros',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'minas-gerais',
+            'ancora' => 'Montes Claros e o recorte de Norte de Minas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'minas-gerais',
+            'cidade' => 'belo-horizonte',
+            'ancora' => 'Motorista em belo horizonte',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'vitoria-da-conquista',
+            'ancora' => 'Motorista em vitoria da conquista',
+        ],
+    ],
+    'olho' => 'Centro e Mário Ribeiro (MOC), no próprio município não cabem no mesmo aceite tardio.',
+    'capitulos' => [
+        [
+            'h2' => 'Centro e o recuo da pauta',
+            'texto' => 'Montes Claros concentra Centro (sede e hotel) e Mário Ribeiro (MOC) no mesmo município. O motorista precisa do ponto de embarque e do MOC no mesmo recado — “me busca em Montes Claros” não define o recuo.',
+        ],
+        [
+            'h2' => 'Ibituruna, Todos os Santos e a ordem do dia',
             'itens' => [
-                ['h3' => 'Centro e a Mestra Fininha', 'texto' => 'Em Montes Claros, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-                ['h3' => 'Ibituruna, Major Prates e o shopping', 'texto' => 'Clínicas, torres e o eixo residencial. “No Ibituruna” não define a entrada do condomínio.'],
-                ['h3' => 'Unimontes e o campus', 'texto' => 'Em Montes Claros, pauta acadêmica. O recuo pede bloco e portaria, não GPS na reitoria.'],
+                [
+                    'h3' => 'Ibituruna',
+                    'texto' => 'Origem frequente para Unimontes. Informe nome do hotel ou do campus. Ibituruna não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Todos os Santos',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel ou do campus. Todos os Santos não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Major Prates',
+                    'texto' => 'Origem frequente para acesso. Informe nome do hotel ou do campus. Major Prates não compartilha o recuo de Centro.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas de trabalho, campus e o salto para o sertão',
-            'texto' => 'MOC → hotel no Centro → Ibituruna → Unimontes só se a ordem estiver no roteiro. Outro clássico: hotel → Janaúba, Pirapora ou a BR-135 como viagem, não como corrida urbana.',
-        ],
-        [
             'h2' => 'Mário Ribeiro — MOC',
-            'texto' => 'O aeroporto fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho MOC. Até o Centro ou o Ibituruna, a avenida pesa mais que o quilômetro no mapa.',
+            'texto' => 'Mário Ribeiro (MOC) fica em Montes Claros. Acesso: BR-135. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
     ],
     'passos' => [
-        'h2' => 'Três dados que evitam atraso no Norte de Minas',
+        'h2' => 'Como solicitar em Montes Claros',
         'itens' => [
-            ['num' => '01', 'titulo' => 'Bairro e prédio', 'texto' => 'Centro ou Ibituruna. “Em Montes Claros” não define o recuo.'],
-            ['num' => '02', 'titulo' => 'Voo no MOC', 'texto' => 'Em Montes Claros, número e horário. O carro sai com margem, não no minuto do check-in.'],
-            ['num' => '03', 'titulo' => 'Cidade ou sertão', 'texto' => 'Janaúba ou Pirapora entram como viagem. O urbano é outro orçamento.'],
+            [
+                'num' => '01',
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel ou do campus. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'num' => '02',
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o MOC ou Janaúba entra no dia.',
+            ],
+            [
+                'num' => '03',
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Montes Claros, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Mário Ribeiro',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Montes Claros fica longe do Centro?', 'resposta' => 'Em Montes Claros, é trecho urbano. Marcamos margem: a Independência e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no MOC se o voo atrasar?', 'resposta' => 'Sim. Combinamos o MOC com o número do voo; a espera no Mário Ribeiro integra o trecho desde o Centro ou o Ibituruna.'],
-        ['pergunta' => 'Vocês fazem Centro, Ibituruna e a Unimontes no mesmo dia?', 'resposta' => 'Sim. Informe a ordem entre Centro, Ibituruna e bloco da Unimontes. Um motorista articula os três recuos pela Independência.'],
-        ['pergunta' => 'Dá para seguir a Janaúba depois do hotel?', 'resposta' => 'Sim, como viagem rumo a Janaúba. Não é o mesmo recorte do miolo urbano; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Marque o MOC no mesmo recado do hotel',
-        'texto' => 'O orçamento de Montes Claros sai sob consulta. Centro, Ibituruna e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Montes Claros',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'minas-gerais', 'ancora' => 'Confins, Vale do Aço e a agenda mineira'],
-        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'belo-horizonte', 'ancora' => 'Savassi, Lourdes e o trecho até Confins'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'vitoria-da-conquista', 'ancora' => 'Candeias, Centro e o Glauber Rocha'],
     ],
 ];

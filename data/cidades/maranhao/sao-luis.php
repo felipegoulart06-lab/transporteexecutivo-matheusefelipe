@@ -5,55 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'baia',
     'cidade_nome' => 'São Luís',
-    'geo' => ['lat' => -2.53073, 'lng' => -44.3068],
+    'geo' => [
+        'lat' => -2.53073,
+        'lng' => -44.3068,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em São Luís',
     'seo' => [
-        'title' => 'Carro executivo em São Luís: Centro, Ponta d\'Areia e SLZ',
-        'description' => 'Motorista executivo em São Luís para o Centro Histórico, Ponta d\'Areia, Renascença, Calhau e o aeroporto Cunha Machado. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro, na Ponta d\'Areia e no SLZ',
-        'og_description' => 'Carro com motorista na ilha de São Luís: hotel no Calhau, pauta no Centro e o terminal Marechal Cunha Machado.',
-        'og_image_alt' => 'Sedan executivo em via da orla de São Luís',
+        'title' => 'Motorista executivo em São Luís: Renascença e SLZ',
+        'description' => 'Motorista executivo em São Luís: Renascença, Calhau e Marechal Cunha Machado (SLZ), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em São Luís: hotel, Renascença e SLZ',
+        'og_description' => 'O motorista combina Renascença com Marechal Cunha Machado (SLZ), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de São Luís',
     ],
     'kicker' => 'Capital maranhense · MA',
-    'h1' => 'Do Cunha Machado ao Centro Histórico sem perder a maré da orla',
-    'faixas' => [
+    'h1' => 'São Luís: entre Renascença, Calhau e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em São Luís',
+    'faq' => [
         [
-            'h2' => 'São Luís é ilha: o relógio muda com a ponte e com a ladeira',
-            'texto' => 'Hotel no Calhau ou na Ponta d\'Areia, reunião no Centro Histórico e voo no Marechal Cunha Machado (SLZ) cabem no mesmo dia — se o motorista já saiu com a ordem da Avenida Litorânea e do desnível do Centro, não com o atalho da hora.',
+            'pergunta' => 'Em São Luís, o SLZ fica no próprio município?',
+            'resposta' => 'Sim. Em São Luís, Marechal Cunha Machado (SLZ) fica no município. Informe o acesso via MA-201.',
         ],
         [
-            'h2' => 'Três orlas, um Centro de pedra',
+            'pergunta' => 'Em São Luís, vocês buscam em Renascença?',
+            'resposta' => 'Sim, em São Luís. Envie nome do hotel em Renascença. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De São Luís vocês fazem São José de Ribamar?',
+            'resposta' => 'Sim, saindo de São Luís. São José de Ribamar não é o recorte de Renascença; o horário pela MA-203 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em São Luís o carro fica entre Renascença e Calhau?',
+            'resposta' => 'Sim, em São Luís. A hora à disposição cobre hotel e torre em Renascença e orla em Calhau.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em São Luís e o SLZ',
+        'texto' => 'Diga o ponto em Renascença ou Calhau, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em São Luís',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'maranhao',
+            'ancora' => 'São Luís e o recorte de Capital maranhense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'ceara',
+            'cidade' => 'fortaleza',
+            'ancora' => 'Motorista em fortaleza',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'para',
+            'cidade' => 'belem',
+            'ancora' => 'Motorista em belem',
+        ],
+    ],
+    'faixas' => [
+        [
+            'h2' => 'São Luís se cruza por Avenida Litorânea, não em linha reta',
+            'texto' => 'São Luís concentra Renascença (hotel e torre) e Marechal Cunha Machado (SLZ) no mesmo município. O motorista precisa do ponto de embarque e do SLZ no mesmo recado — “me busca em São Luís” não define o recuo.',
+        ],
+        [
+            'h2' => 'Três eixos, três recuos',
             'itens' => [
-                ['h3' => 'Ponta d\'Areia, Calhau e Olho d\'Água', 'texto' => 'Hotéis de orla. Informe o nome: Pestana, Grand São Luís e similares entram pelo recuo, não por “na Litorânea”.'],
-                ['h3' => 'Renascença e o shopping', 'texto' => 'Torres e clínicas. Deslocamentos curtos que esticam no semáforo da Colares Moreira.'],
-                ['h3' => 'Centro Histórico e a Praia Grande', 'texto' => 'Palácio dos Leões, pedra de cantaria e o desnível. O calçamento pede ponto de espera, não GPS no beco.'],
+                [
+                    'h3' => 'Renascença',
+                    'texto' => 'Origem frequente para hotel e torre. Informe nome do hotel. Renascença não compartilha o recuo de Calhau.',
+                ],
+                [
+                    'h3' => 'Calhau',
+                    'texto' => 'Origem frequente para orla. Informe nome do hotel. Calhau não compartilha o recuo de Renascença.',
+                ],
+                [
+                    'h3' => 'Centro Histórico',
+                    'texto' => 'Origem frequente para pauta no centro. Informe nome do hotel. Centro Histórico não compartilha o recuo de Renascença.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas de pauta e de visita que se combinam',
-            'texto' => 'SLZ → hotel no Calhau → Palácio dos Leões → retorno ao terminal. Outro pedido: Ponta d\'Areia → Espigão → Centro só como intervalo combinado. Quando a pauta inclui Alcântara, o trecho deixa o recorte urbano e sai sob consulta — inclusive o horário da travessia.',
-        ],
-        [
             'h2' => 'Marechal Cunha Machado — SLZ',
-            'texto' => 'O aeroporto fica no recorte da ilha, sujeito a chuva. Combinamos o voo. A espera no desembarque integra o trecho SLZ. Até o Calhau ou o Centro, a Avenida dos Holandeses pesa mais que o mapa.',
+            'texto' => 'Marechal Cunha Machado (SLZ) fica em São Luís. Acesso: MA-201. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Cunha Machado',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de São Luís fica longe da Ponta d\'Areia?', 'resposta' => 'É trecho urbano na ilha. Marcamos margem: a Holandeses e a chuva alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no SLZ se o voo atrasar?', 'resposta' => 'Sim. Em São Luís, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês sobem a ladeira do Centro Histórico?', 'resposta' => 'Sim. Combinamos o ponto de espera. O calçamento não admite recuo improvisado na Praia Grande.'],
-        ['pergunta' => 'Dá para incluir Alcântara no mesmo dia?', 'resposta' => 'Sim, quando a travessia entra no roteiro. Não é o mesmo pedido da orla; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Diga se o embarque é Calhau ou Centro Histórico',
-        'texto' => 'O orçamento de São Luís sai sob consulta. Orla, palácio e SLZ no mesmo recado.',
-        'botao' => 'Pedir traslado em São Luís',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'maranhao', 'ancora' => 'Imperatriz, Balsas e o recorte maranhense'],
-        ['tipo' => 'cidade', 'estado' => 'ceara', 'cidade' => 'fortaleza', 'ancora' => 'Meireles, Aldeota e o Pinto Martins'],
-        ['tipo' => 'cidade', 'estado' => 'para', 'cidade' => 'belem', 'ancora' => 'Nazaré, Batista Campos e o BEL'],
     ],
 ];

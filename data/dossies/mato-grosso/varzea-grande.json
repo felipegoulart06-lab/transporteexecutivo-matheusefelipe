@@ -1,0 +1,72 @@
+{
+    "estado": "mato-grosso",
+    "cidade": "varzea-grande",
+    "nome": "Várzea Grande",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-364",
+            "destino": "Marechal Rondon",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Cristo Rei",
+        "Ponte Nova",
+        "Jardim Paula I"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Marechal Rondon",
+            "iata": "CGB",
+            "municipio": "Várzea Grande",
+            "acesso": "Avenida João Ponce de Arruda"
+        }
+    ],
+    "rodovias": [
+        "BR-364",
+        "Avenida da FEB",
+        "ponte"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "bairro",
+        "ponte Cuiabá",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Cuiabá",
+        "Santo Antônio de Leverger",
+        "Rondonópolis"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CGB em Várzea Grande",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

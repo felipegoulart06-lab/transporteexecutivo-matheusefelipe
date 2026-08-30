@@ -1,0 +1,72 @@
+{
+    "estado": "santa-catarina",
+    "cidade": "balneario-camboriu",
+    "nome": "Balneário Camboriú",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-101",
+            "destino": "Ministro Victor Konder",
+            "motivo": "hotel na avenida"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Barra Sul",
+        "Barra Norte",
+        "Interpraias"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Ministro Victor Konder",
+            "iata": "NVT",
+            "municipio": "Navegantes",
+            "acesso": "BR-101"
+        }
+    ],
+    "rodovias": [
+        "BR-101",
+        "Avenida Atlântica",
+        "Interpraias"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na avenida",
+        "torres sul",
+        "orla norte",
+        "condomínio"
+    ],
+    "vizinhos_pedido": [
+        "Itajaí",
+        "Itapema",
+        "Florianópolis"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal NVT em Navegantes",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

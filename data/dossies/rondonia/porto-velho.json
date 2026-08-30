@@ -1,0 +1,31 @@
+{
+  "estado": "rondonia",
+  "cidade": "porto-velho",
+  "nome": "Porto Velho",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "PVH (bairro Aeroporto)", "eixo": "Av. Jorge Teixeira / Lauro Sodré", "destino": "Caiari / Centro", "motivo": "Transfer pouso–hotel"},
+    {"origem": "Caiari", "eixo": "Av. Farquar", "destino": "Palácio Rio Madeira (Pedrinhas)", "motivo": "Pauta institucional"},
+    {"origem": "Centro / Caiari", "eixo": "complexo EFMM", "destino": "Madeira-Mamoré / porto", "motivo": "Visita ou pauta no cais"},
+    {"origem": "Porto Velho", "eixo": "BR-364", "destino": "Ariquemes / Ji-Paraná", "motivo": "Viagem intermunicipal"}
+  ],
+  "eixos": ["Caiari / Centro", "Palácio Rio Madeira (Farquar)", "Madeira-Mamoré / porto", "PVH / BR-364"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Porto Velho – Governador Jorge Teixeira de Oliveira", "iata": "PVH", "municipio": "Porto Velho", "relacao": "No município, bairro Aeroporto. Vinci.", "fonte": "portovelho-airport.com.br; CEP 76803-250; IBGE 1100205", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-364", "fonte": "eixo Porto Velho–interior/Acre", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Caiari", "EFMM", "Palácio Rio Madeira", "Porto no Madeira"],
+  "vizinhos_pedido": ["Ariquemes", "Ji-Paraná", "Rio Branco (AC)"],
+  "prefeito": {"nome": "Léo Moraes", "fonte": "portovelho.ro.gov.br 2025", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "PVH no município de Porto Velho, IATA PVH", "fonte": "Vinci; IBGE", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Jorge Teixeira fica em Porto Velho, no bairro Aeroporto.", "publicado": true},
+    {"fato": "Palácio Rio Madeira: Av. Farquar 2986, Pedrinhas", "fonte": "endereço público do palácio", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "O palácio é na Farquar, em Pedrinhas.", "publicado": true},
+    {"fato": "Alfandegamento pleno do PVH ainda em pauta — não vender voo internacional regular", "fonte": "prefeitura 2025", "data": "2026-08-29", "tipo": "terminal", "risco": "medio", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Holiday Inn sem confirmação", "Tempo PVH–Caiari", "Status internacional como argumento de venda"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
+  "verificar": ["Ponto de espera no complexo EFMM no dia da visita"]
+}

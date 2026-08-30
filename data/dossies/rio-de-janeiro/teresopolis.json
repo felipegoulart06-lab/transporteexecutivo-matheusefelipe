@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "teresopolis",
+    "nome": "Teresópolis",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-116",
+            "destino": "Galeão",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Alto",
+        "Várzea",
+        "Granja Guarani"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "BR-116"
+        },
+        {
+            "nome": "Santos Dumont",
+            "iata": "SDU",
+            "municipio": "Rio de Janeiro",
+            "acesso": "BR-116"
+        }
+    ],
+    "rodovias": [
+        "BR-116",
+        "BR-495",
+        "Avenida Delfim Moreira"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro alto",
+        "eixo comercial",
+        "condomínio"
+    ],
+    "vizinhos_pedido": [
+        "Petrópolis",
+        "Rio de Janeiro",
+        "Nova Friburgo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GIG em Rio de Janeiro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

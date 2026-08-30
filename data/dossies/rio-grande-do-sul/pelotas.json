@@ -1,0 +1,72 @@
+{
+    "estado": "rio-grande-do-sul",
+    "cidade": "pelotas",
+    "nome": "Pelotas",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-116",
+            "destino": "João Simões Lopes Neto",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Areal",
+        "Três Vendas",
+        "Porto"
+    ],
+    "aeroportos": [
+        {
+            "nome": "João Simões Lopes Neto",
+            "iata": "PET",
+            "municipio": "Pelotas",
+            "acesso": "BR-392"
+        }
+    ],
+    "rodovias": [
+        "BR-116",
+        "BR-392",
+        "Avenida Bento Gonçalves"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "eixo comercial",
+        "cais"
+    ],
+    "vizinhos_pedido": [
+        "Rio Grande",
+        "Porto Alegre",
+        "Bagé"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal PET em Pelotas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

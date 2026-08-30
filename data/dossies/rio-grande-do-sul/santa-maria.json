@@ -1,0 +1,72 @@
+{
+    "estado": "rio-grande-do-sul",
+    "cidade": "santa-maria",
+    "nome": "Santa Maria",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-287",
+            "destino": "Santa Maria",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Camobi",
+        "Nossa Senhora de Lourdes",
+        "Nonoai"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Santa Maria",
+            "iata": "RIA",
+            "municipio": "Santa Maria",
+            "acesso": "BR-287"
+        }
+    ],
+    "rodovias": [
+        "BR-287",
+        "BR-158",
+        "Avenida Rio Branco"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "UFSM",
+        "bairro",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Porto Alegre",
+        "Cruz Alta",
+        "Cacequi"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal RIA em Santa Maria",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

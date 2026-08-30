@@ -5,125 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Sorriso',
-    'geo' => ['lat' => -12.5425, 'lng' => -55.721],
+    'geo' => [
+        'lat' => -12.5425,
+        'lng' => -55.721,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Sorriso',
     'seo' => [
-        'title' => 'BR-163: motorista em Sorriso, soja e o terminal SMT',
-        'description' => 'Carro com motorista em Sorriso para o Centro, o Jardim Aurora, o eixo da soja e o aeroporto Adolino Bedin (SMT). BR-163 e orçamento sob consulta.',
-        'og_title' => 'Traslado no Centro de Sorriso, na soja e no SMT',
-        'og_description' => 'Motorista na capital do agronegócio: hotel no Centro, pauta no grão e o terminal SMT na BR-163.',
-        'og_image_alt' => 'Sedan executivo em avenida de Sorriso no eixo da BR-163',
+        'title' => 'Carro com motorista em Sorriso: Jardim Tropical e SMT',
+        'description' => 'Carro com motorista em Sorriso para Centro, Jardim Tropical e SMT. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Sorriso com motorista — Jardim Tropical e Adolino Bedin',
+        'og_description' => 'O motorista combina Centro com Adolino Bedin (SMT), no próprio município. Informe nome na lista da portaria.',
+        'og_image_alt' => 'Carro executivo em via de Sorriso',
     ],
-    'kicker' => 'Norte da BR-163 · MT',
-    'h1' => 'A capital do agronegócio mede o dia em SMT e em BR-163',
-    'lead' => 'Sorriso mede a pauta em tonelada e em quilômetro da BR-163. O Centro, o Jardim Aurora e o Adolino Bedin (SMT) não cabem no mesmo recuo. O motorista segura a 163; o passageiro segura o grão — não a vaga na porta do hotel.',
+    'kicker' => 'Norte mato-grossense · MT',
+    'h1' => 'Em Sorriso: do embarque em Centro ao SMT',
+    'faq_h2' => 'Dúvidas de quem embarca em Sorriso',
+    'faq' => [
+        [
+            'pergunta' => 'Em Sorriso, o SMT fica no próprio município?',
+            'resposta' => 'Sim. Em Sorriso, Adolino Bedin (SMT) fica no município. Informe o acesso via BR-163.',
+        ],
+        [
+            'pergunta' => 'Em Sorriso, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Sorriso. Envie nome na lista da portaria em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Sorriso vocês fazem Sinop?',
+            'resposta' => 'Sim, saindo de Sorriso. Sinop não é o recorte de Centro; o horário pela Avenida Blairo Maggi sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Sorriso, SMT e OPS são o mesmo recorte?',
+            'resposta' => 'Não, em Sorriso. SMT fica em Sorriso; OPS fica em Sinop. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Sorriso e o SMT',
+        'texto' => 'Diga o ponto em Centro ou Jardim Tropical, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Sorriso',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'mato-grosso',
+            'ancora' => 'Sorriso e o recorte de Norte mato-grossense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'mato-grosso',
+            'cidade' => 'sinop',
+            'ancora' => 'Motorista em sinop',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'mato-grosso',
+            'cidade' => 'cuiaba',
+            'ancora' => 'Motorista em cuiaba',
+        ],
+    ],
+    'lead' => 'Sorriso concentra Centro (sede e hotel) e Adolino Bedin (SMT) no mesmo município. O motorista precisa do ponto de embarque e do SMT no mesmo recado — “me busca em Sorriso” não define o recuo.',
     'contexto' => [
-        'h2' => 'A cidade da soja cobra endereço de avenida, não “no polo do grão”',
+        'h2' => 'Sorriso se mede em BR-163, não em pin de aplicativo',
         'texto' => [
-            'Centro e Jardim Aurora concentram hotel, clínica e sede. O recorte industrial da soja puxa para a BR-163 e para a portaria da trading. O Aeroporto Adolino Bedin de Nascimento (SMT) não é o intervalo de uma quadra no Centro: o trecho entra no roteiro com margem. Hotel, reunião na planta e o voo cabem no mesmo expediente se a ordem da 163 já estiver no caderno.',
-            'O recorte é a rotina do norte mato-grossense: embarque no hotel pelo nome, espera na cancela do grão e chegada no terminal certo. Quando a pauta aponta para Sinop ou Cuiabá, a 163 deixa de ser só urbana. O orçamento sai sob consulta.',
+            'Sorriso concentra Centro (sede e hotel) e Adolino Bedin (SMT) no mesmo município. O motorista precisa do ponto de embarque e do SMT no mesmo recado — “me busca em Sorriso” não define o recuo.',
+            'Jardim Tropical pede bairro. Industrial pede grão e portaria. Quando Sinop entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Avenida Blairo Maggi.',
         ],
     ],
     'bairros' => [
-        'h2' => 'Setores de Sorriso onde o embarque mais se concentra',
+        'h2' => 'Eixos de embarque em Sorriso',
         'itens' => [
             [
                 'h3' => 'Centro',
-                'texto' => 'Em Sorriso, sede, hotel e o calçadão. Informe o prédio; a numeração se repete e o sentido da via muda no fim da tarde.',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome na lista da portaria. Centro não compartilha o recuo de Jardim Tropical.',
             ],
             [
-                'h3' => 'Jardim Aurora',
-                'texto' => 'Torres, clínicas e pauta residencial. “No Aurora” não define o recuo do condomínio nem o ponto de espera do hotel.',
+                'h3' => 'Jardim Tropical',
+                'texto' => 'Origem frequente para bairro. Informe nome na lista da portaria. Jardim Tropical não compartilha o recuo de Centro.',
             ],
             [
-                'h3' => 'Eixo da soja e as portarias',
-                'texto' => 'Trading e logística. O nome na lista entra no roteiro junto com o turno; sem isso, a cancela não libera.',
+                'h3' => 'Industrial',
+                'texto' => 'Origem frequente para grão e portaria. Informe nome na lista da portaria. Industrial não compartilha o recuo de Centro.',
             ],
             [
-                'h3' => 'BR-163 rumo a Sinop e ao sul',
-                'texto' => 'Em Sorriso, a pista corta a cidade e segue ao norte e ao sul. Quando a pauta mistura hotel e planta fora do perímetro, a margem sai da 163, não do aceitar do app.',
+                'h3' => 'Boa Esperança',
+                'texto' => 'Origem frequente para residencial. Informe nome na lista da portaria. Boa Esperança não compartilha o recuo de Centro.',
             ],
         ],
     ],
     'aeroportos' => [
-        'h2' => 'Adolino Bedin — SMT no relógio da 163',
+        'h2' => 'O terminal que a agenda de Sorriso realmente usa',
         'itens' => [
             [
-                'h3' => 'Adolino Bedin de Nascimento — SMT',
-                'texto' => 'Terminal da cidade. Combinamos o voo. Até o Centro a margem é municipal; não é o intervalo de uma quadra no Jardim Aurora.',
+                'h3' => 'Adolino Bedin — SMT',
+                'texto' => 'Adolino Bedin (SMT) fica em Sorriso. Acesso: BR-163. Combinamos o voo; a espera no desembarque integra o trecho.',
             ],
             [
-                'h3' => 'Quando a pauta aponta para Sinop ou Cuiabá',
-                'texto' => 'O OPS de Sinop e o CGB em Várzea Grande não são o mesmo pedido urbano de Sorriso. A 163 vira viagem; o orçamento sai à parte.',
+                'h3' => 'Presidente João Figueiredo — OPS',
+                'texto' => 'Presidente João Figueiredo (OPS) fica em Sinop, não em Sorriso. O trecho sai pela BR-163. Diga o IATA e o número do voo.',
             ],
         ],
     ],
     'rotas' => [
-        'h2' => 'Trajetos que a agenda sorrisense mais pede',
+        'h2' => 'Trajetos que o pedido em Sorriso mais combina',
         'itens' => [
             [
-                'titulo' => 'SMT → hotel no Centro',
-                'texto' => 'Pouso e pernoite. Informe o nome do hotel. O trecho pede margem; não é o intervalo de uma quadra no Aurora.',
+                'titulo' => 'Centro → SMT',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-163.',
             ],
             [
-                'titulo' => 'Hotel → Jardim Aurora → portaria do grão',
-                'texto' => 'Em Sorriso, clínica, sede e planta só se a ordem estiver no roteiro. Um motorista cobre os três recuos.',
+                'titulo' => 'SMT → Jardim Tropical',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome na lista da portaria.',
             ],
             [
-                'titulo' => 'Sorriso → Sinop ou Cuiabá no mesmo dia',
-                'texto' => 'Em Sorriso, quando a 163 vira viagem, o trecho deixa de ser urbano. Horário sob consulta.',
+                'titulo' => 'Centro → Sinop',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Jardim Tropical; o horário sai sob consulta.',
             ],
         ],
     ],
     'como' => [
-        'h2' => 'Como o carro entra na grade em Sorriso',
+        'h2' => 'Como o carro entra na pauta em Sorriso',
         'passos' => [
             [
-                'titulo' => 'Bairro e portaria',
-                'texto' => 'Centro, Aurora ou cancela do grão. Autocomplete não resolve quadra com dois acessos.',
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome na lista da portaria. Autocomplete não resolve dois acessos em Centro.',
             ],
             [
-                'titulo' => 'Hotel ou SMT',
-                'texto' => 'Em Sorriso, diga se o embarque é o terminal ou a porta do hotel. O hotel é só o ponto de saída.',
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o SMT ou Sinop entra no dia.',
             ],
             [
                 'titulo' => 'Confirmação',
-                'texto' => 'Em Sorriso, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.',
+                'texto' => 'Em Sorriso, nome e WhatsApp. Devolvemos o horário de apresentação.',
             ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta a soja e voa pelo SMT',
-    'faq' => [
-        [
-            'pergunta' => 'O aeroporto de Sorriso fica no Centro?',
-            'resposta' => 'O SMT não é o intervalo de uma quadra no miolo urbano. O trecho entra no roteiro com margem; a 163 e o horário de pico alteram o relógio.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Centro, Jardim Aurora e a portaria no mesmo dia?',
-            'resposta' => 'Sim. Em Sorriso, informe o nome na lista da planta. Um carro articula os três recuos.',
-        ],
-        [
-            'pergunta' => 'Dá para seguir a Sinop pela BR-163 depois do hotel?',
-            'resposta' => 'Sim. Em Sorriso, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Sorriso, a portaria da soja exige lista?',
-            'resposta' => 'Em geral, sim. Envie o nome e o documento pedido. Sem isso, a cancela não libera.',
-        ],
-        [
-            'pergunta' => 'Em Sorriso, o hotel no Centro é ponto conveniado do serviço?',
-            'resposta' => 'Não. Em Sorriso, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Envie a 163 junto com a janela do SMT',
-        'texto' => 'O orçamento de Sorriso sai sob consulta. Aurora, grão e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir sedan em Sorriso',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'mato-grosso', 'ancora' => 'BR-163, capital e o sul da soja'],
-        ['tipo' => 'cidade', 'estado' => 'mato-grosso', 'cidade' => 'sinop', 'ancora' => 'Centro, Figueiras e o aeroporto OPS'],
-        ['tipo' => 'cidade', 'estado' => 'mato-grosso', 'cidade' => 'cuiaba', 'ancora' => 'Goiabeiras, Centro e o Marechal Rondon'],
     ],
 ];

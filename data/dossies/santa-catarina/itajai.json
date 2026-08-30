@@ -1,0 +1,72 @@
+{
+    "estado": "santa-catarina",
+    "cidade": "itajai",
+    "nome": "Itajaí",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-101",
+            "destino": "Ministro Victor Konder",
+            "motivo": "sede e porto"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Fazenda",
+        "Cabeçudas",
+        "São João"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Ministro Victor Konder",
+            "iata": "NVT",
+            "municipio": "Navegantes",
+            "acesso": "ponte Itajaí–Navegantes"
+        }
+    ],
+    "rodovias": [
+        "BR-101",
+        "Avenida Beira-Rio",
+        "BR-470"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e porto",
+        "bairro",
+        "orla",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Navegantes",
+        "Balneário Camboriú",
+        "Blumenau"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal NVT em Navegantes",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

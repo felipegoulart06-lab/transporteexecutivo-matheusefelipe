@@ -1,0 +1,72 @@
+{
+    "estado": "parana",
+    "cidade": "paranagua",
+    "nome": "Paranaguá",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro Histórico",
+            "eixo": "BR-277",
+            "destino": "Afonso Pena",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro Histórico",
+        "Porto",
+        "Alexandra",
+        "Ponta do Caju"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Afonso Pena",
+            "iata": "CWB",
+            "municipio": "São José dos Pinhais",
+            "acesso": "BR-277"
+        }
+    ],
+    "rodovias": [
+        "BR-277",
+        "Avenida Ayrton Senna",
+        "Rua João Eugênio"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "cais e terminal",
+        "distrito",
+        "porto"
+    ],
+    "vizinhos_pedido": [
+        "Curitiba",
+        "Antonina",
+        "Guaratuba"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CWB em São José dos Pinhais",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

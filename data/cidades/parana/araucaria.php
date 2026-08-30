@@ -5,58 +5,94 @@ declare(strict_types=1);
 return [
     'layout' => 'protocolo',
     'cidade_nome' => 'Araucária',
-    'geo' => ['lat' => -25.5859, 'lng' => -49.4048],
+    'geo' => [
+        'lat' => -25.5859,
+        'lng' => -49.4048,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Araucária',
     'seo' => [
-        'title' => 'REPAR e CWB: motorista em Araucária, Sede e porto',
-        'description' => 'Carro com motorista em Araucária para a Sede, Capela Velha, a REPAR da Petrobras e o trecho até o CWB. CIC vizinha e eixo ao porto. Orçamento sob consulta.',
-        'og_title' => 'Traslado na REPAR, na Sede de Araucária e no CWB',
-        'og_description' => 'Motorista na RMC: lista na refinaria, hotel na Sede e o Afonso Pena — o porto entra se a pauta pedir.',
-        'og_image_alt' => 'Sedan executivo em via de acesso à REPAR em Araucária',
+        'title' => 'Motorista executivo em Araucária: Centro e CWB',
+        'description' => 'Motorista executivo em Araucária: Centro, Estação e Afonso Pena (CWB), em São José dos Pinhais. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Araucária: Centro e CWB',
+        'og_description' => 'O motorista combina Centro com Afonso Pena (CWB), em São José dos Pinhais. Informe nome na lista da refinaria.',
+        'og_image_alt' => 'Carro executivo em via de Araucária',
     ],
     'kicker' => 'Região Metropolitana de Curitiba · PR',
-    'h1' => 'A REPAR não libera sem nome na lista — e o CWB não fica na porta',
-    'preambulo' => 'Araucária não é o pátio da refinaria nem um bairro de Curitiba: é município com Sede, Capela Velha e a REPAR da Petrobras, que só abre com nome na lista. A Cidade Industrial cola no mapa; o recuo muda na cancela. O Afonso Pena (CWB) fica em São José dos Pinhais. O eixo ao porto de Paranaguá entra só se a pauta atravessar a BR-277.',
+    'h1' => 'Araucária — Centro de manhã, CWB quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Araucária',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Araucária embarca no CWB dentro da cidade?',
+            'resposta' => 'Não. De Araucária o CWB (Afonso Pena) fica em São José dos Pinhais. O trecho sai de Centro pela BR-476.',
+        ],
+        [
+            'pergunta' => 'Em Araucária, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Araucária. Envie nome na lista da refinaria em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Araucária vocês fazem Curitiba?',
+            'resposta' => 'Sim, saindo de Araucária. Curitiba não é o recorte de Centro; o horário pela Contorno Sul sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Araucária o carro fica entre Centro e Estação?',
+            'resposta' => 'Sim, em Araucária. A hora à disposição cobre sede em Centro e bairro em Estação.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Araucária e o CWB',
+        'texto' => 'Diga o ponto em Centro ou Estação, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Araucária',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'parana',
+            'ancora' => 'Araucária e o recorte de Região Metropolitana de Curitiba',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'parana',
+            'cidade' => 'curitiba',
+            'ancora' => 'Motorista em curitiba',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'parana',
+            'cidade' => 'sao-jose-dos-pinhais',
+            'ancora' => 'Motorista em sao jose dos pinhais',
+        ],
+    ],
+    'preambulo' => 'Araucária usa Afonso Pena (CWB), em São José dos Pinhais. Quem embarca em Centro não está no município da pista. A BR-476 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     'artigos' => [
         [
-            'h2' => 'Artigo 1.º — A refinaria pede lista, não “me busca na Petrobras”',
-            'texto' => 'A REPAR (Presidente Getúlio Vargas) opera com protocolo de acesso. Envie o nome na lista e o documento pedido; sem isso, o recuo da cancela não libera. “Na refinaria” não coloca o carro no portão certo. O hotel na Sede entra só como embarque, sem convênio de porta.',
+            'h2' => 'Centro pede protocolo, não pin',
+            'texto' => 'Origem frequente para sede. Informe nome na lista da refinaria. Centro não compartilha o recuo de Estação.',
         ],
         [
-            'h2' => 'Artigo 2.º — Sede, Capela Velha e o silêncio da CIC ao lado',
-            'texto' => 'Sede concentra hotel, sede municipal e o calçadão. Capela Velha pede outro recuo — rua e número. A Cidade Industrial de Curitiba é vizinha, não o mesmo município: quem dorme em Araucária e reúne na CIC cruza a mancha da RMC. Informe o prédio; autocomplete mistura os dois.',
+            'h2' => 'Estação e CIC vizinho',
+            'texto' => 'Estação pede bairro. CIC vizinho pede eixo Curitiba. Quando Curitiba entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Contorno Sul.',
         ],
         [
-            'h2' => 'Artigo 3.º — CWB em São José dos Pinhais; porto só com a 277 no recado',
-            'texto' => 'O voo comercial sai do Afonso Pena, não da porta da REPAR. Combinamos o voo. Até o terminal, a margem sai da RMC e da Linha Verde. Paranaguá e o cais entram como viagem pela BR-277 — outro orçamento, outro relógio. O valor sai sob consulta.',
+            'h2' => 'Afonso Pena (CWB)',
+            'texto' => 'Afonso Pena (CWB) fica em São José dos Pinhais, não em Araucária. O trecho sai pela BR-476 / Contorno. Diga o IATA e o número do voo.',
         ],
     ],
     'pauta' => [
-        'h2' => 'Itens que entram na ordem do dia em Araucária',
+        'h2' => 'Itens da ordem do dia em Araucária',
         'itens' => [
-            ['h3' => 'Portaria da REPAR', 'texto' => 'Nome na lista e documento. Sem protocolo, a cancela da refinaria não libera. Informe o portão, não só “Petrobras”.'],
-            ['h3' => 'Hotel na Sede', 'texto' => 'O nome do hotel evita a volta na via de acesso. “Perto da refinaria” não basta. O hotel é só o ponto de saída.'],
-            ['h3' => 'Capela Velha e a CIC vizinha', 'texto' => 'Dois recuos. Capela Velha é Araucária; a Cidade Industrial já é Curitiba. Diga o município e o número.'],
-            ['h3' => 'Quando a pauta aponta para o CWB ou para o porto', 'texto' => 'Afonso Pena não é o pátio da REPAR. Paranaguá pela 277 sai à parte, com horário de estrada.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome na lista da refinaria. Centro não compartilha o recuo de Estação.',
+            ],
+            [
+                'h3' => 'Estação',
+                'texto' => 'Origem frequente para bairro. Informe nome na lista da refinaria. Estação não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'CIC vizinho',
+                'texto' => 'Origem frequente para eixo Curitiba. Informe nome na lista da refinaria. CIC vizinho não compartilha o recuo de Centro.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pauta a REPAR e voa pelo CWB',
-    'faq' => [
-        ['pergunta' => 'O aeroporto Afonso Pena fica em Araucária?', 'resposta' => 'Não. O CWB fica em São José dos Pinhais. O trecho até a Sede ou a REPAR entra no roteiro com margem para a RMC.'],
-        ['pergunta' => 'Vocês entram na REPAR com protocolo de portaria?', 'resposta' => 'Sim. Em Araucária, envie o nome na lista e o documento pedido. Sem isso, a cancela da refinaria não libera.'],
-        ['pergunta' => 'A Cidade Industrial é o mesmo que Araucária?', 'resposta' => 'Não. A CIC é Curitiba, colada no mapa. Informe o município: o recuo da planta e o da Sede não se trocam.'],
-        ['pergunta' => 'Vocês fazem Sede, Capela Velha e a REPAR no mesmo dia?', 'resposta' => 'Sim. Informe a ordem, o portão e o nome do hotel. Um motorista articula os três se a lista estiver no recado.'],
-        ['pergunta' => 'Dá para seguir a Paranaguá depois da refinaria?', 'resposta' => 'Sim, como viagem pela BR-277 até o porto. Não é o mesmo recorte da Sede; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte a lista da REPAR ao horário do Afonso Pena',
-        'texto' => 'O orçamento de Araucária sai sob consulta. Sede, Capela Velha e CWB no mesmo recado.',
-        'botao' => 'Solicitar carro em Araucária',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'parana', 'ancora' => 'Foz, Londrina e o recorte paranaense'],
-        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'curitiba', 'ancora' => 'Batel, Centro Cívico e o Afonso Pena'],
-        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'sao-jose-dos-pinhais', 'ancora' => 'Centro, Afonso Pena e o terminal CWB'],
     ],
 ];

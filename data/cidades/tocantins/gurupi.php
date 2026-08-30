@@ -5,101 +5,110 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'Gurupi',
-    'geo' => ['lat' => -11.7279, 'lng' => -49.068],
+    'geo' => [
+        'lat' => -11.7279,
+        'lng' => -49.068,
+    ],
     'imagem' => 'norte.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Gurupi',
     'seo' => [
-        'title' => 'Sul do TO: traslado em Gurupi, Centro e a BR-153',
-        'description' => 'Motorista em Gurupi para o Centro, a Vila Guaracy, o aeroporto GRP e o eixo da BR-153. Sul do Tocantins, não a mesma cidade de Palmas. Orçamento sob consulta.',
-        'og_title' => 'Carro no Centro de Gurupi, na Vila Guaracy e no GRP',
-        'og_description' => 'Traslado no sul tocantinense: hotel no Centro, pauta urbana e o saguão GRP — Palmas é outra malha.',
-        'og_image_alt' => 'Sedan executivo em avenida de Gurupi no sul do Tocantins',
+        'title' => 'Carro com motorista em Gurupi: Setor Norte e GRP',
+        'description' => 'Motorista executivo em Gurupi: Centro, Setor Norte e Gurupi (GRP), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Gurupi: Centro e GRP',
+        'og_description' => 'O motorista combina Centro com Gurupi (GRP), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Gurupi',
     ],
     'kicker' => 'Sul tocantinense · TO',
-    'h1' => 'O sul do Tocantins articula GRP e a BR-153, sem tratar Palmas como a mesma cidade',
-    'olho' => 'Gurupi articula o sul do Tocantins no GRP e na BR-153. Palmas é outra cidade, outro Plano Diretor, outro saguão. O motorista segura a 153; o passageiro segura a pauta — não a vaga no Centro.',
-    'capitulos' => [
-        [
-            'h2' => 'A cidade do sul e o aeroporto no recorte do município',
-            'texto' => 'Centro e Vila Guaracy cabem no mesmo expediente. O Aeroporto de Gurupi (GRP) fica no recorte da cidade. Hotel, reunião na sede e o voo pedem o nome da rua; “no sul do TO” não define a porta. Palmas (PMW) e Araguaína (AUX) não se improvisam depois do calçadão. O hotel entra só como embarque. O orçamento sai sob consulta.',
-        ],
-        [
-            'h2' => 'Onde o embarque gurupiense mais se concentra',
-            'itens' => [
-                [
-                    'h3' => 'Centro',
-                    'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde e o recuo do Centro não é o da Vila Guaracy.',
-                ],
-                [
-                    'h3' => 'Vila Guaracy',
-                    'texto' => 'Pauta residencial e clínicas. “Na Guaracy” não define a entrada do condomínio nem o ponto de espera.',
-                ],
-                [
-                    'h3' => 'Acesso da BR-153',
-                    'texto' => 'A Belém-Brasília corta o sul do Estado. Quando a pauta mistura hotel e saída para Palmas, a margem sai da 153, não do aceitar do app no Centro.',
-                ],
-            ],
-        ],
-        [
-            'h2' => 'Rotas de trabalho e o salto pela 153 que não é Palmas',
-            'texto' => 'GRP → hotel no Centro → Vila Guaracy só se a ordem estiver no roteiro. Outro pedido: hotel → Palmas pelo Plano Diretor ou Araguaína pelo norte, como viagem — não como corrida urbana. A BR-153 pede margem própria quando a pauta vaza do município.',
-        ],
-        [
-            'h2' => 'Gurupi — GRP',
-            'texto' => 'O aeroporto fica no recorte da cidade. Combinamos o voo. Até o Centro a margem é urbana; até Palmas (PMW) ou Araguaína (AUX), não. O passageiro não cruza o saguão atrás de uma placa genérica.',
-        ],
-    ],
-    'passos' => [
-        'h2' => 'Três dados que evitam atraso no sul do Tocantins',
-        'itens' => [
-            [
-                'num' => '01',
-                'titulo' => 'Bairro e prédio',
-                'texto' => 'Centro ou Vila Guaracy. “Em Gurupi” não define o recuo.',
-            ],
-            [
-                'num' => '02',
-                'titulo' => 'Voo no GRP',
-                'texto' => 'Em Gurupi, número e horário. O carro sai com margem, não no minuto do check-in.',
-            ],
-            [
-                'num' => '03',
-                'titulo' => 'Palmas ou cidade',
-                'texto' => 'O Plano Diretor da capital é outra malha. O urbano de Gurupi é outro recuo. Orçamento sob consulta.',
-            ],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta o sul do TO e o GRP',
+    'h1' => 'Gurupi: entre Centro, Setor Norte e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Gurupi',
     'faq' => [
         [
-            'pergunta' => 'Gurupi é a mesma malha de Palmas?',
-            'resposta' => 'Não. Palmas tem Plano Diretor e o PMW. Gurupi articula o GRP e a BR-153 no sul do Estado. São cidades distintas.',
+            'pergunta' => 'Em Gurupi, o GRP fica no próprio município?',
+            'resposta' => 'Sim. Em Gurupi, Gurupi (GRP) fica no município. Informe o acesso via TO-040.',
         ],
         [
-            'pergunta' => 'O aeroporto de Gurupi fica no Centro?',
-            'resposta' => 'É trecho urbano do município. Marcamos margem: o acesso ao GRP e o horário de pico alteram o intervalo até a Vila Guaracy.',
+            'pergunta' => 'Em Gurupi, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Gurupi. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
         ],
         [
-            'pergunta' => 'Vocês fazem Centro e Vila Guaracy no mesmo dia?',
-            'resposta' => 'Sim. Em Gurupi, informe a ordem e o nome do hotel. Um motorista articula os dois recuos.',
+            'pergunta' => 'De Gurupi vocês fazem Palmas?',
+            'resposta' => 'Sim, saindo de Gurupi. Palmas não é o recorte de Centro; o horário pela TO-040 sai sob consulta.',
         ],
         [
-            'pergunta' => 'Dá para seguir a Palmas pela BR-153 depois do hotel?',
-            'resposta' => 'Sim. Em Gurupi, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Araguaína cabe no mesmo expediente urbano?',
-            'resposta' => 'Não. Araguaína entra como viagem pelo norte da 153. O orçamento sai à parte do trecho de Gurupi.',
+            'pergunta' => 'Em Gurupi, GRP e PMW são o mesmo recorte?',
+            'resposta' => 'Não, em Gurupi. GRP fica em Gurupi; PMW fica em Palmas. Diga o IATA no pedido.',
         ],
     ],
     'cta' => [
-        'titulo' => 'Marque a 153 no mesmo recado do GRP',
-        'texto' => 'O orçamento de Gurupi sai sob consulta. Centro, Guaracy e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Gurupi',
+        'titulo' => 'Informe o embarque em Gurupi e o GRP',
+        'texto' => 'Diga o ponto em Centro ou Setor Norte, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Gurupi',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'tocantins', 'ancora' => 'Palmas, o norte e o sul da 153'],
-        ['tipo' => 'cidade', 'estado' => 'tocantins', 'cidade' => 'palmas', 'ancora' => 'Plano Diretor, Quadra e o PMW'],
-        ['tipo' => 'cidade', 'estado' => 'tocantins', 'cidade' => 'araguaina', 'ancora' => 'Centro, Senador e o aeroporto AUX'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'tocantins',
+            'ancora' => 'Gurupi e o recorte de Sul tocantinense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'tocantins',
+            'cidade' => 'palmas',
+            'ancora' => 'Motorista em palmas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'tocantins',
+            'cidade' => 'araguaina',
+            'ancora' => 'Motorista em araguaina',
+        ],
+    ],
+    'olho' => 'Centro e Gurupi (GRP), no próprio município não cabem no mesmo aceite tardio.',
+    'capitulos' => [
+        [
+            'h2' => 'Centro e o recuo da pauta',
+            'texto' => 'Gurupi concentra Centro (sede e hotel) e Gurupi (GRP) no mesmo município. O motorista precisa do ponto de embarque e do GRP no mesmo recado — “me busca em Gurupi” não define o recuo.',
+        ],
+        [
+            'h2' => 'Setor Norte, Setor Sul e a ordem do dia',
+            'itens' => [
+                [
+                    'h3' => 'Setor Norte',
+                    'texto' => 'Origem frequente para quadra. Informe nome do hotel. Setor Norte não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Setor Sul',
+                    'texto' => 'Origem frequente para quadra. Informe nome do hotel. Setor Sul não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Setor Central',
+                    'texto' => 'Origem frequente para eixo. Informe nome do hotel. Setor Central não compartilha o recuo de Centro.',
+                ],
+            ],
+        ],
+        [
+            'h2' => 'Gurupi — GRP',
+            'texto' => 'Gurupi (GRP) fica em Gurupi. Acesso: TO-040. Combinamos o voo; a espera no desembarque integra o trecho.',
+        ],
+    ],
+    'passos' => [
+        'h2' => 'Como solicitar em Gurupi',
+        'itens' => [
+            [
+                'num' => '01',
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'num' => '02',
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o GRP ou Palmas entra no dia.',
+            ],
+            [
+                'num' => '03',
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Gurupi, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

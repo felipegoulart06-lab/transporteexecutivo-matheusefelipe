@@ -1,0 +1,78 @@
+{
+    "estado": "parana",
+    "cidade": "ponta-grossa",
+    "nome": "Ponta Grossa",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-376",
+            "destino": "Comandante Antonio Amilton Beraldo",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Oficinas",
+        "Uvaranas",
+        "Nova Rússia"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Comandante Antonio Amilton Beraldo",
+            "iata": "PGZ",
+            "municipio": "Ponta Grossa",
+            "acesso": "BR-376"
+        },
+        {
+            "nome": "Afonso Pena",
+            "iata": "CWB",
+            "municipio": "São José dos Pinhais",
+            "acesso": "BR-376"
+        }
+    ],
+    "rodovias": [
+        "BR-376",
+        "BR-373",
+        "Avenida Vicente Machado"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "UEPG e industrial",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Curitiba",
+        "Castro",
+        "Telêmaco Borba"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal PGZ em Ponta Grossa",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

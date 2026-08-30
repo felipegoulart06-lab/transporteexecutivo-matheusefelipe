@@ -5,101 +5,110 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'Crato',
-    'geo' => ['lat' => -7.2312, 'lng' => -39.4097],
+    'geo' => [
+        'lat' => -7.2312,
+        'lng' => -39.4097,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Crato',
     'seo' => [
-        'title' => 'Cariri: motorista no Crato, Seminário e o JDO',
-        'description' => 'Carro com motorista no Crato para o Centro, Seminário, Pinto Madeira e o trecho até o JDO, em Juazeiro do Norte. Cariri e orçamento sob consulta.',
-        'og_title' => 'Traslado no Crato, no Seminário e no aeroporto JDO',
-        'og_description' => 'Motorista no Cariri: hotel no Centro, pauta no Seminário e o terminal em Juazeiro do Norte.',
-        'og_image_alt' => 'Sedan executivo em via do Centro do Crato',
+        'title' => 'Carro com motorista em Crato: Pinto Madeira e JDO',
+        'description' => 'Motorista executivo em Crato: Centro, Pinto Madeira e Orlando Bezerra (JDO), em Juazeiro do Norte. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Crato: hotel, Centro e JDO',
+        'og_description' => 'O motorista combina Centro com Orlando Bezerra (JDO), em Juazeiro do Norte. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Crato',
     ],
     'kicker' => 'Cariri cearense · CE',
-    'h1' => 'O Cariri tem dois relógios: o do Crato e o do JDO em Juazeiro',
-    'olho' => 'No Cariri o relógio do Seminário não é o do saguão em Juazeiro do Norte. O Crato articula Centro e Pinto Madeira; o Orlando Bezerra (JDO) fica no município vizinho. Dois relógios, um roteiro.',
-    'capitulos' => [
-        [
-            'h2' => 'O Crato não herda o terminal do vizinho',
-            'texto' => 'Centro, Seminário e Pinto Madeira cabem no mesmo expediente municipal. O voo comercial da região pousa no Orlando Bezerra, em Juazeiro do Norte — não neste recorte. Hotel, reunião no Seminário e o saguão pedem a ordem da Avenida Padre Cícero já escrita. O hotel entra só como embarque. O orçamento sai sob consulta.',
-        ],
-        [
-            'h2' => 'Onde o embarque cratense mais se concentra',
-            'itens' => [
-                [
-                    'h3' => 'Centro e o casario',
-                    'texto' => 'Sede, hotel e o comércio. Informe o prédio; o recuo do Centro não é o do Seminário nem o da saída para Juazeiro.',
-                ],
-                [
-                    'h3' => 'Seminário',
-                    'texto' => 'Bairro e o marco do Seminário. Pauta residencial e institucional. “No Seminário” não define a porta; rua e número evitam a volta na ladeira.',
-                ],
-                [
-                    'h3' => 'Pinto Madeira',
-                    'texto' => 'Eixo interno e o recuo residencial. Quando a agenda mistura Pinto Madeira, Centro e o JDO, a ordem das vias do Cariri pesa mais que o mapa.',
-                ],
-            ],
-        ],
-        [
-            'h2' => 'Rotas que misturam o Crato, Juazeiro e o salto a Fortaleza',
-            'texto' => 'Hotel no Centro → Seminário → JDO só se a ordem estiver no roteiro. Outro clássico: Crato → Barbalha como recorte do Cariri, com horário próprio. Fortaleza e o FOR entram pela malha do interior — não como segunda corrida urbana.',
-        ],
-        [
-            'h2' => 'Orlando Bezerra — JDO em Juazeiro do Norte',
-            'texto' => 'O aeroporto regional não fica no Crato. Combinamos o voo. Até o Centro cratense o intervalo atravessa a mancha do Cariri; nas romarias a Avenida Padre Cícero muda o relógio mais que o quilômetro admite.',
-        ],
-    ],
-    'passos' => [
-        'h2' => 'Três dados que separam os dois relógios do Cariri',
-        'itens' => [
-            [
-                'num' => '01',
-                'titulo' => 'Bairro no Crato',
-                'texto' => 'Centro, Seminário ou Pinto Madeira. “No Cariri” não define o recuo.',
-            ],
-            [
-                'num' => '02',
-                'titulo' => 'Voo no JDO',
-                'texto' => 'Número e horário. O terminal é em Juazeiro do Norte; a margem sai da via, não do Seminário.',
-            ],
-            [
-                'num' => '03',
-                'titulo' => 'Cidade vizinha',
-                'texto' => 'Juazeiro, Barbalha ou Fortaleza entram só se estiverem no pedido. Orçamento sob consulta.',
-            ],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta o Crato e voa pelo JDO',
+    'h1' => 'Crato — Centro de manhã, JDO quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Crato',
     'faq' => [
         [
-            'pergunta' => 'O aeroporto JDO fica no Crato?',
-            'resposta' => 'Não. O Orlando Bezerra fica em Juazeiro do Norte. O Crato é o município vizinho; o trecho entra no roteiro com margem para a malha do Cariri.',
+            'pergunta' => 'Quem está em Crato embarca no JDO dentro da cidade?',
+            'resposta' => 'Não. De Crato o JDO (Orlando Bezerra) fica em Juazeiro do Norte. O trecho sai de Centro pela CE-060.',
         ],
         [
-            'pergunta' => 'Por que falar em dois relógios?',
-            'resposta' => 'Porque o horário do Seminário não é o do saguão. Romaria, Avenida Padre Cícero e o recuo cratense pedem margens distintas no mesmo dia.',
+            'pergunta' => 'Em Crato, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Crato. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
         ],
         [
-            'pergunta' => 'Vocês fazem Centro, Seminário e Pinto Madeira no mesmo dia?',
-            'resposta' => 'Sim. Em Crato, informe a ordem e o nome do hotel. Um motorista articula os três recuos.',
+            'pergunta' => 'De Crato vocês fazem Juazeiro do Norte?',
+            'resposta' => 'Sim, saindo de Crato. Juazeiro do Norte não é o recorte de Centro; o horário pela BR-122 sai sob consulta.',
         ],
         [
-            'pergunta' => 'Dá para seguir a Fortaleza depois da reunião no Centro?',
-            'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Cariri; o horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'O hotel no Seminário é ponto conveniado?',
-            'resposta' => 'Não. Em Crato, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
+            'pergunta' => 'Em Crato o carro fica entre Centro e Pinto Madeira?',
+            'resposta' => 'Sim, em Crato. A hora à disposição cobre sede e hotel em Centro e bairro em Pinto Madeira.',
         ],
     ],
     'cta' => [
-        'titulo' => 'Marque o Crato e o JDO como dois relógios',
-        'texto' => 'O orçamento do Cariri sai sob consulta. Seminário, Centro e Juazeiro no mesmo WhatsApp.',
-        'botao' => 'Solicitar motorista no Crato',
+        'titulo' => 'Informe o embarque em Crato e o JDO',
+        'texto' => 'Diga o ponto em Centro ou Pinto Madeira, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Crato',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'ceara', 'ancora' => 'Fortaleza, o Cariri e o recorte cearense'],
-        ['tipo' => 'cidade', 'estado' => 'ceara', 'cidade' => 'juazeiro-do-norte', 'ancora' => 'Centro, Salesianos e o Orlando Bezerra'],
-        ['tipo' => 'cidade', 'estado' => 'ceara', 'cidade' => 'fortaleza', 'ancora' => 'Meireles, Aldeota e o Pinto Martins'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'ceara',
+            'ancora' => 'Crato e o recorte de Cariri cearense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'ceara',
+            'cidade' => 'juazeiro-do-norte',
+            'ancora' => 'Motorista em juazeiro do norte',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'ceara',
+            'cidade' => 'fortaleza',
+            'ancora' => 'Motorista em fortaleza',
+        ],
+    ],
+    'olho' => 'Centro e Orlando Bezerra (JDO), em Juazeiro do Norte não cabem no mesmo aceite tardio.',
+    'capitulos' => [
+        [
+            'h2' => 'Centro e o recuo da pauta',
+            'texto' => 'Crato usa Orlando Bezerra (JDO), em Juazeiro do Norte. Quem embarca em Centro não está no município da pista. A CE-060 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Pinto Madeira, Sossego e a ordem do dia',
+            'itens' => [
+                [
+                    'h3' => 'Pinto Madeira',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel. Pinto Madeira não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Sossego',
+                    'texto' => 'Origem frequente para residencial. Informe nome do hotel. Sossego não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Universitário',
+                    'texto' => 'Origem frequente para URCA. Informe nome do hotel. Universitário não compartilha o recuo de Centro.',
+                ],
+            ],
+        ],
+        [
+            'h2' => 'Orlando Bezerra — JDO',
+            'texto' => 'Orlando Bezerra (JDO) fica em Juazeiro do Norte, não em Crato. O trecho sai pela CE-060. Diga o IATA e o número do voo.',
+        ],
+    ],
+    'passos' => [
+        'h2' => 'Como solicitar em Crato',
+        'itens' => [
+            [
+                'num' => '01',
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'num' => '02',
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o JDO ou Juazeiro do Norte entra no dia.',
+            ],
+            [
+                'num' => '03',
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Crato, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

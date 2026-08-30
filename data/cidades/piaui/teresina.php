@@ -5,73 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Teresina',
-    'geo' => ['lat' => -5.08921, 'lng' => -42.8016],
+    'geo' => [
+        'lat' => -5.08921,
+        'lng' => -42.8016,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Teresina',
     'seo' => [
-        'title' => 'Traslado executivo em Teresina: Centro, Jóquei e THE',
-        'description' => 'Motorista executivo em Teresina para o Centro, Jóquei, Fátima, Ilhotas e o aeroporto Senador Petrônio Portella. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro de Teresina, no Jóquei e no THE',
-        'og_description' => 'Traslado na capital piauiense: hotel no Jóquei, pauta no Centro e o terminal THE.',
-        'og_image_alt' => 'Sedan executivo em avenida arborizada de Teresina',
+        'title' => 'Motorista executivo em Teresina: Jóquei e THE',
+        'description' => 'Motorista executivo em Teresina: Jóquei, Fátima e Senador Petrônio Portella (THE), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Teresina: Jóquei e THE',
+        'og_description' => 'O motorista combina Jóquei com Senador Petrônio Portella (THE), no próprio município. Informe nome do hotel ou da sede.',
+        'og_image_alt' => 'Carro executivo em via de Teresina',
     ],
     'kicker' => 'Capital piauiense · PI',
-    'h1' => 'Do Petrônio Portella ao Jóquei sem perder a pauta no Centro',
-    'lead' => 'Teresina é quente no asfalto e longa nas avenidas paralelas ao Parnaíba. O motorista segura a Frei Serafim e a Homero Castelo Branco; o passageiro segura a reunião — não a vaga na porta do hotel.',
-    'contexto' => [
-        'h2' => 'A capital do meio-norte cobra endereço de bairro, não “no centro”',
-        'texto' => [
-            'Centro, Jóquei, Fátima, Ilhotas e o Noivos não compartilham o mesmo recuo. Hotel (River Park, similar), clínica no Jóquei e voo no Senador Petrônio Portella (THE) cabem no mesmo expediente se a ordem das avenidas já estiver no roteiro.',
-            'O recorte é a rotina da capital: embarque na portaria, espera discreta e chegada no terminal certo. Quando a pauta cruza a ponte rumo a Timon, no Maranhão, o trecho deixa de ser só teresinense e sai com margem própria.',
-        ],
-    ],
-    'bairros' => [
-        'h2' => 'Eixos da capital onde o embarque mais se concentra',
-        'itens' => [
-            ['h3' => 'Centro e a Frei Serafim', 'texto' => 'Sede, palácio e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Jóquei e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da Homero Castelo Branco.'],
-            ['h3' => 'Fátima, Ilhotas e o Noivos', 'texto' => 'Pauta residencial e jantar. O recuo pede rua e número; “no Fátima” não basta.'],
-            ['h3' => 'Zona Leste e a ponte para Timon', 'texto' => 'Quando a reunião cruza o Parnaíba, o município muda. Informe o lado do rio antes do embarque.'],
-        ],
-    ],
-    'aeroportos' => [
-        'h2' => 'Petrônio Portella — THE no meio da pauta',
-        'itens' => [
-            ['h3' => 'Senador Petrônio Portella — THE', 'texto' => 'Terminal da capital, no recorte urbano. Combinamos o voo. A espera no desembarque integra o trecho THE.'],
-            ['h3' => 'Quando a pauta aponta para o litoral', 'texto' => 'Parnaíba ou o Delta não são o mesmo pedido do Centro. Se a visita vaza para o litoral piauiense, o orçamento sai à parte.'],
-        ],
-    ],
-    'rotas' => [
-        'h2' => 'Trajetos que a agenda teresinense mais pede',
-        'itens' => [
-            ['titulo' => 'THE → hotel no Jóquei', 'texto' => 'Em Teresina, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'Jóquei → Centro → Parque da Cidadania', 'texto' => 'Reunião, palácio e um intervalo só se estiver no roteiro. Um motorista cobre os três.'],
-            ['titulo' => 'Hotel → Timon ou Parnaíba no mesmo dia', 'texto' => 'Ponte ou litoral. Não é o recorte urbano do Centro; o horário sai sob consulta.'],
-        ],
-    ],
-    'como' => [
-        'h2' => 'Como o carro entra na grade em Teresina',
-        'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Jóquei, Centro ou Fátima. Autocomplete não resolve avenida com dois acessos.'],
-            ['titulo' => 'Hotel ou THE', 'texto' => 'Diga se o embarque é o Petrônio Portella ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Teresina, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Petrônio Portella',
+    'h1' => 'Teresina — Jóquei de manhã, THE quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Teresina',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Teresina fica longe do Jóquei?', 'resposta' => 'É trecho urbano. Marcamos margem: a Frei Serafim e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no THE se o voo atrasar?', 'resposta' => 'Sim. Em Teresina, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês cruzam a ponte rumo a Timon?', 'resposta' => 'Sim. Informe o endereço em Timon. São dois municípios; o recuo muda no outro lado do Parnaíba.'],
-        ['pergunta' => 'Dá para seguir a Parnaíba ou ao Delta depois do hotel?', 'resposta' => 'Sim. Em Teresina, como viagem. Não é o mesmo recorte do Centro; o orçamento sai sob consulta.'],
+        [
+            'pergunta' => 'Em Teresina, o THE fica no próprio município?',
+            'resposta' => 'Sim. Em Teresina, Senador Petrônio Portella (THE) fica no município. Informe o acesso via Avenida Centenário.',
+        ],
+        [
+            'pergunta' => 'Em Teresina, vocês buscam em Jóquei?',
+            'resposta' => 'Sim, em Teresina. Envie nome do hotel ou da sede em Jóquei. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Teresina vocês fazem Timon?',
+            'resposta' => 'Sim, saindo de Teresina. Timon não é o recorte de Jóquei; o horário pela PI-130 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Teresina o carro fica entre Jóquei e Fátima?',
+            'resposta' => 'Sim, em Teresina. A hora à disposição cobre hotel e clínica em Jóquei e bairro em Fátima.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Junte o Jóquei ao horário do Petrônio Portella',
-        'texto' => 'O orçamento de Teresina sai sob consulta. Centro, hotel e THE no mesmo WhatsApp.',
+        'titulo' => 'Informe o embarque em Teresina e o THE',
+        'texto' => 'Diga o ponto em Jóquei ou Fátima, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Teresina',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'piaui', 'ancora' => 'Parnaíba, Picos e o recorte piauiense'],
-        ['tipo' => 'cidade', 'estado' => 'maranhao', 'cidade' => 'sao-luis', 'ancora' => 'Calhau, Centro Histórico e o SLZ'],
-        ['tipo' => 'cidade', 'estado' => 'ceara', 'cidade' => 'fortaleza', 'ancora' => 'Meireles, Aldeota e o Pinto Martins'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'piaui',
+            'ancora' => 'Teresina e o recorte de Capital piauiense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'maranhao',
+            'cidade' => 'sao-luis',
+            'ancora' => 'Motorista em sao luis',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'ceara',
+            'cidade' => 'fortaleza',
+            'ancora' => 'Motorista em fortaleza',
+        ],
+    ],
+    'lead' => 'Teresina concentra Jóquei (hotel e clínica) e Senador Petrônio Portella (THE) no mesmo município. O motorista precisa do ponto de embarque e do THE no mesmo recado — “me busca em Teresina” não define o recuo.',
+    'contexto' => [
+        'h2' => 'Teresina se mede em ponte da Amizade, não em pin de aplicativo',
+        'texto' => [
+            'Teresina concentra Jóquei (hotel e clínica) e Senador Petrônio Portella (THE) no mesmo município. O motorista precisa do ponto de embarque e do THE no mesmo recado — “me busca em Teresina” não define o recuo.',
+            'Fátima pede bairro. Centro pede sede. Quando Timon entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela PI-130.',
+        ],
+    ],
+    'bairros' => [
+        'h2' => 'Eixos de embarque em Teresina',
+        'itens' => [
+            [
+                'h3' => 'Jóquei',
+                'texto' => 'Origem frequente para hotel e clínica. Informe nome do hotel ou da sede. Jóquei não compartilha o recuo de Fátima.',
+            ],
+            [
+                'h3' => 'Fátima',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel ou da sede. Fátima não compartilha o recuo de Jóquei.',
+            ],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome do hotel ou da sede. Centro não compartilha o recuo de Jóquei.',
+            ],
+            [
+                'h3' => 'Horto',
+                'texto' => 'Origem frequente para acesso ao THE. Informe nome do hotel ou da sede. Horto não compartilha o recuo de Jóquei.',
+            ],
+        ],
+    ],
+    'aeroportos' => [
+        'h2' => 'O terminal que a agenda de Teresina realmente usa',
+        'itens' => [
+            [
+                'h3' => 'Senador Petrônio Portella — THE',
+                'texto' => 'Senador Petrônio Portella (THE) fica em Teresina. Acesso: Avenida Centenário. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'ponte da Amizade e a vazão para Timon',
+                'texto' => 'Timon e Parnaíba aparecem no mesmo pedido de Teresina. Isso é viagem, não segunda corrida em Jóquei.',
+            ],
+        ],
+    ],
+    'rotas' => [
+        'h2' => 'Trajetos que o pedido em Teresina mais combina',
+        'itens' => [
+            [
+                'titulo' => 'Jóquei → THE',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: Avenida Centenário.',
+            ],
+            [
+                'titulo' => 'THE → Fátima',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel ou da sede.',
+            ],
+            [
+                'titulo' => 'Jóquei → Timon',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Fátima; o horário sai sob consulta.',
+            ],
+        ],
+    ],
+    'como' => [
+        'h2' => 'Como o carro entra na pauta em Teresina',
+        'passos' => [
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel ou da sede. Autocomplete não resolve dois acessos em Jóquei.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o THE ou Timon entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Teresina, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

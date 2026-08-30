@@ -1,0 +1,72 @@
+{
+    "estado": "santa-catarina",
+    "cidade": "florianopolis",
+    "nome": "Florianópolis",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Beira-Mar Norte",
+            "eixo": "ponte Colombo Salles",
+            "destino": "Hercílio Luz",
+            "motivo": "hotel e escritório"
+        }
+    ],
+    "eixos": [
+        "Beira-Mar Norte",
+        "Centro",
+        "Jurerê",
+        "Lagoa da Conceição"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Hercílio Luz",
+            "iata": "FLN",
+            "municipio": "Florianópolis",
+            "acesso": "SC-401"
+        }
+    ],
+    "rodovias": [
+        "ponte Colombo Salles",
+        "ponte Pedro Ivo",
+        "SC-401"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e escritório",
+        "pauta institucional",
+        "hotel na praia",
+        "agenda mista"
+    ],
+    "vizinhos_pedido": [
+        "São José",
+        "Palhoça",
+        "Balneário Camboriú"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal FLN em Florianópolis",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

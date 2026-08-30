@@ -5,59 +5,107 @@ declare(strict_types=1);
 return [
     'layout' => 'malha',
     'cidade_nome' => 'Ponta Grossa',
-    'geo' => ['lat' => -25.0916, 'lng' => -50.1668],
+    'geo' => [
+        'lat' => -25.0916,
+        'lng' => -50.1668,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Ponta Grossa',
     'seo' => [
-        'title' => 'Traslado em Ponta Grossa: Centro, Oficinas e CWB',
-        'description' => 'Motorista executivo em Ponta Grossa para o Centro, Oficinas, Uvaranas, Nova Rússia e o Afonso Pena (CWB) pela BR-277. Campos Gerais e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro, nas Oficinas e no CWB',
-        'og_description' => 'Traslado nos Campos Gerais: hotel nas Oficinas, pauta no Centro e o Afonso Pena pela 277.',
-        'og_image_alt' => 'Sedan executivo em avenida de Ponta Grossa',
+        'title' => 'Motorista executivo em Ponta Grossa: Centro e PGZ',
+        'description' => 'Carro com motorista em Ponta Grossa para Centro, Oficinas e PGZ. Informe o ponto de embarque e o horário. Orçamento sob consulta.  Horário combinado.',
+        'og_title' => 'Agenda em Ponta Grossa com motorista — Oficinas e Comandante Antonio Amilton Beraldo',
+        'og_description' => 'O motorista combina Centro com Comandante Antonio Amilton Beraldo (PGZ), no próprio município. Informe nome da empresa ou do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Ponta Grossa',
     ],
     'kicker' => 'Campos Gerais · PR',
-    'h1' => 'Das Oficinas ao Centro sem perder a janela da 277',
-    'intro' => 'Ponta Grossa concentra o agronegócio dos Campos Gerais, a UEPG e o eixo até Curitiba. Hotel no Centro ou nas Oficinas, reunião em Uvaranas e voo no Afonso Pena (CWB) cabem no mesmo expediente se o motorista já saiu com a ordem da Vicente Machado e da BR-376 — o campo de Sant\'Ana (PGZ) é só recorte local, sem linha regular desde março de 2025.',
-    'blocos' => [
+    'h1' => 'Em Ponta Grossa, de Centro a Comandante Antonio Amilton Beraldo (PGZ), no próprio município',
+    'faq_h2' => 'Dúvidas de quem embarca em Ponta Grossa',
+    'faq' => [
         [
-            'h2' => 'Por que o deslocamento em Ponta Grossa não é “pegar um carro no Centro”',
-            'texto' => 'Centro, Oficinas, Uvaranas e Nova Rússia não compartilham o mesmo recuo. Quem tem pauta na cooperativa e check-out no hotel precisa de um motorista que já conhece o sentido da Balduíno Taques e a janela da 277 até o CWB, não o atalho do app.',
+            'pergunta' => 'Em Ponta Grossa, o PGZ fica no próprio município?',
+            'resposta' => 'Sim. Em Ponta Grossa, Comandante Antonio Amilton Beraldo (PGZ) fica no município. Informe o acesso via BR-376.',
         ],
         [
-            'h2' => 'Quadrantes onde o embarque ponta-grossense mais se concentra',
+            'pergunta' => 'Em Ponta Grossa, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Ponta Grossa. Envie nome da empresa ou do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Ponta Grossa vocês fazem Curitiba?',
+            'resposta' => 'Sim, saindo de Ponta Grossa. Curitiba não é o recorte de Centro; o horário pela BR-373 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Ponta Grossa, PGZ e CWB são o mesmo recorte?',
+            'resposta' => 'Não, em Ponta Grossa. PGZ fica em Ponta Grossa; CWB fica em São José dos Pinhais. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Ponta Grossa e o PGZ',
+        'texto' => 'Diga o ponto em Centro ou Oficinas, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Ponta Grossa',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'parana',
+            'ancora' => 'Ponta Grossa e o recorte de Campos Gerais',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'parana',
+            'cidade' => 'curitiba',
+            'ancora' => 'Motorista em curitiba',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'parana',
+            'cidade' => 'sao-jose-dos-pinhais',
+            'ancora' => 'Motorista em sao jose dos pinhais',
+        ],
+    ],
+    'intro' => 'Ponta Grossa concentra Centro (sede e hotel) e Comandante Antonio Amilton Beraldo (PGZ) no mesmo município. O motorista precisa do ponto de embarque e do PGZ no mesmo recado — “me busca em Ponta Grossa” não define o recuo.',
+    'blocos' => [
+        [
+            'h2' => 'Por que o deslocamento em Ponta Grossa não é pegar um carro',
+            'texto' => 'Ponta Grossa concentra Centro (sede e hotel) e Comandante Antonio Amilton Beraldo (PGZ) no mesmo município. O motorista precisa do ponto de embarque e do PGZ no mesmo recado — “me busca em Ponta Grossa” não define o recuo.',
+        ],
+        [
+            'h2' => 'Quadrantes que mais geram embarque',
             'itens' => [
-                ['h3' => 'Centro e a Vicente Machado', 'texto' => 'Em Ponta Grossa, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-                ['h3' => 'Oficinas e Nova Rússia', 'texto' => 'Hotéis e torres. “Nas Oficinas” não define o recuo da portaria nem o quarteirão da República.'],
-                ['h3' => 'Uvaranas e o campus da UEPG', 'texto' => 'Pauta acadêmica e o recinto universitário. O recuo pede bloco e portaria, não “na universidade”.'],
-                ['h3' => 'Quando a pauta aponta para o CWB', 'texto' => 'O voo comercial sai do Afonso Pena, em São José dos Pinhais: BR-376 até o contorno e BR-277 até o terminal. O PGZ não substitui essa janela.'],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome da empresa ou do hotel. Centro não compartilha o recuo de Oficinas.',
+                ],
+                [
+                    'h3' => 'Oficinas',
+                    'texto' => 'Origem frequente para bairro. Informe nome da empresa ou do hotel. Oficinas não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Uvaranas',
+                    'texto' => 'Origem frequente para UEPG e industrial. Informe nome da empresa ou do hotel. Uvaranas não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Nova Rússia',
+                    'texto' => 'Origem frequente para residencial. Informe nome da empresa ou do hotel. Nova Rússia não compartilha o recuo de Centro.',
+                ],
             ],
         ],
     ],
     'grade' => [
-        'h2' => 'Rotas que a pauta ponta-grossense mais pede',
+        'h2' => 'Três combinações que a pauta de Ponta Grossa repete',
         'itens' => [
-            ['titulo' => 'Hotel nas Oficinas → Centro', 'texto' => 'Reunião e sede. Informe o nome do hotel e o prédio; o semáforo da Balduíno estica o intervalo.'],
-            ['titulo' => 'Centro → UEPG → Uvaranas', 'texto' => 'Campus e pauta. Um motorista cobre os dois se a ordem do bloco já estiver no roteiro.'],
-            ['titulo' => 'Ponta Grossa → CWB', 'texto' => 'BR-376 e BR-277 até o Afonso Pena. Combinamos o voo; a espera no desembarque integra o trecho.'],
-            ['titulo' => 'Hotel → cooperativa ou planta', 'texto' => 'Portaria e turno dos Campos Gerais. Envie o nome na lista; sem isso, o recuo não libera.'],
+            [
+                'titulo' => 'Centro → PGZ',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-376.',
+            ],
+            [
+                'titulo' => 'PGZ → Oficinas',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome da empresa ou do hotel.',
+            ],
+            [
+                'titulo' => 'Centro → Curitiba',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Oficinas; o horário sai sob consulta.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem usa o CWB a partir de Ponta Grossa',
-    'faq' => [
-        ['pergunta' => 'O aeroporto Sant\'Ana (PGZ) tem voo comercial?', 'resposta' => 'Não há linha regular desde março de 2025. O terminal prático é o Afonso Pena (CWB), pela BR-376 e pela BR-277. O PGZ entra só como campo local, se a pauta pedir.'],
-        ['pergunta' => 'Em Ponta Grossa, o motorista espera no CWB se o voo atrasar?', 'resposta' => 'Sim. Em Ponta Grossa, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, Oficinas e a UEPG no mesmo dia?', 'resposta' => 'Sim. Informe o bloco e a ordem. Um motorista articula os três recuos se a margem estiver no roteiro.'],
-        ['pergunta' => 'Dá para seguir a Curitiba depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-376. Não é o mesmo recorte das Oficinas; o horário sai sob consulta.'],
-        ['pergunta' => 'Em Ponta Grossa, vocês entram na cooperativa com protocolo de portaria?', 'resposta' => 'Sim. Em Ponta Grossa, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte as Oficinas ao horário do CWB',
-        'texto' => 'O orçamento de Ponta Grossa sai sob consulta. Centro, campus e Afonso Pena no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Ponta Grossa',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'parana', 'ancora' => 'Foz, Londrina e o recorte paranaense'],
-        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'curitiba', 'ancora' => 'Batel, Centro Cívico e o Afonso Pena'],
-        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'sao-jose-dos-pinhais', 'ancora' => 'Centro, Afonso Pena e o terminal CWB'],
     ],
 ];

@@ -1,0 +1,78 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "guaruja",
+    "nome": "Guarujá",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Pitangueiras",
+            "eixo": "ponte Pedro de Moraes Alves",
+            "destino": "Congonhas",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Pitangueiras",
+        "Enseada",
+        "Astúrias",
+        "Tombo"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Congonhas",
+            "iata": "CGH",
+            "municipio": "São Paulo",
+            "acesso": "Imigrantes / ponte"
+        },
+        {
+            "nome": "Guarulhos",
+            "iata": "GRU",
+            "municipio": "Guarulhos",
+            "acesso": "Anchieta"
+        }
+    ],
+    "rodovias": [
+        "ponte Pedro de Moraes Alves",
+        "SP-055",
+        "Avenida Miguel Estefano"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "orla",
+        "bairro",
+        "praia"
+    ],
+    "vizinhos_pedido": [
+        "Santos",
+        "Bertioga",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CGH em São Paulo",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

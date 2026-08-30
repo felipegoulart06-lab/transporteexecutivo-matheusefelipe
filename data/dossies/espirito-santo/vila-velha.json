@@ -1,0 +1,72 @@
+{
+    "estado": "espirito-santo",
+    "cidade": "vila-velha",
+    "nome": "Vila Velha",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Praia da Costa",
+            "eixo": "Terceira Ponte",
+            "destino": "Eurico de Aguiar Salles",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Praia da Costa",
+        "Itapoã",
+        "Centro",
+        "Glória"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Eurico de Aguiar Salles",
+            "iata": "VIX",
+            "municipio": "Vitória",
+            "acesso": "Terceira Ponte"
+        }
+    ],
+    "rodovias": [
+        "Terceira Ponte",
+        "Rodovia do Sol",
+        "Avenida Champagnat"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "orla",
+        "pauta no centro",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Vitória",
+        "Guarapari",
+        "Serra"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VIX em Vitória",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

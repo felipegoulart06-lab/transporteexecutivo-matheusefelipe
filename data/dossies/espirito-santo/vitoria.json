@@ -1,0 +1,72 @@
+{
+    "estado": "espirito-santo",
+    "cidade": "vitoria",
+    "nome": "Vitória",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Enseada do Suá",
+            "eixo": "Terceira Ponte",
+            "destino": "Eurico de Aguiar Salles",
+            "motivo": "torres e hotel"
+        }
+    ],
+    "eixos": [
+        "Enseada do Suá",
+        "Praia do Canto",
+        "Cidade Alta",
+        "Jardim Camburi"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Eurico de Aguiar Salles",
+            "iata": "VIX",
+            "municipio": "Vitória",
+            "acesso": "Avenida Fernando Ferrari"
+        }
+    ],
+    "rodovias": [
+        "Terceira Ponte",
+        "Camburi",
+        "BR-101"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "torres e hotel",
+        "orla executiva",
+        "pauta institucional",
+        "acesso ao VIX"
+    ],
+    "vizinhos_pedido": [
+        "Vila Velha",
+        "Serra",
+        "Cariacica"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VIX em Vitória",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

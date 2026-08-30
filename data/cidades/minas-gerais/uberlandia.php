@@ -5,73 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Uberlândia',
-    'geo' => ['lat' => -18.9141, 'lng' => -48.2749],
+    'geo' => [
+        'lat' => -18.9141,
+        'lng' => -48.2749,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Uberlândia',
     'seo' => [
-        'title' => 'Traslado executivo em Uberlândia: Centro, Umuarama e UDI',
-        'description' => 'Motorista executivo em Uberlândia para o Centro, Umuarama, Tibery, Parque do Sabiá e o aeroporto UDI. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro de Uberlândia, no Umuarama e no UDI',
-        'og_description' => 'Traslado no Triângulo Mineiro: hotel, pauta no Centro e o terminal UDI.',
-        'og_image_alt' => 'Sedan executivo em avenida larga de Uberlândia',
+        'title' => 'Motorista executivo em Uberlândia: Umuarama e UDI',
+        'description' => 'Motorista executivo em Uberlândia: Umuarama, Centro e César Bombonato (UDI), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Uberlândia: hotel, Umuarama e UDI',
+        'og_description' => 'O motorista combina Umuarama com César Bombonato (UDI), no próprio município. Informe nome do hotel ou do campus.',
+        'og_image_alt' => 'Carro executivo em via de Uberlândia',
     ],
     'kicker' => 'Triângulo Mineiro · MG',
-    'h1' => 'Do UDI ao Centro sem perder a reunião no Umuarama',
-    'lead' => 'Uberlândia é o nó rodoviário do Triângulo. O motorista segura a João Naves, a Rondon Pacheco e o recuo do aeroporto; o passageiro segura a pauta — não a vaga na porta do hotel.',
-    'contexto' => [
-        'h2' => 'A cidade do agronegócio cobra endereço de bairro, não “no centro”',
-        'texto' => [
-            'Centro, Umuarama, Tibery, Martins e o Shopping Park não compartilham o mesmo recuo. Hotel (Gran Odara, similar), clínica no Umuarama e voo no Tenente Coronel Aviador César Bombonato (UDI) cabem no mesmo expediente se a ordem das avenidas já estiver no roteiro.',
-            'O recorte é a rotina do interior que se comporta como capital: embarque na portaria, espera discreta e chegada no terminal certo. Quando a pauta aponta para Uberaba ou à BR-050 rumo a Brasília, o trecho deixa de ser só urbano.',
-        ],
-    ],
-    'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
-        'itens' => [
-            ['h3' => 'Centro e a Afonso Pena', 'texto' => 'Em Uberlândia, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Umuarama e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da João Naves.'],
-            ['h3' => 'Tibery, Martins e o Custódio Pereira', 'texto' => 'Pauta residencial e jantar. O recuo pede rua e número; “no Tibery” não basta.'],
-            ['h3' => 'Distrito industrial e a BR-050', 'texto' => 'Planta e logística. Protocolo de portaria entra no roteiro junto com o voo de volta.'],
-        ],
-    ],
-    'aeroportos' => [
-        'h2' => 'Tenente César Bombonato — UDI no meio da pauta',
-        'itens' => [
-            ['h3' => 'Uberlândia — UDI', 'texto' => 'Terminal da cidade, no recorte urbano. Combinamos o voo. A espera no desembarque integra o trecho UDI.'],
-            ['h3' => 'Quando a pauta aponta para Uberaba ou Brasília', 'texto' => 'O trecho não é o mesmo pedido do Centro. Se a reunião vaza pela BR-050, o orçamento sai à parte.'],
-        ],
-    ],
-    'rotas' => [
-        'h2' => 'Trajetos que a agenda uberlandense mais pede',
-        'itens' => [
-            ['titulo' => 'UDI → hotel no Umuarama', 'texto' => 'Em Uberlândia, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'Umuarama → Centro → UFU', 'texto' => 'Em Uberlândia, reunião, sede e campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Hotel → Uberaba no mesmo dia', 'texto' => 'Em Uberlândia, quando a pauta cruza o Triângulo, o trecho deixa de ser urbano. Horário sob consulta.'],
-        ],
-    ],
-    'como' => [
-        'h2' => 'Como o carro entra na grade em Uberlândia',
-        'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Umuarama, Centro ou Tibery. Autocomplete não resolve avenida com dois acessos.'],
-            ['titulo' => 'Hotel ou UDI', 'texto' => 'Em Uberlândia, diga se o embarque é o aeroporto ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Uberlândia, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no UDI',
+    'h1' => 'Em Uberlândia: do embarque em Umuarama ao UDI',
+    'faq_h2' => 'Dúvidas de quem embarca em Uberlândia',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Uberlândia fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a João Naves e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no UDI se o voo atrasar?', 'resposta' => 'Sim. Combinamos o UDI com o número do voo; a espera no Celso Mello Azevedo integra o trecho desde o Umuarama ou o Centro.'],
-        ['pergunta' => 'Vocês fazem Umuarama, Centro e a UFU no mesmo dia?', 'resposta' => 'Sim. Informe a ordem entre Umuarama, Centro e campus da UFU. Um carro à disposição evita três aceites na João Naves.'],
-        ['pergunta' => 'Dá para seguir a Uberaba depois do hotel?', 'resposta' => 'Sim, como viagem rumo a Uberaba. Não é o mesmo recorte do miolo urbano; o horário sai sob consulta.'],
+        [
+            'pergunta' => 'Em Uberlândia, o UDI fica no próprio município?',
+            'resposta' => 'Sim. Em Uberlândia, César Bombonato (UDI) fica no município. Informe o acesso via BR-050.',
+        ],
+        [
+            'pergunta' => 'Em Uberlândia, vocês buscam em Umuarama?',
+            'resposta' => 'Sim, em Uberlândia. Envie nome do hotel ou do campus em Umuarama. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Uberlândia vocês fazem Uberaba?',
+            'resposta' => 'Sim, saindo de Uberlândia. Uberaba não é o recorte de Umuarama; o horário pela BR-365 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Uberlândia o carro fica entre Umuarama e Centro?',
+            'resposta' => 'Sim, em Uberlândia. A hora à disposição cobre hotel e clínica em Umuarama e sede em Centro.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Junte o Umuarama ao horário do UDI',
-        'texto' => 'O orçamento de Uberlândia sai sob consulta. Centro, hotel e terminal no mesmo WhatsApp.',
+        'titulo' => 'Informe o embarque em Uberlândia e o UDI',
+        'texto' => 'Diga o ponto em Umuarama ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Uberlândia',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'minas-gerais', 'ancora' => 'Confins, Vale do Aço e a agenda mineira'],
-        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'belo-horizonte', 'ancora' => 'Savassi, Lourdes e o trecho até Confins'],
-        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'goiania', 'ancora' => 'Bueno, Marista e o Santa Genoveva'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'minas-gerais',
+            'ancora' => 'Uberlândia e o recorte de Triângulo Mineiro',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'minas-gerais',
+            'cidade' => 'belo-horizonte',
+            'ancora' => 'Motorista em belo horizonte',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'goias',
+            'cidade' => 'goiania',
+            'ancora' => 'Motorista em goiania',
+        ],
+    ],
+    'lead' => 'Uberlândia concentra Umuarama (hotel e clínica) e César Bombonato (UDI) no mesmo município. O motorista precisa do ponto de embarque e do UDI no mesmo recado — “me busca em Uberlândia” não define o recuo.',
+    'contexto' => [
+        'h2' => 'Uberlândia se mede em BR-050, não em pin de aplicativo',
+        'texto' => [
+            'Uberlândia concentra Umuarama (hotel e clínica) e César Bombonato (UDI) no mesmo município. O motorista precisa do ponto de embarque e do UDI no mesmo recado — “me busca em Uberlândia” não define o recuo.',
+            'Centro pede sede. Tibery pede bairro. Quando Uberaba entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-365.',
+        ],
+    ],
+    'bairros' => [
+        'h2' => 'Eixos de embarque em Uberlândia',
+        'itens' => [
+            [
+                'h3' => 'Umuarama',
+                'texto' => 'Origem frequente para hotel e clínica. Informe nome do hotel ou do campus. Umuarama não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome do hotel ou do campus. Centro não compartilha o recuo de Umuarama.',
+            ],
+            [
+                'h3' => 'Tibery',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel ou do campus. Tibery não compartilha o recuo de Umuarama.',
+            ],
+            [
+                'h3' => 'Campus UFU',
+                'texto' => 'Origem frequente para universidade. Informe nome do hotel ou do campus. Campus UFU não compartilha o recuo de Umuarama.',
+            ],
+        ],
+    ],
+    'aeroportos' => [
+        'h2' => 'O terminal que a agenda de Uberlândia realmente usa',
+        'itens' => [
+            [
+                'h3' => 'César Bombonato — UDI',
+                'texto' => 'César Bombonato (UDI) fica em Uberlândia. Acesso: BR-050. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'BR-050 e a vazão para Uberaba',
+                'texto' => 'Uberaba e Araguari aparecem no mesmo pedido de Uberlândia. Isso é viagem, não segunda corrida em Umuarama.',
+            ],
+        ],
+    ],
+    'rotas' => [
+        'h2' => 'Trajetos que o pedido em Uberlândia mais combina',
+        'itens' => [
+            [
+                'titulo' => 'Umuarama → UDI',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-050.',
+            ],
+            [
+                'titulo' => 'UDI → Centro',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel ou do campus.',
+            ],
+            [
+                'titulo' => 'Umuarama → Uberaba',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Centro; o horário sai sob consulta.',
+            ],
+        ],
+    ],
+    'como' => [
+        'h2' => 'Como o carro entra na pauta em Uberlândia',
+        'passos' => [
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel ou do campus. Autocomplete não resolve dois acessos em Umuarama.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o UDI ou Uberaba entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Uberlândia, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

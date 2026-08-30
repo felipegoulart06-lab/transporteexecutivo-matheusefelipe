@@ -1,0 +1,72 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "montes-claros",
+    "nome": "Montes Claros",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-135",
+            "destino": "Mário Ribeiro",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Ibituruna",
+        "Todos os Santos",
+        "Major Prates"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Mário Ribeiro",
+            "iata": "MOC",
+            "municipio": "Montes Claros",
+            "acesso": "BR-135"
+        }
+    ],
+    "rodovias": [
+        "BR-135",
+        "BR-251",
+        "Avenida Donato Quintino"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "Unimontes",
+        "bairro",
+        "acesso"
+    ],
+    "vizinhos_pedido": [
+        "Janaúba",
+        "Belo Horizonte",
+        "Brasília"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal MOC em Montes Claros",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -5,92 +5,105 @@ declare(strict_types=1);
 return [
     'layout' => 'orla',
     'cidade_nome' => 'Paulista',
-    'geo' => ['lat' => -7.9408, 'lng' => -34.8728],
+    'geo' => [
+        'lat' => -7.9408,
+        'lng' => -34.8728,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Paulista',
     'seo' => [
-        'title' => 'Norte da RMR: motorista em Paulista, Janga e REC',
-        'description' => 'Motorista em Paulista para Janga, Maria Farinha, Centro, Conceição e o trecho até o REC sem cruzar o centro do Recife duas vezes. Orçamento sob consulta.',
-        'og_title' => 'Traslado em Janga, Maria Farinha e no aeroporto REC',
-        'og_description' => 'Carro no norte da RMR: hotel na orla de Paulista, pauta no Centro e o recuo até o Guararapes.',
-        'og_image_alt' => 'Sedan executivo na orla de Janga, em Paulista',
+        'title' => 'Motorista executivo em Paulista: Centro e REC',
+        'description' => 'Motorista executivo em Paulista: Centro, Janga e Guararapes Gilberto Freyre (REC), em Recife. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Paulista: Centro e REC',
+        'og_description' => 'O motorista combina Centro com Guararapes Gilberto Freyre (REC), em Recife. Informe nome do hotel na orla.',
+        'og_image_alt' => 'Carro executivo em via de Paulista',
     ],
-    'kicker' => 'Norte da Região Metropolitana · PE',
-    'h1' => 'Janga, Maria Farinha e o REC sem cruzar o centro do Recife duas vezes',
-    'epigrafe' => 'Paulista é o norte da RMR: Janga e Maria Farinha pedem a via litorânea. O centro do Recife não é passagem obrigatória até o Guararapes — só entra se a pauta o citar.',
+    'kicker' => 'Região Metropolitana do Recife · PE',
+    'h1' => 'Paulista — Centro de manhã, REC quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Paulista',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Paulista embarca no REC dentro da cidade?',
+            'resposta' => 'Não. De Paulista o REC (Guararapes Gilberto Freyre) fica em Recife. O trecho sai de Centro pela PE-15.',
+        ],
+        [
+            'pergunta' => 'Em Paulista, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Paulista. Envie nome do hotel na orla em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Paulista vocês fazem Olinda?',
+            'resposta' => 'Sim, saindo de Paulista. Olinda não é o recorte de Centro; o horário pela Avenida Dr. Cláudio José Gueiros Leite sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Paulista o carro fica entre Centro e Janga?',
+            'resposta' => 'Sim, em Paulista. A hora à disposição cobre sede em Centro e orla em Janga.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Paulista e o REC',
+        'texto' => 'Diga o ponto em Centro ou Janga, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Paulista',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'pernambuco',
+            'ancora' => 'Paulista e o recorte de Região Metropolitana do Recife',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'recife',
+            'ancora' => 'Motorista em recife',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'olinda',
+            'ancora' => 'Motorista em olinda',
+        ],
+    ],
+    'epigrafe' => 'Centro não é o mesmo recuo de Janga. O motorista segura o acesso; o passageiro segura o horário.',
     'abertura' => [
-        'h2' => 'A orla de Paulista não é atalho da capital, nem o inverso',
+        'h2' => 'Paulista: origem na orla, destino no terminal certo',
         'texto' => [
-            'Janga e Maria Farinha concentram o pernoite de praia. Centro e Conceição puxam para o núcleo municipal. O Aeroporto Internacional do Recife (REC) fica ao sul da mancha: o motorista monta o recuo pela via que evita a volta desnecessária pelo Recife Antigo ou pela Boa Vista.',
-            'O serviço é de traslado e de espera. O hotel entra pelo nome — Janga ou Maria Farinha sozinhos não definem a porta. Olinda cola ao sul; o Sítio Histórico só entra se estiver no pedido.',
+            'Paulista usa Guararapes Gilberto Freyre (REC), em Recife. Quem embarca em Centro não está no município da pista. A PE-15 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Janga pede orla. Maria Farinha pede orla e hotel. Quando Olinda entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Avenida Dr. Cláudio José Gueiros Leite.',
         ],
     ],
     'faixas' => [
         [
-            'h2' => 'Janga e o relógio da via litorânea',
-            'texto' => 'Hotel, calçadão e o recuo da praia. Informe o trecho e o prédio; a numeração se repete e o sentido muda no fim de semana. “No Janga” não coloca o carro na porta certa.',
+            'h2' => 'Centro: o relógio do embarque',
+            'texto' => 'Centro concentra sede. Informe nome do hotel na orla.',
         ],
         [
-            'h2' => 'Maria Farinha, o Centro e a Conceição',
-            'texto' => 'Maria Farinha puxa para o norte da orla; o Centro e a Conceição voltam ao núcleo. Os três não compartilham o mesmo recuo. A ordem das vias pesa mais que a distância no mapa.',
+            'h2' => 'Janga e Maria Farinha',
+            'texto' => 'Janga pede orla. Maria Farinha pede orla e hotel. A ordem muda o intervalo mais que o mapa.',
         ],
         [
-            'h2' => 'O REC pelo norte — sem a volta pelo miolo do Recife',
-            'texto' => 'Do hotel em Janga ao Guararapes, o roteiro evita cruzar o centro da capital duas vezes. Informe se há parada em Olinda ou no Recife Antigo; cada uma redesenha o recuo.',
+            'h2' => 'Guararapes Gilberto Freyre (REC), em Recife',
+            'texto' => 'Guararapes Gilberto Freyre (REC) fica em Recife, não em Paulista. O trecho sai pela PE-15. Diga o IATA e o número do voo.',
         ],
     ],
     'aeroportos' => [
-        'h2' => 'Guararapes — REC ao sul, com recuo desenhado',
+        'h2' => 'Terminal e vazão a partir de Paulista',
         'itens' => [
             [
-                'h3' => 'Recife — REC',
-                'texto' => 'Terminal no município do Recife. Combinamos o voo. Até Janga ou Maria Farinha o intervalo é metropolitano; a margem sai da via litorânea e da PE, não do atalho pelo centro.',
+                'h3' => 'Guararapes Gilberto Freyre — REC',
+                'texto' => 'Guararapes Gilberto Freyre (REC) fica em Recife, não em Paulista. O trecho sai pela PE-15. Diga o IATA e o número do voo.',
             ],
             [
-                'h3' => 'Quando a pauta aponta para Olinda',
-                'texto' => 'Casa Caiada e o Sítio Histórico colam no sul de Paulista. Entram só se o endereço estiver no roteiro — não como desvio de última hora na ladeira.',
+                'h3' => 'PE-15 e a vazão para Olinda',
+                'texto' => 'Olinda e Recife aparecem no mesmo pedido de Paulista. Isso é viagem, não segunda corrida em Centro.',
             ],
         ],
     ],
     'protocolo' => [
-        'h2' => 'O que pedimos para acertar o embarque no norte da RMR',
+        'h2' => 'O que pedimos para acertar o embarque em Paulista',
         'lista' => [
-            'Hotel com nome — Janga ou Maria Farinha não bastam para o recuo.',
-            'Se o voo é no REC, número e horário. A margem sai da via, não do centro do Recife.',
-            'Olinda, Conceição ou o Centro de Paulista entram no roteiro; não são desvio improvisado na orla.',
+            'Hotel, prédio ou empresa com nome — “em Centro” não basta.',
+            'Qual terminal: REC em Recife.',
+            'Se Olinda entra depois, a ordem muda o recorte.',
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pauta Janga e o Guararapes',
-    'faq' => [
-        [
-            'pergunta' => 'É preciso cruzar o centro do Recife para chegar ao REC?',
-            'resposta' => 'Não. Do norte da RMR o recuo se desenha pela via que evita a volta pelo miolo da capital. Informe se há parada no Recife; sem isso, o centro não entra.',
-        ],
-        [
-            'pergunta' => 'Janga e Maria Farinha são o mesmo recuo?',
-            'resposta' => 'Não. São trechos distintos da orla de Paulista. Envie o nome do hotel e a rua; o calçadão sozinho não define a porta.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Janga, Conceição e o REC no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem. Um motorista articula orla, núcleo municipal e o terminal sem três aceites.',
-        ],
-        [
-            'pergunta' => 'Dá para incluir Olinda depois do hotel em Maria Farinha?',
-            'resposta' => 'Sim, quando o endereço entra no roteiro. Os municípios colam; a ladeira do Sítio pede ponto de espera. O horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'O hotel no Janga conta como parceria do serviço?',
-            'resposta' => 'Não. Em Paulista, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Monte o recuo de Janga sem a volta pelo Recife',
-        'texto' => 'O orçamento de Paulista sai sob consulta. Maria Farinha, Centro e REC no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Paulista',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'pernambuco', 'ancora' => 'Recife, Olinda e o recorte da RMR'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'recife', 'ancora' => 'Boa Viagem, Recife Antigo e o REC'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'olinda', 'ancora' => 'Sítio Histórico, Casa Caiada e o Guararapes'],
     ],
 ];

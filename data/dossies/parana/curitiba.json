@@ -1,0 +1,72 @@
+{
+    "estado": "parana",
+    "cidade": "curitiba",
+    "nome": "Curitiba",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Batel",
+            "eixo": "Linha Verde",
+            "destino": "Afonso Pena",
+            "motivo": "hotel e escritório"
+        }
+    ],
+    "eixos": [
+        "Batel",
+        "Centro Cívico",
+        "Água Verde",
+        "Ecoville"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Afonso Pena",
+            "iata": "CWB",
+            "municipio": "São José dos Pinhais",
+            "acesso": "Linha Verde"
+        }
+    ],
+    "rodovias": [
+        "Linha Verde",
+        "BR-277",
+        "7 de Setembro"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e escritório",
+        "pauta de governo",
+        "condomínio",
+        "torre de passagem"
+    ],
+    "vizinhos_pedido": [
+        "São José dos Pinhais",
+        "Araucária",
+        "Ponta Grossa"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CWB em São José dos Pinhais",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

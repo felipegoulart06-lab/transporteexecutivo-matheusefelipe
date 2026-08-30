@@ -1,0 +1,72 @@
+{
+    "estado": "parana",
+    "cidade": "cascavel",
+    "nome": "Cascavel",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-277",
+            "destino": "Adalberto Mendes da Silva",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Country",
+        "Universitário",
+        "Cancelli"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Adalberto Mendes da Silva",
+            "iata": "CAC",
+            "municipio": "Cascavel",
+            "acesso": "BR-277"
+        }
+    ],
+    "rodovias": [
+        "BR-277",
+        "BR-369",
+        "Avenida Brasil"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "campus",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Toledo",
+        "Foz do Iguaçu",
+        "Curitiba"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CAC em Cascavel",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

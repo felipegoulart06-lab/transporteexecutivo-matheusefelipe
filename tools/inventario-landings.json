@@ -1,0 +1,4592 @@
+[
+    {
+        "estado": "sao-paulo",
+        "cidade": "sao-paulo",
+        "nome": "São Paulo",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Capital paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "rio-de-janeiro",
+        "nome": "Rio de Janeiro",
+        "layout": "orla",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Cidade do Rio · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU no mesmo expediente"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Orla de Salvador, Centro e o aeroporto SSA"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "belo-horizonte",
+        "nome": "Belo Horizonte",
+        "layout": "serra",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Capital mineira · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "A janela Faria Lima–Congonhas–GRU"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Dois aeroportos e a orla no mesmo roteiro"
+            }
+        ]
+    },
+    {
+        "estado": "distrito-federal",
+        "cidade": "brasilia",
+        "nome": "Brasília",
+        "layout": "protocolo",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Distrito Federal · Brasília",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "distrito-federal",
+                "ancora": "O recorte do Distrito Federal além do Eixo"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Torres, Congonhas e GRU na capital paulista"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi e o trecho até Confins"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "curitiba",
+        "nome": "Curitiba",
+        "layout": "malha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Capital paranaense · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "A rotina da capital paulista com motorista"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "porto-alegre",
+        "nome": "Porto Alegre",
+        "layout": "gaucha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Capital gaúcha · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "A capital paulista no intervalo das torres"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "salvador",
+        "nome": "Salvador",
+        "layout": "baia",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Capital baiana · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Feira, Costa do Descobrimento e o recorte baiano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Recife Antigo, Boa Viagem e o REC"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o aeroporto FOR"
+            }
+        ]
+    },
+    {
+        "estado": "pernambuco",
+        "cidade": "recife",
+        "nome": "Recife",
+        "layout": "mare",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Capital pernambucana · PE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "pernambuco",
+                "ancora": "Caruaru, Petrolina e o recorte pernambucano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "A Paralela, a Barra e o SSA"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Aldeota, Meireles e o FOR"
+            }
+        ]
+    },
+    {
+        "estado": "ceara",
+        "cidade": "fortaleza",
+        "nome": "Fortaleza",
+        "layout": "dunas",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Capital cearense · CE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "ceara",
+                "ancora": "Juazeiro, Sobral e o recorte cearense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, pontes e o Guararapes"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Paralela e o Luís Eduardo Magalhães"
+            }
+        ]
+    },
+    {
+        "estado": "amazonas",
+        "cidade": "manaus",
+        "nome": "Manaus",
+        "layout": "rio",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Capital amazonense · AM",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "amazonas",
+                "ancora": "O recorte amazonense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "distrito-federal",
+                "cidade": "brasilia",
+                "ancora": "Eixo Monumental, Lago e o BSB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "A conexão com a capital paulista"
+            }
+        ]
+    },
+    {
+        "estado": "acre",
+        "cidade": "rio-branco",
+        "nome": "Rio Branco",
+        "layout": "rio",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Capital acreana · AC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "acre",
+                "ancora": "O recorte acreano além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "amazonas",
+                "cidade": "manaus",
+                "ancora": "Adrianópolis, Zona Franca e o MAO"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rondonia",
+                "cidade": "porto-velho",
+                "ancora": "Caiari, Madeira e o Jorge Teixeira"
+            }
+        ]
+    },
+    {
+        "estado": "alagoas",
+        "cidade": "maceio",
+        "nome": "Maceió",
+        "layout": "dunas",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Capital alagoana · AL",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "alagoas",
+                "ancora": "Arapiraca, Penedo e o recorte alagoano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, pontes e o Guararapes"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sergipe",
+                "cidade": "aracaju",
+                "ancora": "Atalaia, Centro e o Santa Maria"
+            }
+        ]
+    },
+    {
+        "estado": "amapa",
+        "cidade": "macapa",
+        "nome": "Macapá",
+        "layout": "protocolo",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Capital amapaense · AP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "amapa",
+                "ancora": "Oiapoque, Santana e o recorte amapaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "belem",
+                "ancora": "Nazaré, Ver-o-Peso e o Val-de-Cans"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "amazonas",
+                "cidade": "manaus",
+                "ancora": "O Eduardo Gomes e a agenda manauara"
+            }
+        ]
+    },
+    {
+        "estado": "espirito-santo",
+        "cidade": "vitoria",
+        "nome": "Vitória",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Capital capixaba · ES",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "espirito-santo",
+                "ancora": "O circuito das quatro cidades capixabas"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi e o trecho até Confins"
+            }
+        ]
+    },
+    {
+        "estado": "goias",
+        "cidade": "goiania",
+        "nome": "Goiânia",
+        "layout": "eixo",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Capital goiana · GO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "goias",
+                "ancora": "Anápolis, Rio Verde e o entorno do DF"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "distrito-federal",
+                "cidade": "brasilia",
+                "ancora": "Eixo Monumental, Lago e o BSB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "cuiaba",
+                "ancora": "Goiabeiras, Centro e o Marechal Rondon"
+            }
+        ]
+    },
+    {
+        "estado": "maranhao",
+        "cidade": "sao-luis",
+        "nome": "São Luís",
+        "layout": "baia",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Capital maranhense · MA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "maranhao",
+                "ancora": "Imperatriz, Balsas e o recorte maranhense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o Pinto Martins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "belem",
+                "ancora": "Nazaré, Batista Campos e o BEL"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso",
+        "cidade": "cuiaba",
+        "nome": "Cuiabá",
+        "layout": "serra",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Capital mato-grossense · MT",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso",
+                "ancora": "Rondonópolis, Sinop e o recorte mato-grossense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "goiania",
+                "ancora": "Bueno, Marista e o Santa Genoveva"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso-do-sul",
+                "cidade": "campo-grande",
+                "ancora": "Centro, shopping e o CGR"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso-do-sul",
+        "cidade": "campo-grande",
+        "nome": "Campo Grande",
+        "layout": "gaucha",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Capital sul-mato-grossense · MS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso-do-sul",
+                "ancora": "Dourados, Corumbá e o recorte sul-mato-grossense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "cuiaba",
+                "ancora": "Goiabeiras, ponte e o Marechal Rondon"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "A conexão com a capital paulista"
+            }
+        ]
+    },
+    {
+        "estado": "para",
+        "cidade": "belem",
+        "nome": "Belém",
+        "layout": "mare",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Capital paraense · PA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "para",
+                "ancora": "Santarém, Marabá e o recorte paraense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "amapa",
+                "cidade": "macapa",
+                "ancora": "Marco Zero, Fortaleza e o MCP"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "maranhao",
+                "cidade": "sao-luis",
+                "ancora": "Calhau, Centro Histórico e o SLZ"
+            }
+        ]
+    },
+    {
+        "estado": "paraiba",
+        "cidade": "joao-pessoa",
+        "nome": "João Pessoa",
+        "layout": "orla",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Capital paraibana · PB",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "paraiba",
+                "ancora": "Campina Grande, Patos e o recorte paraibano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, pontes e o Guararapes"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-norte",
+                "cidade": "natal",
+                "ancora": "Ponta Negra, Tirol e o Aluízio Alves"
+            }
+        ]
+    },
+    {
+        "estado": "piaui",
+        "cidade": "teresina",
+        "nome": "Teresina",
+        "layout": "eixo",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Capital piauiense · PI",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "piaui",
+                "ancora": "Parnaíba, Picos e o recorte piauiense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "maranhao",
+                "cidade": "sao-luis",
+                "ancora": "Calhau, Centro Histórico e o SLZ"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o Pinto Martins"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-norte",
+        "cidade": "natal",
+        "nome": "Natal",
+        "layout": "baia",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Capital potiguar · RN",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-norte",
+                "ancora": "Mossoró, Parnamirim e o recorte potiguar"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "paraiba",
+                "cidade": "joao-pessoa",
+                "ancora": "Tambaú, Cabo Branco e o Castro Pinto"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o Pinto Martins"
+            }
+        ]
+    },
+    {
+        "estado": "rondonia",
+        "cidade": "porto-velho",
+        "nome": "Porto Velho",
+        "layout": "malha",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Capital rondoniense · RO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rondonia",
+                "ancora": "Ji-Paraná, Ariquemes e o recorte rondoniense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "acre",
+                "cidade": "rio-branco",
+                "ancora": "Gameleira, Bosque e o Plácido de Castro"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "amazonas",
+                "cidade": "manaus",
+                "ancora": "Adrianópolis, Zona Franca e o MAO"
+            }
+        ]
+    },
+    {
+        "estado": "roraima",
+        "cidade": "boa-vista",
+        "nome": "Boa Vista",
+        "layout": "serra",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Capital de Roraima · RR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "roraima",
+                "ancora": "Pacaraima, Caracaraí e o recorte de Roraima"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "amazonas",
+                "cidade": "manaus",
+                "ancora": "Adrianópolis, Ponta Negra e o MAO"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "belem",
+                "ancora": "Nazaré, Umarizal e o Val-de-Cans"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "florianopolis",
+        "nome": "Florianópolis",
+        "layout": "orla",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Capital catarinense · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Joinville, Blumenau e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            }
+        ]
+    },
+    {
+        "estado": "sergipe",
+        "cidade": "aracaju",
+        "nome": "Aracaju",
+        "layout": "mare",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Capital sergipana · SE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sergipe",
+                "ancora": "Lagarto, Itabaiana e o recorte sergipano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "alagoas",
+                "cidade": "maceio",
+                "ancora": "Ponta Verde, Pajuçara e o Zumbi dos Palmares"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Paralela e o Luís Eduardo Magalhães"
+            }
+        ]
+    },
+    {
+        "estado": "tocantins",
+        "cidade": "palmas",
+        "nome": "Palmas",
+        "layout": "protocolo",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Capital tocantinense · TO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "tocantins",
+                "ancora": "Araguaína, Gurupi e o recorte tocantinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "goiania",
+                "ancora": "Bueno, Marista e o Santa Genoveva"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "distrito-federal",
+                "cidade": "brasilia",
+                "ancora": "Eixo Monumental, Lago e o BSB"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "campinas",
+        "nome": "Campinas",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Região Metropolitana de Campinas · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "guarulhos",
+                "ancora": "O recuo de Guarulhos e o terminal GRU"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "guarulhos",
+        "nome": "Guarulhos",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Cumbica e a cidade · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e o miolo da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "santos",
+        "nome": "Santos",
+        "layout": "orla",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Baixada Santista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "ribeirao-preto",
+        "nome": "Ribeirão Preto",
+        "layout": "dunas",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Interior paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "niteroi",
+        "nome": "Niterói",
+        "layout": "baia",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Cidade da baía · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "santos",
+                "ancora": "Gonzaga, porto e a orla santista"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "uberlandia",
+        "nome": "Uberlândia",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Triângulo Mineiro · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "goiania",
+                "ancora": "Bueno, Marista e o Santa Genoveva"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "joinville",
+        "nome": "Joinville",
+        "layout": "gaucha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Norte catarinense · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Joinville, Blumenau e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "florianopolis",
+                "ancora": "Jurerê, Centro e o Hercílio Luz"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "foz-do-iguacu",
+        "nome": "Foz do Iguaçu",
+        "layout": "rio",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Tríplice fronteira · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "londrina",
+                "ancora": "Gleba, Centro e o LDB"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "londrina",
+        "nome": "Londrina",
+        "layout": "mare",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Norte paranaense · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "foz-do-iguacu",
+                "ancora": "Cataratas, Itaipu e o aeroporto IGU"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "caxias-do-sul",
+        "nome": "Caxias do Sul",
+        "layout": "serra",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Serra Gaúcha · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "joinville",
+                "ancora": "Centro, América e o JOI"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "sao-jose-dos-campos",
+        "nome": "São José dos Campos",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Vale do Paraíba · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "sorocaba",
+        "nome": "Sorocaba",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Interior paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "juiz-de-fora",
+        "nome": "Juiz de Fora",
+        "layout": "serra",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Zona da Mata · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "petropolis",
+                "ancora": "Centro Histórico, Quitandinha e a serra"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "feira-de-santana",
+        "nome": "Feira de Santana",
+        "layout": "gaucha",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Portal do Sertão · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Feira, Costa do Descobrimento e o recorte baiano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Paralela e o Luís Eduardo Magalhães"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sergipe",
+                "cidade": "aracaju",
+                "ancora": "Atalaia, Centro e o Santa Maria"
+            }
+        ]
+    },
+    {
+        "estado": "espirito-santo",
+        "cidade": "vila-velha",
+        "nome": "Vila Velha",
+        "layout": "orla",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Grande Vitória · ES",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "espirito-santo",
+                "ancora": "O circuito das quatro cidades capixabas"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "espirito-santo",
+                "cidade": "vitoria",
+                "ancora": "Praia do Canto, Suá e o Eurico Salles"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "blumenau",
+        "nome": "Blumenau",
+        "layout": "rio",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Vale do Itajaí · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Joinville, Blumenau e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "joinville",
+                "ancora": "Centro, América e o JOI"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "balneario-camboriu",
+                "ancora": "Avenida Central, orla e o NVT"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "maringa",
+        "nome": "Maringá",
+        "layout": "eixo",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Noroeste paranaense · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "londrina",
+                "ancora": "Gleba Palhano, Centro e o LDB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            }
+        ]
+    },
+    {
+        "estado": "paraiba",
+        "cidade": "campina-grande",
+        "nome": "Campina Grande",
+        "layout": "mare",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Brejo paraibano · PB",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "paraiba",
+                "ancora": "Campina Grande, Patos e o recorte paraibano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "paraiba",
+                "cidade": "joao-pessoa",
+                "ancora": "Tambaú, Cabo Branco e o Castro Pinto"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, pontes e o Guararapes"
+            }
+        ]
+    },
+    {
+        "estado": "pernambuco",
+        "cidade": "olinda",
+        "nome": "Olinda",
+        "layout": "baia",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Cidade histórica · PE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "pernambuco",
+                "ancora": "Caruaru, Petrolina e o recorte pernambucano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, pontes e o Guararapes"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "paraiba",
+                "cidade": "joao-pessoa",
+                "ancora": "Tambaú, Cabo Branco e o Castro Pinto"
+            }
+        ]
+    },
+    {
+        "estado": "goias",
+        "cidade": "anapolis",
+        "nome": "Anápolis",
+        "layout": "malha",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Entorno goiano · GO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "goias",
+                "ancora": "Anápolis, Rio Verde e o entorno do DF"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "goiania",
+                "ancora": "Bueno, Marista e o Santa Genoveva"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "distrito-federal",
+                "cidade": "brasilia",
+                "ancora": "Eixo Monumental, Lago e o BSB"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "balneario-camboriu",
+        "nome": "Balneário Camboriú",
+        "layout": "dunas",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Litoral norte · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Joinville, Blumenau e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "blumenau",
+                "ancora": "Centro, Vila Nova e o NVT"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "florianopolis",
+                "ancora": "Jurerê, Centro e o Hercílio Luz"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "petropolis",
+        "nome": "Petrópolis",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Região Serrana · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "juiz-de-fora",
+                "ancora": "Centro, São Mateus e o aeroporto IZA"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "sao-jose-dos-pinhais",
+        "nome": "São José dos Pinhais",
+        "layout": "serra",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Região Metropolitana de Curitiba · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "guarulhos",
+                "ancora": "Cumbica, Centro e o terminal GRU"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "sao-jose-do-rio-preto",
+        "nome": "São José do Rio Preto",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Noroeste paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "ribeirao-preto",
+                "ancora": "Centro, Jardim Irajá e o Leite Lopes"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "jundiai",
+        "nome": "Jundiaí",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Interior da capital · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "sao-bernardo-do-campo",
+        "nome": "São Bernardo do Campo",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "ABC paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "santos",
+                "ancora": "Gonzaga, porto e a orla santista"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "uberaba",
+        "nome": "Uberaba",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Triângulo Mineiro · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "uberlandia",
+                "ancora": "Umuarama, Centro e o aeroporto UDI"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "goiania",
+                "ancora": "Bueno, Marista e o Santa Genoveva"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "montes-claros",
+        "nome": "Montes Claros",
+        "layout": "serra",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Norte de Minas · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "vitoria-da-conquista",
+                "ancora": "Candeias, Centro e o Glauber Rocha"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "porto-seguro",
+        "nome": "Porto Seguro",
+        "layout": "orla",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Costa do Descobrimento · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Feira, Costa do Descobrimento e o recorte baiano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Paralela e o Luís Eduardo Magalhães"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "feira-de-santana",
+                "ancora": "Centro, Kalilândia e o João Durval"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "vitoria-da-conquista",
+        "nome": "Vitória da Conquista",
+        "layout": "mare",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Sudoeste baiano · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Feira, Costa do Descobrimento e o recorte baiano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Paralela e o Luís Eduardo Magalhães"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "montes-claros",
+                "ancora": "Centro, Ibituruna e o Mário Ribeiro"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "chapeco",
+        "nome": "Chapecó",
+        "layout": "gaucha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Oeste catarinense · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Joinville, Blumenau e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "florianopolis",
+                "ancora": "Jurerê, Centro e o Hercílio Luz"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "caxias-do-sul",
+                "ancora": "Centro, São Pelegrino e o CXJ"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "cascavel",
+        "nome": "Cascavel",
+        "layout": "malha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Oeste paranaense · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "foz-do-iguacu",
+                "ancora": "Cataratas, Itaipu e o aeroporto IGU"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "pelotas",
+        "nome": "Pelotas",
+        "layout": "baia",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Sul gaúcho · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "caxias-do-sul",
+                "ancora": "Centro, São Pelegrino e o CXJ"
+            }
+        ]
+    },
+    {
+        "estado": "pernambuco",
+        "cidade": "caruaru",
+        "nome": "Caruaru",
+        "layout": "eixo",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Agreste pernambucano · PE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "pernambuco",
+                "ancora": "Caruaru, Petrolina e o recorte pernambucano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, pontes e o Guararapes"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "petrolina",
+                "ancora": "Centro, orla do São Francisco e o PNZ"
+            }
+        ]
+    },
+    {
+        "estado": "pernambuco",
+        "cidade": "petrolina",
+        "nome": "Petrolina",
+        "layout": "rio",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Vale do São Francisco · PE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "pernambuco",
+                "ancora": "Caruaru, Petrolina e o recorte pernambucano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, pontes e o Guararapes"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "feira-de-santana",
+                "ancora": "Centro, Kalilândia e o João Durval"
+            }
+        ]
+    },
+    {
+        "estado": "ceara",
+        "cidade": "juazeiro-do-norte",
+        "nome": "Juazeiro do Norte",
+        "layout": "dunas",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Cariri cearense · CE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "ceara",
+                "ancora": "Juazeiro, Sobral e o recorte cearense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o Pinto Martins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "petrolina",
+                "ancora": "Centro, orla do São Francisco e o PNZ"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "cabo-frio",
+        "nome": "Cabo Frio",
+        "layout": "dunas",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Região dos Lagos · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "macae",
+                "ancora": "Centro, Imbetiba e o aeroporto MEA"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "macae",
+        "nome": "Macaé",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Norte fluminense · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "cabo-frio",
+                "ancora": "Passagem, Centro e o aeroporto CFB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "santo-andre",
+        "nome": "Santo André",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "ABC paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-bernardo-do-campo",
+                "ancora": "Centro, Rudge Ramos e as plantas da Anchieta"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "osasco",
+        "nome": "Osasco",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Oeste da capital · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "guarulhos",
+                "ancora": "Cumbica, Centro e o terminal GRU"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "contagem",
+        "nome": "Contagem",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Grande Belo Horizonte · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "ipatinga",
+                "ancora": "Horto, Centro e o aeroporto IPN"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "ipatinga",
+        "nome": "Ipatinga",
+        "layout": "serra",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Vale do Aço · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "contagem",
+                "ancora": "Cidade Industrial, Eldorado e Confins"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "ilheus",
+        "nome": "Ilhéus",
+        "layout": "orla",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Costa do Cacau · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Feira, Costa do Descobrimento e o recorte baiano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "porto-seguro",
+                "ancora": "Cidade Histórica, Trancoso e o BPS"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Paralela e o Luís Eduardo Magalhães"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "camacari",
+        "nome": "Camaçari",
+        "layout": "malha",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Litoral norte · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Feira, Costa do Descobrimento e o recorte baiano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Paralela e o Luís Eduardo Magalhães"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "feira-de-santana",
+                "ancora": "Centro, Kalilândia e o João Durval"
+            }
+        ]
+    },
+    {
+        "estado": "ceara",
+        "cidade": "sobral",
+        "nome": "Sobral",
+        "layout": "dunas",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Norte cearense · CE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "ceara",
+                "ancora": "Juazeiro, Sobral e o recorte cearense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o Pinto Martins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "juazeiro-do-norte",
+                "ancora": "Centro, Salesianos e o Orlando Bezerra"
+            }
+        ]
+    },
+    {
+        "estado": "espirito-santo",
+        "cidade": "serra",
+        "nome": "Serra",
+        "layout": "baia",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Grande Vitória · ES",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "espirito-santo",
+                "ancora": "O circuito das quatro cidades capixabas"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "espirito-santo",
+                "cidade": "vitoria",
+                "ancora": "Praia do Canto, Suá e o Eurico Salles"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "espirito-santo",
+                "cidade": "vila-velha",
+                "ancora": "Praia da Costa, Penha e a Terceira Ponte"
+            }
+        ]
+    },
+    {
+        "estado": "goias",
+        "cidade": "caldas-novas",
+        "nome": "Caldas Novas",
+        "layout": "mare",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Águas quentes · GO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "goias",
+                "ancora": "Anápolis, Rio Verde e o entorno do DF"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "goiania",
+                "ancora": "Bueno, Marista e o Santa Genoveva"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "anapolis",
+                "ancora": "Centro, Jundiaí e o Distrito Agroindustrial"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso-do-sul",
+        "cidade": "dourados",
+        "nome": "Dourados",
+        "layout": "eixo",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Sul sul-mato-grossense · MS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso-do-sul",
+                "ancora": "Dourados, Corumbá e o recorte sul-mato-grossense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso-do-sul",
+                "cidade": "campo-grande",
+                "ancora": "Centro, shopping e o CGR"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso",
+        "cidade": "rondonopolis",
+        "nome": "Rondonópolis",
+        "layout": "gaucha",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Sul mato-grossense · MT",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso",
+                "ancora": "Cuiabá, Rondonópolis e o recorte mato-grossense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "cuiaba",
+                "ancora": "Centro, Goiabeiras e o Marechal Rondon"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso-do-sul",
+                "cidade": "campo-grande",
+                "ancora": "Centro, shopping e o CGR"
+            }
+        ]
+    },
+    {
+        "estado": "para",
+        "cidade": "santarem",
+        "nome": "Santarém",
+        "layout": "rio",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Baixo Amazonas · PA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "para",
+                "ancora": "Belém, Santarém e o recorte paraense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "belem",
+                "ancora": "Nazaré, Batista Campos e o Val-de-Cans"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "amazonas",
+                "cidade": "manaus",
+                "ancora": "Adrianópolis, Ponta Negra e o Eduardo Gomes"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "santa-maria",
+        "nome": "Santa Maria",
+        "layout": "eixo",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Centro gaúcho · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "pelotas",
+                "ancora": "Centro, Areal e o João Simões Lopes Neto"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "angra-dos-reis",
+        "nome": "Angra dos Reis",
+        "layout": "orla",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Costa Verde · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Zona Sul, Centro e os dois aeroportos"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "cabo-frio",
+                "ancora": "Centro, Passagem e o aeroporto CFB"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "itajai",
+        "nome": "Itajaí",
+        "layout": "malha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Vale do Itajaí · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Litoral, Vale e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "balneario-camboriu",
+                "ancora": "Avenida Central, orla e o NVT"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "blumenau",
+                "ancora": "Centro, Vorstadt e o eixo do Vale"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "barueri",
+        "nome": "Barueri",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Oeste da capital · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "osasco",
+                "ancora": "Centro, Bela Vista e o eixo da Castelo"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "sao-caetano-do-sul",
+        "nome": "São Caetano do Sul",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "ABC paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "santo-andre",
+                "ancora": "Centro, Campestre e o eixo até Congonhas"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-bernardo-do-campo",
+                "ancora": "Centro, Rudge Ramos e as plantas da Anchieta"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "piracicaba",
+        "nome": "Piracicaba",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Interior paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "bauru",
+        "nome": "Bauru",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Centro-oeste paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-jose-do-rio-preto",
+                "ancora": "Centro, Redentora e o eixo do interior"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "ribeirao-preto",
+                "ancora": "Centro, Jardim Irajá e o aeroporto RAO"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "sao-carlos",
+        "nome": "São Carlos",
+        "layout": "serra",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Interior paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "ribeirao-preto",
+                "ancora": "Centro, Jardim Irajá e o aeroporto RAO"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "taubate",
+        "nome": "Taubaté",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Vale do Paraíba · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-jose-dos-campos",
+                "ancora": "Aquarius, Centro e o aeroporto SJK"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "presidente-prudente",
+        "nome": "Presidente Prudente",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Oeste paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-jose-do-rio-preto",
+                "ancora": "Centro, Redentora e o eixo do interior"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "bauru",
+                "ancora": "Centro, Estoril e o aeroporto JTC"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "guaruja",
+        "nome": "Guarujá",
+        "layout": "orla",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Baixada Santista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "santos",
+                "ancora": "Gonzaga, porto e a orla santista"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "duque-de-caxias",
+        "nome": "Duque de Caxias",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Baixada Fluminense · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "niteroi",
+                "ancora": "Icaraí, Centro e a Ponte Rio-Niterói"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "campos-dos-goytacazes",
+        "nome": "Campos dos Goytacazes",
+        "layout": "baia",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Norte Fluminense · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "macae",
+                "ancora": "Centro, Imbetiba e o aeroporto MEA"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "cabo-frio",
+                "ancora": "Passagem, Centro e o aeroporto CFB"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "volta-redonda",
+        "nome": "Volta Redonda",
+        "layout": "serra",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Vale do Paraíba · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "angra-dos-reis",
+                "ancora": "Centro, Frade e a Costa Verde"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "betim",
+        "nome": "Betim",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Polo automotivo · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "contagem",
+                "ancora": "Cidade Industrial, Eldorado e Confins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "governador-valadares",
+        "nome": "Governador Valadares",
+        "layout": "rio",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Vale do Rio Doce · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "ipatinga",
+                "ancora": "Horto, Centro e o aeroporto IPN"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "pocos-de-caldas",
+        "nome": "Poços de Caldas",
+        "layout": "mare",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Sul de Minas · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "ribeirao-preto",
+                "ancora": "Centro, Jardim Irajá e o Leite Lopes"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "ponta-grossa",
+        "nome": "Ponta Grossa",
+        "layout": "malha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Campos Gerais · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "sao-jose-dos-pinhais",
+                "ancora": "Centro, Afonso Pena e o terminal CWB"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "paranagua",
+        "nome": "Paranaguá",
+        "layout": "orla",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Litoral paranaense · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "sao-jose-dos-pinhais",
+                "ancora": "Centro, Afonso Pena e o terminal CWB"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "criciuma",
+        "nome": "Criciúma",
+        "layout": "gaucha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Sul catarinense · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Joinville, Blumenau e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "florianopolis",
+                "ancora": "Jurerê, Centro e o Hercílio Luz"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "chapeco",
+                "ancora": "Centro, Médici e o terminal XAP"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "jaragua-do-sul",
+        "nome": "Jaraguá do Sul",
+        "layout": "malha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Norte catarinense · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Joinville, Blumenau e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "joinville",
+                "ancora": "Centro, América e o aeroporto JOI"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "blumenau",
+                "ancora": "Centro, Vorstadt e o eixo do Vale"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "sao-jose",
+        "nome": "São José",
+        "layout": "orla",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Grande Florianópolis · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Litoral, Vale e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "florianopolis",
+                "ancora": "Jurerê, Centro e o Hercílio Luz"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "itajai",
+                "ancora": "Fazenda, porto e o aeroporto NVT"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "canoas",
+        "nome": "Canoas",
+        "layout": "eixo",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Região Metropolitana de Porto Alegre · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "caxias-do-sul",
+                "ancora": "Centro, São Pelegrino e o CXJ"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "passo-fundo",
+        "nome": "Passo Fundo",
+        "layout": "gaucha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Norte gaúcho · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "caxias-do-sul",
+                "ancora": "Centro, São Pelegrino e o CXJ"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "rio-grande",
+        "nome": "Rio Grande",
+        "layout": "baia",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Litoral sul gaúcho · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "pelotas",
+                "ancora": "Centro, Areal e o João Simões Lopes Neto"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            }
+        ]
+    },
+    {
+        "estado": "pernambuco",
+        "cidade": "jaboatao-dos-guararapes",
+        "nome": "Jaboatão dos Guararapes",
+        "layout": "mare",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Sul da Região Metropolitana · PE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "pernambuco",
+                "ancora": "Recife, o agreste e o Vale do São Francisco"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, Recife Antigo e o REC"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "olinda",
+                "ancora": "Sítio Histórico, Casa Caiada e o Guararapes"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "lauro-de-freitas",
+        "nome": "Lauro de Freitas",
+        "layout": "dunas",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Município do SSA · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Salvador, o Recôncavo e o litoral norte"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Paralela e o eixo até o SSA"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "camacari",
+                "ancora": "Polo Industrial, Arembepe e a BA-099"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "juazeiro",
+        "nome": "Juazeiro",
+        "layout": "rio",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Vale do São Francisco · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Salvador, Feira e o recorte do São Francisco"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "petrolina",
+                "ancora": "Orla do São Francisco, Centro e o PNZ"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Iguatemi e o Luís Eduardo Magalhães"
+            }
+        ]
+    },
+    {
+        "estado": "goias",
+        "cidade": "aparecida-de-goiania",
+        "nome": "Aparecida de Goiânia",
+        "layout": "eixo",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Sul da Grande Goiânia · GO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "goias",
+                "ancora": "Goiânia, Anápolis e o eixo do cerrado"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "goiania",
+                "ancora": "Bueno, Marista e o Santa Genoveva"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "anapolis",
+                "ancora": "Centro, Jundiaí e o Distrito Agroindustrial"
+            }
+        ]
+    },
+    {
+        "estado": "goias",
+        "cidade": "rio-verde",
+        "nome": "Rio Verde",
+        "layout": "gaucha",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Sudoeste goiano · GO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "goias",
+                "ancora": "Goiânia, Anápolis e o sudoeste do grão"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "goiania",
+                "ancora": "Setor Bueno, T-63 e o GYN"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "anapolis",
+                "ancora": "DAE, campus e a BR-153"
+            }
+        ]
+    },
+    {
+        "estado": "para",
+        "cidade": "maraba",
+        "nome": "Marabá",
+        "layout": "rio",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Sudeste paraense · PA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "para",
+                "ancora": "Belém, Santarém e o sudeste mineral"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "belem",
+                "ancora": "Nazaré, Batista Campos e o Val-de-Cans"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "santarem",
+                "ancora": "Centro, Aldeia e o aeroporto STM"
+            }
+        ]
+    },
+    {
+        "estado": "maranhao",
+        "cidade": "imperatriz",
+        "nome": "Imperatriz",
+        "layout": "baia",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Tocantina maranhense · MA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "maranhao",
+                "ancora": "São Luís, a ilha e o interior tocantino"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "maranhao",
+                "cidade": "sao-luis",
+                "ancora": "Centro Histórico, Calhau e o SLZ"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "tocantins",
+                "cidade": "palmas",
+                "ancora": "Plano Diretor, quadras e o PMW"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso",
+        "cidade": "varzea-grande",
+        "nome": "Várzea Grande",
+        "layout": "protocolo",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Município do CGB · MT",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso",
+                "ancora": "Cuiabá, Rondonópolis e o eixo da soja"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "cuiaba",
+                "ancora": "Centro, Goiabeiras e a ponte rumo ao CGB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "rondonopolis",
+                "ancora": "Vila Aurora, Centro e o Maestro Marinho"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso",
+        "cidade": "sinop",
+        "nome": "Sinop",
+        "layout": "eixo",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Norte mato-grossense · MT",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso",
+                "ancora": "BR-163, capital e o sul da soja"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "cuiaba",
+                "ancora": "Goiabeiras, Centro e o Marechal Rondon"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "rondonopolis",
+                "ancora": "Centro, Distrito e o aeroporto ROO"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso-do-sul",
+        "cidade": "tres-lagoas",
+        "nome": "Três Lagoas",
+        "layout": "malha",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Leste sul-mato-grossense · MS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso-do-sul",
+                "ancora": "Campo Grande, Dourados e o leste da celulose"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso-do-sul",
+                "cidade": "campo-grande",
+                "ancora": "Centro, Cidade Morena e o CGR"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso-do-sul",
+                "cidade": "dourados",
+                "ancora": "Centro, Jardim América e o DOU"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-norte",
+        "cidade": "mossoro",
+        "nome": "Mossoró",
+        "layout": "dunas",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Oeste potiguar · RN",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-norte",
+                "ancora": "Natal, o sal e o oeste potiguar"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-norte",
+                "cidade": "natal",
+                "ancora": "Ponta Negra, Tirol e o NAT"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o Pinto Martins"
+            }
+        ]
+    },
+    {
+        "estado": "tocantins",
+        "cidade": "araguaina",
+        "nome": "Araguaína",
+        "layout": "serra",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Norte tocantinense · TO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "tocantins",
+                "ancora": "Palmas, o norte e o recorte do gado"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "tocantins",
+                "cidade": "palmas",
+                "ancora": "Plano Diretor, Quadra e o PMW"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "maranhao",
+                "cidade": "sao-luis",
+                "ancora": "Ponta d'Areia, Renascença e o Cunha Machado"
+            }
+        ]
+    },
+    {
+        "estado": "ceara",
+        "cidade": "maracanau",
+        "nome": "Maracanaú",
+        "layout": "protocolo",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Região Metropolitana · CE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "ceara",
+                "ancora": "Fortaleza, Sobral e a malha metropolitana"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o FOR"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "sobral",
+                "ancora": "Centro, Derby e o campus da UFC"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "diadema",
+        "nome": "Diadema",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Grande ABC · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "santo-andre",
+                "ancora": "Centro, Campestre e o eixo até Congonhas"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-bernardo-do-campo",
+                "ancora": "Centro, Rudge Ramos e as plantas da Anchieta"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "maua",
+        "nome": "Mauá",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "ABC industrial · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "santo-andre",
+                "ancora": "Centro, Campestre e o eixo até Congonhas"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "mogi-das-cruzes",
+        "nome": "Mogi das Cruzes",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Alto Tietê · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "guarulhos",
+                "ancora": "Cumbica, Centro e o recuo de GRU"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-paulo",
+                "ancora": "Faria Lima, Congonhas e GRU na capital"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "franca",
+        "nome": "Franca",
+        "layout": "serra",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Alta Mogiana · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "ribeirao-preto",
+                "ancora": "Centro, Jardim Irajá e o aeroporto RAO"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "uberaba",
+                "ancora": "Centro, Estados Unidos e o aeroporto UBA"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "limeira",
+        "nome": "Limeira",
+        "layout": "mare",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Polo joalheiro · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "piracicaba",
+                "ancora": "Centro, Cidade Alta e a ESALQ"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "americana",
+        "nome": "Americana",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Eixo têxtil · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "limeira",
+                "ancora": "Cidade Jardim, joias e o recorte até o VCP"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "araraquara",
+        "nome": "Araraquara",
+        "layout": "gaucha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Centro paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-carlos",
+                "ancora": "Centro, campus USP/UFSCar e o QSC"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "ribeirao-preto",
+                "ancora": "Centro, Jardim Irajá e o aeroporto RAO"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "marilia",
+        "nome": "Marília",
+        "layout": "dunas",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Centro-oeste paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "bauru",
+                "ancora": "Estoril, Centro e o aeroporto JTC"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "presidente-prudente",
+                "ancora": "Jardim das Rosas, Centro e o aeroporto PPB"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "aracatuba",
+        "nome": "Araçatuba",
+        "layout": "rio",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Noroeste paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "presidente-prudente",
+                "ancora": "Jardim das Rosas, Centro e o aeroporto PPB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "sao-jose-do-rio-preto",
+                "ancora": "Redentora, Centro e o aeroporto SJP"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "indaiatuba",
+        "nome": "Indaiatuba",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Entorno de Viracopos · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "jundiai",
+                "ancora": "Medeiros, Centro e o eixo da Anhanguera"
+            }
+        ]
+    },
+    {
+        "estado": "sao-paulo",
+        "cidade": "praia-grande",
+        "nome": "Praia Grande",
+        "layout": "orla",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Litoral sul paulista · SP",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "sao-paulo",
+                "ancora": "Capital e interior paulista no mesmo serviço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "santos",
+                "ancora": "Gonzaga, porto e a orla santista"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "guaruja",
+                "ancora": "Pitangueiras, Enseada e a serra"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "sao-goncalo",
+        "nome": "São Gonçalo",
+        "layout": "baia",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Leste da baía · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "niteroi",
+                "ancora": "Icaraí, Centro e a Ponte Rio-Niterói"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "nova-iguacu",
+        "nome": "Nova Iguaçu",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Baixada · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "duque-de-caxias",
+                "ancora": "Centro, REDUC e o recuo até o Galeão"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "armacao-dos-buzios",
+        "nome": "Armação dos Búzios",
+        "layout": "orla",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Península dos Lagos · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "cabo-frio",
+                "ancora": "Passagem, Centro e o aeroporto CFB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "teresopolis",
+        "nome": "Teresópolis",
+        "layout": "serra",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Serra fluminense · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "petropolis",
+                "ancora": "Centro Histórico, Quitandinha e a serra"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            }
+        ]
+    },
+    {
+        "estado": "rio-de-janeiro",
+        "cidade": "resende",
+        "nome": "Resende",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Médio Paraíba · RJ",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-de-janeiro",
+                "ancora": "O recorte fluminense além da capital"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "volta-redonda",
+                "ancora": "Aterrado, CSN e a Dutra do aço"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-de-janeiro",
+                "cidade": "rio-de-janeiro",
+                "ancora": "Santos Dumont, Galeão e a Zona Sul"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "divinopolis",
+        "nome": "Divinópolis",
+        "layout": "malha",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Centro-Oeste mineiro · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "betim",
+                "ancora": "Alterosas, Fiat e a BR-381"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "sete-lagoas",
+        "nome": "Sete Lagoas",
+        "layout": "protocolo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Iveco e MG-424 · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "contagem",
+                "ancora": "Cidade Industrial, Eldorado e Confins"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "pouso-alegre",
+        "nome": "Pouso Alegre",
+        "layout": "eixo",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Fernão Dias · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "pocos-de-caldas",
+                "ancora": "Centro, Country Club e o aeroporto POO"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "sao-paulo",
+                "cidade": "campinas",
+                "ancora": "Cambuí, Unicamp e o Viracopos"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "varginha",
+        "nome": "Varginha",
+        "layout": "mare",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Sul cafeeiro · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "pocos-de-caldas",
+                "ancora": "Centro, Country Club e o aeroporto POO"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            }
+        ]
+    },
+    {
+        "estado": "minas-gerais",
+        "cidade": "nova-lima",
+        "nome": "Nova Lima",
+        "layout": "dunas",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Vila da Serra · MG",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "minas-gerais",
+                "ancora": "Confins, Vale do Aço e a agenda mineira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "belo-horizonte",
+                "ancora": "Savassi, Lourdes e o trecho até Confins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "betim",
+                "ancora": "Alterosas, Fiat e a BR-381"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "toledo",
+        "nome": "Toledo",
+        "layout": "gaucha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Oeste paranaense · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "cascavel",
+                "ancora": "Centro, Country e o aeroporto CAC"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "foz-do-iguacu",
+                "ancora": "Cataratas, Itaipu e o aeroporto IGU"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "guarapuava",
+        "nome": "Guarapuava",
+        "layout": "serra",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Serra paranaense · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "ponta-grossa",
+                "ancora": "Centro, Oficinas e o recorte até o CWB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            }
+        ]
+    },
+    {
+        "estado": "parana",
+        "cidade": "araucaria",
+        "nome": "Araucária",
+        "layout": "protocolo",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Região Metropolitana de Curitiba · PR",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "parana",
+                "ancora": "Foz, Londrina e o recorte paranaense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "curitiba",
+                "ancora": "Batel, Centro Cívico e o Afonso Pena"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "parana",
+                "cidade": "sao-jose-dos-pinhais",
+                "ancora": "Centro, Afonso Pena e o terminal CWB"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "palhoca",
+        "nome": "Palhoça",
+        "layout": "orla",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Grande Florianópolis · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Litoral, Vale e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "sao-jose",
+                "ancora": "Kobrasol, Campinas e o Hercílio Luz"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "florianopolis",
+                "ancora": "Jurerê, Centro e o Hercílio Luz"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "lages",
+        "nome": "Lages",
+        "layout": "gaucha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Serra catarinense · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Litoral, Vale e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "florianopolis",
+                "ancora": "Jurerê, Centro e o Hercílio Luz"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "chapeco",
+                "ancora": "Centro, Médici e o terminal XAP"
+            }
+        ]
+    },
+    {
+        "estado": "santa-catarina",
+        "cidade": "brusque",
+        "nome": "Brusque",
+        "layout": "malha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Vale do Itajaí · SC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "santa-catarina",
+                "ancora": "Joinville, Blumenau e o recorte catarinense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "blumenau",
+                "ancora": "Centro, Vorstadt e o eixo do Vale"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "santa-catarina",
+                "cidade": "itajai",
+                "ancora": "Fazenda, porto e o aeroporto NVT"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "novo-hamburgo",
+        "nome": "Novo Hamburgo",
+        "layout": "eixo",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Vale dos Sinos · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "canoas",
+                "ancora": "Centro, Mathias Velho e o POA"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "sao-leopoldo",
+        "nome": "São Leopoldo",
+        "layout": "baia",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Vale dos Sinos · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "novo-hamburgo",
+                "ancora": "Ideal, Fenac e o recorte até o POA"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "bento-goncalves",
+        "nome": "Bento Gonçalves",
+        "layout": "serra",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Serra Gaúcha · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "caxias-do-sul",
+                "ancora": "Centro, São Pelegrino e o CXJ"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-sul",
+        "cidade": "gravatai",
+        "nome": "Gravataí",
+        "layout": "malha",
+        "imagem": "sul.jpg",
+        "uf_kicker": "Região Metropolitana de Porto Alegre · RS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-sul",
+                "ancora": "Serra, Porto e o recorte gaúcho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "porto-alegre",
+                "ancora": "Moinhos, Centro Histórico e o Salgado Filho"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-sul",
+                "cidade": "canoas",
+                "ancora": "Centro, Mathias Velho e o POA"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "itabuna",
+        "nome": "Itabuna",
+        "layout": "rio",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Litoral Sul · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Salvador, o Recôncavo e a Costa do Cacau"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "ilheus",
+                "ancora": "Pontal, Centro Histórico e o Jorge Amado"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "vitoria-da-conquista",
+                "ancora": "Centro, Recreio e o recuo da BR-116"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "barreiras",
+        "nome": "Barreiras",
+        "layout": "eixo",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Oeste baiano · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Salvador, Feira e o interior do oeste"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "vitoria-da-conquista",
+                "ancora": "Centro, Recreio e a chapada do sudoeste"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Paralela e o Luís Eduardo Magalhães"
+            }
+        ]
+    },
+    {
+        "estado": "bahia",
+        "cidade": "alagoinhas",
+        "nome": "Alagoinhas",
+        "layout": "dunas",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Recôncavo norte · BA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "bahia",
+                "ancora": "Salvador, Feira e o Recôncavo"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "salvador",
+                "ancora": "Barra, Iguatemi e o Luís Eduardo Magalhães"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "bahia",
+                "cidade": "feira-de-santana",
+                "ancora": "Centro, Kalilândia e o aeroporto FEC"
+            }
+        ]
+    },
+    {
+        "estado": "pernambuco",
+        "cidade": "cabo-de-santo-agostinho",
+        "nome": "Cabo de Santo Agostinho",
+        "layout": "mare",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Complexo de Suape · PE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "pernambuco",
+                "ancora": "Recife, o agreste e o litoral sul"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, Recife Antigo e o REC"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "jaboatao-dos-guararapes",
+                "ancora": "Piedade, Candeias e o Shopping Guararapes"
+            }
+        ]
+    },
+    {
+        "estado": "pernambuco",
+        "cidade": "paulista",
+        "nome": "Paulista",
+        "layout": "orla",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Norte da Região Metropolitana · PE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "pernambuco",
+                "ancora": "Recife, Olinda e o recorte da RMR"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "recife",
+                "ancora": "Boa Viagem, Recife Antigo e o REC"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "olinda",
+                "ancora": "Sítio Histórico, Casa Caiada e o Guararapes"
+            }
+        ]
+    },
+    {
+        "estado": "ceara",
+        "cidade": "caucaia",
+        "nome": "Caucaia",
+        "layout": "dunas",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Região Metropolitana · CE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "ceara",
+                "ancora": "Fortaleza, a RMF e o interior cearense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o Pinto Martins"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "maracanau",
+                "ancora": "Distrito Industrial, Centro e o FOR"
+            }
+        ]
+    },
+    {
+        "estado": "ceara",
+        "cidade": "crato",
+        "nome": "Crato",
+        "layout": "serra",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Cariri cearense · CE",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "ceara",
+                "ancora": "Fortaleza, o Cariri e o recorte cearense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "juazeiro-do-norte",
+                "ancora": "Centro, Salesianos e o Orlando Bezerra"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o Pinto Martins"
+            }
+        ]
+    },
+    {
+        "estado": "goias",
+        "cidade": "luziania",
+        "nome": "Luziânia",
+        "layout": "eixo",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Entorno do DF · GO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "goias",
+                "ancora": "Goiânia, Anápolis e o Entorno"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "distrito-federal",
+                "cidade": "brasilia",
+                "ancora": "Eixo Monumental, Asas e o aeroporto BSB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "goiania",
+                "ancora": "Setor Bueno, T-63 e o Santa Genoveva"
+            }
+        ]
+    },
+    {
+        "estado": "goias",
+        "cidade": "itumbiara",
+        "nome": "Itumbiara",
+        "layout": "rio",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Vale do Paranaíba · GO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "goias",
+                "ancora": "Goiânia, o sudoeste e o Paranaíba"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "goias",
+                "cidade": "rio-verde",
+                "ancora": "Centro, agro e o General Leite de Castro"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "minas-gerais",
+                "cidade": "uberlandia",
+                "ancora": "Centro, Umuarama e o aeroporto UDI"
+            }
+        ]
+    },
+    {
+        "estado": "espirito-santo",
+        "cidade": "cachoeiro-de-itapemirim",
+        "nome": "Cachoeiro de Itapemirim",
+        "layout": "baia",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Sul capixaba · ES",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "espirito-santo",
+                "ancora": "Vitória, o sul e o circuito capixaba"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "espirito-santo",
+                "cidade": "vitoria",
+                "ancora": "Praia do Canto, Suá e o Eurico Salles"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "espirito-santo",
+                "cidade": "vila-velha",
+                "ancora": "Praia da Costa, Penha e a Terceira Ponte"
+            }
+        ]
+    },
+    {
+        "estado": "espirito-santo",
+        "cidade": "linhares",
+        "nome": "Linhares",
+        "layout": "rio",
+        "imagem": "sudeste.jpg",
+        "uf_kicker": "Norte capixaba · ES",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "espirito-santo",
+                "ancora": "Vitória, Serra e o norte do óleo"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "espirito-santo",
+                "cidade": "vitoria",
+                "ancora": "Praia do Canto, Suá e o Eurico Salles"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "espirito-santo",
+                "cidade": "serra",
+                "ancora": "Laranjeiras, Civit e o recuo até o VIX"
+            }
+        ]
+    },
+    {
+        "estado": "para",
+        "cidade": "ananindeua",
+        "nome": "Ananindeua",
+        "layout": "malha",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Região Metropolitana de Belém · PA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "para",
+                "ancora": "Belém, Santarém e o recorte paraense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "belem",
+                "ancora": "Nazaré, Batista Campos e o Val-de-Cans"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "santarem",
+                "ancora": "Centro, Aldeia e o aeroporto STM"
+            }
+        ]
+    },
+    {
+        "estado": "para",
+        "cidade": "parauapebas",
+        "nome": "Parauapebas",
+        "layout": "rio",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Serra dos Carajás · PA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "para",
+                "ancora": "Belém, Marabá e o sudeste mineral"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "maraba",
+                "ancora": "Nova Marabá, a Velha e o aeroporto MAB"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "belem",
+                "ancora": "Nazaré, Batista Campos e o Val-de-Cans"
+            }
+        ]
+    },
+    {
+        "estado": "maranhao",
+        "cidade": "caxias",
+        "nome": "Caxias",
+        "layout": "gaucha",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Leste maranhense · MA",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "maranhao",
+                "ancora": "São Luís, a ilha e o interior maranhense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "maranhao",
+                "cidade": "sao-luis",
+                "ancora": "Centro Histórico, Calhau e o SLZ"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "piaui",
+                "cidade": "teresina",
+                "ancora": "Centro, Jóquei e o Petrônio Portella"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso",
+        "cidade": "sorriso",
+        "nome": "Sorriso",
+        "layout": "eixo",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Norte da BR-163 · MT",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso",
+                "ancora": "BR-163, capital e o sul da soja"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "sinop",
+                "ancora": "Centro, Figueiras e o aeroporto OPS"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "cuiaba",
+                "ancora": "Goiabeiras, Centro e o Marechal Rondon"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso",
+        "cidade": "tangara-da-serra",
+        "nome": "Tangará da Serra",
+        "layout": "gaucha",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Chapada dos Parecis · MT",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso",
+                "ancora": "Capital, o sul da soja e a chapada"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "cuiaba",
+                "ancora": "Goiabeiras, Centro e o Marechal Rondon"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "rondonopolis",
+                "ancora": "Centro, Vila Aurora e o aeroporto ROO"
+            }
+        ]
+    },
+    {
+        "estado": "mato-grosso-do-sul",
+        "cidade": "corumba",
+        "nome": "Corumbá",
+        "layout": "baia",
+        "imagem": "centro-oeste.jpg",
+        "uf_kicker": "Fronteira e Pantanal · MS",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "mato-grosso-do-sul",
+                "ancora": "Campo Grande, Dourados e o Pantanal"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso-do-sul",
+                "cidade": "campo-grande",
+                "ancora": "Centro, Cidade Morena e o aeroporto CGR"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso-do-sul",
+                "cidade": "dourados",
+                "ancora": "Centro, Jardim América e o aeroporto DOU"
+            }
+        ]
+    },
+    {
+        "estado": "rio-grande-do-norte",
+        "cidade": "parnamirim",
+        "nome": "Parnamirim",
+        "layout": "dunas",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Grande Natal · RN",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rio-grande-do-norte",
+                "ancora": "Natal, o litoral e o oeste potiguar"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-norte",
+                "cidade": "natal",
+                "ancora": "Ponta Negra, Tirol e o NAT"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rio-grande-do-norte",
+                "cidade": "mossoro",
+                "ancora": "Centro, Nova Betânia e o MVF"
+            }
+        ]
+    },
+    {
+        "estado": "piaui",
+        "cidade": "parnaiba",
+        "nome": "Parnaíba",
+        "layout": "mare",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Litoral piauiense · PI",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "piaui",
+                "ancora": "Teresina, o litoral e o recorte piauiense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "piaui",
+                "cidade": "teresina",
+                "ancora": "Centro, Jóquei e o Petrônio Portella"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "ceara",
+                "cidade": "fortaleza",
+                "ancora": "Meireles, Aldeota e o Pinto Martins"
+            }
+        ]
+    },
+    {
+        "estado": "alagoas",
+        "cidade": "arapiraca",
+        "nome": "Arapiraca",
+        "layout": "protocolo",
+        "imagem": "nordeste.jpg",
+        "uf_kicker": "Agreste alagoano · AL",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "alagoas",
+                "ancora": "Maceió, o agreste e o recorte alagoano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "alagoas",
+                "cidade": "maceio",
+                "ancora": "Ponta Verde, Pajuçara e o MCZ"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "pernambuco",
+                "cidade": "caruaru",
+                "ancora": "Centro, Indianópolis e o agreste pernambucano"
+            }
+        ]
+    },
+    {
+        "estado": "tocantins",
+        "cidade": "gurupi",
+        "nome": "Gurupi",
+        "layout": "serra",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Sul tocantinense · TO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "tocantins",
+                "ancora": "Palmas, o norte e o sul da 153"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "tocantins",
+                "cidade": "palmas",
+                "ancora": "Plano Diretor, Quadra e o PMW"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "tocantins",
+                "cidade": "araguaina",
+                "ancora": "Centro, Senador e o aeroporto AUX"
+            }
+        ]
+    },
+    {
+        "estado": "rondonia",
+        "cidade": "ji-parana",
+        "nome": "Ji-Paraná",
+        "layout": "rio",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Vale do Machado · RO",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "rondonia",
+                "ancora": "Porto Velho, o Vale do Machado e a 364"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rondonia",
+                "cidade": "porto-velho",
+                "ancora": "Caiari, Centro e o Jorge Teixeira"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "mato-grosso",
+                "cidade": "cuiaba",
+                "ancora": "Goiabeiras, Centro e o Marechal Rondon"
+            }
+        ]
+    },
+    {
+        "estado": "amazonas",
+        "cidade": "parintins",
+        "nome": "Parintins",
+        "layout": "baia",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Ilha do baixo Amazonas · AM",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "amazonas",
+                "ancora": "Manaus, o rio e o recorte amazonense"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "amazonas",
+                "cidade": "manaus",
+                "ancora": "Adrianópolis, Ponta Negra e o MAO"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "para",
+                "cidade": "santarem",
+                "ancora": "Centro, Aldeia e o aeroporto STM"
+            }
+        ]
+    },
+    {
+        "estado": "acre",
+        "cidade": "cruzeiro-do-sul",
+        "nome": "Cruzeiro do Sul",
+        "layout": "eixo",
+        "imagem": "norte.jpg",
+        "uf_kicker": "Vale do Juruá · AC",
+        "relacionados": [
+            {
+                "tipo": "estado",
+                "slug": "acre",
+                "ancora": "Rio Branco, o Juruá e o recorte acreano"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "acre",
+                "cidade": "rio-branco",
+                "ancora": "Gameleira, Bosque e o Plácido de Castro"
+            },
+            {
+                "tipo": "cidade",
+                "estado": "rondonia",
+                "cidade": "porto-velho",
+                "ancora": "Caiari, Centro e o Jorge Teixeira"
+            }
+        ]
+    }
+]

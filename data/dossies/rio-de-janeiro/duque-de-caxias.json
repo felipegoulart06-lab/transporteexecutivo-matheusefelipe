@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "duque-de-caxias",
+    "nome": "Duque de Caxias",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Avenida Brasil",
+            "destino": "Galeão",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Gramacho",
+        "Saracuruna",
+        "Campos Elíseos"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "Avenida Brasil / Washington Luís"
+        },
+        {
+            "nome": "Santos Dumont",
+            "iata": "SDU",
+            "municipio": "Rio de Janeiro",
+            "acesso": "Avenida Brasil"
+        }
+    ],
+    "rodovias": [
+        "Avenida Brasil",
+        "Washington Luís",
+        "RJ-085"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "polo e REDUC",
+        "bairro",
+        "industrial"
+    ],
+    "vizinhos_pedido": [
+        "Rio de Janeiro",
+        "Nova Iguaçu",
+        "Petrópolis"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GIG em Rio de Janeiro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

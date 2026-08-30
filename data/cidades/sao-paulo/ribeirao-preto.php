@@ -5,59 +5,91 @@ declare(strict_types=1);
 return [
     'layout' => 'dunas',
     'cidade_nome' => 'Ribeirão Preto',
-    'geo' => ['lat' => -21.1775, 'lng' => -47.8103],
+    'geo' => [
+        'lat' => -21.1775,
+        'lng' => -47.8103,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Ribeirão Preto',
     'seo' => [
-        'title' => 'Traslado executivo em Ribeirão Preto: Centro, Jardim e RAO',
-        'description' => 'Motorista executivo em Ribeirão Preto para o Centro, Jardim Irajá, Ribeirânia e o aeroporto Leite Lopes. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro de Ribeirão, no Jardim e no RAO',
-        'og_description' => 'Traslado no interior paulista: hotel, pauta médica e o terminal Leite Lopes.',
-        'og_image_alt' => 'Sedan executivo em avenida arborizada de Ribeirão Preto',
+        'title' => 'Motorista executivo em Ribeirão Preto: Jardim Irajá e RAO',
+        'description' => 'Carro com motorista em Ribeirão Preto para Jardim Irajá, Centro e RAO. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Ribeirão Preto com motorista — Centro e Leite Lopes',
+        'og_description' => 'O motorista combina Jardim Irajá com Leite Lopes (RAO), no próprio município. Informe nome do hotel ou da unidade.',
+        'og_image_alt' => 'Carro executivo em via de Ribeirão Preto',
     ],
     'kicker' => 'Interior paulista · SP',
-    'h1' => 'Do Leite Lopes ao Centro sem perder a janela da Ribeirânia',
+    'h1' => 'Em Ribeirão Preto, de Jardim Irajá a Leite Lopes (RAO), no próprio município',
+    'faq_h2' => 'Dúvidas de quem embarca em Ribeirão Preto',
+    'faq' => [
+        [
+            'pergunta' => 'Em Ribeirão Preto, o RAO fica no próprio município?',
+            'resposta' => 'Sim. Em Ribeirão Preto, Leite Lopes (RAO) fica no município. Informe o acesso via Avenida Costábile Romano.',
+        ],
+        [
+            'pergunta' => 'Em Ribeirão Preto, vocês buscam em Jardim Irajá?',
+            'resposta' => 'Sim, em Ribeirão Preto. Envie nome do hotel ou da unidade em Jardim Irajá. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Ribeirão Preto vocês fazem Sertãozinho?',
+            'resposta' => 'Sim, saindo de Ribeirão Preto. Sertãozinho não é o recorte de Jardim Irajá; o horário pela SP-333 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Ribeirão Preto o carro fica entre Jardim Irajá e Centro?',
+            'resposta' => 'Sim, em Ribeirão Preto. A hora à disposição cobre hotel e clínica em Jardim Irajá e sede em Centro.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Ribeirão Preto e o RAO',
+        'texto' => 'Diga o ponto em Jardim Irajá ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Ribeirão Preto',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Ribeirão Preto e o recorte de Interior paulista',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'campinas',
+            'ancora' => 'Motorista em campinas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'sao-paulo',
+            'ancora' => 'Motorista em sao paulo',
+        ],
+    ],
     'trilha' => [
-        'h2' => 'Ribeirão Preto se lê em avenida larga e em pauta médica — não no atalho do app',
-        'texto' => 'A cidade alinha hotel no Jardim Irajá ou na Ribeirânia, reunião no Centro e voo no Leite Lopes (RAO). A Independência e a Presidente Vargas mudam o relógio. O motorista sai com essa malha; o passageiro não discute faixa com o GPS na porta do hospital.',
+        'h2' => 'Ribeirão Preto se lê em Anhanguera, não em atalho de app',
+        'texto' => 'Ribeirão Preto concentra Jardim Irajá (hotel e clínica) e Leite Lopes (RAO) no mesmo município. O motorista precisa do ponto de embarque e do RAO no mesmo recado — “me busca em Ribeirão Preto” não define o recuo.',
     ],
     'chips' => [
-        'h2' => 'Onde o embarque ribeirão-pretano mais se repete',
-        'itens' => ['Centro', 'Jardim Irajá', 'Ribeirânia', 'Nova Aliança', 'Campus da USP', 'Aeroporto Leite Lopes'],
+        'h2' => 'Onde o embarque em Ribeirão Preto mais se repete',
+        'itens' => [
+            'Jardim Irajá',
+            'Centro',
+            'Vila Tibério',
+            'Campus USP',
+            'Leite Lopes',
+            'Anhanguera',
+        ],
     ],
     'historias' => [
         [
-            'h2' => 'O hotel como embarque, não como slogan de parceria',
-            'texto' => 'JP, Nacional Inn e similares entram no roteiro pelo nome e pelo recuo, não por “no Jardim”. O carro espera no acesso de serviço quando a Independência está tomada.',
+            'h2' => 'Jardim Irajá como origem, não como cartão-postal',
+            'texto' => 'Origem frequente para hotel e clínica. Informe nome do hotel ou da unidade. Jardim Irajá não compartilha o recuo de Centro.',
         ],
         [
-            'h2' => 'Centro, hospitais e a pauta da USP',
-            'texto' => 'Clínicas, o HC e o campus. Deslocamentos curtos e repetidos; um carro à disposição rende mais que três chamadas entre a Ribeirânia e o Centro. Informe a unidade; “no hospital” não define a porta.',
-        ],
-        [
-            'h2' => 'Rotas que misturam trabalho, campus e o interior',
-            'texto' => 'RAO → hotel no Jardim → Centro → USP só se o campus estiver no roteiro. Outro clássico: hotel → Sertãozinho ou Barrinha como viagem curta, com horário de rodovia, não como segunda corrida urbana.',
+            'h2' => 'Centro no meio do expediente',
+            'texto' => 'Centro pede sede. Vila Tibério pede bairro. Quando Sertãozinho entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela SP-333.',
         ],
         [
             'h2' => 'Leite Lopes — RAO',
-            'texto' => 'O terminal fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho RAO; a avenida e o pico mudam o intervalo mais que o mapa admite.',
+            'texto' => 'Leite Lopes (RAO) fica em Ribeirão Preto. Acesso: Avenida Costábile Romano. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Leite Lopes',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Ribeirão Preto fica longe do Centro?', 'resposta' => 'Em Ribeirão Preto, é trecho urbano. Marcamos margem: a Independência e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no RAO se o voo atrasar?', 'resposta' => 'Sim. Em Ribeirão Preto, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem hospital, Centro e a USP no mesmo dia?', 'resposta' => 'Sim. Informe a unidade e o bloco. Um motorista à disposição evita três aceites na Ribeirânia.'],
-        ['pergunta' => 'Dá para incluir Sertãozinho depois do hotel?', 'resposta' => 'Sim. Em Ribeirão Preto, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Una o Jardim ao horário do Leite Lopes',
-        'texto' => 'O orçamento de Ribeirão Preto sai sob consulta. Centro, hospital e RAO no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Ribeirão Preto',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas e GRU na capital'],
     ],
 ];

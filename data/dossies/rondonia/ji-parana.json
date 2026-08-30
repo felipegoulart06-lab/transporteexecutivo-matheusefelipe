@@ -1,0 +1,72 @@
+{
+    "estado": "rondonia",
+    "cidade": "ji-parana",
+    "nome": "Ji-Paraná",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-364",
+            "destino": "José Coleto",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "2 de Abril",
+        "Casa Preta",
+        "Nova Brasília"
+    ],
+    "aeroportos": [
+        {
+            "nome": "José Coleto",
+            "iata": "JPR",
+            "municipio": "Ji-Paraná",
+            "acesso": "BR-364"
+        }
+    ],
+    "rodovias": [
+        "BR-364",
+        "Avenida Marechal Rondon",
+        "RO-135"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "eixo"
+    ],
+    "vizinhos_pedido": [
+        "Porto Velho",
+        "Cacoal",
+        "Ariquemes"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal JPR em Ji-Paraná",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

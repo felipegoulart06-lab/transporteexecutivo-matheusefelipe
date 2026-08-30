@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "mogi-das-cruzes",
+    "nome": "Mogi das Cruzes",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Dutra",
+            "destino": "Guarulhos",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "César de Sousa",
+        "Vila Oliveira",
+        "Brás Cubas"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Guarulhos",
+            "iata": "GRU",
+            "municipio": "Guarulhos",
+            "acesso": "Ayrton Senna / Dutra"
+        }
+    ],
+    "rodovias": [
+        "Dutra",
+        "Ayrton Senna",
+        "Avenida Vereador Narciso Iracema"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "eixo",
+        "bairro",
+        "distrito"
+    ],
+    "vizinhos_pedido": [
+        "Guarulhos",
+        "Suzano",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GRU em Guarulhos",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

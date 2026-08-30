@@ -1,0 +1,78 @@
+{
+    "estado": "goias",
+    "cidade": "caldas-novas",
+    "nome": "Caldas Novas",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "GO-213",
+            "destino": "Nelson Ribeiro Guimarães",
+            "motivo": "hotel e sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Doça",
+        "Lagoa Quente",
+        "Pousada do Rio Quente"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Nelson Ribeiro Guimarães",
+            "iata": "CLV",
+            "municipio": "Caldas Novas",
+            "acesso": "GO-213"
+        },
+        {
+            "nome": "Santa Genoveva",
+            "iata": "GYN",
+            "municipio": "Goiânia",
+            "acesso": "BR-153"
+        }
+    ],
+    "rodovias": [
+        "GO-213",
+        "BR-490",
+        "Avenida Coronel Py Soares"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e sede",
+        "bairro",
+        "parque",
+        "complexo hoteleiro"
+    ],
+    "vizinhos_pedido": [
+        "Rio Quente",
+        "Goiânia",
+        "Brasília"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CLV em Caldas Novas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

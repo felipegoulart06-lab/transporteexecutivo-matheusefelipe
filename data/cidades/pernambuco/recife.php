@@ -5,52 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'mare',
     'cidade_nome' => 'Recife',
-    'geo' => ['lat' => -8.0476, 'lng' => -34.877],
+    'geo' => [
+        'lat' => -8.0476,
+        'lng' => -34.877,
+    ],
     'imagem' => 'nordeste.jpg',
-    'schema_service_name' => 'Transporte executivo com motorista no Recife',
+    'schema_service_name' => 'Transporte executivo com motorista em Recife',
     'seo' => [
-        'title' => 'Carro executivo no Recife: Recife Antigo e aeroporto',
-        'description' => 'Motorista executivo no Recife para Boa Viagem, Recife Antigo, Ilha do Leite e o aeroporto REC. Embarque combinado e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo entre Boa Viagem, o Recife Antigo e o REC',
-        'og_description' => 'Carro com motorista na capital pernambucana: hotel na orla, pauta no centro e o terminal dos Guararapes.',
-        'og_image_alt' => 'Sedan executivo em avenida do Recife próxima à orla',
+        'title' => 'Motorista executivo em Recife: Boa Viagem e REC',
+        'description' => 'Carro com motorista em Recife para Boa Viagem, Recife Antigo e REC. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Recife com motorista — Recife Antigo e Guararapes Gilberto Freyre',
+        'og_description' => 'O motorista combina Boa Viagem com Guararapes Gilberto Freyre (REC), no próprio município. Informe nome do hotel e a ponte.',
+        'og_image_alt' => 'Carro executivo em via de Recife',
     ],
     'kicker' => 'Capital pernambucana · PE',
-    'h1' => 'Recife Antigo, Boa Viagem e o REC no mesmo caderno',
+    'h1' => 'Recife — Boa Viagem de manhã, REC quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Recife',
+    'faq' => [
+        [
+            'pergunta' => 'Em Recife, o REC fica no próprio município?',
+            'resposta' => 'Sim. Em Recife, Guararapes Gilberto Freyre (REC) fica no município. Informe o acesso via Mascarenhas de Morais.',
+        ],
+        [
+            'pergunta' => 'Em Recife, vocês buscam em Boa Viagem?',
+            'resposta' => 'Sim, em Recife. Envie nome do hotel e a ponte em Boa Viagem. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Recife vocês fazem Olinda?',
+            'resposta' => 'Sim, saindo de Recife. Olinda não é o recorte de Boa Viagem; o horário pela ponte da Boa Vista sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Recife o carro fica entre Boa Viagem e Recife Antigo?',
+            'resposta' => 'Sim, em Recife. A hora à disposição cobre hotel na orla em Boa Viagem e pauta no cais em Recife Antigo.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Recife e o REC',
+        'texto' => 'Diga o ponto em Boa Viagem ou Recife Antigo, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Recife',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'pernambuco',
+            'ancora' => 'Recife e o recorte de Capital pernambucana',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'salvador',
+            'ancora' => 'Motorista em salvador',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'ceara',
+            'cidade' => 'fortaleza',
+            'ancora' => 'Motorista em fortaleza',
+        ],
+    ],
     'editorial' => [
-        'h2' => 'A cidade das pontes não se cruza no aceitar do app',
+        'h2' => 'Recife pede ordem de endereço, não slogan',
         'texto' => [
-            'O Recife amarra ilhas, pontes e a orla de Boa Viagem. Uma reunião na Ilha do Leite, o check-out no hotel da praia e o voo no Guararapes cabem no mesmo dia — se o motorista já saiu com a ordem das pontes, não com o atalho do momento.',
-            'O serviço é de traslado executivo: discreto, com espera combinada. Não é corrida de orla no sábado de sol.',
+            'Recife concentra Boa Viagem (hotel na orla) e Guararapes Gilberto Freyre (REC) no mesmo município. O motorista precisa do ponto de embarque e do REC no mesmo recado — “me busca em Recife” não define o recuo.',
+            'Recife Antigo pede pauta no cais. Ilha do Leite pede polo médico. Quando Olinda entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela ponte da Boa Vista.',
         ],
     ],
     'coluna_a' => [
-        'h2' => 'Três recortes que a pauta recifense usa',
+        'h2' => 'Eixos de Recife',
         'itens' => [
-            ['h3' => 'Boa Viagem', 'texto' => 'Hotel e jantar. Informe o trecho da orla; os números se repetem e o recuo muda a cada quadra.'],
-            ['h3' => 'Recife Antigo e Santo Antônio', 'texto' => 'Evento e sede. O calçamento e o sentido da ponte pedem ponto de espera, não “na Rua da Aurora”.'],
-            ['h3' => 'Ilha do Leite e Derby', 'texto' => 'Hospitais e escritórios. Deslocamentos curtos e repetidos; um carro à disposição rende mais que três chamadas.'],
+            [
+                'h3' => 'Boa Viagem',
+                'texto' => 'Origem frequente para hotel na orla. Informe nome do hotel e a ponte. Boa Viagem não compartilha o recuo de Recife Antigo.',
+            ],
+            [
+                'h3' => 'Recife Antigo',
+                'texto' => 'Origem frequente para pauta no cais. Informe nome do hotel e a ponte. Recife Antigo não compartilha o recuo de Boa Viagem.',
+            ],
+            [
+                'h3' => 'Ilha do Leite',
+                'texto' => 'Origem frequente para polo médico. Informe nome do hotel e a ponte. Ilha do Leite não compartilha o recuo de Boa Viagem.',
+            ],
         ],
     ],
     'coluna_b' => [
-        'h2' => 'Guararapes — REC',
-        'texto' => 'O Aeroporto Internacional do Recife fica em ponto urbano, mas o acesso pela Mascarenhas muda com o horário. Combinamos o voo. A espera no desembarque integra o trecho; o passageiro não cruza o saguão atrás de uma placa genérica.',
-    ],
-    'faq_h2' => 'Dúvidas de quem voa pelo Guararapes',
-    'faq' => [
-        ['pergunta' => 'O aeroporto do Recife fica longe de Boa Viagem?', 'resposta' => 'É um trecho urbano. Ainda assim marcamos margem: a Mascarenhas e as pontes mudam o relógio no fim da tarde.'],
-        ['pergunta' => 'Em Recife, o motorista espera no REC se o voo atrasar?', 'resposta' => 'Sim. Em Recife, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Recife Antigo e Boa Viagem no mesmo expediente?', 'resposta' => 'Sim. Em Recife, informe a ordem. A ponte e o sentido da via pesam mais que a distância no mapa.'],
-        ['pergunta' => 'Dá para incluir Olinda no mesmo dia?', 'resposta' => 'Sim, quando o endereço de Olinda entra no roteiro. São municípios vizinhos; o horário de ladeira pede margem própria.'],
-    ],
-    'cta' => [
-        'titulo' => 'Anote a ponte junto com o horário do voo',
-        'texto' => 'O orçamento do Recife sai sob consulta. Orla, centro e REC no mesmo recado.',
-        'botao' => 'Pedir motorista no Recife',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'pernambuco', 'ancora' => 'Caruaru, Petrolina e o recorte pernambucano'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'salvador', 'ancora' => 'A Paralela, a Barra e o SSA'],
-        ['tipo' => 'cidade', 'estado' => 'ceara', 'cidade' => 'fortaleza', 'ancora' => 'Aldeota, Meireles e o FOR'],
+        'h2' => 'REC e a vazão',
+        'texto' => 'Guararapes Gilberto Freyre (REC) fica em Recife. Acesso: Mascarenhas de Morais. Combinamos o voo; a espera no desembarque integra o trecho. Olinda entra como viagem.',
     ],
 ];

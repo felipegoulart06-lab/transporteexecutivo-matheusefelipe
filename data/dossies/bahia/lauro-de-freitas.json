@@ -1,0 +1,72 @@
+{
+    "estado": "bahia",
+    "cidade": "lauro-de-freitas",
+    "nome": "Lauro de Freitas",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Itinga",
+            "eixo": "Paralela",
+            "destino": "Luís Eduardo Magalhães",
+            "motivo": "acesso ao SSA"
+        }
+    ],
+    "eixos": [
+        "Itinga",
+        "Centro",
+        "Vilas do Atlântico",
+        "Portão"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Luís Eduardo Magalhães",
+            "iata": "SSA",
+            "municipio": "Salvador",
+            "acesso": "Paralela / BA-526"
+        }
+    ],
+    "rodovias": [
+        "Paralela",
+        "BA-526",
+        "Estrada do Coco"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "acesso ao SSA",
+        "sede",
+        "condomínio na orla",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Salvador",
+        "Camaçari",
+        "Simões Filho"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SSA em Salvador",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

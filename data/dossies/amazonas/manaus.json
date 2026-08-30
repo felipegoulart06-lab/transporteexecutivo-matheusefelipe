@@ -1,0 +1,72 @@
+{
+    "estado": "amazonas",
+    "cidade": "manaus",
+    "nome": "Manaus",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Adrianópolis",
+            "eixo": "Avenida das Torres",
+            "destino": "Eduardo Gomes",
+            "motivo": "hotel e escritório"
+        }
+    ],
+    "eixos": [
+        "Adrianópolis",
+        "Ponta Negra",
+        "Centro",
+        "Distrito Industrial"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Eduardo Gomes",
+            "iata": "MAO",
+            "municipio": "Manaus",
+            "acesso": "Avenida Torquato Tapajós"
+        }
+    ],
+    "rodovias": [
+        "Avenida das Torres",
+        "AM-010",
+        "Ponte Rio Negro"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e escritório",
+        "orla e pernoite",
+        "porto e comércio",
+        "planta da Zona Franca"
+    ],
+    "vizinhos_pedido": [
+        "Iranduba",
+        "Manacapuru",
+        "Parintins"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal MAO em Manaus",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

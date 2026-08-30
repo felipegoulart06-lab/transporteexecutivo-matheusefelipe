@@ -1,0 +1,72 @@
+{
+    "estado": "para",
+    "cidade": "maraba",
+    "nome": "Marabá",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Núcleo Urbano",
+            "eixo": "BR-222",
+            "destino": "João Correa da Rocha",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Núcleo Urbano",
+        "Nova Marabá",
+        "Cidade Nova",
+        "Industrial"
+    ],
+    "aeroportos": [
+        {
+            "nome": "João Correa da Rocha",
+            "iata": "MAB",
+            "municipio": "Marabá",
+            "acesso": "BR-222"
+        }
+    ],
+    "rodovias": [
+        "BR-222",
+        "BR-230",
+        "Avenida VP-8"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "eixo comercial",
+        "bairro",
+        "planta"
+    ],
+    "vizinhos_pedido": [
+        "Parauapebas",
+        "Belém",
+        "Imperatriz"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal MAB em Marabá",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

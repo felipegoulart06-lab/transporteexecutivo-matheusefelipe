@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "cabo-frio",
+    "nome": "Cabo Frio",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Passagem",
+            "eixo": "RJ-106",
+            "destino": "Cabo Frio",
+            "motivo": "hotel no canal"
+        }
+    ],
+    "eixos": [
+        "Passagem",
+        "Centro",
+        "Praia do Forte",
+        "Peró"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Cabo Frio",
+            "iata": "CFB",
+            "municipio": "Cabo Frio",
+            "acesso": "Estrada Velha de Arraial do Cabo"
+        },
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "RJ-106"
+        }
+    ],
+    "rodovias": [
+        "RJ-106",
+        "Teixeira e Souza",
+        "Via Lagos"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel no canal",
+        "sede",
+        "orla",
+        "condomínio"
+    ],
+    "vizinhos_pedido": [
+        "Armação dos Búzios",
+        "Arraial do Cabo",
+        "Rio de Janeiro"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CFB em Cabo Frio",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

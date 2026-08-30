@@ -1,0 +1,72 @@
+{
+    "estado": "bahia",
+    "cidade": "porto-seguro",
+    "nome": "Porto Seguro",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Cidade Histórica",
+            "eixo": "BA-001",
+            "destino": "Porto Seguro",
+            "motivo": "hotel e centro"
+        }
+    ],
+    "eixos": [
+        "Cidade Histórica",
+        "Orla Norte",
+        "Cabralia",
+        "Arraial d'Ajuda"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Porto Seguro",
+            "iata": "BPS",
+            "municipio": "Porto Seguro",
+            "acesso": "BA-001"
+        }
+    ],
+    "rodovias": [
+        "BA-001",
+        "BR-367",
+        "passagem de barca"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e centro",
+        "orla",
+        "município vizinho",
+        "vila"
+    ],
+    "vizinhos_pedido": [
+        "Santa Cruz Cabrália",
+        "Eunápolis",
+        "Ilhéus"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal BPS em Porto Seguro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

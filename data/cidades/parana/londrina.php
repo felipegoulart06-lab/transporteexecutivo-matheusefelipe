@@ -5,52 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'mare',
     'cidade_nome' => 'Londrina',
-    'geo' => ['lat' => -23.3045, 'lng' => -51.1696],
+    'geo' => [
+        'lat' => -23.3045,
+        'lng' => -51.1696,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Londrina',
     'seo' => [
-        'title' => 'Carro executivo em Londrina: Gleba, Centro e LDB',
-        'description' => 'Motorista executivo em Londrina para a Gleba Palhano, Centro, Jardim Higienópolis e o aeroporto Governador José Richa. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo na Gleba Palhano, no Centro e no LDB',
-        'og_description' => 'Carro com motorista no norte paranaense: hotel na Gleba, pauta no Centro e o terminal LDB.',
-        'og_image_alt' => 'Sedan executivo em avenida da Gleba Palhano em Londrina',
+        'title' => 'Motorista executivo em Londrina: Gleba Palhano e LDB',
+        'description' => 'Carro com motorista em Londrina para Gleba Palhano, Centro e LDB. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Londrina: hotel, Gleba Palhano e LDB',
+        'og_description' => 'O motorista combina Gleba Palhano com Governador José Richa (LDB), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Londrina',
     ],
     'kicker' => 'Norte paranaense · PR',
-    'h1' => 'Da Gleba Palhano ao LDB sem perder a reunião no Centro',
-    'editorial' => [
-        'h2' => 'Londrina se lê em gleba e em avenida — o app não lê o café da pauta',
-        'texto' => [
-            'Hotel na Gleba Palhano, reunião no Centro ou no Higienópolis e voo no Governador José Richa (LDB) cabem no mesmo caderno se o motorista já saiu com a ordem da Dez de Dezembro e da Saul Elkind, não com o atalho do momento.',
-            'O serviço é de traslado executivo: discreto, com espera combinada. Não é corrida de shopping no sábado, a menos que a visita ao Lago Igapó entre no roteiro.',
-        ],
-    ],
-    'coluna_a' => [
-        'h2' => 'Três recortes que a pauta londrinense usa',
-        'itens' => [
-            ['h3' => 'Gleba Palhano e o Catuaí', 'texto' => 'Hotéis (Bourbon, similar) e torres. Informe o nome do condomínio; as quadras da gleba se repetem na numeração.'],
-            ['h3' => 'Centro e a Higienópolis', 'texto' => 'Sede, clínicas e o calçadão. O sentido da Paraná muda no fim da tarde; “no Centro” não define a porta.'],
-            ['h3' => 'Universidade e o Lago Igapó', 'texto' => 'UEL e visita ao lago só se combinada. O recuo do campus pede bloco e portaria.'],
-        ],
-    ],
-    'coluna_b' => [
-        'h2' => 'Governador José Richa — LDB',
-        'texto' => 'O aeroporto fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho LDB. Até a Gleba ou o Centro, a avenida pesa mais que o mapa admite no pico.',
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no José Richa',
+    'h1' => 'Londrina: entre Gleba Palhano, Centro e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Londrina',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Londrina fica longe da Gleba Palhano?', 'resposta' => 'É trecho urbano. Marcamos margem: a Saul Elkind e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no LDB se o voo atrasar?', 'resposta' => 'Sim. Em Londrina, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Gleba, Centro e o Igapó no mesmo dia?', 'resposta' => 'Sim, quando o lago entra no roteiro. Informe a ordem; um motorista articula os três.'],
-        ['pergunta' => 'Dá para seguir a Maringá depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte da Gleba; o horário sai sob consulta.'],
+        [
+            'pergunta' => 'Em Londrina, o LDB fica no próprio município?',
+            'resposta' => 'Sim. Em Londrina, Governador José Richa (LDB) fica no município. Informe o acesso via PR-445.',
+        ],
+        [
+            'pergunta' => 'Em Londrina, vocês buscam em Gleba Palhano?',
+            'resposta' => 'Sim, em Londrina. Envie nome do hotel em Gleba Palhano. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Londrina vocês fazem Maringá?',
+            'resposta' => 'Sim, saindo de Londrina. Maringá não é o recorte de Gleba Palhano; o horário pela PR-445 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Londrina o carro fica entre Gleba Palhano e Centro?',
+            'resposta' => 'Sim, em Londrina. A hora à disposição cobre hotel e torre em Gleba Palhano e sede em Centro.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Anote a Gleba junto com o horário do LDB',
-        'texto' => 'O orçamento de Londrina sai sob consulta. Palhano, Centro e terminal no mesmo recado.',
+        'titulo' => 'Informe o embarque em Londrina e o LDB',
+        'texto' => 'Diga o ponto em Gleba Palhano ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Londrina',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'parana', 'ancora' => 'Foz, Londrina e o recorte paranaense'],
-        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'curitiba', 'ancora' => 'Batel, Centro Cívico e o Afonso Pena'],
-        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'foz-do-iguacu', 'ancora' => 'Cataratas, Itaipu e o aeroporto IGU'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'parana',
+            'ancora' => 'Londrina e o recorte de Norte paranaense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'parana',
+            'cidade' => 'curitiba',
+            'ancora' => 'Motorista em curitiba',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'parana',
+            'cidade' => 'foz-do-iguacu',
+            'ancora' => 'Motorista em foz do iguacu',
+        ],
+    ],
+    'editorial' => [
+        'h2' => 'Londrina pede ordem de endereço, não slogan',
+        'texto' => [
+            'Londrina concentra Gleba Palhano (hotel e torre) e Governador José Richa (LDB) no mesmo município. O motorista precisa do ponto de embarque e do LDB no mesmo recado — “me busca em Londrina” não define o recuo.',
+            'Centro pede sede. Jardim Bandeirantes pede bairro. Quando Maringá entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela PR-445.',
+        ],
+    ],
+    'coluna_a' => [
+        'h2' => 'Eixos de Londrina',
+        'itens' => [
+            [
+                'h3' => 'Gleba Palhano',
+                'texto' => 'Origem frequente para hotel e torre. Informe nome do hotel. Gleba Palhano não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome do hotel. Centro não compartilha o recuo de Gleba Palhano.',
+            ],
+            [
+                'h3' => 'Jardim Bandeirantes',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Jardim Bandeirantes não compartilha o recuo de Gleba Palhano.',
+            ],
+        ],
+    ],
+    'coluna_b' => [
+        'h2' => 'LDB e a vazão',
+        'texto' => 'Governador José Richa (LDB) fica em Londrina. Acesso: PR-445. Combinamos o voo; a espera no desembarque integra o trecho. Maringá entra como viagem.',
     ],
 ];

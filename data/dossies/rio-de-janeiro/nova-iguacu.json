@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "nova-iguacu",
+    "nome": "Nova Iguaçu",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Via Light",
+            "destino": "Galeão",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Posse",
+        "Comendador Soares",
+        "Austin"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "Via Light / Brasil"
+        },
+        {
+            "nome": "Santos Dumont",
+            "iata": "SDU",
+            "municipio": "Rio de Janeiro",
+            "acesso": "Avenida Brasil"
+        }
+    ],
+    "rodovias": [
+        "Via Light",
+        "Presidente Dutra",
+        "Avenida Abílio Augusto Távora"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "distrito"
+    ],
+    "vizinhos_pedido": [
+        "Rio de Janeiro",
+        "Duque de Caxias",
+        "Belford Roxo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GIG em Rio de Janeiro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

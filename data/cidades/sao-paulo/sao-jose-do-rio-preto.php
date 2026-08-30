@@ -5,73 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'São José do Rio Preto',
-    'geo' => ['lat' => -20.8113, 'lng' => -49.3758],
+    'geo' => [
+        'lat' => -20.8113,
+        'lng' => -49.3758,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em São José do Rio Preto',
     'seo' => [
-        'title' => 'Motorista em São José do Rio Preto: Centro, Redentora e SJP',
-        'description' => 'Carro com motorista em São José do Rio Preto para o Centro, Redentora, Jardim Yolanda e o aeroporto Eribelto Manoel Reino. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo na Redentora, no Centro e no aeroporto SJP',
-        'og_description' => 'Motorista no noroeste paulista: hotel, pauta médica e o terminal SJP.',
-        'og_image_alt' => 'Sedan executivo em avenida de São José do Rio Preto',
+        'title' => 'Motorista executivo em São José do Rio Preto: Redentora e SJP',
+        'description' => 'Carro com motorista em São José do Rio Preto para Redentora, Centro e SJP. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em São José do Rio Preto com motorista — Centro e Eribelto Manoel Reino',
+        'og_description' => 'O motorista combina Redentora com Eribelto Manoel Reino (SJP), no próprio município. Informe nome da unidade e o recuo.',
+        'og_image_alt' => 'Carro executivo em via de São José do Rio Preto',
     ],
     'kicker' => 'Noroeste paulista · SP',
-    'h1' => 'Do SJP à Redentora sem perder a reunião no Centro',
-    'lead' => 'Rio Preto concentra hospital, campus e o aeroporto Professor Eribelto Manoel Reino (SJP). O motorista segura a Bady Bassitt e a Alberto Andaló; o passageiro segura a pauta — não a vaga na porta do hotel.',
+    'h1' => 'Em São José do Rio Preto: do embarque em Redentora ao SJP',
+    'faq_h2' => 'Dúvidas de quem embarca em São José do Rio Preto',
+    'faq' => [
+        [
+            'pergunta' => 'Em São José do Rio Preto, o SJP fica no próprio município?',
+            'resposta' => 'Sim. Em São José do Rio Preto, Eribelto Manoel Reino (SJP) fica no município. Informe o acesso via BR-153.',
+        ],
+        [
+            'pergunta' => 'Em São José do Rio Preto, vocês buscam em Redentora?',
+            'resposta' => 'Sim, em São José do Rio Preto. Envie nome da unidade e o recuo em Redentora. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De São José do Rio Preto vocês fazem Catanduva?',
+            'resposta' => 'Sim, saindo de São José do Rio Preto. Catanduva não é o recorte de Redentora; o horário pela Washington Luís sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em São José do Rio Preto o carro fica entre Redentora e Centro?',
+            'resposta' => 'Sim, em São José do Rio Preto. A hora à disposição cobre hospital e hotel em Redentora e sede em Centro.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em São José do Rio Preto e o SJP',
+        'texto' => 'Diga o ponto em Redentora ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em São José do Rio Preto',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'São José do Rio Preto e o recorte de Noroeste paulista',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'ribeirao-preto',
+            'ancora' => 'Motorista em ribeirao preto',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'campinas',
+            'ancora' => 'Motorista em campinas',
+        ],
+    ],
+    'lead' => 'São José do Rio Preto concentra Redentora (hospital e hotel) e Eribelto Manoel Reino (SJP) no mesmo município. O motorista precisa do ponto de embarque e do SJP no mesmo recado — “me busca em São José do Rio Preto” não define o recuo.',
     'contexto' => [
-        'h2' => 'A cidade médica cobra bairro e unidade, não “no centro”',
+        'h2' => 'São José do Rio Preto se mede em BR-153, não em pin de aplicativo',
         'texto' => [
-            'Centro, Redentora, Jardim Yolanda e o Hospital de Base não compartilham o mesmo recuo. Hotel (Ibis, Nacional Inn, similares), clínica na Redentora e voo no SJP cabem no mesmo expediente se a ordem da avenida já estiver no roteiro.',
-            'O recorte é a rotina do interior que se comporta como capital: embarque na portaria, espera discreta e chegada no terminal certo. Quando a pauta aponta para Catanduva, São José do Rio Preto rural ou à capital, o trecho deixa de ser só urbano.',
+            'São José do Rio Preto concentra Redentora (hospital e hotel) e Eribelto Manoel Reino (SJP) no mesmo município. O motorista precisa do ponto de embarque e do SJP no mesmo recado — “me busca em São José do Rio Preto” não define o recuo.',
+            'Centro pede sede. Boa Vista pede bairro. Quando Catanduva entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Washington Luís.',
         ],
     ],
     'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
+        'h2' => 'Eixos de embarque em São José do Rio Preto',
         'itens' => [
-            ['h3' => 'Centro e a Alberto Andaló', 'texto' => 'Em São José do Rio Preto, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Redentora e o eixo hospitalar', 'texto' => 'Clínicas, o Hospital de Base e o FAMERP. “No hospital” não define a unidade nem a porta de serviço.'],
-            ['h3' => 'Jardim Yolanda, Boa Vista e o shopping', 'texto' => 'Hotéis e torres. Deslocamentos curtos que esticam no semáforo da Bady Bassitt.'],
-            ['h3' => 'Unesp e o campus', 'texto' => 'Em São José do Rio Preto, pauta acadêmica. O recuo pede bloco e portaria, não GPS na reitoria.'],
+            [
+                'h3' => 'Redentora',
+                'texto' => 'Origem frequente para hospital e hotel. Informe nome da unidade e o recuo. Redentora não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome da unidade e o recuo. Centro não compartilha o recuo de Redentora.',
+            ],
+            [
+                'h3' => 'Boa Vista',
+                'texto' => 'Origem frequente para bairro. Informe nome da unidade e o recuo. Boa Vista não compartilha o recuo de Redentora.',
+            ],
+            [
+                'h3' => 'Jardim Yolanda',
+                'texto' => 'Origem frequente para residencial. Informe nome da unidade e o recuo. Jardim Yolanda não compartilha o recuo de Redentora.',
+            ],
         ],
     ],
     'aeroportos' => [
-        'h2' => 'Eribelto Manoel Reino — SJP no meio da pauta',
+        'h2' => 'O terminal que a agenda de São José do Rio Preto realmente usa',
         'itens' => [
-            ['h3' => 'São José do Rio Preto — SJP', 'texto' => 'Terminal da cidade, no recorte urbano. Combinamos o voo. A espera no desembarque integra o trecho SJP.'],
-            ['h3' => 'Quando a pauta aponta para a capital', 'texto' => 'O trecho Rio Preto–São Paulo não é o mesmo pedido urbano. Se a reunião vaza pela Washington Luís, o orçamento sai à parte.'],
+            [
+                'h3' => 'Eribelto Manoel Reino — SJP',
+                'texto' => 'Eribelto Manoel Reino (SJP) fica em São José do Rio Preto. Acesso: BR-153. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'BR-153 e a vazão para Catanduva',
+                'texto' => 'Catanduva e São Paulo aparecem no mesmo pedido de São José do Rio Preto. Isso é viagem, não segunda corrida em Redentora.',
+            ],
         ],
     ],
     'rotas' => [
-        'h2' => 'Trajetos que a agenda rio-pretense mais pede',
+        'h2' => 'Trajetos que o pedido em São José do Rio Preto mais combina',
         'itens' => [
-            ['titulo' => 'SJP → hotel na Redentora', 'texto' => 'Em São José do Rio Preto, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'Hotel → Hospital de Base → Centro', 'texto' => 'Unidade, sede e retorno. Um motorista cobre os três se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Rio Preto → Catanduva ou Votuporanga', 'texto' => 'Quando a pauta sai da cidade, o trecho deixa de ser urbano. Horário sob consulta.'],
+            [
+                'titulo' => 'Redentora → SJP',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-153.',
+            ],
+            [
+                'titulo' => 'SJP → Centro',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome da unidade e o recuo.',
+            ],
+            [
+                'titulo' => 'Redentora → Catanduva',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Centro; o horário sai sob consulta.',
+            ],
         ],
     ],
     'como' => [
-        'h2' => 'Como o carro entra na grade em Rio Preto',
+        'h2' => 'Como o carro entra na pauta em São José do Rio Preto',
         'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Redentora, Centro ou Yolanda. Autocomplete não resolve unidade com dois acessos.'],
-            ['titulo' => 'Hotel ou SJP', 'texto' => 'Em São José do Rio Preto, diga se o embarque é o aeroporto ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em São José do Rio Preto, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome da unidade e o recuo. Autocomplete não resolve dois acessos em Redentora.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o SJP ou Catanduva entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em São José do Rio Preto, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no SJP',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Rio Preto fica longe da Redentora?', 'resposta' => 'É trecho urbano. Marcamos margem: a Bady Bassitt e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no SJP se o voo atrasar?', 'resposta' => 'Sim. Combinamos o SJP com o número do voo; a espera no Eribelto Manoel Reino integra o trecho desde a Redentora ou o Centro.'],
-        ['pergunta' => 'Vocês esperam na porta do Hospital de Base?', 'resposta' => 'Sim. Com o nome da unidade e o ponto de recuo no Hospital de Base. Evitamos o cruzamento sem aviso no horário de visita.'],
-        ['pergunta' => 'Em São José do Rio Preto, dá para seguir a São Paulo depois da reunião?', 'resposta' => 'Sim, como viagem rumo à capital. Não é o mesmo recorte da Redentora; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte a Redentora ao horário do SJP',
-        'texto' => 'O orçamento de Rio Preto sai sob consulta. Hospital, hotel e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Rio Preto',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'ribeirao-preto', 'ancora' => 'Centro, Jardim Irajá e o Leite Lopes'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
     ],
 ];

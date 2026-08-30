@@ -5,62 +5,105 @@ declare(strict_types=1);
 return [
     'layout' => 'orla',
     'cidade_nome' => 'Palhoça',
-    'geo' => ['lat' => -27.6455, 'lng' => -48.669],
+    'geo' => [
+        'lat' => -27.6455,
+        'lng' => -48.669,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Palhoça',
     'seo' => [
-        'title' => 'Continente: motorista em Palhoça, Pagani e FLN',
-        'description' => 'Motorista em Palhoça (SC) para Pagani, a Ponte do Imaruim e o continente da Grande Florianópolis. FLN na ilha, pela ponte. Orçamento sob consulta.',
-        'og_title' => 'Traslado em Pagani, na Ponte do Imaruim e no FLN',
-        'og_description' => 'Motorista no continente da Grande Florianópolis: Palhoça, Pagani e o Hercílio Luz pela ponte.',
-        'og_image_alt' => 'Sedan executivo em avenida de Palhoça no continente catarinense',
+        'title' => 'Carro com motorista em Palhoça: Ponte do Imaruim e FLN',
+        'description' => 'Carro com motorista em Palhoça para Pagani, Ponte do Imaruim e FLN. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Palhoça: Pagani e FLN',
+        'og_description' => 'O motorista combina Pagani com Hercílio Luz (FLN), em Florianópolis. Informe nome do condomínio.',
+        'og_image_alt' => 'Carro executivo em via de Palhoça',
     ],
     'kicker' => 'Grande Florianópolis · SC',
-    'h1' => 'Pagani, Ponte do Imaruim e o continente antes da ponte',
-    'epigrafe' => 'Palhoça é o continente da Grande Florianópolis — Pagani, Imaruim, o recuo antes da ponte. O Hercílio Luz pousa na ilha. São José dos Campos nem entra no mapa: aqui o vizinho é São José (SC), outro município, outro recuo.',
+    'h1' => 'Em Palhoça: do embarque em Pagani ao FLN',
+    'faq_h2' => 'Dúvidas de quem embarca em Palhoça',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Palhoça embarca no FLN dentro da cidade?',
+            'resposta' => 'Não. De Palhoça o FLN (Hercílio Luz) fica em Florianópolis. O trecho sai de Pagani pela BR-101.',
+        ],
+        [
+            'pergunta' => 'Em Palhoça, vocês buscam em Pagani?',
+            'resposta' => 'Sim, em Palhoça. Envie nome do condomínio em Pagani. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Palhoça vocês fazem Florianópolis?',
+            'resposta' => 'Sim, saindo de Palhoça. Florianópolis não é o recorte de Pagani; o horário pela ponte Pedro Ivo sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Palhoça o carro fica entre Pagani e Ponte do Imaruim?',
+            'resposta' => 'Sim, em Palhoça. A hora à disposição cobre eixo comercial em Pagani e acesso à ponte em Ponte do Imaruim.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Palhoça e o FLN',
+        'texto' => 'Diga o ponto em Pagani ou Ponte do Imaruim, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Palhoça',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'santa-catarina',
+            'ancora' => 'Palhoça e o recorte de Grande Florianópolis',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'santa-catarina',
+            'cidade' => 'sao-jose',
+            'ancora' => 'Motorista em sao jose',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'santa-catarina',
+            'cidade' => 'florianopolis',
+            'ancora' => 'Motorista em florianopolis',
+        ],
+    ],
+    'epigrafe' => 'Pagani não é o mesmo recuo de Ponte do Imaruim. O motorista segura o acesso; o passageiro segura o horário.',
     'abertura' => [
-        'h2' => 'O continente tem relógio próprio; a ilha cobra a ponte',
+        'h2' => 'Palhoça: origem na orla, destino no terminal certo',
         'texto' => [
-            'Pagani concentra comércio, hotel de passagem e o eixo da BR-101. A Ponte do Imaruim marca o recorte em direção à ilha — não é endereço completo. Palhoça não é Florianópolis e não é São José: três municípios da mancha, três recuos. O FLN fica em Carianos, na ilha; o trecho cruza a ponte Pedro Ivo Campos ou a Colombo Salles.',
-            'O serviço é de traslado e de espera: o carro já está no roteiro com o nome do hotel em Pagani e o número do voo. Não é corrida entre o continente e a Beira-Mar da ilha, a menos que o ponto entre na pauta.',
+            'Palhoça usa Hercílio Luz (FLN), em Florianópolis. Quem embarca em Pagani não está no município da pista. A BR-101 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Ponte do Imaruim pede acesso à ponte. Centro pede sede. Quando Florianópolis entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela ponte Pedro Ivo.',
         ],
     ],
     'faixas' => [
-        ['h2' => 'Pagani e o relógio da BR-101', 'texto' => 'Hotel, sede e o eixo comercial. Informe o prédio ou o nome do hotel; “em Pagani” não define o recuo da portaria nem o quarteirão da via expressa.'],
-        ['h2' => 'Ponte do Imaruim e o recorte continental', 'texto' => 'Marco de encontro e de passagem rumo à ilha. Serve se o ponto de espera estiver no recado. Prefira rua e número; o nome da ponte sozinho alonga a volta.'],
-        ['h2' => 'A janela do FLN sai da ponte, não do mapa de Palhoça', 'texto' => 'O terminal está na ilha. Horário de pico na Pedro Ivo ou na Colombo Salles alonga o intervalo até Carianos. São José (SC) cola no continente; São José dos Campos é outro estado.'],
+        [
+            'h2' => 'Pagani: o relógio do embarque',
+            'texto' => 'Pagani concentra eixo comercial. Informe nome do condomínio.',
+        ],
+        [
+            'h2' => 'Ponte do Imaruim e Centro',
+            'texto' => 'Ponte do Imaruim pede acesso à ponte. Centro pede sede. A ordem muda o intervalo mais que o mapa.',
+        ],
+        [
+            'h2' => 'Hercílio Luz (FLN), em Florianópolis',
+            'texto' => 'Hercílio Luz (FLN) fica em Florianópolis, não em Palhoça. O trecho sai pela BR-101 / pontes. Diga o IATA e o número do voo.',
+        ],
     ],
     'aeroportos' => [
-        'h2' => 'FLN na ilha — Palhoça chega pelo continente',
+        'h2' => 'Terminal e vazão a partir de Palhoça',
         'itens' => [
-            ['h3' => 'Hercílio Luz — FLN', 'texto' => 'Terminal em Carianos, Florianópolis. Combinamos o voo. A espera no desembarque integra o trecho; até Pagani, a ponte pesa mais que o quilômetro.'],
-            ['h3' => 'Quando a pauta aponta para a ilha ou para São José', 'texto' => 'Centro de Florianópolis, Jurerê ou o Kobrasol não são o mesmo pedido de Palhoça. Se a reunião vaza pela BR-101, o orçamento sai à parte.'],
+            [
+                'h3' => 'Hercílio Luz — FLN',
+                'texto' => 'Hercílio Luz (FLN) fica em Florianópolis, não em Palhoça. O trecho sai pela BR-101 / pontes. Diga o IATA e o número do voo.',
+            ],
+            [
+                'h3' => 'BR-101 e a vazão para Florianópolis',
+                'texto' => 'Florianópolis e São José aparecem no mesmo pedido de Palhoça. Isso é viagem, não segunda corrida em Pagani.',
+            ],
         ],
     ],
     'protocolo' => [
-        'h2' => 'O que pedimos para acertar o embarque em Pagani e na Ponte do Imaruim',
+        'h2' => 'O que pedimos para acertar o embarque em Palhoça',
         'lista' => [
-            'Hotel com nome — Pagani ou “perto da Ponte do Imaruim” não bastam para o recuo.',
-            'Se o voo é no FLN, número e horário. De Pagani, a margem sai da Pedro Ivo ou da Colombo Salles — não do quarteirão da BR-101.',
-            'Confirme Palhoça (SC): não é Florianópolis, não é São José, e não é São José dos Campos.',
+            'Hotel, prédio ou empresa com nome — “em Pagani” não basta.',
+            'Qual terminal: FLN em Florianópolis.',
+            'Se Florianópolis entra depois, a ordem muda o recorte.',
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem embarca em Palhoça rumo ao FLN',
-    'faq' => [
-        ['pergunta' => 'Palhoça fica na ilha de Florianópolis?', 'resposta' => 'Não. Palhoça é o continente da Grande Florianópolis. O Hercílio Luz fica na ilha; o trecho até Pagani entra no roteiro com margem para a ponte.'],
-        ['pergunta' => 'Em Palhoça, o motorista espera no FLN se o voo atrasar?', 'resposta' => 'Sim. Acompanhamos o voo no FLN; a espera em Carianos integra o trecho até Pagani com a margem da ponte.'],
-        ['pergunta' => 'Palhoça é a mesma cidade que São José?', 'resposta' => 'Não. São José (SC) é o município vizinho no continente. São José dos Campos é interior de São Paulo — o autocomplete costuma misturar os três.'],
-        ['pergunta' => 'Vocês fazem Pagani, a Ponte do Imaruim e o FLN no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A ponte pede margem própria; um motorista articula os recuos se o voo estiver no roteiro.'],
-        ['pergunta' => 'Dá para seguir ao Centro da ilha depois do hotel em Pagani?', 'resposta' => 'Sim, quando Florianópolis entra no roteiro. Não é o mesmo recorte continental; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Avise Pagani e o recuo da ponte no mesmo WhatsApp',
-        'texto' => 'O orçamento de Palhoça sai sob consulta. Continente, Imaruim e FLN no mesmo recado.',
-        'botao' => 'Pedir traslado em Palhoça',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'santa-catarina', 'ancora' => 'Litoral, Vale e o recorte catarinense'],
-        ['tipo' => 'cidade', 'estado' => 'santa-catarina', 'cidade' => 'sao-jose', 'ancora' => 'Kobrasol, Campinas e o Hercílio Luz'],
-        ['tipo' => 'cidade', 'estado' => 'santa-catarina', 'cidade' => 'florianopolis', 'ancora' => 'Jurerê, Centro e o Hercílio Luz'],
     ],
 ];

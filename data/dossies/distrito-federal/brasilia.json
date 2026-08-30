@@ -1,0 +1,72 @@
+{
+    "estado": "distrito-federal",
+    "cidade": "brasilia",
+    "nome": "Brasília",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Eixo Monumental",
+            "eixo": "Eixo Monumental",
+            "destino": "Juscelino Kubitschek",
+            "motivo": "Esplanada e ministério"
+        }
+    ],
+    "eixos": [
+        "Eixo Monumental",
+        "Asa Sul",
+        "Asa Norte",
+        "Lago Sul"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Juscelino Kubitschek",
+            "iata": "BSB",
+            "municipio": "Brasília",
+            "acesso": "Eixo / EPIA"
+        }
+    ],
+    "rodovias": [
+        "Eixo Monumental",
+        "EPIA",
+        "DF-003"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "Esplanada e ministério",
+        "Setor Hoteleiro Sul",
+        "Setor Hoteleiro Norte",
+        "embaixada e residência"
+    ],
+    "vizinhos_pedido": [
+        "Luziânia",
+        "Goiânia",
+        "Anápolis"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal BSB em Brasília",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

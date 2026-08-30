@@ -1,0 +1,78 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "franca",
+    "nome": "Franca",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Cândido Portinari",
+            "destino": "Tenente Lund Presotto",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "City Petrópolis",
+        "Jardim Lima",
+        "Campus Unifran"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Tenente Lund Presotto",
+            "iata": "FRC",
+            "municipio": "Franca",
+            "acesso": "SP-334"
+        },
+        {
+            "nome": "Leite Lopes",
+            "iata": "RAO",
+            "municipio": "Ribeirão Preto",
+            "acesso": "SP-334"
+        }
+    ],
+    "rodovias": [
+        "Cândido Portinari",
+        "SP-334",
+        "Avenida Champagnat"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "universidade"
+    ],
+    "vizinhos_pedido": [
+        "Ribeirão Preto",
+        "Uberaba",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal FRC em Franca",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "sete-lagoas",
+    "nome": "Sete Lagoas",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-040",
+            "destino": "Confins",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Canadá",
+        "Progresso",
+        "Cidade de Deus"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Confins",
+            "iata": "CNF",
+            "municipio": "Confins",
+            "acesso": "BR-040"
+        }
+    ],
+    "rodovias": [
+        "BR-040",
+        "MG-238",
+        "Avenida Getúlio Vargas"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "industrial"
+    ],
+    "vizinhos_pedido": [
+        "Belo Horizonte",
+        "Paraopeba",
+        "Pedro Leopoldo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CNF em Confins",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

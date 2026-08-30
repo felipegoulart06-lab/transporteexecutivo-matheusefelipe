@@ -5,74 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Americana',
-    'geo' => ['lat' => -22.7392, 'lng' => -47.3314],
+    'geo' => [
+        'lat' => -22.7392,
+        'lng' => -47.3314,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Americana',
     'seo' => [
-        'title' => 'Motorista em Americana: Hermann, têxtil e VCP',
-        'description' => 'Motorista em Americana para Hermann, Centro, Vila Santa Catarina e o polo têxtil. Viracopos pede a SP-348, não a porta do hotel. Valor sob consulta.',
-        'og_title' => 'Hermann, têxtil e o VCP fora da porta do hotel',
-        'og_description' => 'Traslado em Americana: pauta no Hermann, recuo têxtil e o salto até Viracopos com margem de Bandeirantes.',
-        'og_image_alt' => 'Sedan executivo na Avenida de Cillo, em Americana',
+        'title' => 'Motorista executivo em Americana: Centro e VCP',
+        'description' => 'Motorista executivo em Americana: Centro, Praia Azul e Viracopos (VCP), em Campinas. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Americana: Centro e VCP',
+        'og_description' => 'O motorista combina Centro com Viracopos (VCP), em Campinas. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Americana',
     ],
-    'kicker' => 'Eixo têxtil · SP',
-    'h1' => 'Quando a pauta é Americana, o VCP não fica na porta do Hermann',
-    'lead' => 'Hermann, têxtil e o Centro cabem na mesma manhã. Viracopos, não: o VCP pede o recorte da SP-348, não a porta do hotel. Vila Santa Catarina e o Jardim São Paulo pedem rua; a cancela da malharia pede lista. Americana não é o apêndice de Campinas no relógio do saguão.',
+    'kicker' => 'Região Metropolitana de Campinas · SP',
+    'h1' => 'Em Americana, de Centro a Viracopos (VCP), em Campinas',
+    'faq_h2' => 'Dúvidas de quem embarca em Americana',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Americana embarca no VCP dentro da cidade?',
+            'resposta' => 'Não. De Americana o VCP (Viracopos) fica em Campinas. O trecho sai de Centro pela Anhanguera.',
+        ],
+        [
+            'pergunta' => 'Em Americana, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Americana. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Americana vocês fazem Santa Bárbara d\'Oeste?',
+            'resposta' => 'Sim, saindo de Americana. Santa Bárbara d\'Oeste não é o recorte de Centro; o horário pela SP-304 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Americana o carro fica entre Centro e Praia Azul?',
+            'resposta' => 'Sim, em Americana. A hora à disposição cobre sede e hotel em Centro e orla da represa em Praia Azul.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Americana e o VCP',
+        'texto' => 'Diga o ponto em Centro ou Praia Azul, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Americana',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Americana e o recorte de Região Metropolitana de Campinas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'campinas',
+            'ancora' => 'Motorista em campinas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'limeira',
+            'ancora' => 'Motorista em limeira',
+        ],
+    ],
+    'lead' => 'Americana usa Viracopos (VCP), em Campinas. Quem embarca em Centro não está no município da pista. A Anhanguera é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     'contexto' => [
-        'h2' => 'A malha têxtil cobra rua e cancela, não “na região de Campinas”',
+        'h2' => 'Americana se mede em Anhanguera, não em pin de aplicativo',
         'texto' => [
-            'Americana articula o Parque Ecológico Hermann, o Centro e as plantas do algodão e do malte sem emprestar o recuo de Campinas. Hotel no Centro entra só como embarque. A reunião na malharia e o voo em Viracopos só fecham juntos se a Bandeirantes já estiver no roteiro com o horário do check-in — o Hermann não “fica no caminho” do VCP.',
-            'A Avenida de Cillo e a Brasil mudam o intervalo no pico. Limeira e Campinas entram como trechos nomeados quando a pauta vaza. “Me busca em Americana” não distingue a Vila Santa Catarina da portaria têxtil nem coloca o sedan no recuo do Jardim São Paulo.',
+            'Americana usa Viracopos (VCP), em Campinas. Quem embarca em Centro não está no município da pista. A Anhanguera é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Praia Azul pede orla da represa. Carioba pede industrial. Quando Santa Bárbara d\'Oeste entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela SP-304.',
         ],
     ],
     'bairros' => [
-        'h2' => 'Eixos onde o embarque americanense mais se repete',
+        'h2' => 'Eixos de embarque em Americana',
         'itens' => [
-            ['h3' => 'Centro e a Avenida Brasil', 'texto' => 'Sede, hotel de embarque e o comércio. Informe o prédio; o recuo do Centro não é o da Vila Santa Catarina.'],
-            ['h3' => 'Hermann e o Parque Ecológico', 'texto' => 'Pauta institucional e o recorte do parque. O Hermann não substitui o saguão de Viracopos no relógio do voo.'],
-            ['h3' => 'Vila Santa Catarina e Jardim São Paulo', 'texto' => 'Residencial e clínica. Rua e número evitam a volta depois da malharia.'],
-            ['h3' => 'Plantas têxteis e a cancela', 'texto' => 'Lista, documento e o nome do complexo. Sem isso, o GPS na De Cillo não abre a entrada.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Praia Azul.',
+            ],
+            [
+                'h3' => 'Praia Azul',
+                'texto' => 'Origem frequente para orla da represa. Informe nome do hotel. Praia Azul não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Carioba',
+                'texto' => 'Origem frequente para industrial. Informe nome do hotel. Carioba não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Vila Medon',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Vila Medon não compartilha o recuo de Centro.',
+            ],
         ],
     ],
     'aeroportos' => [
-        'h2' => 'VCP pela Bandeirantes — CGH só como salto da pauta longa',
+        'h2' => 'O terminal que a agenda de Americana realmente usa',
         'itens' => [
-            ['h3' => 'Viracopos — VCP', 'texto' => 'Saguão prático da região. Combinamos o voo; a margem sai da SP-348 a partir de Americana, não da porta do Hermann nem do hotel no Centro.'],
-            ['h3' => 'Congonhas — CGH', 'texto' => 'Entra como viagem à capital. Informe o terminal; não é o mesmo pedido urbano da Avenida Brasil.'],
+            [
+                'h3' => 'Viracopos — VCP',
+                'texto' => 'Viracopos (VCP) fica em Campinas, não em Americana. O trecho sai pela Anhanguera. Diga o IATA e o número do voo.',
+            ],
+            [
+                'h3' => 'Anhanguera e a vazão para Santa Bárbara d\'Oeste',
+                'texto' => 'Santa Bárbara d\'Oeste e Campinas aparecem no mesmo pedido de Americana. Isso é viagem, não segunda corrida em Centro.',
+            ],
         ],
     ],
     'rotas' => [
-        'h2' => 'Trajetos que a agenda têxtil mais pede',
+        'h2' => 'Trajetos que o pedido em Americana mais combina',
         'itens' => [
-            ['titulo' => 'Hotel no Centro → planta têxtil', 'texto' => 'Pernoite só como embarque. Diga o nome do hotel e se a cancela pede visitante na lista.'],
-            ['titulo' => 'Hermann → Viracopos', 'texto' => 'Não é trecho de porta a porta. A Bandeirantes pede margem; combinamos o horário do voo.'],
-            ['titulo' => 'Americana → Limeira ou Campinas', 'texto' => 'Quando a pauta vaza, o recorte deixa de ser só urbano. Horário e valor saem sob consulta.'],
+            [
+                'titulo' => 'Centro → VCP',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: Anhanguera.',
+            ],
+            [
+                'titulo' => 'VCP → Praia Azul',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel.',
+            ],
+            [
+                'titulo' => 'Centro → Santa Bárbara d\'Oeste',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Praia Azul; o horário sai sob consulta.',
+            ],
         ],
     ],
     'como' => [
-        'h2' => 'Como o carro entra na grade em Americana',
+        'h2' => 'Como o carro entra na pauta em Americana',
         'passos' => [
-            ['titulo' => 'Bairro ou cancela', 'texto' => 'Centro, Hermann, Vila Santa Catarina, Jardim São Paulo ou o nome da planta. O pin do município não basta.'],
-            ['titulo' => 'VCP ou salto à capital', 'texto' => 'Número do voo em Viracopos. CGH só entra se já estiver escrito no roteiro.'],
-            ['titulo' => 'Ordem no WhatsApp', 'texto' => 'Em Americana, nome e DDD. Devolvemos o horário de apresentação. Valor sob consulta.'],
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o VCP ou Santa Bárbara d\'Oeste entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Americana, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
         ],
-    ],
-    'faq_h2' => 'O que o Hermann e o VCP não compartilham',
-    'faq' => [
-        ['pergunta' => 'O VCP fica na porta do Hermann?', 'resposta' => 'Não. O Parque Ecológico e o saguão de Viracopos são recortes distintos. A SP-348 pede margem própria a partir de Americana.'],
-        ['pergunta' => 'Vila Santa Catarina e Jardim São Paulo se resolvem no Centro?', 'resposta' => 'Não. Informe rua e o estabelecimento. O recuo do Paço não abre a porta residencial nem a da clínica.'],
-        ['pergunta' => 'A planta têxtil pede cancela e documento?', 'resposta' => 'Na maior parte dos complexos, sim. Envie o visitante e o nome da malharia. Sem lista, o recuo não libera.'],
-        ['pergunta' => 'Limeira cabe depois da reunião no Hermann?', 'resposta' => 'Cabe, quando Limeira já está no itinerário. Não é desvio de última hora na Bandeirantes; o horário sai sob consulta.'],
-        ['pergunta' => 'Qual ordem vocês precisam para fechar Centro e Viracopos?', 'resposta' => 'Ponto de embarque, horário do voo e se há parada na planta. O Hermann não entra no meio do trecho até o VCP sem estar no roteiro.'],
-    ],
-    'cta' => [
-        'titulo' => 'Hermann e Viracopos pedem horários distintos',
-        'texto' => 'Têxtil, Hermann e VCP: diga a ordem. Devolvemos o horário de apresentação.',
-        'botao' => 'Chamar motorista em Americana',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'limeira', 'ancora' => 'Cidade Jardim, joias e o recorte até o VCP'],
     ],
 ];

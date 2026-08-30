@@ -1,0 +1,72 @@
+{
+    "estado": "piaui",
+    "cidade": "teresina",
+    "nome": "Teresina",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Jóquei",
+            "eixo": "ponte da Amizade",
+            "destino": "Senador Petrônio Portella",
+            "motivo": "hotel e clínica"
+        }
+    ],
+    "eixos": [
+        "Jóquei",
+        "Fátima",
+        "Centro",
+        "Horto"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Senador Petrônio Portella",
+            "iata": "THE",
+            "municipio": "Teresina",
+            "acesso": "Avenida Centenário"
+        }
+    ],
+    "rodovias": [
+        "ponte da Amizade",
+        "PI-130",
+        "Avenida Frei Serafim"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e clínica",
+        "bairro",
+        "sede",
+        "acesso ao THE"
+    ],
+    "vizinhos_pedido": [
+        "Timon",
+        "Parnaíba",
+        "Fortaleza"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal THE em Teresina",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "estado": "pernambuco",
+    "cidade": "petrolina",
+    "nome": "Petrolina",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-407",
+            "destino": "Senador Nilo Coelho",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Maria Auxiliadora",
+        "Pedro Raimundo",
+        "Cohab"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Senador Nilo Coelho",
+            "iata": "PNZ",
+            "municipio": "Petrolina",
+            "acesso": "BR-407"
+        }
+    ],
+    "rodovias": [
+        "BR-407",
+        "BR-428",
+        "ponte Petrolina–Juazeiro"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "acesso à ponte",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Juazeiro",
+        "Recife",
+        "Salvador"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal PNZ em Petrolina",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

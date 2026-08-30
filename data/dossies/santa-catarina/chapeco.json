@@ -1,0 +1,72 @@
+{
+    "estado": "santa-catarina",
+    "cidade": "chapeco",
+    "nome": "Chapecó",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-282",
+            "destino": "Serafin Enoss Bertaso",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Efapi",
+        "Presidente Médici",
+        "Universitário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Serafin Enoss Bertaso",
+            "iata": "XAP",
+            "municipio": "Chapecó",
+            "acesso": "SC-480"
+        }
+    ],
+    "rodovias": [
+        "BR-282",
+        "BR-480",
+        "Avenida Getúlio Vargas"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "parque industrial",
+        "bairro",
+        "Unochapecó"
+    ],
+    "vizinhos_pedido": [
+        "Concórdia",
+        "Cascavel",
+        "Passo Fundo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal XAP em Chapecó",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

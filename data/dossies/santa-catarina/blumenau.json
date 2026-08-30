@@ -1,0 +1,72 @@
+{
+    "estado": "santa-catarina",
+    "cidade": "blumenau",
+    "nome": "Blumenau",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-470",
+            "destino": "Ministro Victor Konder",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Vila Nova",
+        "Itoupava Norte",
+        "Fidélis"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Ministro Victor Konder",
+            "iata": "NVT",
+            "municipio": "Navegantes",
+            "acesso": "BR-470 / BR-101"
+        }
+    ],
+    "rodovias": [
+        "BR-470",
+        "Avenida Beira Rio",
+        "Rua XV de Novembro"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "indústria",
+        "bairro",
+        "acesso à BR-470"
+    ],
+    "vizinhos_pedido": [
+        "Itajaí",
+        "Navegantes",
+        "Joinville"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal NVT em Navegantes",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

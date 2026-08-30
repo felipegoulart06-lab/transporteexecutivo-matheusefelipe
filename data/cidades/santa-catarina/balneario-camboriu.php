@@ -5,59 +5,91 @@ declare(strict_types=1);
 return [
     'layout' => 'dunas',
     'cidade_nome' => 'Balneário Camboriú',
-    'geo' => ['lat' => -26.9906, 'lng' => -48.6342],
+    'geo' => [
+        'lat' => -26.9906,
+        'lng' => -48.6342,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Balneário Camboriú',
     'seo' => [
-        'title' => 'Motorista executivo em Camboriú: Avenida Central, orla e NVT',
-        'description' => 'Carro com motorista em Balneário Camboriú para a Avenida Central, Barra Sul, Barra Norte e o aeroporto de Navegantes. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo na Avenida Central, na orla e no NVT',
-        'og_description' => 'Motorista no litoral norte: hotel na orla, pauta na Central e o terminal de Navegantes.',
-        'og_image_alt' => 'Carro executivo na Avenida Atlântica de Balneário Camboriú',
+        'title' => 'Motorista executivo em Balneário Camboriú: Centro e NVT',
+        'description' => 'Carro com motorista em Balneário Camboriú para Centro, Barra Sul e NVT. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Balneário Camboriú: Centro e NVT',
+        'og_description' => 'O motorista combina Centro com Ministro Victor Konder (NVT), em Navegantes. Informe nome do hotel e a torre.',
+        'og_image_alt' => 'Carro executivo em via de Balneário Camboriú',
     ],
-    'kicker' => 'Litoral norte · SC',
-    'h1' => 'Da Avenida Central ao NVT sem perder a janela da Barra Sul',
+    'kicker' => 'Litoral catarinense · SC',
+    'h1' => 'Balneário Camboriú — Centro de manhã, NVT quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Balneário Camboriú',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Balneário Camboriú embarca no NVT dentro da cidade?',
+            'resposta' => 'Não. De Balneário Camboriú o NVT (Ministro Victor Konder) fica em Navegantes. O trecho sai de Centro pela BR-101.',
+        ],
+        [
+            'pergunta' => 'Em Balneário Camboriú, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Balneário Camboriú. Envie nome do hotel e a torre em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Balneário Camboriú vocês fazem Itajaí?',
+            'resposta' => 'Sim, saindo de Balneário Camboriú. Itajaí não é o recorte de Centro; o horário pela Avenida Atlântica sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Balneário Camboriú o carro fica entre Centro e Barra Sul?',
+            'resposta' => 'Sim, em Balneário Camboriú. A hora à disposição cobre hotel na avenida em Centro e torres sul em Barra Sul.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Balneário Camboriú e o NVT',
+        'texto' => 'Diga o ponto em Centro ou Barra Sul, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Balneário Camboriú',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'santa-catarina',
+            'ancora' => 'Balneário Camboriú e o recorte de Litoral catarinense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'santa-catarina',
+            'cidade' => 'blumenau',
+            'ancora' => 'Motorista em blumenau',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'santa-catarina',
+            'cidade' => 'florianopolis',
+            'ancora' => 'Motorista em florianopolis',
+        ],
+    ],
     'trilha' => [
-        'h2' => 'Camboriú se lê em torre e em orla — não no atalho do app no verão',
-        'texto' => 'Hotel na Avenida Atlântica, reunião na Central e voo em Navegantes (NVT) cabem no mesmo expediente se o motorista já saiu com a ordem da Interpraias e da BR-101, não com o aceite do minuto. No verão o relógio muda; a margem sai do hotel, não do mapa.',
+        'h2' => 'Balneário Camboriú se lê em BR-101, não em atalho de app',
+        'texto' => 'Balneário Camboriú usa Ministro Victor Konder (NVT), em Navegantes. Quem embarca em Centro não está no município da pista. A BR-101 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     ],
     'chips' => [
-        'h2' => 'Onde o embarque camboriuense mais se repete',
-        'itens' => ['Avenida Central', 'Barra Sul', 'Barra Norte', 'Pioneiros', 'Nações', 'Aeroporto de Navegantes'],
+        'h2' => 'Onde o embarque em Balneário Camboriú mais se repete',
+        'itens' => [
+            'Centro',
+            'Barra Sul',
+            'Barra Norte',
+            'Interpraias',
+            'Ministro Victor Konder',
+            'BR-101',
+        ],
     ],
     'historias' => [
         [
-            'h2' => 'A orla como hotel, não como passeio de temporada',
-            'texto' => 'Barra Sul, Barra Norte e a Atlântica concentram pernoite: Copacabana, similar e as torres entram no roteiro pelo nome e pelo recuo, não por “na beira-mar”. O carro espera no acesso de serviço quando a Atlântica está tomada.',
+            'h2' => 'Centro como origem, não como cartão-postal',
+            'texto' => 'Origem frequente para hotel na avenida. Informe nome do hotel e a torre. Centro não compartilha o recuo de Barra Sul.',
         ],
         [
-            'h2' => 'Avenida Central, Pioneiros e a pauta de dia',
-            'texto' => 'Sede, clínicas e o eixo comercial. Deslocamentos curtos que esticam no semáforo rumo à Barra. Informe o número; a Central não é o recuo da Interpraias.',
+            'h2' => 'Barra Sul no meio do expediente',
+            'texto' => 'Barra Sul pede torres sul. Barra Norte pede orla norte. Quando Itajaí entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Avenida Atlântica.',
         ],
         [
-            'h2' => 'Rotas que misturam orla, Itajaí e o teleférico',
-            'texto' => 'NVT → hotel na Barra Sul → Central → Parque Unipraias só se a visita estiver no roteiro. Itajaí, Itapema ou Blumenau saem como viagem, com horário de BR-101, não como segunda corrida na Atlântica.',
+            'h2' => 'Ministro Victor Konder — NVT',
+            'texto' => 'Ministro Victor Konder (NVT) fica em Navegantes, não em Balneário Camboriú. O trecho sai pela BR-101. Diga o IATA e o número do voo.',
         ],
-        [
-            'h2' => 'Navegantes — NVT',
-            'texto' => 'O Ministro Victor Konder fica no município vizinho. Combinamos o voo. A espera no desembarque integra o trecho NVT; a BR-101 e a entrada da orla mudam o intervalo mais que o mapa admite.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa em Navegantes',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Camboriú fica na orla?', 'resposta' => 'Não. O NVT fica em Navegantes. O trecho até a Barra Sul ou a Central entra no roteiro com margem para a BR-101.'],
-        ['pergunta' => 'Em Balneário Camboriú, o motorista espera no NVT se o voo atrasar?', 'resposta' => 'Sim. Em Balneário Camboriú, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Barra Sul, Central e o Unipraias no mesmo dia?', 'resposta' => 'Sim, quando o parque entra no roteiro. Combinamos o ponto de espera; o complexo não admite recuo improvisado.'],
-        ['pergunta' => 'Dá para incluir Itajaí ou Blumenau depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte da Atlântica; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Una a orla ao horário de Navegantes',
-        'texto' => 'O orçamento de Balneário Camboriú sai sob consulta. Torre, Central e NVT no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Camboriú',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'santa-catarina', 'ancora' => 'Joinville, Blumenau e o recorte catarinense'],
-        ['tipo' => 'cidade', 'estado' => 'santa-catarina', 'cidade' => 'blumenau', 'ancora' => 'Centro, Vila Nova e o NVT'],
-        ['tipo' => 'cidade', 'estado' => 'santa-catarina', 'cidade' => 'florianopolis', 'ancora' => 'Jurerê, Centro e o Hercílio Luz'],
     ],
 ];

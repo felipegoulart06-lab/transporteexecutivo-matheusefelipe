@@ -1,0 +1,78 @@
+{
+    "estado": "amazonas",
+    "cidade": "parintins",
+    "nome": "Parintins",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "orla fluvial",
+            "destino": "Júlio Belém",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Itaúna",
+        "Palmares",
+        "Macurany"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Júlio Belém",
+            "iata": "PIN",
+            "municipio": "Parintins",
+            "acesso": "acesso urbano"
+        },
+        {
+            "nome": "Eduardo Gomes",
+            "iata": "MAO",
+            "municipio": "Manaus",
+            "acesso": "rio / voo"
+        }
+    ],
+    "rodovias": [
+        "orla fluvial",
+        "Avenida Amazonas",
+        "porto"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "acesso ao porto"
+    ],
+    "vizinhos_pedido": [
+        "Manaus",
+        "Nhamundá",
+        "Barreirinha"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal PIN em Parintins",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

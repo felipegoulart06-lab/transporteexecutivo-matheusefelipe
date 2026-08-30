@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "marilia",
+    "nome": "Marília",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Comandante João Ribeiro de Barros",
+            "destino": "Frank Miloye Milenkovich",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim América",
+        "Campus Unimar",
+        "Palmital"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Frank Miloye Milenkovich",
+            "iata": "MII",
+            "municipio": "Marília",
+            "acesso": "SP-294"
+        }
+    ],
+    "rodovias": [
+        "Comandante João Ribeiro de Barros",
+        "SP-294",
+        "Avenida Sampaio Vidal"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "universidade",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Bauru",
+        "Assis",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal MII em Marília",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

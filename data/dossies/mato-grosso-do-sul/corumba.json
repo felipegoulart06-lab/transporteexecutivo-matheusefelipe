@@ -1,0 +1,72 @@
+{
+    "estado": "mato-grosso-do-sul",
+    "cidade": "corumba",
+    "nome": "Corumbá",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-262",
+            "destino": "Corumbá",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Popular Nova",
+        "Aeroporto",
+        "Ladário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Corumbá",
+            "iata": "CMG",
+            "municipio": "Corumbá",
+            "acesso": "Rua Santos Dumont"
+        }
+    ],
+    "rodovias": [
+        "BR-262",
+        "Avenida Porto Carrero",
+        "fronteira"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "acesso ao CMG",
+        "município vizinho"
+    ],
+    "vizinhos_pedido": [
+        "Ladário",
+        "Campo Grande",
+        "Puerto Suárez"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CMG em Corumbá",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

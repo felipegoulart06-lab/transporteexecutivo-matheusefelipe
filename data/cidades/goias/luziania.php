@@ -5,125 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Luziânia',
-    'geo' => ['lat' => -16.253, 'lng' => -47.9503],
+    'geo' => [
+        'lat' => -16.253,
+        'lng' => -47.9503,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Luziânia',
     'seo' => [
-        'title' => 'Entorno do DF: motorista em Luziânia, Centro e BSB',
-        'description' => 'Motorista em Luziânia para o Centro, Parque São Judas, o setor JK e o aeroporto BSB pela BR-040. Entorno do DF e orçamento sob consulta.',
-        'og_title' => 'Traslado no Centro de Luziânia, no São Judas e no BSB',
-        'og_description' => 'Carro no Entorno: hotel no Centro, pauta no São Judas e o recuo até o aeroporto de Brasília.',
-        'og_image_alt' => 'Sedan executivo em avenida de Luziânia no Entorno do DF',
+        'title' => 'Motorista executivo em Luziânia: Centro e BSB',
+        'description' => 'Carro com motorista em Luziânia para Centro, Parque Estrela Dalva e BSB. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Luziânia: Centro e BSB',
+        'og_description' => 'O motorista combina Centro com Juscelino Kubitschek (BSB), em Brasília. Informe nome do hotel ou da quadra.',
+        'og_image_alt' => 'Carro executivo em via de Luziânia',
     ],
     'kicker' => 'Entorno do DF · GO',
-    'h1' => 'O Entorno não é satélite sem nome: Centro, São Judas e o BSB',
-    'lead' => 'Luziânia articula o Entorno goiano: Centro e Parque São Judas no município, o BSB pela BR-040. Não é satélite anônimo do Plano Piloto — tem endereço, prefeitura e recuo próprio. O Distrito Federal cola no mapa; o estado no documento continua sendo Goiás.',
+    'h1' => 'Luziânia: entre Centro, Parque Estrela Dalva e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Luziânia',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Luziânia embarca no BSB dentro da cidade?',
+            'resposta' => 'Não. De Luziânia o BSB (Juscelino Kubitschek) fica em Brasília. O trecho sai de Centro pela BR-040.',
+        ],
+        [
+            'pergunta' => 'Em Luziânia, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Luziânia. Envie nome do hotel ou da quadra em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Luziânia vocês fazem Brasília?',
+            'resposta' => 'Sim, saindo de Luziânia. Brasília não é o recorte de Centro; o horário pela GO-010 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Luziânia o carro fica entre Centro e Parque Estrela Dalva?',
+            'resposta' => 'Sim, em Luziânia. A hora à disposição cobre sede em Centro e bairro em Parque Estrela Dalva.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Luziânia e o BSB',
+        'texto' => 'Diga o ponto em Centro ou Parque Estrela Dalva, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Luziânia',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'goias',
+            'ancora' => 'Luziânia e o recorte de Entorno do DF',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'distrito-federal',
+            'cidade' => 'brasilia',
+            'ancora' => 'Motorista em brasilia',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'goias',
+            'cidade' => 'goiania',
+            'ancora' => 'Motorista em goiania',
+        ],
+    ],
+    'lead' => 'Luziânia usa Juscelino Kubitschek (BSB), em Brasília. Quem embarca em Centro não está no município da pista. A BR-040 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     'contexto' => [
-        'h2' => 'A pauta do Entorno cobra município e quadra, não “perto de Brasília”',
+        'h2' => 'Luziânia se mede em BR-040, não em pin de aplicativo',
         'texto' => [
-            'Centro, Parque São Judas, o setor JK e o recuo da BR-040 não se trocam no mesmo cartaz. Hotel no Centro, reunião no São Judas e voo no Presidente Juscelino Kubitschek (BSB) cabem no mesmo expediente se a ordem da 040 já estiver no roteiro.',
-            'O recorte é a rotina de quem trabalha no DF e dorme em Goiás: embarque pelo nome do hotel, espera discreta e chegada no terminal certo. Quando a pauta aponta para Goiânia, a BR-060 deixa de ser o mesmo pedido do BSB.',
+            'Luziânia usa Juscelino Kubitschek (BSB), em Brasília. Quem embarca em Centro não está no município da pista. A BR-040 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Parque Estrela Dalva pede bairro. JK pede eixo Brasília. Quando Brasília entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela GO-010.',
         ],
     ],
     'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
+        'h2' => 'Eixos de embarque em Luziânia',
         'itens' => [
             [
-                'h3' => 'Centro de Luziânia',
-                'texto' => 'Sede, hotel e o calçadão. Informe o prédio; “no Centro” não define o recuo nem o sentido da via no fim da tarde.',
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome do hotel ou da quadra. Centro não compartilha o recuo de Parque Estrela Dalva.',
             ],
             [
-                'h3' => 'Parque São Judas',
-                'texto' => 'Pauta residencial e o eixo interno. Rua e número evitam a volta; São Judas não se troca pelo JK no mesmo recado.',
+                'h3' => 'Parque Estrela Dalva',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel ou da quadra. Parque Estrela Dalva não compartilha o recuo de Centro.',
             ],
             [
-                'h3' => 'Setor JK',
-                'texto' => 'Expansão urbana e o recorte de passagem rumo à BR-040. Informe o ponto; o setor sozinho não coloca o carro na porta.',
+                'h3' => 'JK',
+                'texto' => 'Origem frequente para eixo Brasília. Informe nome do hotel ou da quadra. JK não compartilha o recuo de Centro.',
             ],
             [
-                'h3' => 'Acesso da BR-040',
-                'texto' => 'Saída para o DF e o BSB. A margem da rodovia sai do hotel, não do mapa em horário de pico na entrada de Brasília.',
+                'h3' => 'Residencial Alto da Boa Vista',
+                'texto' => 'Origem frequente para residencial. Informe nome do hotel ou da quadra. Residencial Alto da Boa Vista não compartilha o recuo de Centro.',
             ],
         ],
     ],
     'aeroportos' => [
-        'h2' => 'Presidente Juscelino Kubitschek — BSB pela 040',
+        'h2' => 'O terminal que a agenda de Luziânia realmente usa',
         'itens' => [
             [
-                'h3' => 'Brasília — BSB',
-                'texto' => 'Terminal no Distrito Federal, não em Luziânia. Combinamos o voo. O trecho cruza a BR-040; a espera no desembarque integra o pedido quando o pouso já está no roteiro.',
+                'h3' => 'Juscelino Kubitschek — BSB',
+                'texto' => 'Juscelino Kubitschek (BSB) fica em Brasília, não em Luziânia. O trecho sai pela BR-040 / DF-290. Diga o IATA e o número do voo.',
             ],
             [
-                'h3' => 'Quando a pauta aponta para Goiânia',
-                'texto' => 'O Santa Genoveva (GYN) e o Setor Bueno não são o mesmo pedido do BSB. A BR-060 pede horário próprio. O orçamento sai à parte.',
+                'h3' => 'BR-040 e a vazão para Brasília',
+                'texto' => 'Brasília e Valparaíso de Goiás aparecem no mesmo pedido de Luziânia. Isso é viagem, não segunda corrida em Centro.',
             ],
         ],
     ],
     'rotas' => [
-        'h2' => 'Trajetos que a agenda luzianense mais pede',
+        'h2' => 'Trajetos que o pedido em Luziânia mais combina',
         'itens' => [
             [
-                'titulo' => 'Hotel no Centro → BSB',
-                'texto' => 'Pernoite em Luziânia e voo no DF. Informe o nome do hotel e o terminal; a margem sai da BR-040.',
+                'titulo' => 'Centro → BSB',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-040 / DF-290.',
             ],
             [
-                'titulo' => 'Centro → São Judas → JK',
-                'texto' => 'Pauta urbana do município. Um motorista cobre os três se a ordem já estiver no roteiro.',
+                'titulo' => 'BSB → Parque Estrela Dalva',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel ou da quadra.',
             ],
             [
-                'titulo' => 'Luziânia → Goiânia no mesmo dia',
-                'texto' => 'Quando a pauta vaza para a capital goiana, o trecho deixa de ser Entorno. Horário sob consulta.',
+                'titulo' => 'Centro → Brasília',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Parque Estrela Dalva; o horário sai sob consulta.',
             ],
         ],
     ],
     'como' => [
-        'h2' => 'Como o carro entra na grade em Luziânia',
+        'h2' => 'Como o carro entra na pauta em Luziânia',
         'passos' => [
             [
-                'titulo' => 'Bairro e número',
-                'texto' => 'Centro, São Judas ou JK. “No Entorno” não define o recuo.',
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel ou da quadra. Autocomplete não resolve dois acessos em Centro.',
             ],
             [
-                'titulo' => 'Hotel ou BSB',
-                'texto' => 'Diga se o embarque é a portaria do hotel ou o aeroporto de Brasília pela BR-040.',
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o BSB ou Brasília entra no dia.',
             ],
             [
                 'titulo' => 'Confirmação',
-                'texto' => 'Em Luziânia, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.',
+                'texto' => 'Em Luziânia, nome e WhatsApp. Devolvemos o horário de apresentação.',
             ],
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pauta Luziânia e o BSB',
-    'faq' => [
-        [
-            'pergunta' => 'Luziânia fica no Distrito Federal?',
-            'resposta' => 'Não. É município de Goiás, no Entorno. Tem Centro, São Judas e recuo próprio. Brasília cola no mapa; o estado no documento é GO.',
-        ],
-        [
-            'pergunta' => 'Como funciona o trecho até o BSB?',
-            'resposta' => 'Pela BR-040, com margem para o pico na entrada do DF. O terminal não fica em Luziânia; o voo entra no roteiro com horário combinado.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Centro, São Judas e o JK no mesmo dia?',
-            'resposta' => 'Sim. Em Luziânia, informe a ordem e o nome do hotel. Um motorista articula os três recuos.',
-        ],
-        [
-            'pergunta' => 'Dá para seguir a Goiânia depois da reunião no Centro?',
-            'resposta' => 'Sim, como viagem. Não é o mesmo recorte do Entorno; o horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'O hotel no São Judas é ponto conveniado?',
-            'resposta' => 'Não. Em Luziânia, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Trate o Entorno pelo nome: Luziânia e o BSB',
-        'texto' => 'O orçamento sai sob consulta. Centro, São Judas e a BR-040 no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Luziânia',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'goias', 'ancora' => 'Goiânia, Anápolis e o Entorno'],
-        ['tipo' => 'cidade', 'estado' => 'distrito-federal', 'cidade' => 'brasilia', 'ancora' => 'Eixo Monumental, Asas e o aeroporto BSB'],
-        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'goiania', 'ancora' => 'Setor Bueno, T-63 e o Santa Genoveva'],
     ],
 ];

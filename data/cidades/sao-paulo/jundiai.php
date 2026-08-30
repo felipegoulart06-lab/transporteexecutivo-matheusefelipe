@@ -5,58 +5,107 @@ declare(strict_types=1);
 return [
     'layout' => 'malha',
     'cidade_nome' => 'Jundiaí',
-    'geo' => ['lat' => -23.1857, 'lng' => -46.8978],
+    'geo' => [
+        'lat' => -23.1857,
+        'lng' => -46.8978,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Jundiaí',
     'seo' => [
-        'title' => 'Traslado executivo em Jundiaí: Centro, Medeiros e Anhanguera',
-        'description' => 'Motorista executivo em Jundiaí para o Centro, Medeiros, Vila Rio Branco, Serra do Japi e o eixo até Viracopos. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro de Jundiaí, no Medeiros e na Anhanguera',
-        'og_description' => 'Traslado em Jundiaí: hotel, pauta industrial e o recuo rumo a VCP ou à capital.',
-        'og_image_alt' => 'Sedan executivo em avenida de Jundiaí',
+        'title' => 'Carro com motorista em Jundiaí: Ponte de Campinas e VCP',
+        'description' => 'Carro com motorista em Jundiaí para Centro, Ponte de Campinas e VCP. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Jundiaí: hotel, Centro e VCP',
+        'og_description' => 'O motorista combina Centro com Viracopos (VCP), em Campinas. Informe nome do condomínio.',
+        'og_image_alt' => 'Carro executivo em via de Jundiaí',
     ],
-    'kicker' => 'Interior da capital · SP',
-    'h1' => 'Do Medeiros ao Centro sem perder a janela da Anhanguera',
-    'intro' => 'Jundiaí concentra planta, hospital e o recorte entre a capital e Campinas. Hotel no Centro ou no Medeiros, reunião na zona industrial e voo em Viracopos (VCP) ou Congonhas cabem no mesmo expediente se o motorista já saiu com a ordem da Anhanguera, não com o aceite do minuto.',
-    'blocos' => [
+    'kicker' => 'Interior paulista · SP',
+    'h1' => 'Jundiaí: entre Centro, Ponte de Campinas e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Jundiaí',
+    'faq' => [
         [
-            'h2' => 'Por que o deslocamento em Jundiaí não é “pegar um carro no Centro”',
-            'texto' => 'Centro, Vila Rio Branco, Medeiros e o Distrito Industrial não compartilham o mesmo recuo. Quem tem pauta na planta e check-out no Comfort ou no Blue Tree precisa de um motorista que já conhece o sentido da Jundiaí-Itatiba, não o atalho do app.',
+            'pergunta' => 'Quem está em Jundiaí embarca no VCP dentro da cidade?',
+            'resposta' => 'Não. De Jundiaí o VCP (Viracopos) fica em Campinas. O trecho sai de Centro pela Anhanguera.',
         ],
         [
-            'h2' => 'Quadrantes onde o embarque jundiaiense mais se concentra',
+            'pergunta' => 'Em Jundiaí, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Jundiaí. Envie nome do condomínio em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Jundiaí vocês fazem Campinas?',
+            'resposta' => 'Sim, saindo de Jundiaí. Campinas não é o recorte de Centro; o horário pela Bandeirantes sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Jundiaí, VCP e CGH são o mesmo recorte?',
+            'resposta' => 'Não, em Jundiaí. VCP fica em Campinas; CGH fica em São Paulo. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Jundiaí e o VCP',
+        'texto' => 'Diga o ponto em Centro ou Ponte de Campinas, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Jundiaí',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Jundiaí e o recorte de Interior paulista',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'campinas',
+            'ancora' => 'Motorista em campinas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'sao-paulo',
+            'ancora' => 'Motorista em sao paulo',
+        ],
+    ],
+    'intro' => 'Jundiaí usa Viracopos (VCP), em Campinas. Quem embarca em Centro não está no município da pista. A Anhanguera é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+    'blocos' => [
+        [
+            'h2' => 'Por que o deslocamento em Jundiaí não é pegar um carro',
+            'texto' => 'Jundiaí usa Viracopos (VCP), em Campinas. Quem embarca em Centro não está no município da pista. A Anhanguera é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Quadrantes que mais geram embarque',
             'itens' => [
-                ['h3' => 'Centro e a Barão de Jundiaí', 'texto' => 'Em Jundiaí, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-                ['h3' => 'Medeiros, Vila Rio Branco e o shopping', 'texto' => 'Torres e clínicas. Deslocamentos curtos que esticam no semáforo da Jundiaí-Itatiba.'],
-                ['h3' => 'Distrito Industrial e a Anhanguera', 'texto' => 'Em Jundiaí, plantas e logística. Protocolo de portaria entra no roteiro junto com o turno.'],
-                ['h3' => 'Serra do Japi e o Horto Florestal', 'texto' => 'Visita combinada. Não é o mesmo recorte do Centro; o recuo do parque pede ponto de espera.'],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome do condomínio. Centro não compartilha o recuo de Ponte de Campinas.',
+                ],
+                [
+                    'h3' => 'Ponte de Campinas',
+                    'texto' => 'Origem frequente para eixo Anhanguera. Informe nome do condomínio. Ponte de Campinas não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Vila Arens',
+                    'texto' => 'Origem frequente para bairro. Informe nome do condomínio. Vila Arens não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Eloy Chaves',
+                    'texto' => 'Origem frequente para industrial. Informe nome do condomínio. Eloy Chaves não compartilha o recuo de Centro.',
+                ],
             ],
         ],
     ],
     'grade' => [
-        'h2' => 'Rotas que a pauta jundiaiense mais pede',
+        'h2' => 'Três combinações que a pauta de Jundiaí repete',
         'itens' => [
-            ['titulo' => 'Hotel no Centro → planta no Distrito', 'texto' => 'Pauta industrial. Envie o nome na portaria e o documento pedido pelo condomínio.'],
-            ['titulo' => 'Medeiros → Centro → Hospital São Vicente', 'texto' => 'Clínica, sede e unidade. Um motorista cobre os três se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Jundiaí → Viracopos (VCP)', 'texto' => 'O VCP não fica na porta do hotel. Combinamos o voo e a margem da Anhanguera.'],
-            ['titulo' => 'Jundiaí → Faria Lima ou Congonhas', 'texto' => 'Quando a pauta vaza para a capital, o trecho deixa de ser só urbano. Orçamento à parte.'],
+            [
+                'titulo' => 'Centro → VCP',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: Anhanguera.',
+            ],
+            [
+                'titulo' => 'VCP → Ponte de Campinas',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do condomínio.',
+            ],
+            [
+                'titulo' => 'Centro → Campinas',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Ponte de Campinas; o horário sai sob consulta.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta Jundiaí e a Anhanguera',
-    'faq' => [
-        ['pergunta' => 'Jundiaí tem aeroporto comercial?', 'resposta' => 'O campo de Jundiaí atende aviação geral. O voo comercial da pauta sai em geral por Viracopos ou Congonhas; o trecho entra no roteiro com margem.'],
-        ['pergunta' => 'Em Jundiaí, o motorista espera no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o VCP está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Em Jundiaí, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Em Jundiaí, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
-        ['pergunta' => 'Dá para ir à Serra do Japi e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim, quando a visita entra no roteiro. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte o Medeiros ao horário da Anhanguera',
-        'texto' => 'O orçamento de Jundiaí sai sob consulta. Planta, hotel e VCP no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Jundiaí',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas e GRU na capital'],
     ],
 ];

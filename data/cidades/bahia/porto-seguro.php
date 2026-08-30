@@ -5,61 +5,105 @@ declare(strict_types=1);
 return [
     'layout' => 'orla',
     'cidade_nome' => 'Porto Seguro',
-    'geo' => ['lat' => -16.4435, 'lng' => -39.0643],
+    'geo' => [
+        'lat' => -16.4435,
+        'lng' => -39.0643,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Porto Seguro',
     'seo' => [
-        'title' => 'Traslado em Porto Seguro: Cidade Histórica, orla e BPS',
-        'description' => 'Carro com motorista em Porto Seguro para a Cidade Histórica, Taperapuã, Arraial d\'Ajuda, Trancoso e o aeroporto BPS. Rotas e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo na Cidade Histórica, na orla e no aeroporto BPS',
-        'og_description' => 'Motorista na Costa do Descobrimento: hotel, Cidade Histórica e o terminal BPS.',
-        'og_image_alt' => 'Carro executivo em via da orla de Porto Seguro',
+        'title' => 'Motorista executivo em Porto Seguro: Cidade Histórica e BPS',
+        'description' => 'Carro com motorista em Porto Seguro para Cidade Histórica, Orla Norte e BPS. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Porto Seguro: Cidade Histórica e BPS',
+        'og_description' => 'O motorista combina Cidade Histórica com Porto Seguro (BPS), no próprio município. Informe nome do hotel e a vila.',
+        'og_image_alt' => 'Carro executivo em via de Porto Seguro',
     ],
     'kicker' => 'Costa do Descobrimento · BA',
-    'h1' => 'Do BPS à Cidade Histórica sem perder a janela de Trancoso',
-    'epigrafe' => 'Porto Seguro alinha hotel na orla, pauta no Centro Histórico e o voo no BPS. O motorista segura a do Descobrimento e a balsa; o passageiro segura o horário — não a vaga no Passarela do Álcool.',
+    'h1' => 'Porto Seguro — Cidade Histórica de manhã, BPS quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Porto Seguro',
+    'faq' => [
+        [
+            'pergunta' => 'Em Porto Seguro, o BPS fica no próprio município?',
+            'resposta' => 'Sim. Em Porto Seguro, Porto Seguro (BPS) fica no município. Informe o acesso via BA-001.',
+        ],
+        [
+            'pergunta' => 'Em Porto Seguro, vocês buscam em Cidade Histórica?',
+            'resposta' => 'Sim, em Porto Seguro. Envie nome do hotel e a vila em Cidade Histórica. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Porto Seguro vocês fazem Santa Cruz Cabrália?',
+            'resposta' => 'Sim, saindo de Porto Seguro. Santa Cruz Cabrália não é o recorte de Cidade Histórica; o horário pela BR-367 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Porto Seguro o carro fica entre Cidade Histórica e Orla Norte?',
+            'resposta' => 'Sim, em Porto Seguro. A hora à disposição cobre hotel e centro em Cidade Histórica e orla em Orla Norte.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Porto Seguro e o BPS',
+        'texto' => 'Diga o ponto em Cidade Histórica ou Orla Norte, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Porto Seguro',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'bahia',
+            'ancora' => 'Porto Seguro e o recorte de Costa do Descobrimento',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'salvador',
+            'ancora' => 'Motorista em salvador',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'feira-de-santana',
+            'ancora' => 'Motorista em feira de santana',
+        ],
+    ],
+    'epigrafe' => 'Cidade Histórica não é o mesmo recuo de Orla Norte. O motorista segura o acesso; o passageiro segura o horário.',
     'abertura' => [
-        'h2' => 'A cidade do descobrimento e os distritos não se trocam no mesmo recuo',
+        'h2' => 'Porto Seguro: origem na orla, destino no terminal certo',
         'texto' => [
-            'Cidade Histórica, Taperapuã, Cabralândia e o Centro concentram o pernoite urbano. Arraial d\'Ajuda e Trancoso pedem a balsa ou a estrada do distrito. O Aeroporto de Porto Seguro (BPS) fica no recorte do município, não na porta do farol.',
-            'O serviço é de traslado e de espera: o carro já está no roteiro com o nome do hotel (Villaggio, Enotel, similares) e o número do voo. Não é corrida de passarela no feriado, a menos que a visita entre na pauta.',
+            'Porto Seguro concentra Cidade Histórica (hotel e centro) e Porto Seguro (BPS) no mesmo município. O motorista precisa do ponto de embarque e do BPS no mesmo recado — “me busca em Porto Seguro” não define o recuo.',
+            'Orla Norte pede orla. Cabralia pede município vizinho. Quando Santa Cruz Cabrália entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-367.',
         ],
     ],
     'faixas' => [
-        ['h2' => 'Cidade Histórica, Centro e o relógio da ladeira', 'texto' => 'O Marco do Descobrimento e as igrejas pedem ponto de espera. Informe o hotel; “no histórico” não distingue a Cidade Alta do Centro comercial.'],
-        ['h2' => 'Taperapuã, Cabralândia e a orla', 'texto' => 'Hotéis de passagem e o recuo da praia. A do Descobrimento muda o intervalo no verão; a margem sai do hotel, não do mapa.'],
-        ['h2' => 'Arraial d\'Ajuda, Trancoso e o Quadrado', 'texto' => 'Quando a pauta cruza a balsa ou a estrada rumo a Trancoso, o distrito entra como viagem. O Quadrado pede ponto de espera, não GPS no coreto.'],
+        [
+            'h2' => 'Cidade Histórica: o relógio do embarque',
+            'texto' => 'Cidade Histórica concentra hotel e centro. Informe nome do hotel e a vila.',
+        ],
+        [
+            'h2' => 'Orla Norte e Cabralia',
+            'texto' => 'Orla Norte pede orla. Cabralia pede município vizinho. A ordem muda o intervalo mais que o mapa.',
+        ],
+        [
+            'h2' => 'Porto Seguro (BPS), no próprio município',
+            'texto' => 'Porto Seguro (BPS) fica em Porto Seguro. Acesso: BA-001. Combinamos o voo; a espera no desembarque integra o trecho.',
+        ],
     ],
     'aeroportos' => [
-        'h2' => 'BPS na cidade — longe do Quadrado, perto do Centro',
+        'h2' => 'Terminal e vazão a partir de Porto Seguro',
         'itens' => [
-            ['h3' => 'Porto Seguro — BPS', 'texto' => 'Terminal do município. Combinamos o voo. A espera no desembarque integra o trecho BPS; até Taperapuã o intervalo é urbano, até Trancoso não.'],
-            ['h3' => 'Quando a pauta aponta para Caraíva ou Cumuruxatiba', 'texto' => 'Estrada de terra e maré. Não é o mesmo pedido da Cidade Histórica; o orçamento sai à parte.'],
+            [
+                'h3' => 'Porto Seguro — BPS',
+                'texto' => 'Porto Seguro (BPS) fica em Porto Seguro. Acesso: BA-001. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'BA-001 e a vazão para Santa Cruz Cabrália',
+                'texto' => 'Santa Cruz Cabrália e Eunápolis aparecem no mesmo pedido de Porto Seguro. Isso é viagem, não segunda corrida em Cidade Histórica.',
+            ],
         ],
     ],
     'protocolo' => [
-        'h2' => 'O que pedimos para acertar o embarque na Costa',
+        'h2' => 'O que pedimos para acertar o embarque em Porto Seguro',
         'lista' => [
-            'Hotel com nome — Taperapuã ou Arraial não bastam para o recuo.',
-            'Se o voo é no BPS, número e horário. A margem sai do terminal, não da passarela.',
-            'Trancoso, Caraíva ou a Cidade Histórica entram no roteiro; não é desvio de última hora na balsa.',
+            'Hotel, prédio ou empresa com nome — “em Cidade Histórica” não basta.',
+            'Qual terminal: BPS em Porto Seguro.',
+            'Se Santa Cruz Cabrália entra depois, a ordem muda o recorte.',
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no BPS',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Porto Seguro fica longe da Cidade Histórica?', 'resposta' => 'É trecho urbano até o Centro. Até a Cidade Alta marcamos margem para a ladeira; até Trancoso o recorte é outro.'],
-        ['pergunta' => 'O motorista espera no BPS se o voo atrasar?', 'resposta' => 'Sim. Em Porto Seguro, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês cruzam a balsa rumo a Arraial d\'Ajuda?', 'resposta' => 'Sim. Informe o hotel no distrito. A balsa pesa mais que o quilômetro no mapa.'],
-        ['pergunta' => 'Dá para ir ao Quadrado de Trancoso no mesmo dia?', 'resposta' => 'Sim, como viagem de distrito. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Marque o hotel junto com o horário do BPS',
-        'texto' => 'O orçamento de Porto Seguro sai sob consulta. Histórica, orla e Trancoso no mesmo WhatsApp.',
-        'botao' => 'Pedir carro em Porto Seguro',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'bahia', 'ancora' => 'Feira, Costa do Descobrimento e o recorte baiano'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'salvador', 'ancora' => 'Barra, Paralela e o Luís Eduardo Magalhães'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'feira-de-santana', 'ancora' => 'Centro, Kalilândia e o João Durval'],
     ],
 ];

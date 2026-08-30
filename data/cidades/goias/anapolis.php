@@ -5,58 +5,107 @@ declare(strict_types=1);
 return [
     'layout' => 'malha',
     'cidade_nome' => 'Anápolis',
-    'geo' => ['lat' => -16.3281, 'lng' => -48.9534],
+    'geo' => [
+        'lat' => -16.3281,
+        'lng' => -48.9534,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Anápolis',
     'seo' => [
-        'title' => 'Motorista executivo em Anápolis: Centro, Jundiaí e DAE',
-        'description' => 'Carro com motorista em Anápolis para o Centro, Jundiaí, Cidade Universitária e o Distrito Agroindustrial. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro, no Jundiaí e no Distrito Agroindustrial',
-        'og_description' => 'Motorista em Anápolis: hotel, planta farmacêutica e o recuo do DAE.',
-        'og_image_alt' => 'Sedan executivo em avenida de Anápolis',
+        'title' => 'Motorista executivo em Anápolis: Centro e GYN',
+        'description' => 'Motorista executivo em Anápolis: Centro, Jundiaí e Santa Genoveva (GYN), em Goiânia. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Anápolis: hotel, Centro e GYN',
+        'og_description' => 'O motorista combina Centro com Santa Genoveva (GYN), em Goiânia. Informe nome na lista da portaria do DAIA.',
+        'og_image_alt' => 'Carro executivo em via de Anápolis',
     ],
-    'kicker' => 'Entorno goiano · GO',
-    'h1' => 'Do DAE ao Centro sem perder a janela da planta',
-    'intro' => 'Anápolis concentra o Distrito Agroindustrial, campus e o eixo Goiânia–Brasília. Hotel no Centro ou no Jundiaí, reunião na planta e o trecho até o Santa Genoveva cabem no mesmo expediente se o motorista já saiu com a ordem da BR-153, não com o aceite do minuto.',
-    'blocos' => [
+    'kicker' => 'Eixo Goiânia–Brasília · GO',
+    'h1' => 'Em Anápolis: do embarque em Centro ao GYN',
+    'faq_h2' => 'Dúvidas de quem embarca em Anápolis',
+    'faq' => [
         [
-            'h2' => 'Por que o deslocamento em Anápolis não é “pegar um carro no Centro”',
-            'texto' => 'Centro, Jundiaí, Cidade Universitária e o DAE não compartilham o mesmo recuo. Quem tem pauta na planta farmacêutica e check-out no hotel precisa de um motorista que já conhece o protocolo da portaria, não o atalho do app.',
+            'pergunta' => 'Quem está em Anápolis embarca no GYN dentro da cidade?',
+            'resposta' => 'Não. De Anápolis o GYN (Santa Genoveva) fica em Goiânia. O trecho sai de Centro pela BR-153.',
         ],
         [
-            'h2' => 'Quadrantes onde o embarque anapolino mais se concentra',
+            'pergunta' => 'Em Anápolis, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Anápolis. Envie nome na lista da portaria do DAIA em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Anápolis vocês fazem Goiânia?',
+            'resposta' => 'Sim, saindo de Anápolis. Goiânia não é o recorte de Centro; o horário pela BR-060 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Anápolis, GYN e BSB são o mesmo recorte?',
+            'resposta' => 'Não, em Anápolis. GYN fica em Goiânia; BSB fica em Brasília. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Anápolis e o GYN',
+        'texto' => 'Diga o ponto em Centro ou Jundiaí, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Anápolis',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'goias',
+            'ancora' => 'Anápolis e o recorte de Eixo Goiânia–Brasília',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'goias',
+            'cidade' => 'goiania',
+            'ancora' => 'Motorista em goiania',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'distrito-federal',
+            'cidade' => 'brasilia',
+            'ancora' => 'Motorista em brasilia',
+        ],
+    ],
+    'intro' => 'Anápolis usa Santa Genoveva (GYN), em Goiânia. Quem embarca em Centro não está no município da pista. A BR-153 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+    'blocos' => [
+        [
+            'h2' => 'Por que o deslocamento em Anápolis não é pegar um carro',
+            'texto' => 'Anápolis usa Santa Genoveva (GYN), em Goiânia. Quem embarca em Centro não está no município da pista. A BR-153 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Quadrantes que mais geram embarque',
             'itens' => [
-                ['h3' => 'Centro e a Goiás', 'texto' => 'Em Anápolis, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-                ['h3' => 'Jundiaí e o shopping', 'texto' => 'Torres e clínicas. Deslocamentos curtos que esticam no semáforo da Brasil.'],
-                ['h3' => 'Cidade Universitária e o campus', 'texto' => 'UEG e pauta acadêmica. O recuo pede bloco e portaria.'],
-                ['h3' => 'Distrito Agroindustrial — DAE', 'texto' => 'Plantas e logística. Protocolo de lista entra no roteiro junto com o turno; sem isso, o recuo não libera.'],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome na lista da portaria do DAIA. Centro não compartilha o recuo de Jundiaí.',
+                ],
+                [
+                    'h3' => 'Jundiaí',
+                    'texto' => 'Origem frequente para bairro. Informe nome na lista da portaria do DAIA. Jundiaí não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'DAIA',
+                    'texto' => 'Origem frequente para distrito agroindustrial. Informe nome na lista da portaria do DAIA. DAIA não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Vila Jaiara',
+                    'texto' => 'Origem frequente para residencial. Informe nome na lista da portaria do DAIA. Vila Jaiara não compartilha o recuo de Centro.',
+                ],
             ],
         ],
     ],
     'grade' => [
-        'h2' => 'Rotas que a pauta anapolina mais pede',
+        'h2' => 'Três combinações que a pauta de Anápolis repete',
         'itens' => [
-            ['titulo' => 'Hotel no Centro → DAE', 'texto' => 'Pauta na planta. Envie o nome na portaria e o documento pedido pelo condomínio industrial.'],
-            ['titulo' => 'Jundiaí → Centro → campus', 'texto' => 'Clínica, sede e universidade. Um motorista cobre os três se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Anápolis → Goiânia (GYN)', 'texto' => 'O Santa Genoveva não fica na porta do hotel. Combinamos o voo e a margem da BR-153.'],
-            ['titulo' => 'Anápolis → Brasília no mesmo dia', 'texto' => 'Quando a pauta vaza para o DF, o trecho deixa de ser urbano. Orçamento à parte.'],
+            [
+                'titulo' => 'Centro → GYN',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-153.',
+            ],
+            [
+                'titulo' => 'GYN → Jundiaí',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome na lista da portaria do DAIA.',
+            ],
+            [
+                'titulo' => 'Centro → Goiânia',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Jundiaí; o horário sai sob consulta.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta a planta e o DAE',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Anápolis atende voo comercial?', 'resposta' => 'O voo comercial da região sai em geral pelo Santa Genoveva, em Goiânia. O trecho Anápolis–GYN entra no roteiro com margem para a BR-153.'],
-        ['pergunta' => 'Vocês entram no DAE com protocolo de portaria?', 'resposta' => 'Sim. Em Anápolis, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
-        ['pergunta' => 'Dá para ir a Goiânia e voltar ao hotel no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A BR-153 pesa mais que a distância no mapa.'],
-        ['pergunta' => 'O carro segue a Brasília depois da reunião?', 'resposta' => 'Sim, quando o DF entra no roteiro. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte o DAE ao hotel do Centro',
-        'texto' => 'O orçamento de Anápolis sai sob consulta. Planta, campus e GYN no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Anápolis',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'goias', 'ancora' => 'Anápolis, Rio Verde e o entorno do DF'],
-        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'goiania', 'ancora' => 'Bueno, Marista e o Santa Genoveva'],
-        ['tipo' => 'cidade', 'estado' => 'distrito-federal', 'cidade' => 'brasilia', 'ancora' => 'Eixo Monumental, Lago e o BSB'],
     ],
 ];

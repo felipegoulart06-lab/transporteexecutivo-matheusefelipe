@@ -1,0 +1,72 @@
+{
+    "estado": "pernambuco",
+    "cidade": "jaboatao-dos-guararapes",
+    "nome": "Jaboatão dos Guararapes",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Piedade",
+            "eixo": "PE-007",
+            "destino": "Guararapes Gilberto Freyre",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Piedade",
+        "Candeias",
+        "Centro",
+        "Prazeres"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Guararapes Gilberto Freyre",
+            "iata": "REC",
+            "municipio": "Recife",
+            "acesso": "PE-007 / Mascarenhas"
+        }
+    ],
+    "rodovias": [
+        "PE-007",
+        "BR-101",
+        "Avenida Bernardo Vieira de Melo"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "orla",
+        "sede",
+        "industrial"
+    ],
+    "vizinhos_pedido": [
+        "Recife",
+        "Cabo de Santo Agostinho",
+        "Olinda"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal REC em Recife",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

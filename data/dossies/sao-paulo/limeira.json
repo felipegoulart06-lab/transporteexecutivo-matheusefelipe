@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "limeira",
+    "nome": "Limeira",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Anhanguera",
+            "destino": "Viracopos",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim Aquarius",
+        "UNICAMP Limeira",
+        "Vila Cidade Jardim"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Viracopos",
+            "iata": "VCP",
+            "municipio": "Campinas",
+            "acesso": "Anhanguera"
+        }
+    ],
+    "rodovias": [
+        "Anhanguera",
+        "SP-147",
+        "Avenida Campineira"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "campus",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Piracicaba",
+        "Campinas",
+        "Americana"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VCP em Campinas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

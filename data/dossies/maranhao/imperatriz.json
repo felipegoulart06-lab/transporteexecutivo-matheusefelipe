@@ -1,0 +1,72 @@
+{
+    "estado": "maranhao",
+    "cidade": "imperatriz",
+    "nome": "Imperatriz",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-010",
+            "destino": "Prefeito Renato Moreira",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Nova Imperatriz",
+        "Bacuri",
+        "Parque Alvorada"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Prefeito Renato Moreira",
+            "iata": "IMP",
+            "municipio": "Imperatriz",
+            "acesso": "BR-010"
+        }
+    ],
+    "rodovias": [
+        "BR-010",
+        "BR-230",
+        "Avenida Dorgival Pinheiro de Sousa"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "eixo"
+    ],
+    "vizinhos_pedido": [
+        "Açailândia",
+        "Araguaína",
+        "Palmas"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal IMP em Imperatriz",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

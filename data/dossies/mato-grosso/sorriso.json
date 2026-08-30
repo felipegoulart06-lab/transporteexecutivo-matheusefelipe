@@ -1,0 +1,78 @@
+{
+    "estado": "mato-grosso",
+    "cidade": "sorriso",
+    "nome": "Sorriso",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-163",
+            "destino": "Adolino Bedin",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim Tropical",
+        "Industrial",
+        "Boa Esperança"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Adolino Bedin",
+            "iata": "SMT",
+            "municipio": "Sorriso",
+            "acesso": "BR-163"
+        },
+        {
+            "nome": "Presidente João Figueiredo",
+            "iata": "OPS",
+            "municipio": "Sinop",
+            "acesso": "BR-163"
+        }
+    ],
+    "rodovias": [
+        "BR-163",
+        "Avenida Blairo Maggi",
+        "MT-242"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "grão e portaria",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Sinop",
+        "Lucas do Rio Verde",
+        "Cuiabá"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SMT em Sorriso",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

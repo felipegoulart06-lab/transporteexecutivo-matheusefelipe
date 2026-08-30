@@ -1,0 +1,72 @@
+{
+    "estado": "goias",
+    "cidade": "goiania",
+    "nome": "Goiânia",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Setor Bueno",
+            "eixo": "GO-020",
+            "destino": "Santa Genoveva",
+            "motivo": "hotel e clínica"
+        }
+    ],
+    "eixos": [
+        "Setor Bueno",
+        "Setor Marista",
+        "Setor Oeste",
+        "Jardim Goiás"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Santa Genoveva",
+            "iata": "GYN",
+            "municipio": "Goiânia",
+            "acesso": "GO-020"
+        }
+    ],
+    "rodovias": [
+        "GO-020",
+        "BR-153",
+        "Avenida 85"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e clínica",
+        "escritório",
+        "sede",
+        "orla do parque"
+    ],
+    "vizinhos_pedido": [
+        "Aparecida de Goiânia",
+        "Anápolis",
+        "Brasília"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GYN em Goiânia",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

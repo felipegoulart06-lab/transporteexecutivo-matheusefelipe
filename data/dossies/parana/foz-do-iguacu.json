@@ -1,0 +1,39 @@
+{
+  "estado": "parana",
+  "cidade": "foz-do-iguacu",
+  "nome": "Foz do Iguaçu",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "IGU (BR-469 km 16,5)", "eixo": "Rodovia das Cataratas / BR-469", "destino": "Hotel no Centro ou na Av. das Cataratas", "motivo": "Pouso e pernoite"},
+    {"origem": "Hotel", "eixo": "BR-469 km 18", "destino": "Parque Nacional do Iguaçu", "motivo": "Deslocamento hotel→parque, não guia"},
+    {"origem": "Hotel / Av. República Argentina / Centro", "eixo": "BR-277", "destino": "Ponte da Amizade", "motivo": "Fronteira"}
+  ],
+  "eixos": ["Avenida República Argentina / Centro", "BR-469 / Cataratas", "Ponte da Amizade"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Foz do Iguaçu / Cataratas", "iata": "IGU", "municipio": "Foz do Iguaçu", "relacao": "Terminal no município; ICAO SBFI; BR-469 km 16,5", "fonte": "aeroportos.motiva.com.br — IGU; Relatório CGRA IGU (PEZR exclusivo de Foz do Iguaçu)", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-469 / Rodovia das Cataratas", "fonte": "CCR IGU; DER-PR duplicação; cataratasdoiguacu.com.br km 18", "data": "2026-08-29"},
+    {"nome": "BR-277 / Ponte da Amizade", "fonte": "Eixo Foz–Curitiba com término na ponte (cruzar DNIT/DER-PR)", "data": "2026-08-29"},
+    {"nome": "Avenida República Argentina", "fonte": "H2FOZ/AMN recape; DER-PR Perimetral Leste", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Parque Nacional do Iguaçu — BR-469 km 18", "Ponte da Amizade", "Centro / Av. República Argentina"],
+  "vizinhos_pedido": ["Ciudad del Este", "Puerto Iguazú / Ponte Tancredo Neves"],
+  "prefeito": {"nome": "", "fonte": "Fontes conflitantes; não cruzado no site da Prefeitura", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "IGU em Foz do Iguaçu, BR-469 km 16,5, IGU/SBFI", "fonte": "CCR/Motiva ficha técnica; Relatório CGRA", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O IGU opera em Foz do Iguaçu, na BR-469, km 16,5.", "publicado": true},
+    {"fato": "Acesso ao PNI pela BR-469 km 18", "fonte": "ICMBio Anexo A concessão Urbia; cataratasdoiguacu.com.br", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "O IGU e o Parque Nacional compartilham o eixo da BR-469.", "publicado": true}
+  ],
+  "descartado": [
+    "Guia turístico (Itaipu, Marco das Três Fronteiras)",
+    "Hotel Bourbon sem site oficial",
+    "Tempo fixo hotel–parque ou hotel–ponte",
+    "Vila Portes como eixo (bairro real junto à fronteira; não era o trio pedido)"
+  ],
+  "verificar": [
+    "[VERIFICAR] Prefeito de Foz do Iguaçu em 2026-08-29",
+    "[VERIFICAR] Ponte Tancredo Neves como segundo eixo de fronteira"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
+}

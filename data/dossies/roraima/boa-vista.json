@@ -1,0 +1,30 @@
+{
+  "estado": "roraima",
+  "cidade": "boa-vista",
+  "nome": "Boa Vista",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "BVB (Praça Santos Dumont)", "eixo": "urbano radiocêntrico", "destino": "Centro / Centro Cívico", "motivo": "Transfer pouso–pauta"},
+    {"origem": "Centro", "eixo": "avenidas em leque", "destino": "Caimbé", "motivo": "Pernoite ou clínica"},
+    {"origem": "Boa Vista", "eixo": "BR-174 norte", "destino": "Pacaraima", "motivo": "Viagem intermunicipal sob consulta — sem tempo publicado"}
+  ],
+  "eixos": ["Centro / Centro Cívico", "Caimbé", "BVB", "BR-174 (somente intermunicipal)"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Boa Vista – Atlas Brasil Cantanhede", "iata": "BVB", "municipio": "Boa Vista", "relacao": "Praça Santos Dumont 100, bairro Aeroporto. Vinci.", "fonte": "Lei 11.920/2009; boavista-airport.com.br; IBGE 1400100", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-174 (Boa Vista–Pacaraima)", "fonte": "trecho norte só como viagem — sem tempos", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Centro Cívico", "Caimbé", "Palácio do Governo"],
+  "vizinhos_pedido": ["Pacaraima", "Caracaraí"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Nome oficial Atlas Brasil Cantanhede, IATA BVB, município Boa Vista", "fonte": "Lei 11.920/2009", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O BVB fica em Boa Vista, no bairro Aeroporto.", "publicado": true},
+    {"fato": "Caimbé é bairro com logradouros próprios (CEP 69312)", "fonte": "faixa CEP Caimbé", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "O Caimbé pede rua e número; não é o saguão do BVB.", "publicado": true},
+    {"fato": "BR-174 liga Boa Vista a Pacaraima — não publicar tempos", "fonte": "traçado da BR-174", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "A BR-174 rumo à fronteira sai só como viagem intermunicipal.", "publicado": true}
+  ],
+  "descartado": ["Hotel Aipana", "Orla Taumanan/Mecejana como eixo principal", "Tempos até Pacaraima"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
+  "verificar": ["Grafia Caimbé no cadastro municipal", "Endereço do palácio se o pedido não trouxer número"]
+}

@@ -1,0 +1,72 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "betim",
+    "nome": "Betim",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Alterosas",
+            "eixo": "BR-381",
+            "destino": "Confins",
+            "motivo": "hotel e bairro"
+        }
+    ],
+    "eixos": [
+        "Alterosas",
+        "Centro",
+        "Petrovale",
+        "Citrolândia"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Confins",
+            "iata": "CNF",
+            "municipio": "Confins",
+            "acesso": "BR-381 / Anel"
+        }
+    ],
+    "rodovias": [
+        "BR-381",
+        "BR-262",
+        "Avenida Amazonas"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e bairro",
+        "sede",
+        "REGAP",
+        "industrial"
+    ],
+    "vizinhos_pedido": [
+        "Contagem",
+        "Belo Horizonte",
+        "Igarapé"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CNF em Confins",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

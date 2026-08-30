@@ -1,0 +1,78 @@
+{
+    "estado": "rio-grande-do-sul",
+    "cidade": "bento-goncalves",
+    "nome": "Bento Gonçalves",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "RS-122",
+            "destino": "Hugo Cantergiani",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Cidade Alta",
+        "Vale dos Vinhedos",
+        "Fenavinho"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Hugo Cantergiani",
+            "iata": "CXJ",
+            "municipio": "Caxias do Sul",
+            "acesso": "RS-122"
+        },
+        {
+            "nome": "Salgado Filho",
+            "iata": "POA",
+            "municipio": "Porto Alegre",
+            "acesso": "RS-470"
+        }
+    ],
+    "rodovias": [
+        "RS-122",
+        "RS-470",
+        "Avenida Osvaldo Aranha"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "vinícola e hotel",
+        "evento"
+    ],
+    "vizinhos_pedido": [
+        "Caxias do Sul",
+        "Garibaldi",
+        "Porto Alegre"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CXJ em Caxias do Sul",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "pouso-alegre",
+    "nome": "Pouso Alegre",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-459",
+            "destino": "Viracopos",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "São Geraldo",
+        "Fátima",
+        "Universitário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Viracopos",
+            "iata": "VCP",
+            "municipio": "Campinas",
+            "acesso": "BR-459"
+        },
+        {
+            "nome": "Congonhas",
+            "iata": "CGH",
+            "municipio": "São Paulo",
+            "acesso": "BR-459"
+        }
+    ],
+    "rodovias": [
+        "BR-459",
+        "MG-290",
+        "Avenida Vicente Simões"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "campus"
+    ],
+    "vizinhos_pedido": [
+        "Itajubá",
+        "Campinas",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VCP em Campinas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

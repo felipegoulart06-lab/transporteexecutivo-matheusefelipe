@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "bauru",
+    "nome": "Bauru",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Marechal Rondon",
+            "destino": "Bauru-Arealva",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Geisel",
+        "Vila Universitária",
+        "Mary Dota"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Bauru-Arealva",
+            "iata": "JTC",
+            "municipio": "Arealva",
+            "acesso": "SP-225"
+        }
+    ],
+    "rodovias": [
+        "Marechal Rondon",
+        "SP-225",
+        "Avenida Nações Unidas"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "campus",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Marília",
+        "São Paulo",
+        "Jaú"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal JTC em Arealva",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

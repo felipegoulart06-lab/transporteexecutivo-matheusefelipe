@@ -5,57 +5,94 @@ declare(strict_types=1);
 return [
     'layout' => 'protocolo',
     'cidade_nome' => 'Macaé',
-    'geo' => ['lat' => -22.3708, 'lng' => -41.7869],
+    'geo' => [
+        'lat' => -22.3708,
+        'lng' => -41.7869,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Macaé',
     'seo' => [
-        'title' => 'Traslado executivo em Macaé: Centro, Imbetiba e MEA',
-        'description' => 'Motorista executivo em Macaé para o Centro, Imbetiba, Cavaleiros, Aeroporto e o eixo do petróleo. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro de Macaé, em Imbetiba e no MEA',
-        'og_description' => 'Traslado na capital do petróleo: hotel, base e o terminal Benedito Lacerda.',
-        'og_image_alt' => 'Sedan executivo em avenida de Macaé',
+        'title' => 'Carro com motorista em Macaé: Cavaleiros e MEA',
+        'description' => 'Motorista executivo em Macaé: Imbetiba, Cavaleiros e Joaquim de Azevedo Mancebo (MEA), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Macaé: Imbetiba e MEA',
+        'og_description' => 'O motorista combina Imbetiba com Joaquim de Azevedo Mancebo (MEA), no próprio município. Informe nome na lista da base.',
+        'og_image_alt' => 'Carro executivo em via de Macaé',
     ],
     'kicker' => 'Norte fluminense · RJ',
-    'h1' => 'Do MEA a Imbetiba sem perder a janela da base',
-    'preambulo' => 'Macaé não é passeio de orla: é o município das bases e do aeroporto Benedito Lacerda (MEA). Hotel no Centro ou em Cavaleiros, briefing em Imbetiba e o voo para a bacia cabem no mesmo expediente se o motorista já conhece o protocolo de cada portaria.',
+    'h1' => 'Em Macaé: do embarque em Imbetiba ao MEA',
+    'faq_h2' => 'Dúvidas de quem embarca em Macaé',
+    'faq' => [
+        [
+            'pergunta' => 'Em Macaé, o MEA fica no próprio município?',
+            'resposta' => 'Sim. Em Macaé, Joaquim de Azevedo Mancebo (MEA) fica no município. Informe o acesso via Hildebrando Alves Barbosa.',
+        ],
+        [
+            'pergunta' => 'Em Macaé, vocês buscam em Imbetiba?',
+            'resposta' => 'Sim, em Macaé. Envie nome na lista da base em Imbetiba. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Macaé vocês fazem Campos dos Goytacazes?',
+            'resposta' => 'Sim, saindo de Macaé. Campos dos Goytacazes não é o recorte de Imbetiba; o horário pela RJ-168 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Macaé o carro fica entre Imbetiba e Cavaleiros?',
+            'resposta' => 'Sim, em Macaé. A hora à disposição cobre base e portaria em Imbetiba e hotel na orla em Cavaleiros.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Macaé e o MEA',
+        'texto' => 'Diga o ponto em Imbetiba ou Cavaleiros, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Macaé',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-de-janeiro',
+            'ancora' => 'Macaé e o recorte de Norte fluminense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'cabo-frio',
+            'ancora' => 'Motorista em cabo frio',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'rio-de-janeiro',
+            'ancora' => 'Motorista em rio de janeiro',
+        ],
+    ],
+    'preambulo' => 'Macaé concentra Imbetiba (base e portaria) e Joaquim de Azevedo Mancebo (MEA) no mesmo município. O motorista precisa do ponto de embarque e do MEA no mesmo recado — “me busca em Macaé” não define o recuo.',
     'artigos' => [
         [
-            'h2' => 'A cidade do petróleo pede a base, não “na praia”',
-            'texto' => 'Centro, Imbetiba, Cavaleiros e o Parque de Tubos não compartilham o mesmo recuo. Hotel (Ibis, similares) e pauta na operadora pedem o nome da base. “Me busca em Macaé” não coloca o carro na cancela certa.',
+            'h2' => 'Imbetiba pede protocolo, não pin',
+            'texto' => 'Origem frequente para base e portaria. Informe nome na lista da base. Imbetiba não compartilha o recuo de Cavaleiros.',
         ],
         [
-            'h2' => 'Imbetiba, Cavaleiros e o silêncio da espera',
-            'texto' => 'Orla executiva e o eixo residencial. O recuo pede rua e número. Quando a comitiva dorme em Cavaleiros e reúne na base às cinco da manhã, a margem sai do hotel, não do aceite do minuto.',
+            'h2' => 'Cavaleiros e Centro',
+            'texto' => 'Cavaleiros pede hotel na orla. Centro pede sede. Quando Campos dos Goytacazes entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela RJ-168.',
         ],
         [
-            'h2' => 'Benedito Lacerda — MEA',
-            'texto' => 'O aeroporto fica no recorte da cidade e concentra o voo para a bacia. Combinamos o voo e o ponto de encontro. A espera no desembarque integra o trecho MEA. Até Imbetiba o intervalo é urbano; até Campos ou Cabo Frio, a RJ-106 pesa mais que o mapa.',
+            'h2' => 'Joaquim de Azevedo Mancebo (MEA)',
+            'texto' => 'Joaquim de Azevedo Mancebo (MEA) fica em Macaé. Acesso: Hildebrando Alves Barbosa. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
     ],
     'pauta' => [
-        'h2' => 'Itens que entram na ordem do dia em Macaé',
+        'h2' => 'Itens da ordem do dia em Macaé',
         'itens' => [
-            ['h3' => 'Base e portaria', 'texto' => 'Nome na lista e documento. Sem isso, o recuo da operadora não libera.'],
-            ['h3' => 'Hotel no Centro ou em Cavaleiros', 'texto' => 'O nome do hotel evita a volta na do Norte. “Perto da praia” não basta.'],
-            ['h3' => 'Imbetiba e o Parque de Tubos', 'texto' => 'Pauta logística. Informe o galpão; os acessos se repetem no nome.'],
-            ['h3' => 'Quando a pauta aponta para Campos ou Cabo Frio', 'texto' => 'Não é o mesmo pedido urbano. O orçamento sai à parte, com horário de RJ-106.'],
+            [
+                'h3' => 'Imbetiba',
+                'texto' => 'Origem frequente para base e portaria. Informe nome na lista da base. Imbetiba não compartilha o recuo de Cavaleiros.',
+            ],
+            [
+                'h3' => 'Cavaleiros',
+                'texto' => 'Origem frequente para hotel na orla. Informe nome na lista da base. Cavaleiros não compartilha o recuo de Imbetiba.',
+            ],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome na lista da base. Centro não compartilha o recuo de Imbetiba.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pauta a base e o MEA',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Macaé fica longe de Imbetiba?', 'resposta' => 'É trecho urbano. Marcamos margem: o horário de turno da base altera o intervalo mais que o mapa.'],
-        ['pergunta' => 'O motorista espera no MEA se o voo da bacia atrasar?', 'resposta' => 'Sim. Em Macaé, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na base com protocolo de portaria?', 'resposta' => 'Sim. Em Macaé, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Dá para seguir a Cabo Frio depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte de Imbetiba; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Envie a base junto com o horário do MEA',
-        'texto' => 'O orçamento de Macaé sai sob consulta. Imbetiba, hotel e terminal no mesmo recado.',
-        'botao' => 'Solicitar carro em Macaé',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-de-janeiro', 'ancora' => 'O recorte fluminense além da capital'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'cabo-frio', 'ancora' => 'Passagem, Centro e o aeroporto CFB'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Santos Dumont, Galeão e a Zona Sul'],
     ],
 ];

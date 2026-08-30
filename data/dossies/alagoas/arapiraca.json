@@ -1,0 +1,78 @@
+{
+    "estado": "alagoas",
+    "cidade": "arapiraca",
+    "nome": "Arapiraca",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "AL-220",
+            "destino": "Arapiraca",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Brasília",
+        "Cacimbas",
+        "Santa Edwiges"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Arapiraca",
+            "iata": "APQ",
+            "municipio": "Arapiraca",
+            "acesso": "AL-220"
+        },
+        {
+            "nome": "Zumbi dos Palmares",
+            "iata": "MCZ",
+            "municipio": "Rio Largo",
+            "acesso": "AL-110"
+        }
+    ],
+    "rodovias": [
+        "AL-220",
+        "AL-110",
+        "Avenida Rio Branco"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "eixo"
+    ],
+    "vizinhos_pedido": [
+        "Maceió",
+        "Palmeira dos Índios",
+        "Aracaju"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal APQ em Arapiraca",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

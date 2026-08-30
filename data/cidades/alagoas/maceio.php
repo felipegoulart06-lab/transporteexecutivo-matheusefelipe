@@ -5,59 +5,91 @@ declare(strict_types=1);
 return [
     'layout' => 'dunas',
     'cidade_nome' => 'Maceió',
-    'geo' => ['lat' => -9.66599, 'lng' => -35.735],
+    'geo' => [
+        'lat' => -9.66599,
+        'lng' => -35.735,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Maceió',
     'seo' => [
-        'title' => 'Traslado executivo em Maceió: Pajuçara, Ponta Verde e MCZ',
-        'description' => 'Motorista executivo em Maceió para Pajuçara, Ponta Verde, Jatiúca, Centro e o aeroporto Zumbi dos Palmares. Hotéis da orla, rotas e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista entre a orla de Maceió e o aeroporto MCZ',
-        'og_description' => 'Traslado na capital alagoana: hotel em Ponta Verde, pauta no Centro e o terminal Zumbi dos Palmares.',
-        'og_image_alt' => 'Carro executivo em avenida da orla de Maceió',
+        'title' => 'Motorista executivo em Maceió: Pajuçara e MCZ',
+        'description' => 'Motorista executivo em Maceió: Pajuçara, Ponta Verde e Zumbi dos Palmares (MCZ), em Rio Largo. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Maceió: Pajuçara e MCZ',
+        'og_description' => 'O motorista combina Pajuçara com Zumbi dos Palmares (MCZ), em Rio Largo. Informe nome do hotel na orla.',
+        'og_image_alt' => 'Carro executivo em via de Maceió',
     ],
     'kicker' => 'Capital alagoana · AL',
-    'h1' => 'Ponta Verde de manhã, Centro ao meio-dia, MCZ no fim da tarde',
+    'h1' => 'Em Maceió: do embarque em Pajuçara ao MCZ',
+    'faq_h2' => 'Dúvidas de quem embarca em Maceió',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Maceió embarca no MCZ dentro da cidade?',
+            'resposta' => 'Não. De Maceió o MCZ (Zumbi dos Palmares) fica em Rio Largo. O trecho sai de Pajuçara pela AL-101.',
+        ],
+        [
+            'pergunta' => 'Em Maceió, vocês buscam em Pajuçara?',
+            'resposta' => 'Sim, em Maceió. Envie nome do hotel na orla em Pajuçara. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Maceió vocês fazem Rio Largo?',
+            'resposta' => 'Sim, saindo de Maceió. Rio Largo não é o recorte de Pajuçara; o horário pela Avenida Fernandes Lima sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Maceió o carro fica entre Pajuçara e Ponta Verde?',
+            'resposta' => 'Sim, em Maceió. A hora à disposição cobre hotel na orla em Pajuçara e orla executiva em Ponta Verde.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Maceió e o MCZ',
+        'texto' => 'Diga o ponto em Pajuçara ou Ponta Verde, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Maceió',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'alagoas',
+            'ancora' => 'Maceió e o recorte de Capital alagoana',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'recife',
+            'ancora' => 'Motorista em recife',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sergipe',
+            'cidade' => 'aracaju',
+            'ancora' => 'Motorista em aracaju',
+        ],
+    ],
     'trilha' => [
-        'h2' => 'Maceió se lê em orla e em ladeira — não no atalho do app',
-        'texto' => 'A capital alagoana alinha hotel em Pajuçara, Ponta Verde e Jatiúca, pauta no Centro e voo no Zumbi dos Palmares (MCZ), em Rio Largo. A Av. da Paz e a Fernandes Lima mudam o relógio. O motorista sai com essa malha; o passageiro não discute faixa com o GPS na hora do check-out.',
+        'h2' => 'Maceió se lê em AL-101, não em atalho de app',
+        'texto' => 'Maceió usa Zumbi dos Palmares (MCZ), em Rio Largo. Quem embarca em Pajuçara não está no município da pista. A AL-101 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     ],
     'chips' => [
-        'h2' => 'Onde o embarque maceioense mais se repete',
-        'itens' => ['Pajuçara', 'Ponta Verde', 'Jatiúca', 'Cruz das Almas', 'Centro', 'Jaraguá', 'Aeroporto Zumbi dos Palmares'],
+        'h2' => 'Onde o embarque em Maceió mais se repete',
+        'itens' => [
+            'Pajuçara',
+            'Ponta Verde',
+            'Jaraguá',
+            'Jatiúca',
+            'Zumbi dos Palmares',
+            'AL-101',
+        ],
     ],
     'historias' => [
         [
-            'h2' => 'A orla como hotel, não como passeio de sol',
-            'texto' => 'Pajuçara, Ponta Verde e Jatiúca concentram pernoite executivo: Jatiúca Hotel, Ibis, Holiday Inn e similares entram no roteiro pelo nome e pelo recuo, não por “na beira-mar”. O carro espera no acesso de serviço quando a Av. Álvaro Otacílio está tomada.',
+            'h2' => 'Pajuçara como origem, não como cartão-postal',
+            'texto' => 'Origem frequente para hotel na orla. Informe nome do hotel na orla. Pajuçara não compartilha o recuo de Ponta Verde.',
         ],
         [
-            'h2' => 'Centro, Jaraguá e a pauta institucional',
-            'texto' => 'Palácio, fórum e o bairro histórico de Jaraguá. O desnível entre a orla e o Centro pede margem. Informe o prédio; o calçamento do Jaraguá não admite recuo improvisado no horário de visita ao Mercado.',
-        ],
-        [
-            'h2' => 'Rotas que misturam trabalho e visita',
-            'texto' => 'Hotel na Ponta Verde → reunião no Centro → almoço em Cruz das Almas → retorno ao MCZ. Outro clássico: Pajuçara → Mirante da Sereia só como intervalo combinado, sem transformar o expediente em city tour. Quando a pauta inclui Marechal Deodoro ou a lagoa, o trecho sai como viagem, sob consulta.',
+            'h2' => 'Ponta Verde no meio do expediente',
+            'texto' => 'Ponta Verde pede orla executiva. Jaraguá pede centro histórico. Quando Rio Largo entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Avenida Fernandes Lima.',
         ],
         [
             'h2' => 'Zumbi dos Palmares — MCZ',
-            'texto' => 'O terminal fica em Rio Largo, não na Ponta Verde. Combinamos o voo. A espera no desembarque integra o trecho MCZ; a BR-104 e a entrada da capital mudam o intervalo mais que o mapa admite.',
+            'texto' => 'Zumbi dos Palmares (MCZ) fica em Rio Largo, não em Maceió. O trecho sai pela AL-101. Diga o IATA e o número do voo.',
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Zumbi dos Palmares',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Maceió fica na orla?', 'resposta' => 'Não. O MCZ fica em Rio Largo. O trecho até Pajuçara ou Ponta Verde entra no roteiro com margem.'],
-        ['pergunta' => 'O motorista espera no MCZ se o voo atrasar?', 'resposta' => 'Sim. Em Maceió, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês buscam no hotel da Ponta Verde e levam ao Centro?', 'resposta' => 'Sim. Informe o nome do hotel e o prédio no Centro. A Av. da Paz e a Fernandes Lima pesam no horário.'],
-        ['pergunta' => 'Dá para incluir a lagoa ou Marechal Deodoro no mesmo dia?', 'resposta' => 'Sim, quando o destino entra no roteiro. Não é o mesmo recorte da orla; o intervalo sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Una a Ponta Verde ao horário do Zumbi dos Palmares',
-        'texto' => 'O orçamento de Maceió sai sob consulta. Orla, Centro e MCZ no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em Maceió',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'alagoas', 'ancora' => 'Arapiraca, Penedo e o recorte alagoano'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'recife', 'ancora' => 'Boa Viagem, pontes e o Guararapes'],
-        ['tipo' => 'cidade', 'estado' => 'sergipe', 'cidade' => 'aracaju', 'ancora' => 'Atalaia, Centro e o Santa Maria'],
     ],
 ];

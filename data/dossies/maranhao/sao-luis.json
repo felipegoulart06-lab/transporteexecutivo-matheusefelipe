@@ -1,0 +1,72 @@
+{
+    "estado": "maranhao",
+    "cidade": "sao-luis",
+    "nome": "São Luís",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Renascença",
+            "eixo": "Avenida Litorânea",
+            "destino": "Marechal Cunha Machado",
+            "motivo": "hotel e torre"
+        }
+    ],
+    "eixos": [
+        "Renascença",
+        "Calhau",
+        "Centro Histórico",
+        "Ponta d'Areia"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Marechal Cunha Machado",
+            "iata": "SLZ",
+            "municipio": "São Luís",
+            "acesso": "MA-201"
+        }
+    ],
+    "rodovias": [
+        "Avenida Litorânea",
+        "MA-203",
+        "ponte do São Francisco"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e torre",
+        "orla",
+        "pauta no centro",
+        "hotel na ponta"
+    ],
+    "vizinhos_pedido": [
+        "São José de Ribamar",
+        "Raposa",
+        "Teresina"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SLZ em São Luís",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

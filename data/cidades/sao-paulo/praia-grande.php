@@ -5,62 +5,105 @@ declare(strict_types=1);
 return [
     'layout' => 'orla',
     'cidade_nome' => 'Praia Grande',
-    'geo' => ['lat' => -24.0059, 'lng' => -46.4028],
+    'geo' => [
+        'lat' => -24.0059,
+        'lng' => -46.4028,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Praia Grande',
     'seo' => [
-        'title' => 'Litoral: motorista em Praia Grande, Boqueirão e serra',
-        'description' => 'Motorista em Praia Grande para Boqueirão, Canto do Forte, Guilhermina e Vila Tupi. Serra pela Imigrantes até Congonhas, sem tratar como Santos. Valor sob consulta.',
-        'og_title' => 'Boqueirão, Canto do Forte e a serra no horário certo',
-        'og_description' => 'Traslado em Praia Grande: orla própria, recuo até a Imigrantes e o salto a CGH — sem o pin de Santos.',
-        'og_image_alt' => 'Sedan executivo na Avenida Presidente Kennedy, em Praia Grande',
+        'title' => 'Motorista executivo em Praia Grande: Boqueirão e CGH',
+        'description' => 'Carro com motorista em Praia Grande para Boqueirão, Canto do Forte e CGH. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Praia Grande: Boqueirão e CGH',
+        'og_description' => 'O motorista combina Boqueirão com Congonhas (CGH), em São Paulo. Informe nome do hotel na orla.',
+        'og_image_alt' => 'Carro executivo em via de Praia Grande',
     ],
-    'kicker' => 'Litoral sul paulista · SP',
-    'h1' => 'Boqueirão, Canto do Forte e a serra no horário certo',
-    'epigrafe' => 'Boqueirão e Canto do Forte não são Santos. A serra pela Imigrantes até Congonhas só fecha se o horário da subida já estiver no roteiro. Guilhermina e Vila Tupi pedem o trecho de orla certo; o pin da baixada entrega o carro no Gonzaga.',
+    'kicker' => 'Baixada Santista · SP',
+    'h1' => 'Em Praia Grande, de Boqueirão a Congonhas (CGH), em São Paulo',
+    'faq_h2' => 'Dúvidas de quem embarca em Praia Grande',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Praia Grande embarca no CGH dentro da cidade?',
+            'resposta' => 'Não. De Praia Grande o CGH (Congonhas) fica em São Paulo. O trecho sai de Boqueirão pela Imigrantes.',
+        ],
+        [
+            'pergunta' => 'Em Praia Grande, vocês buscam em Boqueirão?',
+            'resposta' => 'Sim, em Praia Grande. Envie nome do hotel na orla em Boqueirão. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Praia Grande vocês fazem Santos?',
+            'resposta' => 'Sim, saindo de Praia Grande. Santos não é o recorte de Boqueirão; o horário pela SP-055 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Praia Grande, CGH e GRU são o mesmo recorte?',
+            'resposta' => 'Não, em Praia Grande. CGH fica em São Paulo; GRU fica em Guarulhos. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Praia Grande e o CGH',
+        'texto' => 'Diga o ponto em Boqueirão ou Canto do Forte, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Praia Grande',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Praia Grande e o recorte de Baixada Santista',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'santos',
+            'ancora' => 'Motorista em santos',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'guaruja',
+            'ancora' => 'Motorista em guaruja',
+        ],
+    ],
+    'epigrafe' => 'Boqueirão não é o mesmo recuo de Canto do Forte. O motorista segura o acesso; o passageiro segura o horário.',
     'abertura' => [
-        'h2' => 'A orla de Praia Grande não empresta o recuo do porto',
+        'h2' => 'Praia Grande: origem na orla, destino no terminal certo',
         'texto' => [
-            'Boqueirão, Canto do Forte, Guilhermina e Vila Tupi concentram o pernoite e a pauta de litoral sem serem bairro de Santos. Hotel na Kennedy ou no Canto do Forte entra só como embarque. Quem sobe à capital sobe a Imigrantes (SP-160) depois do canal; o trecho não é o calçadão nem o porto santista.',
-            'O serviço é de traslado e de espera combinada. Feriado e verão esticam a serra. Não é corrida de orla no fim de semana, a menos que a visita à praia já esteja no itinerário. Tratar Praia Grande como “Santos lado B” é o erro que perde a janela do CGH.',
+            'Praia Grande usa Congonhas (CGH), em São Paulo. Quem embarca em Boqueirão não está no município da pista. A Imigrantes é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Canto do Forte pede orla. Aviação pede bairro. Quando Santos entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela SP-055.',
         ],
     ],
     'faixas' => [
-        ['h2' => 'Boqueirão e a Kennedy no relógio da maré de gente', 'texto' => 'A avenida enche no feriado. Informe o hotel pelo nome e o recuo; “na praia” não distingue Boqueirão do Canto do Forte nem o acesso da Kennedy.'],
-        ['h2' => 'Canto do Forte, Guilhermina e Vila Tupi', 'texto' => 'Três recortes de orla. Guilhermina e Tupi não compartilham o mesmo retorno. A litorânea muda o intervalo no pico; a margem sai do hotel, não do mapa.'],
-        ['h2' => 'A serra só fecha se o horário da Imigrantes já estiver escrito', 'texto' => 'Subida rumo a Congonhas pede margem de SP-160, não o aceite do minuto na orla. Santos e Guarujá entram como trechos nomeados quando a pauta cruza o canal — não como o mesmo município.'],
+        [
+            'h2' => 'Boqueirão: o relógio do embarque',
+            'texto' => 'Boqueirão concentra hotel na orla. Informe nome do hotel na orla.',
+        ],
+        [
+            'h2' => 'Canto do Forte e Aviação',
+            'texto' => 'Canto do Forte pede orla. Aviação pede bairro. A ordem muda o intervalo mais que o mapa.',
+        ],
+        [
+            'h2' => 'Congonhas (CGH), em São Paulo',
+            'texto' => 'Congonhas (CGH) fica em São Paulo, não em Praia Grande. O trecho sai pela Imigrantes. Diga o IATA e o número do voo.',
+        ],
     ],
     'aeroportos' => [
-        'h2' => 'CGH pela Imigrantes — GRU como salto extra da pauta longa',
+        'h2' => 'Terminal e vazão a partir de Praia Grande',
         'itens' => [
-            ['h3' => 'Congonhas — CGH', 'texto' => 'O trecho Praia Grande–capital entra como viagem. Combinamos o terminal e a margem da Imigrantes; não é corrida urbana do Boqueirão nem o recuo do porto de Santos.'],
-            ['h3' => 'Guarulhos — GRU', 'texto' => 'Serra, Rodoanel e Cumbica. Informe o voo; o intervalo não se herda do calçadão. Só entra se já estiver no roteiro.'],
+            [
+                'h3' => 'Congonhas — CGH',
+                'texto' => 'Congonhas (CGH) fica em São Paulo, não em Praia Grande. O trecho sai pela Imigrantes. Diga o IATA e o número do voo.',
+            ],
+            [
+                'h3' => 'Guarulhos — GRU',
+                'texto' => 'Guarulhos (GRU) fica em Guarulhos, não em Praia Grande. O trecho sai pela Anchieta. Diga o IATA e o número do voo.',
+            ],
         ],
     ],
     'protocolo' => [
         'h2' => 'O que pedimos para acertar o embarque em Praia Grande',
         'lista' => [
-            'Trecho de orla com nome — Boqueirão, Canto do Forte, Guilhermina ou Vila Tupi. Hotel pelo estabelecimento, só como embarque.',
-            'Se o voo é em Congonhas, número e horário. A margem sai da Imigrantes, não da Kennedy.',
-            'Santos ou Guarujá só entram se já estiverem no roteiro; não é desvio na fila do canal.',
+            'Hotel, prédio ou empresa com nome — “em Boqueirão” não basta.',
+            'Qual terminal: CGH em São Paulo ou GRU em Guarulhos.',
+            'Se Santos entra depois, a ordem muda o recorte.',
         ],
-    ],
-    'faq_h2' => 'Boqueirão, serra e o que não é Santos',
-    'faq' => [
-        ['pergunta' => 'Praia Grande se trata como bairro de Santos?', 'resposta' => 'Não. É município próprio. Boqueirão e Canto do Forte não compartilham recuo com o Gonzaga; o pin da baixada é o erro que atrasa a serra.'],
-        ['pergunta' => 'Boqueirão e Canto do Forte têm recuos distintos?', 'resposta' => 'Têm. Informe o hotel ou a quadra. A Kennedy não resolve os dois no mesmo pin.'],
-        ['pergunta' => 'A subida pela Imigrantes até Congonhas pede qual margem?', 'resposta' => 'Margem de serra, a partir do horário de saída na orla. Feriado e pico esticam a SP-160; não é o intervalo Guilhermina–Tupi.'],
-        ['pergunta' => 'Guilhermina e Vila Tupi entram no mesmo itinerário de orla?', 'resposta' => 'Entram, se a ordem já estiver no recado. São recortes distintos; um motorista articula os dois quando o roteiro os nomeia.'],
-        ['pergunta' => 'O feriado na serra altera o horário combinado?', 'resposta' => 'Altera a margem, não o combinado se o horário de subida já estiver escrito. Avise o feriado no pedido; improvisar a Imigrantes no minuto perde o CGH.'],
-    ],
-    'cta' => [
-        'titulo' => 'Boqueirão sobe a serra no horário combinado',
-        'texto' => 'Canto do Forte, Guilhermina e a Imigrantes. Serra e orla no mesmo pedido.',
-        'botao' => 'Pedir carro em Praia Grande',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'santos', 'ancora' => 'Gonzaga, porto e a orla santista'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'guaruja', 'ancora' => 'Pitangueiras, Enseada e a serra'],
     ],
 ];

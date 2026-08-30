@@ -1,0 +1,72 @@
+{
+    "estado": "ceara",
+    "cidade": "juazeiro-do-norte",
+    "nome": "Juazeiro do Norte",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "CE-060",
+            "destino": "Orlando Bezerra",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Lagoa Seca",
+        "Romeirão",
+        "Franciscanos"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Orlando Bezerra",
+            "iata": "JDO",
+            "municipio": "Juazeiro do Norte",
+            "acesso": "CE-060"
+        }
+    ],
+    "rodovias": [
+        "CE-060",
+        "BR-122",
+        "Avenida Ailton Gomes"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "pauta religiosa"
+    ],
+    "vizinhos_pedido": [
+        "Crato",
+        "Barbalha",
+        "Fortaleza"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal JDO em Juazeiro do Norte",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

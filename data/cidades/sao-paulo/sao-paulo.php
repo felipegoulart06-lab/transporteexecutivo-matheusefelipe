@@ -5,73 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'São Paulo',
-    'geo' => ['lat' => -23.5505, 'lng' => -46.6333],
+    'geo' => [
+        'lat' => -23.5505,
+        'lng' => -46.6333,
+    ],
     'imagem' => 'sudeste.jpg',
-    'schema_service_name' => 'Transporte executivo com motorista na cidade de São Paulo',
+    'schema_service_name' => 'Transporte executivo com motorista em São Paulo',
     'seo' => [
-        'title' => 'Motorista executivo em São Paulo: Faria Lima e aeroportos',
-        'description' => 'Carro preto com motorista na capital paulista: Faria Lima, Berrini, Congonhas e GRU. Ida, espera ou dia à disposição — orçamento sob consulta.',
-        'og_title' => 'Agenda corporativa com motorista executivo em São Paulo',
-        'og_description' => 'Traslado entre torres, hotéis e terminais da capital, com horário combinado e embarque discreto.',
-        'og_image_alt' => 'Sedan executivo preto em via urbana noturna da cidade de São Paulo',
+        'title' => 'Motorista executivo em São Paulo: Faria Lima e CGH',
+        'description' => 'Carro com motorista em São Paulo para Faria Lima e Itaim, Berrini e Vila Olímpia e CGH. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em São Paulo: Faria Lima e Itaim e CGH',
+        'og_description' => 'O motorista combina Faria Lima e Itaim com Congonhas (CGH), no próprio município. Informe nome do prédio e da garagem.',
+        'og_image_alt' => 'Carro executivo em via de São Paulo',
     ],
     'kicker' => 'Capital paulista · SP',
-    'h1' => 'A janela entre a torre, o hotel e o terminal na cidade de São Paulo',
-    'lead' => 'Na capital, o relógio não perdoa a Marginal nem a fila do saguão. O motorista executivo entra na agenda para o passageiro desembarcar em reunião — não em procura de vaga.',
-    'contexto' => [
-        'h2' => 'São Paulo cobra pontualidade de quem vive de intervalo',
-        'texto' => [
-            'A cidade concentra o maior volume de reuniões presenciais do país em um raio curto e um trânsito longo. Faria Lima, Berrini, Paulista e o Itaim cabem no mesmo expediente — se o carro já conhece o acesso de garagem e o protocolo do condomínio.',
-            'Não vendemos “São Paulo inteiro” como slogan. O recorte é a rotina corporativa da capital: embarque em hotel-apartamento, espera na porta do prédio e chegada no terminal certo de Congonhas ou de Guarulhos.',
-        ],
-    ],
-    'bairros' => [
-        'h2' => 'Eixos da capital onde o embarque mais se repete',
-        'itens' => [
-            ['h3' => 'Faria Lima e Itaim', 'texto' => 'Janelas curtas entre bancos, fundos e almoço. O carro espera em garagem ou no recuo, sem buzina na porta.'],
-            ['h3' => 'Berrini e Vila Olímpia', 'texto' => 'Torres com catraca e horários de board. O motorista chega antes do intervalo, não depois do aceite no aplicativo.'],
-            ['h3' => 'Paulista e Jardins', 'texto' => 'Hotel, consultório e escritório no mesmo eixo. Útil quando a comitiva troca de endereço sem trocar de carro.'],
-            ['h3' => 'Pinheiros e Vila Madalena', 'texto' => 'Agendas que misturam estúdio, jantar e retorno ao hotel. O trecho é curto no mapa e instável no relógio.'],
-        ],
-    ],
-    'aeroportos' => [
-        'h2' => 'Terminais que a capital usa no meio do expediente',
-        'itens' => [
-            ['h3' => 'Congonhas — CGH', 'texto' => 'Ponte aérea no miolo da cidade. Combinamos o acesso da Washington Luís e o saguão; a margem é menor que em GRU.'],
-            ['h3' => 'Guarulhos — GRU', 'texto' => 'Porta internacional. Número do voo, terminal e ponto de encontro entram no roteiro antes do pouso.'],
-        ],
-    ],
-    'rotas' => [
-        'h2' => 'Trajetos que a agenda paulistana mais pede',
-        'itens' => [
-            ['titulo' => 'Hotel nos Jardins → Faria Lima', 'texto' => 'Deslocamento urbano com espera. Informe o nome do prédio e se há vaga de visitante.'],
-            ['titulo' => 'Congonhas → Berrini no almoço', 'texto' => 'Trecho curto e relógio longo. O embarque é marcado, não instantâneo.'],
-            ['titulo' => 'GRU → hotel na Paulista', 'texto' => 'Dutra, Marginal e desembarque com bagagem de comitiva. O motorista acompanha o painel do voo.'],
-        ],
-    ],
-    'como' => [
-        'h2' => 'Como o carro entra na sua grade em São Paulo',
-        'passos' => [
-            ['titulo' => 'Endereço exato', 'texto' => 'Rua, número e complemento. Autocomplete não resolve torre com dois acessos.'],
-            ['titulo' => 'Tipo de janela', 'texto' => 'Ida, ida e volta ou hora à disposição. Isso define espera e veículo.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em São Paulo, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem reúne ou voa na capital',
+    'h1' => 'Em São Paulo: do embarque em Faria Lima e Itaim ao CGH',
+    'faq_h2' => 'Dúvidas de quem embarca em São Paulo',
     'faq' => [
-        ['pergunta' => 'O motorista espera no desembarque de GRU se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho, sem nova chamada.'],
-        ['pergunta' => 'Dá para sair de Congonhas e chegar à Faria Lima no horário de almoço?', 'resposta' => 'Dá, com margem. O mapa engana: o trecho é curto e o relógio, não. Por isso o horário é combinado.'],
-        ['pergunta' => 'Consigo um carro o dia todo entre Paulista e Vila Olímpia?', 'resposta' => 'Sim. A modalidade por hora mantém o mesmo motorista entre reuniões, almoço e o aeroporto no fim do dia.'],
-        ['pergunta' => 'Vocês entram em condomínio com protocolo de visitante?', 'resposta' => 'Sim. Envie o nome do passageiro e o documento pedido pela portaria com antecedência.'],
+        [
+            'pergunta' => 'Em São Paulo, o CGH fica no próprio município?',
+            'resposta' => 'Sim. Em São Paulo, Congonhas (CGH) fica no município. Informe o acesso via Washington Luís.',
+        ],
+        [
+            'pergunta' => 'Em São Paulo, vocês buscam em Faria Lima e Itaim?',
+            'resposta' => 'Sim, em São Paulo. Envie nome do prédio e da garagem em Faria Lima e Itaim. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De São Paulo vocês fazem Guarulhos?',
+            'resposta' => 'Sim, saindo de São Paulo. Guarulhos não é o recorte de Faria Lima e Itaim; o horário pela Marginal Tietê sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em São Paulo, CGH e GRU são o mesmo recorte?',
+            'resposta' => 'Não, em São Paulo. CGH fica em São Paulo; GRU fica em Guarulhos. Diga o IATA no pedido.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Reserve o carro antes do pico da Marginal',
-        'texto' => 'Informe o embarque na capital e o tipo de trajeto. A confirmação volta pelo WhatsApp.',
+        'titulo' => 'Informe o embarque em São Paulo e o CGH',
+        'texto' => 'Diga o ponto em Faria Lima e Itaim ou Berrini e Vila Olímpia, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em São Paulo',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Santos Dumont, Galeão e a Zona Sul'],
-        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'belo-horizonte', 'ancora' => 'Savassi, Lourdes e o trecho até Confins'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'São Paulo e o recorte de Capital paulista',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'rio-de-janeiro',
+            'ancora' => 'Motorista em rio de janeiro',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'minas-gerais',
+            'cidade' => 'belo-horizonte',
+            'ancora' => 'Motorista em belo horizonte',
+        ],
+    ],
+    'lead' => 'São Paulo concentra Faria Lima e Itaim (torres e fundos) e Congonhas (CGH) no mesmo município. O motorista precisa do ponto de embarque e do CGH no mesmo recado — “me busca em São Paulo” não define o recuo.',
+    'contexto' => [
+        'h2' => 'São Paulo se mede em Marginal Pinheiros, não em pin de aplicativo',
+        'texto' => [
+            'São Paulo concentra Faria Lima e Itaim (torres e fundos) e Congonhas (CGH) no mesmo município. O motorista precisa do ponto de embarque e do CGH no mesmo recado — “me busca em São Paulo” não define o recuo.',
+            'Berrini e Vila Olímpia pede board e catraca. Paulista e Jardins pede hotel e consultório. Quando Guarulhos entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Marginal Tietê.',
+        ],
+    ],
+    'bairros' => [
+        'h2' => 'Eixos de embarque em São Paulo',
+        'itens' => [
+            [
+                'h3' => 'Faria Lima e Itaim',
+                'texto' => 'Origem frequente para torres e fundos. Informe nome do prédio e da garagem. Faria Lima e Itaim não compartilha o recuo de Berrini e Vila Olímpia.',
+            ],
+            [
+                'h3' => 'Berrini e Vila Olímpia',
+                'texto' => 'Origem frequente para board e catraca. Informe nome do prédio e da garagem. Berrini e Vila Olímpia não compartilha o recuo de Faria Lima e Itaim.',
+            ],
+            [
+                'h3' => 'Paulista e Jardins',
+                'texto' => 'Origem frequente para hotel e consultório. Informe nome do prédio e da garagem. Paulista e Jardins não compartilha o recuo de Faria Lima e Itaim.',
+            ],
+            [
+                'h3' => 'Pinheiros',
+                'texto' => 'Origem frequente para estúdio e retorno. Informe nome do prédio e da garagem. Pinheiros não compartilha o recuo de Faria Lima e Itaim.',
+            ],
+        ],
+    ],
+    'aeroportos' => [
+        'h2' => 'O terminal que a agenda de São Paulo realmente usa',
+        'itens' => [
+            [
+                'h3' => 'Congonhas — CGH',
+                'texto' => 'Congonhas (CGH) fica em São Paulo. Acesso: Washington Luís. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'Guarulhos — GRU',
+                'texto' => 'Guarulhos (GRU) fica em Guarulhos, não em São Paulo. O trecho sai pela Dutra. Diga o IATA e o número do voo.',
+            ],
+        ],
+    ],
+    'rotas' => [
+        'h2' => 'Trajetos que o pedido em São Paulo mais combina',
+        'itens' => [
+            [
+                'titulo' => 'Faria Lima e Itaim → CGH',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: Washington Luís.',
+            ],
+            [
+                'titulo' => 'CGH → Berrini e Vila Olímpia',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do prédio e da garagem.',
+            ],
+            [
+                'titulo' => 'Faria Lima e Itaim → Guarulhos',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Berrini e Vila Olímpia; o horário sai sob consulta.',
+            ],
+        ],
+    ],
+    'como' => [
+        'h2' => 'Como o carro entra na pauta em São Paulo',
+        'passos' => [
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do prédio e da garagem. Autocomplete não resolve dois acessos em Faria Lima e Itaim.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o CGH ou Guarulhos entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em São Paulo, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

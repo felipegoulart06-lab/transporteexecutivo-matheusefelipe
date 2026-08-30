@@ -5,55 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'baia',
     'cidade_nome' => 'Olinda',
-    'geo' => ['lat' => -8.0089, 'lng' => -34.8553],
+    'geo' => [
+        'lat' => -8.0089,
+        'lng' => -34.8553,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Olinda',
     'seo' => [
-        'title' => 'Traslado em Olinda: Sítio Histórico, Casa Caiada e REC',
-        'description' => 'Motorista executivo em Olinda para o Sítio Histórico, Casa Caiada, Bairro Novo e o aeroporto do Recife. Ladeira, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Sítio Histórico, em Casa Caiada e no REC',
-        'og_description' => 'Traslado em Olinda: hotel na orla, pauta no sítio e o terminal dos Guararapes.',
-        'og_image_alt' => 'Sedan executivo em ladeira do Sítio Histórico de Olinda',
+        'title' => 'Carro com motorista em Olinda: Bairro Novo e REC',
+        'description' => 'Motorista executivo em Olinda: Carmo, Bairro Novo e Guararapes Gilberto Freyre (REC), em Recife. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Olinda: hotel, Carmo e REC',
+        'og_description' => 'O motorista combina Carmo com Guararapes Gilberto Freyre (REC), em Recife. Informe nome do hotel ou do sítio.',
+        'og_image_alt' => 'Carro executivo em via de Olinda',
     ],
-    'kicker' => 'Cidade histórica · PE',
-    'h1' => 'Do Sítio Histórico ao REC sem perder a orla de Casa Caiada',
-    'faixas' => [
+    'kicker' => 'Região Metropolitana do Recife · PE',
+    'h1' => 'Em Olinda: do embarque em Carmo ao REC',
+    'faq_h2' => 'Dúvidas de quem embarca em Olinda',
+    'faq' => [
         [
-            'h2' => 'Olinda se mede em ladeira e em maré — o app insiste no sentido errado',
-            'texto' => 'Hotel em Casa Caiada ou no Bairro Novo, pauta no Sítio Histórico e voo no Guararapes (REC) cabem no mesmo dia se o motorista já saiu com a ordem da Av. Getúlio Vargas e da ladeira, não com o atalho da hora.',
+            'pergunta' => 'Quem está em Olinda embarca no REC dentro da cidade?',
+            'resposta' => 'Não. De Olinda o REC (Guararapes Gilberto Freyre) fica em Recife. O trecho sai de Carmo pela PE-15.',
         ],
         [
-            'h2' => 'Três recortes, um relógio de sítio',
+            'pergunta' => 'Em Olinda, vocês buscam em Carmo?',
+            'resposta' => 'Sim, em Olinda. Envie nome do hotel ou do sítio em Carmo. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Olinda vocês fazem Recife?',
+            'resposta' => 'Sim, saindo de Olinda. Recife não é o recorte de Carmo; o horário pela Avenida Santos Dumont sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Olinda o carro fica entre Carmo e Bairro Novo?',
+            'resposta' => 'Sim, em Olinda. A hora à disposição cobre centro histórico em Carmo e orla em Bairro Novo.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Olinda e o REC',
+        'texto' => 'Diga o ponto em Carmo ou Bairro Novo, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Olinda',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'pernambuco',
+            'ancora' => 'Olinda e o recorte de Região Metropolitana do Recife',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'recife',
+            'ancora' => 'Motorista em recife',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'paraiba',
+            'cidade' => 'joao-pessoa',
+            'ancora' => 'Motorista em joao pessoa',
+        ],
+    ],
+    'faixas' => [
+        [
+            'h2' => 'Olinda se cruza por PE-15, não em linha reta',
+            'texto' => 'Olinda usa Guararapes Gilberto Freyre (REC), em Recife. Quem embarca em Carmo não está no município da pista. A PE-15 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Três eixos, três recuos',
             'itens' => [
-                ['h3' => 'Sítio Histórico e o Alto da Sé', 'texto' => 'Palácio, igrejas e o calçamento. Informe o ponto de espera; o GPS insiste no beco. “No sítio” não define a porta.'],
-                ['h3' => 'Casa Caiada, Bairro Novo e a orla', 'texto' => 'Hotéis (7 Colinas, similar) e a praia. Informe o nome; a Getúlio Vargas não é o recuo da Varadouro.'],
-                ['h3' => 'Rio Doce, Jockey e o Carmo', 'texto' => 'Pauta residencial e jantar. Deslocamentos curtos que esticam no semáforo rumo ao Recife.'],
+                [
+                    'h3' => 'Carmo',
+                    'texto' => 'Origem frequente para centro histórico. Informe nome do hotel ou do sítio. Carmo não compartilha o recuo de Bairro Novo.',
+                ],
+                [
+                    'h3' => 'Bairro Novo',
+                    'texto' => 'Origem frequente para orla. Informe nome do hotel ou do sítio. Bairro Novo não compartilha o recuo de Carmo.',
+                ],
+                [
+                    'h3' => 'Rio Doce',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel ou do sítio. Rio Doce não compartilha o recuo de Carmo.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas de pauta, carnaval fora de época e a ponte',
-            'texto' => 'REC → hotel em Casa Caiada → Alto da Sé só se a visita estiver no roteiro. Outro clássico: Olinda → Recife Antigo → Boa Viagem, com as pontes no meio. O Mercado da Ribeira entra como intervalo combinado, não como desvio na ladeira.',
+            'h2' => 'Guararapes Gilberto Freyre — REC',
+            'texto' => 'Guararapes Gilberto Freyre (REC) fica em Recife, não em Olinda. O trecho sai pela PE-15 / pontes. Diga o IATA e o número do voo.',
         ],
-        [
-            'h2' => 'Guararapes — REC no município vizinho',
-            'texto' => 'O aeroporto fica no Recife. Combinamos o voo. A espera no desembarque integra o trecho REC; a Mascarenhas e a entrada de Olinda pesam mais que o mapa admite no fim da tarde.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem sobe a ladeira',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Olinda fica na cidade?', 'resposta' => 'O voo chega no Guararapes, no Recife. O trecho até Casa Caiada ou o Sítio entra no roteiro com margem.'],
-        ['pergunta' => 'Em Olinda, o motorista espera no REC se o voo atrasar?', 'resposta' => 'Sim. Em Olinda, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês sobem ao Alto da Sé?', 'resposta' => 'Sim. Combinamos o ponto de espera. O calçamento não admite recuo improvisado no sítio.'],
-        ['pergunta' => 'Dá para ir a Boa Viagem e voltar a Olinda no mesmo dia?', 'resposta' => 'Sim. Em Olinda, informe a ordem. A ponte e o sentido da via pesam mais que a distância no mapa.'],
-    ],
-    'cta' => [
-        'titulo' => 'Diga se o embarque é Casa Caiada ou o sítio',
-        'texto' => 'O orçamento de Olinda sai sob consulta. Ladeira, orla e REC no mesmo recado.',
-        'botao' => 'Pedir traslado em Olinda',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'pernambuco', 'ancora' => 'Caruaru, Petrolina e o recorte pernambucano'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'recife', 'ancora' => 'Boa Viagem, pontes e o Guararapes'],
-        ['tipo' => 'cidade', 'estado' => 'paraiba', 'cidade' => 'joao-pessoa', 'ancora' => 'Tambaú, Cabo Branco e o Castro Pinto'],
     ],
 ];

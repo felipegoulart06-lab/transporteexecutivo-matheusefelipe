@@ -1,0 +1,72 @@
+{
+    "estado": "bahia",
+    "cidade": "camacari",
+    "nome": "Camaçari",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BA-099",
+            "destino": "Luís Eduardo Magalhães",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Polo Industrial",
+        "Abrantes",
+        "Gleba A"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Luís Eduardo Magalhães",
+            "iata": "SSA",
+            "municipio": "Salvador",
+            "acesso": "BA-099 / Paralela"
+        }
+    ],
+    "rodovias": [
+        "BA-099",
+        "BR-324",
+        "BA-535"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "portaria do polo",
+        "orla e condo",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Salvador",
+        "Lauro de Freitas",
+        "Dias d'Ávila"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SSA em Salvador",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

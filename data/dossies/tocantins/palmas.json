@@ -1,0 +1,72 @@
+{
+    "estado": "tocantins",
+    "cidade": "palmas",
+    "nome": "Palmas",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Plano Diretor Sul",
+            "eixo": "TO-050",
+            "destino": "Brigadeiro Lysias Rodrigues",
+            "motivo": "quadra e hotel"
+        }
+    ],
+    "eixos": [
+        "Plano Diretor Sul",
+        "Plano Diretor Norte",
+        "Taquaralto",
+        "Aureny"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Brigadeiro Lysias Rodrigues",
+            "iata": "PMW",
+            "municipio": "Palmas",
+            "acesso": "TO-050"
+        }
+    ],
+    "rodovias": [
+        "TO-050",
+        "Avenida Teotônio Segurado",
+        "ponte sobre o Tocantins"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "quadra e hotel",
+        "quadra norte",
+        "distrito",
+        "acesso ao PMW"
+    ],
+    "vizinhos_pedido": [
+        "Porto Nacional",
+        "Gurupi",
+        "Brasília"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal PMW em Palmas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

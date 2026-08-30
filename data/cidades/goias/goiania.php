@@ -5,73 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Goiânia',
-    'geo' => ['lat' => -16.6864, 'lng' => -49.2643],
+    'geo' => [
+        'lat' => -16.6864,
+        'lng' => -49.2643,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Goiânia',
     'seo' => [
-        'title' => 'Traslado executivo em Goiânia: Bueno, Marista e GYN',
-        'description' => 'Motorista executivo em Goiânia para Setor Bueno, Marista, Oeste, Campinas e o aeroporto Santa Genoveva. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Bueno, no Marista e no Santa Genoveva',
-        'og_description' => 'Traslado na capital goiana: hotel no Bueno, pauta no Marista e o terminal GYN.',
-        'og_image_alt' => 'Sedan executivo em avenida arborizada de Goiânia',
+        'title' => 'Motorista executivo em Goiânia: Setor Bueno e GYN',
+        'description' => 'Carro com motorista em Goiânia para Setor Bueno, Setor Marista e GYN. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Goiânia: Setor Bueno e GYN',
+        'og_description' => 'O motorista combina Setor Bueno com Santa Genoveva (GYN), no próprio município. Informe nome do prédio.',
+        'og_image_alt' => 'Carro executivo em via de Goiânia',
     ],
     'kicker' => 'Capital goiana · GO',
-    'h1' => 'Do Santa Genoveva ao Bueno sem perder a reunião no Marista',
-    'lead' => 'Goiânia é larga no traçado e curta no relógio quando o destino é o Setor Bueno. O motorista segura a Anhanguera e a T-63; o passageiro segura a pauta — não a vaga na porta do hotel.',
-    'contexto' => [
-        'h2' => 'A capital do cerrado cobra endereço de setor, não “no centro”',
-        'texto' => [
-            'Bueno, Marista, Oeste, Sul e Campinas não se trocam no mesmo recuo. Hotel no Bueno, clínica no Marista e voo no Santa Genoveva (GYN) cabem no mesmo expediente se a ordem das T-avenidas já estiver no roteiro.',
-            'O recorte é a rotina da capital: embarque em hotel (Rio Quente, Castro’s, similares), espera na porta do prédio e chegada no terminal certo, sem inventar filial no Setor Aeroporto.',
-        ],
-    ],
-    'bairros' => [
-        'h2' => 'Setores da capital onde o embarque mais se concentra',
-        'itens' => [
-            ['h3' => 'Setor Bueno', 'texto' => 'Hotéis, torres e o eixo da T-63. Informe o nome do condomínio; as quadras se repetem na numeração.'],
-            ['h3' => 'Setor Marista', 'texto' => 'Clínicas e escritórios. Deslocamentos curtos que esticam no semáforo da 85.'],
-            ['h3' => 'Setor Oeste e Sul', 'texto' => 'Pauta residencial e jantar. O recuo pede rua e número; “no Oeste” não basta.'],
-            ['h3' => 'Campinas e o GYN', 'texto' => 'Bairro histórico e a porta do Santa Genoveva. O trecho até o Bueno entra com margem para a Anhanguera.'],
-        ],
-    ],
-    'aeroportos' => [
-        'h2' => 'Santa Genoveva — GYN no meio da pauta',
-        'itens' => [
-            ['h3' => 'Santa Genoveva — GYN', 'texto' => 'Terminal da capital, no recorte de Campinas. Combinamos o voo. A espera no desembarque integra o trecho.'],
-            ['h3' => 'Quando a pauta aponta para Brasília', 'texto' => 'O trecho Goiânia–BSB não é o mesmo pedido urbano. Se a reunião vaza para o DF, o orçamento sai à parte.'],
-        ],
-    ],
-    'rotas' => [
-        'h2' => 'Trajetos que a agenda goianiense mais pede',
-        'itens' => [
-            ['titulo' => 'GYN → hotel no Bueno', 'texto' => 'Em Goiânia, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'Bueno → Marista → Parque Flamboyant', 'texto' => 'Reunião, clínica e um intervalo só se estiver no roteiro. Um motorista cobre os três.'],
-            ['titulo' => 'Hotel → Anápolis no mesmo dia', 'texto' => 'Quando a planta farmacêutica entra na pauta, o trecho deixa de ser urbano. Horário sob consulta.'],
-        ],
-    ],
-    'como' => [
-        'h2' => 'Como o carro entra na grade em Goiânia',
-        'passos' => [
-            ['titulo' => 'Setor e número', 'texto' => 'Bueno, Marista ou Oeste. Autocomplete não resolve quadra com dois acessos.'],
-            ['titulo' => 'Hotel ou GYN', 'texto' => 'Diga se o embarque é o Santa Genoveva ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Goiânia, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Santa Genoveva',
+    'h1' => 'Em Goiânia, de Setor Bueno a Santa Genoveva (GYN), no próprio município',
+    'faq_h2' => 'Dúvidas de quem embarca em Goiânia',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Goiânia fica longe do Bueno?', 'resposta' => 'É trecho urbano pela Anhanguera. Marcamos margem; o pico da T-63 altera o intervalo.'],
-        ['pergunta' => 'Em Goiânia, o motorista espera no GYN se o voo atrasar?', 'resposta' => 'Sim. Em Goiânia, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Bueno, Marista e o Flamboyant no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um carro à disposição evita três aceites entre as T-avenidas.'],
-        ['pergunta' => 'Dá para seguir a Anápolis depois do hotel?', 'resposta' => 'Sim, quando Anápolis entra no roteiro. Não é o mesmo recorte do Setor Bueno.'],
+        [
+            'pergunta' => 'Em Goiânia, o GYN fica no próprio município?',
+            'resposta' => 'Sim. Em Goiânia, Santa Genoveva (GYN) fica no município. Informe o acesso via GO-020.',
+        ],
+        [
+            'pergunta' => 'Em Goiânia, vocês buscam em Setor Bueno?',
+            'resposta' => 'Sim, em Goiânia. Envie nome do prédio em Setor Bueno. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Goiânia vocês fazem Aparecida de Goiânia?',
+            'resposta' => 'Sim, saindo de Goiânia. Aparecida de Goiânia não é o recorte de Setor Bueno; o horário pela BR-153 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Goiânia o carro fica entre Setor Bueno e Setor Marista?',
+            'resposta' => 'Sim, em Goiânia. A hora à disposição cobre hotel e clínica em Setor Bueno e escritório em Setor Marista.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Junte o Bueno ao horário do Santa Genoveva',
-        'texto' => 'O orçamento de Goiânia sai sob consulta. Setor, hotel e GYN no mesmo WhatsApp.',
+        'titulo' => 'Informe o embarque em Goiânia e o GYN',
+        'texto' => 'Diga o ponto em Setor Bueno ou Setor Marista, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Goiânia',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'goias', 'ancora' => 'Anápolis, Rio Verde e o entorno do DF'],
-        ['tipo' => 'cidade', 'estado' => 'distrito-federal', 'cidade' => 'brasilia', 'ancora' => 'Eixo Monumental, Lago e o BSB'],
-        ['tipo' => 'cidade', 'estado' => 'mato-grosso', 'cidade' => 'cuiaba', 'ancora' => 'Goiabeiras, Centro e o Marechal Rondon'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'goias',
+            'ancora' => 'Goiânia e o recorte de Capital goiana',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'distrito-federal',
+            'cidade' => 'brasilia',
+            'ancora' => 'Motorista em brasilia',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'mato-grosso',
+            'cidade' => 'cuiaba',
+            'ancora' => 'Motorista em cuiaba',
+        ],
+    ],
+    'lead' => 'Goiânia concentra Setor Bueno (hotel e clínica) e Santa Genoveva (GYN) no mesmo município. O motorista precisa do ponto de embarque e do GYN no mesmo recado — “me busca em Goiânia” não define o recuo.',
+    'contexto' => [
+        'h2' => 'Goiânia se mede em GO-020, não em pin de aplicativo',
+        'texto' => [
+            'Goiânia concentra Setor Bueno (hotel e clínica) e Santa Genoveva (GYN) no mesmo município. O motorista precisa do ponto de embarque e do GYN no mesmo recado — “me busca em Goiânia” não define o recuo.',
+            'Setor Marista pede escritório. Setor Oeste pede sede. Quando Aparecida de Goiânia entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-153.',
+        ],
+    ],
+    'bairros' => [
+        'h2' => 'Eixos de embarque em Goiânia',
+        'itens' => [
+            [
+                'h3' => 'Setor Bueno',
+                'texto' => 'Origem frequente para hotel e clínica. Informe nome do prédio. Setor Bueno não compartilha o recuo de Setor Marista.',
+            ],
+            [
+                'h3' => 'Setor Marista',
+                'texto' => 'Origem frequente para escritório. Informe nome do prédio. Setor Marista não compartilha o recuo de Setor Bueno.',
+            ],
+            [
+                'h3' => 'Setor Oeste',
+                'texto' => 'Origem frequente para sede. Informe nome do prédio. Setor Oeste não compartilha o recuo de Setor Bueno.',
+            ],
+            [
+                'h3' => 'Jardim Goiás',
+                'texto' => 'Origem frequente para orla do parque. Informe nome do prédio. Jardim Goiás não compartilha o recuo de Setor Bueno.',
+            ],
+        ],
+    ],
+    'aeroportos' => [
+        'h2' => 'O terminal que a agenda de Goiânia realmente usa',
+        'itens' => [
+            [
+                'h3' => 'Santa Genoveva — GYN',
+                'texto' => 'Santa Genoveva (GYN) fica em Goiânia. Acesso: GO-020. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'GO-020 e a vazão para Aparecida de Goiânia',
+                'texto' => 'Aparecida de Goiânia e Anápolis aparecem no mesmo pedido de Goiânia. Isso é viagem, não segunda corrida em Setor Bueno.',
+            ],
+        ],
+    ],
+    'rotas' => [
+        'h2' => 'Trajetos que o pedido em Goiânia mais combina',
+        'itens' => [
+            [
+                'titulo' => 'Setor Bueno → GYN',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: GO-020.',
+            ],
+            [
+                'titulo' => 'GYN → Setor Marista',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do prédio.',
+            ],
+            [
+                'titulo' => 'Setor Bueno → Aparecida de Goiânia',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Setor Marista; o horário sai sob consulta.',
+            ],
+        ],
+    ],
+    'como' => [
+        'h2' => 'Como o carro entra na pauta em Goiânia',
+        'passos' => [
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do prédio. Autocomplete não resolve dois acessos em Setor Bueno.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o GYN ou Aparecida de Goiânia entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Goiânia, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

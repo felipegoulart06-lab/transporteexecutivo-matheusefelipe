@@ -1,0 +1,72 @@
+{
+    "estado": "parana",
+    "cidade": "araucaria",
+    "nome": "Araucária",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-476",
+            "destino": "Afonso Pena",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Estação",
+        "CIC vizinho",
+        "Refinaria"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Afonso Pena",
+            "iata": "CWB",
+            "municipio": "São José dos Pinhais",
+            "acesso": "BR-476 / Contorno"
+        }
+    ],
+    "rodovias": [
+        "BR-476",
+        "Contorno Sul",
+        "Avenida Dr. Vicente Machado"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "bairro",
+        "eixo Curitiba",
+        "REPAR"
+    ],
+    "vizinhos_pedido": [
+        "Curitiba",
+        "São José dos Pinhais",
+        "Fazenda Rio Grande"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CWB em São José dos Pinhais",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

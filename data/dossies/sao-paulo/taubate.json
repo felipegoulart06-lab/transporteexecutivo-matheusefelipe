@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "taubate",
+    "nome": "Taubaté",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Dutra",
+            "destino": "Professor Urbano Ernesto Stumpf",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Independência",
+        "Esplanada Independência",
+        "UNITAU"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Professor Urbano Ernesto Stumpf",
+            "iata": "SJK",
+            "municipio": "São José dos Campos",
+            "acesso": "Dutra"
+        }
+    ],
+    "rodovias": [
+        "Dutra",
+        "Avenida Charles Schnneider",
+        "Avenida Independência"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "industrial",
+        "campus"
+    ],
+    "vizinhos_pedido": [
+        "São José dos Campos",
+        "Pindamonhangaba",
+        "Guarulhos"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SJK em São José dos Campos",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

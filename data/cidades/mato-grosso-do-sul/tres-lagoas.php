@@ -5,98 +5,107 @@ declare(strict_types=1);
 return [
     'layout' => 'malha',
     'cidade_nome' => 'Três Lagoas',
-    'geo' => ['lat' => -20.7514, 'lng' => -51.6783],
+    'geo' => [
+        'lat' => -20.7514,
+        'lng' => -51.6783,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Três Lagoas',
     'seo' => [
-        'title' => 'Traslado em Três Lagoas: Centro, Jupiá e o TJL',
-        'description' => 'Carro com motorista em Três Lagoas para o Centro, Interlagos, Jupiá e o aeroporto Plínio Alarcom. Celulose, portaria e orçamento sob consulta.',
-        'og_title' => 'Motorista no Centro, em Jupiá e no aeroporto TJL',
-        'og_description' => 'Traslado no leste sul-mato-grossense: hotel no Centro, pauta na celulose e o terminal TJL.',
-        'og_image_alt' => 'Sedan executivo em avenida de Três Lagoas próxima ao Paraná',
+        'title' => 'Motorista executivo em Três Lagoas: Centro e TJL',
+        'description' => 'Carro com motorista em Três Lagoas para Centro, Interlagos e TJL. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Três Lagoas: Centro e TJL',
+        'og_description' => 'O motorista combina Centro com Plínio Alarcom (TJL), no próprio município. Informe nome na lista da planta.',
+        'og_image_alt' => 'Carro executivo em via de Três Lagoas',
     ],
     'kicker' => 'Leste sul-mato-grossense · MS',
-    'h1' => 'Do Jupiá ao Centro sem perder a janela da celulose',
-    'intro' => 'Três Lagoas alinha o Centro, Interlagos e o recorte de Jupiá à beira do Paraná. Hotel, reunião na portaria da celulose e voo no Plínio Alarcom (TJL) cabem no mesmo expediente se o motorista já saiu com a ordem da BR-262 e da Castelo Branco, não com o aceite do minuto. Eldorado e Suzano entram no roteiro pelo nome na lista — não como vitrine de convênio.',
-    'blocos' => [
+    'h1' => 'Em Três Lagoas: do embarque em Centro ao TJL',
+    'faq_h2' => 'Dúvidas de quem embarca em Três Lagoas',
+    'faq' => [
         [
-            'h2' => 'Por que o deslocamento em Três Lagoas não é “pegar um carro no Centro”',
-            'texto' => 'Centro, Interlagos, Jupiá e a portaria da celulose não compartilham o mesmo recuo. Quem tem pauta na planta e check-out no hotel precisa de um motorista que já conhece o protocolo da cancela e o acesso da hidrelétrica, não o atalho do app na beira das lagoas. O hotel é só o ponto de embarque. O orçamento sai sob consulta.',
+            'pergunta' => 'Em Três Lagoas, o TJL fica no próprio município?',
+            'resposta' => 'Sim. Em Três Lagoas, Plínio Alarcom (TJL) fica no município. Informe o acesso via MS-395.',
         ],
         [
-            'h2' => 'Quadrantes onde o embarque trilagoense mais se concentra',
+            'pergunta' => 'Em Três Lagoas, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Três Lagoas. Envie nome na lista da planta em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Três Lagoas vocês fazem Araçatuba?',
+            'resposta' => 'Sim, saindo de Três Lagoas. Araçatuba não é o recorte de Centro; o horário pela BR-158 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Três Lagoas, TJL e VCP são o mesmo recorte?',
+            'resposta' => 'Não, em Três Lagoas. TJL fica em Três Lagoas; VCP fica em Campinas. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Três Lagoas e o TJL',
+        'texto' => 'Diga o ponto em Centro ou Interlagos, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Três Lagoas',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'mato-grosso-do-sul',
+            'ancora' => 'Três Lagoas e o recorte de Leste sul-mato-grossense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'mato-grosso-do-sul',
+            'cidade' => 'campo-grande',
+            'ancora' => 'Motorista em campo grande',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'mato-grosso-do-sul',
+            'cidade' => 'dourados',
+            'ancora' => 'Motorista em dourados',
+        ],
+    ],
+    'intro' => 'Três Lagoas concentra Centro (sede e hotel) e Plínio Alarcom (TJL) no mesmo município. O motorista precisa do ponto de embarque e do TJL no mesmo recado — “me busca em Três Lagoas” não define o recuo.',
+    'blocos' => [
+        [
+            'h2' => 'Por que o deslocamento em Três Lagoas não é pegar um carro',
+            'texto' => 'Três Lagoas concentra Centro (sede e hotel) e Plínio Alarcom (TJL) no mesmo município. O motorista precisa do ponto de embarque e do TJL no mesmo recado — “me busca em Três Lagoas” não define o recuo.',
+        ],
+        [
+            'h2' => 'Quadrantes que mais geram embarque',
             'itens' => [
                 [
-                    'h3' => 'Centro e a Castelo Branco',
-                    'texto' => 'Sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde e “no Centro” não define a porta.',
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome na lista da planta. Centro não compartilha o recuo de Interlagos.',
                 ],
                 [
-                    'h3' => 'Interlagos e o Jardim Alvorada',
-                    'texto' => 'Torres, clínicas e pauta residencial. O recuo de Interlagos não é o de Jupiá; rua e número evitam a volta no quarteirão errado.',
+                    'h3' => 'Interlagos',
+                    'texto' => 'Origem frequente para bairro. Informe nome na lista da planta. Interlagos não compartilha o recuo de Centro.',
                 ],
                 [
-                    'h3' => 'Jupiá e a beira do Paraná',
-                    'texto' => 'Hidrelétrica, orla e o recorte oeste. Informe o ponto de espera; o acesso da usina pede autorização, não GPS no portão.',
+                    'h3' => 'Distrito Industrial',
+                    'texto' => 'Origem frequente para planta de papel e celulose. Informe nome na lista da planta. Distrito Industrial não compartilha o recuo de Centro.',
                 ],
                 [
-                    'h3' => 'Portaria da celulose',
-                    'texto' => 'Eldorado, Suzano e similares entram pelo nome na lista e pelo documento pedido. Sem protocolo, a cancela não libera. Não há parceria de planta.',
+                    'h3' => 'Santos Dumont',
+                    'texto' => 'Origem frequente para residencial. Informe nome na lista da planta. Santos Dumont não compartilha o recuo de Centro.',
                 ],
             ],
         ],
     ],
     'grade' => [
-        'h2' => 'Rotas que a pauta de Três Lagoas mais pede',
+        'h2' => 'Três combinações que a pauta de Três Lagoas repete',
         'itens' => [
             [
-                'titulo' => 'TJL → hotel no Centro',
-                'texto' => 'Pouso e pernoite. Informe o nome do hotel. A espera no desembarque integra o trecho Plínio Alarcom.',
+                'titulo' => 'Centro → TJL',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: MS-395.',
             ],
             [
-                'titulo' => 'Hotel → portaria da celulose',
-                'texto' => 'Pauta na planta. Envie o nome na lista. O recuo da cancela não se improvisa na BR-262.',
+                'titulo' => 'TJL → Interlagos',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome na lista da planta.',
             ],
             [
-                'titulo' => 'Centro → Interlagos → Jupiá',
-                'texto' => 'Sede, clínica e o recorte da usina. Um motorista cobre os três se a ordem já estiver no roteiro.',
-            ],
-            [
-                'titulo' => 'Três Lagoas → Campo Grande ou Dourados',
-                'texto' => 'Quando a pauta vaza pela BR-262 ou pela BR-158, o trecho deixa de ser urbano. Orçamento à parte.',
+                'titulo' => 'Centro → Araçatuba',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Interlagos; o horário sai sob consulta.',
             ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta a celulose e o TJL',
-    'faq' => [
-        [
-            'pergunta' => 'O aeroporto de Três Lagoas fica longe do Centro?',
-            'resposta' => 'É trecho urbano. Marcamos margem: a Castelo Branco e o horário de pico alteram o intervalo até o TJL.',
-        ],
-        [
-            'pergunta' => 'O motorista espera no TJL se o voo atrasar?',
-            'resposta' => 'Sim. Em Três Lagoas, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
-        ],
-        [
-            'pergunta' => 'Vocês entram na portaria da celulose com protocolo?',
-            'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela não libera. Não há convênio com a planta.',
-        ],
-        [
-            'pergunta' => 'Dá para ir a Jupiá depois do hotel no Centro?',
-            'resposta' => 'Sim, quando o recorte da usina entra no roteiro. O acesso pede ponto de espera combinado.',
-        ],
-        [
-            'pergunta' => 'O carro segue a Campo Grande depois da reunião?',
-            'resposta' => 'Sim, quando a capital entra no pedido. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Junte o Jupiá ao horário do TJL',
-        'texto' => 'O orçamento de Três Lagoas sai sob consulta. Centro, celulose e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Três Lagoas',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'mato-grosso-do-sul', 'ancora' => 'Campo Grande, Dourados e o leste da celulose'],
-        ['tipo' => 'cidade', 'estado' => 'mato-grosso-do-sul', 'cidade' => 'campo-grande', 'ancora' => 'Centro, Cidade Morena e o CGR'],
-        ['tipo' => 'cidade', 'estado' => 'mato-grosso-do-sul', 'cidade' => 'dourados', 'ancora' => 'Centro, Jardim América e o DOU'],
     ],
 ];

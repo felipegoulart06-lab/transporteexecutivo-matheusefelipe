@@ -1,0 +1,38 @@
+{
+  "estado": "rio-grande-do-sul",
+  "cidade": "caxias-do-sul",
+  "nome": "Caxias do Sul",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "CXJ", "eixo": "Urbano / desnível", "destino": "São Pelegrino ou Centro", "motivo": "Pouso e hotel/pauta"},
+    {"origem": "São Pelegrino / Centro", "eixo": "Urbano", "destino": "Universitário ou UCS (Petrópolis)", "motivo": "Bairro e campus são recuos distintos"},
+    {"origem": "Hotel / Centro", "eixo": "BR-116 / serra", "destino": "Porto Alegre", "motivo": "Viagem intermunicipal"}
+  ],
+  "eixos": ["São Pelegrino", "Centro", "Universitário"],
+  "aeroportos": [
+    {"nome": "Aeroporto Regional Hugo Cantergiani", "iata": "CXJ", "municipio": "Caxias do Sul", "relacao": "Terminal no município; ICAO SBCX", "fonte": "caxias.rs.gov.br/servicos/transito/aeroporto-caxias-do-sul — CXJ/SBCX", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-116", "fonte": "DAER / imprensa local (acesso e perímetro urbano); cruzar DNIT", "data": "2026-08-29"},
+    {"nome": "RS-122", "fonte": "DAER / imprensa (acesso de serra)", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["São Pelegrino", "Centro", "Bairro Universitário", "UCS — Rua Francisco Getúlio Vargas 1130 (Petrópolis)"],
+  "vizinhos_pedido": ["Porto Alegre", "Gramado/Canela (não eixo principal)"],
+  "prefeito": {"nome": "Adiló Didomenico", "fonte": "caxias.rs.gov.br notícia 2026-06 Anac", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "CXJ no município, CXJ/SBCX", "fonte": "Prefeitura de Caxias do Sul", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Hugo Cantergiani (CXJ) opera em Caxias do Sul.", "publicado": true},
+    {"fato": "UCS sede: Rua Francisco Getúlio Vargas 1130", "fonte": "ucs.br endereços", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "A sede da UCS fica na Getúlio Vargas, no Petrópolis — não no bairro Universitário.", "publicado": true}
+  ],
+  "descartado": [
+    "UCS no bairro Universitário",
+    "Gramado/Bento Gonçalves como recuo urbano",
+    "RSC-453 como acesso oficial ao CXJ sem página da Prefeitura",
+    "Tempo fixo CXJ–Centro"
+  ],
+  "verificar": [
+    "[VERIFICAR] Av. Salgado Filho 3451 — guias locais, não na página da Prefeitura",
+    "[VERIFICAR] Transição Infraero (portaria jun/2026); landing não cita operador"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
+}

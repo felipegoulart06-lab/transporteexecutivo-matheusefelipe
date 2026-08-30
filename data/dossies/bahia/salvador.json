@@ -1,0 +1,72 @@
+{
+    "estado": "bahia",
+    "cidade": "salvador",
+    "nome": "Salvador",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Barra e Ondina",
+            "eixo": "Paralela",
+            "destino": "Luís Eduardo Magalhães",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Barra e Ondina",
+        "Caminho das Árvores",
+        "Centro e Comércio",
+        "Rio Vermelho"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Luís Eduardo Magalhães",
+            "iata": "SSA",
+            "municipio": "Salvador",
+            "acesso": "Paralela"
+        }
+    ],
+    "rodovias": [
+        "Paralela",
+        "Vale do Canela",
+        "LIP"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "torre e convenções",
+        "pauta institucional",
+        "hotel e jantar"
+    ],
+    "vizinhos_pedido": [
+        "Lauro de Freitas",
+        "Camaçari",
+        "Feira de Santana"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SSA em Salvador",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

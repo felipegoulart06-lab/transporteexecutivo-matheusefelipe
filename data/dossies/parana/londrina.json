@@ -1,0 +1,39 @@
+{
+  "estado": "parana",
+  "cidade": "londrina",
+  "nome": "Londrina",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "LDB (Novo Aeroporto)", "eixo": "Urbano / Saul Elkind", "destino": "Gleba Palhano (Avenida Ayrton Senna)", "motivo": "Pouso e hotel"},
+    {"origem": "Gleba Palhano", "eixo": "Ayrton Senna", "destino": "Centro", "motivo": "Pauta urbana"},
+    {"origem": "Hotel / Centro", "eixo": "BR-369 (Av. Brasília no viário municipal)", "destino": "Maringá", "motivo": "Viagem intermunicipal"}
+  ],
+  "eixos": ["Gleba Palhano", "Centro", "LDB / Novo Aeroporto"],
+  "aeroportos": [
+    {"nome": "Aeroporto de Londrina — Governador José Richa", "iata": "LDB", "municipio": "Londrina (bairro Novo Aeroporto)", "relacao": "Terminal no município; ICAO SBLO", "fonte": "aeroportos.motiva.com.br/londrina-pr — R. Ten. João Maurício Medeiros 300; ANAC Portaria 18399/SRA 2025 (SBLO)", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-369 / Avenida Brasília (viário municipal)", "fonte": "IPPUL minuta sistema viário; Prefeitura Arco Leste", "data": "2026-08-29"},
+    {"nome": "Avenida Ayrton Senna da Silva (Gleba Palhano)", "fonte": "Blog da Prefeitura de Londrina — Gleba Palhano, região sul", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Gleba Palhano / Ayrton Senna", "Centro", "LDB Novo Aeroporto"],
+  "vizinhos_pedido": ["Maringá"],
+  "prefeito": {"nome": "José Tiago Camargo do Amaral (Tiago Amaral)", "fonte": "portal.londrina.pr.gov.br — Gabinete, mandato 2025-2028", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "LDB em Londrina, Ten. João Maurício Medeiros 300, Novo Aeroporto, LDB/SBLO", "fonte": "CCR/Motiva; Perfil Londrina 2024", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Governador José Richa (LDB) opera em Londrina, no bairro Novo Aeroporto.", "publicado": true},
+    {"fato": "Gleba Palhano no sul, Avenida Ayrton Senna", "fonte": "Prefeitura de Londrina / CMTU", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "Hotéis e torres no eixo da Avenida Ayrton Senna.", "publicado": true}
+  ],
+  "descartado": [
+    "Hotel Bourbon sem site oficial",
+    "Lago Igapó como atração",
+    "Maringá pela BR-369 (eixo clássico é outro)",
+    "PR-445 como acesso exclusivo ao LDB sem CCR/DER nesta rodada",
+    "Jardim Bandeirantes como eixo (não pedido)"
+  ],
+  "verificar": [
+    "[VERIFICAR] Catuaí Shopping como âncora",
+    "[VERIFICAR] UEL como destino (CCR cita proximidade ao LDB)"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
+}

@@ -1,0 +1,78 @@
+{
+    "estado": "parana",
+    "cidade": "guarapuava",
+    "nome": "Guarapuava",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-277",
+            "destino": "Tancredo Thomas de Faria",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Santana",
+        "Industrial",
+        "Universitário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Tancredo Thomas de Faria",
+            "iata": "GPB",
+            "municipio": "Guarapuava",
+            "acesso": "BR-277"
+        },
+        {
+            "nome": "Afonso Pena",
+            "iata": "CWB",
+            "municipio": "São José dos Pinhais",
+            "acesso": "BR-277"
+        }
+    ],
+    "rodovias": [
+        "BR-277",
+        "BR-373",
+        "Avenida Manoel Ribas"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "planta",
+        "Unicentro"
+    ],
+    "vizinhos_pedido": [
+        "Ponta Grossa",
+        "Curitiba",
+        "Pitanga"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GPB em Guarapuava",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "estado": "santa-catarina",
+    "cidade": "jaragua-do-sul",
+    "nome": "Jaraguá do Sul",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-280",
+            "destino": "Lauro Carneiro de Loyola",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Vila Lalau",
+        "Czerniewicz",
+        "Barra do Rio Cerro"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Lauro Carneiro de Loyola",
+            "iata": "JOI",
+            "municipio": "Joinville",
+            "acesso": "BR-280"
+        }
+    ],
+    "rodovias": [
+        "BR-280",
+        "Avenida Getúlio Vargas",
+        "SC-301"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "WEG e indústria",
+        "bairro",
+        "distrito"
+    ],
+    "vizinhos_pedido": [
+        "Joinville",
+        "Blumenau",
+        "Corupá"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal JOI em Joinville",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

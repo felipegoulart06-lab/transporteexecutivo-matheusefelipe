@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "araraquara",
+    "nome": "Araraquara",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Washington Luís",
+            "destino": "Bartolomeu de Gusmão",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Vila Xavier",
+        "Campos Ville",
+        "Fonte"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Bartolomeu de Gusmão",
+            "iata": "AQA",
+            "municipio": "Araraquara",
+            "acesso": "SP-310"
+        }
+    ],
+    "rodovias": [
+        "Washington Luís",
+        "SP-255",
+        "Avenida Alberto Benassi"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "orla da fonte"
+    ],
+    "vizinhos_pedido": [
+        "São Carlos",
+        "Ribeirão Preto",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal AQA em Araraquara",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

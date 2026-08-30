@@ -1,0 +1,33 @@
+{
+  "estado": "pernambuco",
+  "cidade": "olinda",
+  "nome": "Olinda",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "REC (Imbiribeira, Recife)", "eixo": "Mascarenhas / pontes / Getúlio Vargas", "destino": "Bairro Novo ou Carmo", "motivo": "Olinda não tem aeroporto; o voo chega no Recife"},
+    {"origem": "Hotel no Bairro Novo", "eixo": "Getúlio Vargas / Praça do Carmo", "destino": "Carmo", "motivo": "Pauta no sítio e pernoite na orla"},
+    {"origem": "Rio Doce", "eixo": "Tiradentes / pontes", "destino": "Recife Antigo ou Boa Viagem", "motivo": "Agenda vaza para o Recife"}
+  ],
+  "eixos": ["Carmo", "Bairro Novo", "Rio Doce", "pontes rumo ao Recife", "REC em Recife"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional do Recife/Guararapes – Gilberto Freyre", "iata": "REC", "municipio": "Recife", "relacao": "Vazão obrigatória. Endereço Imbiribeira, zona sul, junto de Boa Viagem.", "fonte": "ABEAR Praça Ministro Salgado Filho s/n Imbiribeira Recife PE 51210-902 REC/SBRF", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Av. Presidente Getúlio Vargas", "fonte": "Itinerários Grande Recife Rio Doce–Carmo–Varadouro", "data": "2026-08-29"},
+    {"nome": "Ponte José de Barros Lima / viaduto Tacaruna", "fonte": "Itinerários Olinda–Recife Grande Recife 2025", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Carmo", "Bairro Novo", "Rio Doce"],
+  "vizinhos_pedido": ["Recife (REC, Boa Viagem, Recife Antigo)", "Paulista"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Olinda não tem aeroporto comercial de passageiros", "fonte": "REC documentado no Recife; ausência de terminal de pax em Olinda", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Olinda não tem terminal de passageiros. O voo chega no Guararapes (REC), no Recife.", "publicado": true},
+    {"fato": "REC na Imbiribeira, Recife", "fonte": "ABEAR endereço Imbiribeira", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O REC fica na Imbiribeira, Recife — junto de Boa Viagem.", "publicado": true}
+  ],
+  "descartado": [
+    "Frase 'aeroporto de Olinda' — proibida na landing",
+    "PE-15 como único eixo (pontes e Getúlio Vargas são o recorte operacional publicado)",
+    "[VERIFICAR] prefeito de Olinda"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
+}

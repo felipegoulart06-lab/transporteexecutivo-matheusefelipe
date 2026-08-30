@@ -1,0 +1,72 @@
+{
+    "estado": "ceara",
+    "cidade": "caucaia",
+    "nome": "Caucaia",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "CE-085",
+            "destino": "Pinto Martins",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Icaraí",
+        "Jurema",
+        "Parque Soledade"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Pinto Martins",
+            "iata": "FOR",
+            "municipio": "Fortaleza",
+            "acesso": "CE-085 / BR-222"
+        }
+    ],
+    "rodovias": [
+        "CE-085",
+        "BR-222",
+        "Avenida Dom Almeida Lustosa"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "orla",
+        "bairro",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Fortaleza",
+        "São Gonçalo do Amarante",
+        "Paracuru"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal FOR em Fortaleza",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

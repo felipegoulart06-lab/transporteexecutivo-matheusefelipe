@@ -5,52 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'mare',
     'cidade_nome' => 'Caldas Novas',
-    'geo' => ['lat' => -17.7438, 'lng' => -48.6242],
+    'geo' => [
+        'lat' => -17.7438,
+        'lng' => -48.6242,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Caldas Novas',
     'seo' => [
-        'title' => 'Traslado executivo em Caldas Novas: Centro, termas e CLV',
-        'description' => 'Motorista executivo em Caldas Novas para o Centro, Riviera, Lagoa Quente, Rio Quente e o aeroporto Nelson Ribeiro. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro, nas termas e no aeroporto CLV',
-        'og_description' => 'Traslado nas águas quentes: hotel, pauta no Centro e o terminal CLV.',
-        'og_image_alt' => 'Sedan executivo em avenida de Caldas Novas',
+        'title' => 'Motorista executivo em Caldas Novas: Centro e CLV',
+        'description' => 'Motorista executivo em Caldas Novas: Centro, Doça e Nelson Ribeiro Guimarães (CLV), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Caldas Novas: Centro e CLV',
+        'og_description' => 'O motorista combina Centro com Nelson Ribeiro Guimarães (CLV), no próprio município. Informe nome do hotel e a entrada.',
+        'og_image_alt' => 'Carro executivo em via de Caldas Novas',
     ],
-    'kicker' => 'Águas quentes · GO',
-    'h1' => 'Do CLV ao hotel sem perder a reunião no Centro',
-    'editorial' => [
-        'h2' => 'Caldas se lê em hotel-termas e em estrada — o app não lê o check-out em massa',
-        'texto' => [
-            'Hotel na Riviera ou no Centro, reunião no município e voo no Nelson Ribeiro Guimarães (CLV) cabem no mesmo caderno se o motorista já saiu com a ordem da Coronel Bento de Godoy, não com o atalho do momento.',
-            'O serviço é de traslado executivo: discreto, com espera combinada. Não é corrida de parque aquático no feriado, a menos que a visita ao Rio Quente ou à Lagoa Quente entre no roteiro.',
-        ],
-    ],
-    'coluna_a' => [
-        'h2' => 'Três recortes que a pauta caldense usa',
-        'itens' => [
-            ['h3' => 'Centro e a Bento de Godoy', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no check-out de domingo.'],
-            ['h3' => 'Riviera, diRoma e os hotéis-termas', 'texto' => 'Pernoite. Informe o nome do complexo; “no hotel de águas” não define o recuo da portaria.'],
-            ['h3' => 'Rio Quente e a Lagoa Quente', 'texto' => 'Município vizinho e o parque. Não é o mesmo recorte do Centro; o intervalo sai sob consulta.'],
-        ],
-    ],
-    'coluna_b' => [
-        'h2' => 'Nelson Ribeiro Guimarães — CLV',
-        'texto' => 'O aeroporto fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho CLV. Até a Riviera ou o Centro, a avenida pesa mais que o mapa admite no domingo de saída.',
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no Nelson Ribeiro',
+    'kicker' => 'Sul goiano · GO',
+    'h1' => 'Em Caldas Novas, de Centro a Nelson Ribeiro Guimarães (CLV), no próprio município',
+    'faq_h2' => 'Dúvidas de quem embarca em Caldas Novas',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Caldas Novas fica longe dos hotéis?', 'resposta' => 'É trecho urbano. Marcamos margem: o horário de check-out e a Bento de Godoy alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no CLV se o voo atrasar?', 'resposta' => 'Sim. Em Caldas Novas, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês buscam no diRoma e levam ao Centro?', 'resposta' => 'Sim. Informe o nome do complexo e o recuo da portaria.'],
-        ['pergunta' => 'Dá para incluir o Rio Quente no mesmo dia?', 'resposta' => 'Sim, como recorte vizinho. Não é o mesmo pedido do Centro; o horário sai sob consulta.'],
+        [
+            'pergunta' => 'Em Caldas Novas, o CLV fica no próprio município?',
+            'resposta' => 'Sim. Em Caldas Novas, Nelson Ribeiro Guimarães (CLV) fica no município. Informe o acesso via GO-213.',
+        ],
+        [
+            'pergunta' => 'Em Caldas Novas, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Caldas Novas. Envie nome do hotel e a entrada em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Caldas Novas vocês fazem Rio Quente?',
+            'resposta' => 'Sim, saindo de Caldas Novas. Rio Quente não é o recorte de Centro; o horário pela BR-490 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Caldas Novas, CLV e GYN são o mesmo recorte?',
+            'resposta' => 'Não, em Caldas Novas. CLV fica em Caldas Novas; GYN fica em Goiânia. Diga o IATA no pedido.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Anote o hotel junto com o horário do CLV',
-        'texto' => 'O orçamento de Caldas Novas sai sob consulta. Termas, Centro e terminal no mesmo recado.',
+        'titulo' => 'Informe o embarque em Caldas Novas e o CLV',
+        'texto' => 'Diga o ponto em Centro ou Doça, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Caldas Novas',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'goias', 'ancora' => 'Anápolis, Rio Verde e o entorno do DF'],
-        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'goiania', 'ancora' => 'Bueno, Marista e o Santa Genoveva'],
-        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'anapolis', 'ancora' => 'Centro, Jundiaí e o Distrito Agroindustrial'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'goias',
+            'ancora' => 'Caldas Novas e o recorte de Sul goiano',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'goias',
+            'cidade' => 'goiania',
+            'ancora' => 'Motorista em goiania',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'goias',
+            'cidade' => 'anapolis',
+            'ancora' => 'Motorista em anapolis',
+        ],
+    ],
+    'editorial' => [
+        'h2' => 'Caldas Novas pede ordem de endereço, não slogan',
+        'texto' => [
+            'Caldas Novas concentra Centro (hotel e sede) e Nelson Ribeiro Guimarães (CLV) no mesmo município. O motorista precisa do ponto de embarque e do CLV no mesmo recado — “me busca em Caldas Novas” não define o recuo.',
+            'Doça pede bairro. Lagoa Quente pede parque. Quando Rio Quente entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-490.',
+        ],
+    ],
+    'coluna_a' => [
+        'h2' => 'Eixos de Caldas Novas',
+        'itens' => [
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para hotel e sede. Informe nome do hotel e a entrada. Centro não compartilha o recuo de Doça.',
+            ],
+            [
+                'h3' => 'Doça',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel e a entrada. Doça não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Lagoa Quente',
+                'texto' => 'Origem frequente para parque. Informe nome do hotel e a entrada. Lagoa Quente não compartilha o recuo de Centro.',
+            ],
+        ],
+    ],
+    'coluna_b' => [
+        'h2' => 'CLV e a vazão',
+        'texto' => 'Nelson Ribeiro Guimarães (CLV) fica em Caldas Novas. Acesso: GO-213. Combinamos o voo; a espera no desembarque integra o trecho. Rio Quente entra como viagem.',
     ],
 ];

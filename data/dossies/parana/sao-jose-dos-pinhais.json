@@ -1,0 +1,72 @@
+{
+    "estado": "parana",
+    "cidade": "sao-jose-dos-pinhais",
+    "nome": "São José dos Pinhais",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-277",
+            "destino": "Afonso Pena",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Afonso Pena",
+        "Colônia Rio Grande",
+        "Cidade Jardim"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Afonso Pena",
+            "iata": "CWB",
+            "municipio": "São José dos Pinhais",
+            "acesso": "Avenida Rui Barbosa"
+        }
+    ],
+    "rodovias": [
+        "BR-277",
+        "Linha Verde",
+        "Contorno Leste"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "terminal CWB",
+        "industrial",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Curitiba",
+        "Araucária",
+        "Ponta Grossa"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CWB em São José dos Pinhais",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

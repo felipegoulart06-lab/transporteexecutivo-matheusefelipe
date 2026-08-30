@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "sao-jose-do-rio-preto",
+    "nome": "São José do Rio Preto",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Redentora",
+            "eixo": "BR-153",
+            "destino": "Eribelto Manoel Reino",
+            "motivo": "hospital e hotel"
+        }
+    ],
+    "eixos": [
+        "Redentora",
+        "Centro",
+        "Boa Vista",
+        "Jardim Yolanda"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Eribelto Manoel Reino",
+            "iata": "SJP",
+            "municipio": "São José do Rio Preto",
+            "acesso": "BR-153"
+        }
+    ],
+    "rodovias": [
+        "BR-153",
+        "Washington Luís",
+        "Avenida Bady Bassitt"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hospital e hotel",
+        "sede",
+        "bairro",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Catanduva",
+        "São Paulo",
+        "Araçatuba"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SJP em São José do Rio Preto",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

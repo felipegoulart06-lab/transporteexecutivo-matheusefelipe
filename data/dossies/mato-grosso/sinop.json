@@ -1,0 +1,72 @@
+{
+    "estado": "mato-grosso",
+    "cidade": "sinop",
+    "nome": "Sinop",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-163",
+            "destino": "Presidente João Figueiredo",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim Botânico",
+        "Setor Industrial",
+        "Avenida das Figueiras"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Presidente João Figueiredo",
+            "iata": "OPS",
+            "municipio": "Sinop",
+            "acesso": "BR-163"
+        }
+    ],
+    "rodovias": [
+        "BR-163",
+        "Avenida das Figueiras",
+        "MT-423"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "grão e portaria",
+        "eixo"
+    ],
+    "vizinhos_pedido": [
+        "Sorriso",
+        "Cuiabá",
+        "Itaúba"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal OPS em Sinop",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

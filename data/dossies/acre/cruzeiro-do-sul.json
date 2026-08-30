@@ -1,0 +1,72 @@
+{
+    "estado": "acre",
+    "cidade": "cruzeiro-do-sul",
+    "nome": "Cruzeiro do Sul",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-364",
+            "destino": "Cruzeiro do Sul",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Aeroporto Velho",
+        "Miritizal",
+        "Remanso"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Cruzeiro do Sul",
+            "iata": "CZS",
+            "municipio": "Cruzeiro do Sul",
+            "acesso": "AC-405"
+        }
+    ],
+    "rodovias": [
+        "BR-364",
+        "Avenida 25 de Agosto",
+        "AC-405"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "eixo"
+    ],
+    "vizinhos_pedido": [
+        "Rio Branco",
+        "Tarauacá",
+        "Pucallpa"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CZS em Cruzeiro do Sul",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

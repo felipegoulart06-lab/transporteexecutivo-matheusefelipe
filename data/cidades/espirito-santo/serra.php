@@ -5,55 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'baia',
     'cidade_nome' => 'Serra',
-    'geo' => ['lat' => -20.1286, 'lng' => -40.3074],
+    'geo' => [
+        'lat' => -20.1286,
+        'lng' => -40.3074,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Serra',
     'seo' => [
-        'title' => 'Carro executivo em Serra: Laranjeiras, Centro e VIX',
-        'description' => 'Motorista executivo em Serra para Laranjeiras, Jacaraípe, Centro, Civit e o aeroporto VIX. Grande Vitória, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo em Laranjeiras, em Jacaraípe e no VIX',
-        'og_description' => 'Carro com motorista na Serra capixaba: hotel, Civit e o terminal Eurico Salles.',
-        'og_image_alt' => 'Sedan executivo em avenida de Serra no Espírito Santo',
+        'title' => 'Motorista executivo em Serra: Laranjeiras e VIX',
+        'description' => 'Carro com motorista em Serra para Laranjeiras, Centro da Serra e VIX. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Serra: hotel, Laranjeiras e VIX',
+        'og_description' => 'O motorista combina Laranjeiras com Eurico de Aguiar Salles (VIX), em Vitória. Informe nome da empresa ou do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Serra',
     ],
     'kicker' => 'Grande Vitória · ES',
-    'h1' => 'De Laranjeiras ao VIX sem perder a janela do Civit',
-    'faixas' => [
+    'h1' => 'Serra — Laranjeiras de manhã, VIX quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Serra',
+    'faq' => [
         [
-            'h2' => 'Serra se mede em Civit e em orla — o app não lê a Terceira Ponte',
-            'texto' => 'Hotel em Laranjeiras ou em Jacaraípe, reunião no Civit e voo no Eurico de Aguiar Salles (VIX) cabem no mesmo dia se o motorista já saiu com a ordem da Nordelina e da Darly Santos, não com o atalho da hora.',
+            'pergunta' => 'Quem está em Serra embarca no VIX dentro da cidade?',
+            'resposta' => 'Não. De Serra o VIX (Eurico de Aguiar Salles) fica em Vitória. O trecho sai de Laranjeiras pela BR-101.',
         ],
         [
-            'h2' => 'Três recortes, um relógio de Grande Vitória',
+            'pergunta' => 'Em Serra, vocês buscam em Laranjeiras?',
+            'resposta' => 'Sim, em Serra. Envie nome da empresa ou do hotel em Laranjeiras. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Serra vocês fazem Vitória?',
+            'resposta' => 'Sim, saindo de Serra. Vitória não é o recorte de Laranjeiras; o horário pela Rodovia do Sol sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Serra o carro fica entre Laranjeiras e Centro da Serra?',
+            'resposta' => 'Sim, em Serra. A hora à disposição cobre shopping e hotel em Laranjeiras e sede em Centro da Serra.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Serra e o VIX',
+        'texto' => 'Diga o ponto em Laranjeiras ou Centro da Serra, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Serra',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'espirito-santo',
+            'ancora' => 'Serra e o recorte de Grande Vitória',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'espirito-santo',
+            'cidade' => 'vitoria',
+            'ancora' => 'Motorista em vitoria',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'espirito-santo',
+            'cidade' => 'vila-velha',
+            'ancora' => 'Motorista em vila velha',
+        ],
+    ],
+    'faixas' => [
+        [
+            'h2' => 'Serra se cruza por BR-101, não em linha reta',
+            'texto' => 'Serra usa Eurico de Aguiar Salles (VIX), em Vitória. Quem embarca em Laranjeiras não está no município da pista. A BR-101 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Três eixos, três recuos',
             'itens' => [
-                ['h3' => 'Laranjeiras, Serra Sede e o shopping', 'texto' => 'Hotéis e torres. Informe o nome; “em Laranjeiras” não define o recuo do condomínio.'],
-                ['h3' => 'Civit I e II', 'texto' => 'Em Serra, plantas e logística. Protocolo de portaria entra no roteiro junto com o turno.'],
-                ['h3' => 'Jacaraípe, Manguinhos e a orla norte', 'texto' => 'Pernoite e visita combinada. O recuo da praia não é o da sede.'],
+                [
+                    'h3' => 'Laranjeiras',
+                    'texto' => 'Origem frequente para shopping e hotel. Informe nome da empresa ou do hotel. Laranjeiras não compartilha o recuo de Centro da Serra.',
+                ],
+                [
+                    'h3' => 'Centro da Serra',
+                    'texto' => 'Origem frequente para sede. Informe nome da empresa ou do hotel. Centro da Serra não compartilha o recuo de Laranjeiras.',
+                ],
+                [
+                    'h3' => 'Jacaraípe',
+                    'texto' => 'Origem frequente para orla. Informe nome da empresa ou do hotel. Jacaraípe não compartilha o recuo de Laranjeiras.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas de pauta, Civit e a ilha',
-            'texto' => 'VIX → hotel em Laranjeiras → Civit → Jacaraípe só se a orla estiver no roteiro. Vitória, Vila Velha e a Terceira Ponte entram como recorte da Grande Vitória, com margem de ponte.',
+            'h2' => 'Eurico de Aguiar Salles — VIX',
+            'texto' => 'Eurico de Aguiar Salles (VIX) fica em Vitória, não em Serra. O trecho sai pela BR-101. Diga o IATA e o número do voo.',
         ],
-        [
-            'h2' => 'Eurico Salles — VIX na ilha vizinha',
-            'texto' => 'O terminal fica em Goiabeiras, na ilha de Vitória. Combinamos o voo. A espera no desembarque integra o trecho VIX; até Laranjeiras a Darly Santos pesa mais que o mapa.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta a Serra e o VIX',
-    'faq' => [
-        ['pergunta' => 'O aeroporto fica em Serra?', 'resposta' => 'O VIX fica em Goiabeiras, na ilha de Vitória. O trecho até Laranjeiras entra no roteiro com margem para a Darly Santos.'],
-        ['pergunta' => 'Em Serra, o motorista espera no VIX se o voo atrasar?', 'resposta' => 'Sim. Em Serra, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram no Civit com protocolo de portaria?', 'resposta' => 'Sim. Em Serra, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Dá para ir a Jacaraípe e à Praia do Canto no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A orla de Serra e a ilha são recortes distintos; a ponte pesa no horário.'],
-    ],
-    'cta' => [
-        'titulo' => 'Diga se o embarque é Laranjeiras ou o VIX',
-        'texto' => 'O orçamento de Serra sai sob consulta. Civit, orla e terminal no mesmo recado.',
-        'botao' => 'Pedir traslado em Serra',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'espirito-santo', 'ancora' => 'O circuito das quatro cidades capixabas'],
-        ['tipo' => 'cidade', 'estado' => 'espirito-santo', 'cidade' => 'vitoria', 'ancora' => 'Praia do Canto, Suá e o Eurico Salles'],
-        ['tipo' => 'cidade', 'estado' => 'espirito-santo', 'cidade' => 'vila-velha', 'ancora' => 'Praia da Costa, Penha e a Terceira Ponte'],
     ],
 ];

@@ -1,0 +1,72 @@
+{
+    "estado": "espirito-santo",
+    "cidade": "cachoeiro-de-itapemirim",
+    "nome": "Cachoeiro de Itapemirim",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-101",
+            "destino": "Eurico de Aguiar Salles",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Recanto",
+        "Amaral",
+        "Universitário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Eurico de Aguiar Salles",
+            "iata": "VIX",
+            "municipio": "Vitória",
+            "acesso": "BR-101"
+        }
+    ],
+    "rodovias": [
+        "BR-101",
+        "ES-164",
+        "Avenida Beira Rio"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "campus"
+    ],
+    "vizinhos_pedido": [
+        "Vitória",
+        "Alegre",
+        "Cachoeiro / Marataízes"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VIX em Vitória",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

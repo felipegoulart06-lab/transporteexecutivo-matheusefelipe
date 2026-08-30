@@ -1,0 +1,78 @@
+{
+    "estado": "tocantins",
+    "cidade": "gurupi",
+    "nome": "Gurupi",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-153",
+            "destino": "Gurupi",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Setor Norte",
+        "Setor Sul",
+        "Setor Central"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Gurupi",
+            "iata": "GRP",
+            "municipio": "Gurupi",
+            "acesso": "TO-040"
+        },
+        {
+            "nome": "Brigadeiro Lysias Rodrigues",
+            "iata": "PMW",
+            "municipio": "Palmas",
+            "acesso": "BR-153"
+        }
+    ],
+    "rodovias": [
+        "BR-153",
+        "TO-040",
+        "Avenida Goiás"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "quadra",
+        "quadra",
+        "eixo"
+    ],
+    "vizinhos_pedido": [
+        "Palmas",
+        "Peixe",
+        "Porto Nacional"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GRP em Gurupi",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "estado": "pernambuco",
+    "cidade": "caruaru",
+    "nome": "Caruaru",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-232",
+            "destino": "Oscar Laranjeira",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Indianópolis",
+        "Salgado",
+        "Universitário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Oscar Laranjeira",
+            "iata": "CAU",
+            "municipio": "Caruaru",
+            "acesso": "BR-232"
+        },
+        {
+            "nome": "Guararapes Gilberto Freyre",
+            "iata": "REC",
+            "municipio": "Recife",
+            "acesso": "BR-232"
+        }
+    ],
+    "rodovias": [
+        "BR-232",
+        "PE-095",
+        "Avenida Agamenon Magalhães"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "campus"
+    ],
+    "vizinhos_pedido": [
+        "Recife",
+        "Campina Grande",
+        "Garanhuns"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CAU em Caruaru",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

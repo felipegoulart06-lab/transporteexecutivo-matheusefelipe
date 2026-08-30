@@ -1,0 +1,78 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "pocos-de-caldas",
+    "nome": "Poços de Caldas",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-267",
+            "destino": "Embaixador Walther Moreira Salles",
+            "motivo": "hotel e termas"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "São Benedito",
+        "Country Club",
+        "Jardim Country Club"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Embaixador Walther Moreira Salles",
+            "iata": "POO",
+            "municipio": "Poços de Caldas",
+            "acesso": "MG-179"
+        },
+        {
+            "nome": "Viracopos",
+            "iata": "VCP",
+            "municipio": "Campinas",
+            "acesso": "BR-267"
+        }
+    ],
+    "rodovias": [
+        "BR-267",
+        "MG-179",
+        "Avenida João Pinheiro"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e termas",
+        "bairro",
+        "clube e hotel",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Campinas",
+        "São Paulo",
+        "Pouso Alegre"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal POO em Poços de Caldas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "macae",
+    "nome": "Macaé",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Imbetiba",
+            "eixo": "RJ-106",
+            "destino": "Joaquim de Azevedo Mancebo",
+            "motivo": "base e portaria"
+        }
+    ],
+    "eixos": [
+        "Imbetiba",
+        "Cavaleiros",
+        "Centro",
+        "Parque Aeroporto"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Joaquim de Azevedo Mancebo",
+            "iata": "MEA",
+            "municipio": "Macaé",
+            "acesso": "Hildebrando Alves Barbosa"
+        }
+    ],
+    "rodovias": [
+        "RJ-106",
+        "RJ-168",
+        "Avenida Atlântica"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "base e portaria",
+        "hotel na orla",
+        "sede",
+        "MEA"
+    ],
+    "vizinhos_pedido": [
+        "Campos dos Goytacazes",
+        "Cabo Frio",
+        "Rio de Janeiro"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal MEA em Macaé",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

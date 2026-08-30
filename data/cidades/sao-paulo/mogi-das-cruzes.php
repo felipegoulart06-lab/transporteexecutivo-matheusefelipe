@@ -5,74 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Mogi das Cruzes',
-    'geo' => ['lat' => -23.5225, 'lng' => -46.1858],
+    'geo' => [
+        'lat' => -23.5225,
+        'lng' => -46.1858,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Mogi das Cruzes',
     'seo' => [
-        'title' => 'Motorista no Alto Tietê: César de Souza e GRU',
-        'description' => 'Motorista no Alto Tietê para César de Souza, Vila Oliveira, Mogilar e o Centro de Mogi das Cruzes. Recuo até o GRU pela Dutra ou pela Ayrton Senna. Valor sob consulta.',
-        'og_title' => 'César de Souza, Vila Oliveira e o relógio da Dutra até o GRU',
-        'og_description' => 'Traslado em Mogi das Cruzes: hotel no Centro, pauta no César de Souza e o salto até Cumbica.',
-        'og_image_alt' => 'Sedan executivo na Avenida Henrique de Sampaio e Silva, em Mogi das Cruzes',
+        'title' => 'Motorista executivo em Mogi das Cruzes: Centro e GRU',
+        'description' => 'Carro com motorista em Mogi das Cruzes para Centro, César de Sousa e GRU. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Mogi das Cruzes: hotel, Centro e GRU',
+        'og_description' => 'O motorista combina Centro com Guarulhos (GRU), em Guarulhos. Informe nome do hotel ou da empresa.',
+        'og_image_alt' => 'Carro executivo em via de Mogi das Cruzes',
     ],
     'kicker' => 'Alto Tietê · SP',
-    'h1' => 'César de Souza, Vila Oliveira e o relógio da Dutra até o GRU',
-    'lead' => 'Entre César de Souza e a Vila Oliveira o relógio não é o da capital: é o da Dutra até o GRU, com o Alto Tietê no meio. Mogilar e o Centro pedem rua; Cumbica pede margem de rodovia. Quem trata Mogi como subúrbio de Guarulhos chega atrasado no saguão.',
+    'h1' => 'Mogi das Cruzes: entre Centro, César de Sousa e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Mogi das Cruzes',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Mogi das Cruzes embarca no GRU dentro da cidade?',
+            'resposta' => 'Não. De Mogi das Cruzes o GRU (Guarulhos) fica em Guarulhos. O trecho sai de Centro pela Dutra.',
+        ],
+        [
+            'pergunta' => 'Em Mogi das Cruzes, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Mogi das Cruzes. Envie nome do hotel ou da empresa em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Mogi das Cruzes vocês fazem Guarulhos?',
+            'resposta' => 'Sim, saindo de Mogi das Cruzes. Guarulhos não é o recorte de Centro; o horário pela Ayrton Senna sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Mogi das Cruzes o carro fica entre Centro e César de Sousa?',
+            'resposta' => 'Sim, em Mogi das Cruzes. A hora à disposição cobre sede e hotel em Centro e eixo em César de Sousa.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Mogi das Cruzes e o GRU',
+        'texto' => 'Diga o ponto em Centro ou César de Sousa, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Mogi das Cruzes',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Mogi das Cruzes e o recorte de Alto Tietê',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'guarulhos',
+            'ancora' => 'Motorista em guarulhos',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'sao-paulo',
+            'ancora' => 'Motorista em sao paulo',
+        ],
+    ],
+    'lead' => 'Mogi das Cruzes usa Guarulhos (GRU), em Guarulhos. Quem embarca em Centro não está no município da pista. A Dutra é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     'contexto' => [
-        'h2' => 'O Alto Tietê cobra bairro e rodovia, não “perto de GRU”',
+        'h2' => 'Mogi das Cruzes se mede em Dutra, não em pin de aplicativo',
         'texto' => [
-            'Mogi das Cruzes articula sede no Centro, pauta no César de Souza e o recorte residencial da Vila Oliveira sem ser extensão de Guarulhos. Hotel no Centro ou no Mogilar entra só como embarque. O voo em Cumbica cabe no mesmo dia se a Dutra (BR-116) ou a Ayrton Senna (SP-070) já estiverem no roteiro com o terminal certo — não se o carro for chamado na saída da reunião.',
-            'A Henrique de Sampaio e Silva e a Voluntário Fernando Dorling mudam o intervalo no pico. Quando a pauta aponta para a capital ou para o próprio GRU, o trecho deixa de ser só mogiano. “Me busca em Mogi” não distingue César de Souza de Cezar de Souza no GPS nem coloca o sedan na cancela do prédio.',
+            'Mogi das Cruzes usa Guarulhos (GRU), em Guarulhos. Quem embarca em Centro não está no município da pista. A Dutra é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'César de Sousa pede eixo. Vila Oliveira pede bairro. Quando Guarulhos entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Ayrton Senna.',
         ],
     ],
     'bairros' => [
-        'h2' => 'Eixos onde o embarque mogiano mais se repete',
+        'h2' => 'Eixos de embarque em Mogi das Cruzes',
         'itens' => [
-            ['h3' => 'Centro e a Henrique de Sampaio e Silva', 'texto' => 'Paço, hotel de embarque e o calçadão. Informe o prédio; o recuo do Centro não é o do César de Souza.'],
-            ['h3' => 'César de Souza e o recorte da SP-088', 'texto' => 'Comércio e o acesso rumo à rodovia. O distrito não se troca com a Vila Oliveira no mesmo pin.'],
-            ['h3' => 'Vila Oliveira e o Mogilar', 'texto' => 'Residencial, clínica e o hotel de apoio. Rua e número evitam a volta no quarteirão depois do Centro.'],
-            ['h3' => 'Cezar de Souza no limite do município', 'texto' => 'Grafia que o GPS confunde com o distrito. Confirme o logradouro; o Alto Tietê não admite pin ambíguo rumo ao GRU.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel ou da empresa. Centro não compartilha o recuo de César de Sousa.',
+            ],
+            [
+                'h3' => 'César de Sousa',
+                'texto' => 'Origem frequente para eixo. Informe nome do hotel ou da empresa. César de Sousa não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Vila Oliveira',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel ou da empresa. Vila Oliveira não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Brás Cubas',
+                'texto' => 'Origem frequente para distrito. Informe nome do hotel ou da empresa. Brás Cubas não compartilha o recuo de Centro.',
+            ],
         ],
     ],
     'aeroportos' => [
-        'h2' => 'GRU pela Dutra ou pela Ayrton Senna — CGH como salto extra',
+        'h2' => 'O terminal que a agenda de Mogi das Cruzes realmente usa',
         'itens' => [
-            ['h3' => 'Guarulhos — GRU', 'texto' => 'Cumbica é o saguão prático do Alto Tietê. Combinamos terminal e se a margem sai pela Dutra ou pela Ayrton Senna; os dois recortes não têm o mesmo relógio no pico.'],
-            ['h3' => 'Congonhas — CGH', 'texto' => 'Entra como viagem, não como corrida urbana de Mogi. Informe o voo; a malha até a zona sul da capital pede margem própria.'],
+            [
+                'h3' => 'Guarulhos — GRU',
+                'texto' => 'Guarulhos (GRU) fica em Guarulhos, não em Mogi das Cruzes. O trecho sai pela Ayrton Senna / Dutra. Diga o IATA e o número do voo.',
+            ],
+            [
+                'h3' => 'Dutra e a vazão para Guarulhos',
+                'texto' => 'Guarulhos e Suzano aparecem no mesmo pedido de Mogi das Cruzes. Isso é viagem, não segunda corrida em Centro.',
+            ],
         ],
     ],
     'rotas' => [
-        'h2' => 'Trajetos que a agenda do Alto Tietê mais pede',
+        'h2' => 'Trajetos que o pedido em Mogi das Cruzes mais combina',
         'itens' => [
-            ['titulo' => 'Hotel no Centro → César de Souza', 'texto' => 'Pernoite só como embarque. Diga o nome do hotel e se o carro espera enquanto a pauta no distrito corre.'],
-            ['titulo' => 'Vila Oliveira ou Mogilar → GRU', 'texto' => 'Dutra ou Ayrton Senna. Combinamos o terminal; não é o mesmo intervalo do Centro até o Paço.'],
-            ['titulo' => 'Mogi → Guarulhos cidade ou a capital', 'texto' => 'Quando a pauta vaza do município, o trecho deixa de ser só urbano. Horário e valor saem sob consulta.'],
+            [
+                'titulo' => 'Centro → GRU',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: Ayrton Senna / Dutra.',
+            ],
+            [
+                'titulo' => 'GRU → César de Sousa',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel ou da empresa.',
+            ],
+            [
+                'titulo' => 'Centro → Guarulhos',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de César de Sousa; o horário sai sob consulta.',
+            ],
         ],
     ],
     'como' => [
-        'h2' => 'Três dados que o Alto Tietê precisa antes do carro sair',
+        'h2' => 'Como o carro entra na pauta em Mogi das Cruzes',
         'passos' => [
-            ['titulo' => 'Distrito, não só o município', 'texto' => 'Centro, César de Souza, Vila Oliveira ou Mogilar. Autocomplete mistura Cezar e César no mesmo pin.'],
-            ['titulo' => 'Qual saguão e qual rodovia', 'texto' => 'GRU pela Dutra ou pela Ayrton Senna muda a margem. CGH entra só se já estiver no roteiro.'],
-            ['titulo' => 'Confirmação no WhatsApp', 'texto' => 'Em Mogi das Cruzes, nome e DDD. Devolvemos o horário de apresentação. Valor sob consulta.'],
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel ou da empresa. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o GRU ou Guarulhos entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Mogi das Cruzes, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
         ],
-    ],
-    'faq_h2' => 'O que o Alto Tietê pergunta antes do GRU',
-    'faq' => [
-        ['pergunta' => 'GRU pela Dutra ou pela Ayrton Senna — quem decide a margem?', 'resposta' => 'O roteiro decide com o horário do voo e o ponto de saída. César de Souza e o Centro não compartilham o mesmo intervalo até Cumbica; informamos a via no recado de confirmação.'],
-        ['pergunta' => 'César de Souza e Vila Oliveira compartilham o mesmo recuo?', 'resposta' => 'Não. São recortes distintos. Rua e o nome do estabelecimento entram no pedido; o pin “Mogi” não basta.'],
-        ['pergunta' => 'Mogilar cabe entre o hotel e o saguão no mesmo expediente?', 'resposta' => 'Cabe, se a ordem já estiver no itinerário. O hotel é só embarque; o GRU pede margem de rodovia, não o minuto do check-out.'],
-        ['pergunta' => 'O Alto Tietê se trata como extensão de Guarulhos?', 'resposta' => 'Não. Mogi das Cruzes tem recuo próprio. Guarulhos cidade e o terminal GRU entram como trechos nomeados, não como o mesmo município.'],
-        ['pergunta' => 'Qual dado falta quando o pin cai só em “Mogi”?', 'resposta' => 'Bairro ou distrito, logradouro e se o destino é o GRU. Cezar de Souza e César de Souza se confundem no GPS; o endereço escrito evita o erro.'],
-    ],
-    'cta' => [
-        'titulo' => 'César de Souza e o GRU no mesmo expediente',
-        'texto' => 'Alto Tietê, Mogilar e terminal: descreva a ordem. Orçamento sob consulta.',
-        'botao' => 'Pedir motorista no Alto Tietê',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'guarulhos', 'ancora' => 'Cumbica, Centro e o recuo de GRU'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas e GRU na capital'],
     ],
 ];

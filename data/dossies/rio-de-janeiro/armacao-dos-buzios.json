@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "armacao-dos-buzios",
+    "nome": "Armação dos Búzios",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "RJ-102",
+            "destino": "Cabo Frio",
+            "motivo": "hotel e orla"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Geribá",
+        "João Fernandes",
+        "Ferradura"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Cabo Frio",
+            "iata": "CFB",
+            "municipio": "Cabo Frio",
+            "acesso": "RJ-102"
+        },
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "RJ-106"
+        }
+    ],
+    "rodovias": [
+        "RJ-102",
+        "RJ-106",
+        "Avenida José Bento Ribeiro Dantas"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e orla",
+        "praia e hotel",
+        "orla norte",
+        "enseada"
+    ],
+    "vizinhos_pedido": [
+        "Cabo Frio",
+        "Rio de Janeiro",
+        "Arraial do Cabo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CFB em Cabo Frio",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

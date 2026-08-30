@@ -1,0 +1,72 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "americana",
+    "nome": "Americana",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Anhanguera",
+            "destino": "Viracopos",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Praia Azul",
+        "Carioba",
+        "Vila Medon"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Viracopos",
+            "iata": "VCP",
+            "municipio": "Campinas",
+            "acesso": "Anhanguera"
+        }
+    ],
+    "rodovias": [
+        "Anhanguera",
+        "SP-304",
+        "Avenida Brasil"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "orla da represa",
+        "industrial",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Santa Bárbara d'Oeste",
+        "Campinas",
+        "Limeira"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VCP em Campinas",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

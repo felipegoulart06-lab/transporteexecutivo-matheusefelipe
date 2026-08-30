@@ -5,60 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'rio',
     'cidade_nome' => 'Foz do Iguaçu',
-    'geo' => ['lat' => -25.5163, 'lng' => -54.5854],
+    'geo' => [
+        'lat' => -25.5163,
+        'lng' => -54.5854,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Foz do Iguaçu',
     'seo' => [
-        'title' => 'Traslado executivo em Foz do Iguaçu: Cataratas, Centro e IGU',
-        'description' => 'Motorista executivo em Foz do Iguaçu para o Centro, Cataratas, Itaipu, Porto Meira e o aeroporto. Tríplice fronteira e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista nas Cataratas, no Centro e no aeroporto IGU',
-        'og_description' => 'Traslado em Foz: hotel, Cataratas, Itaipu e o terminal das Cataratas.',
-        'og_image_alt' => 'Sedan executivo em avenida de Foz do Iguaçu próxima ao rio',
+        'title' => 'Motorista executivo em Foz do Iguaçu: Centro e IGU',
+        'description' => 'Carro com motorista em Foz do Iguaçu para Centro, Vila Portes e IGU. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Foz do Iguaçu: Centro e IGU',
+        'og_description' => 'O motorista combina Centro com Cataratas (IGU), no próprio município. Informe nome do hotel e o recuo.',
+        'og_image_alt' => 'Carro executivo em via de Foz do Iguaçu',
     ],
-    'kicker' => 'Tríplice fronteira · PR',
-    'h1' => 'Do IGU às Cataratas sem perder a janela de Itaipu',
-    'corrente' => [
-        [
-            'h2' => 'Foz se organiza por três fronteiras — o relógio é o do voo e o da visita',
-            'texto' => 'Quem chega a Foz do Iguaçu pousa no Aeroporto Internacional das Cataratas (IGU). Hotel no Centro ou na Av. das Cataratas, visita ao Parque Nacional e à Itaipu cabem no mesmo roteiro se o motorista já saiu com a ordem da BR-469, não com o aceite do minuto.',
-        ],
-        [
-            'h2' => 'Pontos da cidade que a agenda de Foz mais cita',
-            'itens' => [
-                ['h3' => 'Centro e a Av. Brasil', 'texto' => 'Hotéis, câmbio e o recuo urbano. Informe o nome; a avenida mistura comércio e pernoite em quadras curtas.'],
-                ['h3' => 'Av. das Cataratas e Porto Meira', 'texto' => 'Hotéis de parque (Bourbon, similar). O recuo pede o estabelecimento; “na Cataratas” não define a entrada.'],
-                ['h3' => 'Parque Nacional — Cataratas', 'texto' => 'Visita combinada. O acesso da BR-469 e o estacionamento do parque pedem horário de portaria, não GPS na passarela.'],
-                ['h3' => 'Itaipu Binacional', 'texto' => 'Visita técnica ou turística. Protocolo de entrada entra no roteiro junto com o documento pedido pela usina.'],
-            ],
-        ],
-        [
-            'h2' => 'Rotas de fronteira que cabem no mesmo dia',
-            'itens' => [
-                ['h3' => 'IGU → hotel → Cataratas', 'texto' => 'Pouso, pernoite e o parque. A margem sai do terminal, não da fila do ônibus do complexo.'],
-                ['h3' => 'Hotel → Itaipu → Marco das Três Fronteiras', 'texto' => 'Usina e o marco só se estiverem no roteiro. Combinamos o ponto de espera em cada recuo.'],
-                ['h3' => 'Ponte da Amizade rumo a Ciudad del Este', 'texto' => 'Quando a pauta cruza ao Paraguai, o trecho entra como viagem de fronteira. Documentos e horário saem sob consulta.'],
-            ],
-        ],
-        [
-            'h2' => 'Cataratas Internacionais — IGU',
-            'texto' => 'O terminal fica no recorte do município, no caminho do parque. Combinamos o voo. A espera no desembarque integra o trecho IGU; o passageiro não cruza o saguão atrás de uma placa genérica.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no IGU',
+    'kicker' => 'Oeste paranaense · PR',
+    'h1' => 'Em Foz do Iguaçu: do embarque em Centro ao IGU',
+    'faq_h2' => 'Dúvidas de quem embarca em Foz do Iguaçu',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Foz fica longe das Cataratas?', 'resposta' => 'O IGU fica no eixo da BR-469, no caminho do parque. Ainda assim marcamos margem: o horário de visitação e o fluxo do complexo alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no IGU se o voo atrasar?', 'resposta' => 'Sim. Em Foz do Iguaçu, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram no Parque Nacional e na Itaipu?', 'resposta' => 'Levamos até o recuo de cada complexo. Ingresso e protocolo da usina são do passageiro; o carro espera onde combinado.'],
-        ['pergunta' => 'Dá para cruzar a Ponte da Amizade no mesmo dia?', 'resposta' => 'Sim, quando Ciudad del Este entra no roteiro. Não é o mesmo recorte do Centro; documentos e horário saem sob consulta.'],
+        [
+            'pergunta' => 'Em Foz do Iguaçu, o IGU fica no próprio município?',
+            'resposta' => 'Sim. Em Foz do Iguaçu, Cataratas (IGU) fica no município. Informe o acesso via Avenida das Cataratas.',
+        ],
+        [
+            'pergunta' => 'Em Foz do Iguaçu, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Foz do Iguaçu. Envie nome do hotel e o recuo em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Foz do Iguaçu vocês fazem Ciudad del Este?',
+            'resposta' => 'Sim, saindo de Foz do Iguaçu. Ciudad del Este não é o recorte de Centro; o horário pela Avenida República Argentina sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Foz do Iguaçu o carro fica entre Centro e Vila Portes?',
+            'resposta' => 'Sim, em Foz do Iguaçu. A hora à disposição cobre hotel em Centro e fronteira em Vila Portes.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Junte o IGU ao horário das Cataratas',
-        'texto' => 'O orçamento de Foz sai sob consulta. Parque, Itaipu e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir carro em Foz do Iguaçu',
+        'titulo' => 'Informe o embarque em Foz do Iguaçu e o IGU',
+        'texto' => 'Diga o ponto em Centro ou Vila Portes, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Foz do Iguaçu',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'parana', 'ancora' => 'Foz, Londrina e o recorte paranaense'],
-        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'curitiba', 'ancora' => 'Batel, Centro Cívico e o Afonso Pena'],
-        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'londrina', 'ancora' => 'Gleba, Centro e o LDB'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'parana',
+            'ancora' => 'Foz do Iguaçu e o recorte de Oeste paranaense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'parana',
+            'cidade' => 'curitiba',
+            'ancora' => 'Motorista em curitiba',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'parana',
+            'cidade' => 'londrina',
+            'ancora' => 'Motorista em londrina',
+        ],
+    ],
+    'corrente' => [
+        [
+            'h2' => 'Foz do Iguaçu e o primeiro recuo',
+            'texto' => 'Foz do Iguaçu concentra Centro (hotel) e Cataratas (IGU) no mesmo município. O motorista precisa do ponto de embarque e do IGU no mesmo recado — “me busca em Foz do Iguaçu” não define o recuo.',
+        ],
+        [
+            'h2' => 'Eixos que o pedido cita',
+            'itens' => [
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para hotel. Informe nome do hotel e o recuo. Centro não compartilha o recuo de Vila Portes.',
+                ],
+                [
+                    'h3' => 'Vila Portes',
+                    'texto' => 'Origem frequente para fronteira. Informe nome do hotel e o recuo. Vila Portes não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Cataratas',
+                    'texto' => 'Origem frequente para parque e hotel. Informe nome do hotel e o recuo. Cataratas não compartilha o recuo de Centro.',
+                ],
+            ],
+        ],
+        [
+            'h2' => 'Cataratas (IGU)',
+            'texto' => 'Cataratas (IGU) fica em Foz do Iguaçu. Acesso: Avenida das Cataratas. Combinamos o voo; a espera no desembarque integra o trecho.',
+        ],
     ],
 ];

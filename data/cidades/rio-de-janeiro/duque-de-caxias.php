@@ -5,58 +5,94 @@ declare(strict_types=1);
 return [
     'layout' => 'protocolo',
     'cidade_nome' => 'Duque de Caxias',
-    'geo' => ['lat' => -22.7868, 'lng' => -43.3132],
+    'geo' => [
+        'lat' => -22.7868,
+        'lng' => -43.3132,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Duque de Caxias',
     'seo' => [
-        'title' => 'Motorista em Duque de Caxias: Centro, REDUC e GIG',
-        'description' => 'Motorista executivo em Duque de Caxias para o Centro, 25 de Agosto, Gramacho, REDUC e o Galeão. Via Dutra, espera combinada e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro, na REDUC e rumo ao Galeão',
-        'og_description' => 'Traslado na Baixada: hotel, portaria da refinaria e o recuo até o GIG.',
-        'og_image_alt' => 'Sedan executivo em avenida de Duque de Caxias',
+        'title' => 'Motorista executivo em Duque de Caxias: Centro e GIG',
+        'description' => 'Carro com motorista em Duque de Caxias para Centro, Gramacho e GIG. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Duque de Caxias: Centro e GIG',
+        'og_description' => 'O motorista combina Centro com Galeão (GIG), em Rio de Janeiro. Informe nome na lista da portaria.',
+        'og_image_alt' => 'Carro executivo em via de Duque de Caxias',
     ],
     'kicker' => 'Baixada Fluminense · RJ',
-    'h1' => 'Da REDUC ao Centro sem perder a janela do Galeão',
-    'preambulo' => 'Duque de Caxias não é subúrbio genérico do Rio: é o município da REDUC, da Via Dutra e do recuo curto até o Galeão, na Ilha do Governador. Hotel no Centro ou no Jardim 25 de Agosto, briefing na refinaria e o voo no GIG cabem no mesmo expediente se o motorista já conhece a Washington Luís e o protocolo de cada portaria.',
+    'h1' => 'Em Duque de Caxias, de Centro a Galeão (GIG), em Rio de Janeiro',
+    'faq_h2' => 'Dúvidas de quem embarca em Duque de Caxias',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Duque de Caxias embarca no GIG dentro da cidade?',
+            'resposta' => 'Não. De Duque de Caxias o GIG (Galeão) fica em Rio de Janeiro. O trecho sai de Centro pela Avenida Brasil.',
+        ],
+        [
+            'pergunta' => 'Em Duque de Caxias, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Duque de Caxias. Envie nome na lista da portaria em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Duque de Caxias vocês fazem Rio de Janeiro?',
+            'resposta' => 'Sim, saindo de Duque de Caxias. Rio de Janeiro não é o recorte de Centro; o horário pela Washington Luís sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Duque de Caxias, GIG e SDU são o mesmo recorte?',
+            'resposta' => 'Não, em Duque de Caxias. Os dois ficam em Rio de Janeiro, mas o acesso muda: GIG pela Avenida Brasil / Washington Luís e SDU pela Avenida Brasil. Diga o IATA.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Duque de Caxias e o GIG',
+        'texto' => 'Diga o ponto em Centro ou Gramacho, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Duque de Caxias',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-de-janeiro',
+            'ancora' => 'Duque de Caxias e o recorte de Baixada Fluminense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'rio-de-janeiro',
+            'ancora' => 'Motorista em rio de janeiro',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'niteroi',
+            'ancora' => 'Motorista em niteroi',
+        ],
+    ],
+    'preambulo' => 'Duque de Caxias usa Galeão (GIG), em Rio de Janeiro. Quem embarca em Centro não está no município da pista. A Avenida Brasil é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     'artigos' => [
         [
-            'h2' => 'A Baixada pede a portaria, não “perto do Rio”',
-            'texto' => 'Centro, 25 de Agosto, Gramacho e Saracuruna não compartilham o mesmo recuo. Hotel (Ibis, similares) e pauta na REDUC pedem o nome da cancela. “Me busca em Caxias” não coloca o carro na lista da refinaria nem na rua certa do Jardim 25 de Agosto.',
+            'h2' => 'Centro pede protocolo, não pin',
+            'texto' => 'Origem frequente para sede. Informe nome na lista da portaria. Centro não compartilha o recuo de Gramacho.',
         ],
         [
-            'h2' => 'Gramacho, Saracuruna e o silêncio da espera',
-            'texto' => 'Eixo industrial e o recorte residencial ao norte. O recuo pede rua e número. Quando a comitiva dorme no 25 de Agosto e reúne na REDUC às seis, a margem sai do hotel, não do aceite do minuto na Washington Luís.',
+            'h2' => 'Gramacho e Saracuruna',
+            'texto' => 'Gramacho pede polo e REDUC. Saracuruna pede bairro. Quando Rio de Janeiro entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Washington Luís.',
         ],
         [
-            'h2' => 'Galeão — GIG na porta da Baixada',
-            'texto' => 'O Galeão fica na Ilha do Governador, a poucos quilômetros. Combinamos o voo e o terminal. A espera no desembarque integra o trecho GIG. O Santos Dumont (SDU) entra como alternativa de ponte aérea; até lá a Avenida Brasil pesa mais que o mapa. Via Dutra e Washington Luís mudam o intervalo conforme o horário.',
+            'h2' => 'Galeão (GIG)',
+            'texto' => 'Galeão (GIG) fica em Rio de Janeiro, não em Duque de Caxias. O trecho sai pela Avenida Brasil / Washington Luís. Diga o IATA e o número do voo.',
         ],
     ],
     'pauta' => [
-        'h2' => 'Itens que entram na ordem do dia em Duque de Caxias',
+        'h2' => 'Itens da ordem do dia em Duque de Caxias',
         'itens' => [
-            ['h3' => 'REDUC e o protocolo de portaria', 'texto' => 'Nome na lista e documento. Sem isso, o recuo da refinaria não libera.'],
-            ['h3' => 'Hotel no Centro ou no 25 de Agosto', 'texto' => 'O nome do hotel evita a volta na Washington Luís. “Perto do Centro” não basta.'],
-            ['h3' => 'Gramacho e Saracuruna', 'texto' => 'Pauta logística. Informe o galpão ou o distrito; os acessos se repetem no nome.'],
-            ['h3' => 'Quando a pauta aponta para o GIG ou o SDU', 'texto' => 'Não é o mesmo pedido urbano. O orçamento sai à parte, com horário de Dutra ou de Avenida Brasil.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome na lista da portaria. Centro não compartilha o recuo de Gramacho.',
+            ],
+            [
+                'h3' => 'Gramacho',
+                'texto' => 'Origem frequente para polo e REDUC. Informe nome na lista da portaria. Gramacho não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Saracuruna',
+                'texto' => 'Origem frequente para bairro. Informe nome na lista da portaria. Saracuruna não compartilha o recuo de Centro.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem pauta a REDUC e o Galeão',
-    'faq' => [
-        ['pergunta' => 'O Galeão fica longe do Centro de Duque de Caxias?', 'resposta' => 'É o aeroporto mais próximo. Marcamos margem: a Washington Luís e o acesso à Ilha do Governador alteram o intervalo mais que o mapa.'],
-        ['pergunta' => 'Em Duque de Caxias, o motorista espera no GIG se o voo atrasar?', 'resposta' => 'Sim. Em Duque de Caxias, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês entram na REDUC com protocolo de portaria?', 'resposta' => 'Sim. Em Duque de Caxias, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Em Duque de Caxias, dá para usar o Santos Dumont em vez do Galeão?', 'resposta' => 'Sim, quando o SDU entra no roteiro. Não é o mesmo recorte do GIG; a Avenida Brasil pede outra margem.'],
-        ['pergunta' => 'Vocês fazem Gramacho e o Centro no mesmo expediente?', 'resposta' => 'Sim. Informe a ordem e o ponto de espera. A Via Dutra e a Washington Luís são eixos distintos.'],
-    ],
-    'cta' => [
-        'titulo' => 'Envie a portaria junto com o horário do GIG',
-        'texto' => 'O orçamento de Duque de Caxias sai sob consulta. REDUC, hotel e Galeão no mesmo recado.',
-        'botao' => 'Solicitar carro em Duque de Caxias',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-de-janeiro', 'ancora' => 'O recorte fluminense além da capital'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Santos Dumont, Galeão e a Zona Sul'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'niteroi', 'ancora' => 'Icaraí, Centro e a Ponte Rio-Niterói'],
     ],
 ];

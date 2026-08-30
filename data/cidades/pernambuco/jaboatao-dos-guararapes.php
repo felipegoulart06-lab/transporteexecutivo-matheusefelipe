@@ -5,77 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'mare',
     'cidade_nome' => 'Jaboatão dos Guararapes',
-    'geo' => ['lat' => -8.112, 'lng' => -35.015],
+    'geo' => [
+        'lat' => -8.112,
+        'lng' => -35.015,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Jaboatão dos Guararapes',
     'seo' => [
-        'title' => 'Motorista em Jaboatão: Piedade, Candeias e REC',
-        'description' => 'Carro com motorista em Jaboatão dos Guararapes para Piedade, Candeias, Prazeres, Cavaleiro e o trecho até o REC. Embarque no hotel e orçamento sob consulta.',
-        'og_title' => 'Traslado entre Piedade, Candeias e o Guararapes',
-        'og_description' => 'Motorista no sul da RMR: hotel na orla de Piedade, pauta em Prazeres e o recuo urbano até o REC.',
-        'og_image_alt' => 'Sedan executivo na orla de Piedade, em Jaboatão dos Guararapes',
+        'title' => 'Motorista executivo em Jaboatão dos Guararapes: Piedade e REC',
+        'description' => 'Carro com motorista em Jaboatão dos Guararapes para Piedade, Candeias e REC. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Jaboatão dos Guararapes: hotel, Piedade e REC',
+        'og_description' => 'O motorista combina Piedade com Guararapes Gilberto Freyre (REC), em Recife. Informe nome do hotel na orla.',
+        'og_image_alt' => 'Carro executivo em via de Jaboatão dos Guararapes',
     ],
-    'kicker' => 'Sul da Região Metropolitana · PE',
-    'h1' => 'De Piedade a Candeias sem perder a janela do Guararapes',
+    'kicker' => 'Região Metropolitana do Recife · PE',
+    'h1' => 'Em Jaboatão dos Guararapes: do embarque em Piedade ao REC',
+    'faq_h2' => 'Dúvidas de quem embarca em Jaboatão dos Guararapes',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Jaboatão dos Guararapes embarca no REC dentro da cidade?',
+            'resposta' => 'Não. De Jaboatão dos Guararapes o REC (Guararapes Gilberto Freyre) fica em Recife. O trecho sai de Piedade pela PE-007.',
+        ],
+        [
+            'pergunta' => 'Em Jaboatão dos Guararapes, vocês buscam em Piedade?',
+            'resposta' => 'Sim, em Jaboatão dos Guararapes. Envie nome do hotel na orla em Piedade. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Jaboatão dos Guararapes vocês fazem Recife?',
+            'resposta' => 'Sim, saindo de Jaboatão dos Guararapes. Recife não é o recorte de Piedade; o horário pela BR-101 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Jaboatão dos Guararapes o carro fica entre Piedade e Candeias?',
+            'resposta' => 'Sim, em Jaboatão dos Guararapes. A hora à disposição cobre hotel na orla em Piedade e orla em Candeias.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Jaboatão dos Guararapes e o REC',
+        'texto' => 'Diga o ponto em Piedade ou Candeias, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Jaboatão dos Guararapes',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'pernambuco',
+            'ancora' => 'Jaboatão dos Guararapes e o recorte de Região Metropolitana do Recife',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'recife',
+            'ancora' => 'Motorista em recife',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'olinda',
+            'ancora' => 'Motorista em olinda',
+        ],
+    ],
     'editorial' => [
-        'h2' => 'Jaboatão cola no Recife — o município, porém, tem recuo próprio',
+        'h2' => 'Jaboatão dos Guararapes pede ordem de endereço, não slogan',
         'texto' => [
-            'Piedade e Candeias encostam na orla; Prazeres, o Centro e Cavaleiro puxam para o interior da malha. O Aeroporto Internacional do Recife (REC) fica no município vizinho, mas a mancha urbana é contínua: o trecho até o Guararapes não é viagem de interior. Hotel na orla, reunião no Shopping Guararapes e o voo cabem no mesmo expediente se o motorista já saiu com a ordem da PE-007, da via Costeira e da Mascarenhas, não com o atalho do minuto.',
-            'O serviço é de traslado executivo, com espera combinada. O hotel entra como ponto de embarque — nome, número e recuo — não como vitrine de parceria. O orçamento sai sob consulta.',
+            'Jaboatão dos Guararapes usa Guararapes Gilberto Freyre (REC), em Recife. Quem embarca em Piedade não está no município da pista. A PE-007 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Candeias pede orla. Centro pede sede. Quando Recife entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-101.',
         ],
     ],
     'coluna_a' => [
-        'h2' => 'Três recortes que a pauta de Jaboatão mais cita',
+        'h2' => 'Eixos de Jaboatão dos Guararapes',
         'itens' => [
             [
-                'h3' => 'Piedade e Candeias',
-                'texto' => 'Orla, hotel e jantar. Informe o trecho da praia e o nome do prédio; a numeração se repete e o recuo muda entre a Avenida Bernardo Vieira de Melo e as travessas. “Na Piedade” não coloca o carro na porta certa.',
+                'h3' => 'Piedade',
+                'texto' => 'Origem frequente para hotel na orla. Informe nome do hotel na orla. Piedade não compartilha o recuo de Candeias.',
             ],
             [
-                'h3' => 'Prazeres, Centro e o Shopping Guararapes',
-                'texto' => 'Comércio, sede e o eixo da Barreto de Menezes. O shopping é marco de encontro, não endereço completo: diga a torre, o hotel ou a loja âncora. No pico, o recuo do estacionamento e o da via são coisas distintas.',
+                'h3' => 'Candeias',
+                'texto' => 'Origem frequente para orla. Informe nome do hotel na orla. Candeias não compartilha o recuo de Piedade.',
             ],
             [
-                'h3' => 'Cavaleiro e o recuo rumo ao Recife',
-                'texto' => 'Bairro mais interno, com acesso pela BR-101 e pela malha da RMR. Quando a pauta mistura Cavaleiro, Piedade e o REC no mesmo dia, a ordem das vias pesa mais que a distância no mapa.',
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede. Informe nome do hotel na orla. Centro não compartilha o recuo de Piedade.',
             ],
         ],
     ],
     'coluna_b' => [
-        'h2' => 'Guararapes — REC no município vizinho',
-        'texto' => 'O terminal dos Guararapes fica em Recife, não em Jaboatão. A mancha urbana, porém, é uma só: Piedade e Candeias chegam ao REC em trecho metropolitano. Combinamos o voo. A espera no desembarque integra o trecho; o passageiro não cruza o saguão atrás de uma placa genérica. Até o hotel da orla, a Mascarenhas e a PE-007 alteram o relógio no fim da tarde.',
-    ],
-    'faq_h2' => 'Dúvidas de quem pauta Piedade e o Guararapes',
-    'faq' => [
-        [
-            'pergunta' => 'O aeroporto do Recife fica em Jaboatão?',
-            'resposta' => 'Não. O REC fica no Recife. A mancha urbana é contínua: Piedade e Candeias chegam ao terminal em trecho metropolitano, com margem para a Mascarenhas.',
-        ],
-        [
-            'pergunta' => 'Em Jaboatão dos Guararapes, o motorista espera no REC se o voo atrasar?',
-            'resposta' => 'Sim. Em Jaboatão dos Guararapes, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Piedade, Candeias e o Shopping Guararapes no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do hotel ou da torre. Um carro articula orla e eixo comercial sem três aceites.',
-        ],
-        [
-            'pergunta' => 'Dá para incluir o Recife ou Olinda depois do hotel em Piedade?',
-            'resposta' => 'Sim, quando o endereço vizinho entra no roteiro. São municípios contíguos; o recuo muda na ponte e na ladeira. O horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'O hotel em Candeias conta como parceria do serviço?',
-            'resposta' => 'Não. O hotel entra só como embarque: nome, acesso e ponto de espera. Não há convênio de porta. O orçamento sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Junte Piedade ao horário do Guararapes',
-        'texto' => 'O orçamento de Jaboatão sai sob consulta. Orla, Prazeres e REC no mesmo recado.',
-        'botao' => 'Pedir motorista em Jaboatão',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'pernambuco', 'ancora' => 'Recife, o agreste e o Vale do São Francisco'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'recife', 'ancora' => 'Boa Viagem, Recife Antigo e o REC'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'olinda', 'ancora' => 'Sítio Histórico, Casa Caiada e o Guararapes'],
+        'h2' => 'REC e a vazão',
+        'texto' => 'Guararapes Gilberto Freyre (REC) fica em Recife, não em Jaboatão dos Guararapes. O trecho sai pela PE-007 / Mascarenhas. Diga o IATA e o número do voo. Recife entra como viagem.',
     ],
 ];

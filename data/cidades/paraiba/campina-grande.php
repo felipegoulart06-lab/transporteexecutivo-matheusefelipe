@@ -5,52 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'mare',
     'cidade_nome' => 'Campina Grande',
-    'geo' => ['lat' => -7.2306, 'lng' => -35.8811],
+    'geo' => [
+        'lat' => -7.2306,
+        'lng' => -35.8811,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Campina Grande',
     'seo' => [
-        'title' => 'Carro executivo em Campina Grande: Centro, Catolé e CPV',
-        'description' => 'Motorista executivo em Campina Grande para o Centro, Catolé, Bodocongó e o aeroporto Presidente João Suassuna. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro, no Catolé e no aeroporto CPV',
-        'og_description' => 'Carro com motorista no brejo paraibano: hotel no Catolé, pauta no Centro e o terminal CPV.',
-        'og_image_alt' => 'Sedan executivo em avenida de Campina Grande',
+        'title' => 'Motorista executivo em Campina Grande: Centro e CPV',
+        'description' => 'Carro com motorista em Campina Grande para Centro, Bodocongó e CPV. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Campina Grande: hotel, Centro e CPV',
+        'og_description' => 'O motorista combina Centro com Presidente João Suassuna (CPV), no próprio município. Informe nome do hotel ou do campus.',
+        'og_image_alt' => 'Carro executivo em via de Campina Grande',
     ],
-    'kicker' => 'Brejo paraibano · PB',
-    'h1' => 'Do CPV ao Catolé sem perder a reunião no Centro',
-    'editorial' => [
-        'h2' => 'Campina se lê em serra e em campus — o app não lê o Maior São João',
-        'texto' => [
-            'Hotel no Catolé, reunião no Centro ou no Bodocongó e voo no Presidente João Suassuna (CPV) cabem no mesmo caderno se o motorista já saiu com a ordem da Floriano Peixoto e da Manoel Tavares, não com o atalho do momento.',
-            'O serviço é de traslado executivo: discreto, com espera combinada. Não é corrida de parque no São João, a menos que o evento entre no roteiro.',
-        ],
-    ],
-    'coluna_a' => [
-        'h2' => 'Três recortes que a pauta campinense usa',
-        'itens' => [
-            ['h3' => 'Centro e a Floriano Peixoto', 'texto' => 'Em Campina Grande, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Catolé, Liberdade e o shopping', 'texto' => 'Hotéis (Garden, similar) e clínicas. Deslocamentos curtos que esticam no semáforo da Manoel Tavares.'],
-            ['h3' => 'Bodocongó, UFCG e a UEPB', 'texto' => 'Campus e pauta acadêmica. O recuo pede bloco e portaria, não “na universidade”.'],
-        ],
-    ],
-    'coluna_b' => [
-        'h2' => 'Presidente João Suassuna — CPV',
-        'texto' => 'O aeroporto fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho CPV. Até o Catolé ou o Centro, a avenida pesa mais que o mapa admite no pico.',
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no João Suassuna',
+    'kicker' => 'Agreste paraibano · PB',
+    'h1' => 'Campina Grande — Centro de manhã, CPV quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Campina Grande',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Campina Grande fica longe do Catolé?', 'resposta' => 'Em Campina Grande, é trecho urbano. Marcamos margem: a avenida e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no CPV se o voo atrasar?', 'resposta' => 'Sim. Em Campina Grande, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, Catolé e o campus no mesmo dia?', 'resposta' => 'Sim. Em Campina Grande, informe o bloco. Um motorista articula os três recuos.'],
-        ['pergunta' => 'Dá para seguir a João Pessoa depois do hotel?', 'resposta' => 'Sim, como viagem de serra. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        [
+            'pergunta' => 'Em Campina Grande, o CPV fica no próprio município?',
+            'resposta' => 'Sim. Em Campina Grande, Presidente João Suassuna (CPV) fica no município. Informe o acesso via BR-230.',
+        ],
+        [
+            'pergunta' => 'Em Campina Grande, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Campina Grande. Envie nome do hotel ou do campus em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Campina Grande vocês fazem João Pessoa?',
+            'resposta' => 'Sim, saindo de Campina Grande. João Pessoa não é o recorte de Centro; o horário pela BR-104 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Campina Grande, CPV e JPA são o mesmo recorte?',
+            'resposta' => 'Não, em Campina Grande. CPV fica em Campina Grande; JPA fica em Santa Rita. Diga o IATA no pedido.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Anote o Catolé junto com o horário do CPV',
-        'texto' => 'O orçamento de Campina Grande sai sob consulta. Centro, campus e terminal no mesmo recado.',
+        'titulo' => 'Informe o embarque em Campina Grande e o CPV',
+        'texto' => 'Diga o ponto em Centro ou Bodocongó, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Campina Grande',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'paraiba', 'ancora' => 'Campina Grande, Patos e o recorte paraibano'],
-        ['tipo' => 'cidade', 'estado' => 'paraiba', 'cidade' => 'joao-pessoa', 'ancora' => 'Tambaú, Cabo Branco e o Castro Pinto'],
-        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'recife', 'ancora' => 'Boa Viagem, pontes e o Guararapes'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'paraiba',
+            'ancora' => 'Campina Grande e o recorte de Agreste paraibano',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'paraiba',
+            'cidade' => 'joao-pessoa',
+            'ancora' => 'Motorista em joao pessoa',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'pernambuco',
+            'cidade' => 'recife',
+            'ancora' => 'Motorista em recife',
+        ],
+    ],
+    'editorial' => [
+        'h2' => 'Campina Grande pede ordem de endereço, não slogan',
+        'texto' => [
+            'Campina Grande concentra Centro (sede e hotel) e Presidente João Suassuna (CPV) no mesmo município. O motorista precisa do ponto de embarque e do CPV no mesmo recado — “me busca em Campina Grande” não define o recuo.',
+            'Bodocongó pede UFCG. Catolé pede bairro. Quando João Pessoa entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-104.',
+        ],
+    ],
+    'coluna_a' => [
+        'h2' => 'Eixos de Campina Grande',
+        'itens' => [
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel ou do campus. Centro não compartilha o recuo de Bodocongó.',
+            ],
+            [
+                'h3' => 'Bodocongó',
+                'texto' => 'Origem frequente para UFCG. Informe nome do hotel ou do campus. Bodocongó não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Catolé',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel ou do campus. Catolé não compartilha o recuo de Centro.',
+            ],
+        ],
+    ],
+    'coluna_b' => [
+        'h2' => 'CPV e a vazão',
+        'texto' => 'Presidente João Suassuna (CPV) fica em Campina Grande. Acesso: BR-230. Combinamos o voo; a espera no desembarque integra o trecho. João Pessoa entra como viagem.',
     ],
 ];

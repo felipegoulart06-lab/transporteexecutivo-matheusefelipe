@@ -1,0 +1,78 @@
+{
+    "estado": "rio-grande-do-norte",
+    "cidade": "mossoro",
+    "nome": "Mossoró",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-304",
+            "destino": "Dix-Sept Rosado",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Nova Betânia",
+        "Abolição",
+        "Universitário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Dix-Sept Rosado",
+            "iata": "MVF",
+            "municipio": "Mossoró",
+            "acesso": "RN-013"
+        },
+        {
+            "nome": "Governador Aluízio Alves",
+            "iata": "NAT",
+            "municipio": "São Gonçalo do Amarante",
+            "acesso": "BR-304"
+        }
+    ],
+    "rodovias": [
+        "BR-304",
+        "BR-110",
+        "Avenida Rio Branco"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "UFERSA"
+    ],
+    "vizinhos_pedido": [
+        "Natal",
+        "Fortaleza",
+        "Açu"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal MVF em Mossoró",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

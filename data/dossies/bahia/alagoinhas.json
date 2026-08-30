@@ -1,0 +1,72 @@
+{
+    "estado": "bahia",
+    "cidade": "alagoinhas",
+    "nome": "Alagoinhas",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-110",
+            "destino": "Luís Eduardo Magalhães",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Santa Terezinha",
+        "Catu de Alagoinhas",
+        "Parque Tourinho"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Luís Eduardo Magalhães",
+            "iata": "SSA",
+            "municipio": "Salvador",
+            "acesso": "BR-110 / BR-101"
+        }
+    ],
+    "rodovias": [
+        "BR-110",
+        "BR-101",
+        "Avenida Salvador"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "distrito",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Salvador",
+        "Entre Rios",
+        "Feira de Santana"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SSA em Salvador",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

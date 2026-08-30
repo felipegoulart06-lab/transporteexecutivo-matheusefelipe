@@ -1,0 +1,72 @@
+{
+    "estado": "pernambuco",
+    "cidade": "recife",
+    "nome": "Recife",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Boa Viagem",
+            "eixo": "PE-15",
+            "destino": "Guararapes Gilberto Freyre",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Boa Viagem",
+        "Recife Antigo",
+        "Ilha do Leite",
+        "Imbiribeira"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Guararapes Gilberto Freyre",
+            "iata": "REC",
+            "municipio": "Recife",
+            "acesso": "Mascarenhas de Morais"
+        }
+    ],
+    "rodovias": [
+        "PE-15",
+        "ponte da Boa Vista",
+        "Via Mangue"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "pauta no cais",
+        "polo médico",
+        "acesso ao REC"
+    ],
+    "vizinhos_pedido": [
+        "Olinda",
+        "Jaboatão dos Guararapes",
+        "Paulista"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal REC em Recife",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

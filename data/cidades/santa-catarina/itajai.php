@@ -5,58 +5,107 @@ declare(strict_types=1);
 return [
     'layout' => 'malha',
     'cidade_nome' => 'Itajaí',
-    'geo' => ['lat' => -26.9078, 'lng' => -48.6619],
+    'geo' => [
+        'lat' => -26.9078,
+        'lng' => -48.6619,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Itajaí',
     'seo' => [
-        'title' => 'Traslado executivo em Itajaí: Centro, Fazenda e NVT',
-        'description' => 'Motorista executivo em Itajaí para o Centro, Fazenda, Praia Brava e o aeroporto de Navegantes. Porto, rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro, na Fazenda e no aeroporto NVT',
-        'og_description' => 'Traslado no porto catarinense: hotel na Fazenda, pauta no cais e o terminal de Navegantes.',
-        'og_image_alt' => 'Sedan executivo em avenida de Itajaí',
+        'title' => 'Traslado executivo em Itajaí: Centro e BR-101',
+        'description' => 'Motorista executivo em Itajaí: Centro, Fazenda e Ministro Victor Konder (NVT), em Navegantes. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Itajaí com motorista — Fazenda e Ministro Victor Konder',
+        'og_description' => 'O motorista combina Centro com Ministro Victor Konder (NVT), em Navegantes. Informe nome do hotel ou do cais.',
+        'og_image_alt' => 'Carro executivo em via de Itajaí',
     ],
     'kicker' => 'Vale do Itajaí · SC',
-    'h1' => 'Da Fazenda ao porto sem perder a janela do NVT',
-    'intro' => 'Itajaí concentra o porto, a Fazenda e o recorte até Navegantes. Hotel no Centro ou na Fazenda, reunião no cais e voo no Ministro Victor Konder (NVT) cabem no mesmo expediente se o motorista já saiu com a ordem da Beira-Rio e da ponte, não com o aceite do minuto.',
-    'blocos' => [
+    'h1' => 'Itajaí: entre Centro, Fazenda e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Itajaí',
+    'faq' => [
         [
-            'h2' => 'Por que o deslocamento em Itajaí não é “pegar um carro no porto”',
-            'texto' => 'Centro, Fazenda, Praia Brava e Cabeçudas não compartilham o mesmo recuo. Quem tem pauta no terminal portuário e check-out no hotel precisa de um motorista que já conhece o protocolo da cancela e o recuo da ponte, não o atalho do app.',
+            'pergunta' => 'Quem está em Itajaí embarca no NVT dentro da cidade?',
+            'resposta' => 'Não. De Itajaí o NVT (Ministro Victor Konder) fica em Navegantes. O trecho sai de Centro pela BR-101.',
         ],
         [
-            'h2' => 'Quadrantes onde o embarque itajaiense mais se concentra',
+            'pergunta' => 'Em Itajaí, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Itajaí. Envie nome do hotel ou do cais em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Itajaí vocês fazem Navegantes?',
+            'resposta' => 'Sim, saindo de Itajaí. Navegantes não é o recorte de Centro; o horário pela Avenida Beira-Rio sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Itajaí o carro fica entre Centro e Fazenda?',
+            'resposta' => 'Sim, em Itajaí. A hora à disposição cobre sede e porto em Centro e bairro em Fazenda.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Itajaí e o NVT',
+        'texto' => 'Diga o ponto em Centro ou Fazenda, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Itajaí',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'santa-catarina',
+            'ancora' => 'Itajaí e o recorte de Vale do Itajaí',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'santa-catarina',
+            'cidade' => 'balneario-camboriu',
+            'ancora' => 'Motorista em balneario camboriu',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'santa-catarina',
+            'cidade' => 'blumenau',
+            'ancora' => 'Motorista em blumenau',
+        ],
+    ],
+    'intro' => 'Itajaí usa Ministro Victor Konder (NVT), em Navegantes. Quem embarca em Centro não está no município da pista. A BR-101 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+    'blocos' => [
+        [
+            'h2' => 'Por que o deslocamento em Itajaí não é pegar um carro',
+            'texto' => 'Itajaí usa Ministro Victor Konder (NVT), em Navegantes. Quem embarca em Centro não está no município da pista. A BR-101 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Quadrantes que mais geram embarque',
             'itens' => [
-                ['h3' => 'Centro e a Beira-Rio', 'texto' => 'Em Itajaí, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-                ['h3' => 'Fazenda e o shopping', 'texto' => 'Hotéis (Slaviero, similares) e torres. “Na Fazenda” não define o recuo da portaria.'],
-                ['h3' => 'Praia Brava e Cabeçudas', 'texto' => 'Pernoite de orla. O recuo da praia não é o do porto; o ponto de espera entra no roteiro.'],
-                ['h3' => 'Quando a pauta aponta para o NVT', 'texto' => 'O terminal fica em Navegantes, do outro lado do rio. Combinamos o voo e a margem da ponte.'],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e porto. Informe nome do hotel ou do cais. Centro não compartilha o recuo de Fazenda.',
+                ],
+                [
+                    'h3' => 'Fazenda',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel ou do cais. Fazenda não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Cabeçudas',
+                    'texto' => 'Origem frequente para orla. Informe nome do hotel ou do cais. Cabeçudas não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'São João',
+                    'texto' => 'Origem frequente para residencial. Informe nome do hotel ou do cais. São João não compartilha o recuo de Centro.',
+                ],
             ],
         ],
     ],
     'grade' => [
-        'h2' => 'Rotas que a pauta itajaiense mais pede',
+        'h2' => 'Três combinações que a pauta de Itajaí repete',
         'itens' => [
-            ['titulo' => 'Hotel na Fazenda → porto', 'texto' => 'Pauta no terminal. Envie o nome na portaria e o documento pedido.'],
-            ['titulo' => 'Itajaí → NVT', 'texto' => 'O aeroporto de Navegantes não fica na porta da Fazenda. Combinamos o voo e a ponte.'],
-            ['titulo' => 'Centro → Praia Brava', 'texto' => 'Em Itajaí, visita à orla só se estiver no roteiro. O recuo da praia pede ponto de espera.'],
-            ['titulo' => 'Hotel → Balneário Camboriú ou Blumenau', 'texto' => 'Quando a pauta vaza pela BR-101 ou pelo Vale, o recorte deixa de ser só urbano.'],
+            [
+                'titulo' => 'Centro → NVT',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: ponte Itajaí–Navegantes.',
+            ],
+            [
+                'titulo' => 'NVT → Fazenda',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel ou do cais.',
+            ],
+            [
+                'titulo' => 'Centro → Navegantes',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Fazenda; o horário sai sob consulta.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta o porto e o NVT',
-    'faq' => [
-        ['pergunta' => 'O aeroporto fica em Itajaí?', 'resposta' => 'O NVT fica em Navegantes, do outro lado do rio. O trecho até a Fazenda entra no roteiro com margem para a ponte.'],
-        ['pergunta' => 'Em Itajaí, o motorista espera no NVT se o voo atrasar?', 'resposta' => 'Sim. Em Itajaí, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Em Itajaí, vocês entram no porto com protocolo de portaria?', 'resposta' => 'Sim. Em Itajaí, envie o nome na lista e o documento pedido. Sem isso, a cancela não libera.'],
-        ['pergunta' => 'Dá para ir a Balneário Camboriú depois do hotel?', 'resposta' => 'Sim, quando a orla entra no roteiro. Não é o mesmo recorte do porto; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte a Fazenda ao horário do NVT',
-        'texto' => 'O orçamento de Itajaí sai sob consulta. Porto, orla e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Itajaí',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'santa-catarina', 'ancora' => 'Litoral, Vale e o recorte catarinense'],
-        ['tipo' => 'cidade', 'estado' => 'santa-catarina', 'cidade' => 'balneario-camboriu', 'ancora' => 'Avenida Central, orla e o NVT'],
-        ['tipo' => 'cidade', 'estado' => 'santa-catarina', 'cidade' => 'blumenau', 'ancora' => 'Centro, Vorstadt e o eixo do Vale'],
     ],
 ];

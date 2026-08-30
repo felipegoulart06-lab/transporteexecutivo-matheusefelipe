@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "volta-redonda",
+    "nome": "Volta Redonda",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Aterrado",
+            "eixo": "BR-116",
+            "destino": "Galeão",
+            "motivo": "eixo comercial"
+        }
+    ],
+    "eixos": [
+        "Aterrado",
+        "Centro",
+        "Vila Santa Cecília",
+        "Aero Clube"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "BR-116"
+        },
+        {
+            "nome": "Resende",
+            "iata": "QRZ",
+            "municipio": "Resende",
+            "acesso": "BR-116"
+        }
+    ],
+    "rodovias": [
+        "BR-116",
+        "BR-393",
+        "Avenida Amaral Peixoto"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "eixo comercial",
+        "sede",
+        "CSN e bairro",
+        "acesso"
+    ],
+    "vizinhos_pedido": [
+        "Barra Mansa",
+        "Resende",
+        "Rio de Janeiro"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GIG em Rio de Janeiro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

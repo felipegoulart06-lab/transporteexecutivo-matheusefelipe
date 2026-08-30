@@ -1,0 +1,78 @@
+{
+    "estado": "parana",
+    "cidade": "toledo",
+    "nome": "Toledo",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "PR-182",
+            "destino": "Luiz dal Canalle Filho",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim Coopagro",
+        "Vila Becker",
+        "Universitário"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Luiz dal Canalle Filho",
+            "iata": "TOW",
+            "municipio": "Toledo",
+            "acesso": "PR-182"
+        },
+        {
+            "nome": "Adalberto Mendes da Silva",
+            "iata": "CAC",
+            "municipio": "Cascavel",
+            "acesso": "PR-182"
+        }
+    ],
+    "rodovias": [
+        "PR-182",
+        "BR-163",
+        "Avenida Parigot de Souza"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "campus"
+    ],
+    "vizinhos_pedido": [
+        "Cascavel",
+        "Foz do Iguaçu",
+        "Guaíra"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal TOW em Toledo",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

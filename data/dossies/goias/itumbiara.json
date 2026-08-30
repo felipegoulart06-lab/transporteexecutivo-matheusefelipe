@@ -1,0 +1,78 @@
+{
+    "estado": "goias",
+    "cidade": "itumbiara",
+    "nome": "Itumbiara",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-153",
+            "destino": "Francisco Vilela do Amaral",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Novo Horizonte",
+        "Distrito Industrial",
+        "Santa Helena"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Francisco Vilela do Amaral",
+            "iata": "ITR",
+            "municipio": "Itumbiara",
+            "acesso": "BR-153"
+        },
+        {
+            "nome": "Santa Genoveva",
+            "iata": "GYN",
+            "municipio": "Goiânia",
+            "acesso": "BR-153"
+        }
+    ],
+    "rodovias": [
+        "BR-153",
+        "BR-452",
+        "Avenida Platina"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "planta",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Goiânia",
+        "Uberlândia",
+        "Rio Verde"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal ITR em Itumbiara",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

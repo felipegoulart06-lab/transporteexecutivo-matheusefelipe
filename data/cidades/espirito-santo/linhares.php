@@ -5,80 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'rio',
     'cidade_nome' => 'Linhares',
-    'geo' => ['lat' => -19.3946, 'lng' => -40.0653],
+    'geo' => [
+        'lat' => -19.3946,
+        'lng' => -40.0653,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Linhares',
     'seo' => [
-        'title' => 'Norte capixaba: carro em Linhares, Litorâneo e petróleo',
-        'description' => 'Carro com motorista em Linhares para o Centro, Litorâneo, Araçá e o eixo do petróleo. O VIX pede margem de interior; orçamento sob consulta.',
-        'og_title' => 'Motorista no Litorâneo, no Centro de Linhares e no petróleo',
-        'og_description' => 'Traslado no norte capixaba: hotel no Litorâneo, pauta no óleo e o recuo até o VIX.',
-        'og_image_alt' => 'Sedan executivo em avenida do Litorâneo, em Linhares',
+        'title' => 'Motorista executivo em Linhares: Centro e LHN',
+        'description' => 'Motorista executivo em Linhares: Centro, Araçá e Linhares (LHN), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Linhares: hotel, Centro e LHN',
+        'og_description' => 'O motorista combina Centro com Linhares (LHN), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Linhares',
     ],
     'kicker' => 'Norte capixaba · ES',
-    'h1' => 'Litorâneo, Centro e o petróleo do norte — o VIX não fica na porta',
-    'corrente' => [
+    'h1' => 'Linhares: entre Centro, Araçá e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Linhares',
+    'faq' => [
         [
-            'h2' => 'O norte capixaba junta orla urbana e óleo — o saguão fica no outro recorte',
-            'texto' => 'Linhares articula o Litorâneo, o Centro e o recorte de petróleo e gás. O Eurico de Aguiar Salles (VIX) não fica na porta do hotel: o terminal está em Goiabeiras, na Grande Vitória. Hotel, portaria da planta e o voo cabem no mesmo dia só com margem de interior já escrita.',
+            'pergunta' => 'Em Linhares, o LHN fica no próprio município?',
+            'resposta' => 'Sim. Em Linhares, Linhares (LHN) fica no município. Informe o acesso via BR-101.',
         ],
         [
-            'h2' => 'Três recortes linhareses que a pauta mais cita',
+            'pergunta' => 'Em Linhares, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Linhares. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Linhares vocês fazem São Mateus?',
+            'resposta' => 'Sim, saindo de Linhares. São Mateus não é o recorte de Centro; o horário pela ES-010 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Linhares, LHN e VIX são o mesmo recorte?',
+            'resposta' => 'Não, em Linhares. LHN fica em Linhares; VIX fica em Vitória. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Linhares e o LHN',
+        'texto' => 'Diga o ponto em Centro ou Araçá, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Linhares',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'espirito-santo',
+            'ancora' => 'Linhares e o recorte de Norte capixaba',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'espirito-santo',
+            'cidade' => 'vitoria',
+            'ancora' => 'Motorista em vitoria',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'espirito-santo',
+            'cidade' => 'serra',
+            'ancora' => 'Motorista em serra',
+        ],
+    ],
+    'corrente' => [
+        [
+            'h2' => 'Linhares e o primeiro recuo',
+            'texto' => 'Linhares concentra Centro (sede e hotel) e Linhares (LHN) no mesmo município. O motorista precisa do ponto de embarque e do LHN no mesmo recado — “me busca em Linhares” não define o recuo.',
+        ],
+        [
+            'h2' => 'Eixos que o pedido cita',
             'itens' => [
                 [
                     'h3' => 'Centro',
-                    'texto' => 'Sede, hotel e o comércio. Informe o prédio; o recuo do Centro não é o do Litorâneo nem o da cancela do óleo.',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Araçá.',
                 ],
                 [
-                    'h3' => 'Litorâneo',
-                    'texto' => 'Pernoite, clínicas e o eixo mais aberto da cidade. “No Litorâneo” não define a porta; o nome do hotel entra no roteiro.',
+                    'h3' => 'Araçá',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel. Araçá não compartilha o recuo de Centro.',
                 ],
                 [
-                    'h3' => 'Araçá e o recorte do petróleo',
-                    'texto' => 'Bairro e o salto rumo à planta de óleo e gás. A portaria pede nome na lista; sem isso, a cancela não libera.',
+                    'h3' => 'Interlagos',
+                    'texto' => 'Origem frequente para residencial. Informe nome do hotel. Interlagos não compartilha o recuo de Centro.',
                 ],
             ],
         ],
         [
-            'h2' => 'Eurico Salles — VIX fora da porta de Linhares',
-            'texto' => 'O terminal fica em Goiabeiras, na ilha de Vitória. Combinamos o voo. Até o Litorâneo ou o Centro o intervalo atravessa o norte do estado; a BR-101 altera o relógio mais que o mapa. A espera no saguão só integra o trecho se o pouso já estiver no pedido.',
+            'h2' => 'Linhares (LHN)',
+            'texto' => 'Linhares (LHN) fica em Linhares. Acesso: BR-101. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
-        [
-            'h2' => 'Serra, Vitória e o salto que o petróleo não encurta',
-            'texto' => 'Hotel no Litorâneo → Centro → planta só se a ordem estiver no roteiro. Serra e Vitória entram como recorte da Grande Vitória, com margem de BR-101 — não como segunda corrida urbana. O hotel é embarque, sem convênio de porta. O orçamento sai sob consulta.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta o Litorâneo e o óleo',
-    'faq' => [
-        [
-            'pergunta' => 'O VIX fica na porta de Linhares?',
-            'resposta' => 'Não. O Eurico Salles fica em Goiabeiras, na Grande Vitória. O trecho até o Litorâneo pede margem de interior pela BR-101.',
-        ],
-        [
-            'pergunta' => 'Vocês entram na planta de petróleo com protocolo?',
-            'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela do óleo não libera.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Centro, Litorâneo e Araçá no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do hotel. Um motorista articula cidade e recorte do petróleo.',
-        ],
-        [
-            'pergunta' => 'Dá para seguir a Serra depois da reunião no Centro?',
-            'resposta' => 'Sim, quando Serra entra no roteiro. Não é o mesmo recorte do Litorâneo; o horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'O hotel no Litorâneo é ponto conveniado?',
-            'resposta' => 'Não. Em Linhares, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Litorâneo e petróleo, com margem até o VIX',
-        'texto' => 'O orçamento de Linhares sai sob consulta. Centro, Araçá e Grande Vitória no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Linhares',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'espirito-santo', 'ancora' => 'Vitória, Serra e o norte do óleo'],
-        ['tipo' => 'cidade', 'estado' => 'espirito-santo', 'cidade' => 'vitoria', 'ancora' => 'Praia do Canto, Suá e o Eurico Salles'],
-        ['tipo' => 'cidade', 'estado' => 'espirito-santo', 'cidade' => 'serra', 'ancora' => 'Laranjeiras, Civit e o recuo até o VIX'],
     ],
 ];

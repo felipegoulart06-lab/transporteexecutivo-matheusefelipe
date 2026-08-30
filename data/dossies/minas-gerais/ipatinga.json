@@ -1,0 +1,78 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "ipatinga",
+    "nome": "Ipatinga",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-381",
+            "destino": "Usiminas",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Cariru",
+        "Cidade Nobre",
+        "Horto"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Usiminas",
+            "iata": "IPN",
+            "municipio": "Santana do Paraíso",
+            "acesso": "BR-381"
+        },
+        {
+            "nome": "Confins",
+            "iata": "CNF",
+            "municipio": "Confins",
+            "acesso": "BR-381"
+        }
+    ],
+    "rodovias": [
+        "BR-381",
+        "Avenida Pedro Linhares Gomes",
+        "Avenida Selim José de Sales"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "planta e acesso"
+    ],
+    "vizinhos_pedido": [
+        "Coronel Fabriciano",
+        "Timóteo",
+        "Belo Horizonte"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal IPN em Santana do Paraíso",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

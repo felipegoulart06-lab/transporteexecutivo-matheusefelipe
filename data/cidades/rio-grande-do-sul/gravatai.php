@@ -5,59 +5,107 @@ declare(strict_types=1);
 return [
     'layout' => 'malha',
     'cidade_nome' => 'Gravataí',
-    'geo' => ['lat' => -29.944, 'lng' => -50.9919],
+    'geo' => [
+        'lat' => -29.944,
+        'lng' => -50.9919,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Gravataí',
     'seo' => [
-        'title' => 'Planta e freeway: traslado em Gravataí, Centro e POA',
-        'description' => 'Traslado em Gravataí para o Centro, Barnabé, a planta da GM e a Freeway até o Salgado Filho (POA). Região Metropolitana e orçamento sob consulta.',
-        'og_title' => 'Traslado no Centro de Gravataí, na planta da GM e no POA',
-        'og_description' => 'Motorista na Região Metropolitana: hotel no Centro, portaria industrial e a Freeway até o Salgado Filho.',
-        'og_image_alt' => 'Sedan executivo em avenida de Gravataí rumo à Freeway',
+        'title' => 'Motorista executivo em Gravataí: Centro e POA',
+        'description' => 'Motorista executivo em Gravataí: Centro, Neópolis e Salgado Filho (POA), em Porto Alegre. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Gravataí: Centro e POA',
+        'og_description' => 'O motorista combina Centro com Salgado Filho (POA), em Porto Alegre. Informe nome da empresa ou do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Gravataí',
     ],
     'kicker' => 'Região Metropolitana de Porto Alegre · RS',
-    'h1' => 'A planta da GM não é o mesmo pedido do Centro — e o POA pede a freeway',
-    'intro' => 'Gravataí separa dois pedidos que o app mistura: o Centro (e o Barnabé) de um lado, a planta da GM e o entorno industrial do outro. O Salgado Filho (POA) entra pela Freeway; não é o mesmo recuo da portaria. Canoas e a capital colam na mancha; o município permanece outro.',
-    'blocos' => [
+    'h1' => 'Em Gravataí, de Centro a Salgado Filho (POA), em Porto Alegre',
+    'faq_h2' => 'Dúvidas de quem embarca em Gravataí',
+    'faq' => [
         [
-            'h2' => 'Por que o deslocamento em Gravataí não é “pegar um carro na montadora”',
-            'texto' => 'Centro, Barnabé e o recuo da planta não compartilham o mesmo acesso. Quem tem turno na cancela e check-out no hotel precisa de um motorista que já conhece o protocolo industrial e o sentido da Freeway — não o pin do POA como se fosse a porta da GM.',
+            'pergunta' => 'Quem está em Gravataí embarca no POA dentro da cidade?',
+            'resposta' => 'Não. De Gravataí o POA (Salgado Filho) fica em Porto Alegre. O trecho sai de Centro pela RS-118.',
         ],
         [
-            'h2' => 'Quadrantes onde o embarque gravataiense mais se concentra',
+            'pergunta' => 'Em Gravataí, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Gravataí. Envie nome da empresa ou do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Gravataí vocês fazem Cachoeirinha?',
+            'resposta' => 'Sim, saindo de Gravataí. Cachoeirinha não é o recorte de Centro; o horário pela BR-290 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Gravataí o carro fica entre Centro e Neópolis?',
+            'resposta' => 'Sim, em Gravataí. A hora à disposição cobre sede em Centro e bairro em Neópolis.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Gravataí e o POA',
+        'texto' => 'Diga o ponto em Centro ou Neópolis, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Gravataí',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-grande-do-sul',
+            'ancora' => 'Gravataí e o recorte de Região Metropolitana de Porto Alegre',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-grande-do-sul',
+            'cidade' => 'porto-alegre',
+            'ancora' => 'Motorista em porto alegre',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-grande-do-sul',
+            'cidade' => 'canoas',
+            'ancora' => 'Motorista em canoas',
+        ],
+    ],
+    'intro' => 'Gravataí usa Salgado Filho (POA), em Porto Alegre. Quem embarca em Centro não está no município da pista. A RS-118 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+    'blocos' => [
+        [
+            'h2' => 'Por que o deslocamento em Gravataí não é pegar um carro',
+            'texto' => 'Gravataí usa Salgado Filho (POA), em Porto Alegre. Quem embarca em Centro não está no município da pista. A RS-118 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Quadrantes que mais geram embarque',
             'itens' => [
-                ['h3' => 'Centro', 'texto' => 'Em Gravataí, sede, hotel e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-                ['h3' => 'Barnabé', 'texto' => 'Pauta residencial e o eixo interno. “No Barnabé” não define o recuo da portaria nem o quarteirão.'],
-                ['h3' => 'Planta da GM e o entorno industrial', 'texto' => 'Portaria e turno. Envie o nome na lista e o documento pedido; sem isso, a cancela da montadora não libera.'],
-                ['h3' => 'Quando a pauta aponta para o POA', 'texto' => 'O terminal fica em Porto Alegre, pela Freeway. Combinamos o voo. O pico da via pesa mais que o quilômetro no mapa.'],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede. Informe nome da empresa ou do hotel. Centro não compartilha o recuo de Neópolis.',
+                ],
+                [
+                    'h3' => 'Neópolis',
+                    'texto' => 'Origem frequente para bairro. Informe nome da empresa ou do hotel. Neópolis não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Barnabé',
+                    'texto' => 'Origem frequente para industrial. Informe nome da empresa ou do hotel. Barnabé não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Passo das Pedras',
+                    'texto' => 'Origem frequente para residencial. Informe nome da empresa ou do hotel. Passo das Pedras não compartilha o recuo de Centro.',
+                ],
             ],
         ],
     ],
     'grade' => [
-        'h2' => 'Rotas que a pauta gravataiense mais pede',
+        'h2' => 'Três combinações que a pauta de Gravataí repete',
         'itens' => [
-            ['titulo' => 'Hotel no Centro → planta da GM', 'texto' => 'Pauta na portaria. Envie o nome na lista; o recuo da montadora não é o do calçadão.'],
-            ['titulo' => 'Centro → Barnabé', 'texto' => 'Reunião e recuos curtos. Um motorista cobre os dois se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Gravataí → POA pela Freeway', 'texto' => 'O aeroporto não fica na porta da planta. Combinamos o voo e a margem da via.'],
-            ['titulo' => 'Hotel → Canoas ou Porto Alegre', 'texto' => 'Quando a pauta vaza pela mancha, o recorte deixa de ser só o Centro. Orçamento à parte.'],
+            [
+                'titulo' => 'Centro → POA',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: RS-118.',
+            ],
+            [
+                'titulo' => 'POA → Neópolis',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome da empresa ou do hotel.',
+            ],
+            [
+                'titulo' => 'Centro → Cachoeirinha',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Neópolis; o horário sai sob consulta.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem junta a planta à Freeway',
-    'faq' => [
-        ['pergunta' => 'A planta da GM e o Centro são o mesmo traslado?', 'resposta' => 'Não. São recuos distintos. Informe se o pedido é a cancela industrial ou o hotel no Centro; o intervalo e o protocolo mudam.'],
-        ['pergunta' => 'Como se chega ao aeroporto a partir de Gravataí?', 'resposta' => 'Pela Freeway até o Salgado Filho (POA), em Porto Alegre. O trecho entra no roteiro com margem de via; não é o recuo da montadora.'],
-        ['pergunta' => 'Em Gravataí, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela da GM não libera.'],
-        ['pergunta' => 'Vocês fazem Centro, Barnabé e a planta no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. Um motorista articula os três recuos se a margem e a lista estiverem no roteiro.'],
-        ['pergunta' => 'Em Gravataí, dá para seguir a Canoas depois do hotel?', 'resposta' => 'Sim. Em Gravataí, quando Canoas entra no roteiro. A mancha é contínua; o recuo muda no município. O horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Diga se o pedido é a planta ou o Centro',
-        'texto' => 'O orçamento de Gravataí sai sob consulta. Barnabé, GM e Freeway até o POA no mesmo WhatsApp.',
-        'botao' => 'Pedir carro em Gravataí',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-grande-do-sul', 'ancora' => 'Serra, Porto e o recorte gaúcho'],
-        ['tipo' => 'cidade', 'estado' => 'rio-grande-do-sul', 'cidade' => 'porto-alegre', 'ancora' => 'Moinhos, Centro Histórico e o Salgado Filho'],
-        ['tipo' => 'cidade', 'estado' => 'rio-grande-do-sul', 'cidade' => 'canoas', 'ancora' => 'Centro, Mathias Velho e o POA'],
     ],
 ];

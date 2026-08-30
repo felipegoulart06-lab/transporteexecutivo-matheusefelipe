@@ -5,53 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'mare',
     'cidade_nome' => 'Limeira',
-    'geo' => ['lat' => -22.5645, 'lng' => -47.4017],
+    'geo' => [
+        'lat' => -22.5645,
+        'lng' => -47.4017,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Limeira',
     'seo' => [
-        'title' => 'Traslado em Limeira: Cidade Jardim, joias e VCP',
-        'description' => 'Traslado em Limeira para Cidade Jardim, Centro, Jardim Aquarius, o polo de joias e o recorte até Viracopos. SP-348, hotel de embarque e valor sob consulta.',
-        'og_title' => 'Cidade Jardim, joias e o recorte até Viracopos',
-        'og_description' => 'Motorista em Limeira: embarque no Cidade Jardim, pauta no Centro e o salto até o VCP — sem tratar a cidade como Campinas.',
-        'og_image_alt' => 'Sedan executivo na Avenida Presidente Kennedy, em Limeira',
+        'title' => 'Carro com motorista em Limeira: Jardim Aquarius e VCP',
+        'description' => 'Carro com motorista em Limeira para Centro, Jardim Aquarius e VCP. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Limeira com motorista — Jardim Aquarius e Viracopos',
+        'og_description' => 'O motorista combina Centro com Viracopos (VCP), em Campinas. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Limeira',
     ],
-    'kicker' => 'Polo joalheiro · SP',
-    'h1' => 'Cidade Jardim e o recorte até Viracopos, sem tratar Limeira como Campinas',
+    'kicker' => 'Interior paulista · SP',
+    'h1' => 'Em Limeira: do embarque em Centro ao VCP',
+    'faq_h2' => 'Dúvidas de quem embarca em Limeira',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Limeira embarca no VCP dentro da cidade?',
+            'resposta' => 'Não. De Limeira o VCP (Viracopos) fica em Campinas. O trecho sai de Centro pela Anhanguera.',
+        ],
+        [
+            'pergunta' => 'Em Limeira, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Limeira. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Limeira vocês fazem Piracicaba?',
+            'resposta' => 'Sim, saindo de Limeira. Piracicaba não é o recorte de Centro; o horário pela SP-147 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Limeira o carro fica entre Centro e Jardim Aquarius?',
+            'resposta' => 'Sim, em Limeira. A hora à disposição cobre sede e hotel em Centro e bairro em Jardim Aquarius.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Limeira e o VCP',
+        'texto' => 'Diga o ponto em Centro ou Jardim Aquarius, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Limeira',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Limeira e o recorte de Interior paulista',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'campinas',
+            'ancora' => 'Motorista em campinas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'piracicaba',
+            'ancora' => 'Motorista em piracicaba',
+        ],
+    ],
     'editorial' => [
-        'h2' => 'Limeira tem recuo de joia e de citrus — Campinas tem outro relógio',
+        'h2' => 'Limeira pede ordem de endereço, não slogan',
         'texto' => [
-            'Tratar Limeira como subúrbio de Campinas é o erro que custa a janela do VCP: Cidade Jardim e o Centro têm recuo próprio, e o polo de joias não se resolve no pin da Anhanguera. A Presidente Kennedy e a SP-348 (Bandeirantes) mudam o intervalo até Viracopos mais do que o mapa admite.',
-            'Hotel no Cidade Jardim ou no Aquarius entra só como embarque. A visita à oficina ou à packing house pede endereço e, quando houver, lista na portaria. O sedan já sai com município certo; “me busca perto de Campinas” entrega o carro no Cambuí.',
+            'Limeira usa Viracopos (VCP), em Campinas. Quem embarca em Centro não está no município da pista. A Anhanguera é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Jardim Aquarius pede bairro. UNICAMP Limeira pede campus. Quando Piracicaba entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela SP-147.',
         ],
     ],
     'coluna_a' => [
-        'h2' => 'Três recortes que a pauta limeirense usa',
+        'h2' => 'Eixos de Limeira',
         'itens' => [
-            ['h3' => 'Centro e a Presidente Kennedy', 'texto' => 'Sede, comércio e o calçadão. Informe o prédio; o recuo do Centro não é o do Cidade Jardim.'],
-            ['h3' => 'Cidade Jardim e o Jardim Aquarius', 'texto' => 'Hotel de embarque e o recorte residencial. O nome do estabelecimento evita a volta no quarteirão.'],
-            ['h3' => 'Polo de joias e o citrus', 'texto' => 'Oficina, showroom ou packing house. Rua e, se houver cancela, o visitante na lista.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Jardim Aquarius.',
+            ],
+            [
+                'h3' => 'Jardim Aquarius',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Jardim Aquarius não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'UNICAMP Limeira',
+                'texto' => 'Origem frequente para campus. Informe nome do hotel. UNICAMP Limeira não compartilha o recuo de Centro.',
+            ],
         ],
     ],
     'coluna_b' => [
-        'h2' => 'Viracopos — VCP no relógio de Limeira, não no de Campinas',
-        'texto' => 'O saguão prático da pauta aérea é o Viracopos (VCP). A margem sai da SP-348 a partir de Limeira, não do Centro de Campinas. Combinamos o voo e o ponto de saída — Cidade Jardim e o Centro não compartilham o mesmo intervalo no pico. Piracicaba entra pela SP-304 quando a pauta vaza; é viagem, não segunda corrida urbana.',
-    ],
-    'faq_h2' => 'Antes de tratar Limeira como Campinas',
-    'faq' => [
-        ['pergunta' => 'Viracopos a partir de Limeira é o mesmo recorte de Campinas?', 'resposta' => 'Não. A margem da Bandeirantes sai do recuo limeirense. Tratar a cidade como subúrbio de Campinas é o erro que atrasa o check-in no VCP.'],
-        ['pergunta' => 'Cidade Jardim e o polo de joias pedem endereços distintos?', 'resposta' => 'Pedem. Hotel de embarque e showroom não compartilham porta. Informe o nome do estabelecimento e, se houver, a cancela.'],
-        ['pergunta' => 'A SP-348 altera o horário até o VCP no pico?', 'resposta' => 'Altera. Marcamos margem a partir do ponto de saída em Limeira, não a partir do relógio do Cambuí.'],
-        ['pergunta' => 'Jardim Aquarius serve de embarque de hotel?', 'resposta' => 'Serve, pelo nome da portaria. O hotel entra só como ponto de saída, sem convênio de porta.'],
-        ['pergunta' => 'Piracicaba entra no mesmo expediente da pauta de citrus?', 'resposta' => 'Entra como viagem pela SP-304, quando o endereço já está no roteiro. Não é o mesmo recorte do Centro de Limeira; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Separe Limeira de Campinas no pedido do VCP',
-        'texto' => 'Cidade Jardim, joias e Viracopos cabem num único pedido. Cotação sob consulta.',
-        'botao' => 'Pedir traslado em Limeira',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'piracicaba', 'ancora' => 'Centro, Cidade Alta e a ESALQ'],
+        'h2' => 'VCP e a vazão',
+        'texto' => 'Viracopos (VCP) fica em Campinas, não em Limeira. O trecho sai pela Anhanguera. Diga o IATA e o número do voo. Piracicaba entra como viagem.',
     ],
 ];

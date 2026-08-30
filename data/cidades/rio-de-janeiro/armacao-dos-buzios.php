@@ -5,62 +5,105 @@ declare(strict_types=1);
 return [
     'layout' => 'orla',
     'cidade_nome' => 'Armação dos Búzios',
-    'geo' => ['lat' => -22.7469, 'lng' => -41.8817],
+    'geo' => [
+        'lat' => -22.7469,
+        'lng' => -41.8817,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Armação dos Búzios',
     'seo' => [
-        'title' => 'Búzios com motorista: Geribá, o Centro e o CFB',
-        'description' => 'Carro com motorista em Armação dos Búzios para Geribá, Centro, João Fernandes e Ferradura. Hotel como embarque, aeroporto CFB e orçamento sob consulta.',
-        'og_title' => 'Traslado em Geribá, no Centro e no recuo até o CFB',
-        'og_description' => 'Motorista em Búzios: hotel em Geribá, pauta no Centro e o aeroporto de Cabo Frio.',
-        'og_image_alt' => 'Carro executivo em via da orla de Geribá, em Búzios',
+        'title' => 'Motorista executivo em Armação dos Búzios: Centro e CFB',
+        'description' => 'Carro com motorista em Armação dos Búzios para Centro, Geribá e CFB. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Armação dos Búzios: hotel, Centro e CFB',
+        'og_description' => 'O motorista combina Centro com Cabo Frio (CFB), em Cabo Frio. Informe nome do hotel e a praia.',
+        'og_image_alt' => 'Carro executivo em via de Armação dos Búzios',
     ],
-    'kicker' => 'Península dos Lagos · RJ',
-    'h1' => 'Geribá, Centro e o recuo até o CFB — sem corrida de orla',
-    'epigrafe' => 'Na península, Geribá e o Centro não se resolvem com a mesma corrida que o app desenha na orla; o recuo até o CFB, em Cabo Frio, entra como viagem de Lagos, não como segunda praia. O motorista segura o nome do hotel e a RJ-106; o passageiro segura o horário — não a vaga na porta nem a fila da Rua das Pedras.',
+    'kicker' => 'Região dos Lagos · RJ',
+    'h1' => 'Armação dos Búzios: entre Centro, Geribá e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Armação dos Búzios',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Armação dos Búzios embarca no CFB dentro da cidade?',
+            'resposta' => 'Não. De Armação dos Búzios o CFB (Cabo Frio) fica em Cabo Frio. O trecho sai de Centro pela RJ-102.',
+        ],
+        [
+            'pergunta' => 'Em Armação dos Búzios, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Armação dos Búzios. Envie nome do hotel e a praia em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Armação dos Búzios vocês fazem Cabo Frio?',
+            'resposta' => 'Sim, saindo de Armação dos Búzios. Cabo Frio não é o recorte de Centro; o horário pela RJ-106 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Armação dos Búzios, CFB e GIG são o mesmo recorte?',
+            'resposta' => 'Não, em Armação dos Búzios. CFB fica em Cabo Frio; GIG fica em Rio de Janeiro. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Armação dos Búzios e o CFB',
+        'texto' => 'Diga o ponto em Centro ou Geribá, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Armação dos Búzios',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-de-janeiro',
+            'ancora' => 'Armação dos Búzios e o recorte de Região dos Lagos',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'cabo-frio',
+            'ancora' => 'Motorista em cabo frio',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'rio-de-janeiro',
+            'ancora' => 'Motorista em rio de janeiro',
+        ],
+    ],
+    'epigrafe' => 'Centro não é o mesmo recuo de Geribá. O motorista segura o acesso; o passageiro segura o horário.',
     'abertura' => [
-        'h2' => 'A península não se troca por uma corrida de orla',
+        'h2' => 'Armação dos Búzios: origem na orla, destino no terminal certo',
         'texto' => [
-            'Centro, Geribá, João Fernandes e Ferradura concentram o pernoite. Cada praia pede recuo próprio: a litorânea muda o intervalo no verão e no feriado. O aeroporto prático é o Internacional de Cabo Frio (CFB); Búzios não tem saguão comercial. O hotel entra só como ponto de embarque — nome na portaria, sem convênio de porta.',
-            'O serviço é de traslado e de espera: o carro já está no roteiro com o estabelecimento e o sentido da RJ-106. Não é corrida de orla no fim de semana, a menos que João Fernandes ou a Ferradura entrem na pauta como itinerário combinado.',
+            'Armação dos Búzios usa Cabo Frio (CFB), em Cabo Frio. Quem embarca em Centro não está no município da pista. A RJ-102 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'Geribá pede praia e hotel. João Fernandes pede orla norte. Quando Cabo Frio entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela RJ-106.',
         ],
     ],
     'faixas' => [
-        ['h2' => 'Geribá e o relógio da praia longa', 'texto' => 'Hotel e o recuo da areia mais pedida. Informe o nome; “em Geribá” não distingue o acesso da praia do condomínio no morro. No feriado a margem sai do hotel, não do mapa.'],
-        ['h2' => 'Centro, Rua das Pedras e o casario', 'texto' => 'Sede, comércio e o calçamento estreito. Combinamos o ponto de espera; o Centro não admite recuo improvisado na alta temporada.'],
-        ['h2' => 'João Fernandes, Ferradura e o salto até o CFB', 'texto' => 'Pernoite de enseada e o recorte até Cabo Frio. A RJ-106 deixa a península; o CFB não é a praia seguinte no mesmo aceite.'],
+        [
+            'h2' => 'Centro: o relógio do embarque',
+            'texto' => 'Centro concentra hotel e orla. Informe nome do hotel e a praia.',
+        ],
+        [
+            'h2' => 'Geribá e João Fernandes',
+            'texto' => 'Geribá pede praia e hotel. João Fernandes pede orla norte. A ordem muda o intervalo mais que o mapa.',
+        ],
+        [
+            'h2' => 'Cabo Frio (CFB), em Cabo Frio',
+            'texto' => 'Cabo Frio (CFB) fica em Cabo Frio, não em Armação dos Búzios. O trecho sai pela RJ-102. Diga o IATA e o número do voo.',
+        ],
     ],
     'aeroportos' => [
-        'h2' => 'CFB em Cabo Frio — o saguão não é o da península',
+        'h2' => 'Terminal e vazão a partir de Armação dos Búzios',
         'itens' => [
-            ['h3' => 'Cabo Frio — CFB', 'texto' => 'O terminal internacional fica no município vizinho. Combinamos o voo e a margem da RJ-106. A espera no desembarque integra o trecho CFB quando o pouso já está no roteiro.'],
-            ['h3' => 'Quando a pauta aponta para o Rio', 'texto' => 'SDU ou GIG entram como viagem de Lagos, não como corrida de Geribá. Informe o terminal; o orçamento sai sob consulta.'],
+            [
+                'h3' => 'Cabo Frio — CFB',
+                'texto' => 'Cabo Frio (CFB) fica em Cabo Frio, não em Armação dos Búzios. O trecho sai pela RJ-102. Diga o IATA e o número do voo.',
+            ],
+            [
+                'h3' => 'Galeão — GIG',
+                'texto' => 'Galeão (GIG) fica em Rio de Janeiro, não em Armação dos Búzios. O trecho sai pela RJ-106. Diga o IATA e o número do voo.',
+            ],
         ],
     ],
     'protocolo' => [
-        'h2' => 'O que pedimos para acertar o embarque em Búzios',
+        'h2' => 'O que pedimos para acertar o embarque em Armação dos Búzios',
         'lista' => [
-            'Hotel com nome — Geribá, Centro ou Ferradura não bastam para o recuo. O estabelecimento entra só como embarque.',
-            'Se o voo é no CFB, número e horário. A margem sai da RJ-106, não do calçadão.',
-            'João Fernandes, Cabo Frio ou o Rio entram no roteiro; não é desvio de última hora na Rua das Pedras.',
+            'Hotel, prédio ou empresa com nome — “em Centro” não basta.',
+            'Qual terminal: CFB em Cabo Frio ou GIG em Rio de Janeiro.',
+            'Se Cabo Frio entra depois, a ordem muda o recorte.',
         ],
-    ],
-    'faq_h2' => 'Dúvidas de quem embarca na península e no CFB',
-    'faq' => [
-        ['pergunta' => 'Búzios tem aeroporto comercial?', 'resposta' => 'O saguão prático é o CFB, em Cabo Frio. Combinamos a RJ-106; o intervalo até Geribá não é o mesmo do Centro de Cabo Frio.'],
-        ['pergunta' => 'Em Armação dos Búzios, o motorista espera no CFB se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho Cabo Frio.'],
-        ['pergunta' => 'Dá para ir de Geribá ao Centro e voltar à Ferradura?', 'resposta' => 'Sim. Em Armação dos Búzios, combinamos a ordem e o ponto de espera. A orla não admite recuo improvisado no feriado.'],
-        ['pergunta' => 'O hotel em Geribá é ponto conveniado?', 'resposta' => 'Não. Em Armação dos Búzios, o hotel entra só como embarque. Envie o nome e o recuo; o orçamento sai sob consulta.'],
-        ['pergunta' => 'Vocês seguem ao Rio depois do check-out?', 'resposta' => 'Sim, quando SDU ou GIG entram no roteiro. Não é o mesmo recorte da península; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Combine Geribá com o horário do CFB',
-        'texto' => 'O orçamento de Búzios sai sob consulta. Centro, Ferradura e Cabo Frio no mesmo WhatsApp.',
-        'botao' => 'Solicitar motorista em Búzios',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-de-janeiro', 'ancora' => 'O recorte fluminense além da capital'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'cabo-frio', 'ancora' => 'Passagem, Centro e o aeroporto CFB'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Santos Dumont, Galeão e a Zona Sul'],
     ],
 ];

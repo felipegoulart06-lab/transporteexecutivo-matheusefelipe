@@ -5,56 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'baia',
     'cidade_nome' => 'Campos dos Goytacazes',
-    'geo' => ['lat' => -21.7622, 'lng' => -41.3181],
+    'geo' => [
+        'lat' => -21.7622,
+        'lng' => -41.3181,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Campos dos Goytacazes',
     'seo' => [
-        'title' => 'Traslado executivo em Campos: Pelinca, Centro e CAW',
-        'description' => 'Carro com motorista em Campos dos Goytacazes para Pelinca, Centro, Guarus e o aeroporto CAW. Norte Fluminense, espera combinada e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo na Pelinca, no Centro e no aeroporto CAW',
-        'og_description' => 'Motorista no Norte Fluminense: hotel na Pelinca, pauta no Centro e o terminal CAW.',
-        'og_image_alt' => 'Sedan executivo em avenida da Pelinca em Campos dos Goytacazes',
+        'title' => 'Motorista executivo em Campos dos Goytacazes: Centro e CAW',
+        'description' => 'Carro com motorista em Campos dos Goytacazes para Centro, Pelinca e CAW. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Campos dos Goytacazes: Centro e CAW',
+        'og_description' => 'O motorista combina Centro com Bartolomeu Lysandro (CAW), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Campos dos Goytacazes',
     ],
-    'kicker' => 'Norte Fluminense · RJ',
-    'h1' => 'Do CAW à Pelinca sem perder a reunião no Centro',
-    'faixas' => [
+    'kicker' => 'Norte fluminense · RJ',
+    'h1' => 'Campos dos Goytacazes: entre Centro, Pelinca e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Campos dos Goytacazes',
+    'faq' => [
         [
-            'h2' => 'Campos se mede em Pelinca e em rio — o app não lê o Paraíba do Sul',
-            'texto' => 'Hotel na Pelinca ou no Parque Tamandaré, reunião no Centro e voo no Bartolomeu Lysandro (CAW) cabem no mesmo dia se o motorista já saiu com a ordem da Alberto Torres e da ponte para Guarus, não com o atalho da hora. Petróleo e cana puxam a pauta; o relógio é o do aeroporto e o do expediente no Centro.',
+            'pergunta' => 'Em Campos dos Goytacazes, o CAW fica no próprio município?',
+            'resposta' => 'Sim. Em Campos dos Goytacazes, Bartolomeu Lysandro (CAW) fica no município. Informe o acesso via RJ-216.',
         ],
         [
-            'h2' => 'Três recortes, um relógio de Norte Fluminense',
+            'pergunta' => 'Em Campos dos Goytacazes, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Campos dos Goytacazes. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Campos dos Goytacazes vocês fazem Macaé?',
+            'resposta' => 'Sim, saindo de Campos dos Goytacazes. Macaé não é o recorte de Centro; o horário pela RJ-216 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Campos dos Goytacazes, CAW e MEA são o mesmo recorte?',
+            'resposta' => 'Não, em Campos dos Goytacazes. CAW fica em Campos dos Goytacazes; MEA fica em Macaé. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Campos dos Goytacazes e o CAW',
+        'texto' => 'Diga o ponto em Centro ou Pelinca, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Campos dos Goytacazes',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-de-janeiro',
+            'ancora' => 'Campos dos Goytacazes e o recorte de Norte fluminense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'macae',
+            'ancora' => 'Motorista em macae',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'cabo-frio',
+            'ancora' => 'Motorista em cabo frio',
+        ],
+    ],
+    'faixas' => [
+        [
+            'h2' => 'Campos dos Goytacazes se cruza por BR-101, não em linha reta',
+            'texto' => 'Campos dos Goytacazes concentra Centro (sede e hotel) e Bartolomeu Lysandro (CAW) no mesmo município. O motorista precisa do ponto de embarque e do CAW no mesmo recado — “me busca em Campos dos Goytacazes” não define o recuo.',
+        ],
+        [
+            'h2' => 'Três eixos, três recuos',
             'itens' => [
-                ['h3' => 'Pelinca e o Parque Tamandaré', 'texto' => 'Hotéis e o eixo comercial. Informe o nome; “na Pelinca” não define o recuo da rua nem a entrada do estabelecimento.'],
-                ['h3' => 'Centro e o Parque Leopoldina', 'texto' => 'Sede, cartório e o calçadão. O recuo pede prédio; o Centro mistura comércio e gabinete em quadras curtas.'],
-                ['h3' => 'Guarus, do outro lado do rio', 'texto' => 'Quando a pauta cruza o Paraíba do Sul, o trecho deixa a Pelinca. A ponte pesa mais que o mapa admite no fim da tarde.'],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Pelinca.',
+                ],
+                [
+                    'h3' => 'Pelinca',
+                    'texto' => 'Origem frequente para eixo comercial. Informe nome do hotel. Pelinca não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Parque Tamandaré',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel. Parque Tamandaré não compartilha o recuo de Centro.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas de pauta, cana e o salto para Macaé',
-            'texto' => 'CAW → hotel na Pelinca → Centro → Parque Leopoldina só se a ordem estiver no roteiro. Outro clássico: Campos → Macaé ou Cabo Frio pela RJ-106, como viagem de óleo e de costa, não como segunda corrida urbana. O orçamento desses trechos sai à parte.',
-        ],
-        [
             'h2' => 'Bartolomeu Lysandro — CAW',
-            'texto' => 'O aeroporto fica no recorte da cidade, no eixo do Parque Tamandaré. Combinamos o voo. A espera no desembarque integra o trecho CAW. Até a Pelinca o intervalo é urbano; até o Centro, a avenida pesa mais que o quilômetro no mapa.',
+            'texto' => 'Bartolomeu Lysandro (CAW) fica em Campos dos Goytacazes. Acesso: RJ-216. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Bartolomeu Lysandro',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Campos fica longe da Pelinca?', 'resposta' => 'É trecho urbano. Marcamos margem: o horário de pico e a Alberto Torres alteram o intervalo mais que o mapa.'],
-        ['pergunta' => 'O motorista espera no CAW se o voo atrasar?', 'resposta' => 'Sim. Em Campos dos Goytacazes, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Dá para ir a Guarus e voltar ao Centro no mesmo turno?', 'resposta' => 'Sim. Informe a ordem. A ponte sobre o Paraíba do Sul pesa no horário; não é o mesmo recorte da Pelinca.'],
-        ['pergunta' => 'Vocês seguem a Macaé depois do hotel na Pelinca?', 'resposta' => 'Sim, como viagem pela RJ-106. Não é o mesmo pedido urbano; o horário sai sob consulta.'],
-        ['pergunta' => 'O Parque Leopoldina entra no mesmo roteiro da Pelinca?', 'resposta' => 'Sim. Combinamos o ponto de espera. “Em Campos” não define qual dos dois recuos.'],
-    ],
-    'cta' => [
-        'titulo' => 'Diga se o embarque é a Pelinca ou o CAW',
-        'texto' => 'O orçamento de Campos sai sob consulta. Centro, Guarus e terminal no mesmo recado.',
-        'botao' => 'Pedir traslado em Campos',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-de-janeiro', 'ancora' => 'O recorte fluminense além da capital'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'macae', 'ancora' => 'Centro, Imbetiba e o aeroporto MEA'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'cabo-frio', 'ancora' => 'Passagem, Centro e o aeroporto CFB'],
     ],
 ];

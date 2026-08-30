@@ -5,74 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Pouso Alegre',
-    'geo' => ['lat' => -22.2298, 'lng' => -45.9363],
+    'geo' => [
+        'lat' => -22.2298,
+        'lng' => -45.9363,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Pouso Alegre',
     'seo' => [
-        'title' => 'Sul de Minas: traslado em Pouso Alegre e Fernão Dias',
-        'description' => 'Traslado no sul de Minas em Pouso Alegre para o Centro, Fátima e o campus Univas. PPY limitado; VCP ou GRU pela Fernão Dias e orçamento sob consulta.',
-        'og_title' => 'Traslado no Centro, na Univas e na Fernão Dias',
-        'og_description' => 'Motorista em Pouso Alegre: hotel no Centro, campus e o recuo da BR-381 rumo a VCP ou GRU.',
-        'og_image_alt' => 'Sedan executivo em avenida do Centro de Pouso Alegre',
+        'title' => 'Motorista executivo em Pouso Alegre: Centro e VCP',
+        'description' => 'Carro com motorista em Pouso Alegre para Centro, São Geraldo e VCP. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Pouso Alegre: hotel, Centro e VCP',
+        'og_description' => 'O motorista combina Centro com Viracopos (VCP), em Campinas. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Pouso Alegre',
     ],
-    'kicker' => 'Fernão Dias · MG',
-    'h1' => 'O sul de Minas cobra a Fernão Dias, não o Waze da hora',
-    'lead' => 'Pouso Alegre cobra a Fernão Dias (BR-381) no relógio do sul de Minas: Centro, Fátima e o campus da Univas não se resolvem com o atalho da hora rumo a Viracopos ou a Guarulhos. O motorista segura a avenida e o sentido da 381; o passageiro segura a pauta — não o código PPY no cartaz quando a conexão prática já é VCP ou GRU.',
+    'kicker' => 'Sul de Minas · MG',
+    'h1' => 'Pouso Alegre — Centro de manhã, VCP quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Pouso Alegre',
+    'faq' => [
+        [
+            'pergunta' => 'Quem está em Pouso Alegre embarca no VCP dentro da cidade?',
+            'resposta' => 'Não. De Pouso Alegre o VCP (Viracopos) fica em Campinas. O trecho sai de Centro pela BR-459.',
+        ],
+        [
+            'pergunta' => 'Em Pouso Alegre, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Pouso Alegre. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Pouso Alegre vocês fazem Itajubá?',
+            'resposta' => 'Sim, saindo de Pouso Alegre. Itajubá não é o recorte de Centro; o horário pela MG-290 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Pouso Alegre, VCP e CGH são o mesmo recorte?',
+            'resposta' => 'Não, em Pouso Alegre. VCP fica em Campinas; CGH fica em São Paulo. Diga o IATA no pedido.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Pouso Alegre e o VCP',
+        'texto' => 'Diga o ponto em Centro ou São Geraldo, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Pouso Alegre',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'minas-gerais',
+            'ancora' => 'Pouso Alegre e o recorte de Sul de Minas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'minas-gerais',
+            'cidade' => 'pocos-de-caldas',
+            'ancora' => 'Motorista em pocos de caldas',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'campinas',
+            'ancora' => 'Motorista em campinas',
+        ],
+    ],
+    'lead' => 'Pouso Alegre usa Viracopos (VCP), em Campinas. Quem embarca em Centro não está no município da pista. A BR-459 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
     'contexto' => [
-        'h2' => 'A cidade cobra a rodovia certa, não “perto de Poços”',
+        'h2' => 'Pouso Alegre se mede em BR-459, não em pin de aplicativo',
         'texto' => [
-            'Centro, Fátima e o campus da Univas não compartilham o mesmo recuo. Hotel no Centro, reunião no campus e o salto pela Fernão Dias cabem no mesmo expediente se a ordem da BR-381 já estiver no roteiro. O Aeroporto de Pouso Alegre (PPY) tem malha limitada; o saguão prático da conexão é Viracopos (VCP) ou Guarulhos (GRU).',
-            'O recorte é de sul de Minas: embarque na portaria, espera discreta e chegada no terminal certo. Fátima pede rua e número. Quando a pauta aponta para Poços de Caldas ou para Campinas, o trecho deixa de ser só urbano de Pouso Alegre.',
+            'Pouso Alegre usa Viracopos (VCP), em Campinas. Quem embarca em Centro não está no município da pista. A BR-459 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'São Geraldo pede bairro. Fátima pede residencial. Quando Itajubá entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela MG-290.',
         ],
     ],
     'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
+        'h2' => 'Eixos de embarque em Pouso Alegre',
         'itens' => [
-            ['h3' => 'Centro e o eixo comercial', 'texto' => 'Sede, hotel e o recuo da avenida. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Fátima', 'texto' => 'Pauta residencial e clínicas. “Em Fátima” não define a porta; rua e número evitam a volta no quarteirão.'],
-            ['h3' => 'Campus Univas', 'texto' => 'Bloco e portaria. O recuo pede o nome do prédio, não GPS na reitoria. Documento na lista evita a cancela.'],
-            ['h3' => 'Saída da Fernão Dias', 'texto' => 'O recorte da BR-381 rumo a Campinas ou à capital paulista. Não é o mesmo intervalo do Centro; a margem sai do hotel.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de São Geraldo.',
+            ],
+            [
+                'h3' => 'São Geraldo',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. São Geraldo não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Fátima',
+                'texto' => 'Origem frequente para residencial. Informe nome do hotel. Fátima não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Universitário',
+                'texto' => 'Origem frequente para campus. Informe nome do hotel. Universitário não compartilha o recuo de Centro.',
+            ],
         ],
     ],
     'aeroportos' => [
-        'h2' => 'PPY limitado — VCP e GRU no relógio da Fernão Dias',
+        'h2' => 'O terminal que a agenda de Pouso Alegre realmente usa',
         'itens' => [
-            ['h3' => 'Pouso Alegre — PPY', 'texto' => 'Malha limitada. Se o voo realmente pousar aqui, combinamos o horário. Não substitui Viracopos nem Guarulhos na pauta de conexão.'],
-            ['h3' => 'Viracopos (VCP) e Guarulhos (GRU)', 'texto' => 'Os saguões práticos saem pela BR-381. Combinamos o terminal e a margem da Fernão Dias; o trecho não é corrida urbana do Centro.'],
+            [
+                'h3' => 'Viracopos — VCP',
+                'texto' => 'Viracopos (VCP) fica em Campinas, não em Pouso Alegre. O trecho sai pela BR-459. Diga o IATA e o número do voo.',
+            ],
+            [
+                'h3' => 'Congonhas — CGH',
+                'texto' => 'Congonhas (CGH) fica em São Paulo, não em Pouso Alegre. O trecho sai pela BR-459. Diga o IATA e o número do voo.',
+            ],
         ],
     ],
     'rotas' => [
-        'h2' => 'Trajetos que a agenda pouso-alegrense mais pede',
+        'h2' => 'Trajetos que o pedido em Pouso Alegre mais combina',
         'itens' => [
-            ['titulo' => 'Hotel no Centro → Fátima ou Univas', 'texto' => 'Pernoite e pauta. Informe o nome do hotel e o bloco do campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Centro → Viracopos pela Fernão Dias', 'texto' => 'Viagem de sul de Minas. Combinamos o voo; a BR-381 pede margem própria, não o Waze da hora.'],
-            ['titulo' => 'Hotel → Poços de Caldas ou Campinas', 'texto' => 'Quando a pauta vaza, o recorte deixa de ser só urbano. Horário sob consulta.'],
+            [
+                'titulo' => 'Centro → VCP',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-459.',
+            ],
+            [
+                'titulo' => 'VCP → São Geraldo',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel.',
+            ],
+            [
+                'titulo' => 'Centro → Itajubá',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de São Geraldo; o horário sai sob consulta.',
+            ],
         ],
     ],
     'como' => [
-        'h2' => 'Como o carro entra na grade em Pouso Alegre',
+        'h2' => 'Como o carro entra na pauta em Pouso Alegre',
         'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Centro, Fátima ou o bloco da Univas. Autocomplete não resolve campus com dois acessos.'],
-            ['titulo' => 'PPY, VCP ou GRU', 'texto' => 'Diga o saguão. O PPY não substitui Viracopos nem Guarulhos na conexão prática.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Pouso Alegre, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o VCP ou Itajubá entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Pouso Alegre, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta a Univas e a Fernão Dias',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Pouso Alegre substitui Viracopos?', 'resposta' => 'O PPY tem malha limitada. O saguão prático da conexão é VCP ou GRU, pela Fernão Dias. Combinamos o terminal; a margem não sai do Waze da hora.'],
-        ['pergunta' => 'Vocês fazem Centro, Fátima e a Univas no mesmo dia?', 'resposta' => 'Sim. Em Pouso Alegre, informe a ordem e o bloco do campus. Um motorista articula os três recuos se a margem estiver no roteiro.'],
-        ['pergunta' => 'A Fernão Dias até Guarulhos entra no mesmo pedido urbano?', 'resposta' => 'Não. GRU e VCP saem como viagem pela BR-381. O orçamento e o horário saem sob consulta.'],
-        ['pergunta' => 'Dá para seguir a Poços de Caldas depois da reunião?', 'resposta' => 'Sim, como trecho de sul de Minas. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-        ['pergunta' => 'O campus da Univas pede protocolo de portaria?', 'resposta' => 'Quando a lista existir, envie o nome e o documento. O GPS na reitoria não resolve o recuo do bloco.'],
-    ],
-    'cta' => [
-        'titulo' => 'Feche a Fernão Dias no mesmo WhatsApp',
-        'texto' => 'O orçamento de Pouso Alegre sai sob consulta. Centro, Univas e VCP no mesmo recado.',
-        'botao' => 'Pedir traslado em Pouso Alegre',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'minas-gerais', 'ancora' => 'Confins, Vale do Aço e a agenda mineira'],
-        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'pocos-de-caldas', 'ancora' => 'Centro, Country Club e o aeroporto POO'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
     ],
 ];

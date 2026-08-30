@@ -1,0 +1,72 @@
+{
+    "estado": "mato-grosso",
+    "cidade": "cuiaba",
+    "nome": "Cuiabá",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-364",
+            "destino": "Marechal Rondon",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim Cuiabá",
+        "CPA",
+        "Goiabeiras"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Marechal Rondon",
+            "iata": "CGB",
+            "municipio": "Várzea Grande",
+            "acesso": "ponte Cuiabá–VG"
+        }
+    ],
+    "rodovias": [
+        "BR-364",
+        "BR-163",
+        "Avenida do CPA"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro executivo",
+        "eixo residencial",
+        "acesso ao CGB"
+    ],
+    "vizinhos_pedido": [
+        "Várzea Grande",
+        "Rondonópolis",
+        "Chapada dos Guimarães"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CGB em Várzea Grande",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

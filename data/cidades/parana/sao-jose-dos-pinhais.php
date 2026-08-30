@@ -5,64 +5,110 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'São José dos Pinhais',
-    'geo' => ['lat' => -25.5303, 'lng' => -49.2084],
+    'geo' => [
+        'lat' => -25.5303,
+        'lng' => -49.2084,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em São José dos Pinhais',
     'seo' => [
-        'title' => 'Traslado em São José dos Pinhais: Centro, Afonso Pena e CWB',
-        'description' => 'Motorista executivo em São José dos Pinhais para o Centro, Afonso Pena, Costeira e o aeroporto. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Carro com motorista no Centro, na Afonso Pena e no aeroporto CWB',
-        'og_description' => 'Traslado no município do Afonso Pena: hotel, planta e o terminal CWB.',
-        'og_image_alt' => 'Sedan executivo em via de acesso ao aeroporto Afonso Pena',
+        'title' => 'Motorista executivo em São José dos Pinhais: Centro e CWB',
+        'description' => 'Carro com motorista em São José dos Pinhais para Centro, Afonso Pena e CWB. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em São José dos Pinhais com motorista — Afonso Pena e Afonso Pena',
+        'og_description' => 'O motorista combina Centro com Afonso Pena (CWB), no próprio município. Informe nome da empresa ou do hotel.',
+        'og_image_alt' => 'Carro executivo em via de São José dos Pinhais',
     ],
     'kicker' => 'Região Metropolitana de Curitiba · PR',
-    'h1' => 'Do CWB ao Centro sem perder o recuo da Afonso Pena',
-    'olho' => 'São José dos Pinhais não é bairro de Curitiba: é o município do Aeroporto Afonso Pena (CWB). O motorista segura a Linha Verde e a Rui Barbosa; o passageiro segura a pauta — e o terminal certo.',
-    'capitulos' => [
+    'h1' => 'Em São José dos Pinhais, de Centro a Afonso Pena (CWB), no próprio município',
+    'faq_h2' => 'Dúvidas de quem embarca em São José dos Pinhais',
+    'faq' => [
         [
-            'h2' => 'O município do CWB pede o saguão, não “no aeroporto da capital”',
-            'texto' => 'Centro, Costeira, Afonso Pena e o recuo das plantas da Renault e da Volkswagen não compartilham o mesmo acesso. Hotel próximo ao terminal e reunião no Centro cabem no mesmo expediente se o voo e a portaria já estiverem no roteiro.',
+            'pergunta' => 'Em São José dos Pinhais, o CWB fica no próprio município?',
+            'resposta' => 'Sim. Em São José dos Pinhais, Afonso Pena (CWB) fica no município. Informe o acesso via Avenida Rui Barbosa.',
         ],
         [
-            'h2' => 'Onde o embarque joseense mais se concentra',
+            'pergunta' => 'Em São José dos Pinhais, vocês buscam em Centro?',
+            'resposta' => 'Sim, em São José dos Pinhais. Envie nome da empresa ou do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De São José dos Pinhais vocês fazem Curitiba?',
+            'resposta' => 'Sim, saindo de São José dos Pinhais. Curitiba não é o recorte de Centro; o horário pela Linha Verde sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em São José dos Pinhais o carro fica entre Centro e Afonso Pena?',
+            'resposta' => 'Sim, em São José dos Pinhais. A hora à disposição cobre sede em Centro e terminal CWB em Afonso Pena.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em São José dos Pinhais e o CWB',
+        'texto' => 'Diga o ponto em Centro ou Afonso Pena, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em São José dos Pinhais',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'parana',
+            'ancora' => 'São José dos Pinhais e o recorte de Região Metropolitana de Curitiba',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'parana',
+            'cidade' => 'curitiba',
+            'ancora' => 'Motorista em curitiba',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'guarulhos',
+            'ancora' => 'Motorista em guarulhos',
+        ],
+    ],
+    'olho' => 'Centro e Afonso Pena (CWB), no próprio município não cabem no mesmo aceite tardio.',
+    'capitulos' => [
+        [
+            'h2' => 'Centro e o recuo da pauta',
+            'texto' => 'São José dos Pinhais concentra Centro (sede) e Afonso Pena (CWB) no mesmo município. O motorista precisa do ponto de embarque e do CWB no mesmo recado — “me busca em São José dos Pinhais” não define o recuo.',
+        ],
+        [
+            'h2' => 'Afonso Pena, Colônia Rio Grande e a ordem do dia',
             'itens' => [
-                ['h3' => 'Centro e a Rui Barbosa', 'texto' => 'Sede, hotel e o calçadão. Informe o prédio; “no Centro” não define a porta.'],
-                ['h3' => 'Afonso Pena, Costeira e o entorno do terminal', 'texto' => 'Hotéis de passagem (Ibis, similar). O nome evita a volta na via de acesso ao CWB.'],
-                ['h3' => 'Plantas e o Distrito Industrial', 'texto' => 'Renault, Volkswagen e o eixo industrial. Protocolo de portaria entra no roteiro junto com o turno.'],
+                [
+                    'h3' => 'Afonso Pena',
+                    'texto' => 'Origem frequente para terminal CWB. Informe nome da empresa ou do hotel. Afonso Pena não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Colônia Rio Grande',
+                    'texto' => 'Origem frequente para industrial. Informe nome da empresa ou do hotel. Colônia Rio Grande não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Cidade Jardim',
+                    'texto' => 'Origem frequente para bairro. Informe nome da empresa ou do hotel. Cidade Jardim não compartilha o recuo de Centro.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas urbanas e o salto para o Batel',
-            'texto' => 'CWB → hotel na Costeira → Centro → Batel em Curitiba só se a capital entrar no roteiro. A Linha Verde muda o intervalo mais que o quilômetro. Colônia e São Marcos saem com margem própria.',
-        ],
-        [
             'h2' => 'Afonso Pena — CWB',
-            'texto' => 'O terminal internacional fica neste município. Combinamos o voo. A espera no desembarque integra o trecho CWB. Até o Centro de São José o intervalo é urbano; até o Batel, a Linha Verde pesa mais que o mapa.',
+            'texto' => 'Afonso Pena (CWB) fica em São José dos Pinhais. Acesso: Avenida Rui Barbosa. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
     ],
     'passos' => [
-        'h2' => 'Três dados que evitam atraso no CWB',
+        'h2' => 'Como solicitar em São José dos Pinhais',
         'itens' => [
-            ['num' => '01', 'titulo' => 'Terminal e voo', 'texto' => 'Em São José dos Pinhais, número e horário. O carro sai com margem, não no minuto do check-in.'],
-            ['num' => '02', 'titulo' => 'Hotel ou planta', 'texto' => 'Costeira, Centro ou portaria industrial. “Perto do aeroporto” não basta.'],
-            ['num' => '03', 'titulo' => 'Curitiba ou cidade', 'texto' => 'O trecho até o Batel entra como recorte próprio. O urbano de São José é outro orçamento.'],
+            [
+                'num' => '01',
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome da empresa ou do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'num' => '02',
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o CWB ou Curitiba entra no dia.',
+            ],
+            [
+                'num' => '03',
+                'titulo' => 'Confirmação',
+                'texto' => 'Em São José dos Pinhais, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Afonso Pena',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Curitiba fica em São José dos Pinhais?', 'resposta' => 'Sim. O CWB fica neste município. O trecho até o Centro local ou até o Batel entra no roteiro com margem distinta para cada um.'],
-        ['pergunta' => 'Em São José dos Pinhais, o motorista espera no CWB se o voo atrasar?', 'resposta' => 'Sim. Em São José dos Pinhais, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Em São José dos Pinhais, vocês entram na planta com protocolo de portaria?', 'resposta' => 'Sim. Em São José dos Pinhais, envie o nome na lista e o documento pedido. Sem isso, o recuo da planta não libera.'],
-        ['pergunta' => 'Dá para ir ao Batel depois do hotel na Costeira?', 'resposta' => 'Sim. Informe a ordem. A Linha Verde pesa mais que a distância no mapa.'],
-    ],
-    'cta' => [
-        'titulo' => 'Marque o CWB no mesmo recado do hotel',
-        'texto' => 'O orçamento de São José dos Pinhais sai sob consulta. Terminal, planta e Centro no mesmo WhatsApp.',
-        'botao' => 'Pedir traslado em São José dos Pinhais',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'parana', 'ancora' => 'Foz, Londrina e o recorte paranaense'],
-        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'curitiba', 'ancora' => 'Batel, Centro Cívico e o Afonso Pena'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'guarulhos', 'ancora' => 'Cumbica, Centro e o terminal GRU'],
     ],
 ];

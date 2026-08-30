@@ -1,0 +1,39 @@
+{
+  "estado": "minas-gerais",
+  "cidade": "uberlandia",
+  "nome": "Uberlândia",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "UDI (Jardim Ipanema)", "eixo": "Acesso urbano ao terminal", "destino": "Hotel no Umuarama", "motivo": "Pouso e pernoite no município"},
+    {"origem": "Umuarama (Av. Amazonas / campus saúde)", "eixo": "João Naves de Ávila", "destino": "UFU Santa Mônica e Centro", "motivo": "Pauta universitária e sede"},
+    {"origem": "Hotel / Centro", "eixo": "BR-050 / BR-365", "destino": "Uberaba", "motivo": "Pauta que vaza o Triângulo"}
+  ],
+  "eixos": ["Umuarama", "Centro", "UFU (Santa Mônica / Umuarama)"],
+  "aeroportos": [
+    {"nome": "Aeroporto de Uberlândia — Tenente Coronel Aviador César Bombonato", "iata": "UDI", "municipio": "Uberlândia (Jardim Ipanema)", "relacao": "Terminal comercial no município; ICAO SBUL; Aena Brasil", "fonte": "Aena Brasil — histórico UDI; Prefeitura de Uberlândia 2026-07-02 (novo terminal, Av. Sideral 463, Jardim Ipanema)", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-050 / MG", "fonte": "PRF Portaria nº 2.684, 2026-06-03 — km 68,90–77,20 em Uberlândia", "data": "2026-08-29"},
+    {"nome": "BR-365 / MG", "fonte": "PRF Portaria nº 2.684, 2026-06-03 — km 610,80–614,70 em Uberlândia", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Campus Umuarama UFU / HCU (Av. Amazonas s/n)", "Campus Santa Mônica UFU (Av. João Naves de Ávila 2121)", "UDI Jardim Ipanema"],
+  "vizinhos_pedido": ["Uberaba", "Brasília via BR-050"],
+  "prefeito": {"nome": "Paulo Sérgio Ferreira", "fonte": "Prefeitura de Uberlândia — posse 2025-01-01", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "UDI no município de Uberlândia, Jardim Ipanema, IATA UDI / ICAO SBUL", "fonte": "Aena Brasil; Prefeitura 2026-07-02", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Tenente Coronel Aviador César Bombonato (UDI) opera em Uberlândia, no Jardim Ipanema.", "publicado": true},
+    {"fato": "Campus Santa Mônica: Av. João Naves de Ávila 2121", "fonte": "ufu.br/campi/campus-santa-monica", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "A sede da UFU fica na Avenida João Naves de Ávila, 2121.", "publicado": true},
+    {"fato": "Campus Umuarama: Av. Amazonas s/n", "fonte": "ufu.br/campi/campus-umuarama", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O Campus Umuarama fica na Avenida Amazonas, no bairro Umuarama.", "publicado": true}
+  ],
+  "descartado": [
+    "Celso Mello Azevedo como nome do UDI",
+    "Hotel Gran Odara sem site oficial",
+    "Tempo fixo UDI–Centro",
+    "Araguari como vazão sem pedido do brief"
+  ],
+  "verificar": [
+    "[VERIFICAR] Av. Sideral 463 — notícia da Prefeitura 2026-07-02; fetch HTTP bloqueado; não publicado na landing",
+    "[VERIFICAR] Hotel nomeado com site oficial"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
+}

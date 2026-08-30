@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "petropolis",
+    "nome": "Petrópolis",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro Histórico",
+            "eixo": "BR-040",
+            "destino": "Galeão",
+            "motivo": "hotel e palácio"
+        }
+    ],
+    "eixos": [
+        "Centro Histórico",
+        "Quitandinha",
+        "Itaipava",
+        "Valparaíso"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "BR-040"
+        },
+        {
+            "nome": "Santos Dumont",
+            "iata": "SDU",
+            "municipio": "Rio de Janeiro",
+            "acesso": "BR-040"
+        }
+    ],
+    "rodovias": [
+        "BR-040",
+        "União e Indústria",
+        "BR-495"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e palácio",
+        "evento",
+        "distrito e condomínio",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Rio de Janeiro",
+        "Teresópolis",
+        "Juiz de Fora"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GIG em Rio de Janeiro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

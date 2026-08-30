@@ -5,80 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'rio',
     'cidade_nome' => 'Itabuna',
-    'geo' => ['lat' => -14.7876, 'lng' => -39.2781],
+    'geo' => [
+        'lat' => -14.7876,
+        'lng' => -39.2781,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Itabuna',
     'seo' => [
-        'title' => 'Litoral Sul: motorista em Itabuna, Centro e IOS',
-        'description' => 'Carro com motorista em Itabuna para o Centro, Conceição, São Caetano e o Jorge Amado (IOS), em Ilhéus. BA-001, BR-101 e orçamento sob consulta.',
-        'og_title' => 'Motorista no Centro de Itabuna, na Conceição e no IOS',
-        'og_description' => 'Traslado no Litoral Sul: hotel em Itabuna, pauta na Conceição e o terminal Jorge Amado.',
-        'og_image_alt' => 'Sedan executivo em avenida do Centro de Itabuna',
+        'title' => 'Carro com motorista em Itabuna: São Caetano e IOS',
+        'description' => 'Motorista executivo em Itabuna: Centro, São Caetano e Jorge Amado (IOS), em Ilhéus. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Itabuna com motorista — São Caetano e Jorge Amado',
+        'og_description' => 'O motorista combina Centro com Jorge Amado (IOS), em Ilhéus. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Itabuna',
     ],
-    'kicker' => 'Litoral Sul · BA',
-    'h1' => 'Itabuna e Ilhéus não se trocam no mesmo recuo da Litoral Sul',
-    'corrente' => [
+    'kicker' => 'Sul da Bahia · BA',
+    'h1' => 'Itabuna: entre Centro, São Caetano e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Itabuna',
+    'faq' => [
         [
-            'h2' => 'A Costa do Cacau tem duas sedes — o endereço decide o recuo',
-            'texto' => 'Itabuna articula comércio, serviço e o eixo da BR-101; Ilhéus segura a orla e o Jorge Amado (IOS). Hotel no Centro, reunião na Conceição e o saguão cabem no mesmo dia só quando a ordem da Itabuna–Ilhéus já está no roteiro. O app encurta os dois municípios num ponto só. O motorista não.',
+            'pergunta' => 'Quem está em Itabuna embarca no IOS dentro da cidade?',
+            'resposta' => 'Não. De Itabuna o IOS (Jorge Amado) fica em Ilhéus. O trecho sai de Centro pela BR-415.',
         ],
         [
-            'h2' => 'Três recortes itabunenses que a pauta mais cita',
+            'pergunta' => 'Em Itabuna, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Itabuna. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Itabuna vocês fazem Ilhéus?',
+            'resposta' => 'Sim, saindo de Itabuna. Ilhéus não é o recorte de Centro; o horário pela BR-101 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Itabuna o carro fica entre Centro e São Caetano?',
+            'resposta' => 'Sim, em Itabuna. A hora à disposição cobre sede e hotel em Centro e bairro em São Caetano.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Itabuna e o IOS',
+        'texto' => 'Diga o ponto em Centro ou São Caetano, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Itabuna',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'bahia',
+            'ancora' => 'Itabuna e o recorte de Sul da Bahia',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'ilheus',
+            'ancora' => 'Motorista em ilheus',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'vitoria-da-conquista',
+            'ancora' => 'Motorista em vitoria da conquista',
+        ],
+    ],
+    'corrente' => [
+        [
+            'h2' => 'Itabuna e o primeiro recuo',
+            'texto' => 'Itabuna usa Jorge Amado (IOS), em Ilhéus. Quem embarca em Centro não está no município da pista. A BR-415 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Eixos que o pedido cita',
             'itens' => [
                 [
-                    'h3' => 'Centro e o calçadão',
-                    'texto' => 'Sede, hotel e o comércio da área central. Informe o prédio; “no Centro” não distingue a porta da ladeira nem o recuo da rodoviária.',
-                ],
-                [
-                    'h3' => 'Conceição',
-                    'texto' => 'Pauta residencial, clínicas e o eixo interno. A numeração se repete; o nome da rua entra no recado, não o bairro sozinho.',
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de São Caetano.',
                 ],
                 [
                     'h3' => 'São Caetano',
-                    'texto' => 'Bairro mais afastado do núcleo comercial. Quando a agenda mistura São Caetano, Centro e o IOS, a ordem da BR-101 pesa mais que o mapa.',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel. São Caetano não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Jaçanã',
+                    'texto' => 'Origem frequente para residencial. Informe nome do hotel. Jaçanã não compartilha o recuo de Centro.',
                 ],
             ],
         ],
         [
-            'h2' => 'Jorge Amado — IOS em Ilhéus, não na porta de Itabuna',
-            'texto' => 'O voo comercial da Costa do Cacau pousa no Jorge Amado, em Ilhéus. Combinamos o número. A espera no desembarque integra o trecho IOS quando o pouso já está no pedido. Até o Centro de Itabuna o intervalo atravessa o recorte Itabuna–Ilhéus; a BA-001 e a BR-101 alteram o relógio no pico.',
+            'h2' => 'Jorge Amado (IOS)',
+            'texto' => 'Jorge Amado (IOS) fica em Ilhéus, não em Itabuna. O trecho sai pela BR-415. Diga o IATA e o número do voo.',
         ],
-        [
-            'h2' => 'BA-001, BR-101 e o salto que o mapa trata como vizinho',
-            'texto' => 'Hotel em Itabuna → pauta na Conceição → IOS só se a ordem estiver escrita. Vitória da Conquista entra pela BR-415, como viagem — não como segunda corrida urbana. O hotel é embarque, sem convênio de porta. O orçamento sai sob consulta.',
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pauta Itabuna e voa pelo IOS',
-    'faq' => [
-        [
-            'pergunta' => 'Itabuna e Ilhéus usam o mesmo recuo?',
-            'resposta' => 'Não. São municípios colados na Costa do Cacau, com recuos distintos. O IOS fica em Ilhéus; o Centro de Itabuna pede a ordem da BR-101 no roteiro.',
-        ],
-        [
-            'pergunta' => 'Em Itabuna, o motorista espera no IOS se o voo atrasar?',
-            'resposta' => 'Sim. Em Itabuna, o número do voo entra no pedido e a espera no terminal faz parte do trecho.',
-        ],
-        [
-            'pergunta' => 'Vocês fazem Centro, Conceição e São Caetano no mesmo dia?',
-            'resposta' => 'Sim. Informe a ordem e o nome do prédio. Um motorista articula os três recuos sem três aceites.',
-        ],
-        [
-            'pergunta' => 'Dá para seguir a Vitória da Conquista depois do hotel?',
-            'resposta' => 'Sim, pela BR-415, como viagem. Não é o mesmo recorte do Centro; o horário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Itabuna, o hotel no Centro conta como ponto conveniado?',
-            'resposta' => 'Não. Em Itabuna, o hotel entra só como embarque: nome, acesso e espera. O orçamento sai sob consulta.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Anote o IOS no mesmo recado de Itabuna',
-        'texto' => 'O orçamento do Litoral Sul sai sob consulta. Centro, Conceição e Jorge Amado no mesmo WhatsApp.',
-        'botao' => 'Pedir motorista em Itabuna',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'bahia', 'ancora' => 'Salvador, o Recôncavo e a Costa do Cacau'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'ilheus', 'ancora' => 'Pontal, Centro Histórico e o Jorge Amado'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'vitoria-da-conquista', 'ancora' => 'Centro, Recreio e o recuo da BR-116'],
     ],
 ];

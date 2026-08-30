@@ -5,74 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Presidente Prudente',
-    'geo' => ['lat' => -22.1207, 'lng' => -51.3882],
+    'geo' => [
+        'lat' => -22.1207,
+        'lng' => -51.3882,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Presidente Prudente',
     'seo' => [
-        'title' => 'Motorista em Prudente: Centro, Jardim das Rosas e PPB',
-        'description' => 'Carro com motorista em Presidente Prudente para o Centro, Jardim das Rosas, Cecap e o aeroporto PPB. Oeste paulista e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro, no Jardim das Rosas e no PPB',
-        'og_description' => 'Motorista em Presidente Prudente: hotel no Centro, pauta no Jardim das Rosas e o terminal Adhemar de Barros.',
-        'og_image_alt' => 'Sedan executivo em avenida de Presidente Prudente',
+        'title' => 'Motorista executivo em Presidente Prudente: Centro e PPB',
+        'description' => 'Carro com motorista em Presidente Prudente para Centro, Vila Euclides e PPB. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Presidente Prudente com motorista — Vila Euclides e Presidente Prudente',
+        'og_description' => 'O motorista combina Centro com Presidente Prudente (PPB), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Presidente Prudente',
     ],
     'kicker' => 'Oeste paulista · SP',
-    'h1' => 'Do PPB ao Jardim das Rosas sem perder a reunião no Centro',
-    'lead' => 'Presidente Prudente concentra o Centro, o Jardim das Rosas e o recorte até o Aeroporto Estadual Adhemar de Barros (PPB). O motorista segura a Avenida Washington Luiz, a Raposo Tavares (SP-270) e o acesso do terminal; o passageiro segura a pauta do agronegócio — não a vaga na porta do hotel nem o sentido da via no fim da tarde.',
-    'contexto' => [
-        'h2' => 'A cidade do oeste cobra bairro e terminal, não “no centro”',
-        'texto' => [
-            'Centro, Jardim das Rosas, Cecap e Vila Euclides não compartilham o mesmo recuo. Hotel (Ibis e similares, só como ponto de embarque), reunião no Centro e o pouso no PPB cabem no mesmo expediente se a ordem da Washington Luiz já estiver no roteiro. Unoeste pede campus e bloco; a portaria não libera com o GPS na reitoria.',
-            'O recorte é a rotina do polo agropecuário do oeste: embarque na portaria, espera discreta enquanto a reunião corre e chegada no saguão do Adhemar de Barros. Quando a pauta aponta para São José do Rio Preto, Bauru ou a capital, o trecho pela Raposo Tavares ou pela Marechal Rondon deixa de ser só urbano de Prudente.',
-        ],
-    ],
-    'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
-        'itens' => [
-            ['h3' => 'Centro e a Washington Luiz', 'texto' => 'Sede, calçadão e o recuo comercial. Informe o prédio; o sentido da avenida muda no pico. Ibis e similares entram só como ponto de embarque.'],
-            ['h3' => 'Jardim das Rosas e o recorte residencial', 'texto' => 'Hotéis, clínicas e torres. “Nas Rosas” não define a porta; rua e número evitam a volta no quarteirão.'],
-            ['h3' => 'Cecap, Vila Euclides e o sul', 'texto' => 'Pauta residencial e o recuo até o PPB. O Cecap não se troca com o Centro no mesmo cartaz; o ponto de espera entra no roteiro.'],
-            ['h3' => 'Unoeste e o campus', 'texto' => 'Campus, bloco e pauta acadêmica. Protocolo de portaria e documento na lista evitam a cancela fechada.'],
-        ],
-    ],
-    'aeroportos' => [
-        'h2' => 'Adhemar de Barros — PPB no relógio do oeste',
-        'itens' => [
-            ['h3' => 'Presidente Prudente — PPB', 'texto' => 'O Aeroporto Estadual Adhemar de Barros atende a cidade. Combinamos o voo. A espera no desembarque integra o trecho PPB quando o pouso já está no roteiro.'],
-            ['h3' => 'Quando a pauta aponta para outro saguão', 'texto' => 'Viracopos, GRU ou a capital não são o mesmo pedido urbano. Se a reunião vaza pela Raposo Tavares ou rumo a Bauru, o orçamento sai sob consulta.'],
-        ],
-    ],
-    'rotas' => [
-        'h2' => 'Trajetos que a agenda prudentina mais pede',
-        'itens' => [
-            ['titulo' => 'PPB → hotel no Jardim das Rosas', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante. O terminal não fica na porta do Centro.'],
-            ['titulo' => 'Rosas → Centro → Unoeste', 'texto' => 'Em Presidente Prudente, reunião, sede e campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Hotel → Rio Preto ou Bauru', 'texto' => 'Quando a pauta sai pelo oeste ou pela Rondon, o trecho deixa de ser só urbano. Horário sob consulta.'],
-        ],
-    ],
-    'como' => [
-        'h2' => 'Como o carro entra na grade em Presidente Prudente',
-        'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Centro, Jardim das Rosas, Cecap ou Vila Euclides. Autocomplete não resolve condomínio com dois acessos.'],
-            ['titulo' => 'Hotel ou PPB', 'texto' => 'Diga se o embarque é o hotel ou o Adhemar de Barros. O número do voo entra no roteiro.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Presidente Prudente, nome e DDD no WhatsApp. Devolvemos o horário de apresentação. Orçamento sob consulta.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no PPB',
+    'h1' => 'Presidente Prudente — Centro de manhã, PPB quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Presidente Prudente',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Presidente Prudente fica longe do Centro?', 'resposta' => 'O PPB é trecho urbano com margem. Marcamos o intervalo a partir do Jardim das Rosas ou do Centro; o pico da Washington Luiz altera o relógio.'],
-        ['pergunta' => 'O motorista espera no PPB se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número do voo entra no pedido e a espera no terminal faz parte do trecho Adhemar de Barros.'],
-        ['pergunta' => 'Vocês fazem Centro, Jardim das Rosas e a Unoeste no mesmo dia?', 'resposta' => 'Sim. Em Presidente Prudente, informe a ordem, o bloco do campus e o documento da portaria. Um motorista articula os três recuos.'],
-        ['pergunta' => 'Dá para seguir a São José do Rio Preto ou a Bauru depois da reunião?', 'resposta' => 'Sim, como viagem pela Raposo Tavares ou pela Rondon. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-        ['pergunta' => 'O carro cobre pauta de agronegócio fora da malha urbana?', 'resposta' => 'Sim, quando a fazenda ou o escritório entra no roteiro. Informe o ponto de espera; o GPS no Centro não resolve o acesso rural.'],
+        [
+            'pergunta' => 'Em Presidente Prudente, o PPB fica no próprio município?',
+            'resposta' => 'Sim. Em Presidente Prudente, Presidente Prudente (PPB) fica no município. Informe o acesso via SP-270.',
+        ],
+        [
+            'pergunta' => 'Em Presidente Prudente, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Presidente Prudente. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Presidente Prudente vocês fazem Araçatuba?',
+            'resposta' => 'Sim, saindo de Presidente Prudente. Araçatuba não é o recorte de Centro; o horário pela SP-425 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Presidente Prudente o carro fica entre Centro e Vila Euclides?',
+            'resposta' => 'Sim, em Presidente Prudente. A hora à disposição cobre sede e hotel em Centro e bairro em Vila Euclides.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Junte o Jardim das Rosas ao horário do PPB',
-        'texto' => 'O orçamento de Presidente Prudente sai sob consulta. Centro, hotel e Adhemar de Barros no mesmo WhatsApp.',
+        'titulo' => 'Informe o embarque em Presidente Prudente e o PPB',
+        'texto' => 'Diga o ponto em Centro ou Vila Euclides, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Presidente Prudente',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-jose-do-rio-preto', 'ancora' => 'Centro, Redentora e o eixo do interior'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'bauru', 'ancora' => 'Centro, Estoril e o aeroporto JTC'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'sao-paulo',
+            'ancora' => 'Presidente Prudente e o recorte de Oeste paulista',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'sao-jose-do-rio-preto',
+            'ancora' => 'Motorista em sao jose do rio preto',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'bauru',
+            'ancora' => 'Motorista em bauru',
+        ],
+    ],
+    'lead' => 'Presidente Prudente concentra Centro (sede e hotel) e Presidente Prudente (PPB) no mesmo município. O motorista precisa do ponto de embarque e do PPB no mesmo recado — “me busca em Presidente Prudente” não define o recuo.',
+    'contexto' => [
+        'h2' => 'Presidente Prudente se mede em Marechal Rondon, não em pin de aplicativo',
+        'texto' => [
+            'Presidente Prudente concentra Centro (sede e hotel) e Presidente Prudente (PPB) no mesmo município. O motorista precisa do ponto de embarque e do PPB no mesmo recado — “me busca em Presidente Prudente” não define o recuo.',
+            'Vila Euclides pede bairro. Jardim Bongiovani pede residencial. Quando Araçatuba entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela SP-425.',
+        ],
+    ],
+    'bairros' => [
+        'h2' => 'Eixos de embarque em Presidente Prudente',
+        'itens' => [
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Vila Euclides.',
+            ],
+            [
+                'h3' => 'Vila Euclides',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Vila Euclides não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Jardim Bongiovani',
+                'texto' => 'Origem frequente para residencial. Informe nome do hotel. Jardim Bongiovani não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Campus Unoeste',
+                'texto' => 'Origem frequente para universidade. Informe nome do hotel. Campus Unoeste não compartilha o recuo de Centro.',
+            ],
+        ],
+    ],
+    'aeroportos' => [
+        'h2' => 'O terminal que a agenda de Presidente Prudente realmente usa',
+        'itens' => [
+            [
+                'h3' => 'Presidente Prudente — PPB',
+                'texto' => 'Presidente Prudente (PPB) fica em Presidente Prudente. Acesso: SP-270. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'Marechal Rondon e a vazão para Araçatuba',
+                'texto' => 'Araçatuba e Marília aparecem no mesmo pedido de Presidente Prudente. Isso é viagem, não segunda corrida em Centro.',
+            ],
+        ],
+    ],
+    'rotas' => [
+        'h2' => 'Trajetos que o pedido em Presidente Prudente mais combina',
+        'itens' => [
+            [
+                'titulo' => 'Centro → PPB',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: SP-270.',
+            ],
+            [
+                'titulo' => 'PPB → Vila Euclides',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel.',
+            ],
+            [
+                'titulo' => 'Centro → Araçatuba',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Vila Euclides; o horário sai sob consulta.',
+            ],
+        ],
+    ],
+    'como' => [
+        'h2' => 'Como o carro entra na pauta em Presidente Prudente',
+        'passos' => [
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o PPB ou Araçatuba entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Presidente Prudente, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

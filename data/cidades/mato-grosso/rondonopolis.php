@@ -5,52 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'gaucha',
     'cidade_nome' => 'Rondonópolis',
-    'geo' => ['lat' => -16.4673, 'lng' => -54.6372],
+    'geo' => [
+        'lat' => -16.4673,
+        'lng' => -54.6372,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Rondonópolis',
     'seo' => [
-        'title' => 'Traslado em Rondonópolis: Centro, Vila Aurora e ROO',
-        'description' => 'Carro com motorista em Rondonópolis para o Centro, Vila Aurora, Jardim Atlântico e o aeroporto Maestro Marinho Franco. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Motorista no Centro, na Vila Aurora e no aeroporto ROO',
-        'og_description' => 'Traslado no sul de Mato Grosso: hotel, pauta no Centro e o terminal Maestro Marinho.',
-        'og_image_alt' => 'Sedan executivo em avenida de Rondonópolis',
+        'title' => 'Motorista executivo em Rondonópolis: Centro e ROO',
+        'description' => 'Carro com motorista em Rondonópolis para Centro, Jardim Atlântico e ROO. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Rondonópolis: Centro e ROO',
+        'og_description' => 'O motorista combina Centro com Maestro Marinho Pinto (ROO), no próprio município. Informe nome na lista da portaria.',
+        'og_image_alt' => 'Carro executivo em via de Rondonópolis',
     ],
     'kicker' => 'Sul mato-grossense · MT',
-    'h1' => 'Do Maestro Marinho à Vila Aurora sem perder o Centro',
+    'h1' => 'Rondonópolis — Centro de manhã, ROO quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Rondonópolis',
+    'faq' => [
+        [
+            'pergunta' => 'Em Rondonópolis, o ROO fica no próprio município?',
+            'resposta' => 'Sim. Em Rondonópolis, Maestro Marinho Pinto (ROO) fica no município. Informe o acesso via MT-130.',
+        ],
+        [
+            'pergunta' => 'Em Rondonópolis, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Rondonópolis. Envie nome na lista da portaria em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Rondonópolis vocês fazem Cuiabá?',
+            'resposta' => 'Sim, saindo de Rondonópolis. Cuiabá não é o recorte de Centro; o horário pela BR-364 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Rondonópolis o carro fica entre Centro e Jardim Atlântico?',
+            'resposta' => 'Sim, em Rondonópolis. A hora à disposição cobre sede e hotel em Centro e bairro em Jardim Atlântico.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Rondonópolis e o ROO',
+        'texto' => 'Diga o ponto em Centro ou Jardim Atlântico, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Rondonópolis',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'mato-grosso',
+            'ancora' => 'Rondonópolis e o recorte de Sul mato-grossense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'mato-grosso',
+            'cidade' => 'cuiaba',
+            'ancora' => 'Motorista em cuiaba',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'mato-grosso-do-sul',
+            'cidade' => 'campo-grande',
+            'ancora' => 'Motorista em campo grande',
+        ],
+    ],
     'coluna' => [
-        'h2' => 'Rondonópolis se lê em soja e em BR-163 — o app não lê o turno da planta',
+        'h2' => 'Rondonópolis no mapa e na BR-163',
         'texto' => [
-            'Hotel no Centro ou na Vila Aurora, reunião no Distrito Industrial e voo no Maestro Marinho Franco (ROO) cabem no mesmo expediente se o motorista já saiu com a ordem da Fernando Corrêa da Costa, não com o aceite do minuto.',
-            'O recorte é a rotina do agronegócio: embarque na portaria, espera discreta e chegada no terminal certo. Quando a pauta aponta para Cuiabá, a BR-163 deixa de ser só urbana.',
+            'Rondonópolis concentra Centro (sede e hotel) e Maestro Marinho Pinto (ROO) no mesmo município. O motorista precisa do ponto de embarque e do ROO no mesmo recado — “me busca em Rondonópolis” não define o recuo.',
+            'Jardim Atlântico pede bairro. Distrito Industrial pede planta e CD. Quando Cuiabá entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-364.',
         ],
     ],
     'lateral' => [
-        'h2' => 'Pontos que o pedido rondonopolitano mais cita',
+        'h2' => 'Pontos que o pedido em Rondonópolis mais cita',
         'itens' => [
-            ['h3' => 'Centro e a Fernando Corrêa', 'texto' => 'Em Rondonópolis, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Vila Aurora e o Jardim Atlântico', 'texto' => 'Hotéis (Ibis, similares) e clínicas. “Na Aurora” não define o recuo da portaria.'],
-            ['h3' => 'Maestro Marinho Franco — ROO', 'texto' => 'Terminal da cidade. Combinamos o voo. A espera no desembarque integra o trecho ROO.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome na lista da portaria. Centro não compartilha o recuo de Jardim Atlântico.',
+            ],
+            [
+                'h3' => 'Jardim Atlântico',
+                'texto' => 'Origem frequente para bairro. Informe nome na lista da portaria. Jardim Atlântico não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Distrito Industrial',
+                'texto' => 'Origem frequente para planta e CD. Informe nome na lista da portaria. Distrito Industrial não compartilha o recuo de Centro.',
+            ],
         ],
     ],
     'faixa' => [
-        'h2' => 'Quando a pauta atravessa a BR-163 rumo a Cuiabá',
-        'texto' => 'Hotel na Vila Aurora, planta no Distrito e saída cedo pelo ROO. Cuiabá e o Marechal Rondon entram como viagem, com margem de BR-163 — não como segunda corrida urbana.',
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no Maestro Marinho',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Rondonópolis fica longe da Vila Aurora?', 'resposta' => 'É trecho urbano. Marcamos margem: a Fernando Corrêa e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no ROO se o voo atrasar?', 'resposta' => 'Sim. Em Rondonópolis, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, Vila Aurora e o Distrito no mesmo dia?', 'resposta' => 'Sim. Informe o nome na portaria. Um motorista articula os três recuos.'],
-        ['pergunta' => 'Dá para seguir a Cuiabá depois do hotel?', 'resposta' => 'Sim, como viagem pela BR-163. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Junte a Vila Aurora ao horário do ROO',
-        'texto' => 'O orçamento de Rondonópolis sai sob consulta. Centro, planta e terminal no mesmo WhatsApp.',
-        'botao' => 'Pedir carro em Rondonópolis',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'mato-grosso', 'ancora' => 'Cuiabá, Rondonópolis e o recorte mato-grossense'],
-        ['tipo' => 'cidade', 'estado' => 'mato-grosso', 'cidade' => 'cuiaba', 'ancora' => 'Centro, Goiabeiras e o Marechal Rondon'],
-        ['tipo' => 'cidade', 'estado' => 'mato-grosso-do-sul', 'cidade' => 'campo-grande', 'ancora' => 'Centro, shopping e o CGR'],
+        'h2' => 'Rotas urbanas e o salto para Cuiabá',
+        'texto' => 'Centro → Cuiabá: Transfer intermunicipal. Não é o mesmo recorte de Jardim Atlântico; o horário sai sob consulta.',
     ],
 ];

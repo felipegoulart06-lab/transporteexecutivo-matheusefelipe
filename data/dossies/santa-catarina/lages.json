@@ -1,0 +1,78 @@
+{
+    "estado": "santa-catarina",
+    "cidade": "lages",
+    "nome": "Lages",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-282",
+            "destino": "Lages",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Coral",
+        "Universitário",
+        "Caroba"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Lages",
+            "iata": "LAJ",
+            "municipio": "Lages",
+            "acesso": "SC-114"
+        },
+        {
+            "nome": "Hercílio Luz",
+            "iata": "FLN",
+            "municipio": "Florianópolis",
+            "acesso": "BR-282"
+        }
+    ],
+    "rodovias": [
+        "BR-282",
+        "BR-116",
+        "Avenida Belizário Ramos"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "campus",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Correia Pinto",
+        "Florianópolis",
+        "Vacaria"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal LAJ em Lages",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

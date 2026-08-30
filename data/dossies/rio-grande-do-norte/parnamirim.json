@@ -1,0 +1,72 @@
+{
+    "estado": "rio-grande-do-norte",
+    "cidade": "parnamirim",
+    "nome": "Parnamirim",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-101",
+            "destino": "Governador Aluízio Alves",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Passagem de Areia",
+        "Cidade Verde",
+        "Nova Parnamirim"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Governador Aluízio Alves",
+            "iata": "NAT",
+            "municipio": "São Gonçalo do Amarante",
+            "acesso": "RN-160 / BR-101"
+        }
+    ],
+    "rodovias": [
+        "BR-101",
+        "RN-063",
+        "Avenida Maria Lélia Cortez"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "bairro",
+        "residencial",
+        "eixo Natal"
+    ],
+    "vizinhos_pedido": [
+        "Natal",
+        "São Gonçalo do Amarante",
+        "Nísia Floresta"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal NAT em São Gonçalo do Amarante",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

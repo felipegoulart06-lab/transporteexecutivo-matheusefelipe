@@ -1,0 +1,72 @@
+{
+    "estado": "mato-grosso-do-sul",
+    "cidade": "dourados",
+    "nome": "Dourados",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-163",
+            "destino": "Francisco de Matos Pereira",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Jardim América",
+        "Universitário",
+        "Vila Progresso"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Francisco de Matos Pereira",
+            "iata": "DOU",
+            "municipio": "Dourados",
+            "acesso": "MS-156"
+        }
+    ],
+    "rodovias": [
+        "BR-163",
+        "MS-156",
+        "Avenida Marcelino Pires"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "UFGD",
+        "residencial"
+    ],
+    "vizinhos_pedido": [
+        "Campo Grande",
+        "Ponta Porã",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal DOU em Dourados",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

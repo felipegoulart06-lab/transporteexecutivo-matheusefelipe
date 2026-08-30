@@ -1,0 +1,72 @@
+{
+    "estado": "santa-catarina",
+    "cidade": "palhoca",
+    "nome": "Palhoça",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Pagani",
+            "eixo": "BR-101",
+            "destino": "Hercílio Luz",
+            "motivo": "eixo comercial"
+        }
+    ],
+    "eixos": [
+        "Pagani",
+        "Ponte do Imaruim",
+        "Centro",
+        "Bela Vista"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Hercílio Luz",
+            "iata": "FLN",
+            "municipio": "Florianópolis",
+            "acesso": "BR-101 / pontes"
+        }
+    ],
+    "rodovias": [
+        "BR-101",
+        "ponte Pedro Ivo",
+        "Avenida Barão do Rio Branco"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "eixo comercial",
+        "acesso à ponte",
+        "sede",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Florianópolis",
+        "São José",
+        "Santo Amaro da Imperatriz"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal FLN em Florianópolis",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

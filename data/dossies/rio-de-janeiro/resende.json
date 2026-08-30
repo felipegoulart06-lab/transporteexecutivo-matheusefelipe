@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "resende",
+    "nome": "Resende",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Dutra",
+            "destino": "Resende",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Campos Elíseos",
+        "Jardim Jalisco",
+        "AMAN"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Resende",
+            "iata": "QRZ",
+            "municipio": "Resende",
+            "acesso": "BR-116"
+        },
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "Dutra"
+        }
+    ],
+    "rodovias": [
+        "Dutra",
+        "BR-354",
+        "Avenida Presidente Kennedy"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "residencial",
+        "academia militar"
+    ],
+    "vizinhos_pedido": [
+        "Volta Redonda",
+        "Itatiaia",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal QRZ em Resende",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

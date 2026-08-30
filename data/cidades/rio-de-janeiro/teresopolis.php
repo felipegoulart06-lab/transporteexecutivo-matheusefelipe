@@ -5,65 +5,110 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'Teresópolis',
-    'geo' => ['lat' => -22.4165, 'lng' => -42.9752],
+    'geo' => [
+        'lat' => -22.4165,
+        'lng' => -42.9752,
+    ],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Teresópolis',
     'seo' => [
-        'title' => 'Serra fluminense: motorista em Teresópolis e SDU',
-        'description' => 'Motorista em Teresópolis para a Várzea, o Alto, Tijuca e Granja Comary. BR-116 até o Rio e o SDU, espera combinada e orçamento sob consulta.',
-        'og_title' => 'Traslado na Várzea, no Alto e na descida ao SDU',
-        'og_description' => 'Motorista na serra fluminense: hotel na Várzea, pauta no Alto e a BR-116 rumo ao Santos Dumont.',
-        'og_image_alt' => 'Sedan executivo em via da Várzea, em Teresópolis',
+        'title' => 'Motorista executivo em Teresópolis: Centro e GIG',
+        'description' => 'Motorista executivo em Teresópolis: Centro, Alto e Galeão (GIG), em Rio de Janeiro. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Teresópolis com motorista — Alto e Galeão',
+        'og_description' => 'O motorista combina Centro com Galeão (GIG), em Rio de Janeiro. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Teresópolis',
     ],
-    'kicker' => 'Serra fluminense · RJ',
-    'h1' => 'Alto, Várzea e a BR-116 no relógio de quem desce ao SDU',
-    'olho' => 'Teresópolis mede o dia pelo Alto e pela Várzea; a BR-116 até o Santos Dumont é a descida que o relógio da serra fluminense cobra, não o Waze da hora. O motorista segura a Oliveira Botelho e o recuo da Granja Comary; o passageiro segura a reunião — não a vaga na porta do hotel.',
-    'capitulos' => [
-        [
-            'h2' => 'A serra e o aeroporto que ficou no Rio',
-            'texto' => 'Várzea, Alto, Tijuca e Granja Comary cabem em poucos quilômetros de altitude. O Santos Dumont não. Quem marca pauta no Alto e voo no mesmo dia precisa de um carro que já saiu da Várzea com a ordem da BR-116, não de um aceite no minuto da descida.',
-        ],
-        [
-            'h2' => 'Onde o embarque teresopolitano mais se concentra',
-            'itens' => [
-                ['h3' => 'Várzea e o eixo comercial', 'texto' => 'Hotel, sede e o recuo da avenida. Informe o estabelecimento; “na Várzea” não define a entrada nem o sentido da via.'],
-                ['h3' => 'Alto e a Tijuca', 'texto' => 'Pernoite de cota e o recorte residencial. O recuo pede rua; Alto e Tijuca não se trocam no mesmo cartaz.'],
-                ['h3' => 'Granja Comary e o protocolo de acesso', 'texto' => 'Centro de treinamento e pauta institucional. Nome na lista e documento; o GPS na serra não resolve a cancela.'],
-            ],
-        ],
-        [
-            'h2' => 'Rotas de trabalho, Comary e o salto pela 116',
-            'texto' => 'Hotel na Várzea → Alto → Granja Comary só se a ordem estiver no roteiro. Outro clássico: Teresópolis → SDU pela BR-116, como viagem de serra fluminense, não como corrida urbana. Petrópolis entra pela mesma lógica de cota e recuo estreito.',
-        ],
-        [
-            'h2' => 'BR-116 — o relógio do SDU e do GIG',
-            'texto' => 'Teresópolis não tem saguão próprio. Combinamos se o voo é Santos Dumont ou Galeão. A descida da 116 muda o intervalo mais que o mapa admite; a margem sai da Várzea, não do saguão. Nevoeiro e pico pesam na cota.',
-        ],
-    ],
-    'passos' => [
-        'h2' => 'Três dados que evitam atraso na serra',
-        'itens' => [
-            ['num' => '01', 'titulo' => 'Bairro e cota', 'texto' => 'Várzea, Alto ou Tijuca. “Em Teresópolis” não define o recuo nem o desnível.'],
-            ['num' => '02', 'titulo' => 'Granja Comary', 'texto' => 'Nome na lista e documento. O carro chega com o protocolo, não com o GPS da granja.'],
-            ['num' => '03', 'titulo' => 'SDU, GIG ou cidade', 'texto' => 'O trecho até o Rio entra como viagem pela BR-116. O urbano da Várzea é outro orçamento.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem desce a serra rumo ao SDU',
+    'kicker' => 'Região Serrana · RJ',
+    'h1' => 'Teresópolis: entre Centro, Alto e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Teresópolis',
     'faq' => [
-        ['pergunta' => 'Teresópolis tem aeroporto comercial?', 'resposta' => 'O saguão prático da pauta é o Santos Dumont, pela BR-116. Combinamos a margem da descida; nevoeiro e pico alteram o intervalo mais que o mapa.'],
-        ['pergunta' => 'Vocês entram na Granja Comary com protocolo?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela do centro de treinamento não libera.'],
-        ['pergunta' => 'Alto, Várzea e a Tijuca cabem no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o ponto de espera. A cota muda o recuo; um motorista articula os três se o roteiro já tiver a margem.'],
-        ['pergunta' => 'Dá para usar o Galeão em vez do Santos Dumont?', 'resposta' => 'Sim. Combinamos o terminal. O GIG pede outro recuo na chegada ao Rio; o horário sai sob consulta.'],
-        ['pergunta' => 'Petrópolis entra depois da reunião no Alto?', 'resposta' => 'Sim, como viagem de serra. Não é o mesmo recorte da Várzea; o horário sai sob consulta.'],
+        [
+            'pergunta' => 'Quem está em Teresópolis embarca no GIG dentro da cidade?',
+            'resposta' => 'Não. De Teresópolis o GIG (Galeão) fica em Rio de Janeiro. O trecho sai de Centro pela BR-116.',
+        ],
+        [
+            'pergunta' => 'Em Teresópolis, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Teresópolis. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Teresópolis vocês fazem Petrópolis?',
+            'resposta' => 'Sim, saindo de Teresópolis. Petrópolis não é o recorte de Centro; o horário pela BR-495 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Teresópolis, GIG e SDU são o mesmo recorte?',
+            'resposta' => 'Não, em Teresópolis. Os dois ficam em Rio de Janeiro, mas o acesso muda: GIG pela BR-116 e SDU pela BR-116. Diga o IATA.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Anote o Alto junto com a descida ao SDU',
-        'texto' => 'O orçamento de Teresópolis sai sob consulta. Várzea, Comary e BR-116 no mesmo recado.',
+        'titulo' => 'Informe o embarque em Teresópolis e o GIG',
+        'texto' => 'Diga o ponto em Centro ou Alto, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Teresópolis',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-de-janeiro', 'ancora' => 'O recorte fluminense além da capital'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'petropolis', 'ancora' => 'Centro Histórico, Quitandinha e a serra'],
-        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Santos Dumont, Galeão e a Zona Sul'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-de-janeiro',
+            'ancora' => 'Teresópolis e o recorte de Região Serrana',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'petropolis',
+            'ancora' => 'Motorista em petropolis',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-de-janeiro',
+            'cidade' => 'rio-de-janeiro',
+            'ancora' => 'Motorista em rio de janeiro',
+        ],
+    ],
+    'olho' => 'Centro e Galeão (GIG), em Rio de Janeiro não cabem no mesmo aceite tardio.',
+    'capitulos' => [
+        [
+            'h2' => 'Centro e o recuo da pauta',
+            'texto' => 'Teresópolis usa Galeão (GIG), em Rio de Janeiro. Quem embarca em Centro não está no município da pista. A BR-116 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+        ],
+        [
+            'h2' => 'Alto, Várzea e a ordem do dia',
+            'itens' => [
+                [
+                    'h3' => 'Alto',
+                    'texto' => 'Origem frequente para bairro alto. Informe nome do hotel. Alto não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Várzea',
+                    'texto' => 'Origem frequente para eixo comercial. Informe nome do hotel. Várzea não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Granja Guarani',
+                    'texto' => 'Origem frequente para condomínio. Informe nome do hotel. Granja Guarani não compartilha o recuo de Centro.',
+                ],
+            ],
+        ],
+        [
+            'h2' => 'Galeão — GIG',
+            'texto' => 'Galeão (GIG) fica em Rio de Janeiro, não em Teresópolis. O trecho sai pela BR-116. Diga o IATA e o número do voo.',
+        ],
+    ],
+    'passos' => [
+        'h2' => 'Como solicitar em Teresópolis',
+        'itens' => [
+            [
+                'num' => '01',
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'num' => '02',
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o GIG ou Petrópolis entra no dia.',
+            ],
+            [
+                'num' => '03',
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Teresópolis, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

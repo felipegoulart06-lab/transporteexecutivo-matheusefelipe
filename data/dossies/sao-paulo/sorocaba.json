@@ -1,0 +1,78 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "sorocaba",
+    "nome": "Sorocaba",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Campolim",
+            "eixo": "Castelo Branco",
+            "destino": "Bertram Luiz Leupolz",
+            "motivo": "hotel e torre"
+        }
+    ],
+    "eixos": [
+        "Campolim",
+        "Centro",
+        "Éden",
+        "Além Ponte"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Bertram Luiz Leupolz",
+            "iata": "SOD",
+            "municipio": "Sorocaba",
+            "acesso": "Avenida Oswaldo Pires de Campos"
+        },
+        {
+            "nome": "Viracopos",
+            "iata": "VCP",
+            "municipio": "Campinas",
+            "acesso": "Castelo Branco"
+        }
+    ],
+    "rodovias": [
+        "Castelo Branco",
+        "Raposo Tavares",
+        "Avenida Ipanema"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel e torre",
+        "sede",
+        "industrial",
+        "bairro"
+    ],
+    "vizinhos_pedido": [
+        "Votorantim",
+        "Itu",
+        "São Paulo"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SOD em Sorocaba",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "estado": "goias",
+    "cidade": "aparecida-de-goiania",
+    "nome": "Aparecida de Goiânia",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "BR-153",
+            "destino": "Santa Genoveva",
+            "motivo": "sede"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Cidade Vera Cruz",
+        "Jardim Olímpico",
+        "Polo Empresarial"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Santa Genoveva",
+            "iata": "GYN",
+            "municipio": "Goiânia",
+            "acesso": "BR-153 / Anel"
+        }
+    ],
+    "rodovias": [
+        "BR-153",
+        "GO-040",
+        "Avenida Independência"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede",
+        "bairro",
+        "residencial",
+        "empresas"
+    ],
+    "vizinhos_pedido": [
+        "Goiânia",
+        "Hidrolândia",
+        "Brasília"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal GYN em Goiânia",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

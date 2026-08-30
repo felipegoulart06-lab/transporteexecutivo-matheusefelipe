@@ -5,52 +5,90 @@ declare(strict_types=1);
 return [
     'layout' => 'mare',
     'cidade_nome' => 'Vitória da Conquista',
-    'geo' => ['lat' => -14.8615, 'lng' => -40.8442],
+    'geo' => [
+        'lat' => -14.8615,
+        'lng' => -40.8442,
+    ],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Vitória da Conquista',
     'seo' => [
-        'title' => 'Carro executivo em Vitória da Conquista: Candeias, Centro e VDC',
-        'description' => 'Motorista executivo em Vitória da Conquista para Candeias, Centro, Recreio e o aeroporto Glauber Rocha. Planalto, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo em Candeias, no Centro e no aeroporto VDC',
-        'og_description' => 'Carro com motorista no sudoeste baiano: hotel em Candeias, pauta no Centro e o terminal VDC.',
-        'og_image_alt' => 'Sedan executivo em avenida de Vitória da Conquista',
+        'title' => 'Motorista executivo em Vitória da Conquista: Centro e VDC',
+        'description' => 'Carro com motorista em Vitória da Conquista para Centro, Candeias e VDC. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Traslado em Vitória da Conquista: Centro e VDC',
+        'og_description' => 'O motorista combina Centro com Glauber Rocha (VDC), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Vitória da Conquista',
     ],
     'kicker' => 'Sudoeste baiano · BA',
-    'h1' => 'Do VDC a Candeias sem perder a reunião no Centro',
+    'h1' => 'Em Vitória da Conquista, de Centro a Glauber Rocha (VDC), no próprio município',
+    'faq_h2' => 'Dúvidas de quem embarca em Vitória da Conquista',
+    'faq' => [
+        [
+            'pergunta' => 'Em Vitória da Conquista, o VDC fica no próprio município?',
+            'resposta' => 'Sim. Em Vitória da Conquista, Glauber Rocha (VDC) fica no município. Informe o acesso via BR-116.',
+        ],
+        [
+            'pergunta' => 'Em Vitória da Conquista, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Vitória da Conquista. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Vitória da Conquista vocês fazem Itapetinga?',
+            'resposta' => 'Sim, saindo de Vitória da Conquista. Itapetinga não é o recorte de Centro; o horário pela BA-262 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Vitória da Conquista o carro fica entre Centro e Candeias?',
+            'resposta' => 'Sim, em Vitória da Conquista. A hora à disposição cobre sede e hotel em Centro e bairro em Candeias.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Vitória da Conquista e o VDC',
+        'texto' => 'Diga o ponto em Centro ou Candeias, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Vitória da Conquista',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'bahia',
+            'ancora' => 'Vitória da Conquista e o recorte de Sudoeste baiano',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'bahia',
+            'cidade' => 'salvador',
+            'ancora' => 'Motorista em salvador',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'minas-gerais',
+            'cidade' => 'montes-claros',
+            'ancora' => 'Motorista em montes claros',
+        ],
+    ],
     'editorial' => [
-        'h2' => 'Conquista se lê em planalto e em avenida — o app não lê a BR-116',
+        'h2' => 'Vitória da Conquista pede ordem de endereço, não slogan',
         'texto' => [
-            'Hotel em Candeias, reunião no Centro ou no Recreio e voo no Glauber Rocha (VDC) cabem no mesmo caderno se o motorista já saiu com a ordem da Olívia Flores e da Bartolomeu de Gusmão, não com o atalho do momento.',
-            'O serviço é de traslado executivo: discreto, com espera combinada. Não é corrida de feira no sábado, a menos que a visita à Uesb ou ao Parque Jóia do Sertão entre no roteiro.',
+            'Vitória da Conquista concentra Centro (sede e hotel) e Glauber Rocha (VDC) no mesmo município. O motorista precisa do ponto de embarque e do VDC no mesmo recado — “me busca em Vitória da Conquista” não define o recuo.',
+            'Candeias pede bairro. Recreio pede residencial. Quando Itapetinga entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BA-262.',
         ],
     ],
     'coluna_a' => [
-        'h2' => 'Três recortes que a pauta conquisteira usa',
+        'h2' => 'Eixos de Vitória da Conquista',
         'itens' => [
-            ['h3' => 'Candeias e o shopping', 'texto' => 'Hotéis (Ibis, Deville, similares) e torres. Informe o nome; as quadras de Candeias se repetem no mapa.'],
-            ['h3' => 'Centro e a 394', 'texto' => 'Em Vitória da Conquista, sede e o calçadão. O sentido da via muda no fim da tarde; “no Centro” não define a porta.'],
-            ['h3' => 'Recreio, Uesb e o campus', 'texto' => 'Universidade e pauta acadêmica. O recuo pede bloco e portaria, não “na Uesb”.'],
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Candeias.',
+            ],
+            [
+                'h3' => 'Candeias',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Candeias não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Recreio',
+                'texto' => 'Origem frequente para residencial. Informe nome do hotel. Recreio não compartilha o recuo de Centro.',
+            ],
         ],
     ],
     'coluna_b' => [
-        'h2' => 'Glauber Rocha — VDC',
-        'texto' => 'O aeroporto fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho VDC. Até Candeias ou o Centro, a avenida pesa mais que o mapa admite no pico.',
-    ],
-    'faq_h2' => 'Dúvidas de quem pousa no Glauber Rocha',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Conquista fica longe de Candeias?', 'resposta' => 'É trecho urbano. Marcamos margem: a Olívia Flores e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no VDC se o voo atrasar?', 'resposta' => 'Sim. Em Vitória da Conquista, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Candeias, Centro e a Uesb no mesmo dia?', 'resposta' => 'Sim. Em Vitória da Conquista, informe o bloco. Um motorista articula os três recuos.'],
-        ['pergunta' => 'Dá para seguir a Jequié ou a BR-116 depois do hotel?', 'resposta' => 'Sim, como viagem. Não é o mesmo recorte de Candeias; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Anote Candeias junto com o horário do VDC',
-        'texto' => 'O orçamento de Vitória da Conquista sai sob consulta. Centro, campus e terminal no mesmo recado.',
-        'botao' => 'Pedir motorista em Conquista',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'bahia', 'ancora' => 'Feira, Costa do Descobrimento e o recorte baiano'],
-        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'salvador', 'ancora' => 'Barra, Paralela e o Luís Eduardo Magalhães'],
-        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'montes-claros', 'ancora' => 'Centro, Ibituruna e o Mário Ribeiro'],
+        'h2' => 'VDC e a vazão',
+        'texto' => 'Glauber Rocha (VDC) fica em Vitória da Conquista. Acesso: BR-116. Combinamos o voo; a espera no desembarque integra o trecho. Itapetinga entra como viagem.',
     ],
 ];

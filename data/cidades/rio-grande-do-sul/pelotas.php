@@ -5,55 +5,89 @@ declare(strict_types=1);
 return [
     'layout' => 'baia',
     'cidade_nome' => 'Pelotas',
-    'geo' => ['lat' => -31.7649, 'lng' => -52.3371],
+    'geo' => [
+        'lat' => -31.7649,
+        'lng' => -52.3371,
+    ],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Pelotas',
     'seo' => [
-        'title' => 'Carro executivo em Pelotas: Centro, Areal e PET',
-        'description' => 'Motorista executivo em Pelotas para o Centro, Areal, Três Vendas e o aeroporto João Simões Lopes Neto. Sul gaúcho, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro de Pelotas, no Areal e no aeroporto PET',
-        'og_description' => 'Carro com motorista no sul do Rio Grande: hotel, pauta no Centro e o terminal PET.',
-        'og_image_alt' => 'Sedan executivo em avenida de Pelotas',
+        'title' => 'Traslado executivo em Pelotas: Centro e BR-116',
+        'description' => 'Motorista executivo em Pelotas: Centro, Areal e João Simões Lopes Neto (PET), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
+        'og_title' => 'Agenda em Pelotas com motorista — Areal e João Simões Lopes Neto',
+        'og_description' => 'O motorista combina Centro com João Simões Lopes Neto (PET), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Pelotas',
     ],
     'kicker' => 'Sul gaúcho · RS',
-    'h1' => 'Do PET ao Areal sem perder a reunião no Centro',
-    'faixas' => [
+    'h1' => 'Pelotas: entre Centro, Areal e o terminal certo',
+    'faq_h2' => 'Dúvidas de quem embarca em Pelotas',
+    'faq' => [
         [
-            'h2' => 'Pelotas se mede em canal e em BR-116 — o app não lê o vento da lagoa',
-            'texto' => 'Hotel no Centro ou no Areal, reunião nas Três Vendas e voo no João Simões Lopes Neto (PET) cabem no mesmo dia se o motorista já saiu com a ordem da Bento Gonçalves e da Ferreira Viana, não com o atalho da hora.',
+            'pergunta' => 'Em Pelotas, o PET fica no próprio município?',
+            'resposta' => 'Sim. Em Pelotas, João Simões Lopes Neto (PET) fica no município. Informe o acesso via BR-392.',
         ],
         [
-            'h2' => 'Três recortes, um relógio de porto',
+            'pergunta' => 'Em Pelotas, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Pelotas. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Pelotas vocês fazem Rio Grande?',
+            'resposta' => 'Sim, saindo de Pelotas. Rio Grande não é o recorte de Centro; o horário pela BR-392 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Pelotas o carro fica entre Centro e Areal?',
+            'resposta' => 'Sim, em Pelotas. A hora à disposição cobre sede e hotel em Centro e bairro em Areal.',
+        ],
+    ],
+    'cta' => [
+        'titulo' => 'Informe o embarque em Pelotas e o PET',
+        'texto' => 'Diga o ponto em Centro ou Areal, o destino e o horário. A operação organiza o recuo e o terminal.',
+        'botao' => 'Pedir motorista em Pelotas',
+    ],
+    'relacionados' => [
+        [
+            'tipo' => 'estado',
+            'slug' => 'rio-grande-do-sul',
+            'ancora' => 'Pelotas e o recorte de Sul gaúcho',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-grande-do-sul',
+            'cidade' => 'porto-alegre',
+            'ancora' => 'Motorista em porto alegre',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'rio-grande-do-sul',
+            'cidade' => 'caxias-do-sul',
+            'ancora' => 'Motorista em caxias do sul',
+        ],
+    ],
+    'faixas' => [
+        [
+            'h2' => 'Pelotas se cruza por BR-116, não em linha reta',
+            'texto' => 'Pelotas concentra Centro (sede e hotel) e João Simões Lopes Neto (PET) no mesmo município. O motorista precisa do ponto de embarque e do PET no mesmo recado — “me busca em Pelotas” não define o recuo.',
+        ],
+        [
+            'h2' => 'Três eixos, três recuos',
             'itens' => [
-                ['h3' => 'Centro e o Calçadão', 'texto' => 'Sede, hotel (Dan Inn, similar) e o casario. Informe o prédio; o recuo do Centro Histórico não é o da UFPel.'],
-                ['h3' => 'Areal, Três Vendas e o shopping', 'texto' => 'Torres e clínicas. Deslocamentos curtos que esticam no semáforo da Ferreira Viana.'],
-                ['h3' => 'UFPel, Laranjal e a praia da lagoa', 'texto' => 'Campus e visita combinada. O Laranjal pede ponto de espera, não GPS no calçadão da praia.'],
+                [
+                    'h3' => 'Centro',
+                    'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Areal.',
+                ],
+                [
+                    'h3' => 'Areal',
+                    'texto' => 'Origem frequente para bairro. Informe nome do hotel. Areal não compartilha o recuo de Centro.',
+                ],
+                [
+                    'h3' => 'Três Vendas',
+                    'texto' => 'Origem frequente para eixo comercial. Informe nome do hotel. Três Vendas não compartilha o recuo de Centro.',
+                ],
             ],
         ],
         [
-            'h2' => 'Rotas de pauta, doce e o salto para Rio Grande',
-            'texto' => 'PET → hotel no Centro → UFPel → Laranjal só se a orla da lagoa estiver no roteiro. Rio Grande, o porto e a BR-392 entram como viagem, com horário de estrada, não como segunda corrida no Centro.',
-        ],
-        [
             'h2' => 'João Simões Lopes Neto — PET',
-            'texto' => 'O aeroporto fica no recorte da cidade. Combinamos o voo. A espera no desembarque integra o trecho PET. Até o Centro ou o Areal, a avenida pesa mais que o mapa admite no pico.',
+            'texto' => 'João Simões Lopes Neto (PET) fica em Pelotas. Acesso: BR-392. Combinamos o voo; a espera no desembarque integra o trecho.',
         ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no Simões Lopes Neto',
-    'faq' => [
-        ['pergunta' => 'O aeroporto de Pelotas fica longe do Centro?', 'resposta' => 'É trecho urbano. Marcamos margem: a Bento Gonçalves e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no PET se o voo atrasar?', 'resposta' => 'Sim. Em Pelotas, o número do voo entra no pedido e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, UFPel e o Laranjal no mesmo dia?', 'resposta' => 'Sim, quando a praia da lagoa entra no roteiro. Informe a ordem; um motorista articula os três.'],
-        ['pergunta' => 'Dá para seguir a Rio Grande depois do hotel?', 'resposta' => 'Sim. Em Pelotas, como viagem pela BR-392. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
-    ],
-    'cta' => [
-        'titulo' => 'Diga se o embarque é o Centro ou o PET',
-        'texto' => 'O orçamento de Pelotas sai sob consulta. Areal, campus e terminal no mesmo recado.',
-        'botao' => 'Pedir traslado em Pelotas',
-    ],
-    'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'rio-grande-do-sul', 'ancora' => 'Serra, Porto e o recorte gaúcho'],
-        ['tipo' => 'cidade', 'estado' => 'rio-grande-do-sul', 'cidade' => 'porto-alegre', 'ancora' => 'Moinhos, Centro Histórico e o Salgado Filho'],
-        ['tipo' => 'cidade', 'estado' => 'rio-grande-do-sul', 'cidade' => 'caxias-do-sul', 'ancora' => 'Centro, São Pelegrino e o CXJ'],
     ],
 ];

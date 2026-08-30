@@ -5,73 +5,138 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Dourados',
-    'geo' => ['lat' => -22.2231, 'lng' => -54.812],
+    'geo' => [
+        'lat' => -22.2231,
+        'lng' => -54.812,
+    ],
     'imagem' => 'centro-oeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Dourados',
     'seo' => [
-        'title' => 'Motorista executivo em Dourados: Centro, Jardim América e DOU',
-        'description' => 'Carro com motorista em Dourados para o Centro, Jardim América, Vila Progresso e o aeroporto Francisco de Matos Pereira. Rotas, hotéis e orçamento sob consulta.',
-        'og_title' => 'Traslado executivo no Centro, no Jardim América e no aeroporto DOU',
-        'og_description' => 'Motorista no sul de Mato Grosso do Sul: hotel, pauta no Centro e o terminal DOU.',
-        'og_image_alt' => 'Sedan executivo em avenida de Dourados',
+        'title' => 'Motorista executivo em Dourados: Centro e DOU',
+        'description' => 'Carro com motorista em Dourados para Centro, Jardim América e DOU. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
+        'og_title' => 'Embarque em Dourados: hotel, Centro e DOU',
+        'og_description' => 'O motorista combina Centro com Francisco de Matos Pereira (DOU), no próprio município. Informe nome do hotel.',
+        'og_image_alt' => 'Carro executivo em via de Dourados',
     ],
     'kicker' => 'Sul sul-mato-grossense · MS',
-    'h1' => 'Do DOU ao Jardim América sem perder a reunião no Centro',
-    'lead' => 'Dourados concentra universidade, agronegócio e o aeroporto Francisco de Matos Pereira (DOU). O motorista segura a Marcelino Pires e a Hayel; o passageiro segura a pauta — não a vaga na porta do hotel.',
-    'contexto' => [
-        'h2' => 'A cidade cobra bairro e campus, não “no centro”',
-        'texto' => [
-            'Centro, Jardim América, Vila Progresso e a UFGD não compartilham o mesmo recuo. Hotel (Ibis, similares), clínica no América e voo no DOU cabem no mesmo expediente se a ordem da avenida já estiver no roteiro.',
-            'O recorte é a rotina do interior: embarque na portaria, espera discreta e chegada no terminal certo. Quando a pauta aponta para Ponta Porã, a fronteira ou Campo Grande, o trecho deixa de ser só urbano.',
-        ],
-    ],
-    'bairros' => [
-        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
-        'itens' => [
-            ['h3' => 'Centro e a Marcelino Pires', 'texto' => 'Em Dourados, sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde.'],
-            ['h3' => 'Jardim América e o shopping', 'texto' => 'Hotéis, torres e clínicas. Deslocamentos curtos que esticam no semáforo da Hayel.'],
-            ['h3' => 'UFGD, Unigran e o campus', 'texto' => 'Em Dourados, pauta acadêmica. O recuo pede bloco e portaria, não “na universidade”.'],
-            ['h3' => 'Vila Progresso e o sul', 'texto' => 'Pauta residencial. O recuo pede rua e número.'],
-        ],
-    ],
-    'aeroportos' => [
-        'h2' => 'Francisco de Matos Pereira — DOU',
-        'itens' => [
-            ['h3' => 'Dourados — DOU', 'texto' => 'Terminal da cidade. Combinamos o voo. A espera no desembarque integra o trecho DOU.'],
-            ['h3' => 'Quando a pauta aponta para Campo Grande', 'texto' => 'O trecho Dourados–CGR não é o mesmo pedido urbano. Se a reunião vaza pela BR-163, o orçamento sai à parte.'],
-        ],
-    ],
-    'rotas' => [
-        'h2' => 'Trajetos que a agenda douradense mais pede',
-        'itens' => [
-            ['titulo' => 'DOU → hotel no Jardim América', 'texto' => 'Em Dourados, pouso e pernoite. Informe o nome do hotel e se há vaga de visitante.'],
-            ['titulo' => 'América → Centro → UFGD', 'texto' => 'Em Dourados, reunião, sede e campus. Um motorista cobre os três se a ordem já estiver no roteiro.'],
-            ['titulo' => 'Dourados → Ponta Porã', 'texto' => 'Fronteira. Não é o recorte urbano do Centro; o horário sai sob consulta.'],
-        ],
-    ],
-    'como' => [
-        'h2' => 'Como o carro entra na grade em Dourados',
-        'passos' => [
-            ['titulo' => 'Bairro e número', 'texto' => 'Jardim América, Centro ou campus. Autocomplete não resolve bloco com dois acessos.'],
-            ['titulo' => 'Hotel ou DOU', 'texto' => 'Em Dourados, diga se o embarque é o aeroporto ou a portaria do hotel.'],
-            ['titulo' => 'Confirmação', 'texto' => 'Em Dourados, nome e DDD no WhatsApp. Devolvemos o horário de apresentação.'],
-        ],
-    ],
-    'faq_h2' => 'Perguntas de quem pousa no DOU',
+    'h1' => 'Dourados — Centro de manhã, DOU quando o voo entra',
+    'faq_h2' => 'Dúvidas de quem embarca em Dourados',
     'faq' => [
-        ['pergunta' => 'O aeroporto de Dourados fica longe do Jardim América?', 'resposta' => 'É trecho urbano. Marcamos margem: a Marcelino Pires e o horário de pico alteram o intervalo.'],
-        ['pergunta' => 'O motorista espera no DOU se o voo atrasar?', 'resposta' => 'Sim. Em Dourados, o número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
-        ['pergunta' => 'Vocês fazem Centro, América e a UFGD no mesmo dia?', 'resposta' => 'Sim. Em Dourados, informe o bloco. Um motorista articula os três recuos.'],
-        ['pergunta' => 'Dá para seguir a Ponta Porã depois do hotel?', 'resposta' => 'Sim, como viagem de fronteira. Não é o mesmo recorte do Centro; o horário sai sob consulta.'],
+        [
+            'pergunta' => 'Em Dourados, o DOU fica no próprio município?',
+            'resposta' => 'Sim. Em Dourados, Francisco de Matos Pereira (DOU) fica no município. Informe o acesso via MS-156.',
+        ],
+        [
+            'pergunta' => 'Em Dourados, vocês buscam em Centro?',
+            'resposta' => 'Sim, em Dourados. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
+        ],
+        [
+            'pergunta' => 'De Dourados vocês fazem Campo Grande?',
+            'resposta' => 'Sim, saindo de Dourados. Campo Grande não é o recorte de Centro; o horário pela MS-156 sai sob consulta.',
+        ],
+        [
+            'pergunta' => 'Em Dourados o carro fica entre Centro e Jardim América?',
+            'resposta' => 'Sim, em Dourados. A hora à disposição cobre sede e hotel em Centro e bairro em Jardim América.',
+        ],
     ],
     'cta' => [
-        'titulo' => 'Junte o Jardim América ao horário do DOU',
-        'texto' => 'O orçamento de Dourados sai sob consulta. Centro, campus e terminal no mesmo WhatsApp.',
+        'titulo' => 'Informe o embarque em Dourados e o DOU',
+        'texto' => 'Diga o ponto em Centro ou Jardim América, o destino e o horário. A operação organiza o recuo e o terminal.',
         'botao' => 'Pedir motorista em Dourados',
     ],
     'relacionados' => [
-        ['tipo' => 'estado', 'slug' => 'mato-grosso-do-sul', 'ancora' => 'Dourados, Corumbá e o recorte sul-mato-grossense'],
-        ['tipo' => 'cidade', 'estado' => 'mato-grosso-do-sul', 'cidade' => 'campo-grande', 'ancora' => 'Centro, shopping e o CGR'],
-        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas e GRU na capital'],
+        [
+            'tipo' => 'estado',
+            'slug' => 'mato-grosso-do-sul',
+            'ancora' => 'Dourados e o recorte de Sul sul-mato-grossense',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'mato-grosso-do-sul',
+            'cidade' => 'campo-grande',
+            'ancora' => 'Motorista em campo grande',
+        ],
+        [
+            'tipo' => 'cidade',
+            'estado' => 'sao-paulo',
+            'cidade' => 'sao-paulo',
+            'ancora' => 'Motorista em sao paulo',
+        ],
+    ],
+    'lead' => 'Dourados concentra Centro (sede e hotel) e Francisco de Matos Pereira (DOU) no mesmo município. O motorista precisa do ponto de embarque e do DOU no mesmo recado — “me busca em Dourados” não define o recuo.',
+    'contexto' => [
+        'h2' => 'Dourados se mede em BR-163, não em pin de aplicativo',
+        'texto' => [
+            'Dourados concentra Centro (sede e hotel) e Francisco de Matos Pereira (DOU) no mesmo município. O motorista precisa do ponto de embarque e do DOU no mesmo recado — “me busca em Dourados” não define o recuo.',
+            'Jardim América pede bairro. Universitário pede UFGD. Quando Campo Grande entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela MS-156.',
+        ],
+    ],
+    'bairros' => [
+        'h2' => 'Eixos de embarque em Dourados',
+        'itens' => [
+            [
+                'h3' => 'Centro',
+                'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel. Centro não compartilha o recuo de Jardim América.',
+            ],
+            [
+                'h3' => 'Jardim América',
+                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Jardim América não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Universitário',
+                'texto' => 'Origem frequente para UFGD. Informe nome do hotel. Universitário não compartilha o recuo de Centro.',
+            ],
+            [
+                'h3' => 'Vila Progresso',
+                'texto' => 'Origem frequente para residencial. Informe nome do hotel. Vila Progresso não compartilha o recuo de Centro.',
+            ],
+        ],
+    ],
+    'aeroportos' => [
+        'h2' => 'O terminal que a agenda de Dourados realmente usa',
+        'itens' => [
+            [
+                'h3' => 'Francisco de Matos Pereira — DOU',
+                'texto' => 'Francisco de Matos Pereira (DOU) fica em Dourados. Acesso: MS-156. Combinamos o voo; a espera no desembarque integra o trecho.',
+            ],
+            [
+                'h3' => 'BR-163 e a vazão para Campo Grande',
+                'texto' => 'Campo Grande e Ponta Porã aparecem no mesmo pedido de Dourados. Isso é viagem, não segunda corrida em Centro.',
+            ],
+        ],
+    ],
+    'rotas' => [
+        'h2' => 'Trajetos que o pedido em Dourados mais combina',
+        'itens' => [
+            [
+                'titulo' => 'Centro → DOU',
+                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: MS-156.',
+            ],
+            [
+                'titulo' => 'DOU → Jardim América',
+                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel.',
+            ],
+            [
+                'titulo' => 'Centro → Campo Grande',
+                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Jardim América; o horário sai sob consulta.',
+            ],
+        ],
+    ],
+    'como' => [
+        'h2' => 'Como o carro entra na pauta em Dourados',
+        'passos' => [
+            [
+                'titulo' => 'Ponto de embarque',
+                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
+            ],
+            [
+                'titulo' => 'Destino e tipo de janela',
+                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o DOU ou Campo Grande entra no dia.',
+            ],
+            [
+                'titulo' => 'Confirmação',
+                'texto' => 'Em Dourados, nome e WhatsApp. Devolvemos o horário de apresentação.',
+            ],
+        ],
     ],
 ];

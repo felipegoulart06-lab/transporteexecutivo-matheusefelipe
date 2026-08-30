@@ -1,0 +1,78 @@
+{
+    "estado": "minas-gerais",
+    "cidade": "varginha",
+    "nome": "Varginha",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Centro",
+            "eixo": "Fernão Dias",
+            "destino": "Major Brigadeiro Trompowsky",
+            "motivo": "sede e hotel"
+        }
+    ],
+    "eixos": [
+        "Centro",
+        "Vila Pinto",
+        "Industrial",
+        "Campus Unis"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Major Brigadeiro Trompowsky",
+            "iata": "VAG",
+            "municipio": "Varginha",
+            "acesso": "BR-491"
+        },
+        {
+            "nome": "Congonhas",
+            "iata": "CGH",
+            "municipio": "São Paulo",
+            "acesso": "Fernão Dias"
+        }
+    ],
+    "rodovias": [
+        "Fernão Dias",
+        "BR-491",
+        "Avenida Princesa do Sul"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "sede e hotel",
+        "bairro",
+        "café e planta",
+        "universidade"
+    ],
+    "vizinhos_pedido": [
+        "Três Corações",
+        "São Paulo",
+        "Belo Horizonte"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal VAG em Varginha",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "estado": "sao-paulo",
+    "cidade": "sao-paulo",
+    "nome": "São Paulo",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Faria Lima e Itaim",
+            "eixo": "Marginal Pinheiros",
+            "destino": "Congonhas",
+            "motivo": "torres e fundos"
+        }
+    ],
+    "eixos": [
+        "Faria Lima e Itaim",
+        "Berrini e Vila Olímpia",
+        "Paulista e Jardins",
+        "Pinheiros"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Congonhas",
+            "iata": "CGH",
+            "municipio": "São Paulo",
+            "acesso": "Washington Luís"
+        },
+        {
+            "nome": "Guarulhos",
+            "iata": "GRU",
+            "municipio": "Guarulhos",
+            "acesso": "Dutra"
+        }
+    ],
+    "rodovias": [
+        "Marginal Pinheiros",
+        "Marginal Tietê",
+        "Dutra"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "torres e fundos",
+        "board e catraca",
+        "hotel e consultório",
+        "estúdio e retorno"
+    ],
+    "vizinhos_pedido": [
+        "Guarulhos",
+        "Campinas",
+        "Santos"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal CGH em São Paulo",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}

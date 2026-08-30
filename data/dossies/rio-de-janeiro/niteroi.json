@@ -1,0 +1,78 @@
+{
+    "estado": "rio-de-janeiro",
+    "cidade": "niteroi",
+    "nome": "Niterói",
+    "pesquisado_em": "2026-08-30",
+    "mapa_operacional": [
+        {
+            "origem": "Icaraí",
+            "eixo": "ponte Rio-Niterói",
+            "destino": "Santos Dumont",
+            "motivo": "hotel na orla"
+        }
+    ],
+    "eixos": [
+        "Icaraí",
+        "Centro",
+        "São Francisco",
+        "Charitas"
+    ],
+    "aeroportos": [
+        {
+            "nome": "Santos Dumont",
+            "iata": "SDU",
+            "municipio": "Rio de Janeiro",
+            "acesso": "ponte Rio-Niterói"
+        },
+        {
+            "nome": "Galeão",
+            "iata": "GIG",
+            "municipio": "Rio de Janeiro",
+            "acesso": "ponte e Linha Vermelha"
+        }
+    ],
+    "rodovias": [
+        "ponte Rio-Niterói",
+        "RJ-104",
+        "Avenida Ernani do Amaral Peixoto"
+    ],
+    "hoteis_ancora": [],
+    "polos": [
+        "hotel na orla",
+        "pauta institucional",
+        "bairro",
+        "charitas e barcas"
+    ],
+    "vizinhos_pedido": [
+        "Rio de Janeiro",
+        "São Gonçalo",
+        "Maricá"
+    ],
+    "prefeito": {
+        "nome": "",
+        "fonte": "",
+        "data": "2026-08-30",
+        "publicado": false
+    },
+    "fatos": [
+        {
+            "fato": "Terminal SDU em Rio de Janeiro",
+            "fonte": "ANAC / administradora conhecida",
+            "data": "2026-08-30",
+            "tipo": "terminal",
+            "risco": "alto",
+            "frase": "",
+            "publicado": true
+        }
+    ],
+    "descartado": [
+        "Hotéis sem site confirmado nesta rodada",
+        "Tempos em minutos"
+    ],
+    "revisoes": {
+        "factual": "ok",
+        "localidade": "ok",
+        "conversao": "ok",
+        "seo": "ok"
+    }
+}
