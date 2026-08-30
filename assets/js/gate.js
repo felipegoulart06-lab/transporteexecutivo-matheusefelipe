@@ -135,7 +135,14 @@
             });
     };
 
+    const soltarPainel = (painel) => {
+        if (painel.parentElement !== document.body) {
+            document.body.appendChild(painel);
+        }
+    };
+
     const posicionarPainel = (botao, painel) => {
+        soltarPainel(painel);
         const rect = botao.getBoundingClientRect();
         const margem = 48;
         const abaixo = window.innerHeight - rect.bottom - margem;
@@ -144,14 +151,14 @@
         const filtro = painel.id === 'wrap-cidade' ? 72 : 8;
         const livre = (paraCima ? acima : abaixo) - filtro;
         const lista = painel.id === 'wrap-cidade' ? listaCidade : painel;
-        const altura = Math.max(280, Math.min(livre, 560));
+        const altura = Math.max(160, Math.min(Math.max(livre, 160), 560));
 
         painel.classList.toggle('is-up', paraCima);
         painel.style.position = 'fixed';
         painel.style.left = `${Math.round(rect.left)}px`;
         painel.style.width = `${Math.round(rect.width)}px`;
         painel.style.right = 'auto';
-        painel.style.zIndex = '40';
+        painel.style.zIndex = '50';
 
         if (paraCima) {
             painel.style.top = 'auto';

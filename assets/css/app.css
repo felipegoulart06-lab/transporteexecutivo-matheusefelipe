@@ -654,6 +654,12 @@ button { font-family: inherit; cursor: pointer; border: 0; }
     bottom: calc(100% + 6px);
 }
 
+body > .gate-list,
+body > .gate-list-wrap {
+    position: fixed;
+    margin: 0;
+}
+
 .gate-progress {
     list-style: none;
     display: flex;
