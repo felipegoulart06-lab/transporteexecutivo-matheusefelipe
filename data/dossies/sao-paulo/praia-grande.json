@@ -1,78 +1,40 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "praia-grande",
-    "nome": "Praia Grande",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Boqueirão",
-            "eixo": "Imigrantes",
-            "destino": "Congonhas",
-            "motivo": "hotel na orla"
-        }
-    ],
-    "eixos": [
-        "Boqueirão",
-        "Canto do Forte",
-        "Aviação",
-        "Guilhermina"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Congonhas",
-            "iata": "CGH",
-            "municipio": "São Paulo",
-            "acesso": "Imigrantes"
-        },
-        {
-            "nome": "Guarulhos",
-            "iata": "GRU",
-            "municipio": "Guarulhos",
-            "acesso": "Anchieta"
-        }
-    ],
-    "rodovias": [
-        "Imigrantes",
-        "SP-055",
-        "Avenida Presidente Kennedy"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel na orla",
-        "orla",
-        "bairro",
-        "praia"
-    ],
-    "vizinhos_pedido": [
-        "Santos",
-        "Mongaguá",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CGH em São Paulo",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "praia-grande",
+  "nome": "Praia Grande",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Boqueirão (Av. Presidente Kennedy)", "eixo": "orla linear", "destino": "hotel / comércio da faixa", "motivo": "Miolo da orla; não é Santos nem Guarujá"},
+    {"origem": "Canto do Forte", "eixo": "extremo norte da faixa", "destino": "Forte Itaipu / pernoite mais quieto", "motivo": "Ponta norte; recuo distinto do Boqueirão"},
+    {"origem": "Aviação", "eixo": "Kennedy entre Boqueirão e Canto do Forte", "destino": "quadra na orla", "motivo": "Bairro da antiga base — não é aeroporto"},
+    {"origem": "Tude Bastos / Sítio do Campo", "eixo": "Imigrantes SP-160", "destino": "CGH ou GRU", "motivo": "Término da rodovia no município; subida de serra sem balsa"}
+  ],
+  "eixos": ["Boqueirão", "Canto do Forte", "Aviação + SP-160"],
+  "aeroportos": [
+    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Vazão de serra pela Imigrantes (SP-160); Praia Grande não tem saguão comercial", "fonte": "Aena Brasil; rodoviadosimigrantes.com.br — SP-160 Jabaquara–Tude Bastos", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos – Governador André Franco Montoro", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Vazão extra de serra (Imigrantes / Rodoanel)", "fonte": "ANAC GRU em Guarulhos", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "SP-160 Rodovia dos Imigrantes — término em Tude Bastos, Praia Grande (km 70)", "fonte": "rodoviadosimigrantes.com.br / imigrantes.net: início Jabaquara km 8, término Tude Bastos, Praia Grande km 70", "data": "2026-08-29"},
+    {"nome": "Avenida Ayrton Senna da Silva (Sítio do Campo / Xixová) — fluxo urbano a partir da Imigrantes", "fonte": "CEP/logradouro municipal Sítio do Campo e Xixová", "data": "2026-08-29"},
+    {"nome": "SP-055 Padre Manoel da Nóbrega — orla a Cubatão; não substitui a Imigrantes no relógio do voo", "fonte": "DER/SP identificação SP-055", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Boqueirão", "Canto do Forte / Forte Itaipu", "Aviação (bairro, não saguão)", "Tude Bastos (término SP-160)"],
+  "vizinhos_pedido": ["Santos", "Guarujá", "CGH", "GRU", "Mongaguá"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Praia Grande é município próprio no continente, não bairro de Santos e não ilha.", "fonte": "IBGE município; comparação operacional com Santos (Gonzaga) e Guarujá (ilha/balsa)", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "É município próprio. Boqueirão, Canto do Forte e Aviação não compartilham recuo com o Gonzaga.", "publicado": true},
+    {"fato": "SP-160 termina em Tude Bastos, Praia Grande. Av. Ayrton Senna no Sítio do Campo pega o fluxo rumo à orla. Sem balsa e sem Rangoni.", "fonte": "rodoviadosimigrantes.com.br término Tude Bastos km 70", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "A SP-160 termina em Tude Bastos; a Avenida Ayrton Senna, no Sítio do Campo, pega o fluxo rumo à orla.", "publicado": true},
+    {"fato": "Aviação é bairro da orla (nome da antiga base), não aeroporto.", "fonte": "Toponímia municipal; ausência de saguão comercial no município", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "A Aviação não tem saguão — o nome do bairro não é aeroporto.", "publicado": true},
+    {"fato": "Canto do Forte fica no extremo norte, junto ao Forte Itaipu.", "fonte": "Toponímia / equipamento Forte Itaipu na ponta norte da faixa", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "O Canto do Forte é a ponta norte, junto ao Forte Itaipu.", "publicado": true}
+  ],
+  "descartado": [
+    "Tratar Praia Grande como Guarujá (balsa, Rangoni, Enseada, Pitangueiras)",
+    "Tratar Praia Grande como bairro de Santos",
+    "Inventar aeroporto no bairro da Aviação",
+    "Minutos de serra",
+    "Guilhermina como quarto eixo desta landing"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

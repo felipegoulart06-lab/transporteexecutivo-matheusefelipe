@@ -10,7 +10,7 @@ return [
     'schema_service_name' => 'Transporte executivo com motorista em Franca',
     'seo' => [
         'title' => 'Motorista em Franca: polo do calçado, FRC e o RAO',
-        'description' => 'Motorista em Franca para o Centro, o City Petrópolis e a portaria calçadista. FRC tem malha regional limitada; o RAO, em Ribeirão Preto, vaza a conexão. Orçamento sob consulta.',
+        'description' => 'Motorista em Franca para o Centro, o City Petrópolis e a portaria calçadista. FRC é regional; o RAO, em Ribeirão Preto, vaza a conexão. Orçamento sob consulta.',
         'og_title' => 'Portaria calçadista em Franca e o recuo até o RAO',
         'og_description' => 'Traslado em Franca: cancela da fábrica, hotel no Centro e o salto pela Cândido Portinari rumo ao Leite Lopes.',
         'og_image_alt' => 'Sedan executivo na Avenida Champagnat, em Franca',

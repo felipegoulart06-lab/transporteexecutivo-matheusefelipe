@@ -1,72 +1,39 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "bauru",
-    "nome": "Bauru",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Marechal Rondon",
-            "destino": "Bauru-Arealva",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Geisel",
-        "Vila Universitária",
-        "Mary Dota"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Bauru-Arealva",
-            "iata": "JTC",
-            "municipio": "Arealva",
-            "acesso": "SP-225"
-        }
-    ],
-    "rodovias": [
-        "Marechal Rondon",
-        "SP-225",
-        "Avenida Nações Unidas"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro",
-        "campus",
-        "residencial"
-    ],
-    "vizinhos_pedido": [
-        "Marília",
-        "São Paulo",
-        "Jaú"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal JTC em Arealva",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "bauru",
+  "nome": "Bauru",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro (Batista de Carvalho / Getúlio Vargas)", "eixo": "sede", "destino": "hotel / pauta urbana", "motivo": "Não é o Geisel nem o JTC"},
+    {"origem": "Núcleo Residencial Presidente Geisel", "eixo": "Av. Nações Unidas", "destino": "residencial / corredor à Rondon", "motivo": "Rua e número; viaduto errado atrasa"},
+    {"origem": "Vila Universitária", "eixo": "campus UNESP Júlio de Mesquita Filho", "destino": "bloco / portaria", "motivo": "Júlio de Mesquita Filho é a universidade, não o IATA"},
+    {"origem": "Centro ou Geisel", "eixo": "Marechal Rondon SP-300 / Estrada Municipal Murilo Vilaça Marangoni", "destino": "JTC (Moussa Nakhl Tobias, eixo Bauru–Arealva)", "motivo": "Terminal comercial fora da porta do Centro"}
+  ],
+  "eixos": ["Centro", "Geisel", "Vila Universitária / UNESP"],
+  "aeroportos": [
+    {"nome": "Aeroporto Estadual Moussa Nakhl Tobias (Bauru-Arealva)", "iata": "JTC", "municipio": "eixo Bauru e Arealva (contrato ARTESP nomeia os dois municípios; Rede VOA: sediado entre Bauru e Arealva; endereço Estrada Municipal Murilo Vilaça Marangoni km 5,5, Bauru, SP)", "relacao": "Terminal comercial de pax. Rede VOA descreve voos a Campinas; não confundir com BAU nem JAU.", "fonte": "redevoa.com.br/nossos-aeroportos/aeroporto-moussa-nakhl-tobias-bauru-sp/; Contrato ARTESP 466/2022: Moussa Nakhl Tobias nos Municípios de Bauru e Arealva; IATA JTC / ICAO SBAE", "data": "2026-08-29"},
+    {"nome": "Aeroporto Comandante João Ribeiro de Barros", "iata": "BAU", "municipio": "Bauru", "relacao": "Campo urbano; malha regular de pax transferida ao JTC em 2006; hoje aviação geral. Não publicar como saguão de linha.", "fonte": "Wikipedia Bauru Airport (BAU/SBBU): passenger services ceased 23 Oct 2006", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "SP-300 Rodovia Marechal Rondon — acesso ao eixo Bauru–Arealva / JTC", "fonte": "DER/SP; Rede VOA não lista SP-225 como acesso do JTC", "data": "2026-08-29"},
+    {"nome": "Estrada Municipal Murilo Vilaça Marangoni km 5,5", "fonte": "Rede VOA endereço oficial do Moussa Nakhl Tobias", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["UNESP (Júlio de Mesquita Filho) — Vila Universitária", "Geisel / Nações Unidas", "JTC eixo Bauru–Arealva"],
+  "vizinhos_pedido": ["Arealva", "Ribeirão Preto", "São José do Rio Preto", "VCP", "Marília"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "IATA comercial de pax: JTC (Moussa Nakhl Tobias), eixo Bauru–Arealva, ICAO SBAE. BAU é João Ribeiro de Barros (aviação geral desde 2006). JAU é Jaú. Júlio de Mesquita Filho é a UNESP, não o aeroporto.", "fonte": "Rede VOA JTC; Wikipedia Bauru-Arealva Airport (JTC/SBAE) e Bauru Airport (BAU); UNESP campus Bauru", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O IATA da malha de passageiros é o JTC (Moussa Nakhl Tobias), no eixo Bauru–Arealva. BAU é o Comandante João Ribeiro de Barros. JAU é Jaú.", "publicado": true},
+    {"fato": "Não usar SP-225 como acesso principal do JTC (erro do gerador). Acesso: Marechal Rondon e a estrada municipal do terminal.", "fonte": "Rede VOA endereço Murilo Vilaça Marangoni; DER SP-300", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "O terminal fica no eixo Bauru–Arealva, pela Marechal Rondon.", "publicado": true},
+    {"fato": "Rede VOA (página do aeroporto) descreve voos a Campinas; a malha oscila — landing fala em malha rumo a VCP, sem frequência inventada.", "fonte": "redevoa.com.br página Moussa Nakhl Tobias", "data": "2026-08-29", "tipo": "terminal", "risco": "medio", "frase": "Combinamos o voo rumo a Viracopos.", "publicado": true}
+  ],
+  "descartado": [
+    "Tratar BAU ou JAU como o saguão comercial de Bauru",
+    "Tratar Júlio de Mesquita Filho como IATA",
+    "SP-225 como acesso do JTC",
+    "Afirmar município único Arealva sem o recorte Bauru–Arealva do contrato",
+    "Mary Dota como eixo desta landing (gerador)",
+    "Minutos até o JTC"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

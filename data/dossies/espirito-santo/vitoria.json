@@ -1,72 +1,30 @@
 {
-    "estado": "espirito-santo",
-    "cidade": "vitoria",
-    "nome": "Vitória",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Enseada do Suá",
-            "eixo": "Terceira Ponte",
-            "destino": "Eurico de Aguiar Salles",
-            "motivo": "torres e hotel"
-        }
-    ],
-    "eixos": [
-        "Enseada do Suá",
-        "Praia do Canto",
-        "Cidade Alta",
-        "Jardim Camburi"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Eurico de Aguiar Salles",
-            "iata": "VIX",
-            "municipio": "Vitória",
-            "acesso": "Avenida Fernando Ferrari"
-        }
-    ],
-    "rodovias": [
-        "Terceira Ponte",
-        "Camburi",
-        "BR-101"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "torres e hotel",
-        "orla executiva",
-        "pauta institucional",
-        "acesso ao VIX"
-    ],
-    "vizinhos_pedido": [
-        "Vila Velha",
-        "Serra",
-        "Cariacica"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal VIX em Vitória",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "espirito-santo",
+  "cidade": "vitoria",
+  "nome": "Vitória",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Praia do Canto", "eixo": "Orla da ilha", "destino": "Enseada do Suá, Cidade Alta ou VIX", "motivo": "Hotel e pauta no mesmo turno na ilha"},
+    {"origem": "Enseada do Suá", "eixo": "Suá", "destino": "Praia do Canto ou Vila Velha via Terceira Ponte", "motivo": "Polo empresarial; a ponte pesa mais que o mapa"},
+    {"origem": "Cidade Alta / Palácio Anchieta", "eixo": "Centro histórico", "destino": "Praia do Canto ou aeroporto", "motivo": "Pauta de governo no desnível"},
+    {"origem": "Aeroporto no município de Vitória", "eixo": "Norte da ilha", "destino": "Praia do Canto, Suá ou Vila Velha", "motivo": "Pouso na capital, não em Vila Velha"}
+  ],
+  "eixos": ["Praia do Canto", "Enseada do Suá", "Cidade Alta / Centro", "Aeroporto no município de Vitória", "Terceira Ponte rumo a Vila Velha"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Vitória – Eurico de Aguiar Salles", "iata": "VIX", "municipio": "Vitória", "relacao": "No município da capital (não em Vila Velha). Zurich Airport Brasil: região central da capital capixaba. Bairro Goiabeiras vs Aeroporto: nomenclatura de logradouro não confirmada no HTML institucional nesta data.", "fonte": "https://zurichairportbrasil.com/ ; IBGE 3205309", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Terceira Ponte", "papel": "Ligação Vitória–Vila Velha; Ceturb-ES", "fonte": "Governo ES / Ceturb-ES", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Praia do Canto", "Enseada do Suá", "Cidade Alta (Palácio Anchieta)"],
+  "vizinhos_pedido": ["Vila Velha", "Serra", "Cariacica"],
+  "prefeito": {"nome": "Cris Samorini", "fonte": "https://www.vitoria.es.gov.br/noticia/pazolini-se-despede-da-prefeitura-de-vitoria-com-homenagem-emocionante-de-servidores-56095", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Aeroporto no município de Vitória, Zurich Airport Brasil", "fonte": "https://zurichairportbrasil.com/ ; IBGE 3205309", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Eurico de Aguiar Salles fica no município de Vitória.", "publicado": true},
+    {"fato": "Palácio Anchieta na Cidade Alta, Praça João Clímaco", "fonte": "https://www.es.gov.br/Noticia/visita-ao-palacio-anchieta-e-opcao-cultural-e-historica-para-alunos-durante-as-ferias-escolares", "data": "2026-08-29", "tipo": "polo", "risco": "medio", "frase": "Na Cidade Alta o recuo não é o da Praia do Canto.", "publicado": true},
+    {"fato": "[VERIFICAR] Bairro oficial do sítio aeroportuário (Goiabeiras vs bairro Aeroporto vs logradouro de acesso)", "fonte": "HTML vitoria-airport.com.br não extraído (Cloudflare)", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Goiabeiras como município", "Hotel nomeado sem site oficial"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

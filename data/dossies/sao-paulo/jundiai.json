@@ -1,78 +1,38 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "jundiai",
-    "nome": "Jundiaí",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Anhanguera",
-            "destino": "Viracopos",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Ponte de Campinas",
-        "Vila Arens",
-        "Eloy Chaves"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Viracopos",
-            "iata": "VCP",
-            "municipio": "Campinas",
-            "acesso": "Anhanguera"
-        },
-        {
-            "nome": "Congonhas",
-            "iata": "CGH",
-            "municipio": "São Paulo",
-            "acesso": "Anhanguera"
-        }
-    ],
-    "rodovias": [
-        "Anhanguera",
-        "Bandeirantes",
-        "Avenida Nove de Julho"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "eixo Anhanguera",
-        "bairro",
-        "industrial"
-    ],
-    "vizinhos_pedido": [
-        "Campinas",
-        "Itu",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal VCP em Campinas",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "jundiai",
+  "nome": "Jundiaí",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro / Barão de Jundiaí / hotel", "eixo": "urbano", "destino": "Distrito Industrial (Anhanguera SP-330, km 62–64 / Engordadouro)", "motivo": "Pauta em planta com portaria"},
+    {"origem": "Medeiros", "eixo": "Dom Gabriel Paulino Bueno Couto / vetor oeste", "destino": "Centro / Hospital São Vicente", "motivo": "Condomínio → sede ou unidade hospitalar"},
+    {"origem": "Jundiaí", "eixo": "Anhanguera SP-330 / Bandeirantes SP-348", "destino": "Viracopos VCP (Campinas)", "motivo": "Voo comercial regular — VCP não fica em Jundiaí"},
+    {"origem": "Jundiaí", "eixo": "Anhanguera rumo à capital", "destino": "Congonhas CGH / Faria Lima", "motivo": "Voo doméstico na capital ou pauta em São Paulo"},
+    {"origem": "Centro ou Medeiros", "eixo": "Av. Emílio Antonon", "destino": "QDV hangar (aviação geral)", "motivo": "Jato executivo / manutenção — não vender como linha regular"}
+  ],
+  "eixos": ["Centro (Barão de Jundiaí / São Vicente)", "Medeiros", "Distrito Industrial na Anhanguera", "QDV aviação geral"],
+  "aeroportos": [
+    {"nome": "Aeroporto Estadual Comandante Rolim Adolfo Amaro", "iata": "QDV", "municipio": "Jundiaí", "relacao": "Aviação geral e executiva (Rede VOA). Terminal inaugurado 2025-09-18 para viabilizar Azul Conecta; relatório de ruído 2025 ainda descreve aviação geral. NÃO publicar como terminal de pax regular sem confirmar voo.", "fonte": "redevoa.com.br; jundiai.sp.gov.br 2025-09-19; Relatório anual de ruído VOA 2025", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de Viracopos", "iata": "VCP", "municipio": "Campinas", "relacao": "Destino comercial típico da pauta de Jundiaí", "fonte": "portalviracopos.com.br/como-chegar", "data": "2026-08-29"},
+    {"nome": "Aeroporto de São Paulo/Congonhas", "iata": "CGH", "municipio": "São Paulo", "relacao": "Segundo destino comercial da pauta rumo à capital", "fonte": "Aena Brasil", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Rodovia Anhanguera (SP-330) — transposições municipais km 54, 58, 61, 62, 64", "fonte": "jundiai.sp.gov.br 2026-07-15; Motiva AutoBan / ARTESP", "data": "2026-08-29"},
+    {"nome": "Rodovia dos Bandeirantes (SP-348)", "fonte": "Motiva AutoBan — Sistema Anhanguera-Bandeirantes", "data": "2026-08-29"},
+    {"nome": "Rodovia Dom Gabriel Paulino Bueno Couto", "fonte": "Prefeitura de Jundiaí (acesso Medeiros)", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Distrito Industrial / Engordadouro na Anhanguera", "Medeiros", "Hospital São Vicente de Paulo", "QDV / sede Rede VOA"],
+  "vizinhos_pedido": ["Campinas (VCP)", "São Paulo (CGH, Faria Lima)", "Indaiatuba", "Itatiba"],
+  "prefeito": {"nome": "Gustavo Martinelli", "fonte": "jundiai.sp.gov.br", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "QDV/SBJD: Av. Emílio Antonon, 777; Rede VOA descreve como principal aeroporto executivo", "fonte": "redevoa.com.br; turismo.jundiai.sp.gov.br/servicos/aeroporto", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Aeroporto Estadual Comandante Rolim Adolfo Amaro (QDV/SBJD) opera aviação geral e executiva.", "publicado": true},
+    {"fato": "Relatório de ruído 2025 da VOA: opera aviação geral, jatos executivos, manutenção e escola", "fonte": "redevoa.com.br Relatório anual de ruído Jundiaí 2025", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Não use QDV como terminal de linha regular.", "publicado": true},
+    {"fato": "Distrito Industrial ligado à Anhanguera km 62 e km 64 (Engordadouro)", "fonte": "Prefeitura Jundiaí 2026-07-15", "data": "2026-08-29", "tipo": "polo", "risco": "medio", "frase": "O Distrito Industrial cola à Rodovia Anhanguera (SP-330).", "publicado": true},
+    {"fato": "Hospital São Vicente de Paulo — referência regional de alta complexidade", "fonte": "jundiai.sp.gov.br saúde", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "O Hospital São Vicente de Paulo é recuo próprio no Centro.", "publicado": true},
+    {"fato": "Serra do Japi: só gera pedido se houver visita combinada", "fonte": "proximidade Medeiros; não tratar como eixo turístico", "data": "2026-08-29", "tipo": "trecho", "risco": "medio", "frase": "A Serra do Japi só entra no pedido como visita combinada.", "publicado": true},
+    {"fato": "IBGE 3525904", "fonte": "IBGE", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "", "publicado": false}
+  ],
+  "descartado": ["QDV como saguão de jet regular sem painel", "Ponte de Campinas como eixo principal", "Comfort Inn / Blue Tree", "Tempos em minutos", "Serra do Japi como eixo principal"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

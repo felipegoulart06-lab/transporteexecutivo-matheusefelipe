@@ -10,7 +10,7 @@ return [
     'schema_service_name' => 'Motorista executivo no Plano Piloto e no aeroporto JK',
     'seo' => [
         'title' => 'Eixo, Setor Hoteleiro e BSB: motorista em Brasília',
-        'description' => 'Motorista em Brasília para Asa Sul, Asa Norte, Setor Hoteleiro, Esplanada e o aeroporto JK (BSB), no Lago Sul. Informe quadra, bloco, entrada e se a pauta segue ao terminal.',
+        'description' => 'Motorista em Brasília para Asa Sul, Asa Norte, Setor Hoteleiro, Esplanada e o aeroporto JK no Lago Sul. Informe quadra, bloco, entrada e se a pauta segue ao terminal.',
         'og_title' => 'Cerimonial de recuo nas Asas, no Eixo e no Lago Sul',
         'og_description' => 'Carro com motorista no Plano Piloto: quadra e bloco no endereço, Setor Hoteleiro e o terminal Presidente Juscelino Kubitschek.',
         'og_image_alt' => 'Sedan executivo em via larga do Plano Piloto em Brasília',

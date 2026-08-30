@@ -1,72 +1,33 @@
 {
-    "estado": "minas-gerais",
-    "cidade": "contagem",
-    "nome": "Contagem",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Cidade Industrial",
-            "eixo": "Anel Rodoviário",
-            "destino": "Confins",
-            "motivo": "portaria industrial"
-        }
-    ],
-    "eixos": [
-        "Cidade Industrial",
-        "Eldorado",
-        "Centro",
-        "Ressaca"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Confins",
-            "iata": "CNF",
-            "municipio": "Confins",
-            "acesso": "Anel / MG-010"
-        }
-    ],
-    "rodovias": [
-        "Anel Rodoviário",
-        "BR-381",
-        "Avenida João César de Oliveira"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "portaria industrial",
-        "hotel e comércio",
-        "sede",
-        "bairro"
-    ],
-    "vizinhos_pedido": [
-        "Belo Horizonte",
-        "Betim",
-        "Nova Lima"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CNF em Confins",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "minas-gerais",
+  "cidade": "contagem",
+  "nome": "Contagem",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Hotel no Eldorado", "eixo": "Av. João César de Oliveira", "destino": "Cidade Industrial", "motivo": "Pauta na planta do parque industrial contagenense"},
+    {"origem": "Ressaca", "eixo": "corredor rumo à Cidade Industrial / BR-040", "destino": "Cidade Industrial ou Eldorado", "motivo": "Três regionais distintas"},
+    {"origem": "Eldorado / Cidade Industrial", "eixo": "Via Expressa / MG-010", "destino": "CNF (Confins) ou Savassi (BH)", "motivo": "Voo e capital vazam"}
+  ],
+  "eixos": ["Cidade Industrial", "Eldorado", "Ressaca", "CNF em Confins"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Belo Horizonte–Confins – Tancredo Neves", "iata": "CNF", "municipio": "Confins", "relacao": "Vazão: Contagem não tem saguão. LMG 800 KM 7.9 Confins MG 33500-900.", "fonte": "aeroportoconfins.com/localizacao", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "MG-010", "fonte": "Acesso BH–Confins", "data": "2026-08-29"},
+    {"nome": "Via Expressa / BR-040", "fonte": "Prefeitura Contagem Viaduto Integração Eldorado–Ressaca", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Cidade Industrial", "Eldorado", "Ressaca"],
+  "vizinhos_pedido": ["Betim (Fiat / REGAP)", "Belo Horizonte (Savassi)", "Confins (CNF)"],
+  "prefeito": {"nome": "Ricardo Faria", "fonte": "O Tempo 26/03/2026 empossado após renúncia de Marília Campos", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Cidade Industrial, Eldorado e Ressaca são regionais de Contagem", "fonte": "portal.contagem.mg.gov.br regionais", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "Cidade Industrial, Eldorado e Ressaca não compartilham o mesmo recuo.", "publicado": true},
+    {"fato": "Fiat clássica NÃO fica em Contagem", "fonte": "Stellantis Media 09/07/2026 Polo Automotivo Stellantis de Betim", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "A planta clássica da Fiat não fica em Contagem: o Polo Stellantis está em Betim.", "publicado": true},
+    {"fato": "CNF fica em Confins", "fonte": "aeroportoconfins.com", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O CNF fica em Confins, não em Contagem.", "publicado": true}
+  ],
+  "descartado": [
+    "Qualquer frase que coloque a Fiat em Contagem",
+    "[VERIFICAR] sítio CNF também em Lagoa Santa — landing usa Confins e LMG-800"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

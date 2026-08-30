@@ -1,72 +1,27 @@
 {
-    "estado": "rio-grande-do-norte",
-    "cidade": "natal",
-    "nome": "Natal",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Ponta Negra",
-            "eixo": "BR-101",
-            "destino": "Governador Aluízio Alves",
-            "motivo": "hotel na orla"
-        }
-    ],
-    "eixos": [
-        "Ponta Negra",
-        "Via Costeira",
-        "Petrópolis",
-        "Tirol"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Governador Aluízio Alves",
-            "iata": "NAT",
-            "municipio": "São Gonçalo do Amarante",
-            "acesso": "RN-160"
-        }
-    ],
-    "rodovias": [
-        "BR-101",
-        "Via Costeira",
-        "Avenida Engenheiro Roberto Freire"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel na orla",
-        "hotéis da costeira",
-        "clínica e sede",
-        "escritório"
-    ],
-    "vizinhos_pedido": [
-        "Parnamirim",
-        "São Gonçalo do Amarante",
-        "Mossoró"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal NAT em São Gonçalo do Amarante",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "rio-grande-do-norte",
+  "cidade": "natal",
+  "nome": "Natal",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "NAT (São Gonçalo do Amarante)", "eixo": "BR-101 / BR-304", "destino": "Ponta Negra ou Via Costeira", "motivo": "Transfer outro município"},
+    {"origem": "Via Costeira / Ponta Negra", "eixo": "Roberto Freire / Dinarte Mariz", "destino": "Tirol", "motivo": "Pauta urbana"},
+    {"origem": "Natal", "eixo": "litoral sul", "destino": "Pipa", "motivo": "Viagem"}
+  ],
+  "eixos": ["Ponta Negra", "Via Costeira", "Tirol", "NAT em São Gonçalo do Amarante"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional do Rio Grande do Norte/São Gonçalo do Amarante - Governador Aluízio Alves", "iata": "NAT", "municipio": "São Gonçalo do Amarante", "relacao": "Fora de Natal; Av. Dr. Ruy Pereira dos Santos 3100 CEP 59290-000. Não é Parnamirim.", "fonte": "Lei 12.920/2013; aeroportodenatal.com/localizacao/; gov.br 2024-02", "data": "2026-08-29"}
+  ],
+  "rodovias": [{"nome": "BR-101", "fonte": "acesso NAT–Natal", "data": "2026-08-29"}, {"nome": "Via Costeira / Av. Senador Dinarte Mariz", "fonte": "eixo hoteleiro", "data": "2026-08-29"}],
+  "hoteis_ancora": [],
+  "polos": ["Ponta Negra", "Via Costeira", "Tirol"],
+  "vizinhos_pedido": ["São Gonçalo do Amarante", "Parnamirim", "Pipa"],
+  "prefeito": {"nome": "Paulo Eduardo da Costa Freire", "fonte": "IBGE Cidades Natal", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "NAT em São Gonçalo do Amarante, não no Centro de Natal", "fonte": "Lei 12.920/2013; Zurich/Natal Airport", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O NAT fica em São Gonçalo do Amarante.", "publicado": true},
+    {"fato": "Parnamirim não é o destino do voo comercial NAT", "fonte": "Lei 12.920; inauguração NAT 2014", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O voo NAT não desembarca em Parnamirim.", "publicado": true}
+  ],
+  "descartado": ["Tempos NAT–Ponta Negra", "Preços de táxi", "Marcas de hotel"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
+  "verificar": ["Operação residual Augusto Severo/Parnamirim", "Km NAT–Ponta Negra divergentes — não publicar"]
 }

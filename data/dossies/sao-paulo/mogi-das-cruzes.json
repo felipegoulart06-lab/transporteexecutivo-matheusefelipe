@@ -1,72 +1,40 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "mogi-das-cruzes",
-    "nome": "Mogi das Cruzes",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Dutra",
-            "destino": "Guarulhos",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "César de Sousa",
-        "Vila Oliveira",
-        "Brás Cubas"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Guarulhos",
-            "iata": "GRU",
-            "municipio": "Guarulhos",
-            "acesso": "Ayrton Senna / Dutra"
-        }
-    ],
-    "rodovias": [
-        "Dutra",
-        "Ayrton Senna",
-        "Avenida Vereador Narciso Iracema"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "eixo",
-        "bairro",
-        "distrito"
-    ],
-    "vizinhos_pedido": [
-        "Guarulhos",
-        "Suzano",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal GRU em Guarulhos",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "mogi-das-cruzes",
+  "nome": "Mogi das Cruzes",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro (Henrique de Sampaio e Silva / Paço)", "eixo": "sede", "destino": "hotel / pauta urbana", "motivo": "Recuo da sede; não é César de Sousa"},
+    {"origem": "César de Sousa (Cezar de Souza no GPS)", "eixo": "SP-066 Francisco Rodrigues Filho", "destino": "distrito a leste", "motivo": "Distrito próprio; grafias confundem o pin"},
+    {"origem": "Jundiapeba", "eixo": "SP-088 Mogi-Dutra → BR-116 Dutra ou SP-070 Ayrton Senna", "destino": "GRU", "motivo": "Acesso rodoviário a Cumbica; Mogi não tem terminal próprio"},
+    {"origem": "Mogi das Cruzes", "eixo": "malha da capital", "destino": "CGH", "motivo": "Salto extra: no mapa do Alto Tietê GRU fica mais próximo que CGH"}
+  ],
+  "eixos": ["Centro", "César de Sousa", "Jundiapeba"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos – Governador André Franco Montoro", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Saguão prático do Alto Tietê; mais próximo no mapa que CGH (46 km vs 72 km no PDF de turismo estadual — não publicar minutos)", "fonte": "dados.mogidascruzes.sp.gov.br PDF Secretaria de Turismo do Estado — Infraestrutura | Distâncias: GRU 46, CGH 72 (grafia CHG no PDF)", "data": "2026-08-29"},
+    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Vazão extra pela malha da capital, não o mesmo recorte até Cumbica", "fonte": "mesmo PDF estadual Distância 72; ANAC CGH em São Paulo", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-116 Rodovia Presidente Dutra", "fonte": "DNIT / malha federal no Alto Tietê", "data": "2026-08-29"},
+    {"nome": "SP-070 Rodovia Ayrton Senna", "fonte": "DER/SP; acesso frequente Mogi–Cumbica", "data": "2026-08-29"},
+    {"nome": "SP-088 Mogi-Dutra (a partir de Jundiapeba)", "fonte": "DER/SP identificação SP-088", "data": "2026-08-29"},
+    {"nome": "SP-066 Francisco Rodrigues Filho (Centro–César de Sousa)", "fonte": "DER/SP / toponímia municipal", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Centro / Paço", "Distrito César de Sousa (Cezar de Souza / César de Sousa)", "Jundiapeba", "Vila Oliveira / Mogilar (eixo de apoio, não o terceiro recorte principal)"],
+  "vizinhos_pedido": ["Guarulhos", "Suzano", "São Paulo", "GRU", "CGH"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Mogi das Cruzes não tem aeroporto próprio. Saguão prático: GRU. CGH é salto pela capital.", "fonte": "Ausência de terminal comercial municipal; PDF turismo estadual lista GRU e CGH como centros regionais externos", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O saguão prático é o GRU, em Guarulhos. Congonhas entra como salto pela capital.", "publicado": true},
+    {"fato": "No recorte do Alto Tietê, GRU está mais próximo no mapa que CGH (46 vs 72 km no PDF estadual). Não publicar minutos.", "fonte": "Secretaria de Turismo do Estado / PDF Infraestrutura Distâncias (download dados.mogidascruzes.sp.gov.br)", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "No recorte do Alto Tietê, Cumbica está mais próxima no mapa do que a zona sul da capital. Não publicamos minutos.", "publicado": true},
+    {"fato": "César de Sousa é distrito; GPS mistura Cezar de Souza / César de Sousa. Ligação pela SP-066.", "fonte": "Legislação/distritos municipais; grafias em GPS", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "César de Sousa é distrito, ligado pela SP-066. Cezar de Souza e César de Sousa são o mesmo lugar com GPS confuso.", "publicado": true},
+    {"fato": "Title pode usar Alto Tietê se o corpo nomear Mogi das Cruzes.", "fonte": "Contrato de redação da rodada; região oficial Alto Tietê", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "", "publicado": false}
+  ],
+  "descartado": [
+    "Minutos até GRU ou CGH",
+    "Inventar aeroporto mogiano",
+    "Tratar Mogi como bairro de Guarulhos",
+    "Avenida Vereador Narciso Iracema como eixo principal (gerador)"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

@@ -10,7 +10,7 @@ return [
     'schema_service_name' => 'Transporte executivo com motorista em São Caetano do Sul',
     'seo' => [
         'title' => 'Motorista em São Caetano: Centro, Barcelona e Fundação',
-        'description' => 'Carro com motorista em São Caetano do Sul para o Centro, o Barcelona da USCS e o bairro Fundação. Congonhas pela Anchieta; a ferrovia separa o recuo da capital. Valor sob consulta.',
+        'description' => 'Carro com motorista em São Caetano do Sul para o Centro, a USCS no Barcelona e o bairro Fundação. Congonhas pela Anchieta. Valor sob consulta.',
         'og_title' => 'Traslado no Palácio da Cerâmica, na USCS e na Fundação',
         'og_description' => 'Motorista em São Caetano: Avenida Goiás, campus Barcelona e o recuo da Fundação na borda com Vila Prudente.',
         'og_image_alt' => 'Sedan executivo na Avenida Goiás, em São Caetano do Sul',

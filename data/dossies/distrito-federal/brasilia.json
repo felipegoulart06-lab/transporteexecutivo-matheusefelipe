@@ -1,72 +1,29 @@
 {
-    "estado": "distrito-federal",
-    "cidade": "brasilia",
-    "nome": "Brasília",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Eixo Monumental",
-            "eixo": "Eixo Monumental",
-            "destino": "Juscelino Kubitschek",
-            "motivo": "Esplanada e ministério"
-        }
-    ],
-    "eixos": [
-        "Eixo Monumental",
-        "Asa Sul",
-        "Asa Norte",
-        "Lago Sul"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Juscelino Kubitschek",
-            "iata": "BSB",
-            "municipio": "Brasília",
-            "acesso": "Eixo / EPIA"
-        }
-    ],
-    "rodovias": [
-        "Eixo Monumental",
-        "EPIA",
-        "DF-003"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "Esplanada e ministério",
-        "Setor Hoteleiro Sul",
-        "Setor Hoteleiro Norte",
-        "embaixada e residência"
-    ],
-    "vizinhos_pedido": [
-        "Luziânia",
-        "Goiânia",
-        "Anápolis"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal BSB em Brasília",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "distrito-federal",
+  "cidade": "brasilia",
+  "nome": "Brasília",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Setor Hoteleiro Sul ou Norte", "eixo": "Plano Piloto", "destino": "Esplanada ou BSB", "motivo": "SHS e SHN não compartilham recuo"},
+    {"origem": "Asa Sul ou Asa Norte", "eixo": "Plano Piloto", "destino": "Hotel, Esplanada ou aeroporto", "motivo": "Quadra e bloco são o endereço"},
+    {"origem": "Aeroporto JK (BSB)", "eixo": "Lago Sul", "destino": "Asa ou Esplanada", "motivo": "Terminal no Lago Sul, não na Esplanada"}
+  ],
+  "eixos": ["Asa Sul e Asa Norte", "Setor Hoteleiro (SHS/SHN)", "Eixo Monumental / Esplanada", "Lago Sul e o aeroporto JK"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Brasília – Presidente Juscelino Kubitschek", "iata": "BSB", "municipio": "Brasília / DF (Lago Sul; DF não se divide em municípios)", "relacao": "Inframerica. Área Especial S/N, Lago Sul, CEP 71608-900. ICAO SBBR – IATA BSB. Operador informa 13 km do Eixo Monumental.", "fonte": "https://www.bsb.aero/passageiros/fale-conosco ; Declaração de Capacidade bsb.aero SBBR/BSB", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Eixo Monumental", "papel": "Espinha do Plano Piloto", "fonte": "bsb.aero", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Plano Piloto", "Setor Hoteleiro", "Esplanada", "Lago Sul"],
+  "vizinhos_pedido": ["Águas Claras / Taguatinga", "Entorno goiano"],
+  "prefeito": {"nome": "Não há prefeito. Governadora: Celina Leão. CF art. 32 veda municípios no DF.", "fonte": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirBase=CF&abrirArtigo=32", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "DF não é estado e não se divide em municípios (CF art. 32)", "fonte": "STF art. 32", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O Distrito Federal não é estado.", "publicado": true},
+    {"fato": "Aeroporto JK IATA BSB ICAO SBBR no Lago Sul", "fonte": "bsb.aero Declaração de Capacidade e fale-conosco", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O BSB fica no Lago Sul.", "publicado": true},
+    {"fato": "[VERIFICAR] Qual entrada do Setor Hoteleiro (Sul vs Norte) para cada hotel", "fonte": "", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Chamar o DF de estado", "Prefeito de Brasília"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

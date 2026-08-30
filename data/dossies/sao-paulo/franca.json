@@ -1,78 +1,38 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "franca",
-    "nome": "Franca",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Cândido Portinari",
-            "destino": "Tenente Lund Presotto",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "City Petrópolis",
-        "Jardim Lima",
-        "Campus Unifran"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Tenente Lund Presotto",
-            "iata": "FRC",
-            "municipio": "Franca",
-            "acesso": "SP-334"
-        },
-        {
-            "nome": "Leite Lopes",
-            "iata": "RAO",
-            "municipio": "Ribeirão Preto",
-            "acesso": "SP-334"
-        }
-    ],
-    "rodovias": [
-        "Cândido Portinari",
-        "SP-334",
-        "Avenida Champagnat"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro",
-        "residencial",
-        "universidade"
-    ],
-    "vizinhos_pedido": [
-        "Ribeirão Preto",
-        "Uberaba",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal FRC em Franca",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "franca",
+  "nome": "Franca",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro (Champagnat / São Vicente de Paulo)", "eixo": "sede", "destino": "hotel / pauta urbana", "motivo": "Não libera a cancela da planta"},
+    {"origem": "City Petrópolis", "eixo": "Cândido Portinari SP-334", "destino": "residencial / recorte industrial", "motivo": "Junto à rodovia rumo a Ribeirão"},
+    {"origem": "Polo calçadista", "eixo": "portaria da planta", "destino": "complexo / turno", "motivo": "Lista, documento e nome do complexo; IG do calçado descreve o município, não a cancela"},
+    {"origem": "Franca", "eixo": "Rodovia Rio Negro e Solimões km 399 ou SP-334", "destino": "FRC (malha limitada a VCP) ou RAO em Ribeirão Preto", "motivo": "FRC no município, com malha curta; RAO é a vazão prática da conexão"}
+  ],
+  "eixos": ["Centro", "City Petrópolis", "Portaria calçadista"],
+  "aeroportos": [
+    {"nome": "Aeroporto Estadual Tenente Lund Presotto", "iata": "FRC", "municipio": "Franca", "relacao": "Campo no município (Rede VOA). Malha regional limitada rumo a Viracopos (Azul Conecta, retomada dez/2024). Não tratar como hub nem dizer que não há voo comercial.", "fonte": "redevoa.com.br aeroporto-ten-lund-presotto-franca-sp (Rodovia Rio Negro e Solimões km 399); redevoa notícia retomada Azul Conecta FRC–VCP; Aeroin 2024-12-16; Sampi 2025-11 (movimento baixo de pax — malha limitada/oscilante)", "data": "2026-08-29"},
+    {"nome": "Aeroporto Estadual Leite Lopes", "iata": "RAO", "municipio": "Ribeirão Preto", "relacao": "Vazão principal de conexões via Cândido Portinari SP-334", "fonte": "Rede VOA Leite Lopes; DER SP-334", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "SP-334 Rodovia Cândido Portinari — Franca–Ribeirão Preto", "fonte": "DER/SP", "data": "2026-08-29"},
+    {"nome": "Rodovia Rio Negro e Solimões km 399 — acesso ao FRC", "fonte": "Rede VOA endereço Tenente Lund Presotto", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Polo calçadista / Indicação Geográfica do calçado de Franca (INPI)", "Centro / Champagnat", "City Petrópolis"],
+  "vizinhos_pedido": ["Ribeirão Preto", "RAO", "Uberaba", "Campinas / VCP"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "FRC Tenente Lund Presotto no município de Franca, Rede VOA, Rodovia Rio Negro e Solimões km 399. Azul Conecta retomou FRC–VCP em dez/2024 (Grand Caravan). Movimento de pax segue limitado (Sampi/Rede VOA 2025: da ordem de poucos passageiros/dia). Confirmar o voo no pedido. Não escrever “não há voo comercial”.", "fonte": "Rede VOA página e notícia da retomada; Aeroin 16/12/2024; Sampi Franca 23/11/2025", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Há malha regional limitada rumo a Viracopos. Confirme o voo no pedido. Para a maior parte das conexões, o saguão prático continua sendo o Leite Lopes (RAO), em Ribeirão Preto.", "publicado": true},
+    {"fato": "RAO em Ribeirão Preto vaza pela Cândido Portinari (SP-334). Uberaba entra quando a pauta cruza a divisa mineira.", "fonte": "DER SP-334; relacionados da landing (uberaba)", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "A Cândido Portinari pede margem; não é o intervalo do Centro até o City Petrópolis.", "publicado": true},
+    {"fato": "Franca é polo calçadista (IG). A portaria da planta não se troca pelo pin da Champagnat.", "fonte": "INPI IG calçado de Franca; toponímia Champagnat / City Petrópolis", "data": "2026-08-29", "tipo": "polo", "risco": "medio", "frase": "Sem o nome do complexo, o GPS no Centro não abre a entrada.", "publicado": true}
+  ],
+  "descartado": [
+    "Dizer que o FRC não tem voo comercial (PHP antigo / gerador desatualizado)",
+    "Tratar FRC como o mesmo saguão do RAO",
+    "Campus Unifran como eixo no lugar da planta (gerador)",
+    "Minutos até Ribeirão",
+    "Preço de passagem Azul"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

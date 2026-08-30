@@ -1,78 +1,33 @@
 {
-    "estado": "rio-de-janeiro",
-    "cidade": "rio-de-janeiro",
-    "nome": "Rio de Janeiro",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Zona Sul",
-            "eixo": "Avenida Brasil",
-            "destino": "Santos Dumont",
-            "motivo": "hotel na orla"
-        }
-    ],
-    "eixos": [
-        "Zona Sul",
-        "Centro",
-        "Barra da Tijuca",
-        "Santo Cristo"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Santos Dumont",
-            "iata": "SDU",
-            "municipio": "Rio de Janeiro",
-            "acesso": "Aterro"
-        },
-        {
-            "nome": "Galeão",
-            "iata": "GIG",
-            "municipio": "Rio de Janeiro",
-            "acesso": "Avenida Brasil"
-        }
-    ],
-    "rodovias": [
-        "Avenida Brasil",
-        "Linha Amarela",
-        "Linha Vermelha"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel na orla",
-        "reunião no centro",
-        "hotel na Barra",
-        "desembarque no SDU"
-    ],
-    "vizinhos_pedido": [
-        "Niterói",
-        "Duque de Caxias",
-        "Petrópolis"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal SDU em Rio de Janeiro",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "rio-de-janeiro",
+  "cidade": "rio-de-janeiro",
+  "nome": "Rio de Janeiro",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Hotel na Zona Sul", "eixo": "Orla / túneis", "destino": "Santos Dumont (Centro)", "motivo": "Ponte aérea colada ao Centro; Túnel Rebouças e Aterro"},
+    {"origem": "Desembarque SDU", "eixo": "Centro", "destino": "Hotel na orla", "motivo": "Voo doméstico na Praça Senador Salgado Filho"},
+    {"origem": "Hotel na Barra", "eixo": "Linha Amarela", "destino": "Galeão ou Centro", "motivo": "Barra não compartilha o relógio da Zona Sul"},
+    {"origem": "Desembarque GIG", "eixo": "Ilha do Governador / Av. Brasil", "destino": "Zona Sul, Centro ou Barra", "motivo": "Terminal na Ilha, Av. Vinte de Janeiro"}
+  ],
+  "eixos": ["Zona Sul", "Centro e Santos Dumont", "Barra da Tijuca e Linha Amarela", "Galeão na Ilha do Governador"],
+  "aeroportos": [
+    {"nome": "Aeroporto Santos Dumont", "iata": "SDU", "municipio": "Rio de Janeiro", "relacao": "Centro, Praça Senador Salgado Filho, s/n. Voos domésticos. Infraero. SDU/SBRJ.", "fonte": "https://www4.infraero.gov.br/aeroporto-santos-dumont-caracteristicas/", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional do Rio de Janeiro/Galeão – Antônio Carlos Jobim", "iata": "GIG", "municipio": "Rio de Janeiro", "relacao": "Ilha do Governador. Av. Vinte de Janeiro. ICAO SBGL.", "fonte": "ANAC concessão Galeão; CET-Rio Linha Vermelha", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Avenida Brasil", "papel": "Corredor zona norte", "fonte": "CET-Rio / prefeitura.rio", "data": "2026-08-29"},
+    {"nome": "Linha Amarela", "papel": "Ligação Barra–zona norte; Lamsa", "fonte": "https://prefeitura.rio/cidade/prefeitura-e-lamsa-chegam-a-acordo-sobre-linha-amarela/", "data": "2026-08-29"},
+    {"nome": "Túnel Rebouças", "papel": "Zona Sul–Centro", "fonte": "CET-Rio", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Zona Sul", "Centro", "Barra da Tijuca", "Ilha do Governador"],
+  "vizinhos_pedido": ["Niterói", "Duque de Caxias"],
+  "prefeito": {"nome": "Eduardo Cavaliere", "fonte": "G1 20/03/2026", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "SDU no Centro, Praça Senador Salgado Filho", "fonte": "Infraero", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Santos Dumont fica no Centro.", "publicado": true},
+    {"fato": "Galeão na Ilha do Governador", "fonte": "ANAC / CET-Rio", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Galeão fica na Ilha do Governador.", "publicado": true},
+    {"fato": "[VERIFICAR] Ponto de encontro de carro no Galeão após troca de concessionária em 2026", "fonte": "", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Hotel nomeado sem site oficial", "Tempo fixo no Aterro"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

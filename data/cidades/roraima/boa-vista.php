@@ -5,110 +5,64 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'Boa Vista',
-    'geo' => [
-        'lat' => 2.82384,
-        'lng' => -60.6753,
-    ],
+    'geo' => ['lat' => 2.82384, 'lng' => -60.6753],
     'imagem' => 'norte.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Boa Vista',
     'seo' => [
-        'title' => 'Motorista executivo em Boa Vista: Centro e BVB',
-        'description' => 'Motorista executivo em Boa Vista: Centro, Caimbé e Atlas Brasil Cantanhede (BVB), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
-        'og_title' => 'Agenda em Boa Vista com motorista — Caimbé e Atlas Brasil Cantanhede',
-        'og_description' => 'O motorista combina Centro com Atlas Brasil Cantanhede (BVB), no próprio município. Informe nome do hotel.',
-        'og_image_alt' => 'Carro executivo em via de Boa Vista',
+        'title' => 'BVB, Centro e Caimbé em Boa Vista; BR-174 à parte',
+        'description' => 'Motorista em Boa Vista para Centro, Caimbé e o Atlas Brasil Cantanhede. A BR-174 rumo à fronteira sai só como viagem intermunicipal, sob consulta.',
+        'og_title' => 'Carro no Centro, no Caimbé e no Atlas Brasil Cantanhede',
+        'og_description' => 'Traslado em Roraima: pauta no Centro Cívico, recuo no Caimbé e o terminal BVB no município de Boa Vista.',
+        'og_image_alt' => 'Sedan executivo em avenida radiocêntrica de Boa Vista',
     ],
-    'kicker' => 'Capital roraimense · RR',
-    'h1' => 'Em Boa Vista, de Centro a Atlas Brasil Cantanhede (BVB), no próprio município',
-    'faq_h2' => 'Dúvidas de quem embarca em Boa Vista',
-    'faq' => [
-        [
-            'pergunta' => 'Em Boa Vista, o BVB fica no próprio município?',
-            'resposta' => 'Sim. Em Boa Vista, Atlas Brasil Cantanhede (BVB) fica no município. Informe o acesso via BR-174.',
-        ],
-        [
-            'pergunta' => 'Em Boa Vista, vocês buscam em Centro?',
-            'resposta' => 'Sim, em Boa Vista. Envie nome do hotel em Centro. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Boa Vista vocês fazem Pacaraima?',
-            'resposta' => 'Sim, saindo de Boa Vista. Pacaraima não é o recorte de Centro; o horário pela Avenida Ville Roy sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Boa Vista o carro fica entre Centro e Caimbé?',
-            'resposta' => 'Sim, em Boa Vista. A hora à disposição cobre sede e hotel em Centro e bairro em Caimbé.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Boa Vista e o BVB',
-        'texto' => 'Diga o ponto em Centro ou Caimbé, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Boa Vista',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'roraima',
-            'ancora' => 'Boa Vista e o recorte de Capital roraimense',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'amazonas',
-            'cidade' => 'manaus',
-            'ancora' => 'Motorista em manaus',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'para',
-            'cidade' => 'belem',
-            'ancora' => 'Motorista em belem',
-        ],
-    ],
-    'olho' => 'Centro e Atlas Brasil Cantanhede (BVB), no próprio município não cabem no mesmo aceite tardio.',
+    'kicker' => 'Capital de Roraima · RR',
+    'h1' => 'Do Atlas Brasil ao Caimbé sem marcar a BR-174 no relógio urbano',
+    'olho' => 'Boa Vista é radiocêntrica no traçado. O motorista segura as avenidas em leque até o Centro e o Caimbé; o passageiro segura a reunião. A BR-174 rumo à fronteira não entra nesse recorte: só como viagem intermunicipal, sob consulta, sem tempo inventado.',
     'capitulos' => [
         [
-            'h2' => 'Centro e o recuo da pauta',
-            'texto' => 'Boa Vista concentra Centro (sede e hotel) e Atlas Brasil Cantanhede (BVB) no mesmo município. O motorista precisa do ponto de embarque e do BVB no mesmo recado — “me busca em Boa Vista” não define o recuo.',
+            'h2' => 'A capital planejada e o recuo que o leque esconde',
+            'texto' => 'Hotel no Centro, pauta no Palácio e no Centro Cívico, pernoite ou clínica no Caimbé e voo no Atlas Brasil Cantanhede (BVB) cabem no mesmo dia. As avenidas se repetem no nome; “no Centro” não define a porta. O aeroporto fica no município de Boa Vista, não na faixa da BR-174 para Pacaraima.',
         ],
         [
-            'h2' => 'Caimbé, Mecejana e a ordem do dia',
+            'h2' => 'Onde o embarque boa-vistense mais se concentra',
             'itens' => [
-                [
-                    'h3' => 'Caimbé',
-                    'texto' => 'Origem frequente para bairro. Informe nome do hotel. Caimbé não compartilha o recuo de Centro.',
-                ],
-                [
-                    'h3' => 'Mecejana',
-                    'texto' => 'Origem frequente para residencial. Informe nome do hotel. Mecejana não compartilha o recuo de Centro.',
-                ],
-                [
-                    'h3' => 'Paraviana',
-                    'texto' => 'Origem frequente para acesso ao BVB. Informe nome do hotel. Paraviana não compartilha o recuo de Centro.',
-                ],
+                ['h3' => 'Centro e a Praça do Centro Cívico', 'texto' => 'Sede, palácio e hotel. Informe o prédio; o traçado em leque faz duas portas parecerem a mesma no GPS.'],
+                ['h3' => 'Caimbé', 'texto' => 'Bairro residencial e de serviços, com recuo em rua e número. “No Caimbé” não escolhe entre a Mário Homem de Melo e a Nossa Senhora de Nazaré.'],
+                ['h3' => 'Bairro Aeroporto e o BVB', 'texto' => 'O terminal Atlas Brasil Cantanhede fica na Praça Santos Dumont, 100. Combinamos o voo. A espera no desembarque entra no trecho BVB.'],
             ],
+        ],
+        [
+            'h2' => 'BR-174 rumo à fronteira: viagem, não corrida urbana',
+            'texto' => 'BVB → hotel no Centro → Caimbé cobre o expediente da capital. Pacaraima e a faixa da fronteira só entram se o destino estiver no pedido, como trecho intermunicipal pela BR-174. Não publicamos intervalo de estrada. O orçamento urbano e o da fronteira não se misturam.',
         ],
         [
             'h2' => 'Atlas Brasil Cantanhede — BVB',
-            'texto' => 'Atlas Brasil Cantanhede (BVB) fica em Boa Vista. Acesso: BR-174. Combinamos o voo; a espera no desembarque integra o trecho.',
+            'texto' => 'Lei federal denomina o terminal Aeroporto Internacional de Boa Vista — Atlas Brasil Cantanhede. Fica em Boa Vista. Combinamos o voo. Até o Centro ou o Caimbé, a avenida pesa mais que o quilômetro no mapa; a BR-174 para o norte não encurta o saguão.',
         ],
     ],
     'passos' => [
-        'h2' => 'Como solicitar em Boa Vista',
+        'h2' => 'Três dados que evitam atraso na capital',
         'itens' => [
-            [
-                'num' => '01',
-                'titulo' => 'Ponto de embarque',
-                'texto' => 'Rua, número e nome do hotel. Autocomplete não resolve dois acessos em Centro.',
-            ],
-            [
-                'num' => '02',
-                'titulo' => 'Destino e tipo de janela',
-                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o BVB ou Pacaraima entra no dia.',
-            ],
-            [
-                'num' => '03',
-                'titulo' => 'Confirmação',
-                'texto' => 'Em Boa Vista, nome e WhatsApp. Devolvemos o horário de apresentação.',
-            ],
+            ['num' => '01', 'titulo' => 'Avenida e número', 'texto' => 'Centro Cívico ou Caimbé. “No Centro” não define o recuo do palácio.'],
+            ['num' => '02', 'titulo' => 'Voo no BVB', 'texto' => 'Número e horário. O carro sai com margem no município, não no minuto do check-in.'],
+            ['num' => '03', 'titulo' => 'Fronteira ou cidade', 'texto' => 'Pacaraima e a BR-174 entram como viagem sob consulta. O urbano de Boa Vista é outro orçamento.'],
         ],
+    ],
+    'faq_h2' => 'Perguntas de quem pousa no Atlas Brasil Cantanhede',
+    'faq' => [
+        ['pergunta' => 'O BVB fica no Caimbé?', 'resposta' => 'Não. O terminal fica no bairro Aeroporto, na Praça Santos Dumont. O Caimbé é outro recuo, com rua e número próprios.'],
+        ['pergunta' => 'Centro Cívico e Caimbé compartilham o mesmo ponto na Ville Roy?', 'resposta' => 'Não. O leque da capital repete nomes de via. Informe o prédio no Centro e o número no Caimbé.'],
+        ['pergunta' => 'A BR-174 até Pacaraima entra como trecho urbano de Boa Vista?', 'resposta' => 'Não. É viagem intermunicipal sob consulta. Não marcamos tempo de fronteira no relógio do Centro.'],
+        ['pergunta' => 'O número do voo BVB entra no pedido se o desembarque atrasar?', 'resposta' => 'Entra. Em Boa Vista a espera no Atlas Brasil faz parte do trecho combinado, sem minuto fixo.'],
+    ],
+    'cta' => [
+        'titulo' => 'Marque o BVB no mesmo recado do Centro ou do Caimbé',
+        'texto' => 'O orçamento de Boa Vista sai sob consulta. Bairro, voo e, se houver, a BR-174 como viagem à parte.',
+        'botao' => 'Pedir motorista em Boa Vista',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'roraima', 'ancora' => 'Pacaraima, Caracaraí e o recorte de Roraima'],
+        ['tipo' => 'cidade', 'estado' => 'amazonas', 'cidade' => 'manaus', 'ancora' => 'Adrianópolis, Ponta Negra e o MAO'],
+        ['tipo' => 'cidade', 'estado' => 'para', 'cidade' => 'belem', 'ancora' => 'Nazaré, Umarizal e o Val-de-Cans'],
     ],
 ];

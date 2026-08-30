@@ -1,72 +1,34 @@
 {
-    "estado": "minas-gerais",
-    "cidade": "betim",
-    "nome": "Betim",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Alterosas",
-            "eixo": "BR-381",
-            "destino": "Confins",
-            "motivo": "hotel e bairro"
-        }
-    ],
-    "eixos": [
-        "Alterosas",
-        "Centro",
-        "Petrovale",
-        "Citrolândia"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Confins",
-            "iata": "CNF",
-            "municipio": "Confins",
-            "acesso": "BR-381 / Anel"
-        }
-    ],
-    "rodovias": [
-        "BR-381",
-        "BR-262",
-        "Avenida Amazonas"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel e bairro",
-        "sede",
-        "REGAP",
-        "industrial"
-    ],
-    "vizinhos_pedido": [
-        "Contagem",
-        "Belo Horizonte",
-        "Igarapé"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CNF em Confins",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "minas-gerais",
+  "cidade": "betim",
+  "nome": "Betim",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Hotel nas Alterosas ou no Centro", "eixo": "malha urbana Betim", "destino": "Polo Automotivo Stellantis (Fiat)", "motivo": "Pauta na planta clássica neste município"},
+    {"origem": "Hotel / Fiat", "eixo": "Distrito Industrial Paulo Camilo Sul", "destino": "REGAP", "motivo": "Refinaria da Petrobras com portaria distinta"},
+    {"origem": "Alterosas", "eixo": "BR-381 / MG-010", "destino": "CNF (Confins)", "motivo": "Voo fora do município; Contagem vizinça"}
+  ],
+  "eixos": ["Fiat / Polo Stellantis", "Alterosas / Centro", "REGAP", "CNF em Confins", "Contagem"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Belo Horizonte–Confins – Tancredo Neves", "iata": "CNF", "municipio": "Confins", "relacao": "Vazão: Betim não tem saguão. Eixos BR-381 + MG-010.", "fonte": "aeroportoconfins.com/localizacao", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-381 (Fernão Dias)", "fonte": "Eixo Betim–RM BH", "data": "2026-08-29"},
+    {"nome": "MG-010", "fonte": "Acesso Confins", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Polo Automotivo Stellantis de Betim", "REGAP", "Regional Alterosas"],
+  "vizinhos_pedido": ["Contagem", "Belo Horizonte", "Confins", "Ibirité / Sarzedo (área REGAP)"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Polo Stellantis / Fiat clássica em Betim", "fonte": "Stellantis Media 09/07/2026 Polo Automotivo Stellantis de Betim 50 anos", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O Polo Automotivo Stellantis de Betim está neste município, não em Contagem.", "publicado": true},
+    {"fato": "REGAP em Betim (Petrobras)", "fonte": "petrobras.com.br refinaria-gabriel-passos Av. Refinaria Gabriel Passos 690 Paulo Camilo Sul Betim. Área também Ibirité e Sarzedo.", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "A REGAP tem endereço institucional em Betim.", "publicado": true},
+    {"fato": "Alterosas é regional de Betim", "fonte": "betim.mg.gov.br Regional Alterosas Jardim das Alterosas", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "Hotel nas Alterosas ou no Centro pede o nome do estabelecimento.", "publicado": true}
+  ],
+  "descartado": [
+    "Endereço de rua da Fiat na landing sem fonte Stellantis",
+    "[VERIFICAR] portaria REGAP para visitante (área em três municípios)",
+    "[VERIFICAR] prefeito de Betim"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

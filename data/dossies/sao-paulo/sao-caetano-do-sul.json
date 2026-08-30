@@ -1,78 +1,35 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "sao-caetano-do-sul",
-    "nome": "São Caetano do Sul",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Anchieta",
-            "destino": "Congonhas",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Barcelona",
-        "Fundação",
-        "Santa Maria"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Congonhas",
-            "iata": "CGH",
-            "municipio": "São Paulo",
-            "acesso": "Anchieta"
-        },
-        {
-            "nome": "Guarulhos",
-            "iata": "GRU",
-            "municipio": "Guarulhos",
-            "acesso": "Ayrton Senna"
-        }
-    ],
-    "rodovias": [
-        "Anchieta",
-        "Avenida Goiás",
-        "Pereira Barreto"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro",
-        "residencial",
-        "eixo"
-    ],
-    "vizinhos_pedido": [
-        "Santo André",
-        "São Paulo",
-        "São Bernardo do Campo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CGH em São Paulo",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "sao-caetano-do-sul",
+  "nome": "São Caetano do Sul",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Hotel / Centro (Avenida Goiás)", "eixo": "urbano compacto", "destino": "Paço Palácio da Cerâmica Av. Fernando Simonsen, 566", "motivo": "Pauta na sede municipal"},
+    {"origem": "Centro", "eixo": "Avenida Goiás", "destino": "USCS Campus Barcelona Av. Goiás, 3400", "motivo": "Campus universitário municipal"},
+    {"origem": "Centro", "eixo": "ferrovia / Tamanduateí", "destino": "Bairro Fundação (divisa Vila Prudente / capital)", "motivo": "Recuo partido do Centro"},
+    {"origem": "São Caetano", "eixo": "Via Anchieta SP-150", "destino": "Congonhas CGH", "motivo": "Voo doméstico — sem saguão local"},
+    {"origem": "São Caetano", "eixo": "Rodoanel", "destino": "GRU", "motivo": "Voo internacional"}
+  ],
+  "eixos": ["Centro / Palácio da Cerâmica", "Barcelona / USCS Av. Goiás 3400", "Fundação (borda com a capital)"],
+  "aeroportos": [
+    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino típico; município compacto colado à capital", "fonte": "Aena Brasil", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Acesso pelo Rodoanel", "fonte": "Prefeitura de Guarulhos", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Via Anchieta (SP-150)", "fonte": "DER/SP; Ecovias SAI", "data": "2026-08-29"},
+    {"nome": "Rodovia dos Imigrantes (SP-160)", "fonte": "Ecovias", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Palácio da Cerâmica / Paço Av. Fernando Simonsen 566", "USCS Campus Barcelona Av. Goiás 3400", "Bairro Fundação"],
+  "vizinhos_pedido": ["São Paulo (Vila Prudente, CGH, Faria Lima)", "Santo André", "São Bernardo do Campo", "Guarulhos (GRU)"],
+  "prefeito": {"nome": "Tite Campanella", "fonte": "saocaetanodosul.sp.gov.br/gabinete/8", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "São Caetano do Sul não tem aeroporto comercial", "fonte": "ANAC concessões", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Não há aeroporto comercial: Congonhas pela Via Anchieta é o destino típico.", "publicado": true},
+    {"fato": "Paço Municipal (Palácio da Cerâmica) na Av. Fernando Simonsen, 566, inaugurado 1992", "fonte": "saocaetanodosul.sp.gov.br/noticia/170", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "O Paço (Palácio da Cerâmica) fica na Avenida Fernando Simonsen.", "publicado": true},
+    {"fato": "USCS Campus Barcelona Av. Goiás, 3400 CEP 09550-051", "fonte": "uscs.edu.br/unidade/campus-barcelona", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "A USCS Barcelona fica na Avenida Goiás, 3400.", "publicado": true},
+    {"fato": "Bairro Fundação é bairro de SCS na divisa com a capital (Vila Prudente), separado do Centro por ferrovia e Tamanduateí", "fonte": "Wikipédia Fundação (SCS); Fundação Pró Memória", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "A ferrovia e o Tamanduateí separam o Centro da Fundação.", "publicado": true},
+    {"fato": "IBGE 3548807", "fonte": "IBGE", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Santa Paula como eixo principal", "Hotel Ibis", "Fundação das Artes como se fosse o bairro Fundação", "Tempos em minutos"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

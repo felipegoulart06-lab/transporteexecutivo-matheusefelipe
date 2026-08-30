@@ -1,72 +1,28 @@
 {
-    "estado": "piaui",
-    "cidade": "teresina",
-    "nome": "Teresina",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Jóquei",
-            "eixo": "ponte da Amizade",
-            "destino": "Senador Petrônio Portella",
-            "motivo": "hotel e clínica"
-        }
-    ],
-    "eixos": [
-        "Jóquei",
-        "Fátima",
-        "Centro",
-        "Horto"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Senador Petrônio Portella",
-            "iata": "THE",
-            "municipio": "Teresina",
-            "acesso": "Avenida Centenário"
-        }
-    ],
-    "rodovias": [
-        "ponte da Amizade",
-        "PI-130",
-        "Avenida Frei Serafim"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel e clínica",
-        "bairro",
-        "sede",
-        "acesso ao THE"
-    ],
-    "vizinhos_pedido": [
-        "Timon",
-        "Parnaíba",
-        "Fortaleza"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal THE em Teresina",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "piaui",
+  "cidade": "teresina",
+  "nome": "Teresina",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "THE (Praça Santos Dumont)", "eixo": "zona norte urbana", "destino": "hotel no Jóquei / Homero Castelo Branco", "motivo": "Pouso e pernoite"},
+    {"origem": "Jóquei", "eixo": "Frei Serafim", "destino": "Centro", "motivo": "Reunião e sede"},
+    {"origem": "Fátima", "eixo": "residencial zona leste", "destino": "clínica ou hotel", "motivo": "Recuo de portão"},
+    {"origem": "Teresina", "eixo": "pontes do Parnaíba", "destino": "Timon (MA)", "motivo": "Transfer intermunicipal / mudança de UF"}
+  ],
+  "eixos": ["Centro / Frei Serafim", "Jóquei / Homero Castelo Branco", "Fátima", "Ponte Parnaíba → Timon (MA)"],
+  "aeroportos": [
+    {"nome": "Aeroporto de Teresina/Senador Petrônio Portella", "iata": "THE", "municipio": "Teresina", "relacao": "Próprio município, zona norte, Praça Santos Dumont s/n", "fonte": "Lei 9.942/1999; Motiva aeroportos.motiva.com.br/teresina-pi/; IBGE 2211001", "data": "2026-08-29"}
+  ],
+  "rodovias": [{"nome": "Pontes Teresina–Timon sobre o Parnaíba", "fonte": "CREA-PI; Prefeitura de Timon", "data": "2026-08-29"}],
+  "hoteis_ancora": [],
+  "polos": ["Jóquei", "Centro", "Timon (MA)"],
+  "vizinhos_pedido": ["Timon (MA)", "Parnaíba (litoral)"],
+  "prefeito": {"nome": "Silvio Mendes de Oliveira Filho", "fonte": "IBGE Cidades", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "THE em Teresina, IATA THE, nome Portella (lei)", "fonte": "Lei 9.942/1999; Motiva", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O THE fica em Teresina, na zona norte.", "publicado": true},
+    {"fato": "Timon (MA) do outro lado do Parnaíba", "fonte": "IBGE; CREA-PI", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "Timon começa do outro lado do Parnaíba, no Maranhão.", "publicado": true}
+  ],
+  "descartado": ["Hotel nomeado sem site oficial", "Minutos THE–Jóquei", "PI-130 como eixo Timon", "Quarta ponte (projeto)"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
+  "verificar": ["Competência de cada ponte PI/MA se o pedido citar a ponte", "Grafia Portela (Motiva) vs Portella (lei) — publicar Portella"]
 }

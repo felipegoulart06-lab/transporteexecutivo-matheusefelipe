@@ -5,138 +5,73 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'Uberlândia',
-    'geo' => [
-        'lat' => -18.9141,
-        'lng' => -48.2749,
-    ],
+    'geo' => ['lat' => -18.9141, 'lng' => -48.2749],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Uberlândia',
     'seo' => [
-        'title' => 'Motorista executivo em Uberlândia: Umuarama e UDI',
-        'description' => 'Motorista executivo em Uberlândia: Umuarama, Centro e César Bombonato (UDI), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
-        'og_title' => 'Embarque em Uberlândia: hotel, Umuarama e UDI',
-        'og_description' => 'O motorista combina Umuarama com César Bombonato (UDI), no próprio município. Informe nome do hotel ou do campus.',
-        'og_image_alt' => 'Carro executivo em via de Uberlândia',
+        'title' => 'Motorista em Uberlândia: Umuarama, Centro e UDI',
+        'description' => 'Carro com motorista em Uberlândia para o Centro, Umuarama, a UFU e o aeroporto César Bombonato (UDI), no município. BR-050, BR-365 e Uberaba sob consulta.',
+        'og_title' => 'Traslado no Centro, no Umuarama e no aeroporto UDI',
+        'og_description' => 'O UDI fica em Uberlândia. O carro articula hotel, campus da UFU e o trecho até Uberaba quando a pauta vaza.',
+        'og_image_alt' => 'Sedan executivo em avenida larga de Uberlândia, Minas Gerais',
     ],
     'kicker' => 'Triângulo Mineiro · MG',
-    'h1' => 'Em Uberlândia: do embarque em Umuarama ao UDI',
-    'faq_h2' => 'Dúvidas de quem embarca em Uberlândia',
-    'faq' => [
-        [
-            'pergunta' => 'Em Uberlândia, o UDI fica no próprio município?',
-            'resposta' => 'Sim. Em Uberlândia, César Bombonato (UDI) fica no município. Informe o acesso via BR-050.',
-        ],
-        [
-            'pergunta' => 'Em Uberlândia, vocês buscam em Umuarama?',
-            'resposta' => 'Sim, em Uberlândia. Envie nome do hotel ou do campus em Umuarama. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Uberlândia vocês fazem Uberaba?',
-            'resposta' => 'Sim, saindo de Uberlândia. Uberaba não é o recorte de Umuarama; o horário pela BR-365 sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Uberlândia o carro fica entre Umuarama e Centro?',
-            'resposta' => 'Sim, em Uberlândia. A hora à disposição cobre hotel e clínica em Umuarama e sede em Centro.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Uberlândia e o UDI',
-        'texto' => 'Diga o ponto em Umuarama ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Uberlândia',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'minas-gerais',
-            'ancora' => 'Uberlândia e o recorte de Triângulo Mineiro',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'minas-gerais',
-            'cidade' => 'belo-horizonte',
-            'ancora' => 'Motorista em belo horizonte',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'goias',
-            'cidade' => 'goiania',
-            'ancora' => 'Motorista em goiania',
-        ],
-    ],
-    'lead' => 'Uberlândia concentra Umuarama (hotel e clínica) e César Bombonato (UDI) no mesmo município. O motorista precisa do ponto de embarque e do UDI no mesmo recado — “me busca em Uberlândia” não define o recuo.',
+    'h1' => 'Do UDI ao Centro sem perder a janela na UFU',
+    'lead' => 'Uberlândia concentra o voo no próprio município. O motorista segura a João Naves, o recuo do Umuarama e o terminal César Bombonato (UDI); o passageiro segura a pauta — e o endereço do campus, que não é um só.',
     'contexto' => [
-        'h2' => 'Uberlândia se mede em BR-050, não em pin de aplicativo',
+        'h2' => 'Umuarama, Centro e UFU não compartilham o mesmo recuo',
         'texto' => [
-            'Uberlândia concentra Umuarama (hotel e clínica) e César Bombonato (UDI) no mesmo município. O motorista precisa do ponto de embarque e do UDI no mesmo recado — “me busca em Uberlândia” não define o recuo.',
-            'Centro pede sede. Tibery pede bairro. Quando Uberaba entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-365.',
+            'Hotel no Umuarama, reunião no Centro e campus da UFU cabem no mesmo expediente se a ordem já saiu no roteiro. O Campus Umuarama fica na Avenida Amazonas, no bairro Umuarama (saúde e Hospital de Clínicas). A sede da UFU, o Campus Santa Mônica, fica na Avenida João Naves de Ávila, 2121. “Na UFU” não define a portaria.',
+            'O Aeroporto Tenente Coronel Aviador César Bombonato (UDI) opera no município, no Jardim Ipanema. Quando a pauta aponta para Uberaba ou segue a BR-050 e a BR-365 para fora do miolo, o trecho deixa de ser só urbano. Informe o nome do hotel e o ponto de embarque.',
         ],
     ],
     'bairros' => [
-        'h2' => 'Eixos de embarque em Uberlândia',
+        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
         'itens' => [
-            [
-                'h3' => 'Umuarama',
-                'texto' => 'Origem frequente para hotel e clínica. Informe nome do hotel ou do campus. Umuarama não compartilha o recuo de Centro.',
-            ],
-            [
-                'h3' => 'Centro',
-                'texto' => 'Origem frequente para sede. Informe nome do hotel ou do campus. Centro não compartilha o recuo de Umuarama.',
-            ],
-            [
-                'h3' => 'Tibery',
-                'texto' => 'Origem frequente para bairro. Informe nome do hotel ou do campus. Tibery não compartilha o recuo de Umuarama.',
-            ],
-            [
-                'h3' => 'Campus UFU',
-                'texto' => 'Origem frequente para universidade. Informe nome do hotel ou do campus. Campus UFU não compartilha o recuo de Umuarama.',
-            ],
+            ['h3' => 'Centro', 'texto' => 'Sede e o calçadão. Informe o prédio; o sentido da via muda no fim da tarde e “no Centro” não basta.'],
+            ['h3' => 'Umuarama', 'texto' => 'Bairro, hotéis e o campus da saúde na Avenida Amazonas. O recuo do Hospital de Clínicas pede bloco e portaria, não o pin do bairro.'],
+            ['h3' => 'UFU Santa Mônica', 'texto' => 'Reitoria e o campus sede na João Naves de Ávila. Deslocamento curto no mapa que estica no semáforo da avenida.'],
+            ['h3' => 'Jardim Ipanema e o UDI', 'texto' => 'Terminal no município. O recuo de passageiros é a Avenida Sideral, no Jardim Ipanema. Combinamos o voo. A espera no desembarque integra o trecho desde o Umuarama ou o Centro.'],
         ],
     ],
     'aeroportos' => [
-        'h2' => 'O terminal que a agenda de Uberlândia realmente usa',
+        'h2' => 'César Bombonato — UDI no município',
         'itens' => [
-            [
-                'h3' => 'César Bombonato — UDI',
-                'texto' => 'César Bombonato (UDI) fica em Uberlândia. Acesso: BR-050. Combinamos o voo; a espera no desembarque integra o trecho.',
-            ],
-            [
-                'h3' => 'BR-050 e a vazão para Uberaba',
-                'texto' => 'Uberaba e Araguari aparecem no mesmo pedido de Uberlândia. Isso é viagem, não segunda corrida em Umuarama.',
-            ],
+            ['h3' => 'Uberlândia — UDI', 'texto' => 'Tenente Coronel Aviador César Bombonato, no Jardim Ipanema, município de Uberlândia. O terminal de passageiros recua na Avenida Sideral. Informe o número do voo. A espera no desembarque faz parte do trecho UDI.'],
+            ['h3' => 'Quando a pauta aponta para Uberaba', 'texto' => 'Uberaba não é o mesmo pedido do Centro. Se a reunião vaza pela BR-050, o trecho sai à parte, com horário sob consulta.'],
         ],
     ],
     'rotas' => [
-        'h2' => 'Trajetos que o pedido em Uberlândia mais combina',
+        'h2' => 'Trajetos que a agenda uberlandense mais pede',
         'itens' => [
-            [
-                'titulo' => 'Umuarama → UDI',
-                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-050.',
-            ],
-            [
-                'titulo' => 'UDI → Centro',
-                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel ou do campus.',
-            ],
-            [
-                'titulo' => 'Umuarama → Uberaba',
-                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Centro; o horário sai sob consulta.',
-            ],
+            ['titulo' => 'UDI → hotel no Umuarama', 'texto' => 'Pouso e pernoite no município. Informe o nome do hotel e se há vaga de visitante na portaria.'],
+            ['titulo' => 'Umuarama → Centro → UFU Santa Mônica', 'texto' => 'Campus da saúde, sede no Centro e João Naves. Um motorista cobre os três se a ordem já estiver no roteiro.'],
+            ['titulo' => 'Hotel → Uberaba no mesmo dia', 'texto' => 'Quando a pauta cruza o Triângulo pela BR-050, o trecho deixa de ser urbano. Horário sob consulta.'],
         ],
     ],
     'como' => [
-        'h2' => 'Como o carro entra na pauta em Uberlândia',
+        'h2' => 'Como o carro entra na grade em Uberlândia',
         'passos' => [
-            [
-                'titulo' => 'Ponto de embarque',
-                'texto' => 'Rua, número e nome do hotel ou do campus. Autocomplete não resolve dois acessos em Umuarama.',
-            ],
-            [
-                'titulo' => 'Destino e tipo de janela',
-                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o UDI ou Uberaba entra no dia.',
-            ],
-            [
-                'titulo' => 'Confirmação',
-                'texto' => 'Em Uberlândia, nome e WhatsApp. Devolvemos o horário de apresentação.',
-            ],
+            ['titulo' => 'Bairro e portaria', 'texto' => 'Umuarama, Centro ou Santa Mônica. Autocomplete não resolve campus com dois recuos.'],
+            ['titulo' => 'Hotel ou UDI', 'texto' => 'Diga se o embarque é o aeroporto no Jardim Ipanema ou a porta do hotel.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação em Uberlândia.'],
         ],
+    ],
+    'faq_h2' => 'Perguntas de quem pousa no UDI',
+    'faq' => [
+        ['pergunta' => 'O aeroporto de Uberlândia fica no município?', 'resposta' => 'Sim. O Tenente Coronel Aviador César Bombonato (UDI) opera em Uberlândia, no Jardim Ipanema, com recuo na Avenida Sideral. Marcamos margem: a João Naves e o horário de pico alteram o intervalo até o Centro ou o Umuarama.'],
+        ['pergunta' => 'O motorista espera no UDI se o voo atrasar?', 'resposta' => 'Sim. Combinamos o UDI com o número do voo; a espera no desembarque integra o trecho desde o Umuarama, o Centro ou o campus da UFU.'],
+        ['pergunta' => 'Vocês fazem Umuarama, Centro e a UFU no mesmo dia?', 'resposta' => 'Sim. Informe se a UFU é o Campus Umuarama, na Avenida Amazonas, ou o Santa Mônica, na João Naves. Um carro à disposição evita três aceites.'],
+        ['pergunta' => 'Dá para seguir a Uberaba depois do hotel?', 'resposta' => 'Sim, como viagem rumo a Uberaba pela BR-050. Não é o mesmo recorte do miolo urbano; o horário sai sob consulta.'],
+    ],
+    'cta' => [
+        'titulo' => 'Junte o Umuarama ao horário do UDI',
+        'texto' => 'Informe o hotel, o campus da UFU e se há voo no César Bombonato. O horário de apresentação em Uberlândia volta sob consulta.',
+        'botao' => 'Pedir motorista em Uberlândia',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'minas-gerais', 'ancora' => 'Confins, Vale do Aço e a agenda mineira'],
+        ['tipo' => 'cidade', 'estado' => 'minas-gerais', 'cidade' => 'belo-horizonte', 'ancora' => 'Savassi, Lourdes e o trecho até Confins'],
+        ['tipo' => 'cidade', 'estado' => 'goias', 'cidade' => 'goiania', 'ancora' => 'Bueno, Marista e o Santa Genoveva'],
     ],
 ];

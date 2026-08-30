@@ -5,138 +5,73 @@ declare(strict_types=1);
 return [
     'layout' => 'eixo',
     'cidade_nome' => 'São José dos Campos',
-    'geo' => [
-        'lat' => -23.1896,
-        'lng' => -45.8841,
-    ],
+    'geo' => ['lat' => -23.1896, 'lng' => -45.8841],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em São José dos Campos',
     'seo' => [
-        'title' => 'Motorista executivo em São José dos Campos: Centro e SJK',
-        'description' => 'Carro com motorista em São José dos Campos para Centro, Jardim Aquarius e SJK. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
-        'og_title' => 'Traslado em São José dos Campos: Centro e SJK',
-        'og_description' => 'O motorista combina Centro com Professor Urbano Ernesto Stumpf (SJK), no próprio município. Informe nome da empresa ou do hotel.',
-        'og_image_alt' => 'Carro executivo em via de São José dos Campos',
+        'title' => 'Motorista em São José dos Campos: Aquarius, CTA e SJK',
+        'description' => 'Carro com motorista em São José dos Campos no Jardim Aquarius, no DCTA e no aeroporto SJK. Dutra rumo a Taubaté ou Jacareí sob consulta.',
+        'og_title' => 'Traslado no Aquarius, no DCTA e no Professor Urbano Stumpf',
+        'og_description' => 'Motorista no Vale do Paraíba: hotel no Aquarius, portaria do parque tecnológico e o saguão SJK no município.',
+        'og_image_alt' => 'Sedan executivo em avenida de São José dos Campos',
     ],
     'kicker' => 'Vale do Paraíba · SP',
-    'h1' => 'Em São José dos Campos, de Centro a Professor Urbano Ernesto Stumpf (SJK), no próprio município',
-    'faq_h2' => 'Dúvidas de quem embarca em São José dos Campos',
-    'faq' => [
-        [
-            'pergunta' => 'Em São José dos Campos, o SJK fica no próprio município?',
-            'resposta' => 'Sim. Em São José dos Campos, Professor Urbano Ernesto Stumpf (SJK) fica no município. Informe o acesso via Dutra.',
-        ],
-        [
-            'pergunta' => 'Em São José dos Campos, vocês buscam em Centro?',
-            'resposta' => 'Sim, em São José dos Campos. Envie nome da empresa ou do hotel em Centro. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De São José dos Campos vocês fazem Taubaté?',
-            'resposta' => 'Sim, saindo de São José dos Campos. Taubaté não é o recorte de Centro; o horário pela Avenida São João sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em São José dos Campos o carro fica entre Centro e Jardim Aquarius?',
-            'resposta' => 'Sim, em São José dos Campos. A hora à disposição cobre sede em Centro e hotel e torre em Jardim Aquarius.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em São José dos Campos e o SJK',
-        'texto' => 'Diga o ponto em Centro ou Jardim Aquarius, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em São José dos Campos',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'sao-paulo',
-            'ancora' => 'São José dos Campos e o recorte de Vale do Paraíba',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'sao-paulo',
-            'cidade' => 'sao-paulo',
-            'ancora' => 'Motorista em sao paulo',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'sao-paulo',
-            'cidade' => 'campinas',
-            'ancora' => 'Motorista em campinas',
-        ],
-    ],
-    'lead' => 'São José dos Campos concentra Centro (sede) e Professor Urbano Ernesto Stumpf (SJK) no mesmo município. O motorista precisa do ponto de embarque e do SJK no mesmo recado — “me busca em São José dos Campos” não define o recuo.',
+    'h1' => 'Do SJK ao Aquarius sem perder a portaria do DCTA',
+    'lead' => 'São José dos Campos concentra o DCTA — ainda chamado CTA —, o Parque de Inovação Tecnológica e o aeroporto Professor Urbano Ernesto Stumpf (SJK), no próprio município. O motorista segura a Dutra e a Cassiano Ricardo; o passageiro segura a pauta da planta.',
     'contexto' => [
-        'h2' => 'São José dos Campos se mede em Dutra, não em pin de aplicativo',
+        'h2' => 'A cidade aeroespacial cobra jardim, cancela e saguão — não “no centro”',
         'texto' => [
-            'São José dos Campos concentra Centro (sede) e Professor Urbano Ernesto Stumpf (SJK) no mesmo município. O motorista precisa do ponto de embarque e do SJK no mesmo recado — “me busca em São José dos Campos” não define o recuo.',
-            'Jardim Aquarius pede hotel e torre. Parque Tecnológico pede CTA e empresas. Quando Taubaté entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Avenida São João.',
+            'Centro, Jardim Aquarius, o DCTA e o Parque de Inovação Tecnológica não compartilham o mesmo recuo. Hotel no Aquarius (informe o nome e a porta) e reunião no PIT cabem no mesmo expediente se a ordem da Cassiano Ricardo e da Dutra já estiver no roteiro. O SJK fica em São José, no Parque Martin Cerere; a GOL opera a ligação com o Galeão. Quem precisa de malha maior segue à capital pela Dutra, rumo ao GRU ou a Congonhas.',
+            'Taubaté e Jacareí vazam o pedido no mesmo eixo da BR-116. Planta da Embraer, campus do ITA e cancela do DCTA pedem nome na lista; o GPS na Dutra não abre a portaria. Quando a pauta aponta para a capital, o trecho deixa de ser só urbano.',
         ],
     ],
     'bairros' => [
-        'h2' => 'Eixos de embarque em São José dos Campos',
+        'h2' => 'Eixos da cidade onde o embarque mais se concentra',
         'itens' => [
-            [
-                'h3' => 'Centro',
-                'texto' => 'Origem frequente para sede. Informe nome da empresa ou do hotel. Centro não compartilha o recuo de Jardim Aquarius.',
-            ],
-            [
-                'h3' => 'Jardim Aquarius',
-                'texto' => 'Origem frequente para hotel e torre. Informe nome da empresa ou do hotel. Jardim Aquarius não compartilha o recuo de Centro.',
-            ],
-            [
-                'h3' => 'Parque Tecnológico',
-                'texto' => 'Origem frequente para CTA e empresas. Informe nome da empresa ou do hotel. Parque Tecnológico não compartilha o recuo de Centro.',
-            ],
-            [
-                'h3' => 'Vila Ema',
-                'texto' => 'Origem frequente para bairro. Informe nome da empresa ou do hotel. Vila Ema não compartilha o recuo de Centro.',
-            ],
+            ['h3' => 'Centro e a Nelson D\'Ávila', 'texto' => 'Sede e o calçadão. Informe o prédio; o recuo da Nelson D\'Ávila não é o da Cassiano Ricardo nem o da cancela do DCTA.'],
+            ['h3' => 'Jardim Aquarius e a Cassiano Ricardo', 'texto' => 'Hotéis, torres e clínicas. “No Aquarius” não define a porta; o sentido da via muda no pico da Dutra urbana.'],
+            ['h3' => 'DCTA, PIT e a cancela da planta', 'texto' => 'CTA, Parque de Inovação Tecnológica e Embraer. Protocolo de portaria entra no roteiro junto com o horário da reunião.'],
+            ['h3' => 'Urbanova e o sul', 'texto' => 'Pauta residencial e jantar. O recuo pede rua e número; “no Urbanova” não basta para o motorista apresentar-se.'],
         ],
     ],
     'aeroportos' => [
-        'h2' => 'O terminal que a agenda de São José dos Campos realmente usa',
+        'h2' => 'Professor Urbano Ernesto Stumpf — SJK no município',
         'itens' => [
-            [
-                'h3' => 'Professor Urbano Ernesto Stumpf — SJK',
-                'texto' => 'Professor Urbano Ernesto Stumpf (SJK) fica em São José dos Campos. Acesso: Dutra. Combinamos o voo; a espera no desembarque integra o trecho.',
-            ],
-            [
-                'h3' => 'Dutra e a vazão para Taubaté',
-                'texto' => 'Taubaté e Jacareí aparecem no mesmo pedido de São José dos Campos. Isso é viagem, não segunda corrida em Centro.',
-            ],
+            ['h3' => 'São José dos Campos — SJK', 'texto' => 'Terminal no Parque Martin Cerere, no próprio município. Combinamos o voo — a GOL liga o SJK ao Galeão. A espera no desembarque integra o trecho.'],
+            ['h3' => 'Quando a pauta pede GRU ou Congonhas', 'texto' => 'Malha maior sai pela Dutra rumo à capital. Não é o mesmo pedido urbano do Aquarius; o orçamento do trecho longo sai sob consulta.'],
         ],
     ],
     'rotas' => [
-        'h2' => 'Trajetos que o pedido em São José dos Campos mais combina',
+        'h2' => 'Trajetos que a agenda joseense mais pede',
         'itens' => [
-            [
-                'titulo' => 'Centro → SJK',
-                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: Dutra.',
-            ],
-            [
-                'titulo' => 'SJK → Jardim Aquarius',
-                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome da empresa ou do hotel.',
-            ],
-            [
-                'titulo' => 'Centro → Taubaté',
-                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Jardim Aquarius; o horário sai sob consulta.',
-            ],
+            ['titulo' => 'SJK → hotel no Aquarius', 'texto' => 'Pouso e pernoite. Informe o nome do hotel e se há vaga de visitante; a Cassiano Ricardo e a Dutra urbana mudam o intervalo.'],
+            ['titulo' => 'Aquarius → DCTA ou PIT → Centro', 'texto' => 'Reunião, portaria e sede. Um motorista cobre os três se a ordem e o nome na lista já estiverem no roteiro.'],
+            ['titulo' => 'Hotel → Taubaté, Jacareí ou à capital', 'texto' => 'Quando a pauta vaza pela Dutra, o trecho deixa de ser só urbano. Horário e orçamento saem sob consulta.'],
         ],
     ],
     'como' => [
-        'h2' => 'Como o carro entra na pauta em São José dos Campos',
+        'h2' => 'Como o carro entra na grade em São José',
         'passos' => [
-            [
-                'titulo' => 'Ponto de embarque',
-                'texto' => 'Rua, número e nome da empresa ou do hotel. Autocomplete não resolve dois acessos em Centro.',
-            ],
-            [
-                'titulo' => 'Destino e tipo de janela',
-                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o SJK ou Taubaté entra no dia.',
-            ],
-            [
-                'titulo' => 'Confirmação',
-                'texto' => 'Em São José dos Campos, nome e WhatsApp. Devolvemos o horário de apresentação.',
-            ],
+            ['titulo' => 'Jardim e número', 'texto' => 'Aquarius, Centro ou Urbanova. Autocomplete não resolve condomínio com dois acessos nem a cancela do DCTA.'],
+            ['titulo' => 'Hotel ou SJK', 'texto' => 'Diga se o embarque é o Professor Urbano Ernesto Stumpf ou a portaria do hotel. O voo entra no roteiro pelo número.'],
+            ['titulo' => 'Confirmação', 'texto' => 'Nome e DDD no WhatsApp. Devolvemos o horário de apresentação no jardim, na planta ou no saguão.'],
         ],
+    ],
+    'faq_h2' => 'Perguntas de quem pauta o SJK e o DCTA',
+    'faq' => [
+        ['pergunta' => 'O aeroporto Professor Urbano Ernesto Stumpf fica em São José dos Campos?', 'resposta' => 'Sim. O SJK fica no Parque Martin Cerere, no município. Combinamos o voo; a GOL opera a ligação com o Galeão. A margem até o Aquarius sai da Dutra urbana, não do mapa.'],
+        ['pergunta' => 'Em São José dos Campos, o motorista espera no SJK se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número entra no pedido e a espera no terminal faz parte do trecho joseense.'],
+        ['pergunta' => 'Vocês entram na portaria do DCTA ou do Parque Tecnológico?', 'resposta' => 'Sim. Envie o nome na lista e o documento pedido. Sem isso, a cancela do DCTA, do PIT ou da Embraer não libera.'],
+        ['pergunta' => 'Dá para seguir a Taubaté ou a Jacareí depois da reunião no Aquarius?', 'resposta' => 'Sim, como viagem pela Dutra. Não é o mesmo recorte do Jardim Aquarius; o horário sai sob consulta.'],
+    ],
+    'cta' => [
+        'titulo' => 'Junte o Aquarius ao horário do SJK',
+        'texto' => 'O orçamento de São José dos Campos sai sob consulta. Hotel, cancela do DCTA e terminal no mesmo WhatsApp.',
+        'botao' => 'Pedir motorista em São José dos Campos',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
+        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas e GRU na capital'],
+        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
     ],
 ];

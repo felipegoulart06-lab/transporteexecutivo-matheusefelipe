@@ -5,107 +5,58 @@ declare(strict_types=1);
 return [
     'layout' => 'malha',
     'cidade_nome' => 'Porto Velho',
-    'geo' => [
-        'lat' => -8.76116,
-        'lng' => -63.9004,
-    ],
+    'geo' => ['lat' => -8.76116, 'lng' => -63.9004],
     'imagem' => 'norte.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Porto Velho',
     'seo' => [
-        'title' => 'Motorista executivo em Porto Velho: Centro e PVH',
-        'description' => 'Motorista executivo em Porto Velho: Centro, Olaria e Governador Jorge Teixeira (PVH), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
-        'og_title' => 'Embarque em Porto Velho: hotel, Centro e PVH',
-        'og_description' => 'O motorista combina Centro com Governador Jorge Teixeira (PVH), no próprio município. Informe nome do hotel ou da sede.',
-        'og_image_alt' => 'Carro executivo em via de Porto Velho',
+        'title' => 'PVH, Caiari e a Madeira-Mamoré em Porto Velho',
+        'description' => 'Motorista em Porto Velho para o Caiari, o complexo da Madeira-Mamoré, o porto no Madeira e o Jorge Teixeira. A BR-364 rumo ao interior sai sob consulta, sem minuto fixo.',
+        'og_title' => 'Carro no Caiari, na ferrovia histórica e no aeroporto PVH',
+        'og_description' => 'Traslado rondoniense: hotel no Caiari, pauta no Palácio Rio Madeira e o terminal Governador Jorge Teixeira.',
+        'og_image_alt' => 'Sedan executivo em avenida de Porto Velho próxima ao rio Madeira',
     ],
     'kicker' => 'Capital rondoniense · RO',
-    'h1' => 'Em Porto Velho, de Centro a Governador Jorge Teixeira (PVH), no próprio município',
-    'faq_h2' => 'Dúvidas de quem embarca em Porto Velho',
-    'faq' => [
-        [
-            'pergunta' => 'Em Porto Velho, o PVH fica no próprio município?',
-            'resposta' => 'Sim. Em Porto Velho, Governador Jorge Teixeira (PVH) fica no município. Informe o acesso via BR-364.',
-        ],
-        [
-            'pergunta' => 'Em Porto Velho, vocês buscam em Centro?',
-            'resposta' => 'Sim, em Porto Velho. Envie nome do hotel ou da sede em Centro. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Porto Velho vocês fazem Ji-Paraná?',
-            'resposta' => 'Sim, saindo de Porto Velho. Ji-Paraná não é o recorte de Centro; o horário pela Avenida Jorge Teixeira sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Porto Velho o carro fica entre Centro e Olaria?',
-            'resposta' => 'Sim, em Porto Velho. A hora à disposição cobre sede e hotel em Centro e bairro em Olaria.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Porto Velho e o PVH',
-        'texto' => 'Diga o ponto em Centro ou Olaria, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Porto Velho',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'rondonia',
-            'ancora' => 'Porto Velho e o recorte de Capital rondoniense',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'acre',
-            'cidade' => 'rio-branco',
-            'ancora' => 'Motorista em rio branco',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'amazonas',
-            'cidade' => 'manaus',
-            'ancora' => 'Motorista em manaus',
-        ],
-    ],
-    'intro' => 'Porto Velho concentra Centro (sede e hotel) e Governador Jorge Teixeira (PVH) no mesmo município. O motorista precisa do ponto de embarque e do PVH no mesmo recado — “me busca em Porto Velho” não define o recuo.',
+    'h1' => 'Do Jorge Teixeira ao Caiari sem confundir porto e ferrovia',
+    'intro' => 'Porto Velho nasceu no porto do Madeira e na Estrada de Ferro Madeira-Mamoré; hoje o deslocamento executivo se organiza pela BR-364 e pelas avenidas do Caiari. Hotel no Centro, pauta no Palácio Rio Madeira (Av. Farquar, Pedrinhas) e voo no Governador Jorge Teixeira (PVH) cabem no mesmo expediente se o motorista já saiu com essa malha, não com o aceite do minuto.',
     'blocos' => [
         [
-            'h2' => 'Por que o deslocamento em Porto Velho não é pegar um carro',
-            'texto' => 'Porto Velho concentra Centro (sede e hotel) e Governador Jorge Teixeira (PVH) no mesmo município. O motorista precisa do ponto de embarque e do PVH no mesmo recado — “me busca em Porto Velho” não define o recuo.',
+            'h2' => 'Por que o pedido na capital não é “pegar um carro no porto”',
+            'texto' => 'O complexo da Madeira-Mamoré, o cais e o Caiari são vizinhos no papel e distintos no recuo. A Sete de Setembro não é a Farquar do palácio. Quem tem check-out no hotel e gabinete em Pedrinhas precisa de um motorista que já conhece o sentido da via; o atalho da chuva no Madeira não substitui o roteiro.',
         ],
         [
-            'h2' => 'Quadrantes que mais geram embarque',
+            'h2' => 'Quadrantes da capital que mais geram embarque',
             'itens' => [
-                [
-                    'h3' => 'Centro',
-                    'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel ou da sede. Centro não compartilha o recuo de Olaria.',
-                ],
-                [
-                    'h3' => 'Olaria',
-                    'texto' => 'Origem frequente para bairro. Informe nome do hotel ou da sede. Olaria não compartilha o recuo de Centro.',
-                ],
-                [
-                    'h3' => 'Areal',
-                    'texto' => 'Origem frequente para acesso à BR-364. Informe nome do hotel ou da sede. Areal não compartilha o recuo de Centro.',
-                ],
-                [
-                    'h3' => 'Caiari',
-                    'texto' => 'Origem frequente para porto e cais. Informe nome do hotel ou da sede. Caiari não compartilha o recuo de Centro.',
-                ],
+                ['h3' => 'Caiari e o Centro', 'texto' => 'Hotéis, comércio e o calçamento junto ao rio. Informe o prédio; o Centro mistura sede antiga e hotel em quadras curtas.'],
+                ['h3' => 'Palácio Rio Madeira — Farquar', 'texto' => 'Sede do governo em Pedrinhas, na Av. Farquar. Não é o recuo do Caiari. Diga o acesso de serviço.'],
+                ['h3' => 'Madeira-Mamoré e o porto', 'texto' => 'Visita à ferrovia histórica ou pauta no cais só se estiver no roteiro. Combinamos o ponto de espera; o calçamento do complexo não admite recuo improvisado.'],
+                ['h3' => 'Aeroporto — PVH', 'texto' => 'O Governador Jorge Teixeira fica no município de Porto Velho, no bairro Aeroporto, com acesso pela Av. Jorge Teixeira e pela Lauro Sodré. Combinamos o voo. A espera no desembarque entra no trecho.'],
             ],
         ],
     ],
     'grade' => [
-        'h2' => 'Três combinações que a pauta de Porto Velho repete',
+        'h2' => 'Rotas que a pauta porto-velhense mais pede',
         'itens' => [
-            [
-                'titulo' => 'Centro → PVH',
-                'texto' => 'Saída com o ponto de embarque e o voo no roteiro. Acesso: BR-364.',
-            ],
-            [
-                'titulo' => 'PVH → Olaria',
-                'texto' => 'Desembarque e reunião no mesmo turno. Combinamos o saguão e nome do hotel ou da sede.',
-            ],
-            [
-                'titulo' => 'Centro → Ji-Paraná',
-                'texto' => 'Transfer intermunicipal. Não é o mesmo recorte de Olaria; o horário sai sob consulta.',
-            ],
+            ['titulo' => 'PVH → hotel no Caiari → Palácio Rio Madeira', 'texto' => 'Pouso, pernoite e pauta institucional em Pedrinhas. Informe se o carro espera na Farquar.'],
+            ['titulo' => 'Centro → complexo da Madeira-Mamoré', 'texto' => 'Visita à ferrovia só com ponto combinado. Não é escala automática entre o hotel e o porto.'],
+            ['titulo' => 'Hotel → Ariquemes ou Ji-Paraná pela BR-364', 'texto' => 'Quando a pauta sai da capital, o trecho entra como viagem. Orçamento à parte, com horário de estrada sob consulta.'],
+            ['titulo' => 'Porto Velho rumo ao Acre pela malha da 364', 'texto' => 'Fronteira estadual. Não é o mesmo recorte do Caiari; o intervalo sai sob consulta, sem minuto inventado.'],
         ],
+    ],
+    'faq_h2' => 'Perguntas de quem pousa no Jorge Teixeira',
+    'faq' => [
+        ['pergunta' => 'O Jorge Teixeira fica no complexo da Madeira-Mamoré?', 'resposta' => 'Não. O PVH fica no bairro Aeroporto. A ferrovia histórica e o cais ficam no recorte do Caiari, junto ao Madeira.'],
+        ['pergunta' => 'Caiari e Palácio Rio Madeira cabem no mesmo trecho do PVH?', 'resposta' => 'Cabem, se a ordem já estiver no pedido. O palácio é na Farquar, em Pedrinhas — não na porta do Caiari.'],
+        ['pergunta' => 'A BR-364 rumo a Ariquemes sai como hora urbana do Centro?', 'resposta' => 'Não. É viagem. Informe o destino; o horário sai sob consulta, sem minuto fixo de estrada.'],
+        ['pergunta' => 'O porto no Madeira usa o mesmo recuo do Centro?', 'resposta' => 'Não. Cais e calçadão pedem ponto de espera próprio. “Perto da Madeira-Mamoré” não escolhe a porta.'],
+    ],
+    'cta' => [
+        'titulo' => 'Coloque o PVH, o Caiari e a Farquar no mesmo recado',
+        'texto' => 'O orçamento de Porto Velho sai sob consulta. Madeira, palácio e número do voo no mesmo WhatsApp.',
+        'botao' => 'Pedir motorista em Porto Velho',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'rondonia', 'ancora' => 'Ji-Paraná, Ariquemes e o recorte rondoniense'],
+        ['tipo' => 'cidade', 'estado' => 'acre', 'cidade' => 'rio-branco', 'ancora' => 'Via Verde, Bosque e o Plácido de Castro'],
+        ['tipo' => 'cidade', 'estado' => 'amazonas', 'cidade' => 'manaus', 'ancora' => 'Adrianópolis, Zona Franca e o MAO'],
     ],
 ];

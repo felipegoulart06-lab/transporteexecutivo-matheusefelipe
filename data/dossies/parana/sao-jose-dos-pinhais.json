@@ -1,72 +1,33 @@
 {
-    "estado": "parana",
-    "cidade": "sao-jose-dos-pinhais",
-    "nome": "São José dos Pinhais",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "BR-277",
-            "destino": "Afonso Pena",
-            "motivo": "sede"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Afonso Pena",
-        "Colônia Rio Grande",
-        "Cidade Jardim"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Afonso Pena",
-            "iata": "CWB",
-            "municipio": "São José dos Pinhais",
-            "acesso": "Avenida Rui Barbosa"
-        }
-    ],
-    "rodovias": [
-        "BR-277",
-        "Linha Verde",
-        "Contorno Leste"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede",
-        "terminal CWB",
-        "industrial",
-        "bairro"
-    ],
-    "vizinhos_pedido": [
-        "Curitiba",
-        "Araucária",
-        "Ponta Grossa"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CWB em São José dos Pinhais",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "parana",
+  "cidade": "sao-jose-dos-pinhais",
+  "nome": "São José dos Pinhais",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Afonso Pena (CWB)", "eixo": "Av. Rocha Pombo / Águas Belas", "destino": "Centro ou bairro Afonso Pena", "motivo": "A pista está neste município"},
+    {"origem": "Hotel no Afonso Pena", "eixo": "malha urbana SJP", "destino": "Colônia Rio Grande", "motivo": "Pauta residencial/serviço no município"},
+    {"origem": "CWB ou Centro de SJP", "eixo": "Linha Verde / divisa", "destino": "Batel ou Centro Cívico (Curitiba)", "motivo": "Trecho intermunicipal"}
+  ],
+  "eixos": ["Centro", "Afonso Pena (bairro)", "Colônia Rio Grande", "CWB (Águas Belas)", "Curitiba (Batel / Centro Cívico)"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional Afonso Pena", "iata": "CWB", "municipio": "São José dos Pinhais", "relacao": "Terminal no município; serve a RM de Curitiba. Av. Rocha Pombo s/n Águas Belas CEP 83010-900.", "fonte": "aeroportos.motiva.com.br/curitiba-pr/ Localizado em São José dos Pinhais", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Linha Verde / acessos a Curitiba", "fonte": "CCR ~18 km até Curitiba", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["CWB / Águas Belas", "Centro", "Bairro Afonso Pena", "Colônia Rio Grande"],
+  "vizinhos_pedido": ["Curitiba (Batel, Centro Cívico)", "Piraquara", "Fazenda Rio Grande"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "CWB fica em São José dos Pinhais", "fonte": "CCR/Motiva", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Aeroporto Internacional Afonso Pena (CWB) fica em São José dos Pinhais.", "publicado": true},
+    {"fato": "Bairros Afonso Pena e Colônia Rio Grande oficiais", "fonte": "sjp.pr.gov.br mapas do município", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "Centro, Afonso Pena e Colônia Rio Grande são recortes deste município.", "publicado": true},
+    {"fato": "Batel e Centro Cívico ficam em Curitiba", "fonte": "Geografia da capital", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "Ida ao Batel ou ao Centro Cívico é trecho intermunicipal.", "publicado": true}
+  ],
+  "descartado": [
+    "Tratar a página como landing de Curitiba",
+    "Renault/VW no bairro Colônia Rio Grande (Renault: Roseira; VW: Campo Largo da Roseira)",
+    "[VERIFICAR] prefeito de São José dos Pinhais"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

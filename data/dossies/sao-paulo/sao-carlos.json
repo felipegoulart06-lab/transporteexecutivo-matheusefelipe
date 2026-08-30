@@ -1,78 +1,39 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "sao-carlos",
-    "nome": "São Carlos",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Washington Luís",
-            "destino": "Mário Pereira Lopes",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Cidade Jardim",
-        "USP",
-        "UFSCar"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Mário Pereira Lopes",
-            "iata": "QSC",
-            "municipio": "São Carlos",
-            "acesso": "SP-310"
-        },
-        {
-            "nome": "Leite Lopes",
-            "iata": "RAO",
-            "municipio": "Ribeirão Preto",
-            "acesso": "SP-318"
-        }
-    ],
-    "rodovias": [
-        "Washington Luís",
-        "SP-318",
-        "Avenida São Carlos"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro",
-        "campus USP",
-        "campus UFSCar"
-    ],
-    "vizinhos_pedido": [
-        "Araraquara",
-        "Ribeirão Preto",
-        "Campinas"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal QSC em São Carlos",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "sao-carlos",
+  "nome": "São Carlos",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro (Rua Episcopal / Av. São Carlos)", "eixo": "sede", "destino": "hotel / pauta urbana", "motivo": "Não abre a cancela da USP Área 2 nem da UFSCar"},
+    {"origem": "USP Área 1", "eixo": "Av. Trabalhador são-carlense, Centro", "destino": "portaria do campus", "motivo": "Bloco e documento; distinto da Área 2"},
+    {"origem": "USP Área 2", "eixo": "Av. João Dagnone, Santa Angelina", "destino": "portaria da Área 2", "motivo": "Segundo recuo da USP"},
+    {"origem": "UFSCar", "eixo": "Rodovia Washington Luís (SP-310) km 235", "destino": "campus", "motivo": "Outra lista, outro recuo"},
+    {"origem": "São Carlos", "eixo": "Washington Luís / interior", "destino": "VCP (Campinas) ou RAO (Ribeirão Preto)", "motivo": "QSC sem malha regular de pax; IZA não é desta cidade"}
+  ],
+  "eixos": ["Centro", "USP Área 1 e Área 2", "UFSCar"],
+  "aeroportos": [
+    {"nome": "Aeroporto Estadual Mário Pereira Lopes", "iata": "QSC", "municipio": "São Carlos (Água Vermelha)", "relacao": "Aviação geral e LATAM MRO. Sem malha regular de passageiros. Não tratar como saguão de linha.", "fonte": "redevoa.com.br aeroporto-mario-pereira-lopes-sao-carlos-sp (Rod. Eng. Thales de Lorena Peixoto Júnior, Água Vermelha; aeroporto executivo + manutenção Latam); emsampa.com.br/aeroportos/sp_sao_carlos.htm: nenhuma empresa em voos comerciais regulares; QSC/SDSC", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de Viracopos", "iata": "VCP", "municipio": "Campinas", "relacao": "Vazão comercial de pax pela Washington Luís rumo a Campinas", "fonte": "ANAC / concessionária VCP", "data": "2026-08-29"},
+    {"nome": "Aeroporto Estadual Leite Lopes", "iata": "RAO", "municipio": "Ribeirão Preto", "relacao": "Vazão comercial alternativa no interior", "fonte": "Rede VOA Leite Lopes / ANAC RAO", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "SP-310 Rodovia Washington Luís", "fonte": "DER/SP; UFSCar km 235; eixo São Carlos–Campinas e São Carlos–Araraquara", "data": "2026-08-29"},
+    {"nome": "SP-318 Rodovia Engenheiro Thales de Lorena Peixoto Júnior — acesso ao QSC em Água Vermelha", "fonte": "Rede VOA endereço do Mário Pereira Lopes km 249 Água Vermelha", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["USP São Carlos Área 1 e Área 2", "UFSCar", "LATAM MRO no QSC"],
+  "vizinhos_pedido": ["Campinas", "Ribeirão Preto", "Araraquara", "VCP", "RAO"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "QSC/SDSC Mário Pereira Lopes em Água Vermelha, município de São Carlos. Rede VOA: aeroporto executivo e principal aeroporto de manutenção da Latam. Sem malha regular de pax (emsampa). Voos LATAM no rastreador são tipicamente técnicos/MRO, não linha.", "fonte": "redevoa.com.br; emsampa.com.br/aeroportos/sp_sao_carlos.htm; Wikipedia Aeroporto Internacional de São Carlos (QSC/SDSC, LATAM MRO)", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Mário Pereira Lopes opera aviação geral e manutenção. O voo de linha vaza para Viracopos (VCP) ou para o Leite Lopes (RAO). IZA não é o código deste campo.", "publicado": true},
+    {"fato": "IZA é o aeroporto da Zona da Mata (Presidente Itamar Franco), em Minas, a serviço de Juiz de Fora — não é São Carlos.", "fonte": "ANAC / IATA IZA ≠ QSC", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "IZA é o aeroporto da Zona da Mata, em Minas; não use esse código no pedido de São Carlos.", "publicado": true},
+    {"fato": "USP Área 1: Av. Trabalhador são-carlense (Centro). Área 2: Av. João Dagnone, Santa Angelina. UFSCar: Washington Luís km 235.", "fonte": "Sites institucionais USP São Carlos e UFSCar", "data": "2026-08-29", "tipo": "polo", "risco": "medio", "frase": "A USP tem Área 1 no Centro e Área 2 em Santa Angelina. A UFSCar está na Washington Luís, km 235.", "publicado": true}
+  ],
+  "descartado": [
+    "Tratar QSC como saguão de linha regular",
+    "Usar IZA como código de São Carlos",
+    "Publicar minutos até VCP ou RAO",
+    "Cidade Jardim como eixo no lugar dos campi (gerador)"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

@@ -5,89 +5,51 @@ declare(strict_types=1);
 return [
     'layout' => 'baia',
     'cidade_nome' => 'Olinda',
-    'geo' => [
-        'lat' => -8.0089,
-        'lng' => -34.8553,
-    ],
+    'geo' => ['lat' => -8.0089, 'lng' => -34.8553],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Olinda',
     'seo' => [
-        'title' => 'Carro com motorista em Olinda: Bairro Novo e REC',
-        'description' => 'Motorista executivo em Olinda: Carmo, Bairro Novo e Guararapes Gilberto Freyre (REC), em Recife. Ida, espera ou dia à disposição. Orçamento sob consulta.',
-        'og_title' => 'Embarque em Olinda: hotel, Carmo e REC',
-        'og_description' => 'O motorista combina Carmo com Guararapes Gilberto Freyre (REC), em Recife. Informe nome do hotel ou do sítio.',
-        'og_image_alt' => 'Carro executivo em via de Olinda',
+        'title' => 'Carro executivo em Olinda: Carmo, Bairro Novo e REC',
+        'description' => 'Motorista em Olinda para Carmo, Bairro Novo e Rio Doce. O voo chega no REC, no Recife (Imbiribeira, junto de Boa Viagem). Orçamento sob consulta.',
+        'og_title' => 'Olinda não tem saguão: o REC fica no Recife',
+        'og_description' => 'Carmo, Bairro Novo e Rio Doce no município. O Guararapes (REC) fica na Imbiribeira, Recife. A ponte pesa mais que o mapa.',
+        'og_image_alt' => 'Sedan executivo em ladeira do Sítio Histórico de Olinda',
     ],
-    'kicker' => 'Região Metropolitana do Recife · PE',
-    'h1' => 'Em Olinda: do embarque em Carmo ao REC',
-    'faq_h2' => 'Dúvidas de quem embarca em Olinda',
-    'faq' => [
-        [
-            'pergunta' => 'Quem está em Olinda embarca no REC dentro da cidade?',
-            'resposta' => 'Não. De Olinda o REC (Guararapes Gilberto Freyre) fica em Recife. O trecho sai de Carmo pela PE-15.',
-        ],
-        [
-            'pergunta' => 'Em Olinda, vocês buscam em Carmo?',
-            'resposta' => 'Sim, em Olinda. Envie nome do hotel ou do sítio em Carmo. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Olinda vocês fazem Recife?',
-            'resposta' => 'Sim, saindo de Olinda. Recife não é o recorte de Carmo; o horário pela Avenida Santos Dumont sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Olinda o carro fica entre Carmo e Bairro Novo?',
-            'resposta' => 'Sim, em Olinda. A hora à disposição cobre centro histórico em Carmo e orla em Bairro Novo.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Olinda e o REC',
-        'texto' => 'Diga o ponto em Carmo ou Bairro Novo, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Olinda',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'pernambuco',
-            'ancora' => 'Olinda e o recorte de Região Metropolitana do Recife',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'pernambuco',
-            'cidade' => 'recife',
-            'ancora' => 'Motorista em recife',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'paraiba',
-            'cidade' => 'joao-pessoa',
-            'ancora' => 'Motorista em joao pessoa',
-        ],
-    ],
+    'kicker' => 'Cidade histórica · PE',
+    'h1' => 'Do Carmo ao Recife: o voo é no Guararapes, não em Olinda',
     'faixas' => [
         [
-            'h2' => 'Olinda se cruza por PE-15, não em linha reta',
-            'texto' => 'Olinda usa Guararapes Gilberto Freyre (REC), em Recife. Quem embarca em Carmo não está no município da pista. A PE-15 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'h2' => 'Olinda se mede em ladeira e em ponte — o saguão fica no Recife',
+            'texto' => 'Hotel no Bairro Novo, pauta no Carmo e pernoite no Rio Doce cabem no mesmo dia se o motorista já saiu com a ordem da Av. Getúlio Vargas, da Praça do Carmo e da ponte rumo ao Recife. Olinda não tem terminal de passageiros. O voo chega no Aeroporto Internacional do Recife/Guararapes – Gilberto Freyre (REC), na Praça Ministro Salgado Filho, Imbiribeira, Recife — na zona sul, junto de Boa Viagem. A Mascarenhas e a entrada de Olinda mudam o intervalo no fim da tarde.',
         ],
         [
-            'h2' => 'Três eixos, três recuos',
+            'h2' => 'Três recortes, um relógio de sítio',
             'itens' => [
-                [
-                    'h3' => 'Carmo',
-                    'texto' => 'Origem frequente para centro histórico. Informe nome do hotel ou do sítio. Carmo não compartilha o recuo de Bairro Novo.',
-                ],
-                [
-                    'h3' => 'Bairro Novo',
-                    'texto' => 'Origem frequente para orla. Informe nome do hotel ou do sítio. Bairro Novo não compartilha o recuo de Carmo.',
-                ],
-                [
-                    'h3' => 'Rio Doce',
-                    'texto' => 'Origem frequente para bairro. Informe nome do hotel ou do sítio. Rio Doce não compartilha o recuo de Carmo.',
-                ],
+                ['h3' => 'Carmo', 'texto' => 'Praça do Carmo, sítio e o calçamento. Informe o ponto de espera. O GPS insiste no beco; “no sítio” não define a porta.'],
+                ['h3' => 'Bairro Novo', 'texto' => 'Orla, hotéis e a Getúlio Vargas. Diga o nome do hotel e o recuo. Não é o mesmo acesso do Varadouro nem o do Rio Doce.'],
+                ['h3' => 'Rio Doce', 'texto' => 'Pauta residencial e o eixo da Tiradentes. Deslocamentos que esticam no semáforo rumo ao Recife. Informe rua e número.'],
             ],
         ],
         [
-            'h2' => 'Guararapes Gilberto Freyre — REC',
-            'texto' => 'Guararapes Gilberto Freyre (REC) fica em Recife, não em Olinda. O trecho sai pela PE-15 / pontes. Diga o IATA e o número do voo.',
+            'h2' => 'Pontes no meio — Boa Viagem e o REC no município vizinho',
+            'texto' => 'REC → hotel no Bairro Novo → Carmo só se a visita estiver no roteiro. Outro clássico: Olinda → Recife Antigo → Boa Viagem, com a ponte José de Barros Lima e o viaduto do Tacaruna no meio. Combinamos o voo no Recife. A espera no desembarque da Imbiribeira integra o trecho; não é corrida que começa na ladeira de Olinda.',
         ],
+    ],
+    'faq_h2' => 'Perguntas de quem sobe a ladeira',
+    'faq' => [
+        ['pergunta' => 'O voo para Olinda chega em qual terminal?', 'resposta' => 'No Guararapes (REC), no Recife, bairro da Imbiribeira — na zona sul, junto de Boa Viagem. Olinda não tem terminal de passageiros. O trecho até o Carmo, o Bairro Novo ou o Rio Doce entra no roteiro com margem para as pontes.'],
+        ['pergunta' => 'Em Olinda, o motorista espera no REC se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no saguão da Imbiribeira faz parte do trecho até Olinda.'],
+        ['pergunta' => 'Vocês esperam na Praça do Carmo?', 'resposta' => 'Sim. Combinamos o ponto. O calçamento do Carmo não admite recuo improvisado no sítio.'],
+        ['pergunta' => 'Dá para ir a Boa Viagem e voltar ao Bairro Novo no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. A ponte e o sentido da via pesam mais que a distância no mapa.'],
+    ],
+    'cta' => [
+        'titulo' => 'Diga se o embarque é Carmo, Bairro Novo ou o REC',
+        'texto' => 'Informe o hotel em Olinda, o destino no Carmo ou no Rio Doce e o voo no Guararapes, no Recife. A operação organiza a ladeira e a ponte.',
+        'botao' => 'Pedir motorista em Olinda',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'pernambuco', 'ancora' => 'Caruaru, Petrolina e o recorte pernambucano'],
+        ['tipo' => 'cidade', 'estado' => 'pernambuco', 'cidade' => 'recife', 'ancora' => 'Boa Viagem, pontes e o Guararapes na Imbiribeira'],
+        ['tipo' => 'cidade', 'estado' => 'paraiba', 'cidade' => 'joao-pessoa', 'ancora' => 'Tambaú, Cabo Branco e o Castro Pinto'],
     ],
 ];

@@ -5,39 +5,29 @@
   "pesquisado_em": "2026-08-29",
   "ibge": "3543402",
   "mapa_operacional": [
-    {"origem": "Hotel no Jardim Irajá", "eixo": "Independência / Presidente Vargas", "destino": "Centro ou campus USP", "motivo": "Pauta médica, sede, retorno ao hotel"},
-    {"origem": "Centro", "eixo": "Bernardino de Campos", "destino": "HC Unidade de Emergência", "motivo": "Porta hospitalar distinta do campus"},
-    {"origem": "Jardim Irajá, Centro ou Ribeirânia", "eixo": "Avenida Bandeirantes", "destino": "Campus USP / HC Campus (Av. Bandeirantes 3900)", "motivo": "Consulta, reunião acadêmica, portaria"},
-    {"origem": "Hotel ou Centro", "eixo": "urbano / Av. Thomaz Alberto Whately", "destino": "Leite Lopes (RAO)", "motivo": "Voo no terminal do município"}
+    {"origem": "Jardim Irajá", "eixo": "Independência", "destino": "Centro ou campus USP", "motivo": "Hotel e pauta"},
+    {"origem": "Centro", "eixo": "Bernardino de Campos", "destino": "HC UE", "motivo": "Porta distinta do campus"},
+    {"origem": "Irajá ou Centro", "eixo": "Av. Bandeirantes", "destino": "HC Campus 3900 / USP", "motivo": "Hospital e universidade"},
+    {"origem": "Hotel ou Centro", "eixo": "Thomaz Alberto Whately", "destino": "RAO", "motivo": "Terminal no município"}
   ],
-  "eixos": ["Centro", "Jardim Irajá", "Campus USP / HC e Leite Lopes (RAO)"],
+  "eixos": ["Centro", "Jardim Irajá", "Campus USP / HC e Leite Lopes RAO"],
   "aeroportos": [
-    {"nome": "Aeroporto Estadual Doutor Leite Lopes", "iata": "RAO", "icao": "SBRP", "municipio": "Ribeirão Preto", "relacao": "Terminal no município, Av. Thomaz Alberto Whately 2605, Parque Coronel Quito Junqueira", "fonte": "redevoa.com.br página oficial do aeroporto", "data": "2026-08-29"}
+    {"nome": "Aeroporto Estadual Doutor Leite Lopes", "iata": "RAO", "icao": "SBRP", "municipio": "Ribeirão Preto", "relacao": "Av. Thomaz Alberto Whately 2605 Parque Coronel Quito Junqueira", "fonte": "redevoa.com.br", "data": "2026-08-29"}
   ],
   "rodovias": [
-    {"nome": "Avenida Independência e Avenida Presidente Vargas (eixos urbanos)", "fonte": "malha viária municipal", "data": "2026-08-29"},
-    {"nome": "Avenida Bandeirantes — acesso ao campus USP / HC", "fonte": "site.hcrp.usp.br endereço HC Campus", "data": "2026-08-29"}
+    {"nome": "Independência e Presidente Vargas", "fonte": "malha urbana", "data": "2026-08-29"},
+    {"nome": "Avenida Bandeirantes acesso USP/HC", "fonte": "site.hcrp.usp.br", "data": "2026-08-29"}
   ],
   "hoteis_ancora": [],
-  "polos": ["Campus USP Ribeirão Preto (Monte Alegre)", "HCFMRP-USP Campus (Av. Bandeirantes 3900)", "HC Unidade de Emergência (Rua Bernardino de Campos 1000, Centro)", "Jardim Irajá"],
+  "polos": ["USP Monte Alegre", "HC Campus Av. Bandeirantes 3900", "HC UE Bernardino de Campos 1000"],
   "vizinhos_pedido": [],
-  "prefeito": {"nome": "Ricardo Silva", "fonte": "PSD.org.br (Seade 2026)", "data": "2026-08-29", "publicado": false},
+  "prefeito": {"nome": "Ricardo Silva", "fonte": "PSD/Seade 2026", "data": "2026-08-29", "publicado": false},
   "fatos": [
-    {"fato": "Código IBGE 3543402", "fonte": "cidades.ibge.gov.br/brasil/sp/ribeirao-preto", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
-    {"fato": "RAO/SBRP no município de Ribeirão Preto; administração Rede VOA desde 2022", "fonte": "redevoa.com.br", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Leite Lopes (RAO) fica em Ribeirão Preto, no Parque Coronel Quito Junqueira.", "publicado": true},
-    {"fato": "HC Campus Av. Bandeirantes 3900; UE Rua Bernardino de Campos 1000 Centro", "fonte": "site.hcrp.usp.br Localização / Direções", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O HC Campus e a Unidade de Emergência no Centro são portas diferentes.", "publicado": true},
-    {"fato": "Campus USP no eixo da Av. Bandeirantes 3900", "fonte": "www5.usp.br; site HC", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O campus da USP em Ribeirão Preto pede bloco e portaria.", "publicado": true}
+    {"fato": "IBGE 3543402", "fonte": "cidades.ibge.gov.br Ribeirão Preto", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
+    {"fato": "RAO no município", "fonte": "redevoa.com.br", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Leite Lopes (RAO) fica em Ribeirão Preto.", "publicado": true},
+    {"fato": "HC Campus 3900 vs UE 1000 Centro", "fonte": "site.hcrp.usp.br", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O HC Campus e a Unidade de Emergência no Centro são portas diferentes.", "publicado": true}
   ],
-  "descartado": [
-    "Marcas de hotel sem confirmação nesta rodada",
-    "Tempo RAO–Centro em minutos",
-    "Sertãozinho / Barrinha na landing",
-    "Confundir HC Unicamp (Campinas) com HCFMRP"
-  ],
+  "descartado": ["Hotel nomeado", "Tempo em minutos", "Sertãozinho na landing", "Confundir com HC Unicamp"],
   "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
-  "verificar": [
-    "Nome completo do prefeito Ricardo Silva em fonte da Prefeitura/TSE",
-    "Site oficial HC ainda lista UE na Bernardino de Campos 1000; ignorar cadastros divergentes",
-    "Não publicar '24 horas' do RAO na landing (consta no site Rede VOA)"
-  ]
+  "verificar": ["Nome completo do prefeito em fonte TSE", "Não publicar 24 horas do RAO"]
 }

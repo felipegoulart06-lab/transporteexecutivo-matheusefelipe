@@ -5,90 +5,52 @@ declare(strict_types=1);
 return [
     'layout' => 'gaucha',
     'cidade_nome' => 'Feira de Santana',
-    'geo' => [
-        'lat' => -12.2664,
-        'lng' => -38.9663,
-    ],
+    'geo' => ['lat' => -12.2664, 'lng' => -38.9663],
     'imagem' => 'nordeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Feira de Santana',
     'seo' => [
-        'title' => 'Motorista executivo em Feira de Santana: Centro e SSA',
-        'description' => 'Carro com motorista em Feira de Santana para Centro, Kalilândia e SSA. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
-        'og_title' => 'Agenda em Feira de Santana com motorista — Kalilândia e Luís Eduardo Magalhães',
-        'og_description' => 'O motorista combina Centro com Luís Eduardo Magalhães (SSA), em Salvador. Informe nome da sede ou do hotel.',
-        'og_image_alt' => 'Carro executivo em via de Feira de Santana',
+        'title' => 'Motorista em Feira de Santana: Kalilândia, Centro e SSA',
+        'description' => 'Carro com motorista em Feira de Santana no Centro, na Kalilândia e no Ponto Central. Sem voo comercial no município; o trecho até o SSA pela BR-324 sai sob consulta.',
+        'og_title' => 'Traslado na Kalilândia, no Centro e na BR-324 rumo ao SSA',
+        'og_description' => 'Motorista no Portal do Sertão: hotel no Centro, pauta na Kalilândia e o saguão em Salvador.',
+        'og_image_alt' => 'Sedan executivo em avenida de Feira de Santana',
     ],
     'kicker' => 'Portal do Sertão · BA',
-    'h1' => 'Em Feira de Santana: do embarque em Centro ao SSA',
-    'faq_h2' => 'Dúvidas de quem embarca em Feira de Santana',
-    'faq' => [
-        [
-            'pergunta' => 'Quem está em Feira de Santana embarca no SSA dentro da cidade?',
-            'resposta' => 'Não. De Feira de Santana o SSA (Luís Eduardo Magalhães) fica em Salvador. O trecho sai de Centro pela BR-324.',
-        ],
-        [
-            'pergunta' => 'Em Feira de Santana, vocês buscam em Centro?',
-            'resposta' => 'Sim, em Feira de Santana. Envie nome da sede ou do hotel em Centro. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Feira de Santana vocês fazem Salvador?',
-            'resposta' => 'Sim, saindo de Feira de Santana. Salvador não é o recorte de Centro; o horário pela BR-116 sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Feira de Santana o carro fica entre Centro e Kalilândia?',
-            'resposta' => 'Sim, em Feira de Santana. A hora à disposição cobre sede e comércio em Centro e bairro em Kalilândia.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Feira de Santana e o SSA',
-        'texto' => 'Diga o ponto em Centro ou Kalilândia, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Feira de Santana',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'bahia',
-            'ancora' => 'Feira de Santana e o recorte de Portal do Sertão',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'bahia',
-            'cidade' => 'salvador',
-            'ancora' => 'Motorista em salvador',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'sergipe',
-            'cidade' => 'aracaju',
-            'ancora' => 'Motorista em aracaju',
-        ],
-    ],
+    'h1' => 'Da Kalilândia ao SSA sem inventar saguão no município',
     'coluna' => [
-        'h2' => 'Feira de Santana no mapa e na BR-324',
+        'h2' => 'Feira é entroncamento — o app não lê a BR-324 nem o horário da feira',
         'texto' => [
-            'Feira de Santana usa Luís Eduardo Magalhães (SSA), em Salvador. Quem embarca em Centro não está no município da pista. A BR-324 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
-            'Kalilândia pede bairro. Tomba pede residencial. Quando Salvador entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela BR-116.',
+            'Centro, Kalilândia e Ponto Central concentram o embarque. Hotel (ibis no São João, ou o nome que você informar no Centro) e a Getúlio Vargas pedem o número da porta, não “no Centro”. A UEFS e o recuo do campus entram no roteiro quando a pauta é acadêmica.',
+            'Não há voo comercial regular no município desde junho de 2024: o Aeroporto Governador João Durval Carneiro (FEC) permanece no mapa como aviação geral, não como saguão de malha. O pedido aéreo vaza para o Luís Eduardo Magalhães (SSA), em Salvador, pela BR-324. A BR-116 corta a cidade no sentido sertão–litoral; quando a pauta aponta para o recôncavo ou para a capital, o trecho deixa de ser urbano.',
         ],
     ],
     'lateral' => [
-        'h2' => 'Pontos que o pedido em Feira de Santana mais cita',
+        'h2' => 'Pontos que o pedido feirense mais cita',
         'itens' => [
-            [
-                'h3' => 'Centro',
-                'texto' => 'Origem frequente para sede e comércio. Informe nome da sede ou do hotel. Centro não compartilha o recuo de Kalilândia.',
-            ],
-            [
-                'h3' => 'Kalilândia',
-                'texto' => 'Origem frequente para bairro. Informe nome da sede ou do hotel. Kalilândia não compartilha o recuo de Centro.',
-            ],
-            [
-                'h3' => 'Tomba',
-                'texto' => 'Origem frequente para residencial. Informe nome da sede ou do hotel. Tomba não compartilha o recuo de Centro.',
-            ],
+            ['h3' => 'Centro e a Getúlio Vargas', 'texto' => 'Sede, hotel e o calçadão. Informe o número; a avenida muda de caráter a cada quadra e o recuo do Ponto Central não é o da Kalilândia.'],
+            ['h3' => 'Kalilândia e o shopping', 'texto' => 'Torres, clínicas e o Boulevard. Deslocamentos curtos que esticam no semáforo; “na Kalilândia” não define a porta.'],
+            ['h3' => 'Ponto Central e a UEFS', 'texto' => 'Comércio denso e o campus quando a reunião é na Transnordestina. O recuo do bloco pede portaria, não GPS na reitoria.'],
         ],
     ],
     'faixa' => [
-        'h2' => 'Rotas urbanas e o salto para Salvador',
-        'texto' => 'Centro → Salvador: Transfer intermunicipal. Não é o mesmo recorte de Kalilândia; o horário sai sob consulta.',
+        'h2' => 'Rotas urbanas e o salto para Salvador pela BR-324',
+        'texto' => 'Hotel no Centro → Kalilândia → UEFS só se o campus estiver no roteiro. SSA, Lauro de Freitas ou o recôncavo entram como viagem pela BR-324 ou pela BR-116, com horário de rodovia, não como segunda corrida no Ponto Central. Não marcamos desembarque comercial no FEC.',
+    ],
+    'faq_h2' => 'Dúvidas de quem pauta Feira e o SSA',
+    'faq' => [
+        ['pergunta' => 'Feira de Santana tem voo comercial regular no município?', 'resposta' => 'Não. Desde junho de 2024 o João Durval Carneiro não recebe malha regular. O saguão prático é o SSA, em Salvador; o trecho pela BR-324 entra no roteiro sob consulta.'],
+        ['pergunta' => 'Em Feira de Santana, o motorista espera no SSA se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. O número entra no pedido e a espera no Luís Eduardo Magalhães faz parte do trecho Salvador, não de um terminal em Feira.'],
+        ['pergunta' => 'Vocês fazem Kalilândia, Centro e a UEFS no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o bloco do campus. Um motorista articula os três recuos sem trocar o bairro no cartaz.'],
+        ['pergunta' => 'A BR-116 e a BR-324 entram no mesmo recorte do Centro?', 'resposta' => 'Não. O urbano é Centro, Kalilândia e Ponto Central. Salvador pela BR-324 e o sertão pela BR-116 saem como viagem, com horário sob consulta.'],
+    ],
+    'cta' => [
+        'titulo' => 'Junte a Kalilândia ao horário do SSA',
+        'texto' => 'O orçamento de Feira de Santana sai sob consulta. Centro, campus e o trecho até Salvador no mesmo WhatsApp.',
+        'botao' => 'Pedir motorista em Feira de Santana',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'bahia', 'ancora' => 'Feira, Costa do Descobrimento e o recorte baiano'],
+        ['tipo' => 'cidade', 'estado' => 'bahia', 'cidade' => 'salvador', 'ancora' => 'Barra, Paralela e o Luís Eduardo Magalhães'],
+        ['tipo' => 'cidade', 'estado' => 'sergipe', 'cidade' => 'aracaju', 'ancora' => 'Atalaia, Centro e o Santa Maria'],
     ],
 ];

@@ -1,78 +1,39 @@
 {
-    "estado": "rio-de-janeiro",
-    "cidade": "niteroi",
-    "nome": "Niterói",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Icaraí",
-            "eixo": "ponte Rio-Niterói",
-            "destino": "Santos Dumont",
-            "motivo": "hotel na orla"
-        }
-    ],
-    "eixos": [
-        "Icaraí",
-        "Centro",
-        "São Francisco",
-        "Charitas"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Santos Dumont",
-            "iata": "SDU",
-            "municipio": "Rio de Janeiro",
-            "acesso": "ponte Rio-Niterói"
-        },
-        {
-            "nome": "Galeão",
-            "iata": "GIG",
-            "municipio": "Rio de Janeiro",
-            "acesso": "ponte e Linha Vermelha"
-        }
-    ],
-    "rodovias": [
-        "ponte Rio-Niterói",
-        "RJ-104",
-        "Avenida Ernani do Amaral Peixoto"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel na orla",
-        "pauta institucional",
-        "bairro",
-        "charitas e barcas"
-    ],
-    "vizinhos_pedido": [
-        "Rio de Janeiro",
-        "São Gonçalo",
-        "Maricá"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal SDU em Rio de Janeiro",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "rio-de-janeiro",
+  "cidade": "niteroi",
+  "nome": "Niterói",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Hotel em Icaraí", "eixo": "Gavião Peixoto / Moreira César", "destino": "Centro (Amaral Peixoto)", "motivo": "Pauta urbana no mesmo município"},
+    {"origem": "Icaraí, São Francisco ou Centro", "eixo": "Ponte Presidente Costa e Silva / BR-101 (Ecovias Ponte)", "destino": "Santos Dumont (SDU)", "motivo": "Voo doméstico no município do Rio de Janeiro"},
+    {"origem": "Icaraí, São Francisco ou Centro", "eixo": "Ponte Rio-Niterói / BR-101", "destino": "Galeão (GIG), Ilha do Governador", "motivo": "Voo no município do Rio de Janeiro"}
+  ],
+  "eixos": ["Icaraí", "Centro", "São Francisco"],
+  "aeroportos": [
+    {"nome": "Aeroporto Santos Dumont", "iata": "SDU", "municipio": "Rio de Janeiro (Centro)", "relacao": "Niterói não tem aeroporto comercial de passageiros; SDU é o terminal doméstico via ponte", "fonte": "Infraero — Praça Senador Salgado Filho s/n, Centro, Rio de Janeiro/RJ; SDU/SBRJ", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional do Rio de Janeiro — Galeão / Tom Jobim", "iata": "GIG", "municipio": "Rio de Janeiro (Ilha do Governador)", "relacao": "Terminal internacional; acesso a partir de Niterói pela Ponte Rio-Niterói", "fonte": "aeroportogaleao.com/localizacao — Av. Vinte de Janeiro s/n, Ilha do Governador", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Ponte Presidente Costa e Silva (Ponte Rio-Niterói) / BR-101", "fonte": "Ecovias Ponte (ecoviasponte.com.br)", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Icaraí", "Centro / Amaral Peixoto", "São Francisco / Quintino Bocaiúva"],
+  "vizinhos_pedido": ["Rio de Janeiro (SDU/GIG)", "São Gonçalo"],
+  "prefeito": {"nome": "Rodrigo Neves Barreto", "fonte": "IBGE Cidades / Niterói", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Niterói não opera aeroporto comercial de passageiros relevante", "fonte": "AISWEB SDHD privativo; Infraero SDU; Galeão GIG", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Niterói não tem aeroporto comercial de passageiros.", "publicado": true},
+    {"fato": "SDU no Centro do Rio", "fonte": "Infraero", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Santos Dumont fica no Centro do Rio, não em Niterói.", "publicado": true},
+    {"fato": "GIG na Ilha do Governador, município do Rio", "fonte": "aeroportogaleao.com/localizacao", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Galeão fica na Ilha do Governador.", "publicado": true}
+  ],
+  "descartado": [
+    "Tempo fixo de travessia da ponte",
+    "RJ-104 como acesso Niterói–Rio",
+    "Hotel Solar do Icaraí sem site oficial"
+  ],
+  "verificar": [
+    "[VERIFICAR] Qualquer duração da ponte em minutos — nunca publicar",
+    "[VERIFICAR] Pedágio só no sentido Niterói",
+    "[VERIFICAR] Hotel nomeado em Icaraí com site oficial"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

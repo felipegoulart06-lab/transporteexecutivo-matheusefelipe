@@ -5,110 +5,60 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'Caxias do Sul',
-    'geo' => [
-        'lat' => -29.1685,
-        'lng' => -51.1796,
-    ],
+    'geo' => ['lat' => -29.1685, 'lng' => -51.1796],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Caxias do Sul',
     'seo' => [
-        'title' => 'Motorista executivo em Caxias do Sul: São Pelegrino e CXJ',
-        'description' => 'Carro com motorista em Caxias do Sul para São Pelegrino, Centro e CXJ. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
-        'og_title' => 'Traslado em Caxias do Sul: São Pelegrino e CXJ',
-        'og_description' => 'O motorista combina São Pelegrino com Hugo Cantergiani (CXJ), no próprio município. Informe nome da empresa ou do hotel.',
-        'og_image_alt' => 'Carro executivo em via de Caxias do Sul',
+        'title' => 'Motorista em Caxias do Sul: Pelegrino, Centro e CXJ',
+        'description' => 'Carro com motorista em Caxias do Sul para São Pelegrino, Centro, Universitário e o aeroporto Hugo Cantergiani (CXJ). BR-116, serra e Porto Alegre sob consulta.',
+        'og_title' => 'Traslado no São Pelegrino, no Centro e no aeroporto CXJ',
+        'og_description' => 'O CXJ fica em Caxias do Sul. O carro articula hotel, pauta urbana e o trecho a Porto Alegre pela serra.',
+        'og_image_alt' => 'Sedan executivo em via da Serra Gaúcha em Caxias do Sul',
     ],
-    'kicker' => 'Serra gaúcha · RS',
-    'h1' => 'Em Caxias do Sul, de São Pelegrino a Hugo Cantergiani (CXJ), no próprio município',
-    'faq_h2' => 'Dúvidas de quem embarca em Caxias do Sul',
-    'faq' => [
-        [
-            'pergunta' => 'Em Caxias do Sul, o CXJ fica no próprio município?',
-            'resposta' => 'Sim. Em Caxias do Sul, Hugo Cantergiani (CXJ) fica no município. Informe o acesso via RSC-453.',
-        ],
-        [
-            'pergunta' => 'Em Caxias do Sul, vocês buscam em São Pelegrino?',
-            'resposta' => 'Sim, em Caxias do Sul. Envie nome da empresa ou do hotel em São Pelegrino. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Caxias do Sul vocês fazem Bento Gonçalves?',
-            'resposta' => 'Sim, saindo de Caxias do Sul. Bento Gonçalves não é o recorte de São Pelegrino; o horário pela RSC-453 sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Caxias do Sul o carro fica entre São Pelegrino e Centro?',
-            'resposta' => 'Sim, em Caxias do Sul. A hora à disposição cobre indústria e hotel em São Pelegrino e sede em Centro.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Caxias do Sul e o CXJ',
-        'texto' => 'Diga o ponto em São Pelegrino ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Caxias do Sul',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'rio-grande-do-sul',
-            'ancora' => 'Caxias do Sul e o recorte de Serra gaúcha',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'rio-grande-do-sul',
-            'cidade' => 'porto-alegre',
-            'ancora' => 'Motorista em porto alegre',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'santa-catarina',
-            'cidade' => 'joinville',
-            'ancora' => 'Motorista em joinville',
-        ],
-    ],
-    'olho' => 'São Pelegrino e Hugo Cantergiani (CXJ), no próprio município não cabem no mesmo aceite tardio.',
+    'kicker' => 'Serra Gaúcha · RS',
+    'h1' => 'Do CXJ ao São Pelegrino sem perder a pauta no Centro',
+    'olho' => 'Caxias do Sul é indústria na serra e desnível no asfalto. O motorista segura a BR-116 e o recuo do Hugo Cantergiani (CXJ); o passageiro segura a reunião — e o trecho a Porto Alegre, quando a pauta vaza da cidade.',
     'capitulos' => [
         [
-            'h2' => 'São Pelegrino e o recuo da pauta',
-            'texto' => 'Caxias do Sul concentra São Pelegrino (indústria e hotel) e Hugo Cantergiani (CXJ) no mesmo município. O motorista precisa do ponto de embarque e do CXJ no mesmo recado — “me busca em Caxias do Sul” não define o recuo.',
+            'h2' => 'São Pelegrino, Centro e Universitário não se trocam no GPS',
+            'texto' => 'Hotel no São Pelegrino, reunião no Centro e embarque no Universitário cabem no mesmo dia se o endereço de cada porta já saiu no roteiro. O Aeroporto Regional Hugo Cantergiani (CXJ) opera no município. Porto Alegre não é a segunda corrida urbana: entra como viagem pela serra, com margem de BR-116. Informe o nome do hotel e o ponto de embarque.',
         ],
         [
-            'h2' => 'Centro, Universitário e a ordem do dia',
+            'h2' => 'Onde o embarque caxiense mais se concentra',
             'itens' => [
-                [
-                    'h3' => 'Centro',
-                    'texto' => 'Origem frequente para sede. Informe nome da empresa ou do hotel. Centro não compartilha o recuo de São Pelegrino.',
-                ],
-                [
-                    'h3' => 'Universitário',
-                    'texto' => 'Origem frequente para campus. Informe nome da empresa ou do hotel. Universitário não compartilha o recuo de São Pelegrino.',
-                ],
-                [
-                    'h3' => 'Pio X',
-                    'texto' => 'Origem frequente para bairro. Informe nome da empresa ou do hotel. Pio X não compartilha o recuo de São Pelegrino.',
-                ],
+                ['h3' => 'São Pelegrino', 'texto' => 'Hotéis e o desnível da Júlio de Castilhos. Informe o prédio; o recuo da orla comercial não é o da planta.'],
+                ['h3' => 'Centro', 'texto' => 'Sede e o miolo. O sentido das vias muda no fim da tarde; “no Centro” não define a porta.'],
+                ['h3' => 'Universitário', 'texto' => 'Bairro de embarque residencial e clínico. A sede da UCS fica na Rua Francisco Getúlio Vargas, no Petrópolis — não neste bairro. Diga o campus e a portaria.'],
             ],
         ],
         [
-            'h2' => 'Hugo Cantergiani — CXJ',
-            'texto' => 'Hugo Cantergiani (CXJ) fica em Caxias do Sul. Acesso: RSC-453. Combinamos o voo; a espera no desembarque integra o trecho.',
+            'h2' => 'Hugo Cantergiani — CXJ, e o salto a Porto Alegre',
+            'texto' => 'O aeroporto regional fica no município de Caxias do Sul. Combinamos o voo. A espera no desembarque integra o trecho CXJ até o São Pelegrino, o Centro ou o Universitário. Quem segue a Porto Alegre combina o trecho à parte: é viagem de serra, não o mesmo orçamento do miolo urbano.',
         ],
     ],
     'passos' => [
-        'h2' => 'Como solicitar em Caxias do Sul',
+        'h2' => 'Três dados que evitam atraso na serra',
         'itens' => [
-            [
-                'num' => '01',
-                'titulo' => 'Ponto de embarque',
-                'texto' => 'Rua, número e nome da empresa ou do hotel. Autocomplete não resolve dois acessos em São Pelegrino.',
-            ],
-            [
-                'num' => '02',
-                'titulo' => 'Destino e tipo de janela',
-                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o CXJ ou Bento Gonçalves entra no dia.',
-            ],
-            [
-                'num' => '03',
-                'titulo' => 'Confirmação',
-                'texto' => 'Em Caxias do Sul, nome e WhatsApp. Devolvemos o horário de apresentação.',
-            ],
+            ['num' => '01', 'titulo' => 'Bairro e prédio', 'texto' => 'São Pelegrino, Centro ou Universitário. “Em Caxias” não define o recuo da portaria.'],
+            ['num' => '02', 'titulo' => 'Voo no CXJ', 'texto' => 'Número e horário. O carro sai com margem, não no minuto do check-in.'],
+            ['num' => '03', 'titulo' => 'Cidade ou Porto Alegre', 'texto' => 'O trecho a Porto Alegre entra como viagem de BR-116. O urbano é outro orçamento.'],
         ],
+    ],
+    'faq_h2' => 'Perguntas de quem pousa no Hugo Cantergiani',
+    'faq' => [
+        ['pergunta' => 'O aeroporto de Caxias do Sul fica no município?', 'resposta' => 'Sim. O Hugo Cantergiani (CXJ) opera em Caxias do Sul. Marcamos margem: o desnível e o horário de pico alteram o intervalo até o Centro ou o São Pelegrino.'],
+        ['pergunta' => 'O motorista espera no CXJ se o voo atrasar?', 'resposta' => 'Sim. Combinamos o CXJ com o número do voo; a espera no Hugo Cantergiani integra o trecho até o São Pelegrino, o Centro ou o Universitário.'],
+        ['pergunta' => 'Vocês fazem São Pelegrino, Centro e Universitário no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e, se a pauta for a UCS, o recuo na Getúlio Vargas, no Petrópolis.'],
+        ['pergunta' => 'Dá para seguir a Porto Alegre depois do hotel?', 'resposta' => 'Sim, como viagem pela serra e pela BR-116. Não é o mesmo recorte do Centro caxiense; o horário sai sob consulta.'],
+    ],
+    'cta' => [
+        'titulo' => 'Marque o CXJ no mesmo recado do hotel',
+        'texto' => 'Informe o bairro em Caxias do Sul, se há voo no Hugo Cantergiani e se o destino vaza a Porto Alegre. A apresentação volta sob consulta.',
+        'botao' => 'Pedir motorista em Caxias do Sul',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'rio-grande-do-sul', 'ancora' => 'Serra, Porto e o recorte gaúcho'],
+        ['tipo' => 'cidade', 'estado' => 'rio-grande-do-sul', 'cidade' => 'porto-alegre', 'ancora' => 'Moinhos, Centro Histórico e o Salgado Filho'],
+        ['tipo' => 'cidade', 'estado' => 'santa-catarina', 'cidade' => 'joinville', 'ancora' => 'Centro, América e o JOI'],
     ],
 ];

@@ -1,72 +1,27 @@
 {
-    "estado": "amapa",
-    "cidade": "macapa",
-    "nome": "Macapá",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "AP-010",
-            "destino": "Alberto Alcolumbre",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Trem",
-        "Marco Zero",
-        "Santa Rita"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Alberto Alcolumbre",
-            "iata": "MCP",
-            "municipio": "Macapá",
-            "acesso": "AP-010"
-        }
-    ],
-    "rodovias": [
-        "AP-010",
-        "Avenida FAB",
-        "Beira Rio"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro",
-        "orla equatorial",
-        "acesso ao MCP"
-    ],
-    "vizinhos_pedido": [
-        "Santana",
-        "Belém",
-        "Mazagão"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal MCP em Macapá",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "amapa",
+  "cidade": "macapa",
+  "nome": "Macapá",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "MCP", "eixo": "urbano", "destino": "Centro / Trapiche / Fortaleza", "motivo": "Transfer"},
+    {"origem": "Centro", "eixo": "norte", "destino": "Marco Zero", "motivo": "Visita combinada"},
+    {"origem": "Macapá", "eixo": "AP-010", "destino": "Santana (porto)", "motivo": "Intermunicipal"}
+  ],
+  "eixos": ["Centro / Fortaleza / Trapiche", "Marco Zero", "Santana e o porto", "MCP"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Macapá/AP - Alberto Alcolumbre", "iata": "MCP", "municipio": "Macapá", "relacao": "Próprio município. NOA.", "fonte": "Lei 11.931/2009; aeroportodemacapa.com.br; IBGE 1600303", "data": "2026-08-29"}
+  ],
+  "rodovias": [{"nome": "BR-156 Macapá–Oiapoque", "fonte": "~580 km — não eixo urbano", "data": "2026-08-29"}],
+  "hoteis_ancora": [],
+  "polos": ["Fortaleza de São José", "Trapiche Eliezer Levy", "Marco Zero", "Porto de Santana"],
+  "vizinhos_pedido": ["Santana", "Oiapoque (viagem longa)"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "MCP em Macapá, IATA MCP", "fonte": "Lei 11.931/2009", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O MCP fica em Macapá.", "publicado": true},
+    {"fato": "Binacional Oiapoque ~580 km — não eixo da capital", "fonte": "distância BR-156", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "Oiapoque só como viagem longa sob consulta.", "publicado": true}
+  ],
+  "descartado": ["Guia Equador", "Binacional como passeio", "Rua Hildemar Maia sem página NOA", "Minutos MCP–Centro"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
+  "verificar": ["Endereço postal MCP no site NOA", "gov.br/turismo Macapá auth 2026-08-29"]
 }

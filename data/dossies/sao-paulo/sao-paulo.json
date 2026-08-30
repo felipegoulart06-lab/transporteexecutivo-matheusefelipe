@@ -1,78 +1,35 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "sao-paulo",
-    "nome": "São Paulo",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Faria Lima e Itaim",
-            "eixo": "Marginal Pinheiros",
-            "destino": "Congonhas",
-            "motivo": "torres e fundos"
-        }
-    ],
-    "eixos": [
-        "Faria Lima e Itaim",
-        "Berrini e Vila Olímpia",
-        "Paulista e Jardins",
-        "Pinheiros"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Congonhas",
-            "iata": "CGH",
-            "municipio": "São Paulo",
-            "acesso": "Washington Luís"
-        },
-        {
-            "nome": "Guarulhos",
-            "iata": "GRU",
-            "municipio": "Guarulhos",
-            "acesso": "Dutra"
-        }
-    ],
-    "rodovias": [
-        "Marginal Pinheiros",
-        "Marginal Tietê",
-        "Dutra"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "torres e fundos",
-        "board e catraca",
-        "hotel e consultório",
-        "estúdio e retorno"
-    ],
-    "vizinhos_pedido": [
-        "Guarulhos",
-        "Campinas",
-        "Santos"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CGH em São Paulo",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "sao-paulo",
+  "nome": "São Paulo",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Hotel ou torre no Itaim / Av. Brigadeiro Faria Lima", "eixo": "Faria Lima–Itaim", "destino": "Reunião na Berrini ou embarque em Congonhas", "motivo": "Janela curta entre fundos, almoço e ponte aérea no miolo da capital"},
+    {"origem": "Torre na Av. Engenheiro Luís Carlos Berrini / Vila Olímpia", "eixo": "Berrini–Vila Olímpia", "destino": "Congonhas (CGH) ou hotel nos Jardins", "motivo": "Board no Brooklin com voo doméstico no mesmo expediente"},
+    {"origem": "Hotel ou consultório na Paulista / Jardins", "eixo": "Paulista–Jardins", "destino": "Faria Lima, Berrini ou GRU", "motivo": "Comitiva que troca de endereço sem trocar de carro"},
+    {"origem": "Pinheiros", "eixo": "Pinheiros", "destino": "Itaim, Paulista ou CGH", "motivo": "Agenda que mistura estúdio, jantar e terminal"},
+    {"origem": "Desembarque GRU (Guarulhos)", "eixo": "Dutra / Marginal Tietê", "destino": "Hotel na Paulista ou torre na Faria Lima", "motivo": "Voo internacional ou doméstico fora do município da capital"},
+    {"origem": "Congonhas (município de São Paulo)", "eixo": "Av. Washington Luís", "destino": "Berrini no horário de almoço", "motivo": "Ponte aérea colada à zona sul"}
+  ],
+  "eixos": ["Faria Lima e Itaim", "Berrini e Vila Olímpia", "Paulista e Jardins", "Pinheiros", "Congonhas (CGH) via Washington Luís", "GRU via Dutra / Hélio Smidt"],
+  "aeroportos": [
+    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Terminal no município da capital (zona sul). Acesso pela Av. Washington Luís.", "fonte": "https://www.aenabrasil.com.br/pt/aeroportos/aeroporto-de-congonhas/historico.html", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos – Governador André Franco Montoro", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Fora do município de São Paulo. Rodovia Hélio Smidt, Cumbica. Ligação pela Via Dutra (BR-116).", "fonte": "Contrato ANAC GRU 1.1.3.3; https://ri.gru.com.br/servicos-aos-investidores/fale-com-ri/", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Via Dutra (BR-116)", "papel": "Ligação capital–GRU", "fonte": "https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/novos-viadutos-transformam-mobilidade-na-dutra-br-116-e-ampliam-acesso-ao-aeroporto-de-guarulhos-sp", "data": "2026-08-29"},
+    {"nome": "Rodovia Hélio Smidt", "papel": "Acesso ao sítio de GRU", "fonte": "https://ri.gru.com.br/servicos-aos-investidores/fale-com-ri/", "data": "2026-08-29"},
+    {"nome": "Avenida Washington Luís", "papel": "Acesso a Congonhas", "fonte": "Aena / CET jun/2026", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Av. Brigadeiro Faria Lima", "Av. Engenheiro Luís Carlos Berrini", "Avenida Paulista"],
+  "vizinhos_pedido": ["Guarulhos (GRU)", "Osasco", "Barueri / Alphaville", "São Bernardo do Campo"],
+  "prefeito": {"nome": "Ricardo Nunes", "fonte": "Folha, 26/08/2026", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "CGH no município de São Paulo, zona sul, acesso Washington Luís", "fonte": "Aena histórico CGH", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Congonhas fica no município de São Paulo.", "publicado": true},
+    {"fato": "GRU no município de Guarulhos, Hélio Smidt / Dutra", "fonte": "Contrato ANAC 1.1.3.3", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "GRU fica em Guarulhos, não na capital.", "publicado": true},
+    {"fato": "[VERIFICAR] Qual terminal de GRU (T1/T2/T3) no desembarque deste roteiro", "fonte": "", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Hotéis nomeados sem site oficial", "Minuto fixo CGH–Berrini"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

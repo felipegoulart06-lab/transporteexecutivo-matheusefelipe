@@ -5,90 +5,52 @@ declare(strict_types=1);
 return [
     'layout' => 'mare',
     'cidade_nome' => 'Londrina',
-    'geo' => [
-        'lat' => -23.3045,
-        'lng' => -51.1696,
-    ],
+    'geo' => ['lat' => -23.3045, 'lng' => -51.1696],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Londrina',
     'seo' => [
-        'title' => 'Motorista executivo em Londrina: Gleba Palhano e LDB',
-        'description' => 'Carro com motorista em Londrina para Gleba Palhano, Centro e LDB. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
-        'og_title' => 'Embarque em Londrina: hotel, Gleba Palhano e LDB',
-        'og_description' => 'O motorista combina Gleba Palhano com Governador José Richa (LDB), no próprio município. Informe nome do hotel.',
-        'og_image_alt' => 'Carro executivo em via de Londrina',
+        'title' => 'Motorista em Londrina: Gleba Palhano, Centro e LDB',
+        'description' => 'Carro com motorista em Londrina para a Gleba Palhano, o Centro e o aeroporto Governador José Richa (LDB), no município. BR-369 no viário local; Maringá sob consulta.',
+        'og_title' => 'Traslado na Gleba Palhano, no Centro e no aeroporto LDB',
+        'og_description' => 'O LDB fica em Londrina. O carro articula hotel na Gleba, pauta no Centro e o trecho a Maringá quando a pauta vaza.',
+        'og_image_alt' => 'Sedan executivo em avenida da Gleba Palhano em Londrina, Paraná',
     ],
     'kicker' => 'Norte paranaense · PR',
-    'h1' => 'Londrina: entre Gleba Palhano, Centro e o terminal certo',
-    'faq_h2' => 'Dúvidas de quem embarca em Londrina',
-    'faq' => [
-        [
-            'pergunta' => 'Em Londrina, o LDB fica no próprio município?',
-            'resposta' => 'Sim. Em Londrina, Governador José Richa (LDB) fica no município. Informe o acesso via PR-445.',
-        ],
-        [
-            'pergunta' => 'Em Londrina, vocês buscam em Gleba Palhano?',
-            'resposta' => 'Sim, em Londrina. Envie nome do hotel em Gleba Palhano. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Londrina vocês fazem Maringá?',
-            'resposta' => 'Sim, saindo de Londrina. Maringá não é o recorte de Gleba Palhano; o horário pela PR-445 sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Londrina o carro fica entre Gleba Palhano e Centro?',
-            'resposta' => 'Sim, em Londrina. A hora à disposição cobre hotel e torre em Gleba Palhano e sede em Centro.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Londrina e o LDB',
-        'texto' => 'Diga o ponto em Gleba Palhano ou Centro, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Londrina',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'parana',
-            'ancora' => 'Londrina e o recorte de Norte paranaense',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'parana',
-            'cidade' => 'curitiba',
-            'ancora' => 'Motorista em curitiba',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'parana',
-            'cidade' => 'foz-do-iguacu',
-            'ancora' => 'Motorista em foz do iguacu',
-        ],
-    ],
+    'h1' => 'Da Gleba Palhano ao LDB sem perder a reunião no Centro',
     'editorial' => [
-        'h2' => 'Londrina pede ordem de endereço, não slogan',
+        'h2' => 'Londrina se lê em gleba e em avenida — o voo está no município',
         'texto' => [
-            'Londrina concentra Gleba Palhano (hotel e torre) e Governador José Richa (LDB) no mesmo município. O motorista precisa do ponto de embarque e do LDB no mesmo recado — “me busca em Londrina” não define o recuo.',
-            'Centro pede sede. Jardim Bandeirantes pede bairro. Quando Maringá entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela PR-445.',
+            'Hotel na Gleba Palhano, reunião no Centro e voo no Governador José Richa (LDB) cabem no mesmo caderno se o motorista já saiu com a ordem da Avenida Ayrton Senna e da Saul Elkind, não com o atalho do momento. Informe o nome do hotel e o ponto de embarque; as quadras da gleba se repetem na numeração.',
+            'O aeroporto fica na Rua Tenente João Maurício Medeiros, 300, no bairro Novo Aeroporto, município de Londrina. A BR-369 corta o recorte leste (Avenida Brasília). Maringá entra como viagem intermunicipal, não como segunda corrida na Gleba.',
         ],
     ],
     'coluna_a' => [
-        'h2' => 'Eixos de Londrina',
+        'h2' => 'Três recortes que a pauta londrinense usa',
         'itens' => [
-            [
-                'h3' => 'Gleba Palhano',
-                'texto' => 'Origem frequente para hotel e torre. Informe nome do hotel. Gleba Palhano não compartilha o recuo de Centro.',
-            ],
-            [
-                'h3' => 'Centro',
-                'texto' => 'Origem frequente para sede. Informe nome do hotel. Centro não compartilha o recuo de Gleba Palhano.',
-            ],
-            [
-                'h3' => 'Jardim Bandeirantes',
-                'texto' => 'Origem frequente para bairro. Informe nome do hotel. Jardim Bandeirantes não compartilha o recuo de Gleba Palhano.',
-            ],
+            ['h3' => 'Gleba Palhano', 'texto' => 'Hotéis e torres no sul da cidade, no eixo da Avenida Ayrton Senna. Informe o condomínio; “na Gleba” não define a portaria.'],
+            ['h3' => 'Centro', 'texto' => 'Sede, clínicas e o calçadão. O sentido das vias muda no fim da tarde; “no Centro” não define a porta.'],
+            ['h3' => 'Novo Aeroporto — LDB', 'texto' => 'Governador José Richa, no município. Combinamos o voo. A espera no desembarque integra o trecho LDB até a Gleba ou o Centro.'],
         ],
     ],
     'coluna_b' => [
-        'h2' => 'LDB e a vazão',
-        'texto' => 'Governador José Richa (LDB) fica em Londrina. Acesso: PR-445. Combinamos o voo; a espera no desembarque integra o trecho. Maringá entra como viagem.',
+        'h2' => 'Governador José Richa — LDB',
+        'texto' => 'O terminal fica em Londrina. Combinamos o número do voo. Até a Gleba Palhano ou o Centro, a avenida pesa mais que o mapa admite no pico. Se a pauta segue a Maringá, o trecho sai à parte.',
+    ],
+    'faq_h2' => 'Dúvidas de quem pousa no José Richa',
+    'faq' => [
+        ['pergunta' => 'O aeroporto de Londrina fica no município?', 'resposta' => 'Sim. O Governador José Richa (LDB) opera em Londrina, no bairro Novo Aeroporto. Marcamos margem: a Saul Elkind e o horário de pico alteram o intervalo até a Gleba Palhano ou o Centro.'],
+        ['pergunta' => 'O motorista espera no LDB se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no roteiro e a espera no terminal faz parte do trecho.'],
+        ['pergunta' => 'Vocês fazem Gleba Palhano e Centro no mesmo dia?', 'resposta' => 'Sim. Informe a ordem e o nome do hotel na Gleba. Um motorista articula os dois recuos.'],
+        ['pergunta' => 'Dá para seguir a Maringá depois do hotel?', 'resposta' => 'Sim, como viagem intermunicipal. Não é o mesmo recorte da Gleba Palhano; o horário sai sob consulta.'],
+    ],
+    'cta' => [
+        'titulo' => 'Anote a Gleba junto com o horário do LDB',
+        'texto' => 'Informe o hotel na Gleba Palhano ou o prédio no Centro e se há voo. A apresentação em Londrina volta sob consulta.',
+        'botao' => 'Pedir motorista em Londrina',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'parana', 'ancora' => 'Foz, Londrina e o recorte paranaense'],
+        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'curitiba', 'ancora' => 'Batel, Centro Cívico e o Afonso Pena'],
+        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'foz-do-iguacu', 'ancora' => 'IGU, Cataratas e a Ponte da Amizade'],
     ],
 ];

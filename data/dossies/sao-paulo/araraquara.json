@@ -1,72 +1,39 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "araraquara",
-    "nome": "Araraquara",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Washington Luís",
-            "destino": "Bartolomeu de Gusmão",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Vila Xavier",
-        "Campos Ville",
-        "Fonte"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Bartolomeu de Gusmão",
-            "iata": "AQA",
-            "municipio": "Araraquara",
-            "acesso": "SP-310"
-        }
-    ],
-    "rodovias": [
-        "Washington Luís",
-        "SP-255",
-        "Avenida Alberto Benassi"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro",
-        "residencial",
-        "orla da fonte"
-    ],
-    "vizinhos_pedido": [
-        "São Carlos",
-        "Ribeirão Preto",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal AQA em Araraquara",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "araraquara",
+  "nome": "Araraquara",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro", "eixo": "sede", "destino": "hotel / calçadão", "motivo": "Logradouro; o pin da cidade não define a rua"},
+    {"origem": "Fonte Luminosa", "eixo": "praça Vila Harmonia OU estádio Vila Ferroviária", "destino": "evento / pauta", "motivo": "Dois recuos com o mesmo nome popular"},
+    {"origem": "UNESP", "eixo": "FCL Rodovia Araraquara–Jaú ou Rua Humaitá 1680 Centro", "destino": "campus / banca", "motivo": "Unidade e bloco na lista"},
+    {"origem": "Araraquara", "eixo": "Av. Alberto Santos Dumont 2880", "destino": "AQA (malha típica a VCP) ou vazão RAO/VCP de carro", "motivo": "Campo no município; conexão que não fecha vaza"}
+  ],
+  "eixos": ["Centro", "Fonte Luminosa (praça e estádio)", "UNESP"],
+  "aeroportos": [
+    {"nome": "Aeroporto Estadual Bartolomeu de Gusmão", "iata": "AQA", "municipio": "Araraquara", "relacao": "Campo no município. Malha regional rumo a Viracopos (Azul / Azul Conecta; quadro AD5198/5199 e 2F em ago/2026). Confirmar o voo.", "fonte": "redevoa.com.br aeroporto-bartolomeu-de-gusmao-araraquara-sp (Av. Alberto Santos Dumont, 2880); avionio partidas AQA→VCP ago/2026; G1 2024-10-18 (retomada e readequação para Grand Caravan)", "data": "2026-08-29"},
+    {"nome": "Aeroporto Estadual Leite Lopes", "iata": "RAO", "municipio": "Ribeirão Preto", "relacao": "Vazão quando a malha do AQA não fecha a conexão", "fonte": "Rede VOA RAO", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de Viracopos", "iata": "VCP", "municipio": "Campinas", "relacao": "Destino típico da malha do AQA e vazão de carro se o voo não opera", "fonte": "Malha Azul AQA–VCP; ANAC VCP", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "SP-310 Rodovia Washington Luís — Araraquara–São Carlos", "fonte": "DER/SP", "data": "2026-08-29"},
+    {"nome": "Rodovia Araraquara–Jaú — campus FCL/UNESP km 1", "fonte": "UNESP FCL endereço institucional", "data": "2026-08-29"},
+    {"nome": "Av. Alberto Santos Dumont, 2880 — AQA", "fonte": "Rede VOA", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Praça da Fonte Luminosa — Rua Napoleão Selmi Dei, Vila Harmonia", "Estádio Municipal Olivério Bazzani Filho (Arena da Fonte Luminosa) — Rua Mauro Pinheiro, Vila Ferroviária", "UNESP (FCL e unidades na Humaitá)"],
+  "vizinhos_pedido": ["São Carlos", "Ribeirão Preto", "Campinas", "RAO", "VCP"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "AQA Bartolomeu de Gusmão no município, Av. Alberto Santos Dumont 2880, Rede VOA. Malha típica a VCP (Azul/Azul Conecta). Operação existe em 2026 mas é regional e pede conferência do voo.", "fonte": "Rede VOA página oficial; avionio AQA partidas 2F5199/AD5199 → VCP (registros ago/2026)", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Bartolomeu de Gusmão opera malha regional rumo a Viracopos (VCP). Confirme o voo no pedido. Se a conexão não fecha no AQA, o saguão que vaza é o RAO, em Ribeirão Preto, ou o próprio VCP de carro.", "publicado": true},
+    {"fato": "Fonte Luminosa são dois lugares: praça na Vila Harmonia (R. Napoleão Selmi Dei) e estádio na Vila Ferroviária (R. Mauro Pinheiro; nome oficial Estádio Municipal Olivério Bazzani Filho / Arena da Fonte Luminosa).", "fonte": "ge.globo 2024-04-15 (lei do nome do estádio); Wikipedia Estádio Municipal Olivério Bazzani Filho; endereço da praça Vila Harmonia", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "A praça fica na Vila Harmonia; o estádio, na Vila Ferroviária. Informe qual dos dois.", "publicado": true},
+    {"fato": "UNESP: Faculdade de Ciências e Letras na Rodovia Araraquara–Jaú; outras unidades na Rua Humaitá.", "fonte": "UNESP endereços institucionais", "data": "2026-08-29", "tipo": "polo", "risco": "medio", "frase": "Envie a unidade — Rodovia Araraquara–Jaú ou Humaitá —, o visitante e o documento.", "publicado": true}
+  ],
+  "descartado": [
+    "Tratar Fonte Luminosa como um único pin",
+    "Inventar malha ampla no AQA (ATR 72 da retomada 2024 foi readequada)",
+    "Vila Xavier / Campos Ville como eixos no lugar da Fonte e da UNESP (gerador)",
+    "Minutos até o RAO ou VCP"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

@@ -1,78 +1,38 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "piracicaba",
-    "nome": "Piracicaba",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "SP-304",
-            "destino": "Viracopos",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Cidade Alta",
-        "Unimep",
-        "ESALQ"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Viracopos",
-            "iata": "VCP",
-            "municipio": "Campinas",
-            "acesso": "SP-304"
-        },
-        {
-            "nome": "Leite Lopes",
-            "iata": "RAO",
-            "municipio": "Ribeirão Preto",
-            "acesso": "SP-304"
-        }
-    ],
-    "rodovias": [
-        "SP-304",
-        "SP-127",
-        "Avenida Independência"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro",
-        "campus",
-        "universidade"
-    ],
-    "vizinhos_pedido": [
-        "Limeira",
-        "Campinas",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal VCP em Campinas",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "piracicaba",
+  "nome": "Piracicaba",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro (Independência / Rua do Porto / hotel)", "eixo": "urbano", "destino": "ESALQ/USP Av. Pádua Dias, 11", "motivo": "Campus agrário com portaria e bloco"},
+    {"origem": "Centro ou ESALQ", "eixo": "urbano Centro", "destino": "Unimep Campus Centro Rua Rangel Pestana, 762", "motivo": "Universidade — NÃO enviar ao Taquaral desativado"},
+    {"origem": "Piracicaba", "eixo": "Rodovia Luiz de Queiroz SP-304", "destino": "Viracopos VCP (Campinas)", "motivo": "Voo comercial regular — Pedro Morganti não opera linha"},
+    {"origem": "Piracicaba", "eixo": "interior paulista", "destino": "Leite Lopes RAO (Ribeirão Preto)", "motivo": "Voo já marcado no terminal comercial da Rede VOA"},
+    {"origem": "Piracicaba", "eixo": "Anhanguera / malha SP", "destino": "GRU Guarulhos", "motivo": "Pauta internacional / conexão"}
+  ],
+  "eixos": ["Centro (Independência / Rua do Porto)", "ESALQ/USP Pádua Dias", "Unimep Campus Centro Rangel Pestana"],
+  "aeroportos": [
+    {"nome": "Aeroporto Comendador Pedro Morganti", "iata": "", "municipio": "Piracicaba", "relacao": "ICAO SDPW. Aviação geral, junto à ESALQ. Prefeitura: NÃO opera linhas comerciais. IATA QHB em fontes secundárias — não publicar IATA sem ANAC.", "fonte": "piracicaba.sp.gov.br/servicos/aeroporto-comendador-pedro-morganti (atualizado 2024-08-07)", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de Viracopos", "iata": "VCP", "municipio": "Campinas", "relacao": "Vazão comercial típica via SP-304", "fonte": "Prefeitura de Piracicaba; Portal Viracopos", "data": "2026-08-29"},
+    {"nome": "Aeroporto Estadual Doutor Leite Lopes", "iata": "RAO", "municipio": "Ribeirão Preto", "relacao": "Terminal comercial da Rede VOA", "fonte": "redevoa.com.br aeroporto Leite Lopes; ARTESP CCM voos", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Vazão internacional da pauta longa", "fonte": "GRU Airport / Prefeitura de Guarulhos", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Rodovia Luiz de Queiroz (SP-304)", "fonte": "G1 Piracicaba 2025-04-15; DER-SP; Eixo SP 2026", "data": "2026-08-29"},
+    {"nome": "Rodovia do Açúcar / Comendador Mário Dedini (SP-308) — antigo campus Taquaral", "fonte": "G1 2025-09-16 leilão Unimep Taquaral", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["ESALQ/USP e CENA — Av. Pádua Dias 11", "Unimep Campus Centro — Rua Rangel Pestana 762", "Centro / Independência / Rua do Porto"],
+  "vizinhos_pedido": ["Campinas (VCP)", "Ribeirão Preto (RAO)", "São Paulo / Guarulhos (GRU)", "Santa Bárbara d'Oeste / Americana"],
+  "prefeito": {"nome": "Helinho Zanatta", "fonte": "G1 2025-04-15; G1 2025-08-28", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Pedro Morganti não opera linhas comerciais; VCP em Campinas é o mais próximo com esse serviço", "fonte": "https://piracicaba.sp.gov.br/servicos/aeroporto-comendador-pedro-morganti/", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Aeroporto Comendador Pedro Morganti não opera linha comercial.", "publicado": true},
+    {"fato": "ESALQ Av. Pádua Dias, 11 CEP 13418-900; campus Luiz de Queiroz inclui CENA", "fonte": "esalq.usp.br", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O campus da ESALQ/USP fica na Avenida Pádua Dias, 11.", "publicado": true},
+    {"fato": "Unimep consolidou operações no Campus Centro, Rua Rangel Pestana, 762, em 2025; Taquaral desativado e leiloado em 16/09/2025", "fonte": "unimep.edu.br/conheca-a-unimep; G1 2025-09-16", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "A Unimep opera no Campus Centro, Rua Rangel Pestana, 762.", "publicado": true},
+    {"fato": "IATA PIR não comprovada — deixar IATA vazia na landing", "fonte": "Prefeitura não publica IATA; Wikipedia QHB/SDPW", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "", "publicado": false},
+    {"fato": "RAO é terminal comercial em Ribeirão Preto (Rede VOA)", "fonte": "Rede VOA; ARTESP CCM", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Aeroporto Estadual Dr. Leite Lopes (RAO), em Ribeirão Preto, entra quando o voo já está marcado lá.", "publicado": true},
+    {"fato": "IBGE 3538709", "fonte": "IBGE", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "", "publicado": false}
+  ],
+  "descartado": ["IATA PIR", "Unimep Taquaral como campus ativo", "Parque do Taquaral como eixo turístico", "Jet regular no Pedro Morganti", "Tempos em minutos"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

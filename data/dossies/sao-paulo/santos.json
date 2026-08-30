@@ -5,42 +5,30 @@
   "pesquisado_em": "2026-08-29",
   "ibge": "3548500",
   "mapa_operacional": [
-    {"origem": "Hotel no Gonzaga / Boqueirão", "eixo": "orla / Ana Costa", "destino": "Centro Histórico, Valongo ou Concais", "motivo": "Pauta institucional, cruzeiro ou carga"},
-    {"origem": "Ponta da Praia", "eixo": "ponta do canal / travessia", "destino": "Guarujá ou retorno à orla", "motivo": "Pedido que vaza pelo estuário"},
-    {"origem": "Gonzaga ou Concais", "eixo": "Imigrantes (SP-160) ou Anchieta (SP-150)", "destino": "CGH ou GRU", "motivo": "Santos não tem aeroporto comercial de passageiros; voo é destino de serra"},
-    {"origem": "Santos", "eixo": "porto / Cônego Domênico Rangoni", "destino": "Cubatão ou Guarujá", "motivo": "Vazamento operacional do complexo portuário"}
+    {"origem": "Gonzaga / Boqueirão", "eixo": "orla Ana Costa", "destino": "Centro Histórico ou Concais", "motivo": "Hotel, pauta, cruzeiro"},
+    {"origem": "Ponta da Praia", "eixo": "travessia / canal", "destino": "Guarujá ou orla", "motivo": "Vazamento pelo estuário"},
+    {"origem": "Gonzaga ou Concais", "eixo": "Imigrantes SP-160 ou Anchieta SP-150", "destino": "CGH ou GRU", "motivo": "Sem aeroporto de pax no município"}
   ],
-  "eixos": ["Gonzaga / orla", "Ponta da Praia / travessia", "Porto (Concais / cais) e Centro Histórico"],
+  "eixos": ["Gonzaga / orla", "Ponta da Praia / travessia", "Porto Concais / Centro Histórico"],
   "aeroportos": [
-    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino de serra; não há saguão comercial de pax em Santos", "fonte": "Aena Brasil; Wikipedia Congonhas (Campo Belo)", "data": "2026-08-29"},
-    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos – Governador André Franco Montoro", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Destino de serra a partir de Santos", "fonte": "ANAC GRU em Guarulhos", "data": "2026-08-29"}
+    {"nome": "Aeroporto de São Paulo/Congonhas", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino de serra", "fonte": "Aena Brasil", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Destino de serra", "fonte": "ANAC", "data": "2026-08-29"}
   ],
   "rodovias": [
-    {"nome": "SP-150 Anchieta e SP-160 Imigrantes (Sistema Anchieta-Imigrantes)", "fonte": "ecoviasimigrantes.com.br — SAI liga RMSP ao Porto de Santos e polo de Cubatão", "data": "2026-08-29"},
-    {"nome": "SP-248/55 Rodovia Cônego Domênico Rangoni (Piaçaguera–Guarujá)", "fonte": "Ecovias SAI", "data": "2026-08-29"}
+    {"nome": "SP-150 Anchieta e SP-160 Imigrantes", "fonte": "ecoviasimigrantes.com.br SAI", "data": "2026-08-29"},
+    {"nome": "Cônego Domênico Rangoni Piaçaguera-Guarujá", "fonte": "Ecovias SAI", "data": "2026-08-29"}
   ],
   "hoteis_ancora": [],
-  "polos": ["Porto organizado de Santos (APS)", "Concais — Terminal Marítimo de Passageiros (Armazém 25)", "Orla Gonzaga", "Centro Histórico / Valongo"],
+  "polos": ["APS Porto de Santos", "Concais Armazém 25 Av. Cândido Gaffrée", "Gonzaga"],
   "vizinhos_pedido": ["Guarujá", "Cubatão", "CGH", "GRU"],
-  "prefeito": {"nome": "Rogério Pereira dos Santos", "fonte": "cidades.ibge.gov.br/brasil/sp/santos; Santa Portal posse 2025", "data": "2026-08-29", "publicado": false},
+  "prefeito": {"nome": "Rogério Pereira dos Santos", "fonte": "cidades.ibge.gov.br Santos", "data": "2026-08-29", "publicado": false},
   "fatos": [
-    {"fato": "Código IBGE 3548500", "fonte": "cidades.ibge.gov.br/brasil/sp/santos", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
-    {"fato": "Complexo portuário no estuário entre Santos, Guarujá e Cubatão", "fonte": "portodesantos.com.br — Complexo portuário de Santos (APS)", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "O cais santista pede o terminal; Cubatão e Guarujá vazam como recorte próprio.", "publicado": true},
-    {"fato": "Concais no Armazém 25, Av. Cândido Gaffrée s/n — NÃO na Ponta da Praia", "fonte": "concais.com.br endereço oficial do terminal", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "O Concais opera no Armazém 25, na Cândido Gaffrée. A Ponta da Praia é outro recuo.", "publicado": true},
-    {"fato": "Não há aeroporto comercial de passageiros em operação no município de Santos", "fonte": "Ausência em ANAC concessões municipais; Base Aérea de Santos (SSZ) está no Guarujá", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Santos não tem saguão comercial de passageiros. O voo sai por CGH ou GRU.", "publicado": true},
-    {"fato": "Futuro aeroporto civil no Guarujá: voos comerciais projetados para 2027, não homologados em 2026-08-29", "fonte": "Diário do Litoral / Mercado&Eventos 2026", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "", "publicado": false}
+    {"fato": "IBGE 3548500", "fonte": "cidades.ibge.gov.br Santos", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
+    {"fato": "Concais no Armazém 25, não na Ponta da Praia", "fonte": "concais.com.br", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "O Concais opera no Armazém 25, na Cândido Gaffrée.", "publicado": true},
+    {"fato": "Sem aeroporto comercial de pax em Santos", "fonte": "ANAC; Base Aérea SSZ no Guarujá", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Santos não tem saguão comercial de passageiros. O voo sai por CGH ou GRU.", "publicado": true},
+    {"fato": "Complexo portuário Santos Guarujá Cubatão", "fonte": "portodesantos.com.br APS", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "Cubatão e Guarujá vazam como recorte próprio.", "publicado": true}
   ],
-  "descartado": [
-    "Inventar aeroporto de passageiros em Santos",
-    "Tratar Concais como se fosse na Ponta da Praia",
-    "Publicar aeroporto do Guarujá como opção operacional de pax em 2026-08-29",
-    "Tempo de serra em minutos",
-    "Transferência do Concais para o Valongo como endereço já vigente"
-  ],
+  "descartado": ["Inventar aeroporto santista de pax", "Concais na Ponta da Praia", "Aeroporto do Guarujá como opção 2026-08-29", "Concais já no Valongo"],
   "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
-  "verificar": [
-    "Operador atual da travessia Santos–Guarujá (historicamente Dersa)",
-    "Data efetiva de operação do Concais no Valongo (endereço atual continua Armazém 25)",
-    "Homologação comercial do aeródromo no Guarujá (não publicar como destino de pax)"
-  ]
+  "verificar": ["Operador da travessia Santos-Guarujá", "Data do Concais no Valongo", "Homologação comercial no Guarujá"]
 }

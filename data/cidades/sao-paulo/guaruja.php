@@ -5,105 +5,61 @@ declare(strict_types=1);
 return [
     'layout' => 'orla',
     'cidade_nome' => 'Guarujá',
-    'geo' => [
-        'lat' => -23.9931,
-        'lng' => -46.2564,
-    ],
+    'geo' => ['lat' => -23.9931, 'lng' => -46.2564],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Guarujá',
     'seo' => [
-        'title' => 'Motorista executivo em Guarujá: Pitangueiras e CGH',
-        'description' => 'Motorista executivo em Guarujá: Pitangueiras, Enseada e Congonhas (CGH), em São Paulo. Ida, espera ou dia à disposição. Orçamento sob consulta.',
-        'og_title' => 'Embarque em Guarujá: hotel, Pitangueiras e CGH',
-        'og_description' => 'O motorista combina Pitangueiras com Congonhas (CGH), em São Paulo. Informe nome do hotel na orla.',
-        'og_image_alt' => 'Carro executivo em via de Guarujá',
+        'title' => 'Motorista em Guarujá: Pitangueiras, Enseada e CGH',
+        'description' => 'Motorista em Guarujá para Pitangueiras, Enseada e Vicente de Carvalho. Balsa rumo a Santos ou Cônego Rangoni até CGH e GRU. Porto e orçamento sob consulta.',
+        'og_title' => 'Traslado na Enseada, em Pitangueiras e na Rangoni',
+        'og_description' => 'Carro no Guarujá: hotel na Enseada, recuo em Pitangueiras e o salto pela Cônego Rangoni rumo à serra.',
+        'og_image_alt' => 'Carro executivo na orla da Enseada, em Guarujá',
     ],
     'kicker' => 'Baixada Santista · SP',
-    'h1' => 'Em Guarujá: do embarque em Pitangueiras ao CGH',
-    'faq_h2' => 'Dúvidas de quem embarca em Guarujá',
-    'faq' => [
-        [
-            'pergunta' => 'Quem está em Guarujá embarca no CGH dentro da cidade?',
-            'resposta' => 'Não. De Guarujá o CGH (Congonhas) fica em São Paulo. O trecho sai de Pitangueiras pela ponte Pedro de Moraes Alves.',
-        ],
-        [
-            'pergunta' => 'Em Guarujá, vocês buscam em Pitangueiras?',
-            'resposta' => 'Sim, em Guarujá. Envie nome do hotel na orla em Pitangueiras. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Guarujá vocês fazem Santos?',
-            'resposta' => 'Sim, saindo de Guarujá. Santos não é o recorte de Pitangueiras; o horário pela SP-055 sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Guarujá, CGH e GRU são o mesmo recorte?',
-            'resposta' => 'Não, em Guarujá. CGH fica em São Paulo; GRU fica em Guarulhos. Diga o IATA no pedido.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Guarujá e o CGH',
-        'texto' => 'Diga o ponto em Pitangueiras ou Enseada, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Guarujá',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'sao-paulo',
-            'ancora' => 'Guarujá e o recorte de Baixada Santista',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'sao-paulo',
-            'cidade' => 'santos',
-            'ancora' => 'Motorista em santos',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'sao-paulo',
-            'cidade' => 'sao-paulo',
-            'ancora' => 'Motorista em sao paulo',
-        ],
-    ],
-    'epigrafe' => 'Pitangueiras não é o mesmo recuo de Enseada. O motorista segura o acesso; o passageiro segura o horário.',
+    'h1' => 'Da Enseada a Santos sem perder a janela da Rangoni',
+    'epigrafe' => 'Guarujá é ilha. Pitangueiras e a Enseada não compartilham o mesmo recuo; Vicente de Carvalho pede a balsa ou a Cônego Domenico Rangoni, não o pin da orla. O voo sai em Congonhas ou em Guarulhos; o cais de Santos vaza para o mesmo expediente quando o terminal já está no roteiro.',
     'abertura' => [
-        'h2' => 'Guarujá: origem na orla, destino no terminal certo',
+        'h2' => 'A ilha cobra orla, canal e serra — não um pin de praia',
         'texto' => [
-            'Guarujá usa Congonhas (CGH), em São Paulo. Quem embarca em Pitangueiras não está no município da pista. A ponte Pedro de Moraes Alves é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
-            'Enseada pede orla. Astúrias pede bairro. Quando Santos entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela SP-055.',
+            'Pitangueiras se lê na Avenida Marechal Deodoro. A Enseada se lê na Miguel Stéfano, com o pernoite concentrado na maior faixa da ilha. Vicente de Carvalho fica no continente do município: é a margem da balsa rumo à Ponta da Praia, em Santos, e o acesso seco pela Cônego Domenico Rangoni (Piaçaguera–Guarujá) até o Sistema Anchieta-Imigrantes.',
+            'Não há saguão comercial de passageiros no Guarujá. O pedido típico junta hotel na Enseada ou em Pitangueiras, pauta no porto de Santos e o recuo da serra até Congonhas (CGH) ou Guarulhos (GRU). Informe se o trecho cruza o canal de balsa ou sobe pela Rangoni; os dois relógios não se trocam.',
         ],
     ],
     'faixas' => [
-        [
-            'h2' => 'Pitangueiras: o relógio do embarque',
-            'texto' => 'Pitangueiras concentra hotel na orla. Informe nome do hotel na orla.',
-        ],
-        [
-            'h2' => 'Enseada e Astúrias',
-            'texto' => 'Enseada pede orla. Astúrias pede bairro. A ordem muda o intervalo mais que o mapa.',
-        ],
-        [
-            'h2' => 'Congonhas (CGH), em São Paulo',
-            'texto' => 'Congonhas (CGH) fica em São Paulo, não em Guarujá. O trecho sai pela Imigrantes / ponte. Diga o IATA e o número do voo.',
-        ],
+        ['h2' => 'Pitangueiras e a Marechal Deodoro', 'texto' => 'Praia central, comércio e o recuo urbano da ilha. “Na praia” não distingue Pitangueiras da Enseada. Informe o hotel pelo nome e a quadra; o calçadão da Marechal Deodoro não é o da Miguel Stéfano.'],
+        ['h2' => 'Enseada, Miguel Stéfano e o pernoite da orla longa', 'texto' => 'A maior praia da cidade concentra hotel e evento. Casa Grande e similares entram só como ponto de embarque na Enseada — não em Pitangueiras. A litorânea muda o intervalo no feriado; a margem sai do hotel, não do mapa.'],
+        ['h2' => 'Vicente de Carvalho, balsa e a Cônego Rangoni', 'texto' => 'Canal rumo a Santos pela balsa da Ponta da Praia, ou acesso seco pela Rangoni até a serra. O porto opera nas duas margens do estuário: o terminal entra no roteiro com nome, não como desvio na fila. Não há ponte Santos–Guarujá em operação.'],
     ],
     'aeroportos' => [
-        'h2' => 'Terminal e vazão a partir de Guarujá',
+        'h2' => 'CGH e GRU pela Rangoni — o saguão não é o da ilha',
         'itens' => [
-            [
-                'h3' => 'Congonhas — CGH',
-                'texto' => 'Congonhas (CGH) fica em São Paulo, não em Guarujá. O trecho sai pela Imigrantes / ponte. Diga o IATA e o número do voo.',
-            ],
-            [
-                'h3' => 'Guarulhos — GRU',
-                'texto' => 'Guarulhos (GRU) fica em Guarulhos, não em Guarujá. O trecho sai pela Anchieta. Diga o IATA e o número do voo.',
-            ],
+            ['h3' => 'Congonhas — CGH', 'texto' => 'O trecho Guarujá–capital entra como viagem. A Cônego Rangoni entrega o carro no Sistema Anchieta-Imigrantes; combinamos o terminal e a margem da serra. Não é corrida urbana de Pitangueiras.'],
+            ['h3' => 'Guarulhos — GRU', 'texto' => 'Rangoni, serra, Rodoanel e Cumbica. Informe o voo e o terminal; a espera no desembarque integra o trecho GRU quando o pouso já está no roteiro. O campo local da Base Aérea não substitui esse saguão.'],
         ],
     ],
     'protocolo' => [
-        'h2' => 'O que pedimos para acertar o embarque em Guarujá',
+        'h2' => 'O que pedimos para acertar o embarque no Guarujá',
         'lista' => [
-            'Hotel, prédio ou empresa com nome — “em Pitangueiras” não basta.',
-            'Qual terminal: CGH em São Paulo ou GRU em Guarulhos.',
-            'Se Santos entra depois, a ordem muda o recorte.',
+            'Orla com nome — Pitangueiras ou Enseada. Hotel pelo estabelecimento; Casa Grande só como embarque na Enseada.',
+            'Balsa rumo a Santos ou Cônego Rangoni rumo à serra. Os dois recortes não cabem no mesmo intervalo.',
+            'Se o voo é em Congonhas ou em GRU, número e horário. Porto de Santos entra com o terminal, não como “perto da praia”.',
         ],
+    ],
+    'faq_h2' => 'Pitangueiras, Enseada e o canal até Santos',
+    'faq' => [
+        ['pergunta' => 'O Guarujá tem aeroporto comercial de passageiros?', 'resposta' => 'Não. O voo sai em Congonhas ou em Guarulhos. A Cônego Rangoni e a serra entram no roteiro com margem; o campo da Base Aérea não substitui o saguão.'],
+        ['pergunta' => 'A travessia para Santos é de balsa ou de ponte?', 'resposta' => 'A ligação direta com Santos é a balsa da Ponta da Praia, em Vicente de Carvalho. O acesso seco à serra é a Cônego Domenico Rangoni. Não há ponte Santos–Guarujá em operação; o túnel imerso ainda não circula.'],
+        ['pergunta' => 'Pitangueiras e Enseada têm o mesmo recuo?', 'resposta' => 'Não. Pitangueiras pede a Marechal Deodoro; a Enseada pede a Miguel Stéfano. Informe o hotel pelo nome. Casa Grande fica na Enseada, não em Pitangueiras.'],
+        ['pergunta' => 'O porto de Santos entra no mesmo pedido da orla?', 'resposta' => 'Entra quando o terminal já está no roteiro. O cais opera nas duas margens do estuário; o horário da balsa ou da Rangoni pesa mais que o quilômetro no mapa.'],
+    ],
+    'cta' => [
+        'titulo' => 'Marque a Enseada junto com a Rangoni ou a balsa',
+        'texto' => 'Diga o hotel em Pitangueiras ou na Enseada, se o trecho é balsa ou Rangoni, e o voo em CGH ou GRU. Horário sob consulta.',
+        'botao' => 'Pedir motorista em Guarujá',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
+        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'santos', 'ancora' => 'Gonzaga, Ponta da Praia e o porto'],
+        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas e GRU na capital'],
     ],
 ];

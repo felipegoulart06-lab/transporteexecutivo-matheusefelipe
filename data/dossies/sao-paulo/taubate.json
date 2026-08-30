@@ -1,72 +1,36 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "taubate",
-    "nome": "Taubaté",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Dutra",
-            "destino": "Professor Urbano Ernesto Stumpf",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Independência",
-        "Esplanada Independência",
-        "UNITAU"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Professor Urbano Ernesto Stumpf",
-            "iata": "SJK",
-            "municipio": "São José dos Campos",
-            "acesso": "Dutra"
-        }
-    ],
-    "rodovias": [
-        "Dutra",
-        "Avenida Charles Schnneider",
-        "Avenida Independência"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro",
-        "industrial",
-        "campus"
-    ],
-    "vizinhos_pedido": [
-        "São José dos Campos",
-        "Pindamonhangaba",
-        "Guarulhos"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal SJK em São José dos Campos",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "taubate",
+  "nome": "Taubaté",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro (Av. 9 de Julho / Paço)", "eixo": "sede", "destino": "hotel / pauta urbana", "motivo": "Recuo da sede; não é Independência nem a planta"},
+    {"origem": "UNITAU", "eixo": "campus Centro (Praça Félix Guisard / Barbosa de Oliveira) ou Bom Conselho (Av. Tiradentes)", "destino": "portaria da unidade", "motivo": "Dois recuos acadêmicos; precisa do bloco"},
+    {"origem": "Piracangagua", "eixo": "Av. Carlos Pedroso da Silveira", "destino": "planta Volkswagen", "motivo": "Cancela industrial; lista e documento"},
+    {"origem": "Taubaté", "eixo": "Dutra BR-116", "destino": "SJK em São José dos Campos", "motivo": "SBTA é militar; vazão comercial de pax é o SJK"}
+  ],
+  "eixos": ["Centro", "UNITAU", "Piracangagua / Volkswagen"],
+  "aeroportos": [
+    {"nome": "Aeroporto de São José dos Campos – Professor Urbano Ernesto Stumpf", "iata": "SJK", "municipio": "São José dos Campos", "relacao": "Vazão comercial de passageiros de Taubaté pela Dutra; não está no município", "fonte": "sjkairport.com (GOL GIG); Wikipedia SJK ICAO SBSJ", "data": "2026-08-29"},
+    {"nome": "Base de Aviação de Taubaté", "iata": "QHP", "municipio": "Taubaté", "relacao": "Aeródromo militar do Exército (ICAO SBTA). Não publicar como terminal comercial de pax.", "fonte": "AISWEB DECEA codigo=SBTA: AD MIL EXÉRCITO BRASILEIRO; Wikipedia Base de Aviação de Taubaté", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-116 Rodovia Presidente Dutra", "fonte": "DNIT; eixo Vale do Paraíba Taubaté–São José dos Campos", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["UNITAU (Centro e Bom Conselho)", "Volkswagen — Av. Carlos Pedroso da Silveira, Piracangagua", "Centro / Independência (apoio, não o terceiro eixo industrial)"],
+  "vizinhos_pedido": ["São José dos Campos", "SJK", "Pindamonhangaba"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "SBTA/QHP é base militar do Exército. AISWEB: AD MIL. Não inventar saguão comercial de pax em Taubaté.", "fonte": "aisweb.decea.mil.br/?codigo=SBTA&i=aerodromos; Wikipedia Base de Aviação de Taubaté (CAvEx)", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "A Base de Aviação é militar e não opera malha regular de passageiros. O saguão prático é o SJK, em São José dos Campos, pela Dutra.", "publicado": true},
+    {"fato": "SJK (Professor Urbano Ernesto Stumpf) em São José dos Campos opera malha comercial (GOL GIG no site do aeroporto na consulta).", "fonte": "sjkairport.com quadro de voos", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O aeroporto comercial fica em São José. Combinamos o voo e a margem da Dutra.", "publicado": true},
+    {"fato": "Volkswagen em Piracangagua, Av. Carlos Pedroso da Silveira. UNITAU: Centro (Praça Félix Guisard / Barbosa de Oliveira) e Bom Conselho (Av. Tiradentes).", "fonte": "Endereços institucionais UNITAU e planta VW Taubaté (Piracangagua)", "data": "2026-08-29", "tipo": "polo", "risco": "medio", "frase": "A Volkswagen fica na Avenida Carlos Pedroso da Silveira, em Piracangagua.", "publicado": true}
+  ],
+  "descartado": [
+    "Inventar terminal comercial de pax em Taubaté / usar SBTA como saguão",
+    "Avenida Charles Schnneider como eixo principal (gerador)",
+    "Minutos na Dutra até o SJK",
+    "Esplanada Independência como substituto da planta"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

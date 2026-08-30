@@ -1,78 +1,43 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "guaruja",
-    "nome": "Guarujá",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Pitangueiras",
-            "eixo": "ponte Pedro de Moraes Alves",
-            "destino": "Congonhas",
-            "motivo": "hotel na orla"
-        }
-    ],
-    "eixos": [
-        "Pitangueiras",
-        "Enseada",
-        "Astúrias",
-        "Tombo"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Congonhas",
-            "iata": "CGH",
-            "municipio": "São Paulo",
-            "acesso": "Imigrantes / ponte"
-        },
-        {
-            "nome": "Guarulhos",
-            "iata": "GRU",
-            "municipio": "Guarulhos",
-            "acesso": "Anchieta"
-        }
-    ],
-    "rodovias": [
-        "ponte Pedro de Moraes Alves",
-        "SP-055",
-        "Avenida Miguel Estefano"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel na orla",
-        "orla",
-        "bairro",
-        "praia"
-    ],
-    "vizinhos_pedido": [
-        "Santos",
-        "Bertioga",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CGH em São Paulo",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "guaruja",
+  "nome": "Guarujá",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Pitangueiras (Av. Marechal Deodoro)", "eixo": "orla da ilha", "destino": "hotel / comércio da praia central", "motivo": "Pernoite e recuo urbano; não se troca com a Enseada"},
+    {"origem": "Enseada (Av. Miguel Stéfano)", "eixo": "orla longa", "destino": "hotel (Casa Grande só como embarque) / evento", "motivo": "Maior faixa; pernoite concentrado fora de Pitangueiras"},
+    {"origem": "Vicente de Carvalho", "eixo": "balsa Ponta da Praia ou Cônego Domenico Rangoni", "destino": "Santos / SAI / CGH / GRU", "motivo": "Canal rumo a Santos ou acesso seco à serra; sem ponte em operação"},
+    {"origem": "Orla da ilha", "eixo": "porto de Santos (duas margens)", "destino": "cais / terminal nomeado", "motivo": "Pedido que vaza para o complexo portuário"}
+  ],
+  "eixos": ["Pitangueiras", "Enseada", "Vicente de Carvalho (balsa + Rangoni)"],
+  "aeroportos": [
+    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Vazão de serra via Cônego Rangoni e Sistema Anchieta-Imigrantes; Guarujá não tem saguão comercial de pax", "fonte": "Aena Brasil / ANAC; ausência de malha comercial municipal", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos – Governador André Franco Montoro", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Vazão de serra via Rangoni, SAI e Rodoanel", "fonte": "ANAC GRU em Guarulhos", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "SP-055 / Cônego Domenico Rangoni (Piaçaguera–Guarujá)", "fonte": "Ecovias SAI; SYSTRA/DER: ligação terrestre Santos–Guarujá via Anchieta e Rangoni (~45 km) vs balsa", "data": "2026-08-29"},
+    {"nome": "Travessia de balsa Ponta da Praia (Santos) ↔ Vicente de Carvalho (Guarujá)", "fonte": "pt.wikipedia.org/wiki/Travessia_Santos–Guarujá; SYSTRA: balsas na Ponta da Praia / Av. Adhemar de Barros", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [
+    {"nome": "Casa Grande Hotel Resort & Spa", "endereco": "Av. Miguel Stéfano, 1001 — Enseada / Jardim Tejereba", "fonte": "casagrandehotel.com.br / CNPJ 61.346.318/0001-13", "data": "2026-08-29", "publicado": "só como ponto de embarque na Enseada, não em Pitangueiras"}
+  ],
+  "polos": ["Ilha de Santo Amaro", "Pitangueiras / Marechal Deodoro", "Enseada / Miguel Stéfano", "Vicente de Carvalho (continente do município)", "Porto de Santos (estuário)"],
+  "vizinhos_pedido": ["Santos", "CGH", "GRU", "Cubatão"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Não há ponte Santos–Guarujá em operação; a travessia direta é balsa; o acesso seco é a Rangoni. Túnel imerso: contrato PPP assinado em jan/2026, operação prevista em 2031, ainda não circula.", "fonte": "tunelsantosguaruja.sp.gov.br; G1 Santos 2026-08-04 (desapropriações; obras previstas para 2027)", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "A ligação direta com Santos é a balsa da Ponta da Praia, em Vicente de Carvalho. O acesso seco à serra é a Cônego Domenico Rangoni. Não há ponte Santos–Guarujá em operação.", "publicado": true},
+    {"fato": "Não há aeroporto comercial de passageiros no Guarujá. Base Aérea de Santos (campo local) não substitui CGH/GRU.", "fonte": "Ausência em malha ANAC de pax municipal; projeções de aeroporto civil ~2027 não homologadas como opção operacional em 2026-08-29", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Não. O voo sai em Congonhas ou em Guarulhos.", "publicado": true},
+    {"fato": "Pitangueiras = Av. Marechal Deodoro; Enseada = Av. Miguel Stéfano. Casa Grande fica na Enseada.", "fonte": "Endereço oficial Casa Grande Av. Miguel Stéfano 1001 Enseada; toponímia municipal da orla", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "Pitangueiras pede a Marechal Deodoro; a Enseada pede a Miguel Stéfano. Casa Grande fica na Enseada, não em Pitangueiras.", "publicado": true},
+    {"fato": "Vicente de Carvalho é distrito continental do município; balsa rumo à Ponta da Praia em Santos.", "fonte": "Travessia Santos–Guarujá (Ponta da Praia ↔ Vicente de Carvalho)", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "Vicente de Carvalho fica no continente do município: é a margem da balsa rumo à Ponta da Praia, em Santos.", "publicado": true},
+    {"fato": "Porto de Santos opera nas duas margens do estuário (Santos/Guarujá/Cubatão).", "fonte": "APS / portodesantos.com.br — complexo portuário", "data": "2026-08-29", "tipo": "polo", "risco": "medio", "frase": "O porto opera nas duas margens do estuário: o terminal entra no roteiro com nome.", "publicado": true}
+  ],
+  "descartado": [
+    "Ponte Pedro de Moraes Alves (nome inventado pelo gerador; não existe como acesso)",
+    "Tratar a ponte Santos–Guarujá ou o túnel imerso como já em circulação",
+    "Publicar aeroporto civil do Guarujá como opção de pax em 2026-08-29",
+    "Tratar Guarujá como Praia Grande (ilha/balsa/Rangoni vs Imigrantes/continente)",
+    "Minutos de serra ou de balsa",
+    "Astúrias e Tombo como eixos desta landing (não cabem no recorte de 3 faixas)"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

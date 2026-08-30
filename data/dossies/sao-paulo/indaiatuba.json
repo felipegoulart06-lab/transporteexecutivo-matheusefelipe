@@ -1,72 +1,32 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "indaiatuba",
-    "nome": "Indaiatuba",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "SP-075",
-            "destino": "Viracopos",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Helvétia",
-        "Jardim Pompéia",
-        "Cidade Nova"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Viracopos",
-            "iata": "VCP",
-            "municipio": "Campinas",
-            "acesso": "acesso Helvétia / Santos Dumont"
-        }
-    ],
-    "rodovias": [
-        "SP-075",
-        "Bandeirantes",
-        "Avenida Engenheiro Fábio Roberto Barnabé"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "condomínio e VCP",
-        "bairro",
-        "residencial"
-    ],
-    "vizinhos_pedido": [
-        "Campinas",
-        "Salto",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal VCP em Campinas",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "indaiatuba",
+  "nome": "Indaiatuba",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Helvétia (condomínio/portaria)", "eixo": "Rodovia Santos Dumont SP-075", "destino": "Viracopos VCP (Campinas, km 66)", "motivo": "Transfer ao saguão vizinho — terminal em outro município"},
+    {"origem": "Centro (Av. Engenheiro Fábio Roberto Barnabé)", "eixo": "urbano Indaiatuba", "destino": "Helvétia ou distrito na SP-075", "motivo": "Pauta local + recuo logístico"},
+    {"origem": "Indaiatuba", "eixo": "SP-075 / Anhanguera", "destino": "Jundiaí ou Campinas centro (Cambuí)", "motivo": "Trecho intermunicipal nomeado"}
+  ],
+  "eixos": ["Centro / Fábio Roberto Barnabé", "Helvétia", "Distrito / logística na Santos Dumont"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Viracopos/Campinas", "iata": "VCP", "municipio": "Campinas", "relacao": "Terminal físico em Campinas, Rodovia Santos Dumont km 66. Acesso de Indaiatuba pela vizinhança (Helvétia / SP-075).", "fonte": "portalviracopos.com.br/como-chegar 2026-08-29", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Rodovia Santos Dumont (SP-075) — acesso principal ao VCP no km 66", "fonte": "Portal Viracopos Como chegar", "data": "2026-08-29"},
+    {"nome": "Conexões Bandeirantes, Anhanguera e Dom Pedro I (a partir da SP-075)", "fonte": "Portal Viracopos", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Helvétia (condomínios e acesso VCP)", "Centro de Indaiatuba", "Eixo logístico/industrial da Santos Dumont"],
+  "vizinhos_pedido": ["Campinas (VCP e Cambuí)", "Jundiaí", "Sorocaba"],
+  "prefeito": {"nome": "Dr. Custódio Tavares Dias Neto (MDB)", "fonte": "indaiatuba.sp.gov.br posse 2025-01-01", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Viracopos está em Campinas, não em Indaiatuba: Rodovia Santos Dumont, km 66, CEP 13052-900", "fonte": "portalviracopos.com.br/como-chegar", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O Aeroporto Internacional de Viracopos (VCP) está na Rodovia Santos Dumont (SP-075), km 66, no município de Campinas.", "publicado": true},
+    {"fato": "Portal Viracopos: ônibus urbanos/executivos para Indaiatuba, Jundiaí, Vinhedo", "fonte": "Portal Viracopos Como chegar", "data": "2026-08-29", "tipo": "trecho", "risco": "medio", "frase": "Helvétia cola nesse acesso.", "publicado": true},
+    {"fato": "Toyota encerrou a fábrica de Indaiatuba em 30/06/2026", "fonte": "G1 Campinas 2026-06-30; AutoIndústria 2026-06-30", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "", "publicado": false},
+    {"fato": "Helvétia é bairro de Indaiatuba junto à SP-075", "fonte": "mercado imobiliário local; não publicar minutos", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "Helvétia cola nesse acesso.", "publicado": true},
+    {"fato": "IBGE 3520509", "fonte": "IBGE", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Toyota Indaiatuba como planta em operação (fechou 2026-06-30)", "VCP como se o terminal pertencesse a Indaiatuba", "Tempos em minutos Helvétia–saguão"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

@@ -6,7 +6,7 @@
   "mapa_operacional": [
     {"origem": "LDB (Novo Aeroporto)", "eixo": "Urbano / Saul Elkind", "destino": "Gleba Palhano (Avenida Ayrton Senna)", "motivo": "Pouso e hotel"},
     {"origem": "Gleba Palhano", "eixo": "Ayrton Senna", "destino": "Centro", "motivo": "Pauta urbana"},
-    {"origem": "Hotel / Centro", "eixo": "BR-369 (Av. Brasília no viário municipal)", "destino": "Maringá", "motivo": "Viagem intermunicipal"}
+    {"origem": "Hotel / Centro", "eixo": "viagem intermunicipal (não publicar BR-369 como via de Maringá)", "destino": "Maringá", "motivo": "Pauta que vaza o município"}
   ],
   "eixos": ["Gleba Palhano", "Centro", "LDB / Novo Aeroporto"],
   "aeroportos": [

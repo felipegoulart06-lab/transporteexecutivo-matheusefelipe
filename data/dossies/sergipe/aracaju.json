@@ -1,72 +1,27 @@
 {
-    "estado": "sergipe",
-    "cidade": "aracaju",
-    "nome": "Aracaju",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Atalaia",
-            "eixo": "Avenida Beira Mar",
-            "destino": "Santa Maria",
-            "motivo": "hotel na orla"
-        }
-    ],
-    "eixos": [
-        "Atalaia",
-        "13 de Julho",
-        "Centro",
-        "Coroa do Meio"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Santa Maria",
-            "iata": "AJU",
-            "municipio": "Aracaju",
-            "acesso": "Avenida Senador Júlio Leite"
-        }
-    ],
-    "rodovias": [
-        "Avenida Beira Mar",
-        "ponte do Imperador",
-        "SE-100"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel na orla",
-        "clínica e hotel",
-        "pauta institucional",
-        "orla"
-    ],
-    "vizinhos_pedido": [
-        "Barra dos Coqueiros",
-        "Nossa Senhora do Socorro",
-        "Maceió"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal AJU em Aracaju",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sergipe",
+  "cidade": "aracaju",
+  "nome": "Aracaju",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "AJU zona sul", "eixo": "urbano sul", "destino": "Atalaia / Santos Dumont", "motivo": "Transfer hotel de orla"},
+    {"origem": "Atalaia", "eixo": "desnível", "destino": "Centro", "motivo": "Pauta institucional"},
+    {"origem": "Aracaju", "eixo": "Ponte Construtor João Alves", "destino": "Barra dos Coqueiros", "motivo": "Intermunicipal"}
+  ],
+  "eixos": ["Atalaia / Santos Dumont", "Centro", "Barra dos Coqueiros (ponte)", "AJU zona sul"],
+  "aeroportos": [
+    {"nome": "Aeródromo público Santa Maria", "iata": "AJU", "municipio": "Aracaju", "relacao": "Zona sul, não na orla da Atalaia. ANAC CIAD SE0001.", "fonte": "Portaria ANAC 3.773/SIA 17.12.2020; Aena; IBGE 2800308", "data": "2026-08-29"}
+  ],
+  "rodovias": [{"nome": "Ponte Construtor João Alves", "fonte": "inaugurada 24.09.2006", "data": "2026-08-29"}],
+  "hoteis_ancora": [],
+  "polos": ["Orla da Atalaia", "Centro", "Barra dos Coqueiros"],
+  "vizinhos_pedido": ["Barra dos Coqueiros", "Laranjeiras"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "AJU município Aracaju, IATA AJU", "fonte": "Portaria 3.773/SIA/2020", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O AJU fica na zona sul de Aracaju, não na Atalaia.", "publicado": true},
+    {"fato": "Barra dos Coqueiros outro município pela ponte", "fonte": "IBGE; ponte 2006", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "Barra dos Coqueiros entra pela ponte, noutro município.", "publicado": true}
+  ],
+  "descartado": ["Segunda ponte em obra", "Tempos da ponte", "Hotéis nomeados"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
+  "verificar": ["Grafia Júlio César Leite no endereço Aena"]
 }

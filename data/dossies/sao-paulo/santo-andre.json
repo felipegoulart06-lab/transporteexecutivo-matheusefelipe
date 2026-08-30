@@ -1,78 +1,36 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "santo-andre",
-    "nome": "Santo André",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Anchieta",
-            "destino": "Congonhas",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Campestre",
-        "Vila Bastos",
-        "Parque Miami"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Congonhas",
-            "iata": "CGH",
-            "municipio": "São Paulo",
-            "acesso": "Anchieta"
-        },
-        {
-            "nome": "Guarulhos",
-            "iata": "GRU",
-            "municipio": "Guarulhos",
-            "acesso": "Ayrton Senna"
-        }
-    ],
-    "rodovias": [
-        "Anchieta",
-        "Avenida Industrial",
-        "Pereira Barreto"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro executivo",
-        "residencial",
-        "eixo"
-    ],
-    "vizinhos_pedido": [
-        "São Bernardo do Campo",
-        "São Paulo",
-        "São Caetano do Sul"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CGH em São Paulo",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "santo-andre",
+  "nome": "Santo André",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Campestre (hotel/clínica)", "eixo": "urbano andreense", "destino": "Paço / Centro Cívico Praça IV Centenário, 1", "motivo": "Pauta na sede dos três poderes"},
+    {"origem": "Centro Cívico ou Campestre", "eixo": "Avenida Industrial", "destino": "Grand Plaza / torres", "motivo": "Reunião comercial no shopping-eixo"},
+    {"origem": "Santo André", "eixo": "Pereira Barreto → Via Anchieta SP-150", "destino": "Congonhas CGH (São Paulo)", "motivo": "Voo doméstico — município sem saguão"},
+    {"origem": "Santo André", "eixo": "Rodoanel SP-021", "destino": "GRU Guarulhos", "motivo": "Voo internacional"},
+    {"origem": "Centro", "eixo": "serra / ramal ferroviário", "destino": "Paranapiacaba (distrito)", "motivo": "Visita combinada — não é trecho urbano do Paço"}
+  ],
+  "eixos": ["Centro / Paço (Praça IV Centenário)", "Campestre", "Avenida Industrial / Grand Plaza", "Pereira Barreto / Shopping ABC"],
+  "aeroportos": [
+    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino típico do ABC; não fica em Santo André", "fonte": "Aena Brasil", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Acesso típico pelo Rodoanel", "fonte": "Prefeitura de Guarulhos / GRU Airport", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Via Anchieta (SP-150)", "fonte": "DER/SP; Ecovias SAI", "data": "2026-08-29"},
+    {"nome": "Rodovia dos Imigrantes (SP-160)", "fonte": "Ecovias / ARTESP", "data": "2026-08-29"},
+    {"nome": "Rodoanel (SP-021)", "fonte": "ARTESP", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Centro Cívico / Paço Municipal Praça IV Centenário", "Campestre", "Grand Plaza Shopping Av. Industrial 600", "Paranapiacaba (distrito)"],
+  "vizinhos_pedido": ["São Bernardo do Campo", "São Caetano do Sul", "Mauá (confusão de pin)", "São Paulo (CGH, Faria Lima)", "Guarulhos (GRU)"],
+  "prefeito": {"nome": "Gilvan Ferreira de Souza Junior", "fonte": "cruzar santoandre.sp.gov.br", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Santo André não tem aeroporto comercial", "fonte": "Diário do Grande ABC 2019; ANAC concessões", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Não há saguão comercial no município.", "publicado": true},
+    {"fato": "Paço / Centro Cívico na Praça IV Centenário — Prefeitura, Câmara e Fórum", "fonte": "turismosantoandre — Tour Paço Municipal", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "Prefeitura, Câmara e Fórum ficam no Centro Cívico da Praça IV Centenário.", "publicado": true},
+    {"fato": "Grand Plaza Shopping na Av. Industrial, 600 — Centro", "fonte": "turismosantoandre/shoppings", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "A Avenida Industrial concentra o Grand Plaza.", "publicado": true},
+    {"fato": "Paranapiacaba é distrito/vila ferroviária de Santo André", "fonte": "Turismo Santo André / Condephaat", "data": "2026-08-29", "tipo": "trecho", "risco": "medio", "frase": "A vila ferroviária é distrito de Santo André, mas o recuo de serra não é urbano.", "publicado": true},
+    {"fato": "IBGE 3547809", "fonte": "IBGE", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Hotel Ibis sem confirmação", "Utinga como eixo principal", "Tempos em minutos Campestre–CGH"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

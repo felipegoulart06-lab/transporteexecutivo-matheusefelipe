@@ -5,110 +5,60 @@ declare(strict_types=1);
 return [
     'layout' => 'serra',
     'cidade_nome' => 'Belo Horizonte',
-    'geo' => [
-        'lat' => -19.9167,
-        'lng' => -43.9345,
-    ],
+    'geo' => ['lat' => -19.9167, 'lng' => -43.9345],
     'imagem' => 'sudeste.jpg',
-    'schema_service_name' => 'Transporte executivo com motorista em Belo Horizonte',
+    'schema_service_name' => 'Motorista executivo entre Savassi, Lourdes e Confins',
     'seo' => [
-        'title' => 'Motorista executivo em Belo Horizonte: Savassi e CNF',
-        'description' => 'Carro com motorista em Belo Horizonte para Savassi, Lourdes e CNF. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
-        'og_title' => 'Traslado em Belo Horizonte: Savassi e CNF',
-        'og_description' => 'O motorista combina Savassi com Confins (CNF), em Confins. Informe nome do prédio e da rua.',
-        'og_image_alt' => 'Carro executivo em via de Belo Horizonte',
+        'title' => 'Savassi, Lourdes e Confins: motorista em Belo Horizonte',
+        'description' => 'Motorista em Belo Horizonte para Savassi, Lourdes e Belvedere. CNF fica em Confins, não na capital; o trecho usa a MG-010. Informe prédio, voo e se o carro permanece.',
+        'og_title' => 'Traslado no Centro-Sul mineiro e na MG-010 rumo a Confins',
+        'og_description' => 'Carro com motorista na Savassi e em Lourdes, com o Tancredo Neves fora do município de Belo Horizonte.',
+        'og_image_alt' => 'Sedan executivo em via urbana de Belo Horizonte ao entardecer',
     ],
     'kicker' => 'Capital mineira · MG',
-    'h1' => 'Belo Horizonte: entre Savassi, Lourdes e o terminal certo',
-    'faq_h2' => 'Dúvidas de quem embarca em Belo Horizonte',
-    'faq' => [
-        [
-            'pergunta' => 'Quem está em Belo Horizonte embarca no CNF dentro da cidade?',
-            'resposta' => 'Não. De Belo Horizonte o CNF (Confins) fica em Confins. O trecho sai de Savassi pela MG-010.',
-        ],
-        [
-            'pergunta' => 'Em Belo Horizonte, vocês buscam em Savassi?',
-            'resposta' => 'Sim, em Belo Horizonte. Envie nome do prédio e da rua em Savassi. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Belo Horizonte vocês fazem Contagem?',
-            'resposta' => 'Sim, saindo de Belo Horizonte. Contagem não é o recorte de Savassi; o horário pela Anel Rodoviário sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Belo Horizonte, CNF e PLU são o mesmo recorte?',
-            'resposta' => 'Não, em Belo Horizonte. CNF fica em Confins; PLU fica em Belo Horizonte. Diga o IATA no pedido.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Belo Horizonte e o CNF',
-        'texto' => 'Diga o ponto em Savassi ou Lourdes, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Belo Horizonte',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'minas-gerais',
-            'ancora' => 'Belo Horizonte e o recorte de Capital mineira',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'sao-paulo',
-            'cidade' => 'sao-paulo',
-            'ancora' => 'Motorista em sao paulo',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'rio-de-janeiro',
-            'cidade' => 'rio-de-janeiro',
-            'ancora' => 'Motorista em rio de janeiro',
-        ],
-    ],
-    'olho' => 'Savassi e Confins (CNF), em Confins não cabem no mesmo aceite tardio.',
+    'h1' => 'Da Savassi à MG-010 rumo a Confins',
+    'olho' => 'Savassi e Lourdes cabem em poucos quilômetros. Confins não: o Tancredo Neves (CNF) fica no município de Confins — parte do sítio também em Lagoa Santa — e o relógio é o da MG-010, a Linha Verde. O motorista segura a via; o passageiro segura a pauta.',
     'capitulos' => [
         [
-            'h2' => 'Savassi e o recuo da pauta',
-            'texto' => 'Belo Horizonte usa Confins (CNF), em Confins. Quem embarca em Savassi não está no município da pista. A MG-010 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+            'h2' => 'A capital compacta e o aeroporto que não é dela',
+            'texto' => 'O Centro-Sul — Savassi, Lourdes, Funcionários, Belvedere — concentra hotel, consultório e escritório. Quem marca almoço na Savassi e voo no mesmo dia precisa de um carro que já saiu do hotel rumo à MG-010, não de um aceite na porta da Praça da Liberdade. O terminal internacional não está em Belo Horizonte.',
         ],
         [
-            'h2' => 'Lourdes, Centro e a ordem do dia',
+            'h2' => 'Onde o embarque mineiro mais se concentra',
             'itens' => [
-                [
-                    'h3' => 'Lourdes',
-                    'texto' => 'Origem frequente para pauta jurídica. Informe nome do prédio e da rua. Lourdes não compartilha o recuo de Savassi.',
-                ],
-                [
-                    'h3' => 'Centro',
-                    'texto' => 'Origem frequente para sede institucional. Informe nome do prédio e da rua. Centro não compartilha o recuo de Savassi.',
-                ],
-                [
-                    'h3' => 'Pampulha',
-                    'texto' => 'Origem frequente para campus e orla da lagoa. Informe nome do prédio e da rua. Pampulha não compartilha o recuo de Savassi.',
-                ],
+                ['h3' => 'Savassi e Lourdes', 'texto' => 'Hotel boutique e escritório no hipercentro. O recuo é estreito; o nome do prédio evita a volta na Liberdade. “Na Savassi” não define a porta.'],
+                ['h3' => 'Belvedere', 'texto' => 'Agenda de board no desnível da serra. Se o destino vaza para Nova Lima, o município vizinho entra no roteiro à parte — não como bairro da capital.'],
+                ['h3' => 'Centro e a área hospitalar', 'texto' => 'Deslocamentos curtos e repetidos. Útil quando a comitiva troca de torre sem trocar de motorista, antes da subida da Linha Verde.'],
             ],
         ],
         [
-            'h2' => 'Confins — CNF',
-            'texto' => 'Confins (CNF) fica em Confins, não em Belo Horizonte. O trecho sai pela MG-010. Diga o IATA e o número do voo.',
+            'h2' => 'CNF em Confins, pela MG-010',
+            'texto' => 'O Aeroporto Internacional Tancredo Neves fica em Confins (e em fração de Lagoa Santa), administrado pela BH Airport. A sede da concessionária está na MG-10, km 09, no município de Confins. Combinamos o voo e a margem da Linha Verde. A espera no desembarque integra o trecho; não é uma segunda corrida. O DER-MG intervém na marginal da MG-010: o horário de saída do hotel leva isso em conta, sem minuto de aplicativo.',
         ],
     ],
     'passos' => [
-        'h2' => 'Como solicitar em Belo Horizonte',
+        'h2' => 'Três dados que evitam atraso na capital',
         'itens' => [
-            [
-                'num' => '01',
-                'titulo' => 'Ponto de embarque',
-                'texto' => 'Rua, número e nome do prédio e da rua. Autocomplete não resolve dois acessos em Savassi.',
-            ],
-            [
-                'num' => '02',
-                'titulo' => 'Destino e tipo de janela',
-                'texto' => 'Ida, ida e volta ou hora à disposição. Diga se o CNF ou Contagem entra no dia.',
-            ],
-            [
-                'num' => '03',
-                'titulo' => 'Confirmação',
-                'texto' => 'Em Belo Horizonte, nome e WhatsApp. Devolvemos o horário de apresentação.',
-            ],
+            ['num' => '01', 'titulo' => 'Bairro e prédio', 'texto' => 'Rua e nome do hotel na Savassi ou em Lourdes. O recuo do Centro-Sul não se improvisa.'],
+            ['num' => '02', 'titulo' => 'Voo em Confins', 'texto' => 'Número e terminal. O carro sai com margem para a MG-010, não no minuto do check-in na capital.'],
+            ['num' => '03', 'titulo' => 'Espera ou só ida', 'texto' => 'Se a reunião na Savassi estica rumo a Belvedere e depois a Confins, a hora à disposição mantém o mesmo motorista.'],
         ],
+    ],
+    'faq_h2' => 'Perguntas de quem voa por Confins, não pelo hipercentro',
+    'faq' => [
+        ['pergunta' => 'O aeroporto de Confins fica em Belo Horizonte?', 'resposta' => 'Não. O Tancredo Neves (CNF) está no município de Confins, com parte do sítio em Lagoa Santa. O acesso a partir da capital é a MG-010 (Linha Verde), sob o DER-MG.'],
+        ['pergunta' => 'A portaria do prédio na Savassi pede lista?', 'resposta' => 'Envie o nome do passageiro e o documento pedido pelo condomínio. Sem lista, o carro não resolve o recuo estreito na porta da Savassi.'],
+        ['pergunta' => 'Vocês fazem Lourdes, Belvedere e Confins no mesmo dia?', 'resposta' => 'Sim. Informe a ordem. O desnível da serra e a saída para a MG-010 pedem um único motorista. Se o compromisso for em Nova Lima, o município vizinho entra no mesmo recado.'],
+        ['pergunta' => 'A hora à disposição cobre Savassi e a área hospitalar?', 'resposta' => 'Cobre. Deslocamentos curtos no hipercentro se repetem; o mesmo carro evita três aceites. Diga se no fim do expediente o destino é Confins.'],
+    ],
+    'cta' => [
+        'titulo' => 'Coloque Confins e a Savassi no mesmo recado',
+        'texto' => 'Informe o embarque em Belo Horizonte, se o voo é em Confins e o horário. A confirmação de apresentação volta pelo WhatsApp.',
+        'botao' => 'Pedir motorista em Belo Horizonte',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'minas-gerais', 'ancora' => 'Confins, Vale do Aço e a agenda mineira'],
+        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Faria Lima, Congonhas na capital e GRU em Guarulhos'],
+        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Santos Dumont no Centro e Galeão na Ilha'],
     ],
 ];

@@ -1,78 +1,30 @@
 {
-    "estado": "minas-gerais",
-    "cidade": "belo-horizonte",
-    "nome": "Belo Horizonte",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Savassi",
-            "eixo": "MG-010",
-            "destino": "Confins",
-            "motivo": "hotel e escritório"
-        }
-    ],
-    "eixos": [
-        "Savassi",
-        "Lourdes",
-        "Centro",
-        "Pampulha"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Confins",
-            "iata": "CNF",
-            "municipio": "Confins",
-            "acesso": "MG-010"
-        },
-        {
-            "nome": "Pampulha",
-            "iata": "PLU",
-            "municipio": "Belo Horizonte",
-            "acesso": "via Pampulha"
-        }
-    ],
-    "rodovias": [
-        "MG-010",
-        "Anel Rodoviário",
-        "Cristiano Machado"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel e escritório",
-        "pauta jurídica",
-        "sede institucional",
-        "campus e orla da lagoa"
-    ],
-    "vizinhos_pedido": [
-        "Contagem",
-        "Nova Lima",
-        "Betim"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CNF em Confins",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "minas-gerais",
+  "cidade": "belo-horizonte",
+  "nome": "Belo Horizonte",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Savassi / Lourdes", "eixo": "Centro-Sul", "destino": "CNF", "motivo": "Raio curto no hipercentro; Confins não cabe nele"},
+    {"origem": "Belvedere", "eixo": "Serra sul", "destino": "Savassi ou Confins", "motivo": "Board no desnível; Nova Lima vaza o pedido"},
+    {"origem": "Belo Horizonte", "eixo": "MG-010 / Linha Verde", "destino": "Aeroporto em Confins", "motivo": "Terminal fora do município da capital"}
+  ],
+  "eixos": ["Savassi e Lourdes", "Belvedere", "Centro e Funcionários", "MG-010 rumo a Confins"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional Tancredo Neves (Confins)", "iata": "CNF", "municipio": "Confins (sítio também em Lagoa Santa)", "relacao": "Não fica em Belo Horizonte. BH Airport: 63% Confins / 37% Lagoa Santa. Sede MG-10 km 09, Confins. ICAO SBCF.", "fonte": "https://www.bh-airport.com.br/pt-BR/institutional/airport-history ; contrato ANAC SBCF; IBGE 3117876", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "MG-010 (Linha Verde)", "papel": "Ligação BH–aeroporto; DER-MG", "fonte": "https://www.der.mg.gov.br/", "data": "2026-08-29"},
+    {"nome": "LMG-800", "papel": "Acesso local ao sítio", "fonte": "DER-MG", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Savassi", "Lourdes", "Belvedere"],
+  "vizinhos_pedido": ["Confins", "Lagoa Santa", "Nova Lima", "Contagem"],
+  "prefeito": {"nome": "Álvaro Damião", "fonte": "https://prefeitura.pbh.gov.br/agendadeautoridades", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "CNF não está no município de Belo Horizonte; está em Confins (e Lagoa Santa)", "fonte": "BH Airport história; IBGE Confins 3117876", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Confins, não BH, abriga o CNF.", "publicado": true},
+    {"fato": "Acesso pela MG-010 (Linha Verde)", "fonte": "DER-MG", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "O relógio até Confins é o da MG-010.", "publicado": true},
+    {"fato": "Vila da Serra é Nova Lima, não BH", "fonte": "cruzamento municipal", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "", "publicado": false}
+  ],
+  "descartado": ["CNF como aeroporto do município de BH", "Vila da Serra como bairro de BH"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

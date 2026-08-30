@@ -5,94 +5,57 @@ declare(strict_types=1);
 return [
     'layout' => 'protocolo',
     'cidade_nome' => 'Indaiatuba',
-    'geo' => [
-        'lat' => -23.0884,
-        'lng' => -47.2181,
-    ],
+    'geo' => ['lat' => -23.0884, 'lng' => -47.2181],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Indaiatuba',
     'seo' => [
-        'title' => 'Motorista executivo em Indaiatuba: Centro e VCP',
-        'description' => 'Motorista executivo em Indaiatuba: Centro, Helvétia e Viracopos (VCP), em Campinas. Ida, espera ou dia à disposição. Orçamento sob consulta.',
-        'og_title' => 'Agenda em Indaiatuba com motorista — Helvétia e Viracopos',
-        'og_description' => 'O motorista combina Centro com Viracopos (VCP), em Campinas. Informe nome do condomínio.',
-        'og_image_alt' => 'Carro executivo em via de Indaiatuba',
+        'title' => 'Motorista em Indaiatuba: Helvétia, Centro e Viracopos',
+        'description' => 'Carro com motorista em Indaiatuba para Helvétia, o Centro e Viracopos (VCP) em Campinas, pela SP-075. Sem herdar o Cambuí. Valor sob consulta.',
+        'og_title' => 'Helvétia já enxerga o saguão; o terminal é em Campinas',
+        'og_description' => 'Traslado em Indaiatuba: Helvétia, Centro e o VCP no município vizinho — sem o relógio do Cambuí.',
+        'og_image_alt' => 'Sedan executivo na Avenida Engenheiro Fábio Roberto Barnabé, em Indaiatuba',
     ],
-    'kicker' => 'Região Metropolitana de Campinas · SP',
-    'h1' => 'Em Indaiatuba, de Centro a Viracopos (VCP), em Campinas',
-    'faq_h2' => 'Dúvidas de quem embarca em Indaiatuba',
-    'faq' => [
-        [
-            'pergunta' => 'Quem está em Indaiatuba embarca no VCP dentro da cidade?',
-            'resposta' => 'Não. De Indaiatuba o VCP (Viracopos) fica em Campinas. O trecho sai de Centro pela SP-075.',
-        ],
-        [
-            'pergunta' => 'Em Indaiatuba, vocês buscam em Centro?',
-            'resposta' => 'Sim, em Indaiatuba. Envie nome do condomínio em Centro. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Indaiatuba vocês fazem Campinas?',
-            'resposta' => 'Sim, saindo de Indaiatuba. Campinas não é o recorte de Centro; o horário pela Bandeirantes sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Indaiatuba o carro fica entre Centro e Helvétia?',
-            'resposta' => 'Sim, em Indaiatuba. A hora à disposição cobre sede e hotel em Centro e condomínio e VCP em Helvétia.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Indaiatuba e o VCP',
-        'texto' => 'Diga o ponto em Centro ou Helvétia, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Indaiatuba',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'sao-paulo',
-            'ancora' => 'Indaiatuba e o recorte de Região Metropolitana de Campinas',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'sao-paulo',
-            'cidade' => 'campinas',
-            'ancora' => 'Motorista em campinas',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'sao-paulo',
-            'cidade' => 'jundiai',
-            'ancora' => 'Motorista em jundiai',
-        ],
-    ],
-    'preambulo' => 'Indaiatuba usa Viracopos (VCP), em Campinas. Quem embarca em Centro não está no município da pista. A SP-075 é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
+    'kicker' => 'Entorno de Viracopos · SP',
+    'h1' => 'Viracopos fica em Campinas; o recuo mais curto é Helvétia',
+    'preambulo' => 'Indaiatuba não é bairro de Campinas. O Aeroporto Internacional de Viracopos (VCP) está na Rodovia Santos Dumont (SP-075), km 66, no município de Campinas. Helvétia cola nesse acesso: o recuo local encurta o saguão em relação a quem sai do Cambuí. O Centro corre na Engenheiro Fábio Roberto Barnabé. Tratar Indaiatuba como “região de VCP” entrega o carro no município errado e come a margem do check-in.',
     'artigos' => [
         [
-            'h2' => 'Centro pede protocolo, não pin',
-            'texto' => 'Origem frequente para sede e hotel. Informe nome do condomínio. Centro não compartilha o recuo de Helvétia.',
+            'h2' => 'Helvétia é o recuo que o VCP enxerga primeiro — e continua em Indaiatuba',
+            'texto' => 'Centro, Helvétia e o Distrito Industrial ao longo da Santos Dumont formam três portas. Hotel no Centro ou condomínio na Helvétia entra só como embarque. Informe o nome da portaria: “perto de Viracopos” descreve meia dúzia de condomínios e nenhuma cancela. A SP-075 muda o intervalo no pico; o mapa encolhe o aeroporto, o relógio não. O sedan sai com o município certo.',
         ],
         [
-            'h2' => 'Helvétia e Jardim Pompéia',
-            'texto' => 'Helvétia pede condomínio e VCP. Jardim Pompéia pede bairro. Quando Campinas entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Bandeirantes.',
+            'h2' => 'O saguão vizinho pede o número do voo, não o atalho do Cambuí',
+            'texto' => 'Viracopos opera em Campinas. Combinamos terminal e o ponto de saída em Indaiatuba — Helvétia e o Centro não compartilham o mesmo minuto até o desembarque. A espera no saguão integra o trecho quando o pouso já está no roteiro. Jundiaí, pela Anhanguera, e o próprio Centro de Campinas entram como trechos nomeados; não são o pedido urbano de Indaiatuba.',
         ],
         [
-            'h2' => 'Viracopos (VCP)',
-            'texto' => 'Viracopos (VCP) fica em Campinas, não em Indaiatuba. O trecho sai pela acesso Helvétia / Santos Dumont. Diga o IATA e o número do voo.',
+            'h2' => 'Santos Dumont, logística e o que o GPS chama de distrito',
+            'texto' => 'Galpão e planta ao longo da SP-075 pedem o nome do condomínio empresarial e a portaria. O recorte industrial de Indaiatuba não se confunde com o Distrito de Barão Geraldo nem com o Cambuí. Sem endereço, o motorista não adivinha qual das Helvétias o passageiro quis dizer. Envie rua, número e se há lista de visitante.',
         ],
     ],
     'pauta' => [
-        'h2' => 'Itens da ordem do dia em Indaiatuba',
+        'h2' => 'O que entra na ordem do dia em Indaiatuba',
         'itens' => [
-            [
-                'h3' => 'Centro',
-                'texto' => 'Origem frequente para sede e hotel. Informe nome do condomínio. Centro não compartilha o recuo de Helvétia.',
-            ],
-            [
-                'h3' => 'Helvétia',
-                'texto' => 'Origem frequente para condomínio e VCP. Informe nome do condomínio. Helvétia não compartilha o recuo de Centro.',
-            ],
-            [
-                'h3' => 'Jardim Pompéia',
-                'texto' => 'Origem frequente para bairro. Informe nome do condomínio. Jardim Pompéia não compartilha o recuo de Centro.',
-            ],
+            ['h3' => 'Centro e a Fábio Roberto Barnabé', 'texto' => 'Sede, hotel de embarque e o comércio. Informe o prédio; o recuo do Centro não é o da Helvétia.'],
+            ['h3' => 'Helvétia e o acesso a Viracopos', 'texto' => 'O recorte que mais encurta o VCP. Nome da portaria e o sentido da SP-075 entram no pedido.'],
+            ['h3' => 'Distrito na Santos Dumont', 'texto' => 'Logística e planta. Rua e cancela evitam o pin genérico “perto do aeroporto”.'],
+            ['h3' => 'Quando o voo já está no painel', 'texto' => 'Número e terminal do VCP em Campinas. A margem sai de Indaiatuba, não do relógio do Cambuí.'],
         ],
+    ],
+    'faq_h2' => 'Quem já embarca no relógio de Viracopos — sem ser Campinas',
+    'faq' => [
+        ['pergunta' => 'Viracopos fica em Indaiatuba?', 'resposta' => 'Não. O terminal VCP está em Campinas, na Santos Dumont, km 66. Helvétia e o Centro de Indaiatuba são o recuo vizinho; o município do saguão continua sendo Campinas.'],
+        ['pergunta' => 'Dormir em Indaiatuba encurta o check-in em relação ao Cambuí?', 'resposta' => 'Com frequência, sim. Helvétia cola no acesso da SP-075. Combinamos a margem a partir do recuo real, não da “região de Campinas”.'],
+        ['pergunta' => 'Em Indaiatuba, o motorista espera no VCP se o voo atrasar?', 'resposta' => 'Sim, quando o voo está no roteiro. Acompanhamos o painel com o número; a espera no terminal em Campinas faz parte do trecho Viracopos.'],
+        ['pergunta' => 'Helvétia e o Centro se confundem no mesmo pin “perto do aeroporto”?', 'resposta' => 'Confundem no GPS. Informe o condomínio ou a rua. São recortes distintos de Indaiatuba; o pin não define a porta.'],
+    ],
+    'cta' => [
+        'titulo' => 'Helvétia no relógio de Viracopos, município certo',
+        'texto' => 'Informe o hotel no Centro ou a portaria na Helvétia e o número do voo no VCP. Respondemos com horário e valor.',
+        'botao' => 'Pedir motorista em Indaiatuba',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Capital e interior paulista no mesmo serviço'],
+        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'campinas', 'ancora' => 'Cambuí, Unicamp e o Viracopos'],
+        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'jundiai', 'ancora' => 'Medeiros, Centro e o eixo da Anhanguera'],
     ],
 ];

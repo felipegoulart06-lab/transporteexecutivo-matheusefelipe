@@ -1,72 +1,27 @@
 {
-    "estado": "acre",
-    "cidade": "rio-branco",
-    "nome": "Rio Branco",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "BR-364",
-            "destino": "Plácido de Castro",
-            "motivo": "sede e hotel"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Bosque",
-        "Aviário",
-        "Via Verde"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Plácido de Castro",
-            "iata": "RBR",
-            "municipio": "Rio Branco",
-            "acesso": "BR-364"
-        }
-    ],
-    "rodovias": [
-        "BR-364",
-        "Via Verde",
-        "Avenida Ceará"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede e hotel",
-        "bairro residencial",
-        "comércio",
-        "acesso à BR-364"
-    ],
-    "vizinhos_pedido": [
-        "Cruzeiro do Sul",
-        "Porto Velho",
-        "Xapuri"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal RBR em Rio Branco",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "acre",
+  "cidade": "rio-branco",
+  "nome": "Rio Branco",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "RBR Vila Aeroporto", "eixo": "BR-364", "destino": "Via Verde ou Centro", "motivo": "Transfer zona rural–cidade"},
+    {"origem": "Via Verde", "eixo": "alça BR-364", "destino": "Palácio Rio Branco", "motivo": "Pauta"},
+    {"origem": "Bosque", "eixo": "urbano", "destino": "RBR", "motivo": "Retorno ao voo"}
+  ],
+  "eixos": ["Via Verde", "Centro / Palácio Rio Branco", "Bosque", "RBR na BR-364"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Rio Branco/AC - Plácido de Castro", "iata": "RBR", "municipio": "Rio Branco", "relacao": "Zona rural, BR-364, Av. Plácido de Castro s/n, Vila Aeroporto CEP 69923-900. NÃO Senador Guiomard.", "fonte": "Lei 11.917/2009; Vinci RARA 2022; ABEAR; IBGE 1200401", "data": "2026-08-29"}
+  ],
+  "rodovias": [{"nome": "BR-364", "fonte": "DNIT 2026; SciELO Via Verde", "data": "2026-08-29"}],
+  "hoteis_ancora": [],
+  "polos": ["Via Verde", "Palácio Rio Branco", "Bosque"],
+  "vizinhos_pedido": ["Xapuri", "Brasiléia"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "RBR município Rio Branco (correção vs Senador Guiomard)", "fonte": "Lei 11.917/2009; Vinci CEP 69923-900", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O RBR fica na zona rural de Rio Branco, na BR-364.", "publicado": true},
+    {"fato": "Via Verde é alça urbana da BR-364", "fonte": "SciELO urbe 2019", "data": "2026-08-29", "tipo": "polo", "risco": "medio", "frase": "A Via Verde não é o saguão do RBR.", "publicado": true}
+  ],
+  "descartado": ["Senador Guiomard como município do RBR", "Hotéis nomeados", "25 km como tempo"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
+  "verificar": ["Linha cadastral do sítio vs limite Senador Guiomard — endereço operacional Rio Branco"]
 }

@@ -1,78 +1,37 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "maua",
-    "nome": "Mauá",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Anchieta",
-            "destino": "Congonhas",
-            "motivo": "sede"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Vila Bocaina",
-        "Sertãozinho",
-        "Jardim Zaira"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Congonhas",
-            "iata": "CGH",
-            "municipio": "São Paulo",
-            "acesso": "Anchieta"
-        },
-        {
-            "nome": "Guarulhos",
-            "iata": "GRU",
-            "municipio": "Guarulhos",
-            "acesso": "Ayrton Senna"
-        }
-    ],
-    "rodovias": [
-        "Anchieta",
-        "Avenida Barão de Mauá",
-        "SP-021"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede",
-        "bairro",
-        "industrial",
-        "residencial"
-    ],
-    "vizinhos_pedido": [
-        "Santo André",
-        "Ribeirão Pires",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CGH em São Paulo",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "maua",
+  "nome": "Mauá",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro / João Ramalho", "eixo": "urbano", "destino": "Vila Bocaina (Hospital Nardini, Rua Regente Feijó 166)", "motivo": "Clínica/hospital na extensão do Centro"},
+    {"origem": "Centro", "eixo": "Av. Papa João XXIII / Dom José Gaspar", "destino": "Polo industrial de Sertãozinho", "motivo": "Pauta em galpão/metalúrgica/autopeça"},
+    {"origem": "Mauá", "eixo": "outro polo", "destino": "Capuava / Polo Petroquímico do Grande ABC", "motivo": "Cancela petroquímica — recuo distinto de Sertãozinho"},
+    {"origem": "Mauá", "eixo": "Anchieta SP-150", "destino": "Congonhas CGH", "motivo": "Voo curto — Prefeitura cita CGH mais perto que GRU"},
+    {"origem": "Mauá", "eixo": "Rodoanel SP-021 / Jacu-Pêssego", "destino": "GRU", "motivo": "Voo internacional"}
+  ],
+  "eixos": ["Centro / João Ramalho", "Vila Bocaina", "Polo de Sertãozinho (Papa João XXIII)", "Polo de Capuava (petroquímico)"],
+  "aeroportos": [
+    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino típico mais próximo segundo a Prefeitura de Mauá (~24 km)", "fonte": "maua.sp.gov.br/Cidade/Invista", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Prefeitura cita ~40 km; acesso Rodoanel e Jacu-Pêssego", "fonte": "maua.sp.gov.br/Cidade/Invista", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Rodoanel Mário Covas (SP-021)", "fonte": "Prefeitura de Mauá Invista", "data": "2026-08-29"},
+    {"nome": "Via Anchieta (SP-150) e Imigrantes (SP-160)", "fonte": "Prefeitura de Mauá Invista; Ecovias", "data": "2026-08-29"},
+    {"nome": "Avenida Jacu-Pêssego / Nova Trabalhadores", "fonte": "Prefeitura de Mauá Invista", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Polo de Sertãozinho (Papa João XXIII)", "Polo de Capuava / Polo Petroquímico do Grande ABC", "Hospital Nardini Vila Bocaina", "Paço / Centro João Ramalho"],
+  "vizinhos_pedido": ["Santo André (confusão de pin)", "São Paulo (CGH)", "Guarulhos (GRU)", "Santos"],
+  "prefeito": {"nome": "Marcelo Oliveira (PT)", "fonte": "Diário do Grande ABC 2026-08-19", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Mauá não tem aeroporto comercial; Prefeitura: 24 km CGH, 40 km GRU", "fonte": "https://www.maua.sp.gov.br/Cidade/Invista", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Não existe terminal de passageiros regulares no município.", "publicado": true},
+    {"fato": "Dois polos industriais no território: Capuava e Sertãozinho", "fonte": "Prefeitura de Mauá Invista", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "Mauá tem dois polos industriais no próprio território: Sertãozinho e Capuava.", "publicado": true},
+    {"fato": "Av. Papa João XXIII liga o Polo de Sertãozinho ao centro", "fonte": "Wikipédia Mauá (avenidas)", "data": "2026-08-29", "tipo": "trecho", "risco": "medio", "frase": "Sertãozinho liga-se ao Centro pela Avenida Papa João XXIII.", "publicado": true},
+    {"fato": "Vila Bocaina é extensão histórica do Centro; Hospital Nardini na Rua Regente Feijó 166", "fonte": "Diário do Grande ABC 2012-03-05; Lei municipal 6328/2025 anexo", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "A Vila Bocaina abriga clínicas e o Hospital Nardini, na Rua Regente Feijó.", "publicado": true},
+    {"fato": "Polo Petroquímico do Grande ABC com governança Mauá–Santo André–São Paulo", "fonte": "Prefeitura de Mauá Invista — Comitê Gestor", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "Capuava é o outro polo, petroquímico, na borda com Santo André.", "publicado": true},
+    {"fato": "IBGE 3529401", "fonte": "IBGE", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Jardim Zaíra como eixo principal", "Distâncias km da Prefeitura na landing como medição nossa", "Tempos em minutos"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

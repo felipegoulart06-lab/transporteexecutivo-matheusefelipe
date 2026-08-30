@@ -1,78 +1,36 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "diadema",
-    "nome": "Diadema",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "Imigrantes",
-            "destino": "Congonhas",
-            "motivo": "sede"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Piraporinha",
-        "Canhema",
-        "Eldorado"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Congonhas",
-            "iata": "CGH",
-            "municipio": "São Paulo",
-            "acesso": "Imigrantes"
-        },
-        {
-            "nome": "Guarulhos",
-            "iata": "GRU",
-            "municipio": "Guarulhos",
-            "acesso": "Anchieta"
-        }
-    ],
-    "rodovias": [
-        "Imigrantes",
-        "Avenida Piraporinha",
-        "Avenida Nossa Senhora do Gorette"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "sede",
-        "eixo comercial",
-        "industrial",
-        "bairro"
-    ],
-    "vizinhos_pedido": [
-        "São Bernardo do Campo",
-        "São Paulo",
-        "Santo André"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal CGH em São Paulo",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "diadema",
+  "nome": "Diadema",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "Centro / Paço Rua Almirante Barroso, 111 (Vila Santa Dirce)", "eixo": "Antônio Piranga / urbano", "destino": "Piraporinha (planta ou Terminal Metropolitano)", "motivo": "Pauta industrial ou corredor ABD"},
+    {"origem": "Piraporinha", "eixo": "Avenida Piraporinha / Corredor ABD", "destino": "Canhema (Av. Dom João VI) / Imigrantes SP-160", "motivo": "Recuo norte e acesso à rodovia"},
+    {"origem": "Diadema", "eixo": "Via Anchieta SP-150", "destino": "Congonhas CGH", "motivo": "Voo doméstico — sem saguão local"},
+    {"origem": "Diadema", "eixo": "Imigrantes SP-160", "destino": "Litoral / Santos", "motivo": "A Imigrantes corta o município; não é o atalho do CGH"},
+    {"origem": "Diadema", "eixo": "Rodoanel", "destino": "GRU", "motivo": "Voo internacional"}
+  ],
+  "eixos": ["Centro / Paço (Almirante Barroso / Vila Santa Dirce)", "Piraporinha (planta + Terminal Metropolitano)", "Canhema (Dom João VI / Imigrantes)"],
+  "aeroportos": [
+    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino típico; Diadema não tem terminal", "fonte": "Aena Brasil", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Rodoanel", "fonte": "Prefeitura de Guarulhos", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Rodovia dos Imigrantes (SP-160) — corta Diadema", "fonte": "Ecovias SAI; guias locais", "data": "2026-08-29"},
+    {"nome": "Via Anchieta (SP-150)", "fonte": "DER/SP; Ecovias", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Paço Municipal Rua Almirante Barroso 111 Vila Santa Dirce", "Piraporinha — núcleo industrial e Terminal Metropolitano", "Canhema — Av. Dom João VI"],
+  "vizinhos_pedido": ["São Bernardo do Campo", "Santo André", "São Paulo (CGH)", "Santos (via Imigrantes)", "Guarulhos (GRU)"],
+  "prefeito": {"nome": "Takaharu (Taka) Yamauchi (MDB)", "fonte": "Wikipédia lista de prefeitos; Diário do Grande ABC 2026-08-19", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "Diadema não tem aeroporto comercial", "fonte": "ANAC; ABC sem terminal comercial", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Não há aeroporto comercial: Congonhas pela Anchieta é o destino típico.", "publicado": true},
+    {"fato": "Paço / sede na Rua Almirante Barroso, 111 — Vila Santa Dirce CEP 09912-900", "fonte": "portal.diadema.sp.gov.br LAI", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "O Paço fica na Rua Almirante Barroso, 111, Vila Santa Dirce.", "publicado": true},
+    {"fato": "Centro de Diadema cortado pela Rodovia dos Imigrantes", "fonte": "QuintoAndar guia de bairros Diadema", "data": "2026-08-29", "tipo": "trecho", "risco": "medio", "frase": "A Rodovia dos Imigrantes (SP-160) atravessa o município.", "publicado": true},
+    {"fato": "Piraporinha: primeiro núcleo industrial; Terminal Metropolitano Piraporinha no corredor ABD", "fonte": "QuintoAndar; Moovit Terminal Piraporinha", "data": "2026-08-29", "tipo": "polo", "risco": "medio", "frase": "Piraporinha concentra o primeiro núcleo fabril e o Terminal Metropolitano.", "publicado": true},
+    {"fato": "Canhema ao norte: Av. Dom João VI, Imigrantes e Corredor ABD", "fonte": "QuintoAndar guia Canhema", "data": "2026-08-29", "tipo": "trecho", "risco": "medio", "frase": "Canhema, ao norte, cola na Imigrantes e no Corredor ABD.", "publicado": true},
+    {"fato": "IBGE 3513801", "fonte": "IBGE", "data": "2026-08-29", "tipo": "embarque", "risco": "baixo", "frase": "", "publicado": false}
+  ],
+  "descartado": ["Conceição como eixo principal", "Nome de planta química específica sem fonte", "Tempos em minutos"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

@@ -32,7 +32,7 @@
     "Araguari como vazão sem pedido do brief"
   ],
   "verificar": [
-    "[VERIFICAR] Av. Sideral 463 — notícia da Prefeitura 2026-07-02; fetch HTTP bloqueado; não publicado na landing",
+    "[VERIFICAR] Av. Sideral 463 — Prefeitura 2026-07-02 (fetch HTTP Access Denied) e G1 2026-07-07; landing publica só Avenida Sideral / Jardim Ipanema, sem o número",
     "[VERIFICAR] Hotel nomeado com site oficial"
   ],
   "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}

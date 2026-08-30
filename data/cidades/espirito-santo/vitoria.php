@@ -10,7 +10,7 @@ return [
     'schema_service_name' => 'Motorista executivo na ilha de Vitória, no Suá e no VIX',
     'seo' => [
         'title' => 'Praia do Canto, Suá e VIX: motorista na ilha de Vitória',
-        'description' => 'Motorista em Vitória para Praia do Canto, Enseada do Suá, Cidade Alta e o aeroporto Eurico de Aguiar Salles, no município da capital. Informe se a pauta cruza a Terceira Ponte rumo a Vila Velha.',
+        'description' => 'Motorista em Vitória para Praia do Canto, Suá, Cidade Alta e o VIX na capital. Informe se a pauta cruza a Terceira Ponte rumo a Vila Velha.',
         'og_title' => 'Circuito na ilha: Canto, Suá, Cidade Alta e o terminal capixaba',
         'og_description' => 'Carro com motorista entre a Praia do Canto, a Enseada do Suá, o Palácio Anchieta e o Eurico de Aguiar Salles em Vitória.',
         'og_image_alt' => 'Carro executivo em avenida da Praia do Canto em Vitória',

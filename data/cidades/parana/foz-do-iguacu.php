@@ -5,89 +5,51 @@ declare(strict_types=1);
 return [
     'layout' => 'rio',
     'cidade_nome' => 'Foz do Iguaçu',
-    'geo' => [
-        'lat' => -25.5163,
-        'lng' => -54.5854,
-    ],
+    'geo' => ['lat' => -25.5163, 'lng' => -54.5854],
     'imagem' => 'sul.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Foz do Iguaçu',
     'seo' => [
-        'title' => 'Motorista executivo em Foz do Iguaçu: Centro e IGU',
-        'description' => 'Carro com motorista em Foz do Iguaçu para Centro, Vila Portes e IGU. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
-        'og_title' => 'Traslado em Foz do Iguaçu: Centro e IGU',
-        'og_description' => 'O motorista combina Centro com Cataratas (IGU), no próprio município. Informe nome do hotel e o recuo.',
-        'og_image_alt' => 'Carro executivo em via de Foz do Iguaçu',
+        'title' => 'Motorista em Foz do Iguaçu: IGU, Cataratas e a ponte',
+        'description' => 'Carro com motorista em Foz do Iguaçu do aeroporto Cataratas (IGU) ao hotel, ao Parque Nacional e à Ponte da Amizade. República Argentina, BR-469 e orçamento sob consulta.',
+        'og_title' => 'Traslado do IGU ao parque e à Ponte da Amizade',
+        'og_description' => 'O IGU fica em Foz do Iguaçu. O carro cobre hotel, BR-469 rumo às Cataratas e o recuo da fronteira.',
+        'og_image_alt' => 'Sedan executivo em avenida de Foz do Iguaçu próxima ao rio',
     ],
-    'kicker' => 'Oeste paranaense · PR',
-    'h1' => 'Em Foz do Iguaçu: do embarque em Centro ao IGU',
-    'faq_h2' => 'Dúvidas de quem embarca em Foz do Iguaçu',
-    'faq' => [
-        [
-            'pergunta' => 'Em Foz do Iguaçu, o IGU fica no próprio município?',
-            'resposta' => 'Sim. Em Foz do Iguaçu, Cataratas (IGU) fica no município. Informe o acesso via Avenida das Cataratas.',
-        ],
-        [
-            'pergunta' => 'Em Foz do Iguaçu, vocês buscam em Centro?',
-            'resposta' => 'Sim, em Foz do Iguaçu. Envie nome do hotel e o recuo em Centro. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Foz do Iguaçu vocês fazem Ciudad del Este?',
-            'resposta' => 'Sim, saindo de Foz do Iguaçu. Ciudad del Este não é o recorte de Centro; o horário pela Avenida República Argentina sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Foz do Iguaçu o carro fica entre Centro e Vila Portes?',
-            'resposta' => 'Sim, em Foz do Iguaçu. A hora à disposição cobre hotel em Centro e fronteira em Vila Portes.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Foz do Iguaçu e o IGU',
-        'texto' => 'Diga o ponto em Centro ou Vila Portes, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Foz do Iguaçu',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'parana',
-            'ancora' => 'Foz do Iguaçu e o recorte de Oeste paranaense',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'parana',
-            'cidade' => 'curitiba',
-            'ancora' => 'Motorista em curitiba',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'parana',
-            'cidade' => 'londrina',
-            'ancora' => 'Motorista em londrina',
-        ],
-    ],
+    'kicker' => 'Tríplice fronteira · PR',
+    'h1' => 'Do IGU à Ponte da Amizade sem perder o recuo do parque',
     'corrente' => [
         [
-            'h2' => 'Foz do Iguaçu e o primeiro recuo',
-            'texto' => 'Foz do Iguaçu concentra Centro (hotel) e Cataratas (IGU) no mesmo município. O motorista precisa do ponto de embarque e do IGU no mesmo recado — “me busca em Foz do Iguaçu” não define o recuo.',
+            'h2' => 'Foz se mede em hotel, parque e fronteira — não em roteiro de cartão-postal',
+            'texto' => 'Quem chega a Foz do Iguaçu pousa no Aeroporto Internacional das Cataratas (IGU), na BR-469, km 16,5, no município. O pedido clássico é hotel → Parque Nacional do Iguaçu ou hotel → Ponte da Amizade. A Avenida República Argentina articula o Centro rumo à fronteira. O intervalo muda com o fluxo da BR-469 e da ponte; não publicamos duração fixa.',
         ],
         [
-            'h2' => 'Eixos que o pedido cita',
+            'h2' => 'Três eixos de deslocamento que a agenda de Foz mais cita',
             'itens' => [
-                [
-                    'h3' => 'Centro',
-                    'texto' => 'Origem frequente para hotel. Informe nome do hotel e o recuo. Centro não compartilha o recuo de Vila Portes.',
-                ],
-                [
-                    'h3' => 'Vila Portes',
-                    'texto' => 'Origem frequente para fronteira. Informe nome do hotel e o recuo. Vila Portes não compartilha o recuo de Centro.',
-                ],
-                [
-                    'h3' => 'Cataratas',
-                    'texto' => 'Origem frequente para parque e hotel. Informe nome do hotel e o recuo. Cataratas não compartilha o recuo de Centro.',
-                ],
+                ['h3' => 'Avenida República Argentina e o Centro', 'texto' => 'Hotel urbano e o recuo do Centro. Informe o nome do estabelecimento; a avenida mistura comércio e pernoite em quadras curtas.'],
+                ['h3' => 'BR-469 e o eixo das Cataratas', 'texto' => 'Hotéis na Rodovia das Cataratas, o IGU e o acesso ao Parque Nacional no km 18. “Nas Cataratas” não define se o recuo é hotel, terminal ou portaria do parque.'],
+                ['h3' => 'Ponte da Amizade', 'texto' => 'Fronteira com Ciudad del Este pela BR-277. Documentos e o ponto de espera no lado brasileiro entram no roteiro. Não é o mesmo recorte do hotel no Centro.'],
             ],
         ],
         [
-            'h2' => 'Cataratas (IGU)',
-            'texto' => 'Cataratas (IGU) fica em Foz do Iguaçu. Acesso: Avenida das Cataratas. Combinamos o voo; a espera no desembarque integra o trecho.',
+            'h2' => 'Cataratas Internacionais — IGU no município',
+            'texto' => 'O terminal fica em Foz do Iguaçu, na BR-469, no caminho do parque. Combinamos o voo. A espera no desembarque integra o trecho IGU. Diga se o destino é o hotel, a portaria do Parque Nacional ou a Ponte da Amizade; o motorista articula o recuo, não a visita guiada.',
         ],
+    ],
+    'faq_h2' => 'Perguntas de quem pousa no IGU',
+    'faq' => [
+        ['pergunta' => 'O aeroporto de Foz fica no município?', 'resposta' => 'Sim. O Aeroporto Internacional das Cataratas (IGU) opera em Foz do Iguaçu, na BR-469, km 16,5. O parque e o terminal compartilham o mesmo eixo; ainda assim marcamos margem por causa do fluxo da rodovia.'],
+        ['pergunta' => 'O motorista espera no IGU se o voo atrasar?', 'resposta' => 'Sim. O número do voo entra no pedido e a espera no terminal faz parte do trecho até o hotel, o parque ou a fronteira.'],
+        ['pergunta' => 'Vocês levam do hotel ao Parque Nacional e à Ponte da Amizade?', 'resposta' => 'Sim. Levamos até o recuo combinado de cada um. Ingresso do parque e trâmite de fronteira são do passageiro; o carro espera onde combinado.'],
+        ['pergunta' => 'Quanto tempo leva do hotel às Cataratas ou à ponte?', 'resposta' => 'O intervalo muda com a BR-469, com obras na Rodovia das Cataratas e com a fila da fronteira. Combinamos uma margem; não publicamos duração fixa.'],
+    ],
+    'cta' => [
+        'titulo' => 'Junte o IGU ao recuo do hotel e da fronteira',
+        'texto' => 'Informe o hotel, se o destino é o Parque Nacional ou a Ponte da Amizade, e o horário do voo. A apresentação em Foz do Iguaçu volta sob consulta.',
+        'botao' => 'Pedir motorista em Foz do Iguaçu',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'parana', 'ancora' => 'Foz, Londrina e o recorte paranaense'],
+        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'curitiba', 'ancora' => 'Batel, Centro Cívico e o Afonso Pena'],
+        ['tipo' => 'cidade', 'estado' => 'parana', 'cidade' => 'londrina', 'ancora' => 'Gleba Palhano, Centro e o LDB'],
     ],
 ];

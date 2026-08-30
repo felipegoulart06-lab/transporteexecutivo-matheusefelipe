@@ -10,7 +10,7 @@ return [
     'schema_service_name' => 'Transporte executivo com motorista em Diadema',
     'seo' => [
         'title' => 'Carro executivo no ABC: Piraporinha, Canhema e Diadema',
-        'description' => 'Carro com motorista em Diadema para Piraporinha, Canhema e o Paço no Centro. A Imigrantes corta o município; Congonhas pela Anchieta. Sem saguão local. Valor sob consulta.',
+        'description' => 'Carro com motorista em Diadema para Piraporinha, Canhema e o Paço. Imigrantes corta o município; Congonhas pela Anchieta. Valor sob consulta.',
         'og_title' => 'Piraporinha, Canhema e o Paço no relógio da Imigrantes',
         'og_description' => 'Traslado em Diadema: cancela na Piraporinha, recuo no Canhema e o trecho rumo a Congonhas.',
         'og_image_alt' => 'Sedan executivo na Avenida Piraporinha, em Diadema',

@@ -5,105 +5,61 @@ declare(strict_types=1);
 return [
     'layout' => 'orla',
     'cidade_nome' => 'Santos',
-    'geo' => [
-        'lat' => -23.9608,
-        'lng' => -46.3336,
-    ],
+    'geo' => ['lat' => -23.9608, 'lng' => -46.3336],
     'imagem' => 'sudeste.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Santos',
     'seo' => [
-        'title' => 'Carro com motorista em Santos: Ponta da Praia e CGH',
-        'description' => 'Carro com motorista em Santos para Gonzaga, Ponta da Praia e CGH. Informe o ponto de embarque e o horário. Orçamento sob consulta.',
-        'og_title' => 'Traslado em Santos: Gonzaga e CGH',
-        'og_description' => 'O motorista combina Gonzaga com Congonhas (CGH), em São Paulo. Informe nome do hotel ou do cais.',
-        'og_image_alt' => 'Carro executivo em via de Santos',
+        'title' => 'Traslado em Santos: Gonzaga, Concais e a serra',
+        'description' => 'Carro com motorista em Santos para o Gonzaga, a Ponta da Praia, o Centro Histórico e o porto. Imigrantes, Anchieta, hotel na orla e orçamento sob consulta.',
+        'og_title' => 'Carro com motorista no Gonzaga, na Ponta da Praia e no cais',
+        'og_description' => 'Santos não tem saguão de passageiros. Combinamos o hotel da orla, o Concais e a margem da serra rumo a CGH ou GRU.',
+        'og_image_alt' => 'Carro executivo em avenida da orla de Santos',
     ],
     'kicker' => 'Baixada Santista · SP',
-    'h1' => 'Santos — Gonzaga de manhã, CGH quando o voo entra',
-    'faq_h2' => 'Dúvidas de quem embarca em Santos',
-    'faq' => [
-        [
-            'pergunta' => 'Quem está em Santos embarca no CGH dentro da cidade?',
-            'resposta' => 'Não. De Santos o CGH (Congonhas) fica em São Paulo. O trecho sai de Gonzaga pela Imigrantes.',
-        ],
-        [
-            'pergunta' => 'Em Santos, vocês buscam em Gonzaga?',
-            'resposta' => 'Sim, em Santos. Envie nome do hotel ou do cais em Gonzaga. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Santos vocês fazem Guarujá?',
-            'resposta' => 'Sim, saindo de Santos. Guarujá não é o recorte de Gonzaga; o horário pela Anchieta sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Santos, CGH e GRU são o mesmo recorte?',
-            'resposta' => 'Não, em Santos. CGH fica em São Paulo; GRU fica em Guarulhos. Diga o IATA no pedido.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Santos e o CGH',
-        'texto' => 'Diga o ponto em Gonzaga ou Ponta da Praia, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Santos',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'sao-paulo',
-            'ancora' => 'Santos e o recorte de Baixada Santista',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'sao-paulo',
-            'cidade' => 'sao-paulo',
-            'ancora' => 'Motorista em sao paulo',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'rio-de-janeiro',
-            'cidade' => 'rio-de-janeiro',
-            'ancora' => 'Motorista em rio de janeiro',
-        ],
-    ],
-    'epigrafe' => 'Gonzaga não é o mesmo recuo de Ponta da Praia. O motorista segura o acesso; o passageiro segura o horário.',
+    'h1' => 'Do Gonzaga ao cais sem perder a janela da Ponta da Praia',
+    'epigrafe' => 'Santos alinha hotel na orla, pauta no porto e o Centro Histórico no mesmo dia. O motorista segura a Ana Costa, a Imigrantes e a Anchieta; o passageiro segura o horário — não a vaga na Beira-Mar nem o recuo improvisado no Armazém 25.',
     'abertura' => [
-        'h2' => 'Santos: origem na orla, destino no terminal certo',
+        'h2' => 'A orla e o cais não se trocam no mesmo recuo',
         'texto' => [
-            'Santos usa Congonhas (CGH), em São Paulo. Quem embarca em Gonzaga não está no município da pista. A Imigrantes é o eixo que liga a origem ao terminal; a margem sai do hotel ou da empresa, não do saguão.',
-            'Ponta da Praia pede porto e canal. Centro pede pauta institucional. Quando Guarujá entra no pedido, o recorte deixa de ser urbano: horário sob consulta, pela Anchieta.',
+            'Gonzaga, Boqueirão e o José Menino concentram o pernoite. A Ponta da Praia pede outro recuo: é a ponta do canal e da travessia, não o terminal de cruzeiros. O Concais opera na Avenida Cândido Gaffrée, Armazém 25, no cais. Quem desce a serra entra pela Anchieta (SP-150) ou pela Imigrantes (SP-160).',
+            'O serviço é de traslado e de espera: o carro já está no roteiro com o nome do hotel e, se houver navio ou carga, o ponto do porto. Não é corrida de orla no fim de semana, a menos que a visita entre na pauta.',
         ],
     ],
     'faixas' => [
-        [
-            'h2' => 'Gonzaga: o relógio do embarque',
-            'texto' => 'Gonzaga concentra hotel na orla. Informe nome do hotel ou do cais.',
-        ],
-        [
-            'h2' => 'Ponta da Praia e Centro',
-            'texto' => 'Ponta da Praia pede porto e canal. Centro pede pauta institucional. A ordem muda o intervalo mais que o mapa.',
-        ],
-        [
-            'h2' => 'Congonhas (CGH), em São Paulo',
-            'texto' => 'Congonhas (CGH) fica em São Paulo, não em Santos. O trecho sai pela Imigrantes. Diga o IATA e o número do voo.',
-        ],
+        ['h2' => 'Gonzaga, Boqueirão e o relógio da Ana Costa', 'texto' => 'A orla enche no verão e no feriado. Informe o hotel e o recuo; “na praia” não distingue Gonzaga de Ponta da Praia nem o acesso do canal 6.'],
+        ['h2' => 'Ponta da Praia, travessia e o vazamento para o Guarujá', 'texto' => 'Quando a pauta cruza o estuário rumo ao Guarujá, a travessia ou a Cônego Domênico Rangoni entra no roteiro. Não é o mesmo pedido do Gonzaga; o intervalo sai com margem de fila na ponta.'],
+        ['h2' => 'Centro Histórico, Valongo e o porto', 'texto' => 'Pauta institucional no calçamento e o recuo do cais. O Concais pede o horário do navio e o ponto combinado; carga em terminal arrendado pede portaria. Cubatão vaza como polo, não como desvio na orla.'],
     ],
     'aeroportos' => [
-        'h2' => 'Terminal e vazão a partir de Santos',
+        'h2' => 'Santos não tem saguão comercial de passageiros — o relógio é o da serra',
         'itens' => [
-            [
-                'h3' => 'Congonhas — CGH',
-                'texto' => 'Congonhas (CGH) fica em São Paulo, não em Santos. O trecho sai pela Imigrantes. Diga o IATA e o número do voo.',
-            ],
-            [
-                'h3' => 'Guarulhos — GRU',
-                'texto' => 'Guarulhos (GRU) fica em Guarulhos, não em Santos. O trecho sai pela Anchieta / Dutra. Diga o IATA e o número do voo.',
-            ],
+            ['h3' => 'Congonhas — CGH', 'texto' => 'O terminal fica em outro município. Santos–CGH entra como viagem pela Imigrantes ou pela Anchieta. Combinamos o voo; não é corrida urbana da orla.'],
+            ['h3' => 'Guarulhos — GRU', 'texto' => 'O GRU fica em Guarulhos. O trecho Santos–GRU é viagem de serra e rodovia. Informe o terminal; a margem sai do hotel no Gonzaga ou do Concais, não do saguão.'],
         ],
     ],
     'protocolo' => [
-        'h2' => 'O que pedimos para acertar o embarque em Santos',
+        'h2' => 'O que pedimos para acertar o embarque santista',
         'lista' => [
-            'Hotel, prédio ou empresa com nome — “em Gonzaga” não basta.',
-            'Qual terminal: CGH em São Paulo ou GRU em Guarulhos.',
-            'Se Guarujá entra depois, a ordem muda o recorte.',
+            'Hotel com nome — Gonzaga ou Ponta da Praia não bastam para o recuo.',
+            'Se a pauta é porto, diga se é Concais (Armazém 25) ou outro terminal; o cais não admite pin genérico.',
+            'Guarujá ou Cubatão entram como recorte próprio. CGH e GRU entram como destino de serra, não como aeroporto santista.',
         ],
+    ],
+    'faq_h2' => 'Dúvidas de quem embarca na orla e no cais',
+    'faq' => [
+        ['pergunta' => 'Santos tem aeroporto de passageiros?', 'resposta' => 'Não há saguão comercial de passageiros no município. O voo da pauta sai em geral por Congonhas (CGH) ou GRU; o trecho desce ou sobe a serra com margem da Imigrantes ou da Anchieta.'],
+        ['pergunta' => 'O Concais fica na Ponta da Praia?', 'resposta' => 'Não. O terminal de cruzeiros (Concais) opera no Armazém 25, na Avenida Cândido Gaffrée. A Ponta da Praia é outro recuo, o da travessia e da ponta da orla.'],
+        ['pergunta' => 'Vocês cruzam para o Guarujá no mesmo dia?', 'resposta' => 'Sim. Informe se o trecho é travessia ou rodovia. A fila na Ponta da Praia pesa mais que o quilômetro no mapa.'],
+        ['pergunta' => 'Dá para ir ao porto e voltar ao hotel no Gonzaga?', 'resposta' => 'Sim. Combinamos o terminal e o ponto de espera. O cais não admite recuo improvisado.'],
+    ],
+    'cta' => [
+        'titulo' => 'Marque o hotel da orla junto com o recuo do porto',
+        'texto' => 'Informe o embarque no Gonzaga, na Ponta da Praia ou no Concais, o destino (cais, serra, CGH ou GRU) e o horário. O orçamento de Santos sai sob consulta.',
+        'botao' => 'Pedir motorista em Santos',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'sao-paulo', 'ancora' => 'Interior e litoral paulista no mesmo serviço'],
+        ['tipo' => 'cidade', 'estado' => 'sao-paulo', 'cidade' => 'sao-paulo', 'ancora' => 'Congonhas como destino de serra, não saguão santista'],
+        ['tipo' => 'cidade', 'estado' => 'rio-de-janeiro', 'cidade' => 'rio-de-janeiro', 'ancora' => 'Quando a pauta não é a Baixada'],
     ],
 ];

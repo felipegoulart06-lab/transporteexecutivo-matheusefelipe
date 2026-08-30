@@ -1,72 +1,32 @@
 {
-    "estado": "santa-catarina",
-    "cidade": "balneario-camboriu",
-    "nome": "Balneário Camboriú",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Centro",
-            "eixo": "BR-101",
-            "destino": "Ministro Victor Konder",
-            "motivo": "hotel na avenida"
-        }
-    ],
-    "eixos": [
-        "Centro",
-        "Barra Sul",
-        "Barra Norte",
-        "Interpraias"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Ministro Victor Konder",
-            "iata": "NVT",
-            "municipio": "Navegantes",
-            "acesso": "BR-101"
-        }
-    ],
-    "rodovias": [
-        "BR-101",
-        "Avenida Atlântica",
-        "Interpraias"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel na avenida",
-        "torres sul",
-        "orla norte",
-        "condomínio"
-    ],
-    "vizinhos_pedido": [
-        "Itajaí",
-        "Itapema",
-        "Florianópolis"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal NVT em Navegantes",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "santa-catarina",
+  "cidade": "balneario-camboriu",
+  "nome": "Balneário Camboriú",
+  "pesquisado_em": "2026-08-29",
+  "mapa_operacional": [
+    {"origem": "NVT (Navegantes)", "eixo": "BR-101", "destino": "Centro ou Barra Sul", "motivo": "Terminal não fica em Balneário Camboriú"},
+    {"origem": "Hotel no Centro / Barra Sul", "eixo": "Avenida Atlântica", "destino": "Interpraias", "motivo": "Pauta nas praias do sul do município"},
+    {"origem": "Hotel na orla", "eixo": "BR-101 / Interpraias", "destino": "Itajaí ou Itapema", "motivo": "Vizinhos vazam no mesmo pedido"}
+  ],
+  "eixos": ["Centro", "Barra Sul", "Interpraias (Av. Rodesindo Pavan)", "NVT em Navegantes", "BR-101 para Itajaí e Itapema"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Navegantes – Ministro Victor Konder", "iata": "NVT", "municipio": "Navegantes", "relacao": "Vazão: não fica em Balneário Camboriú. Rua Osmar Gaya 1297 Meia Praia Navegantes SC 88372-900.", "fonte": "aeroportodenavegantes.com/localizacao", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "BR-101", "fonte": "Acesso NVT–BC–Itajaí–Itapema", "data": "2026-08-29"},
+    {"nome": "Avenida Rodesindo Pavan (Interpraias)", "fonte": "Prefeitura BC / ND Mais; km 136 BR-101 rumo a Itapema", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Centro / Atlântica", "Barra Sul", "Interpraias"],
+  "vizinhos_pedido": ["Navegantes (NVT)", "Itajaí", "Itapema", "Camboriú (município distinto)"],
+  "prefeito": {"nome": "", "fonte": "", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "NVT fica em Navegantes", "fonte": "aeroportodenavegantes.com/localizacao", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O NVT fica em Navegantes, na Meia Praia.", "publicado": true}
+  ],
+  "descartado": [
+    "Chamar a cidade só de Camboriú no title/CTA",
+    "Tempo NVT–Barra Sul em minutos",
+    "[VERIFICAR] prefeito de Balneário Camboriú"
+  ],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"}
 }

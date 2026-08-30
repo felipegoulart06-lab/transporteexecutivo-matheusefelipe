@@ -1,72 +1,35 @@
 {
-    "estado": "sao-paulo",
-    "cidade": "campinas",
-    "nome": "Campinas",
-    "pesquisado_em": "2026-08-30",
-    "mapa_operacional": [
-        {
-            "origem": "Cambuí",
-            "eixo": "Anhanguera",
-            "destino": "Viracopos",
-            "motivo": "hotel e escritório"
-        }
-    ],
-    "eixos": [
-        "Cambuí",
-        "Barão Geraldo",
-        "Centro",
-        "Taquaral"
-    ],
-    "aeroportos": [
-        {
-            "nome": "Viracopos",
-            "iata": "VCP",
-            "municipio": "Campinas",
-            "acesso": "Santos Dumont / Rodovia dos Bandeirantes"
-        }
-    ],
-    "rodovias": [
-        "Anhanguera",
-        "Bandeirantes",
-        "Santos Dumont"
-    ],
-    "hoteis_ancora": [],
-    "polos": [
-        "hotel e escritório",
-        "Unicamp e Ciatec",
-        "sede",
-        "orla da lagoa"
-    ],
-    "vizinhos_pedido": [
-        "Indaiatuba",
-        "Jundiaí",
-        "São Paulo"
-    ],
-    "prefeito": {
-        "nome": "",
-        "fonte": "",
-        "data": "2026-08-30",
-        "publicado": false
-    },
-    "fatos": [
-        {
-            "fato": "Terminal VCP em Campinas",
-            "fonte": "ANAC / administradora conhecida",
-            "data": "2026-08-30",
-            "tipo": "terminal",
-            "risco": "alto",
-            "frase": "",
-            "publicado": true
-        }
-    ],
-    "descartado": [
-        "Hotéis sem site confirmado nesta rodada",
-        "Tempos em minutos"
-    ],
-    "revisoes": {
-        "factual": "ok",
-        "localidade": "ok",
-        "conversao": "ok",
-        "seo": "ok"
-    }
+  "estado": "sao-paulo",
+  "cidade": "campinas",
+  "nome": "Campinas",
+  "pesquisado_em": "2026-08-29",
+  "ibge": "3509502",
+  "mapa_operacional": [
+    {"origem": "Hotel no Cambuí ou Nova Campinas", "eixo": "urbano / Coronel Quirino", "destino": "Centro ou Unicamp", "motivo": "Pauta e retorno ao hotel"},
+    {"origem": "Barão Geraldo / CIATEC / campus Zeferino Vaz", "eixo": "norte municipal", "destino": "Portaria Unicamp ou Centro", "motivo": "Campus e polo"},
+    {"origem": "Cambuí, Centro ou Barão Geraldo", "eixo": "Rodovia Santos Dumont SP-075", "destino": "Viracopos VCP", "motivo": "Terminal no município"},
+    {"origem": "Campinas", "eixo": "Anhanguera / Bandeirantes", "destino": "GRU ou CGH", "motivo": "Outro aeroporto, outro município — não misturar com VCP"}
+  ],
+  "eixos": ["Cambuí / Centro", "Barão Geraldo / Unicamp / CIATEC", "Viracopos VCP via Santos Dumont"],
+  "aeroportos": [
+    {"nome": "Aeroporto Internacional de Campinas/SP - Viracopos", "iata": "VCP", "icao": "SBKP", "municipio": "Campinas", "relacao": "Terminal no sul do município, Santos Dumont km 66", "fonte": "ANAC concessões Viracopos; endereço ABV Campinas/SP", "data": "2026-08-29"},
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Pedido que vaza; não é VCP", "fonte": "ANAC concessões Guarulhos", "data": "2026-08-29"},
+    {"nome": "Aeroporto de São Paulo/Congonhas", "iata": "CGH", "municipio": "São Paulo", "relacao": "Pedido que vaza; não é VCP", "fonte": "Aena Brasil", "data": "2026-08-29"}
+  ],
+  "rodovias": [
+    {"nome": "Rodovia Santos Dumont SP-075 km 66", "fonte": "ANAC endereço Viracopos", "data": "2026-08-29"},
+    {"nome": "SP-330 Anhanguera e SP-348 Bandeirantes", "fonte": "Motiva AutoBAn", "data": "2026-08-29"}
+  ],
+  "hoteis_ancora": [],
+  "polos": ["Unicamp campus Zeferino Vaz Barão Geraldo", "CIATEC", "HC Unicamp"],
+  "vizinhos_pedido": ["GRU", "CGH"],
+  "prefeito": {"nome": "Dário Jorge Giolo Saadi", "fonte": "IBGE / G1 posse 2025-01-01", "data": "2026-08-29", "publicado": false},
+  "fatos": [
+    {"fato": "IBGE 3509502", "fonte": "cidades.ibge.gov.br Campinas", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
+    {"fato": "VCP no município de Campinas", "fonte": "ANAC", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "Viracopos fica em Campinas, na Santos Dumont, km 66.", "publicado": true},
+    {"fato": "Unicamp campus principal em Barão Geraldo", "fonte": "unicamp.br Unicamp Responde", "data": "2026-08-29", "tipo": "polo", "risco": "alto", "frase": "A Unicamp em Campinas é o campus Zeferino Vaz, em Barão Geraldo.", "publicado": true}
+  ],
+  "descartado": ["Campo dos Amarais como aeroporto comercial", "Hotel nomeado sem site oficial", "Tempo em minutos", "Indaiatuba na landing"],
+  "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
+  "verificar": ["Marca AutoBAn vs Motiva", "Hotéis nomeados no Cambuí", "Mapa cia x portão VCP"]
 }

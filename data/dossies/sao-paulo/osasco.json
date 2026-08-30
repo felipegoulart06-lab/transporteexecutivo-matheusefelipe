@@ -5,39 +5,29 @@
   "pesquisado_em": "2026-08-29",
   "ibge": "3534401",
   "mapa_operacional": [
-    {"origem": "Hotel na Bela Vista", "eixo": "urbano", "destino": "Centro / Autonomistas", "motivo": "Pauta municipal e retorno"},
-    {"origem": "Centro (Autonomistas)", "eixo": "Calçadão / viadutos", "destino": "Sede ou Bela Vista", "motivo": "Deslocamento curto que estica no pico"},
-    {"origem": "Bela Vista, Centro ou Presidente Altino", "eixo": "Castelo Branco (SP-280) e/ou Anhanguera (SP-330)", "destino": "GRU (Guarulhos) ou CGH", "motivo": "Aeroportos fora do município"}
+    {"origem": "Bela Vista", "eixo": "urbano", "destino": "Centro Autonomistas", "motivo": "Hotel e sede"},
+    {"origem": "Centro", "eixo": "Autonomistas", "destino": "Bela Vista", "motivo": "Pauta municipal"},
+    {"origem": "Osasco", "eixo": "Castelo SP-280 / Anhanguera SP-330", "destino": "GRU ou CGH", "motivo": "Aeroportos fora do município"}
   ],
-  "eixos": ["Centro / Autonomistas", "Bela Vista", "Castelo Branco / Anhanguera (saída rumo a GRU/CGH)"],
+  "eixos": ["Centro / Autonomistas", "Bela Vista", "Castelo / Anhanguera rumo a GRU e CGH"],
   "aeroportos": [
-    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos – Governador André Franco Montoro", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Destino fora de Osasco; trecho Castelo–Dutra", "fonte": "ANAC GRU em Guarulhos", "data": "2026-08-29"},
-    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino fora de Osasco", "fonte": "Aena Brasil", "data": "2026-08-29"}
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Destino fora de Osasco", "fonte": "ANAC", "data": "2026-08-29"},
+    {"nome": "Aeroporto de São Paulo/Congonhas", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino fora de Osasco", "fonte": "Aena Brasil", "data": "2026-08-29"}
   ],
   "rodovias": [
-    {"nome": "Rodovia Castelo Branco (SP-280)", "fonte": "Eixo oeste metropolitano; concessão ViaOeste encerrou 2025-03-29 — novo operador [VERIFICAR]", "data": "2026-08-29"},
-    {"nome": "Via Anhanguera (SP-330)", "fonte": "Motiva AutoBAn — Sistema Anhanguera-Bandeirantes", "data": "2026-08-29"},
-    {"nome": "Avenida dos Autonomistas — eixo do Centro (Câmara em Autonomistas 2607)", "fonte": "osasco.sp.leg.br", "data": "2026-08-29"}
+    {"nome": "SP-280 Castelo Branco", "fonte": "ViaOeste encerrou 2025-03-29; operador vigente [VERIFICAR]", "data": "2026-08-29"},
+    {"nome": "SP-330 Anhanguera", "fonte": "Motiva AutoBAn", "data": "2026-08-29"},
+    {"nome": "Av. dos Autonomistas 2607 Câmara", "fonte": "osasco.sp.leg.br", "data": "2026-08-29"}
   ],
   "hoteis_ancora": [],
-  "polos": ["Centro / Autonomistas", "Bela Vista", "Presidente Altino / km 18"],
+  "polos": ["Centro Autonomistas", "Bela Vista", "Presidente Altino"],
   "vizinhos_pedido": ["GRU", "CGH"],
-  "prefeito": {"nome": "Gerson Pessoa", "fonte": "Conect Brasil TV / Pagina Zero posse 2025-01-01", "data": "2026-08-29", "publicado": false},
+  "prefeito": {"nome": "Gerson Pessoa", "fonte": "posse 2025-01-01", "data": "2026-08-29", "publicado": false},
   "fatos": [
-    {"fato": "Código IBGE 3534401", "fonte": "cidades.ibge.gov.br/brasil/sp/osasco", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
-    {"fato": "Município colado ao continuum oeste; não possui aeroporto comercial", "fonte": "IBGE hierarquia urbana; ausência de aeródromo comercial no município", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "GRU e Congonhas ficam fora de Osasco.", "publicado": true},
-    {"fato": "Câmara Municipal na Av. dos Autonomistas, 2607 — Centro", "fonte": "osasco.sp.leg.br", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "O Centro pede o prédio na Autonomistas, não só o bairro.", "publicado": true}
+    {"fato": "IBGE 3534401", "fonte": "cidades.ibge.gov.br Osasco", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
+    {"fato": "Sem aeroporto comercial no município", "fonte": "ANAC", "data": "2026-08-29", "tipo": "trecho", "risco": "alto", "frase": "GRU e Congonhas ficam fora de Osasco.", "publicado": true}
   ],
-  "descartado": [
-    "Faria Lima / Paulista como destino publicado",
-    "Alphaville/Barueri como destino publicado nesta página",
-    "Tempo Osasco–GRU em minutos",
-    "Nomear concessionária da Castelo após 2025-03-29 sem fonte do trecho Osasco"
-  ],
+  "descartado": ["Faria Lima na landing", "Barueri como destino publicado", "Tempo em minutos"],
   "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
-  "verificar": [
-    "Concessionária vigente do trecho SP-280 em Osasco após o fim da ViaOeste (2025-03-29)",
-    "Delimitação oficial do bairro Bela Vista no cadastro municipal",
-    "Km 18 como toponímia ainda em uso oficial"
-  ]
+  "verificar": ["Concessionária SP-280 em Osasco após ViaOeste", "Delimitação Bela Vista"]
 }

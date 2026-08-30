@@ -5,89 +5,64 @@ declare(strict_types=1);
 return [
     'layout' => 'rio',
     'cidade_nome' => 'Rio Branco',
-    'geo' => [
-        'lat' => -9.97499,
-        'lng' => -67.8243,
-    ],
+    'geo' => ['lat' => -9.97499, 'lng' => -67.8243],
     'imagem' => 'norte.jpg',
     'schema_service_name' => 'Transporte executivo com motorista em Rio Branco',
     'seo' => [
-        'title' => 'Motorista executivo em Rio Branco: Centro e RBR',
-        'description' => 'Motorista executivo em Rio Branco: Centro, Bosque e Plácido de Castro (RBR), no próprio município. Ida, espera ou dia à disposição. Orçamento sob consulta.',
-        'og_title' => 'Agenda em Rio Branco com motorista — Bosque e Plácido de Castro',
-        'og_description' => 'O motorista combina Centro com Plácido de Castro (RBR), no próprio município. Informe nome do hotel ou da sede.',
-        'og_image_alt' => 'Carro executivo em via de Rio Branco',
+        'title' => 'Plácido de Castro, Via Verde e o Centro em Rio Branco',
+        'description' => 'O Plácido de Castro fica na zona rural de Rio Branco, na BR-364, longe do Centro. Motorista para Via Verde, Bosque e palácio, com espera no RBR. Orçamento sob consulta.',
+        'og_title' => 'Carro na BR-364 até o RBR, a Via Verde e o Bosque',
+        'og_description' => 'Traslado acreano: terminal Plácido de Castro, nova centralidade da Via Verde e o Palácio Rio Branco no Centro.',
+        'og_image_alt' => 'Sedan executivo em via urbana de Rio Branco ao entardecer',
     ],
     'kicker' => 'Capital acreana · AC',
-    'h1' => 'Rio Branco: entre Centro, Bosque e o terminal certo',
-    'faq_h2' => 'Dúvidas de quem embarca em Rio Branco',
-    'faq' => [
-        [
-            'pergunta' => 'Em Rio Branco, o RBR fica no próprio município?',
-            'resposta' => 'Sim. Em Rio Branco, Plácido de Castro (RBR) fica no município. Informe o acesso via BR-364.',
-        ],
-        [
-            'pergunta' => 'Em Rio Branco, vocês buscam em Centro?',
-            'resposta' => 'Sim, em Rio Branco. Envie nome do hotel ou da sede em Centro. Só o bairro não define a entrada.',
-        ],
-        [
-            'pergunta' => 'De Rio Branco vocês fazem Cruzeiro do Sul?',
-            'resposta' => 'Sim, saindo de Rio Branco. Cruzeiro do Sul não é o recorte de Centro; o horário pela Via Verde sai sob consulta.',
-        ],
-        [
-            'pergunta' => 'Em Rio Branco o carro fica entre Centro e Bosque?',
-            'resposta' => 'Sim, em Rio Branco. A hora à disposição cobre sede e hotel em Centro e bairro residencial em Bosque.',
-        ],
-    ],
-    'cta' => [
-        'titulo' => 'Informe o embarque em Rio Branco e o RBR',
-        'texto' => 'Diga o ponto em Centro ou Bosque, o destino e o horário. A operação organiza o recuo e o terminal.',
-        'botao' => 'Pedir motorista em Rio Branco',
-    ],
-    'relacionados' => [
-        [
-            'tipo' => 'estado',
-            'slug' => 'acre',
-            'ancora' => 'Rio Branco e o recorte de Capital acreana',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'amazonas',
-            'cidade' => 'manaus',
-            'ancora' => 'Motorista em manaus',
-        ],
-        [
-            'tipo' => 'cidade',
-            'estado' => 'rondonia',
-            'cidade' => 'porto-velho',
-            'ancora' => 'Motorista em porto velho',
-        ],
-    ],
+    'h1' => 'Do Plácido de Castro à Via Verde sem perder o palácio no Centro',
     'corrente' => [
         [
-            'h2' => 'Rio Branco e o primeiro recuo',
-            'texto' => 'Rio Branco concentra Centro (sede e hotel) e Plácido de Castro (RBR) no mesmo município. O motorista precisa do ponto de embarque e do RBR no mesmo recado — “me busca em Rio Branco” não define o recuo.',
+            'h2' => 'O RBR não é o Centro: o terminal está na BR-364',
+            'texto' => 'Quem chega à capital pousa no Aeroporto Internacional de Rio Branco — Plácido de Castro (RBR). O endereço operacional é a Avenida Plácido de Castro, Vila Aeroporto, no município de Rio Branco — zona rural, às margens da BR-364, longe do calçadão. Centro, Bosque e Via Verde não compartilham o mesmo relógio do terminal. O motorista sai com a ordem da rodovia, não com o aceite do minuto.',
         ],
         [
-            'h2' => 'Eixos que o pedido cita',
+            'h2' => 'Três eixos da capital que a agenda acreana cita',
             'itens' => [
-                [
-                    'h3' => 'Centro',
-                    'texto' => 'Origem frequente para sede e hotel. Informe nome do hotel ou da sede. Centro não compartilha o recuo de Bosque.',
-                ],
-                [
-                    'h3' => 'Bosque',
-                    'texto' => 'Origem frequente para bairro residencial. Informe nome do hotel ou da sede. Bosque não compartilha o recuo de Centro.',
-                ],
-                [
-                    'h3' => 'Aviário',
-                    'texto' => 'Origem frequente para comércio. Informe nome do hotel ou da sede. Aviário não compartilha o recuo de Centro.',
-                ],
+                ['h3' => 'Via Verde, alça da BR-364', 'texto' => 'Nova centralidade de serviços, shopping e torres. Informe o estabelecimento; “na Via Verde” não escolhe a entrada no anel da 364.'],
+                ['h3' => 'Centro e o Palácio Rio Branco', 'texto' => 'Sede do governo na Av. Getúlio Vargas. O Centro mistura palácio, comércio e hotel em quadras curtas; diga o prédio.'],
+                ['h3' => 'Bosque', 'texto' => 'Órgãos, clínicas e pernoite. O recuo pede rua e nome; “perto do Bosque” não define a portaria.'],
+                ['h3' => 'Gameleira e o Mercado Velho', 'texto' => 'Encontro à beira do Acre. Combinamos o ponto de espera; o calçamento não admite recuo improvisado.'],
             ],
         ],
         [
-            'h2' => 'Plácido de Castro (RBR)',
-            'texto' => 'Plácido de Castro (RBR) fica em Rio Branco. Acesso: BR-364. Combinamos o voo; a espera no desembarque integra o trecho.',
+            'h2' => 'Hotel entra como endereço, não como parceria',
+            'texto' => 'Pernoite no Bosque, no Centro ou na Via Verde. Informe o nome do hotel e o ponto de embarque na portaria. Não há lista fechada: o endereço vale como qualquer outro recuo em Rio Branco.',
         ],
+        [
+            'h2' => 'Rotas de BR-364, palácio e seringal que não se misturam',
+            'itens' => [
+                ['h3' => 'RBR → Via Verde → Centro', 'texto' => 'Pouso na 364, reunião na alça urbana e gabinete no Palácio Rio Branco. A margem sai do terminal, não da fila do táxi.'],
+                ['h3' => 'Bosque → palácio → retorno ao RBR', 'texto' => 'Campus de pauta e voo de volta. Informe o bloco e o horário de apresentação no desembarque.'],
+                ['h3' => 'Centro → Xapuri no mesmo recado', 'texto' => 'Quando a pauta sai rumo ao seringal, o trecho entra como viagem pela malha acreana, não como corrida da Gameleira. Orçamento à parte.'],
+            ],
+        ],
+        [
+            'h2' => 'Plácido de Castro — RBR',
+            'texto' => 'A Vinci opera o terminal no município de Rio Branco, com acesso pela BR-364. Combinamos o voo. A espera no desembarque entra no trecho RBR. O DNIT interveio no acesso ao aeroporto: saia com margem de rodovia, não com o relógio do Centro.',
+        ],
+    ],
+    'faq_h2' => 'Perguntas de quem pousa no Plácido de Castro',
+    'faq' => [
+        ['pergunta' => 'O RBR fica no Centro ou na Via Verde?', 'resposta' => 'Em nenhum dos dois. O terminal está na zona rural de Rio Branco, na BR-364. Via Verde é a alça urbana da mesma rodovia; o Centro fica longe do saguão.'],
+        ['pergunta' => 'A BR-364 até o Plácido de Castro entra no trecho da Gameleira?', 'resposta' => 'Não. Gameleira e palácio são o miolo. O RBR pede margem de rodovia; o DNIT já operou no acesso ao terminal.'],
+        ['pergunta' => 'Bosque e Palácio Rio Branco usam o mesmo ponto de espera?', 'resposta' => 'Não. O palácio fica no Centro, na Getúlio Vargas. O Bosque pede rua e portaria próprias.'],
+        ['pergunta' => 'Xapuri ou Brasiléia saem como hora urbana a partir do Bosque?', 'resposta' => 'Não. São viagem. Informe o destino; o horário sai sob consulta, sem minuto fixo de estrada.'],
+    ],
+    'cta' => [
+        'titulo' => 'Junte o RBR à Via Verde ou ao Bosque no mesmo recado',
+        'texto' => 'O orçamento de Rio Branco sai sob consulta. BR-364, palácio e número do voo no mesmo WhatsApp.',
+        'botao' => 'Pedir motorista em Rio Branco',
+    ],
+    'relacionados' => [
+        ['tipo' => 'estado', 'slug' => 'acre', 'ancora' => 'O recorte acreano além da capital'],
+        ['tipo' => 'cidade', 'estado' => 'amazonas', 'cidade' => 'manaus', 'ancora' => 'Adrianópolis, Zona Franca e o MAO'],
+        ['tipo' => 'cidade', 'estado' => 'rondonia', 'cidade' => 'porto-velho', 'ancora' => 'Caiari, Madeira e o Jorge Teixeira'],
     ],
 ];

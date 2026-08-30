@@ -5,38 +5,28 @@
   "pesquisado_em": "2026-08-29",
   "ibge": "3505708",
   "mapa_operacional": [
-    {"origem": "Cancela no Alphaville empresarial (Rio Negro / Araguaia)", "eixo": "alamedas em Barueri", "destino": "Torre, hotel ou Tamboré", "motivo": "Pauta corporativa no recorte do município"},
-    {"origem": "Tamboré (Av. Piracema / Copiúva)", "eixo": "Castelo / Marcos Penteado", "destino": "Alphaville empresarial ou Centro de Barueri", "motivo": "Hotel, shopping, reunião"},
-    {"origem": "Alphaville ou Tamboré", "eixo": "Castelo Branco (SP-280) + Dutra", "destino": "GRU (Guarulhos)", "motivo": "Aeroporto fora do município"}
+    {"origem": "Alphaville empresarial Rio Negro", "eixo": "alamedas em Barueri", "destino": "Torre ou Tamboré", "motivo": "Pauta corporativa"},
+    {"origem": "Tamboré Piracema", "eixo": "Castelo", "destino": "Alphaville ou Centro", "motivo": "Hotel e reunião"},
+    {"origem": "Alphaville ou Tamboré", "eixo": "Castelo + Dutra", "destino": "GRU", "motivo": "Aeroporto fora do município"}
   ],
-  "eixos": ["Alphaville empresarial (Barueri)", "Tamboré", "Castelo Branco (saída rumo a GRU)"],
+  "eixos": ["Alphaville empresarial Barueri", "Tamboré", "Castelo rumo a GRU"],
   "aeroportos": [
-    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos – Governador André Franco Montoro", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Destino fora de Barueri", "fonte": "ANAC GRU em Guarulhos", "data": "2026-08-29"},
-    {"nome": "Aeroporto de São Paulo/Congonhas – Deputado Freitas Nobre", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino fora de Barueri (segundo saguão da malha eixo)", "fonte": "Aena Brasil", "data": "2026-08-29"}
+    {"nome": "Aeroporto Internacional de São Paulo/Guarulhos", "iata": "GRU", "municipio": "Guarulhos", "relacao": "Destino fora de Barueri", "fonte": "ANAC", "data": "2026-08-29"},
+    {"nome": "Aeroporto de São Paulo/Congonhas", "iata": "CGH", "municipio": "São Paulo", "relacao": "Destino fora de Barueri", "fonte": "Aena Brasil", "data": "2026-08-29"}
   ],
   "rodovias": [
-    {"nome": "Rodovia Castelo Branco (SP-280)", "fonte": "Eixo de acesso a Alphaville/Tamboré; concessionária do trecho [VERIFICAR] após ViaOeste", "data": "2026-08-29"}
+    {"nome": "SP-280 Castelo Branco", "fonte": "eixo Alphaville/Tamboré; concessionária [VERIFICAR]", "data": "2026-08-29"}
   ],
   "hoteis_ancora": [],
-  "polos": ["Alphaville Centro Comercial, Industrial e Empresarial (Barueri)", "Tamboré (Av. Piracema, Barueri)", "Centro de Barueri"],
-  "vizinhos_pedido": ["Santana de Parnaíba (residenciais Alphaville)", "GRU"],
-  "prefeito": {"nome": "Beto Piteri", "fonte": "barueri.sp.leg.br Câmara empossa prefeito 2025-01-01", "data": "2026-08-29", "publicado": false},
+  "polos": ["Alphaville comercial industrial Barueri", "Tamboré", "Centro de Barueri"],
+  "vizinhos_pedido": ["GRU"],
+  "prefeito": {"nome": "Beto Piteri", "fonte": "barueri.sp.leg.br posse 2025-01-01", "data": "2026-08-29", "publicado": false},
   "fatos": [
-    {"fato": "Código IBGE 3505708", "fonte": "cidades.ibge.gov.br/brasil/sp/barueri", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
-    {"fato": "Alphaville entre Barueri e Santana de Parnaíba; o centro comercial/industrial original está em Barueri", "fonte": "Wikipedia Alphaville (Barueri e Santana de Parnaíba); Diário de Alphaville", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "O recorte comercial das alamedas (Rio Negro, Araguaia) está em Barueri. Cancela de residencial numerado exige o município da portaria.", "publicado": true},
-    {"fato": "Shopping Tamboré na Av. Piracema, 669 — Tamboré, Barueri", "fonte": "Cadastros e guias; shoppingtambore.com.br cruzado", "data": "2026-08-29", "tipo": "embarque", "risco": "medio", "frase": "Tamboré em Barueri pede a portaria, não só o nome do bairro.", "publicado": true},
-    {"fato": "GRU não está em Barueri", "fonte": "ANAC", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O GRU fica em Guarulhos. A Castelo e a Dutra pedem margem.", "publicado": true}
+    {"fato": "IBGE 3505708", "fonte": "cidades.ibge.gov.br Barueri", "data": "2026-08-29", "tipo": "polo", "risco": "baixo", "frase": "", "publicado": false},
+    {"fato": "Alphaville comercial em Barueri; residenciais também em Santana de Parnaíba", "fonte": "Wikipedia Alphaville; Diário de Alphaville", "data": "2026-08-29", "tipo": "embarque", "risco": "alto", "frase": "O recorte comercial das alamedas está em Barueri.", "publicado": true},
+    {"fato": "GRU fora de Barueri", "fonte": "ANAC", "data": "2026-08-29", "tipo": "terminal", "risco": "alto", "frase": "O GRU fica em Guarulhos.", "publicado": true}
   ],
-  "descartado": [
-    "Tratar todo o Alphaville residencial como Barueri",
-    "Marcas de hotel sem confirmação nesta rodada",
-    "Faria Lima como destino publicado",
-    "Tempo Alphaville–GRU em minutos"
-  ],
+  "descartado": ["Tratar todo residencial Alphaville como Barueri", "Hotel nomeado", "Faria Lima", "Tempo em minutos"],
   "revisoes": {"factual": "ok", "localidade": "ok", "conversao": "ok", "seo": "ok"},
-  "verificar": [
-    "Lista oficial de quais Residenciais Alphaville estão em Barueri vs Santana de Parnaíba",
-    "Endereço oficial Iguatemi Alphaville no site iguatemi.com.br",
-    "Concessionária vigente do trecho SP-280 em Barueri após 2025-03-29"
-  ]
+  "verificar": ["Lista de residenciais por município", "Endereço oficial Iguatemi Alphaville", "Concessionária SP-280"]
 }
