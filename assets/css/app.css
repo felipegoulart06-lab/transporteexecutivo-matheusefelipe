@@ -458,7 +458,7 @@ button { font-family: inherit; cursor: pointer; border: 0; }
     border: 0;
 }
 
-.page-gate { overflow: clip; background: var(--bg); }
+.page-gate { overflow-x: clip; overflow-y: visible; background: var(--bg); }
 
 .gate-intro {
     position: fixed;
@@ -869,13 +869,13 @@ button { font-family: inherit; cursor: pointer; border: 0; }
 }
 
 .gate-hint {
-    position: absolute;
+    position: fixed;
     top: 50%;
-    z-index: 3;
+    z-index: 12;
     width: min(276px, calc((100vw - 560px) / 2 - 48px));
     padding: 22px 22px 20px;
     text-align: left;
-    background: rgba(10, 10, 10, .9);
+    background: rgba(10, 10, 10, .96);
     border: 1px solid var(--line);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -883,6 +883,7 @@ button { font-family: inherit; cursor: pointer; border: 0; }
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    overflow: visible;
     transform: translateY(-50%);
     transition: opacity .28s ease, transform .28s ease, visibility .28s;
 }
@@ -905,10 +906,11 @@ button { font-family: inherit; cursor: pointer; border: 0; }
     left: 50%;
     right: auto;
     top: auto;
-    bottom: max(24px, env(safe-area-inset-bottom, 0px));
-    width: min(360px, calc(100vw - 48px));
+    bottom: max(28px, env(safe-area-inset-bottom, 0px));
+    width: min(400px, calc(100vw - 48px));
+    max-height: none;
     border-top: 2px solid var(--gold);
-    transform: translateX(-50%) translateY(12px);
+    transform: translateX(-50%);
 }
 
 .gate-hint__kicker {
