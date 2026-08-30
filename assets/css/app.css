@@ -913,14 +913,14 @@ body > .gate-list-wrap {
 }
 
 .gate-hint--virtual {
-    left: 50%;
-    right: auto;
-    top: auto;
-    bottom: max(28px, env(safe-area-inset-bottom, 0px));
-    width: min(400px, calc(100vw - 48px));
-    max-height: none;
-    border-top: 2px solid var(--gold);
-    transform: translateX(-50%);
+    left: auto;
+    right: calc(50% + min(280px, 50%) + 28px);
+    top: 50%;
+    bottom: auto;
+    width: min(276px, calc((100vw - 560px) / 2 - 48px));
+    border-top: 0;
+    border-left: 2px solid var(--gold);
+    transform: translateY(-50%) translateX(-12px);
 }
 
 .gate-hint__kicker {
@@ -983,7 +983,7 @@ body > .gate-list-wrap {
     .gate:not(:has(.gate-frame.is-local)):has(.gate-choice[data-tipo="virtual"]:is(:hover, :focus-visible)) .gate-hint--virtual {
         opacity: 1;
         visibility: visible;
-        transform: translateX(-50%) translateY(0);
+        transform: translateY(-50%) translateX(0);
     }
 }
 
